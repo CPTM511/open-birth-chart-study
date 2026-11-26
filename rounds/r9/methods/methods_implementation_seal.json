@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-11-26T17:08:35.781982+00:00",
+  "stage": "methods implementation and synthetic calibration before methods-agent inspection of any R9 target scores",
+  "public_protocol_commit": "bf15973ab70ff3cb24edfadd578ba67b5e53014d",
+  "R8_files_modified": false,
+  "new_R9_targets_inspected_by_methods_agent": false,
+  "files": {
+    "PROTOCOL_SUPPLEMENT.md": "5a012ac6a059e3702ce5ed07f1300b6238916cd2d2ffeebbc77d624370795d67",
+    "fixed_reference.py": "f5e92dd35702bb198550c2fd8d47aaf7c8b51a08aa4bfdc779af46e7f8c02321",
+    "verify_math.py": "a16505772a6773475cbd0876fd2095784362d584efed7bf4a3ae72f77b03d8b8",
+    "math_verification.json": "7bdda057d9853d13c96a2efe8a0b4584c2e96175716e83c1a7918c1c8e45d01f",
+    "calibrate_synthetic.py": "246f983deaadc8ed54d67157b5ec4c54e95eaa49e51271e9eee410cf1f0f76d6",
+    "synthetic_calibration.json": "04b0a5138ebe1c30e0c627fccb04a2f7e5c75e91245dbc38377852099e39e3ec",
+    "analyze_new_cohorts.py": "4a05ae4ddb9e16c63d5fbd92be8513d5facbe0cbe35b1713f8cb7bb724f7634c",
+    "reference_validation.json": "c0b08fd902f2ee82a3ec1dac61bfb6e2226608006f428c61462b57dd5de30c7c",
+    "CALIBRATION_REPORT.md": "154ae729da92b35e56a42d285f0ff61cdb226b60b0a99fed852c984e89e8864a",
+    "USAGE.md": "a1fc1fe16adfd5ad0fb2fc5310be279c3c735d259dcf3d09fbf869c941d40770",
+    "RULE_CONFORMANCE_CHECKLIST.md": "479794661d8098e9ad9540f0cf0ddee418041e6052caf64dcf905ac4b018bd81"
+  }
+}

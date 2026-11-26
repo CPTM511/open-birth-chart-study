@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks": [
+    "weighted mid-CDF matches Fraction direct enumeration at ties, gaps and exterior queries",
+    "weighted reference mid-CDF mean equals one half",
+    "four-system self-reference identity including unequal weights",
+    "constant profiles are tied at 0.5 and never elevated",
+    "all 27 ordered whole-record bootstraps match compressed multinomial arithmetic and exact finite-population variance",
+    "census variance is zero; non-census singleton variance is unavailable",
+    "within-record ranks miss a monotone level shift while fixed-reference levels detect it",
+    "record-year pseudo-independence understates variance by exactly 40 for repeated Bernoulli record outcomes"
+  ],
+  "count": 8,
+  "independent_arithmetic": "Fractions and complete ordered-bootstrap enumeration; no real R9 scores inspected"
+}

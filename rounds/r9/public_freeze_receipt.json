@@ -1,0 +1,19 @@
+{
+  "public_protocol_commit": "bf15973ab70ff3cb24edfadd578ba67b5e53014d",
+  "verified_utc": "2026-11-26T17:02:01.248597+00:00",
+  "new_chart_scores_seen": false,
+  "files": [
+    {
+      "path": "rounds/r9/protocol.json",
+      "sha256": "b2b0a1801d49eba74215b02b7f5cf87775c279e2f6f8db7c9947a0e530528617"
+    },
+    {
+      "path": "rounds/r9/methods/PROTOCOL_SUPPLEMENT.md",
+      "sha256": "5a012ac6a059e3702ce5ed07f1300b6238916cd2d2ffeebbc77d624370795d67"
+    },
+    {
+      "path": "rounds/r9/README.md",
+      "sha256": "51b54dd3ab3c804425515c6c3bfc7a622a33f9f29eda3c7cd37f6c405ca034bd"
+    }
+  ]
+}

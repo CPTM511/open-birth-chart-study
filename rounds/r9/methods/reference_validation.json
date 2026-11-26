@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "new_R9_targets_read": 0,
+  "reference_n": 2000,
+  "input_hash_matches_frozen_R8": true,
+  "identity_delta_J": 0.0,
+  "identity_delta_L": -5.9396931817445875e-15,
+  "fixed_reference_joint_rate": 0.03214942848730289,
+  "R8_relative_joint_rate": 0.022867257282944593,
+  "profile_sha256": "5bdc0d2e5c53cb15928a4a0781e5c7785085d3d039cfbf7dcc9b44f2a3f1c401"
+}
