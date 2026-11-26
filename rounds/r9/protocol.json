@@ -1,0 +1,138 @@
+{
+  "id": "OBS-R9-2026-11-27-v1",
+  "created_utc": "2026-11-26T17:00:36.458138+00:00",
+  "user_date": "2026-11-27 Asia/Shanghai",
+  "status": "pre-scoring protocol; public commit required before new chart calculations",
+  "r8_parent_commit": "210bb7bdab85a9f3672f19241e9ef66eb22021a2",
+  "questions": [
+    "Do new source birth-year cohorts differ from a fixed 2006 reference in defined structural quantities?",
+    "Can the analysis recover prespecified injected synthetic effects while controlling error under declared simulation mechanisms?"
+  ],
+  "not_estimated": [
+    "mortality",
+    "individual adverse-event risk",
+    "global human prevalence",
+    "AI replacement or extinction probability",
+    "causal effects of AI"
+  ],
+  "data_seen_before_freeze": "R8 results were already public. New-source catalogue/schema and birth-field quality audits may be inspected; no new cohort chart scores or external outcomes have been inspected.",
+  "engines": {
+    "policy": "Reuse frozen R8 scoring engines unchanged for comparability; traditional interpretation gaps retained and audited, not silently fixed",
+    "hashes": {
+      "src/open_birth_chart/astronomy.py": "9331f1a20b6571207f28632bf89d72969c6992072c99fb3ff1235439502fb550",
+      "src/open_birth_chart/bazi_engine.py": "41d2b5f3cd0738d94366e5436a495d05d9f84b5d0c3d0a68efbf14383311d5df",
+      "src/open_birth_chart/ziwei_engine.py": "84f0b0580fb1eb687bf36cc66bc8e46eb96f67f7436a0ef6cae64e144c572d47",
+      "src/open_birth_chart/qizheng_engine.py": "d50d0c7de06ca16cb0cf19557fd51b65f240363c68e7ce6bb9daa8f483c6123d",
+      "src/open_birth_chart/western_engine.py": "651c791cdaa20215c04214edda13c105dd9d111335585cca6d07d235f9dbe8a1",
+      "src/open_birth_chart/io.py": "4c9159410a08836779a818897f4f49397fcffad9d3e436aa645facad8bdaf0de"
+    }
+  },
+  "reference": {
+    "source": "SINASC-2006",
+    "records": 2000,
+    "sample_path": "R8 frozen Brazil2006",
+    "profile_sha256": "5bdc0d2e5c53cb15928a4a0781e5c7785085d3d039cfbf7dcc9b44f2a3f1c401",
+    "reference_weights": "R8 eligible source-frame weights",
+    "target_in_reference": false,
+    "reference_uncertainty": "Fixed empirical reference conditional estimand; ordinary target resampling excludes reference-estimation uncertainty"
+  },
+  "source_slots": [
+    {
+      "id": "early_brazil",
+      "first_year": 1996,
+      "field_only_fallback": 2001,
+      "max_full_fallback_archives": 1,
+      "status_at_freeze": "both lack HORANASC; unavailable; no further substitution"
+    },
+    {
+      "id": "brazil2016",
+      "birth_year": 2016,
+      "registration_year_is_not_birth_year": true
+    },
+    {
+      "id": "mexico2015",
+      "birth_year": 2015,
+      "domestic_births_only": true,
+      "registration_year_is_not_birth_year": true,
+      "registration_archive_year": 2015,
+      "coverage_limitation": "2015 births registered during2015 only; delayed registrations outside archive absent; not all2015 Mexican births; source-frame weights do not repair this selection"
+    }
+  ],
+  "sampling": {
+    "target_n_per_available_frame": 2000,
+    "n_fixed_before_scoring": true,
+    "if_frame_smaller": "census; do not top up from another birth year",
+    "strata": "state of birth x explicit M/F source sex, within fixed source/birth year",
+    "quota_algorithm": "1 per nonempty stratum, then floor((n-H)*(N_h-1)/(N-H)), remaining by descending exact fractional remainder and ascending stratum string ties",
+    "ranking": "ascending SHA256(OBS-R9-2026-11-27|source_id); physical source ordinal identifies records; no result-based selection",
+    "unknown_clock": "exclude, never impute",
+    "geo": "explicit official locality or municipal-seat reference coordinates; record approximation; unresolved historical time zones excluded",
+    "weights": "N_h/n_h within final eligible source frame only"
+  },
+  "age_window": {
+    "completed_ages": [
+      20,
+      59
+    ],
+    "definition": "same R8 July1 completed civil-age indexing; 40 points; calendar plot2026–2070 includes eligible years only"
+  },
+  "fixed_reference_transform": {
+    "bands": [
+      [
+        20,
+        29
+      ],
+      [
+        30,
+        39
+      ],
+      [
+        40,
+        49
+      ],
+      [
+        50,
+        59
+      ]
+    ],
+    "formula": "For each system/band, F_R(x) = sum_i w_i sum_a [1(score_ia<x)+0.5*1(score_ia=x)]/(10*sum_i w_i); apply without refitting target",
+    "threshold": 0.8,
+    "ties": "weighted mid-CDF; threshold does not guarantee20% positive years",
+    "range": [
+      0,
+      1
+    ]
+  },
+  "primary_endpoint": {
+    "J": "source-weighted proportion of record-years with at least3 of4 fixed-reference transformed scores>=0.8",
+    "contrast": "DeltaJ=J_target-J_reference",
+    "report_units": "percentage points",
+    "planned_contrast_slots": 3,
+    "unavailable_slot": "reported unavailable; not zero",
+    "minimum_resolution_target_percentage_points": 1.0,
+    "interpretation": "structural threshold frequency, not risk"
+  },
+  "secondary_endpoints": [
+    "four raw-score means and differences from fixed reference",
+    "DeltaL=weighted mean across40ages and4fixed-reference percentiles minus0.5",
+    "R8 within-person relative alignment output, separately labelled continuity analysis",
+    "calendar curves descriptive only; no unregistered peak significance tests"
+  ],
+  "inference": {
+    "real_source_contrasts": "no cross-cohort exchangeability or AI-null p-value claimed",
+    "conditional_sampling_interval": "whole-record resampling within source strata; fixed reference; state limitations and sparse strata; never resample40annual points as independent subjects",
+    "simulations": "explicit synthetic DGP only; report false positive rates, control-effect recovery and Monte Carlo uncertainty",
+    "equivalence": "not inferred from nonsignificance; no claim of excluding all structural differences",
+    "AI_causality": "no bridge from these quantities to AI civilizational effects"
+  },
+  "gates": [
+    "public protocol commit before new chart scoring",
+    "input/schema/hash checks and deterministic positive/negative controls before real scoring",
+    "calibration power limitations reported; no sample-size increases selected after observing real effects",
+    "selected birth inputs and scoring code hashes sealed before execution",
+    "all planned cohorts/exclusions/failed cases disclosed"
+  ],
+  "iteration_policy": "All deviations, fixes and new rules recorded additively; preserve R8 and this original protocol; published freeze is not independent external peer review",
+  "death_outcome_validation": "paused per user",
+  "ai_track": "Separate observed-evidence ledger; no astrology/AI composite score or probabilities"
+}
