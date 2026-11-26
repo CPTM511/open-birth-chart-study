@@ -1,0 +1,9 @@
+{
+  "verified_utc": "2026-11-26T17:13:00.503Z",
+  "public_methods_commit": "9776383e1755129ea727f78532afa0802e296019",
+  "public_protocol_commit": "bf15973ab70ff3cb24edfadd578ba67b5e53014d",
+  "seal_sha256": "19b958168cf4f1be41bb608fc9b81497f69f15685ef431feb0881a3656b4b08a",
+  "remote_seal_bytes_verified": true,
+  "new_target_distributions_inspected_before_publication": false,
+  "scope": "Project code freeze and internal review; not an external registry or peer review"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "new_real_target_profiles_read": 0,
+  "checks": [
+    "sorted raw CDF agrees on exact 0.8 tie with rational correction",
+    "exact weighted primary at 0.4 and noncensus-singleton unavailability",
+    "Fraction finite-population variance equals 7/192 in explicit three-record case",
+    "direct rank counts and five-state phase enumeration match analytical example"
+  ],
+  "selected_direct_CDF_checks": 80,
+  "threshold_rational_queries": 16
+}
