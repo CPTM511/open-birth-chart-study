@@ -1,0 +1,272 @@
+{
+  "completed_utc": "2026-11-26T17:03:49.389172+00:00",
+  "scope": "independent arithmetic replay of existing R8 profile phase tests; not outcome validation or full engine/source rerun",
+  "frozen_profile_sha256": "5bdc0d2e5c53cb15928a4a0781e5c7785085d3d039cfbf7dcc9b44f2a3f1c401",
+  "draws_per_source": 1999,
+  "seed": 2026112608,
+  "r8_analysis_imported": false,
+  "checks": [
+    {
+      "source": "ogdb2023",
+      "window": "age20_59",
+      "quantity": "weighted_concordance",
+      "max_abs_error": 3.469446951953614e-18,
+      "pass": true
+    },
+    {
+      "source": "ogdb2023",
+      "window": "age20_59",
+      "quantity": "exact_independent_phase_mean",
+      "max_abs_error": 6.938893903907228e-18,
+      "pass": true
+    },
+    {
+      "source": "ogdb2023",
+      "window": "age20_59",
+      "quantity": "p_raw_two_sided",
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "source": "ogdb2023",
+      "window": "age20_59",
+      "quantity": "phase_reference_interval95",
+      "max_abs_error": 1.0408340855860843e-17,
+      "pass": true
+    },
+    {
+      "source": "ogdb2023",
+      "window": "age20_49",
+      "quantity": "weighted_concordance",
+      "max_abs_error": 3.469446951953614e-18,
+      "pass": true
+    },
+    {
+      "source": "ogdb2023",
+      "window": "age20_49",
+      "quantity": "exact_independent_phase_mean",
+      "max_abs_error": 3.469446951953614e-18,
+      "pass": true
+    },
+    {
+      "source": "ogdb2023",
+      "window": "age20_49",
+      "quantity": "p_raw_two_sided",
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "source": "ogdb2023",
+      "window": "age20_49",
+      "quantity": "phase_reference_interval95",
+      "max_abs_error": 3.469446951953614e-18,
+      "pass": true
+    },
+    {
+      "source": "brazil2006",
+      "window": "age20_59",
+      "quantity": "weighted_concordance",
+      "max_abs_error": 3.469446951953614e-18,
+      "pass": true
+    },
+    {
+      "source": "brazil2006",
+      "window": "age20_59",
+      "quantity": "exact_independent_phase_mean",
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "source": "brazil2006",
+      "window": "age20_59",
+      "quantity": "p_raw_two_sided",
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "source": "brazil2006",
+      "window": "age20_59",
+      "quantity": "phase_reference_interval95",
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "source": "brazil2006",
+      "window": "age20_49",
+      "quantity": "weighted_concordance",
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "source": "brazil2006",
+      "window": "age20_49",
+      "quantity": "exact_independent_phase_mean",
+      "max_abs_error": 3.469446951953614e-18,
+      "pass": true
+    },
+    {
+      "source": "brazil2006",
+      "window": "age20_49",
+      "quantity": "p_raw_two_sided",
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "source": "brazil2006",
+      "window": "age20_49",
+      "quantity": "phase_reference_interval95",
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "source": "adb_z2026",
+      "window": "age20_59",
+      "quantity": "weighted_concordance",
+      "max_abs_error": 3.469446951953614e-18,
+      "pass": true
+    },
+    {
+      "source": "adb_z2026",
+      "window": "age20_59",
+      "quantity": "exact_independent_phase_mean",
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "source": "adb_z2026",
+      "window": "age20_59",
+      "quantity": "p_raw_two_sided",
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "source": "adb_z2026",
+      "window": "age20_59",
+      "quantity": "phase_reference_interval95",
+      "max_abs_error": 3.469446951953614e-18,
+      "pass": true
+    },
+    {
+      "source": "adb_z2026",
+      "window": "age20_49",
+      "quantity": "weighted_concordance",
+      "max_abs_error": 3.469446951953614e-18,
+      "pass": true
+    },
+    {
+      "source": "adb_z2026",
+      "window": "age20_49",
+      "quantity": "exact_independent_phase_mean",
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "source": "adb_z2026",
+      "window": "age20_49",
+      "quantity": "p_raw_two_sided",
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "source": "adb_z2026",
+      "window": "age20_49",
+      "quantity": "phase_reference_interval95",
+      "max_abs_error": 3.469446951953614e-18,
+      "pass": true
+    },
+    {
+      "source": "adb_z2026",
+      "window": "age20_49",
+      "quantity": "holm",
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "source": "brazil2006",
+      "window": "age20_59",
+      "quantity": "holm",
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "source": "brazil2006",
+      "window": "age20_49",
+      "quantity": "holm",
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "source": "adb_z2026",
+      "window": "age20_59",
+      "quantity": "holm",
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "source": "ogdb2023",
+      "window": "age20_59",
+      "quantity": "holm",
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "source": "ogdb2023",
+      "window": "age20_49",
+      "quantity": "holm",
+      "max_abs_error": 0.0,
+      "pass": true
+    }
+  ],
+  "all_passed": true,
+  "max_abs_error": 1.0408340855860843e-17,
+  "tests": [
+    {
+      "source": "ogdb2023",
+      "window": "age20_59",
+      "extreme_draws": 944,
+      "raw_p": 0.4725,
+      "published_holm": 0.945,
+      "replayed_holm": 0.945
+    },
+    {
+      "source": "ogdb2023",
+      "window": "age20_49",
+      "extreme_draws": 1532,
+      "raw_p": 0.7665,
+      "published_holm": 0.945,
+      "replayed_holm": 0.945
+    },
+    {
+      "source": "brazil2006",
+      "window": "age20_59",
+      "extreme_draws": 271,
+      "raw_p": 0.136,
+      "published_holm": 0.68,
+      "replayed_holm": 0.68
+    },
+    {
+      "source": "brazil2006",
+      "window": "age20_49",
+      "extreme_draws": 317,
+      "raw_p": 0.159,
+      "published_holm": 0.68,
+      "replayed_holm": 0.68
+    },
+    {
+      "source": "adb_z2026",
+      "window": "age20_59",
+      "extreme_draws": 450,
+      "raw_p": 0.2255,
+      "published_holm": 0.68,
+      "replayed_holm": 0.68
+    },
+    {
+      "source": "adb_z2026",
+      "window": "age20_49",
+      "extreme_draws": 60,
+      "raw_p": 0.0305,
+      "published_holm": 0.183,
+      "replayed_holm": 0.183
+    }
+  ]
+}

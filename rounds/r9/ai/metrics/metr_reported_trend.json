@@ -1,0 +1,35 @@
+{
+  "status": "provider_reported_fit_not_independently_reestimated",
+  "publication_date": "2026-11-20",
+  "source_id": "metr_figure_10",
+  "trend": [
+    {
+      "series": "TH1.1 and TH2",
+      "from": "2024-05-13",
+      "to": "2026-09-03",
+      "horizon_minutes_from": 8.08965,
+      "horizon_minutes_to": 1643.2,
+      "doubling_months": 3.61275,
+      "doubling_months_low_95": 2.08267,
+      "doubling_months_high_95": 4.93514,
+      "r_squared": 0.985704
+    }
+  ],
+  "task_limits": [
+    {
+      "task_set": "TH1.1",
+      "longest_task_minutes": 1800.0
+    },
+    {
+      "task_set": "TH1.1 and TH2",
+      "longest_task_minutes": 12000.0
+    }
+  ],
+  "definition": "Human-expert task duration at a fitted 50 percent success level; not AI wall-clock autonomy duration.",
+  "caveats": [
+    "Software and AI-R&D task distribution, not all work.",
+    "Combined TH1.1 and TH2; human baselining and task designs differ.",
+    "Large confidence intervals for frontier model horizons are retained.",
+    "No extrapolation to human displacement, loss of control, or extinction."
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "filename": "iter2020_national.zip",
+    "url": "https://www.inegi.org.mx/contenidos/programas/ccpv/2020/datosabiertos/iter/iter_00_cpv2020_csv.zip",
+    "expected_sha256": "9342fdbd45bda5897f2b827a12904843b6f8fb85d4e72da299e09e4d2422ab60",
+    "max_bytes": 60000000
+  },
+  {
+    "filename": "iter2020_dictionary.pdf",
+    "url": "https://www.inegi.org.mx/contenidos/programas/ccpv/2020/doc/fd_iter_cpv2020.pdf",
+    "expected_sha256": "1b7ea20fb8f00b9ed248da725a43bda0c7bab6c96d4fe77d6ddf51b1876525eb",
+    "max_bytes": 3000000
+  },
+  {
+    "filename": "tzdata2026c.tar.gz",
+    "url": "https://data.iana.org/time-zones/releases/tzdata2026c.tar.gz",
+    "expected_sha256": "e4a178a4477f3d0ea77cc31828ff72aa38feff8d61aa13e7e99e142e9d902be4",
+    "max_bytes": 3000000
+  }
+]

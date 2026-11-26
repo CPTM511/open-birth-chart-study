@@ -1,0 +1,8 @@
+{
+  "url": "https://data.iana.org/time-zones/releases/tzdata2026c.tar.gz",
+  "retrieved_at_utc": "2026-11-26T17:04:05.914405+00:00",
+  "http_status": 200,
+  "bytes": 475694,
+  "sha256": "e4a178a4477f3d0ea77cc31828ff72aa38feff8d61aa13e7e99e142e9d902be4",
+  "version": "2026c"
+}

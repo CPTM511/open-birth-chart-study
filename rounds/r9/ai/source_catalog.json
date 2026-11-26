@@ -1,0 +1,104 @@
+[
+  {
+    "source_id": "metr_q4_2026",
+    "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+    "filename": "metr_q4_2026.html",
+    "max_bytes": 8000000
+  },
+  {
+    "source_id": "ilo_exposure_2025",
+    "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+    "filename": "ilo_exposure_2025.html",
+    "max_bytes": 8000000
+  },
+  {
+    "source_id": "ilostat_bulk",
+    "url": "https://ilostat.ilo.org/data/bulk/",
+    "filename": "ilostat_bulk.html",
+    "max_bytes": 8000000
+  },
+  {
+    "source_id": "ilostat_catalogue",
+    "url": "https://ilostat.ilo.org/data/",
+    "filename": "ilostat_catalogue.html",
+    "max_bytes": 8000000
+  },
+  {
+    "source_id": "international_safety_2026",
+    "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+    "filename": "international_safety_2026.html",
+    "max_bytes": 8000000
+  },
+  {
+    "source_id": "ilostat_indicator_directory",
+    "url": "https://rplumber.ilo.org/files/website/bulk/indicator.html",
+    "filename": "ilostat_indicator_directory.html",
+    "max_bytes": 8000000
+  },
+  {
+    "source_id": "ilostat_employment_annual",
+    "url": "https://rplumber.ilo.org/data/indicator?id=EMP_TEMP_SEX_OCU_NB_A&format=.csv.gz",
+    "filename": "ilostat_employment_annual.csv.gz",
+    "max_bytes": 25000000
+  },
+  {
+    "source_id": "metr_figure_10",
+    "url": "https://metr.org/assets/images/q4-2026-capability-update/cad6b5d98261f80c.json",
+    "filename": "metr_figure_10.json",
+    "max_bytes": 25000000
+  },
+  {
+    "source_id": "ilostat_dictionary_directory",
+    "url": "https://rplumber.ilo.org/files/website/bulk/dic.html",
+    "filename": "ilostat_dictionary_directory.html",
+    "max_bytes": 25000000
+  },
+  {
+    "source_id": "ilostat_dic_cl_source",
+    "url": "https://rplumber.ilo.org/metadata/dic?var=cl_source&lang=en&format=.csv",
+    "filename": "ilostat_dic_cl_source.csv",
+    "max_bytes": 5000000
+  },
+  {
+    "source_id": "ilostat_dic_classif1",
+    "url": "https://rplumber.ilo.org/metadata/dic?var=classif1&lang=en&format=.csv",
+    "filename": "ilostat_dic_classif1.csv",
+    "max_bytes": 5000000
+  },
+  {
+    "source_id": "ilostat_dic_obs_status",
+    "url": "https://rplumber.ilo.org/metadata/dic?var=obs_status&lang=en&format=.csv",
+    "filename": "ilostat_dic_obs_status.csv",
+    "max_bytes": 5000000
+  },
+  {
+    "source_id": "ilostat_dic_ref_area",
+    "url": "https://rplumber.ilo.org/metadata/dic?var=ref_area&lang=en&format=.csv",
+    "filename": "ilostat_dic_ref_area.csv",
+    "max_bytes": 5000000
+  },
+  {
+    "source_id": "ilostat_dic_source",
+    "url": "https://rplumber.ilo.org/metadata/dic?var=source&lang=en&format=.csv",
+    "filename": "ilostat_dic_source.csv",
+    "max_bytes": 5000000
+  },
+  {
+    "source_id": "ilostat_dic_indicator",
+    "url": "https://rplumber.ilo.org/metadata/dic?var=indicator&lang=en&format=.csv",
+    "filename": "ilostat_dic_indicator.csv",
+    "max_bytes": 5000000
+  },
+  {
+    "source_id": "oecd_incidents_methodology",
+    "url": "https://oecd.ai/en/incidents-methodology",
+    "filename": "oecd_incidents_methodology.html",
+    "max_bytes": 8000000
+  },
+  {
+    "source_id": "metr_legacy_dashboard",
+    "url": "https://metr.org/time-horizons/",
+    "filename": "metr_legacy_dashboard.html",
+    "max_bytes": 8000000
+  }
+]

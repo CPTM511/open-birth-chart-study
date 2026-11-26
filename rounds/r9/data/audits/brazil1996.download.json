@@ -1,0 +1,28 @@
+{
+  "catalogue_url": "https://dadosabertos.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc",
+  "catalogue_sha256": "f1dc24e429006d4e6cb3136030db6fd65467dfe1d8ea8fa94cd94c884a2d02d3",
+  "year": 1996,
+  "resource_id": "9e33e334-d554-4b62-b392-30e09cb320c5",
+  "download_url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SINASC/csv/SINASC_1996_csv.zip",
+  "retrieved_utc": "2026-11-26T16:57:17.499172+00:00",
+  "http_status": 200,
+  "bytes": 32281109,
+  "sha256": "5cfb729c71e25b4a17771524792dd3b570034617c2a6f31421eb68b6eab47930",
+  "headers": {
+    "Content-Type": "binary/octet-stream",
+    "Content-Length": "32281109",
+    "Last-Modified": "Fri, 08 May 2026 17:12:59 GMT",
+    "ETag": "\"6861a4ad82d01f0ac331a95461158cc7-4\""
+  },
+  "members": [
+    {
+      "name": "SINASC_1996.csv",
+      "bytes": 314040693,
+      "compressed_bytes": 32280929
+    }
+  ],
+  "csv_headers": {
+    "SINASC_1996.csv": "\"CONTADOR\";\"LOCNASC\";\"CODMUNNASC\";\"IDADEMAE\";\"ESTCIVMAE\";\"ESCMAE\";\"CODOCUPMAE\";\"QTDFILVIVO\";\"QTDFILMORT\";\"CODMUNRES\";\"GESTACAO\";\"GRAVIDEZ\";\"PARTO\";\"CONSULTAS\";\"DTNASC\";\"SEXO\";\"APGAR1\";\"APGAR5\";\"RACACOR\";\"PESO\";\"CODANOMAL\""
+  },
+  "outcome_fields_used": false
+}

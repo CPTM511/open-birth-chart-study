@@ -1,0 +1,221 @@
+{
+  "analysis": "synthetic finite-frame whole-record bootstrap calibration",
+  "real_R9_chart_results_inspected": false,
+  "math_checks": {
+    "status": "passed",
+    "checks": [
+      "weighted mid-CDF matches Fraction direct enumeration at ties, gaps and exterior queries",
+      "weighted reference mid-CDF mean equals one half",
+      "four-system self-reference identity including unequal weights",
+      "constant profiles are tied at 0.5 and never elevated",
+      "all 27 ordered whole-record bootstraps match compressed multinomial arithmetic and exact finite-population variance",
+      "census variance is zero; non-census singleton variance is unavailable",
+      "within-record ranks miss a monotone level shift while fixed-reference levels detect it",
+      "record-year pseudo-independence understates variance by exactly 40 for repeated Bernoulli record outcomes"
+    ],
+    "count": 8,
+    "independent_arithmetic": "Fractions and complete ordered-bootstrap enumeration; no real R9 scores inspected"
+  },
+  "design": {
+    "reference_n": 2000,
+    "target_frame_n": 20000,
+    "target_sample_n": 2000,
+    "strata": 2,
+    "repetitions": 200,
+    "bootstrap_draws": 1999,
+    "family_size": 3,
+    "synthetic_cohorts": [
+      2001,
+      2015,
+      2016
+    ],
+    "generator_seed": 2026112710,
+    "sampling_seed": 2026112720,
+    "positive_joint_effect": 0.01,
+    "positive_level_effect": 0.05
+  },
+  "scenarios": [
+    {
+      "name": "predominantly_individual",
+      "calendar_loading": 0.15,
+      "reference_joint_rate": 0.053700000000000005,
+      "finite_frame_controls": [
+        {
+          "synthetic_birth_year": 2001,
+          "baseline_joint_truth": 0.05442625,
+          "baseline_contrast_truth": 0.0007262499999999977,
+          "positive_joint_truth": 0.06442625,
+          "level_injection_delta": 0.050000000000000044,
+          "level_injection_lambda": 0.10035060762003388,
+          "delta_joint_truth": 0.010000000000000002,
+          "changed_record_years": 8000,
+          "completed_age_counts": {
+            "40": 8000
+          }
+        },
+        {
+          "synthetic_birth_year": 2015,
+          "baseline_joint_truth": 0.058251250000000004,
+          "baseline_contrast_truth": 0.00455125,
+          "positive_joint_truth": 0.06825125,
+          "level_injection_delta": 0.050000000000000044,
+          "level_injection_lambda": 0.10113703991263359,
+          "delta_joint_truth": 0.010000000000000002,
+          "changed_record_years": 8000,
+          "completed_age_counts": {
+            "40": 8000
+          }
+        },
+        {
+          "synthetic_birth_year": 2016,
+          "baseline_joint_truth": 0.05738125,
+          "baseline_contrast_truth": 0.003681249999999997,
+          "positive_joint_truth": 0.06738125,
+          "level_injection_delta": 0.050000000000000044,
+          "level_injection_lambda": 0.10097820725530442,
+          "delta_joint_truth": 0.010000000000000002,
+          "changed_record_years": 8000,
+          "completed_age_counts": {
+            "40": 8000
+          }
+        }
+      ],
+      "null_family_misses": 11,
+      "null_family_error_estimate": 0.055,
+      "null_family_error_wilson95": [
+        0.03098534170345884,
+        0.0957869987723084
+      ],
+      "null_slot_misses": [
+        5,
+        2,
+        4
+      ],
+      "positive_detection_counts": [
+        200,
+        200,
+        200
+      ],
+      "positive_power_estimates": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "positive_power_wilson95": [
+        [
+          0.9811546736227335,
+          1.0
+        ],
+        [
+          0.9811546736227335,
+          1.0
+        ],
+        [
+          0.9811546736227335,
+          1.0
+        ]
+      ],
+      "mean_adjusted_interval_width": 0.007776883523829545,
+      "mean_bootstrap_to_analytic_variance_ratio": 1.00020334157265,
+      "calendar_path_sha256": "46df39312f0eb2d0975b65c3dcb1e43ff53e9c7979e2f57d16737145a0d11711"
+    },
+    {
+      "name": "shared_calendar",
+      "calendar_loading": 0.8,
+      "reference_joint_rate": 0.09113749999999998,
+      "finite_frame_controls": [
+        {
+          "synthetic_birth_year": 2001,
+          "baseline_joint_truth": 0.08146125000000001,
+          "baseline_contrast_truth": -0.00967624999999997,
+          "positive_joint_truth": 0.09146125,
+          "level_injection_delta": 0.050000000000000044,
+          "level_injection_lambda": 0.09837817101801614,
+          "delta_joint_truth": 0.009999999999999995,
+          "changed_record_years": 8000,
+          "completed_age_counts": {
+            "40": 8000
+          }
+        },
+        {
+          "synthetic_birth_year": 2015,
+          "baseline_joint_truth": 0.1356125,
+          "baseline_contrast_truth": 0.044475000000000015,
+          "positive_joint_truth": 0.1456125,
+          "level_injection_delta": 0.050000000000000044,
+          "level_injection_lambda": 0.1020117009151961,
+          "delta_joint_truth": 0.010000000000000009,
+          "changed_record_years": 8000,
+          "completed_age_counts": {
+            "40": 8000
+          }
+        },
+        {
+          "synthetic_birth_year": 2016,
+          "baseline_joint_truth": 0.13691625,
+          "baseline_contrast_truth": 0.04577875000000001,
+          "positive_joint_truth": 0.14691625000000003,
+          "level_injection_delta": 0.050000000000000044,
+          "level_injection_lambda": 0.1017958796448643,
+          "delta_joint_truth": 0.010000000000000009,
+          "changed_record_years": 8000,
+          "completed_age_counts": {
+            "40": 8000
+          }
+        }
+      ],
+      "null_family_misses": 10,
+      "null_family_error_estimate": 0.05,
+      "null_family_error_wilson95": [
+        0.02738264560076393,
+        0.08957814813877599
+      ],
+      "null_slot_misses": [
+        3,
+        3,
+        4
+      ],
+      "positive_detection_counts": [
+        200,
+        200,
+        200
+      ],
+      "positive_power_estimates": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "positive_power_wilson95": [
+        [
+          0.9811546736227335,
+          1.0
+        ],
+        [
+          0.9811546736227335,
+          1.0
+        ],
+        [
+          0.9811546736227335,
+          1.0
+        ]
+      ],
+      "mean_adjusted_interval_width": 0.008926293093854665,
+      "mean_bootstrap_to_analytic_variance_ratio": 1.0003722800410557,
+      "calendar_path_sha256": "674f916b98a64734ebcb0786a929cde644498a1e1ce6b50143851da87b35420a"
+    }
+  ],
+  "runtime_seconds": 23.009,
+  "interpretation": "Conditional calibration for stated synthetic finite populations, fixed reference and correct stratified sampling. Shared calendar paths are held fixed; no world, mortality or AI null is tested. Actual R9 has two eligible slots and one unavailable slot; synthetic calibration exercises all three slots conservatively.",
+  "limitations": [
+    "Monte Carlo uncertainty with 200 repetitions",
+    "synthetic generator is not empirically validated",
+    "reference-estimation uncertainty excluded",
+    "no guarantee of coverage under source selection or clock/model error"
+  ],
+  "code_sha256": {
+    "fixed_reference.py": "f5e92dd35702bb198550c2fd8d47aaf7c8b51a08aa4bfdc779af46e7f8c02321",
+    "verify_math.py": "a16505772a6773475cbd0876fd2095784362d584efed7bf4a3ae72f77b03d8b8",
+    "calibrate_synthetic.py": "246f983deaadc8ed54d67157b5ec4c54e95eaa49e51271e9eee410cf1f0f76d6",
+    "PROTOCOL_SUPPLEMENT.md": "5a012ac6a059e3702ce5ed07f1300b6238916cd2d2ffeebbc77d624370795d67"
+  }
+}

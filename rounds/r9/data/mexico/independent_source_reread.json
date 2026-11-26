@@ -1,0 +1,10 @@
+{
+  "source_archive_sha256": "995c451db513f19641c1e28032d0164e3e5a2c5a0b210b49e0754fde15f4f6c7",
+  "selected_records": 2000,
+  "reread_from_original_DBF": 2000,
+  "field_comparisons_per_record": 8,
+  "mismatches": [],
+  "allocation_mismatches": [],
+  "weight_total_error": 0.0,
+  "status": "passed"
+}

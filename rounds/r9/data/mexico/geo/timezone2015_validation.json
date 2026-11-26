@@ -1,0 +1,112 @@
+{
+  "zone_checks": [
+    {
+      "zone": "America/Mexico_City",
+      "compiled_tzdb": "2026c",
+      "daily_noon_midnight_comparisons": 730,
+      "system_offset_disagreements": 0,
+      "offset_january_hours": -6.0,
+      "offset_july_hours": -5.0
+    },
+    {
+      "zone": "America/Tijuana",
+      "compiled_tzdb": "2026c",
+      "daily_noon_midnight_comparisons": 730,
+      "system_offset_disagreements": 0,
+      "offset_january_hours": -8.0,
+      "offset_july_hours": -7.0
+    },
+    {
+      "zone": "America/Mazatlan",
+      "compiled_tzdb": "2026c",
+      "daily_noon_midnight_comparisons": 730,
+      "system_offset_disagreements": 0,
+      "offset_january_hours": -7.0,
+      "offset_july_hours": -6.0
+    },
+    {
+      "zone": "America/Merida",
+      "compiled_tzdb": "2026c",
+      "daily_noon_midnight_comparisons": 730,
+      "system_offset_disagreements": 0,
+      "offset_january_hours": -6.0,
+      "offset_july_hours": -5.0
+    },
+    {
+      "zone": "America/Monterrey",
+      "compiled_tzdb": "2026c",
+      "daily_noon_midnight_comparisons": 730,
+      "system_offset_disagreements": 0,
+      "offset_january_hours": -6.0,
+      "offset_july_hours": -5.0
+    },
+    {
+      "zone": "America/Cancun",
+      "compiled_tzdb": "2026c",
+      "daily_noon_midnight_comparisons": 730,
+      "system_offset_disagreements": 0,
+      "offset_january_hours": -6.0,
+      "offset_july_hours": -5.0
+    },
+    {
+      "zone": "America/Hermosillo",
+      "compiled_tzdb": "2026c",
+      "daily_noon_midnight_comparisons": 730,
+      "system_offset_disagreements": 0,
+      "offset_january_hours": -7.0,
+      "offset_july_hours": -7.0
+    },
+    {
+      "zone": "America/Bahia_Banderas",
+      "compiled_tzdb": "2026c",
+      "daily_noon_midnight_comparisons": 730,
+      "system_offset_disagreements": 0,
+      "offset_january_hours": -6.0,
+      "offset_july_hours": -5.0
+    }
+  ],
+  "transition_checks": [
+    {
+      "zone": "America/Cancun",
+      "local": "2015-02-01T02:30:00",
+      "valid_utc_offsets_hours": [],
+      "expected_valid_instant_count": 0,
+      "pass": true
+    },
+    {
+      "zone": "America/Mexico_City",
+      "local": "2015-04-05T02:30:00",
+      "valid_utc_offsets_hours": [],
+      "expected_valid_instant_count": 0,
+      "pass": true
+    },
+    {
+      "zone": "America/Mexico_City",
+      "local": "2015-10-25T01:30:00",
+      "valid_utc_offsets_hours": [
+        -6.0,
+        -5.0
+      ],
+      "expected_valid_instant_count": 2,
+      "pass": true
+    },
+    {
+      "zone": "America/Tijuana",
+      "local": "2015-03-08T02:30:00",
+      "valid_utc_offsets_hours": [],
+      "expected_valid_instant_count": 0,
+      "pass": true
+    },
+    {
+      "zone": "America/Tijuana",
+      "local": "2015-11-01T01:30:00",
+      "valid_utc_offsets_hours": [
+        -8.0,
+        -7.0
+      ],
+      "expected_valid_instant_count": 2,
+      "pass": true
+    }
+  ],
+  "scope": "Offset/transition checks only; does not prove locality geography or source birth-clock precision."
+}

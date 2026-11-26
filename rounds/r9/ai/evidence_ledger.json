@@ -1,0 +1,321 @@
+{
+  "schema_version": "1.0",
+  "round": "R9",
+  "track": "empirical_ai_observables",
+  "created_at_utc": "2026-11-26T17:00:42.457614+00:00",
+  "scope": "Public-source acquisition and descriptive availability audit. No new AI benchmark runs, causal labor estimation, mortality analysis, or astrology-to-AI risk inference.",
+  "endpoint_summary": {
+    "attempted_in_successful_acquisition_pass": 17,
+    "http_200": 17,
+    "complete_snapshots": 16,
+    "incomplete_snapshot_ids": [
+      "ilostat_catalogue"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "AI-CAP-001",
+      "domain": "task_automation",
+      "source_ids": [
+        "metr_q4_2026",
+        "metr_figure_10"
+      ],
+      "publication_date": "2026-11-20",
+      "observation_type": "provider_reported_statistical_fit",
+      "metric": "50-percent task-completion time-horizon frontier doubling time",
+      "value": 3.61275,
+      "unit": "months per doubling",
+      "interval_95": [
+        2.08267,
+        4.93514
+      ],
+      "fit_release_date_window": [
+        "2024-05-13",
+        "2026-09-03"
+      ],
+      "definition": "Human-expert task duration associated with fitted agent success probability of 0.5, on the combined TH1.1/TH2 software and AI-R&D suite.",
+      "independently_reestimated": false,
+      "caveats": [
+        "Task-distribution and human-baseline dependence.",
+        "Not AI elapsed runtime, universal task reliability, or a replacement date.",
+        "Preserve wide frontier confidence intervals; do not turn an extrapolation into an observed result."
+      ]
+    },
+    {
+      "id": "AI-CAP-002",
+      "domain": "data_freshness",
+      "source_ids": [
+        "metr_legacy_dashboard"
+      ],
+      "source_version_date": "2026-09-08",
+      "observation_type": "provider_page_status",
+      "finding": "The old time-horizon dashboard is marked no longer actively updated; the November Q4 report is the current snapshot used here.",
+      "caveats": [
+        "A fixed report is not a continuous monitor."
+      ]
+    },
+    {
+      "id": "AI-LAB-001",
+      "domain": "occupational_exposure",
+      "source_ids": [
+        "ilo_exposure_2025"
+      ],
+      "publication_date": "2025-05-20",
+      "observation_type": "measurement_framework",
+      "metrics": {
+        "task_universe": 29753,
+        "survey_respondents": 1640,
+        "assessed_tasks": 2861,
+        "data_points": 52558
+      },
+      "definition": "Task-based potential exposure to generative AI, informed by worker assessments, expert input and model predictions.",
+      "caveats": [
+        "Exposure is not observed redundancy or causal employment loss.",
+        "A detailed occupation crosswalk and measured adoption are still required."
+      ]
+    },
+    {
+      "id": "AI-LAB-002",
+      "domain": "employment_outcomes",
+      "source_ids": [
+        "ilostat_employment_annual",
+        "ilostat_indicator_directory",
+        "ilostat_dic_source",
+        "ilostat_dic_ref_area",
+        "ilostat_dic_classif1",
+        "ilostat_dic_obs_status"
+      ],
+      "source_version_date": "2026-11-24",
+      "observation_type": "our_descriptive_coverage_audit",
+      "metric": "published aggregate rows",
+      "raw_rows": 227083,
+      "rows_2020plus": 47965,
+      "year_range": [
+        2020,
+        2025
+      ],
+      "reference_area_codes_2020plus": 245,
+      "published_extract": {
+        "definition": "2020 onward; BA source prefix (labour-force survey family); total sex; ISCO-08 one-digit groups 0 through 9; no totals, unknown group, ISCO-88 or skill aggregate.",
+        "rows": 5211,
+        "reference_area_codes": 121,
+        "reference_area_source_pairs": 122,
+        "observation_status_counts": {
+          "B": 340,
+          "": 4847,
+          "U": 24
+        },
+        "source_labels": [
+          "LFS - Continuous Employment Survey",
+          "LFS - Continuous Household Employment Survey",
+          "LFS - Continuous Household Survey",
+          "LFS - Continuous Multi-Purpose Household Survey",
+          "LFS - Continuous National Labour Force Survey",
+          "LFS - Current Population Survey",
+          "LFS - EU Labour Force Survey",
+          "LFS - Economically Active Population Survey",
+          "LFS - Employment Survey",
+          "LFS - Employment and Income Survey",
+          "LFS - Employment and Unemployment Survey",
+          "LFS - Employment, Unemployment Survey",
+          "LFS - General Household Survey",
+          "LFS - Household Labour Force Survey",
+          "LFS - Integrated Household Survey",
+          "LFS - Integrated Labour Force Survey",
+          "LFS - Labor Force Sample Survey",
+          "LFS - Labor Force Survey",
+          "LFS - Labor Market Panel Survey",
+          "LFS - Labour Force & Household Survey",
+          "LFS - Labour Force Sample Survey",
+          "LFS - Labour Force Survey",
+          "LFS - Labour Market Survey",
+          "LFS - National Employment Survey",
+          "LFS - National Employment and Unemployment Survey",
+          "LFS - National Labour Force Survey",
+          "LFS - National Occupation and Employment Survey",
+          "LFS - National Survey on Employment and the Informal Sector",
+          "LFS - National Survey on Employment, Unemployment and Underemployment",
+          "LFS - Periodic Labour Force Survey",
+          "LFS - Permanent Employment Survey, National",
+          "LFS - Permanent Household Survey, Urban",
+          "LFS - Regional Integrated Survey on Employment and the Informal Sector",
+          "LFS - Unemployment, Under-employment Watch"
+        ],
+        "missing_numeric_values": 9,
+        "unmapped_source_rows": 0
+      },
+      "age_field_present": false,
+      "causal_effect_estimated": false,
+      "caveats": [
+        "No age field: cannot identify the 1990s/2000s birth cohorts or youth entrants.",
+        "One-digit occupation groups are too broad for a direct match to detailed task exposure without a separately justified crosswalk.",
+        "Recent source rows contain modelled estimates as well as surveys; never pool source families or regional aggregates as independent countries.",
+        "The narrow extract still contains series breaks and unreliable observations, preserved with flags.",
+        "Multiple sources per reference area and missing groups require adjudication before constructing a comparable panel.",
+        "No adoption date/intensity or counterfactual is supplied; post-2022 employment changes cannot be attributed to AI here."
+      ]
+    },
+    {
+      "id": "AI-CTRL-001",
+      "domain": "control_loss",
+      "source_ids": [
+        "international_safety_2026"
+      ],
+      "publication_date": "2026-02-03",
+      "observation_type": "evidence_review_and_threat_taxonomy",
+      "definition": "Severe scenarios in which AI operates beyond human control and restoring control is extremely costly or impossible.",
+      "dimensions": [
+        "capabilities relevant to undermining control",
+        "propensity to use them harmfully",
+        "deployment access and opportunity"
+      ],
+      "caveats": [
+        "February review, not a November capability measurement.",
+        "Laboratory behavior, deployment incidents, and irreversible loss of control require separate evidence.",
+        "No calibrated extinction probability or event date is supplied by this track."
+      ]
+    },
+    {
+      "id": "AI-INC-001",
+      "domain": "incident_surveillance",
+      "source_ids": [
+        "oecd_incidents_methodology"
+      ],
+      "observation_type": "collection_methodology",
+      "definition": "Separate realized-harm incidents from potentially harmful hazards; use public reporting as a lead to primary case documentation.",
+      "incident_records_downloaded": 0,
+      "caveats": [
+        "Media discovery is incomplete and affected by reporting intensity and language.",
+        "Third-party reports require original-source verification.",
+        "Counts without exposure denominators are not incident rates."
+      ]
+    }
+  ],
+  "source_links": {
+    "metr_q4_2026": {
+      "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+      "retrieved_at_utc": "2026-11-26T16:55:20.886208+00:00",
+      "sha256": "fe6fde8ef21c9de5cc7b6e43ff25cea16f8dfc4297ee9cee65ad53489b759e5b",
+      "status_code": 200,
+      "snapshot_complete": true
+    },
+    "ilo_exposure_2025": {
+      "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+      "retrieved_at_utc": "2026-11-26T16:55:20.887674+00:00",
+      "sha256": "321bdbed23437d4cdff25faa1585571b61b13f55645756e91fee659f71ea5aac",
+      "status_code": 200,
+      "snapshot_complete": true
+    },
+    "ilostat_bulk": {
+      "url": "https://ilostat.ilo.org/data/bulk/",
+      "retrieved_at_utc": "2026-11-26T16:55:20.888843+00:00",
+      "sha256": "f15b4348ba2708839f57124da684f30e9e5c5385f4cc2afa3a2679069e8f9456",
+      "status_code": 200,
+      "snapshot_complete": true
+    },
+    "ilostat_catalogue": {
+      "url": "https://ilostat.ilo.org/data/",
+      "retrieved_at_utc": "2026-11-26T16:55:20.889560+00:00",
+      "sha256": "97db0a67127100b11b13f6cef0909c1929dfce48d2cb710abad790c150c4baca",
+      "status_code": 200,
+      "snapshot_complete": false
+    },
+    "international_safety_2026": {
+      "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+      "retrieved_at_utc": "2026-11-26T16:55:20.890385+00:00",
+      "sha256": "b13ffe7c68fed2acba2056136a1c2985a118918d9e9bd3afdf6d07527c276211",
+      "status_code": 200,
+      "snapshot_complete": true
+    },
+    "ilostat_indicator_directory": {
+      "url": "https://rplumber.ilo.org/files/website/bulk/indicator.html",
+      "retrieved_at_utc": "2026-11-26T16:55:20.891481+00:00",
+      "sha256": "62748449557627c44ac06b7a456d2ac5802c9ac3ea092f5321c12d1c9490eedb",
+      "status_code": 200,
+      "snapshot_complete": true
+    },
+    "ilostat_employment_annual": {
+      "url": "https://rplumber.ilo.org/data/indicator?id=EMP_TEMP_SEX_OCU_NB_A&format=.csv.gz",
+      "retrieved_at_utc": "2026-11-26T16:56:10.776754+00:00",
+      "sha256": "f4ff5994e511275961d44429c1b6fbfb78dbbfd128c694a197eca880ebe90d2f",
+      "status_code": 200,
+      "snapshot_complete": true
+    },
+    "metr_figure_10": {
+      "url": "https://metr.org/assets/images/q4-2026-capability-update/cad6b5d98261f80c.json",
+      "retrieved_at_utc": "2026-11-26T16:56:10.777391+00:00",
+      "sha256": "5459fa3b2c1e2e07f850458545f5b749f3bd3dd2353958e32c284c89ce628173",
+      "status_code": 200,
+      "snapshot_complete": true
+    },
+    "ilostat_dictionary_directory": {
+      "url": "https://rplumber.ilo.org/files/website/bulk/dic.html",
+      "retrieved_at_utc": "2026-11-26T16:56:10.777950+00:00",
+      "sha256": "6a8fdffd53fb7ab21785edc533c96a594ad23a3856a1ba19000f0429fece2446",
+      "status_code": 200,
+      "snapshot_complete": true
+    },
+    "ilostat_dic_cl_source": {
+      "url": "https://rplumber.ilo.org/metadata/dic?var=cl_source&lang=en&format=.csv",
+      "retrieved_at_utc": "2026-11-26T16:57:04.692156+00:00",
+      "sha256": "41a6944d69698fe634ec70d6d85acb043ff85756549f3963ed7e67ef270a3299",
+      "status_code": 200,
+      "snapshot_complete": true
+    },
+    "ilostat_dic_classif1": {
+      "url": "https://rplumber.ilo.org/metadata/dic?var=classif1&lang=en&format=.csv",
+      "retrieved_at_utc": "2026-11-26T16:57:04.693179+00:00",
+      "sha256": "96c35bce59b46dfa88df360b90df9e008fcc0c8ff09e5e05beb9d396860fe91d",
+      "status_code": 200,
+      "snapshot_complete": true
+    },
+    "ilostat_dic_obs_status": {
+      "url": "https://rplumber.ilo.org/metadata/dic?var=obs_status&lang=en&format=.csv",
+      "retrieved_at_utc": "2026-11-26T16:57:04.694057+00:00",
+      "sha256": "4f78a0a382c92e52fca71e94ef8f544fafb8bb3f877d1fcc5cb0de838eb9424a",
+      "status_code": 200,
+      "snapshot_complete": true
+    },
+    "ilostat_dic_ref_area": {
+      "url": "https://rplumber.ilo.org/metadata/dic?var=ref_area&lang=en&format=.csv",
+      "retrieved_at_utc": "2026-11-26T16:57:04.694884+00:00",
+      "sha256": "290a5c5879713826646803136bca8fdce9ae5fc4ddedc3956c8c2a9c3369dd8f",
+      "status_code": 200,
+      "snapshot_complete": true
+    },
+    "ilostat_dic_source": {
+      "url": "https://rplumber.ilo.org/metadata/dic?var=source&lang=en&format=.csv",
+      "retrieved_at_utc": "2026-11-26T16:57:04.696110+00:00",
+      "sha256": "41a6944d69698fe634ec70d6d85acb043ff85756549f3963ed7e67ef270a3299",
+      "status_code": 200,
+      "snapshot_complete": true
+    },
+    "ilostat_dic_indicator": {
+      "url": "https://rplumber.ilo.org/metadata/dic?var=indicator&lang=en&format=.csv",
+      "retrieved_at_utc": "2026-11-26T16:57:04.698806+00:00",
+      "sha256": "e6fb7bfc393fda266836a8aaa73fedc1a75b63e43c783cea4e60c2478cd87fe4",
+      "status_code": 200,
+      "snapshot_complete": true
+    },
+    "oecd_incidents_methodology": {
+      "url": "https://oecd.ai/en/incidents-methodology",
+      "retrieved_at_utc": "2026-11-26T16:58:02.218344+00:00",
+      "sha256": "603da5ba92cf36ab7528a4a6e3df07e4e4f2cd43cad418aa32debc8225344114",
+      "status_code": 200,
+      "snapshot_complete": true
+    },
+    "metr_legacy_dashboard": {
+      "url": "https://metr.org/time-horizons/",
+      "retrieved_at_utc": "2026-11-26T16:58:02.219293+00:00",
+      "sha256": "e1f04e838677fceea95b5276c39a43ec36f9db512aad881693c014c50e7b0d9e",
+      "status_code": 200,
+      "snapshot_complete": true
+    }
+  },
+  "forbidden_inferences": [
+    "No Bayesian or other AI-risk probability update from birth-chart structural results.",
+    "No inference of individual death or civilizational collapse.",
+    "No claim that occupational exposure equals job replacement.",
+    "No causal conclusion from the descriptive labor extract."
+  ]
+}

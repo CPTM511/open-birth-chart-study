@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-11-26T17:15:34.423662+00:00",
+  "status": "prepared before AGGREGATION_READY; no target scores read",
+  "files": {
+    "verify_aggregates.py": "2c294e113a9094fc6242970dac9e4f4c978bf6e689c024fc3a11a1907f9af772",
+    "REVIEW_PLAN.md": "d075da89464fd204566c0c776cdd98f52ba00c7a9ee25395044c32068126218b"
+  }
+}
