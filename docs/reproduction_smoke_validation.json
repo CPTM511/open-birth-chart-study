@@ -1,0 +1,13 @@
+{
+  "completed_utc": "2026-11-26T08:16:31.406896+00:00",
+  "mode": "eight_check_smoke",
+  "tests_run": 8,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "elapsed_seconds": 1.214,
+  "input_scope": "Existing synthetic and fixed published fixtures only; no private or source-cohort birth records",
+  "downloads": false,
+  "mortality_validation": false
+}

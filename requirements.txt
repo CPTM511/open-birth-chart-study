@@ -1,0 +1,7 @@
+# Exact Python package versions used by the R8 models, analysis and checks.
+# Reference interpreter: CPython 3.12.14; see docs/REPRODUCING.md.
+numpy==2.3.5
+scipy==1.17.0
+lunar-python==1.4.9
+pyswisseph==2.10.3.2
+astronomy-engine==2.1.19

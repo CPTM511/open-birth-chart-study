@@ -1,0 +1,19 @@
+{
+  "name": "open-birth-chart-study",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Pinned Node dependency for the R8 Ziwei structural research model",
+  "license": "AGPL-3.0-or-later",
+  "packageManager": "npm@11.19.1",
+  "engines": {
+    "node": ">=24 <25",
+    "npm": ">=11 <12"
+  },
+  "scripts": {
+    "test:smoke": "python scripts/smoke_check.py",
+    "test": "python scripts/smoke_check.py --full"
+  },
+  "dependencies": {
+    "iztro": "2.6.5"
+  }
+}

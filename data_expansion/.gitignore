@@ -1,0 +1,8 @@
+/reconstructed/
+/data/
+/download_manifests/
+/raw/
+/samples/
+*.zip
+*.gpkg
+__pycache__/

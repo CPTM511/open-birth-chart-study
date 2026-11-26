@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-11-26T07:51:53.617664+00:00",
+  "scope": "Implementation clarification before any cohort signal computation; no change to declared hypotheses.",
+  "null_center": "Exact conditional mean, not an estimated center: within each person-age-band, P(>=3 flags)=sum of four triple products - 3*product of all four marginal flag frequencies.",
+  "duplicate_inputs": "Identical chart inputs share random shifts; their source-frame weights are added, not their people deleted.",
+  "statistical_method_files": {
+    "src/open_birth_chart/analysis.py": "0adfd9be37328603cc428fc6065d02725dc50630160ef0996a149ee3f31a522e",
+    "tests/test_analysis.py": "3a7651ee200cb929987fecb71d91929b57ec01ebf1f0aedb711472f5a4d01641"
+  },
+  "synthetic_verification": {
+    "checks_passed": 8,
+    "specific_risks": [
+      "constant profiles",
+      "known exact null mean",
+      "duplicate chart dependence",
+      "missing scores",
+      "Holm nonestimable slots",
+      "empty year versus zero signal",
+      "sample weights"
+    ]
+  },
+  "real_cohort_signal_results_seen": false
+}

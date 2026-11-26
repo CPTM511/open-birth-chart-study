@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-11-26T08:20:59.153183+00:00",
+  "analysis_type": "post-result descriptive mechanism check, not preregistered test",
+  "n": 2000,
+  "natal_year_branch_counts": {
+    "酉": 176,
+    "戌": 1824
+  },
+  "natal_year_branch_weight_sum": {
+    "酉": 246847.82887182315,
+    "戌": 2558359.1711281706
+  },
+  "calendar_year_pillars": {
+    "2036": "丙辰",
+    "2048": "戊辰",
+    "2060": "庚辰"
+  },
+  "interpretation": "The selected Bazi index counts opposite branches. The repeated Chen years oppose the common Xu birth-year branch. This mechanically supplies a shared contact term; it is not a calibrated real-event risk or an exhaustive explanation of the joint peak.",
+  "new_p_values": false,
+  "source_input_sha256": "3d9a2dc48a26a083a20abbd372310310d13b6e93d880a4f8d1fafa02f8914f6d"
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "year": "2008",
+    "url": "https://www.inegi.org.mx/contenidos/programas/natalidad/datosabiertos/2008/conjunto_de_datos_natalidad_2008_csv.zip",
+    "status": 200,
+    "length": 2263,
+    "content_range": null,
+    "content_length": "2263",
+    "magic": "3c21444f"
+  },
+  {
+    "year": "2010",
+    "url": "https://www.inegi.org.mx/contenidos/programas/natalidad/datosabiertos/2010/conjunto_de_datos_natalidad_2010_csv.zip",
+    "status": 200,
+    "length": 2263,
+    "content_range": null,
+    "content_length": "2263",
+    "magic": "3c21444f"
+  },
+  {
+    "year": "2000",
+    "url": "https://www.inegi.org.mx/contenidos/programas/natalidad/datosabiertos/2000/conjunto_de_datos_natalidad_2000_csv.zip",
+    "status": 200,
+    "length": 2263,
+    "content_range": null,
+    "content_length": "2263",
+    "magic": "3c21444f"
+  }
+]

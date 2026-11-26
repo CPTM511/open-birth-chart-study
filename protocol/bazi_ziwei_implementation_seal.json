@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-11-26T07:55:52.434793+00:00",
+  "real_cohort_signals_seen": false,
+  "no_outcomes_loaded": true,
+  "primary_protocol_sha256": "dde15c7ee12ae4ed85c3819568b72232a7dda31e74dc602ac47429d5048a4306",
+  "interpretation_protocol_sha256": "83973cbfe8b719fc9bbb1cd45f7b340572f428002903186f577c47624667cc89",
+  "files": [
+    {
+      "path": "src/open_birth_chart/bazi_engine.py",
+      "sha256": "41d2b5f3cd0738d94366e5436a495d05d9f84b5d0c3d0a68efbf14383311d5df"
+    },
+    {
+      "path": "src/open_birth_chart/ziwei_engine.py",
+      "sha256": "84f0b0580fb1eb687bf36cc66bc8e46eb96f67f7436a0ef6cae64e144c572d47"
+    },
+    {
+      "path": "src/open_birth_chart/ziwei_bridge.cjs",
+      "sha256": "976c2b4b8bd887b87865c4e3bfe8f02cce5f1dfdd1c4a6d14959308ca34e978f"
+    },
+    {
+      "path": "tests/test_bazi_ziwei.py",
+      "sha256": "f6130af5d7dfd7e86de819c72f0433de62690abff85ca216f89cce1c9df8575b"
+    }
+  ]
+}

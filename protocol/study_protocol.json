@@ -1,0 +1,155 @@
+{
+  "id": "OBS-R8-STRUCTURAL-SIGNALS-v0.2",
+  "created_utc": "2026-11-26T07:45:45.733216+00:00",
+  "status": "frozen_before_any_real_cohort_signal_distribution",
+  "scope": "Exploratory computational structure of four explicitly versioned astrological models; independent mortality validation deferred by user.",
+  "not_estimated": [
+    "mortality probability",
+    "death date",
+    "prediction accuracy against outcomes",
+    "global population risk"
+  ],
+  "birth_cohorts": {
+    "historical": [
+      1880,
+      1979
+    ],
+    "target": [
+      1980,
+      2019
+    ],
+    "priority_decades": [
+      1990,
+      2000
+    ]
+  },
+  "calendar_window": [
+    2026,
+    2070
+  ],
+  "age_windows": {
+    "primary_20_to_59": [
+      20,
+      60
+    ],
+    "secondary_20_to_49": [
+      20,
+      50
+    ]
+  },
+  "age_definition": "Completed civil age on July 1 of each evaluation year; lower bound inclusive and upper bound exclusive. Whole age-20-to-59 trajectories are computed for cohort comparison, with the 2026-2070 subset separately labelled.",
+  "inputs": {
+    "required": [
+      "study_id",
+      "source_id",
+      "source",
+      "birth_local",
+      "birth_utc",
+      "latitude",
+      "longitude",
+      "sex",
+      "country",
+      "quality_tier"
+    ],
+    "sex_values": [
+      "M",
+      "F"
+    ],
+    "unknown_sex": "excluded from the four-system primary cohort; never inferred from name",
+    "time": "A source-backed absolute instant consistent with local date/time and offset; historical timezone claims retained as source-quality limitations.",
+    "coordinates": "Source coordinates and official municipality reference points are different quality tiers. No reference point is claimed as the precise birth site."
+  },
+  "sampling": {
+    "per_source_maximum": 2000,
+    "strata": [
+      "country_or_brazil_UF",
+      "sex",
+      "birth_decade",
+      "quality_tier"
+    ],
+    "allocation": "At least one per nonempty stratum; remaining quota proportional to remaining stratum capacity with largest-remainder allocation; cap at N_h. Take the entire eligible frame if <=2000.",
+    "within_stratum": "ascending SHA256 of UTF-8 OBS-R8-2026-11-26|source_id",
+    "weights": "N_h/n_h, estimating only the eligible source frame. No fabricated global-population weights.",
+    "selection_is_not_based_on": "astrological scores, outcomes or a desired conclusion"
+  },
+  "engines": {
+    "bazi": "frozen source-documented reference rules; natal, luck decades and annual structures",
+    "ziwei": "frozen source-documented reference rules; natal, decade and annual charts",
+    "qizheng": "named historical-reference/modern-astronomical model, with its deviations and completeness gates explicit",
+    "western": "named natal, transit and progression model, with its conventions explicit",
+    "annual_schedule": "Bazi and Ziwei July-1 snapshots; astronomical transit/progression engines may use their preregistered monthly snapshots. These are defined sample times, not exhaustive within-year forecasts.",
+    "freeze_required": "Each engine records its primary scalar, rule sources, assumptions, expected bounds and readiness before cohort scoring."
+  },
+  "normalization": {
+    "per_person_per_system": "Midrank percentile (rank-0.5)/n within that person’s full 40-point age-20-to-59 trajectory; tied values share average rank.",
+    "constant_profile": "all percentiles 0.5; never labelled elevated",
+    "elevated_threshold": 0.8,
+    "concordance": "3 or 4 of the four systems elevated in the same person-year",
+    "missing": "No zero imputation; a person needs all four full trajectories for the primary concordance calculation; exclusions reported."
+  },
+  "primary_statistics": {
+    "by_source_and_age_window": "sampling-weighted proportion of person-years with at least three elevated structural signals",
+    "comparison_reference": "Independently circularly rotate each system within each person’s 10-year age band (20s,30s,40s,50s); retain source membership, person weights, score marginals and coarse age pattern. Identical chart inputs share rotations.",
+    "interpretation": "Tests alignment against an explicitly defined independent-phase reference. It is not a model of human deaths or proof of divinatory validity. Shared calendars, shared input data and biological/registration birth patterns can cause alignment.",
+    "draws": 1999,
+    "seed": 2026112608,
+    "p_value": "Two-sided Monte Carlo deviation from the permutation-reference mean, plus-one formula; exact implementation and Monte Carlo resolution disclosed.",
+    "multiplicity": "Holm across all prespecified source-by-age-window primary tests, including nonestimable slots as p=1 for correction, while displaying their statistics as unavailable.",
+    "alpha": 0.05
+  },
+  "descriptive_outputs": [
+    "source/decade/region/sex/quality coverage and missingness",
+    "weighted annual means and percentile-concordance curves",
+    "all six pairwise Spearman correlations without independent-vote claims",
+    "2026-2070 peaks only where people satisfy the declared age window",
+    "historical and target age-aligned profiles; birth-cohort, age and calendar-period confounding explicitly stated"
+  ],
+  "sensitivity": {
+    "clock": {
+      "offset_minutes": [
+        -120,
+        -30,
+        30,
+        120
+      ],
+      "people_per_source_maximum": 200,
+      "selection": "same fixed hash order, independent of scores",
+      "interpretation": "stress points, not a complete measurement-error interval"
+    },
+    "geography": {
+      "reference_point_source_only": true,
+      "people_maximum": 100,
+      "offsets_degrees": [
+        [
+          0.25,
+          0
+        ],
+        [
+          -0.25,
+          0
+        ],
+        [
+          0,
+          0.25
+        ],
+        [
+          0,
+          -0.25
+        ]
+      ],
+      "interpretation": "declared stress points around a municipality reference, not a bound on actual birthplace error"
+    },
+    "no_new_confirmatory_p_values": true
+  },
+  "publication": {
+    "code": "AGPL-3.0-or-later where appropriate for reused code",
+    "data": "source-specific permissions and attribution; restricted third-party individual records are excluded",
+    "articles": [
+      "English",
+      "Simplified Chinese"
+    ],
+    "github": "public repository authorized by user; no external contacts or paid services authorized"
+  },
+  "failure_policy": "Report incomplete models, failed validations, missing sources and operational publication blockers. No proxy may silently be relabelled as a complete traditional system.",
+  "prior_results": "R7 results remain a separately labelled historical pilot; no previously analyzed outcome data are called a new blinded replication."
+}

@@ -1,0 +1,11 @@
+{
+  "distinct_municipality_prefixes": 5571,
+  "identical_capital_and_seat_duplicates_collapsed": 26,
+  "reference_year": 2022,
+  "selected_point_rows": 5597,
+  "source": "https://geoftp.ibge.gov.br/organizacao_do_territorio/estrutura_territorial/localidades/Localidades_do_Brasil/2022/Localidades_Brasil_gpkg.zip",
+  "split_state_policy": "In Amazonas and Para only modern municipalities explicitly named in IANA southamerica are assigned a zone. Other municipalities are excluded, not guessed.",
+  "temporal_limitation": "2022 municipal-seat reference points are approximate locators for 2006 births; unmatched historical codes are excluded.",
+  "timezone_source": "https://data.iana.org/time-zones/tzdb/southamerica",
+  "zone_mapped_municipalities": 5381
+}

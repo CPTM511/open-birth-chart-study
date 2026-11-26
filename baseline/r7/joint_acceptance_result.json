@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-11-26T02:26:00.792201+00:00",
+  "original_joint_goal_completed": false,
+  "global_representative_person_birth_death_cohort_completed": false,
+  "complete_four_traditional_mortality_models": 0,
+  "actual_fixed_local_candidate_masked_pilot_completed": true,
+  "actual_birth_qualified_people": 238,
+  "primary_observed_endpoint_people": 128,
+  "supplemental_observed_endpoint_people": 146,
+  "original_predictions_unchanged": true,
+  "external_independent_replication_completed": false,
+  "enforced_access_independence": false,
+  "future_2026_2070_outcomes_observed": false,
+  "no_global_gen90_gen00_risk_estimate_created": true,
+  "all_root_statistical_checks_passed": true
+}

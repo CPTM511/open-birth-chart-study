@@ -1,0 +1,92 @@
+{
+  "protocol_id": "OBS-R8-QW-1.0",
+  "freeze_scope": "Declared before opening any real cohort birth inputs or annual score distribution; historical astronomical examples and synthetic births permitted for implementation verification.",
+  "not_outcome_validation": true,
+  "death_prediction": false,
+  "astronomy": {
+    "pyswisseph": "2.10.3.2",
+    "swiss_engine": "2.10.03",
+    "backend": "Moshier explicitly requested; returned backend verified",
+    "coordinates": "geocentric apparent tropical ecliptic-of-date",
+    "calendar": "proleptic Gregorian",
+    "time": "source-provided instant/offset required; nominal UT, UTC treated as UT1 without invented DUT1",
+    "birth_scope": [1880, 2019],
+    "annual_sampling": "12 snapshots: each month 15 at 12:00 UT; unweighted mean",
+    "latitude": "strictly between -90 and +90; unresolved coordinates rejected"
+  },
+  "western": {
+    "version": "OBS-R8-WEST-1.0",
+    "natal_planets": ["Sun", "Moon", "Mercury", "Venus", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto"],
+    "houses": "whole sign; ascendant and midheaven separately retained",
+    "natal_aspects": {"conjunction": [0,6], "sextile": [60,4], "square": [90,6], "trine": [120,6], "opposition": [180,6]},
+    "progression": {
+      "planets": "jd_progressed = jd_birth + (jd_target - jd_birth)/365.2422",
+      "axes": "Naibod: ARMC = natal_ARMC + age_years * 0.98564733 degrees; geographic latitude unchanged; true obliquity at progressed date",
+      "primary_actors": ["Sun", "Moon", "Mercury", "Venus", "Mars"]
+    },
+    "primary_transit_actors": ["Mars", "Saturn", "Uranus", "Neptune", "Pluto"],
+    "primary_targets": ["natal Sun", "natal Moon", "natal Ascendant", "natal Midheaven"],
+    "hard_contact": "For each actor-target pair, max(0,1-min distance to 0/90/180-degree separation divided by orb). Average pairs.",
+    "orbs_deg": {"transit":3, "secondary_progressed_planets":1, "secondary_progressed_axes":1},
+    "primary_score": "0.5*annual_mean(transit_hard) + 0.25*annual_mean(progressed_planet_hard) + 0.25*annual_mean(progressed_axis_hard)",
+    "support_score": "Venus/Jupiter transits to the same four natal targets at 0/60/120 degrees, 3-degree orb; separate output, not subtracted from primary",
+    "qualification": "This is a registered geometric contact statistic, not a canonically validated severity or mortality model. Entire Western doctrine is not claimed."
+  },
+  "qizheng": {
+    "version": "OBS-R8-QZ-1.0",
+    "seven_luminaries": ["Sun", "Moon", "Mercury", "Venus", "Mars", "Jupiter", "Saturn"],
+    "four_points": {
+      "Luohou": "Qing naming: modern true ascending node + 180 degrees",
+      "Jidu": "Qing naming: modern true ascending node",
+      "Yuebo": "Modern mean lunar apogee. Explicit approximation, not the full Qing highest-true-longitude calculation.",
+      "Ziqi": "Uniform ecliptic point from Qing Shi Gao: 1743 winter-solstice following Beijing LMT midnight; source phase 7 palaces 17deg50min14sec53micro; numerical palace zero is winter solstice at tropical 270deg; daily rate 126.720777 arcsec."
+    },
+    "ziqi_epoch": {"jd_ut":2358033.176666667, "local":"1743-12-23 00:00 Beijing LMT", "reference_longitude":116.4, "tropical_longitude":137.8374675925926},
+    "mansion_table": "Full 28 unequal boundaries transcribed from Huangchao Tongzhi vol.19, 1744 table; vol.20 advances all by 51 arcsec/year. Numerical epoch January 1 1744 UT is an explicit convention because original only names a year.",
+    "source_conflict": "Huangchao Tongzhi Wing start is 170deg21min, whereas Qing Shi Gao palace-crossing anchor implies 170deg11min43sec (9min17sec discrepancy). Shen differs by2min15sec. The other10 checked anchors differ by at most25arcsec. Use Tongzhi consistently; disclose discrepancies, do not fit either to data.",
+    "palace_mapping": "tropical Aries 0-30deg = Xu; each +30deg moves one branch backward",
+    "ming": "Sun palace placed on local mean-solar birth-hour branch, Mao gives Ming; discrete palace-only rule, no fabricated Ming degree",
+    "body": "Moon palace; palace ruler and mansion ruler both exported",
+    "rulership": "Zi/Chou Saturn, Yin/Hai Jupiter, Mao/Xu Mars, Chen/You Venus, Si/Shen Mercury, Wu Sun, Wei Moon",
+    "mansion_rulers": "Jupiter Venus Saturn Sun Moon Mars Mercury repeated four times starting Jiao",
+    "major_period": {
+      "rule": "Fixed ancient Dongwei verse; follows Ming, Appearance, Fortune, Career, Travel, Illness, Spouse, Servants, Children, Property, Siblings, Wealth",
+      "durations_years": [15,10,11,15,8,7,11,4.5,4.5,4.5,5,5],
+      "total_years":100.5,
+      "age": "elapsed tropical years",
+      "limitation": "No reconstructed degree-dependent childhood shortening; this explicit ancient fixed variant only. Outside 0..100.5 returns missing, not death or zero."
+    },
+    "minor_period": "One palace backward per completed Gregorian birthday, first year Ming. February29 anniversary uses February28 in non-leap years.",
+    "contact_weights": {"same_palace":1, "opposition":0.7, "trine":0.4, "other":0},
+    "primary_actor_set": ["Mars","Saturn","Luohou","Jidu","Yuebo"],
+    "support_actor_set": ["Venus","Jupiter","Ziqi"],
+    "primary_components": ["natal actors contacting current major palace", "natal actors contacting current minor palace", "transit actors contacting current major palace", "transit actors contacting current minor palace", "transit actors sharing mansion with natal Sun/Moon/Ming-palace-ruler"],
+    "primary_score": "Equal mean of the five components, each monthly mean of normalized actor/target contacts; support uses same channels separately",
+    "scope_warning": "Source interpretations are conditional on sect, rulership, season and rescue, with contradictory schools. The unconditional registered primary is only a transparent research construct; full traditional auspice or death judgments are not implemented.",
+    "sensitivity": "Rebuild natal and transit Yuebo with Swiss OSCU_APOG; report as distinct variant, never replace the primary after outcomes or score distributions."
+  },
+  "verification_plan": {
+    "planet_positions": "Differential checks of ten bodies at five dates 1880/1950/2000/2026/2070 against Astronomy Engine 2.1.19, matched frame and separately matched TT; 60-arcsec limit for nominal-UT comparison",
+    "ziqi_absolute_case": "1833 almanac primary scan page40: first four lunar months, twelve samples; no phase fitted to examples",
+    "historical_apogee": "Display discrepancy rather than force equality with a modern mean apogee",
+    "mansion_checks": "All28 coverage and cyclic ordering; independent12 palace-crossing anchors with conflicting Wing reported",
+    "time_and_houses": "calendar J2000, offset contradiction rejection, no missing-time imputation, whole-sign high-latitude validity; secondary zero-age identity and30years->30days",
+    "annual_checks": "Synthetic Northern and Southern hemisphere inputs, 12 snapshots, bounded index, clock shifts, missing unsupported ages"
+  },
+  "source_urls": [
+    "https://www.astro.com/swisseph/swephprg.htm",
+    "https://www.astro.com/swisseph/swisseph.htm",
+    "https://www.astro.com/faq/fq_fh_owtype_i.htm",
+    "https://www.astro.com/astrowiki/en/Secondary_Directions",
+    "https://github.com/cosinekitty/astronomy/blob/master/source/python/README.md",
+    "https://www.shidianguji.com/zh/book/LS0025/chapter/1kt95er1advsv",
+    "https://www.shidianguji.com/book/CADAL02032854/chapter/1l6xxrk89hica",
+    "https://zh.wikisource.org/wiki/皇朝通志_(四庫全書本)/卷019",
+    "https://www.shidianguji.com/zh/book/SK1154/chapter/1l9l7p13m8oiq",
+    "https://www.shidianguji.com/zh/book/SK1154/chapter/1l9l7p300kgf7",
+    "https://zh.wikisource.org/zh-hans/星學大成_(四庫全書本)/卷04",
+    "https://zh.wikisource.org/zh-hant/星學大成_(四庫全書本)/全覽",
+    "https://www.shidianguji.com/book/CADAL02093863/chapter/1lazcaitic9be",
+    "https://commons.wikimedia.org/wiki/File:NLC892-411999011532-17590_大清道光十三年七政經緯躔度時憲書.pdf"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "built_utc": "2026-11-26T08:07:37.629256+00:00",
+  "files": {
+    ".gitignore": {
+      "bytes": 86,
+      "sha256": "e4fc06d836fa521b6b4c758d2514b65a8cda39cb4a914257f4c55580b4693902"
+    },
+    "DATA_LICENSES.md": {
+      "bytes": 5996,
+      "sha256": "afb1fdf87c9e1c18d1210b88574aca6b768388c97c182b40a7fd2e011f05084e"
+    },
+    "README.md": {
+      "bytes": 10686,
+      "sha256": "47716855cf6894d33a4661feb6dba77f2de8e026ce2ac6feac76444a7ed994af"
+    },
+    "REQUIREMENTS.md": {
+      "bytes": 2964,
+      "sha256": "6535150ce63b64de776c3790ebfac289a190dc900a4db7c594517e3e45b56154"
+    },
+    "SCHEMA.md": {
+      "bytes": 6673,
+      "sha256": "143dc54c01f60f77b9423f335c66498d84443b7db62c9a6fbc472c830589fcfc"
+    },
+    "audit_birth_inputs.py": {
+      "bytes": 6733,
+      "sha256": "78707c884cd519e8d28b16e436b6b35e973e68b9cfa3bdcd04747432e16e967a"
+    },
+    "audits/adb_z2026_final_audit.json": {
+      "bytes": 11429,
+      "sha256": "f15ac451cb2245298f3419871119c143df712ea486bfbc66d9cbe6f71f9a6a97"
+    },
+    "audits/brazil2006_final_audit.json": {
+      "bytes": 7021,
+      "sha256": "9be7ad7067049fa9ac06581cb7d0a5fca2e9274e7e36496059e8651c98724785"
+    },
+    "audits/mexico_url_probe.json": {
+      "bytes": 839,
+      "sha256": "3d14ea00da34dc43636816591cc6a177cf709c293382e94acd91a10fe9414e4a"
+    },
+    "audits/municipality_reference_audit.json": {
+      "bytes": 759,
+      "sha256": "ff157920d5a460a997423c274ffd68019be0df9b01b2d756897712fd304c369f"
+    },
+    "audits/ogdb_final_audit.json": {
+      "bytes": 4224,
+      "sha256": "c6dffcb4b59b3bf5a7caf19a08bdee4e1baacafeb28305e1f736c70f4412e879"
+    },
+    "audits/sample_integrity_validation.json": {
+      "bytes": 2958,
+      "sha256": "0a00c43e61ec07c5b8b14c6e72811478eb49682053e9a38c05c72cc6a6c404c0"
+    },
+    "build_adb_reference.py": {
+      "bytes": 11435,
+      "sha256": "f0c59249c8d59fa2eb6171104959f797df89c928a600f42fc5488b7da9e9abc2"
+    },
+    "build_birth_inputs.py": {
+      "bytes": 27802,
+      "sha256": "5d3b886d691b98e0f33f1d18e604e6c16ac57bcb2e1fed9b3960642c181ad203"
+    },
+    "download_sources.py": {
+      "bytes": 4836,
+      "sha256": "5cfa0e53cf117ccaaea83bbc0cc24fcd5907d138e0ffbd9cf30460659be00e65"
+    },
+    "ogdb_birth_inputs.jsonl": {
+      "bytes": 498594,
+      "sha256": "76b78ec7e494c2bccc13922e782631071147519894c64cf691d09b0005e1c2cf"
+    },
+    "ogdb_source_index.jsonl": {
+      "bytes": 286194,
+      "sha256": "6b6ec1a7f582b0da58472c83ad8ad816493e267597c7f090885e8428cf0c49f6"
+    },
+    "requirements.txt": {
+      "bytes": 378,
+      "sha256": "3a01239a5a756ba98e1ef50e24235cbd4e94f072fa9d4008c0d05f9cf4f54a97"
+    },
+    "sampling_design/adb_z2026.json": {
+      "bytes": 26810,
+      "sha256": "fbd64e73645ae15b231079b7a8e045ed1a2eb6a1e1fe70c7a5f60cd415b39b9c"
+    },
+    "sampling_design/brazil2006.json": {
+      "bytes": 12809,
+      "sha256": "39eceec508bcda8665e1d112de9a0c1153ca5dd1856bee0cf0849e282c409a93"
+    },
+    "sampling_design/ogdb2023.json": {
+      "bytes": 8694,
+      "sha256": "42ac8a3760d6e42c2ac58c3938a7860f11435811c2d318cdd730f99f44dd6ff2"
+    },
+    "source_provenance.json": {
+      "bytes": 2157,
+      "sha256": "7f120fb33ad5a1921a553d3fce2c641f1f47d9e4c89da37fb5a388947fd10f8b"
+    },
+    "verification/README.md": {
+      "bytes": 2693,
+      "sha256": "f1a11da44d53fec9f85822b2479f2585cec2f5ca9a4ab3d9743bf01d349485d5"
+    },
+    "verification/fresh_rebuild_validation.json": {
+      "bytes": 4592,
+      "sha256": "fad7285c2a527d589c1b148516cafdd73eaee5b9bca503f6828aab4043ab0f3d"
+    }
+  },
+  "public_jsonl_license": "CC BY-SA 4.0",
+  "original_archives_included": false,
+  "SINASC_or_ADB_row_level_records_included": false,
+  "individual_prediction_or_outcome_files_included": false,
+  "portable_public_copy_verified": true,
+  "fresh_rebuild_evidence": "verification/fresh_rebuild_validation.json"
+}

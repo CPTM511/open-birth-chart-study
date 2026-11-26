@@ -1,0 +1,49 @@
+{
+  "sources": [
+    {
+      "name": "adb_z_sample.zip",
+      "role": "reused_alphabetical_reference_birth_frame",
+      "url": "https://www.astro.com/adbexport/z_sample.zip",
+      "bytes": 232904,
+      "sha256": "f3b9a93eae4bf27588d2e4c0f81cfd47f1b8aad009f7c469843e2974fa371edc",
+      "publication_page": "https://www.astro.com/adbexport/"
+    },
+    {
+      "name": "brazil2006.zip",
+      "role": "birth_record_frame",
+      "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SINASC/csv/DNBR2006_csv.zip",
+      "bytes": 54305352,
+      "sha256": "4089f12103eb7af2840b39f0d5a6c4ac5aafcd46bf3cf9cd77964865ceffdd65",
+      "publication_page": "https://dadosabertos.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc"
+    },
+    {
+      "name": "ogdb_pg_dump.zip",
+      "role": "birth_record_frame",
+      "url": "https://opengauquelin.org/download/ogdb-pg-dump.zip",
+      "bytes": 27780946,
+      "sha256": "b9a90c6bfc5856a05305360e8faa7d67ca71f001a9ae5ab4efd79df81dc0d01c",
+      "publication_page": "https://opengauquelin.org/downloads2"
+    },
+    {
+      "name": "ibge_localities_2022.zip",
+      "role": "municipal_seat_reference_coordinates",
+      "url": "https://geoftp.ibge.gov.br/organizacao_do_territorio/estrutura_territorial/localidades/Localidades_do_Brasil/2022/Localidades_Brasil_gpkg.zip",
+      "bytes": 6477540,
+      "sha256": "1d96d5f0b379972a506d4b18c3696af974fbe59f8f6680557cb3a6dd38a0eb57",
+      "publication_page": "https://www.ibge.gov.br/estatisticas/sociais/saude/22827-censo-demografico-2022.html?edicao=45203"
+    }
+  ],
+  "retrieved_date_utc": "2026-11-26",
+  "tzdb": "2026c",
+  "OGDB_export_last_modified": "2023-08-20",
+  "ADB_XML_member": "z_sample_261110_1240.xml",
+  "source_dictionary": "https://diaad.s3.sa-east-1.amazonaws.com/sinasc/SINASC+-+Estrutura.pdf",
+  "time_zone_source": "https://data.iana.org/time-zones/tzdb/southamerica",
+  "individual_records_redistributed": {
+    "OGDB": "minimal derivative under CC BY-SA 4.0",
+    "SINASC": false,
+    "ADB": false
+  },
+  "no_names_or_outcomes_in_public_data": true,
+  "source_sizes_do_not_prove_global_representativity": true
+}

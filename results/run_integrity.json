@@ -1,0 +1,32 @@
+{
+  "complete": true,
+  "baseline": {
+    "completed_utc": "2026-11-26T08:17:47.827422+00:00",
+    "mode": "baseline",
+    "input_records": 3729,
+    "tasks": 3729,
+    "status_counts": {
+      "computed": 3729
+    },
+    "elapsed_seconds": 1159.2186795089983,
+    "result_sha256": "5bdc0d2e5c53cb15928a4a0781e5c7785085d3d039cfbf7dcc9b44f2a3f1c401",
+    "outcome_inputs": false
+  },
+  "sensitivity": {
+    "completed_utc": "2026-11-26T08:14:33.083565+00:00",
+    "mode": "sensitivity",
+    "input_records": 3729,
+    "tasks": 2800,
+    "status_counts": {
+      "computed": 2800
+    },
+    "elapsed_seconds": 900.4379211560008,
+    "result_sha256": "dedd1b8caa5a67517bdb0ca495883d4fff1c50217f5329d23bdd77ed1b700fc4",
+    "outcome_inputs": false
+  },
+  "baseline_input_records": 3729,
+  "individual_profiles_published": false,
+  "profile_ids_and_calendar_years_checked": true,
+  "scoring_module_hashes_unchanged": true,
+  "outcome_inputs": false
+}

@@ -1,0 +1,82 @@
+{
+  "protocol": "OBS-R8-BZ-ZW-CLAUSES-1.0",
+  "created_utc": "2026-11-26T07:44:30.495758+00:00",
+  "parent_protocol_sha256": "dde15c7ee12ae4ed85c3819568b72232a7dda31e74dc602ac47429d5048a4306",
+  "real_cohort_signals_seen": false,
+  "primary_scores_changed": false,
+  "interpretation_contract": "Clause matches are conditional textual classifications, not life-event truth, a complete doctrine, or a net risk score. Unknown premise remains unknown. Competing/supporting/damaging/rescue clauses are retained simultaneously.",
+  "bazi": {
+    "school": "Explicit bounded month-command rule extraction from Gengcunji/Ziping Zhenquan text; distinguish month-command yongshen from a modern optimal balancing element.",
+    "source": "https://www.shidianguji.com/book/NCL06599A/chapter/1lystjkljywij",
+    "strength": "Report season/main hidden element, roots in hidden stems, heavy-root phases (yang longlife/prosperity/peak, yin prosperity/peak), supportive visible stems. Do NOT infer complete strength from weighted tally or season alone. Full strong/weak dependent clauses abstain unless only their structural premise is reported.",
+    "pattern_selection": "Pure cardinal branches 子午卯酉 use main hidden stem; other branches use a sole exposed month-hidden stem when unique, main hidden stem if none exposed, ambiguous if multiple. Visible stems exclude the day stem. If a complete trine including month is present, ordinary selection is flagged transformation-dependent. Peer/month-blade patterns require separate selection of finance/officer/output candidates; do not invent a unique yongshen.",
+    "clauses": [
+      "BZC01 officer with wealth/resource and no observed damage: formation structural premises",
+      "BZC02 officer with hurting-officer: damage; exposed resource: rescue candidate",
+      "BZC03 wealth with rob-wealth and output/officer: rescue candidate",
+      "BZC04 eating-god with indirect-resource: damage; wealth: protective candidate",
+      "BZC05 seven-killings with eating-god: control candidate; resource: adverse interaction; wealth plus resource: rescue candidate",
+      "BZC06 hurting-officer with officer, excluding metal-day water-output exception: damage; resource/wealth rescue contexts",
+      "BZC07 yang-blade month: officer/killings containment versus absence; wealth/resource and no hurting-officer formation context",
+      "BZC08 peer-command month: officer+wealth/resource or wealth+output or killings+eating-god structural formation premises"
+    ],
+    "combination_rescue": "For each natal month clash record available six-harmony or complete-trine third-party counterweights. Multiple competing combinations are unresolved, never automatically remove clash. Stem combinations preserve positions and whether they involve the day master; not all combinations are treated as removal.",
+    "limits": [
+      "No weights decide classical strength",
+      "No unconditional transformation without prerequisites",
+      "No unique yongshen when candidates compete",
+      "No exhaustive classical hierarchy or climate adjustment",
+      "No mortality judgment"
+    ]
+  },
+  "ziwei": {
+    "source": "https://zh.wikisource.org/wiki/紫微斗數全書/卷三",
+    "sections": [
+      "谈星要论",
+      "论大限十年祸福何如",
+      "论二限太岁吉凶",
+      "论羊陀迭并",
+      "论七杀重逢"
+    ],
+    "clauses": [
+      "ZWC01 decadal life palace: explicitly favorable majors all temple/prosperous; no six-malefic or Ji: supportive clause premises",
+      "ZWC02 decadal fallen major + malefic/Ji together with yearly and minor-cycle malefic contexts: adverse conjunction premises; natal longevity-star rescue is recorded separately",
+      "ZWC03 natal life trine/opposition Qisha and yearly Yang/Tuo in same surroundings: repeated-Qisha clause; temple status and Ziwei/Tianxiang/Lucun surroundings flagged as mitigating/rescue conditions",
+      "ZWC04 natal Yang/Tuo and corresponding annual transit star at same natal-life-surrounding palace: duplicate Yang/Tuo clause",
+      "ZWC05 scope life palace positive transformations/benefics together with adverse factors: mixed rather than force a net verdict"
+    ],
+    "focus": "yearly/decadal primary focus remains life and health only; interpretation uses stated original natal-life and dynamic-life contexts and identifies each explicitly",
+    "major_positive_set": [
+      "紫微",
+      "天府",
+      "天同",
+      "太阳",
+      "太阴",
+      "天梁"
+    ],
+    "longevity_rescue_set": [
+      "紫微",
+      "天同",
+      "天梁",
+      "贪狼"
+    ],
+    "qisha_rescue_set": [
+      "紫微",
+      "天相",
+      "禄存"
+    ],
+    "surround_offsets": [
+      0,
+      4,
+      6,
+      8
+    ],
+    "brightness": "Use pinned iztro tables; temple/prosperous=庙/旺, fallen=陷; missing brightness is unknown, never favorable by default",
+    "limits": [
+      "Terms such as many beneficial stars lack unique thresholds and remain contextual",
+      "No exhaustive pattern priority",
+      "No moral-action or historical outcome claims inferred",
+      "No death predictions"
+    ]
+  }
+}

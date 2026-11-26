@@ -1,0 +1,19 @@
+{
+  "checked_utc": "2026-11-26T08:31:16.723895+00:00",
+  "frozen_and_data_file_hash_checks": 33,
+  "relative_document_links_checked": 119,
+  "failures": [],
+  "individual_jsonl_allowlist": [
+    "data_expansion/ogdb_birth_inputs.jsonl",
+    "data_expansion/ogdb_source_index.jsonl"
+  ],
+  "original_sources_or_private_profiles_in_public_release": false,
+  "code_files_compile": true,
+  "figures_visually_inspected": [
+    "01_sample_coverage",
+    "02_phase_reference",
+    "03_calendar_profiles",
+    "04_clock_sensitivity"
+  ],
+  "no_new_predictive_validity_claim": true
+}

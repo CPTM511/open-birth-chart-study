@@ -1,0 +1,214 @@
+{
+  "created_utc": "2026-11-26T02:21:42.901970+00:00",
+  "root_first_individual_masked_endpoint_read_is_after_scoring_and_result_generation": true,
+  "root_saw_aggregate_outcome_counts_after_label_seal_before_effect_results": true,
+  "new_tests_or_rule_tuning": false,
+  "predictions_unchanged": true,
+  "all_checks_passed": true,
+  "primary": {
+    "result_file_sha256": "22feac09ecd16301e838519746ac692a940c14bda1e270295ffd6f8a8fff6560",
+    "labels_sha256": "ef6a4e9dfba6e9443077683f7aefb2e08d5a826c661729eb580cd5ea1529f76a",
+    "all_checks_passed": true,
+    "holm_10_independently_verified": true,
+    "ratings": {
+      "AA": {
+        "observed_people": 109,
+        "informative_people": 38,
+        "comparison_pairs": 44,
+        "metrics": {
+          "BZ01": {
+            "direct_pair_auc": 0.5,
+            "exact_conditional_p_for_audit_only": 1.0,
+            "prespecified_monte_carlo_p": 1.0,
+            "monte_carlo_agrees_with_exact_within_5se_plus_grid": true,
+            "pairs_in_score_variable_strata": 0,
+            "uses_same_fixed_labels_and_no_rule_changes": true
+          },
+          "ZW01": {
+            "direct_pair_auc": 0.625,
+            "exact_conditional_p_for_audit_only": 0.11428571428571428,
+            "prespecified_monte_carlo_p": 0.11334,
+            "monte_carlo_agrees_with_exact_within_5se_plus_grid": true,
+            "pairs_in_score_variable_strata": 36,
+            "uses_same_fixed_labels_and_no_rule_changes": true
+          },
+          "QZP01": {
+            "direct_pair_auc": 0.4659090909090909,
+            "exact_conditional_p_for_audit_only": 1.0,
+            "prespecified_monte_carlo_p": 1.0,
+            "monte_carlo_agrees_with_exact_within_5se_plus_grid": true,
+            "pairs_in_score_variable_strata": 21,
+            "uses_same_fixed_labels_and_no_rule_changes": true
+          },
+          "W01": {
+            "direct_pair_auc": 0.7045454545454546,
+            "exact_conditional_p_for_audit_only": 0.03458333333333333,
+            "prespecified_monte_carlo_p": 0.03407,
+            "monte_carlo_agrees_with_exact_within_5se_plus_grid": true,
+            "pairs_in_score_variable_strata": 37,
+            "uses_same_fixed_labels_and_no_rule_changes": true
+          },
+          "ENSEMBLE": {
+            "direct_pair_auc": 0.6931818181818182,
+            "exact_conditional_p_for_audit_only": 0.11464285714285713,
+            "prespecified_monte_carlo_p": 0.11476,
+            "monte_carlo_agrees_with_exact_within_5se_plus_grid": true,
+            "pairs_in_score_variable_strata": 43,
+            "uses_same_fixed_labels_and_no_rule_changes": true
+          }
+        }
+      },
+      "A": {
+        "observed_people": 19,
+        "informative_people": 6,
+        "comparison_pairs": 5,
+        "metrics": {
+          "BZ01": {
+            "direct_pair_auc": 0.5,
+            "exact_conditional_p_for_audit_only": 1.0,
+            "prespecified_monte_carlo_p": 1.0,
+            "monte_carlo_agrees_with_exact_within_5se_plus_grid": true,
+            "pairs_in_score_variable_strata": 0,
+            "uses_same_fixed_labels_and_no_rule_changes": true
+          },
+          "ZW01": {
+            "direct_pair_auc": 0.5,
+            "exact_conditional_p_for_audit_only": 1.0,
+            "prespecified_monte_carlo_p": 1.0,
+            "monte_carlo_agrees_with_exact_within_5se_plus_grid": true,
+            "pairs_in_score_variable_strata": 0,
+            "uses_same_fixed_labels_and_no_rule_changes": true
+          },
+          "QZP01": {
+            "direct_pair_auc": 0.3,
+            "exact_conditional_p_for_audit_only": 1.0,
+            "prespecified_monte_carlo_p": 1.0,
+            "monte_carlo_agrees_with_exact_within_5se_plus_grid": true,
+            "pairs_in_score_variable_strata": 5,
+            "uses_same_fixed_labels_and_no_rule_changes": true
+          },
+          "W01": {
+            "direct_pair_auc": 0.3,
+            "exact_conditional_p_for_audit_only": 1.0,
+            "prespecified_monte_carlo_p": 1.0,
+            "monte_carlo_agrees_with_exact_within_5se_plus_grid": true,
+            "pairs_in_score_variable_strata": 5,
+            "uses_same_fixed_labels_and_no_rule_changes": true
+          },
+          "ENSEMBLE": {
+            "direct_pair_auc": 0.2,
+            "exact_conditional_p_for_audit_only": 0.8333333333333333,
+            "prespecified_monte_carlo_p": 0.83471,
+            "monte_carlo_agrees_with_exact_within_5se_plus_grid": true,
+            "pairs_in_score_variable_strata": 5,
+            "uses_same_fixed_labels_and_no_rule_changes": true
+          }
+        }
+      }
+    },
+    "exact_probabilities_are_verification_only": "No replacement of prespecified Monte Carlo p values or decisions"
+  },
+  "supplemental": {
+    "result_file_sha256": "4444f180201c65c449304735282381d6011d2ceeba5836f13117baa4f354c0d9",
+    "labels_sha256": "adc82e3435e4cc5358adef190a50f519b6464948828a33bf331cbd4ee7d9b005",
+    "all_checks_passed": true,
+    "holm_10_independently_verified": true,
+    "ratings": {
+      "AA": {
+        "observed_people": 127,
+        "informative_people": 40,
+        "comparison_pairs": 47,
+        "metrics": {
+          "BZ01": {
+            "direct_pair_auc": 0.5,
+            "exact_conditional_p_for_audit_only": 1.0,
+            "prespecified_monte_carlo_p": 1.0,
+            "monte_carlo_agrees_with_exact_within_5se_plus_grid": true,
+            "pairs_in_score_variable_strata": 0,
+            "uses_same_fixed_labels_and_no_rule_changes": true
+          },
+          "ZW01": {
+            "direct_pair_auc": 0.6276595744680851,
+            "exact_conditional_p_for_audit_only": 0.07272727272727272,
+            "prespecified_monte_carlo_p": 0.07168,
+            "monte_carlo_agrees_with_exact_within_5se_plus_grid": true,
+            "pairs_in_score_variable_strata": 37,
+            "uses_same_fixed_labels_and_no_rule_changes": true
+          },
+          "QZP01": {
+            "direct_pair_auc": 0.46808510638297873,
+            "exact_conditional_p_for_audit_only": 1.0,
+            "prespecified_monte_carlo_p": 1.0,
+            "monte_carlo_agrees_with_exact_within_5se_plus_grid": true,
+            "pairs_in_score_variable_strata": 21,
+            "uses_same_fixed_labels_and_no_rule_changes": true
+          },
+          "W01": {
+            "direct_pair_auc": 0.7021276595744681,
+            "exact_conditional_p_for_audit_only": 0.03626262626262626,
+            "prespecified_monte_carlo_p": 0.03561,
+            "monte_carlo_agrees_with_exact_within_5se_plus_grid": true,
+            "pairs_in_score_variable_strata": 40,
+            "uses_same_fixed_labels_and_no_rule_changes": true
+          },
+          "ENSEMBLE": {
+            "direct_pair_auc": 0.6914893617021277,
+            "exact_conditional_p_for_audit_only": 0.09028138528138528,
+            "prespecified_monte_carlo_p": 0.09141,
+            "monte_carlo_agrees_with_exact_within_5se_plus_grid": true,
+            "pairs_in_score_variable_strata": 46,
+            "uses_same_fixed_labels_and_no_rule_changes": true
+          }
+        }
+      },
+      "A": {
+        "observed_people": 19,
+        "informative_people": 6,
+        "comparison_pairs": 5,
+        "metrics": {
+          "BZ01": {
+            "direct_pair_auc": 0.5,
+            "exact_conditional_p_for_audit_only": 1.0,
+            "prespecified_monte_carlo_p": 1.0,
+            "monte_carlo_agrees_with_exact_within_5se_plus_grid": true,
+            "pairs_in_score_variable_strata": 0,
+            "uses_same_fixed_labels_and_no_rule_changes": true
+          },
+          "ZW01": {
+            "direct_pair_auc": 0.5,
+            "exact_conditional_p_for_audit_only": 1.0,
+            "prespecified_monte_carlo_p": 1.0,
+            "monte_carlo_agrees_with_exact_within_5se_plus_grid": true,
+            "pairs_in_score_variable_strata": 0,
+            "uses_same_fixed_labels_and_no_rule_changes": true
+          },
+          "QZP01": {
+            "direct_pair_auc": 0.3,
+            "exact_conditional_p_for_audit_only": 1.0,
+            "prespecified_monte_carlo_p": 1.0,
+            "monte_carlo_agrees_with_exact_within_5se_plus_grid": true,
+            "pairs_in_score_variable_strata": 5,
+            "uses_same_fixed_labels_and_no_rule_changes": true
+          },
+          "W01": {
+            "direct_pair_auc": 0.3,
+            "exact_conditional_p_for_audit_only": 1.0,
+            "prespecified_monte_carlo_p": 1.0,
+            "monte_carlo_agrees_with_exact_within_5se_plus_grid": true,
+            "pairs_in_score_variable_strata": 5,
+            "uses_same_fixed_labels_and_no_rule_changes": true
+          },
+          "ENSEMBLE": {
+            "direct_pair_auc": 0.2,
+            "exact_conditional_p_for_audit_only": 0.8333333333333333,
+            "prespecified_monte_carlo_p": 0.83471,
+            "monte_carlo_agrees_with_exact_within_5se_plus_grid": true,
+            "pairs_in_score_variable_strata": 5,
+            "uses_same_fixed_labels_and_no_rule_changes": true
+          }
+        }
+      }
+    },
+    "exact_probabilities_are_verification_only": "No replacement of prespecified Monte Carlo p values or decisions"
+  }
+}

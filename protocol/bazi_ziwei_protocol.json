@@ -1,0 +1,127 @@
+{
+  "protocol": "OBS-R8-BZ-ZW-1.0",
+  "created_utc": "2026-11-26T07:39:18.426871+00:00",
+  "real_cohort_signal_outputs_seen": false,
+  "purpose": "Annual structural signal study, not mortality prediction or a test of real-life risk.",
+  "input": {
+    "calendar": "proleptic Gregorian; no guessed calendar conversions",
+    "required_bazi": [
+      "study_id",
+      "birth_local",
+      "sex",
+      "birth_utc or source_offset_seconds or timezone_offset_minutes"
+    ],
+    "required_ziwei": [
+      "study_id",
+      "birth_local",
+      "sex"
+    ],
+    "birth_years": [
+      1880,
+      2019
+    ],
+    "sex": "M or F recorded source field, otherwise abstain; no identity inference",
+    "clock_primary": "recorded local civil clock",
+    "clock_sensitivity": "root prespecified shifts ±30 and ±120 minutes; apparent solar clock is an optional separately labelled scenario if coordinates/instant known"
+  },
+  "annual_snapshot": {
+    "date": "July 1 12:00 local source-reference clock",
+    "year_range": [
+      2026,
+      2070
+    ],
+    "not_full_year_coverage": true,
+    "age": "root computes civil attained age at snapshot; engines also expose their own nominal cycle ages"
+  },
+  "bazi": {
+    "implementation": "lunar-python 1.4.9 plus explicit structural relations",
+    "season_clock": "same birth instant expressed UTC+8 for solar-term year/month and qiyun calculation; local clock only for day/hour",
+    "day_boundary": "23:00 forward (EightChar sect 1)",
+    "qiyun": "lunar-python Yun sect2 minute-proportional 3 days=1 year; yang male/yin female forward, converse backward; explicit integer minute conversion",
+    "decade_interval": "exact first qiyun timestamp then successive ten-calendar-year intervals, not rounded birth-year bins",
+    "primary_score": "number of six-clash branch pairs between annual/active decadal pillars and four natal pillars divided by 8; pre-qiyun score unavailable",
+    "secondary": "stem controls, stem combinations, six harmonies, six harms, full punishment sets, self punishments, full three-harmony sets, repeated pillars, combined stem-control/branch-clash, twelve growth phases; descriptive support tally only",
+    "strength": "visible stems weight1, each branch hidden stems share total weight1; month branch hidden weights doubled; same/resource element fraction. Weak<0.45, balanced[.45,.55], strong>.55 is a research annotation, NOT a canonical wangshuai verdict.",
+    "patterns": "month main-hidden-stem ten-god annotation, exposed/rooted features; transformations and yongshen not automatically adjudicated",
+    "rescue": "report combination/resource context separately; do not numerically erase a clash or convert into a calibrated favorable/unfavorable outcome",
+    "complete_traditional_interpretive_system": false,
+    "missing_interpretive_modules": [
+      "adjudicated transformations",
+      "complete seasonal strength doctrine",
+      "special pattern selection",
+      "yongshen arbitration",
+      "full classical rescue and outcome judgment"
+    ]
+  },
+  "ziwei": {
+    "implementation": "iztro 2.6.5 default placement version",
+    "config": {
+      "language": "zh-CN",
+      "yearDivide": "normal",
+      "horoscopeDivide": "normal",
+      "ageDivide": "normal",
+      "dayDivide": "forward",
+      "algorithm": "default",
+      "mutagens": {},
+      "brightness": {}
+    },
+    "fixLeap": true,
+    "overseas_mapping": "source local Gregorian date into Chinese date-to-lunar table, a declared convention, not an authenticated universal traditional mapping",
+    "primary_score": "mean of two indicators: yearly hua-ji natal-star position lies in yearly life/health palaces; decadal hua-ji natal-star position lies in decadal life/health palaces. Both valid scopes required.",
+    "focus_palaces": [
+      "命宫",
+      "疾厄"
+    ],
+    "secondary": "all 12 natal palaces, main/minor/decorative stars, brightness, natal four transformations, decadal/yearly palace maps and transformations/transit stars, six-malefic and benefic surroundings, fallen major-star counts, positive transformation context",
+    "six_malefics": [
+      "擎羊",
+      "陀罗",
+      "火星",
+      "铃星",
+      "地空",
+      "地劫"
+    ],
+    "benefics": [
+      "紫微",
+      "天府",
+      "文昌",
+      "文曲",
+      "左辅",
+      "右弼",
+      "天魁",
+      "天钺",
+      "禄存"
+    ],
+    "rescue": "context counts and positive transformations retained separately; no unsupported net risk score",
+    "complete_traditional_interpretive_system": false,
+    "missing_interpretive_modules": [
+      "all classical pattern priorities",
+      "all interaction and rescue adjudication",
+      "calibrated event interpretation"
+    ]
+  },
+  "completeness_rule": "Computational pipeline completion must be distinguished from a complete traditional interpretive system; never label these primary structural scores as four full validated prediction systems.",
+  "fixed_before_actual_signal_run": true,
+  "sources": [
+    {
+      "url": "https://www.shidianguji.com/book/SK1610/chapter/1kf5v6ol1vhnp",
+      "role": "Sanming Tonghui luck-period and contextual interpretation text; does not justify this study numeric score"
+    },
+    {
+      "url": "https://zh.wikisource.org/wiki/紫微斗數全書/卷三",
+      "role": "Ziwei natal/decadal/yearly, mutagen, brightness and rescue context; does not define a unique numeric mortality model"
+    },
+    {
+      "url": "https://github.com/6tail/lunar-python/blob/master/lunar_python/eightchar/Yun.py",
+      "role": "Exact implementation inspected and pinned at installed 1.4.9"
+    },
+    {
+      "url": "https://github.com/SylarLong/iztro",
+      "role": "Author implementation and 2.6.5 convention definitions"
+    },
+    {
+      "url": "https://docs.iztro.com/en_US/posts/horoscope",
+      "role": "Official cycle API"
+    }
+  ]
+}

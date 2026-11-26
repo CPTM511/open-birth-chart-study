@@ -1,0 +1,16 @@
+{
+  "frozen_utc": "2026-11-26T07:56:59.947189+00:00",
+  "real_cohort_rows_opened": 0,
+  "versions": [
+    "OBS-R8-ASTRO-1.0",
+    "OBS-R8-WEST-1.0",
+    "OBS-R8-QZ-1.0"
+  ],
+  "sha256": {
+    "protocol/qizheng_western_protocol.json": "9a021cf31a4240258d91f5d80e1e6595ac1122412000d8ca7420407727bbf126",
+    "src/open_birth_chart/astronomy.py": "9331f1a20b6571207f28632bf89d72969c6992072c99fb3ff1235439502fb550",
+    "src/open_birth_chart/western_engine.py": "651c791cdaa20215c04214edda13c105dd9d111335585cca6d07d235f9dbe8a1",
+    "src/open_birth_chart/qizheng_engine.py": "d50d0c7de06ca16cb0cf19557fd51b65f240363c68e7ce6bb9daa8f483c6123d"
+  },
+  "postfreeze_rule_changes_require_new_version": true
+}

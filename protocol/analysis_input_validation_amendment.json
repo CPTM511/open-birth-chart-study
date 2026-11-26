@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-11-26T08:01:06.500237+00:00",
+  "reason": "Independent reviewer found that a short input-key list could silently drop null participants while retaining observed participants.",
+  "change": "Strict equal-length and nonempty input guards only; source-cohort inputs already use one key per person. No scoring rules or hypotheses changed.",
+  "old_analysis_sha256": "0adfd9be37328603cc428fc6065d02725dc50630160ef0996a149ee3f31a522e",
+  "new_analysis_sha256": "da388f88e65317c2000c71496ce5f3033dd4ec69b906f0923c9c018afa27c25f",
+  "new_test_sha256": "845d8fc1df6fc2a950fb31703a660dc273582a98937172a2a767d31d33062a03",
+  "any_real_statistical_result_seen": false,
+  "model_rules_changed": false
+}

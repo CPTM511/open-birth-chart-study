@@ -1,0 +1,99 @@
+{
+  "counts": {
+    "birth_JSON_parsed": 25869,
+    "complete_clock_offset_coordinate_any_sex": 12593,
+    "complete_clock_offset_coordinate_explicit_MF": 1769,
+    "four_system_birth_input_eligible": 1388,
+    "historical_complete_fields_before_offset_consistency": 1621,
+    "raw_person_records": 25869
+  },
+  "deduplication": {
+    "limitation": "No cross-source identity linkage and no name-based deduplication were performed; legitimate identical birth timestamps may exist.",
+    "same_birth_tuple_removed": false,
+    "unit": "public.person numeric primary ID"
+  },
+  "eligible_countries": {
+    "BE": 1,
+    "DE": 15,
+    "FR": 833,
+    "IT": 178,
+    "LU": 1,
+    "US": 360
+  },
+  "eligible_decades": {
+    "1880": 78,
+    "1890": 133,
+    "1900": 135,
+    "1910": 200,
+    "1920": 379,
+    "1930": 308,
+    "1940": 117,
+    "1950": 36,
+    "1960": 2
+  },
+  "eligible_strata": {
+    "BE|F|1900|source_clock_offset_consistent_locality_reference": 1,
+    "DE|F|1920|source_clock_offset_consistent_locality_reference": 2,
+    "DE|M|1890|source_clock_offset_consistent_locality_reference": 8,
+    "DE|M|1900|source_clock_offset_consistent_locality_reference": 3,
+    "DE|M|1910|source_clock_offset_consistent_locality_reference": 2,
+    "FR|F|1880|source_clock_offset_consistent_locality_reference": 1,
+    "FR|F|1890|source_clock_offset_consistent_locality_reference": 6,
+    "FR|F|1900|source_clock_offset_consistent_locality_reference": 6,
+    "FR|F|1910|source_clock_offset_consistent_locality_reference": 4,
+    "FR|F|1920|source_clock_offset_consistent_locality_reference": 15,
+    "FR|F|1930|source_clock_offset_consistent_locality_reference": 8,
+    "FR|F|1940|source_clock_offset_consistent_locality_reference": 1,
+    "FR|M|1880|source_clock_offset_consistent_locality_reference": 16,
+    "FR|M|1890|source_clock_offset_consistent_locality_reference": 62,
+    "FR|M|1900|source_clock_offset_consistent_locality_reference": 82,
+    "FR|M|1910|source_clock_offset_consistent_locality_reference": 139,
+    "FR|M|1920|source_clock_offset_consistent_locality_reference": 295,
+    "FR|M|1930|source_clock_offset_consistent_locality_reference": 195,
+    "FR|M|1940|source_clock_offset_consistent_locality_reference": 3,
+    "IT|F|1880|source_clock_offset_consistent_locality_reference": 1,
+    "IT|F|1900|source_clock_offset_consistent_locality_reference": 1,
+    "IT|M|1880|source_clock_offset_consistent_locality_reference": 59,
+    "IT|M|1890|source_clock_offset_consistent_locality_reference": 57,
+    "IT|M|1900|source_clock_offset_consistent_locality_reference": 38,
+    "IT|M|1910|source_clock_offset_consistent_locality_reference": 21,
+    "IT|M|1920|source_clock_offset_consistent_locality_reference": 1,
+    "LU|M|1880|source_clock_offset_consistent_locality_reference": 1,
+    "US|F|1900|source_clock_offset_consistent_locality_reference": 1,
+    "US|F|1910|source_clock_offset_consistent_locality_reference": 6,
+    "US|F|1920|source_clock_offset_consistent_locality_reference": 8,
+    "US|F|1930|source_clock_offset_consistent_locality_reference": 7,
+    "US|F|1940|source_clock_offset_consistent_locality_reference": 8,
+    "US|F|1950|source_clock_offset_consistent_locality_reference": 10,
+    "US|F|1960|source_clock_offset_consistent_locality_reference": 1,
+    "US|M|1900|source_clock_offset_consistent_locality_reference": 3,
+    "US|M|1910|source_clock_offset_consistent_locality_reference": 28,
+    "US|M|1920|source_clock_offset_consistent_locality_reference": 58,
+    "US|M|1930|source_clock_offset_consistent_locality_reference": 98,
+    "US|M|1940|source_clock_offset_consistent_locality_reference": 105,
+    "US|M|1950|source_clock_offset_consistent_locality_reference": 26,
+    "US|M|1960|source_clock_offset_consistent_locality_reference": 1
+  },
+  "excluded": {
+    "local_UTC_offset_conflict_gt_1_second": 233,
+    "missing_invalid_clock_offset_or_coordinate": 13276,
+    "missing_or_other_sex": 10824,
+    "outside_historical_window_1880_1979": 148
+  },
+  "minute_mod5_eligible": {
+    "0": 1269,
+    "1": 30,
+    "2": 27,
+    "3": 33,
+    "4": 29
+  },
+  "offset_residual_seconds": {
+    "-1": 162,
+    "0": 1226
+  },
+  "sex_raw": {
+    "F": 426,
+    "M": 5139,
+    "\\N": 20304
+  }
+}

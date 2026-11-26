@@ -1,0 +1,3 @@
+# Optional figure rendering and article HTML dependencies used for this release.
+matplotlib==3.10.8
+markdown2==2.5.3

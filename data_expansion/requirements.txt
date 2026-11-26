@@ -1,0 +1,5 @@
+# Birth-data expansion scripts require Python >= 3.10 and the standard library.
+# No third-party Python package is required on hosts with an IANA zoneinfo database.
+# The frozen Brazilian conversion used IANA tzdb 2026c.
+# On hosts without a system zoneinfo database, install a Python tzdata release
+# whose tzdata.IANA_VERSION is "2026c"; see REQUIREMENTS.md for verification.

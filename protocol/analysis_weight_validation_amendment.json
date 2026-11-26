@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-11-26T08:04:39.761656+00:00",
+  "reason": "Independent synthetic audit found that Nx1 weights could broadcast across people and produce rates >1.",
+  "change": "Reject non-one-dimensional weight vectors in analysis helpers; the real source-loader already supplies flat scalar weights. No model or statistical hypothesis change.",
+  "old_analysis_sha256": "da388f88e65317c2000c71496ce5f3033dd4ec69b906f0923c9c018afa27c25f",
+  "new_analysis_sha256": "a8466fa1ff9e0113411f64835147d7be45a8ae6324a1d3923c545bc57e00fef9",
+  "any_real_statistical_result_seen": false
+}

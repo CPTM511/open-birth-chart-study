@@ -1,0 +1,179 @@
+{
+  "created_utc": "2026-11-26T07:56:59.933408+00:00",
+  "real_cohort_rows_opened": 0,
+  "test_count": 11,
+  "test_failures": 0,
+  "test_errors": 0,
+  "independent_astronomy_cases": 50,
+  "max_nominal_ut_arcsec": 27.972869853363136,
+  "max_matched_tt_arcsec": 11.83197412261734,
+  "historical_four_point_summary": [
+    {
+      "point": "Yuebo",
+      "variant": "mean",
+      "n": 12,
+      "max_abs_error_arcmin": 34.85073145119259,
+      "mean_abs_error_arcmin": 31.17191234281364,
+      "historical_algorithm_equivalence_claimed": false
+    },
+    {
+      "point": "Yuebo",
+      "variant": "osculating",
+      "n": 12,
+      "max_abs_error_arcmin": 1638.6762861388524,
+      "mean_abs_error_arcmin": 564.3315854645622,
+      "historical_algorithm_equivalence_claimed": false
+    },
+    {
+      "point": "Luohou",
+      "variant": "mean",
+      "n": 12,
+      "max_abs_error_arcmin": 22.036841393620534,
+      "mean_abs_error_arcmin": 13.140975042635716,
+      "historical_algorithm_equivalence_claimed": false
+    },
+    {
+      "point": "Luohou",
+      "variant": "osculating",
+      "n": 12,
+      "max_abs_error_arcmin": 22.036841393620534,
+      "mean_abs_error_arcmin": 13.140975042635716,
+      "historical_algorithm_equivalence_claimed": false
+    },
+    {
+      "point": "Jidu",
+      "variant": "mean",
+      "n": 12,
+      "max_abs_error_arcmin": 23.03684139362133,
+      "mean_abs_error_arcmin": 14.140975042635944,
+      "historical_algorithm_equivalence_claimed": false
+    },
+    {
+      "point": "Jidu",
+      "variant": "osculating",
+      "n": 12,
+      "max_abs_error_arcmin": 23.03684139362133,
+      "mean_abs_error_arcmin": 14.140975042635944,
+      "historical_algorithm_equivalence_claimed": false
+    },
+    {
+      "point": "Ziqi",
+      "variant": "mean",
+      "n": 12,
+      "max_abs_error_arcmin": 0.5728861866805346,
+      "mean_abs_error_arcmin": 0.2669047143102432,
+      "historical_algorithm_equivalence_claimed": false
+    },
+    {
+      "point": "Ziqi",
+      "variant": "osculating",
+      "n": 12,
+      "max_abs_error_arcmin": 0.5728861866805346,
+      "mean_abs_error_arcmin": 0.2669047143102432,
+      "historical_algorithm_equivalence_claimed": false
+    }
+  ],
+  "mansion_cross_source_checks": [
+    {
+      "mansion": "箕",
+      "tongzhi_start_deg": 267.68333333333334,
+      "qing_shi_gao_inferred_start_deg": 267.6797222222222,
+      "difference_arcmin": 0.21666666666760648,
+      "known_source_conflict": false
+    },
+    {
+      "mansion": "斗",
+      "tongzhi_start_deg": 276.6,
+      "qing_shi_gao_inferred_start_deg": 276.595,
+      "difference_arcmin": 0.29999999999972715,
+      "known_source_conflict": false
+    },
+    {
+      "mansion": "危",
+      "tongzhi_start_deg": 329.78333333333336,
+      "qing_shi_gao_inferred_start_deg": 329.78777777777776,
+      "difference_arcmin": -0.2666666666641504,
+      "known_source_conflict": false
+    },
+    {
+      "mansion": "室",
+      "tongzhi_start_deg": 349.9,
+      "qing_shi_gao_inferred_start_deg": 349.9036111111111,
+      "difference_arcmin": -0.21666666666760648,
+      "known_source_conflict": false
+    },
+    {
+      "mansion": "奎",
+      "tongzhi_start_deg": 18.85,
+      "qing_shi_gao_inferred_start_deg": 18.852222222222224,
+      "difference_arcmin": -0.1333333333337805,
+      "known_source_conflict": false
+    },
+    {
+      "mansion": "昴",
+      "tongzhi_start_deg": 55.833333333333336,
+      "qing_shi_gao_inferred_start_deg": 55.83916666666667,
+      "difference_arcmin": -0.3499999999996817,
+      "known_source_conflict": false
+    },
+    {
+      "mansion": "参",
+      "tongzhi_start_deg": 81.11666666666666,
+      "qing_shi_gao_inferred_start_deg": 81.07916666666667,
+      "difference_arcmin": 2.249999999999659,
+      "known_source_conflict": true
+    },
+    {
+      "mansion": "井",
+      "tongzhi_start_deg": 91.71666666666667,
+      "qing_shi_gao_inferred_start_deg": 91.71944444444445,
+      "difference_arcmin": -0.16666666666765195,
+      "known_source_conflict": false
+    },
+    {
+      "mansion": "星",
+      "tongzhi_start_deg": 143.71666666666667,
+      "qing_shi_gao_inferred_start_deg": 143.7163888888889,
+      "difference_arcmin": 0.016666666666083074,
+      "known_source_conflict": false
+    },
+    {
+      "mansion": "翼",
+      "tongzhi_start_deg": 170.35,
+      "qing_shi_gao_inferred_start_deg": 170.19527777777776,
+      "difference_arcmin": 9.283333333333985,
+      "known_source_conflict": true
+    },
+    {
+      "mansion": "角",
+      "tongzhi_start_deg": 200.26666666666668,
+      "qing_shi_gao_inferred_start_deg": 200.2725,
+      "difference_arcmin": -0.3499999999996817,
+      "known_source_conflict": false
+    },
+    {
+      "mansion": "房",
+      "tongzhi_start_deg": 239.36666666666667,
+      "qing_shi_gao_inferred_start_deg": 239.3736111111111,
+      "difference_arcmin": -0.4166666666657193,
+      "known_source_conflict": false
+    }
+  ],
+  "performance": [
+    {
+      "system": "OBS-R8-WEST-1.0",
+      "40years_first_s": 0.21864056200138293,
+      "40years_different_birth_shared_transits_s": 0.08538432900058979,
+      "3388persons_single_process_projection_s": 289.2821066539982
+    },
+    {
+      "system": "OBS-R8-QZ-1.0",
+      "40years_first_s": 0.06269457599955786,
+      "40years_different_birth_shared_transits_s": 0.013850105999154039,
+      "3388persons_single_process_projection_s": 46.92415912513388
+    }
+  ],
+  "validation_kind": "astronomical and implementation checks, not outcome/death forecast validity",
+  "native_qing_yuebo_unimplemented": true,
+  "unresolved_source_conflict": "Wing mansion boundary differs by9arcmin17arcsec, Shen by2arcmin15arcsec between two sources; selected Tongzhi version retained"
+}

@@ -1,0 +1,694 @@
+{
+  "description": "Preselected one-at-a-time stress points; all baseline calendar years retained.",
+  "no_significance_tests": true,
+  "groups": [
+    {
+      "source": "adb_z2026",
+      "variant": "clock_+120",
+      "planned_profiles": 200,
+      "paired_complete_profiles": 200,
+      "weighting": "unweighted fixed-hash stress subset, not a population estimate",
+      "error_interval_claimed": false,
+      "systems": {
+        "bazi": {
+          "mean_absolute_raw_change": 0.040390625,
+          "maximum_absolute_raw_change": 0.25,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.121475,
+          "elevated_flag_flip_fraction": 0.120875
+        },
+        "ziwei": {
+          "mean_absolute_raw_change": 0.2040625,
+          "maximum_absolute_raw_change": 1.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.203559375,
+          "elevated_flag_flip_fraction": 0.2385
+        },
+        "qizheng": {
+          "mean_absolute_raw_change": 0.06449868055555555,
+          "maximum_absolute_raw_change": 0.3637777777777778,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.38030624999999996,
+          "elevated_flag_flip_fraction": 0.35925
+        },
+        "western": {
+          "mean_absolute_raw_change": 0.011085869230376062,
+          "maximum_absolute_raw_change": 0.06542922948400236,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.25905625,
+          "elevated_flag_flip_fraction": 0.25025
+        }
+      },
+      "concordance_flag_flip_fraction": 0.037375,
+      "profiles_with_any_concordance_flip": 155,
+      "baseline_concordance_fraction": 0.019,
+      "stress_concordance_fraction": 0.020875,
+      "paired_record_years": 8000
+    },
+    {
+      "source": "adb_z2026",
+      "variant": "clock_+30",
+      "planned_profiles": 200,
+      "paired_complete_profiles": 200,
+      "weighting": "unweighted fixed-hash stress subset, not a population estimate",
+      "error_interval_claimed": false,
+      "systems": {
+        "bazi": {
+          "mean_absolute_raw_change": 0.011,
+          "maximum_absolute_raw_change": 0.25,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.26,
+          "mean_absolute_within_person_percentile_change": 0.03189375,
+          "elevated_flag_flip_fraction": 0.03125
+        },
+        "ziwei": {
+          "mean_absolute_raw_change": 0.0485625,
+          "maximum_absolute_raw_change": 1.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.255,
+          "mean_absolute_within_person_percentile_change": 0.04878124999999999,
+          "elevated_flag_flip_fraction": 0.0605
+        },
+        "qizheng": {
+          "mean_absolute_raw_change": 0.01780990277777778,
+          "maximum_absolute_raw_change": 0.3637777777777778,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.27,
+          "mean_absolute_within_person_percentile_change": 0.10186562500000002,
+          "elevated_flag_flip_fraction": 0.09525
+        },
+        "western": {
+          "mean_absolute_raw_change": 0.010356658499873638,
+          "maximum_absolute_raw_change": 0.060932494942584285,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.24439375000000002,
+          "elevated_flag_flip_fraction": 0.23925
+        }
+      },
+      "concordance_flag_flip_fraction": 0.023875,
+      "profiles_with_any_concordance_flip": 116,
+      "baseline_concordance_fraction": 0.019,
+      "stress_concordance_fraction": 0.018625,
+      "paired_record_years": 8000
+    },
+    {
+      "source": "adb_z2026",
+      "variant": "clock_-120",
+      "planned_profiles": 200,
+      "paired_complete_profiles": 200,
+      "weighting": "unweighted fixed-hash stress subset, not a population estimate",
+      "error_interval_claimed": false,
+      "systems": {
+        "bazi": {
+          "mean_absolute_raw_change": 0.041203125,
+          "maximum_absolute_raw_change": 0.25,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.12107187500000001,
+          "elevated_flag_flip_fraction": 0.12125
+        },
+        "ziwei": {
+          "mean_absolute_raw_change": 0.2149375,
+          "maximum_absolute_raw_change": 1.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.21266250000000003,
+          "elevated_flag_flip_fraction": 0.251875
+        },
+        "qizheng": {
+          "mean_absolute_raw_change": 0.06428023611111111,
+          "maximum_absolute_raw_change": 0.38899999999999996,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.38040937500000005,
+          "elevated_flag_flip_fraction": 0.35975
+        },
+        "western": {
+          "mean_absolute_raw_change": 0.011149594735869059,
+          "maximum_absolute_raw_change": 0.061228759292199966,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.2635125,
+          "elevated_flag_flip_fraction": 0.25175
+        }
+      },
+      "concordance_flag_flip_fraction": 0.037875,
+      "profiles_with_any_concordance_flip": 153,
+      "baseline_concordance_fraction": 0.019,
+      "stress_concordance_fraction": 0.022625,
+      "paired_record_years": 8000
+    },
+    {
+      "source": "adb_z2026",
+      "variant": "clock_-30",
+      "planned_profiles": 200,
+      "paired_complete_profiles": 200,
+      "weighting": "unweighted fixed-hash stress subset, not a population estimate",
+      "error_interval_claimed": false,
+      "systems": {
+        "bazi": {
+          "mean_absolute_raw_change": 0.009125,
+          "maximum_absolute_raw_change": 0.25,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.225,
+          "mean_absolute_within_person_percentile_change": 0.026925000000000004,
+          "elevated_flag_flip_fraction": 0.025375
+        },
+        "ziwei": {
+          "mean_absolute_raw_change": 0.044875,
+          "maximum_absolute_raw_change": 1.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.22,
+          "mean_absolute_within_person_percentile_change": 0.04381875,
+          "elevated_flag_flip_fraction": 0.051625
+        },
+        "qizheng": {
+          "mean_absolute_raw_change": 0.017665125,
+          "maximum_absolute_raw_change": 0.33599999999999997,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.3,
+          "mean_absolute_within_person_percentile_change": 0.10508125,
+          "elevated_flag_flip_fraction": 0.09725
+        },
+        "western": {
+          "mean_absolute_raw_change": 0.010357877510352605,
+          "maximum_absolute_raw_change": 0.0761154057510431,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.245771875,
+          "elevated_flag_flip_fraction": 0.2405
+        }
+      },
+      "concordance_flag_flip_fraction": 0.0235,
+      "profiles_with_any_concordance_flip": 116,
+      "baseline_concordance_fraction": 0.019,
+      "stress_concordance_fraction": 0.0205,
+      "paired_record_years": 8000
+    },
+    {
+      "source": "brazil2006",
+      "variant": "clock_+120",
+      "planned_profiles": 200,
+      "paired_complete_profiles": 200,
+      "weighting": "unweighted fixed-hash stress subset, not a population estimate",
+      "error_interval_claimed": false,
+      "systems": {
+        "bazi": {
+          "mean_absolute_raw_change": 0.0413125,
+          "maximum_absolute_raw_change": 0.5,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.120015625,
+          "elevated_flag_flip_fraction": 0.1245
+        },
+        "ziwei": {
+          "mean_absolute_raw_change": 0.21,
+          "maximum_absolute_raw_change": 1.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.20844062500000002,
+          "elevated_flag_flip_fraction": 0.22675
+        },
+        "qizheng": {
+          "mean_absolute_raw_change": 0.05747998611111112,
+          "maximum_absolute_raw_change": 0.3337777777777778,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.36542500000000006,
+          "elevated_flag_flip_fraction": 0.348875
+        },
+        "western": {
+          "mean_absolute_raw_change": 0.012322282985186167,
+          "maximum_absolute_raw_change": 0.09122169772818015,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.2773375,
+          "elevated_flag_flip_fraction": 0.27875
+        }
+      },
+      "concordance_flag_flip_fraction": 0.041,
+      "profiles_with_any_concordance_flip": 153,
+      "baseline_concordance_fraction": 0.021625,
+      "stress_concordance_fraction": 0.023375,
+      "paired_record_years": 8000
+    },
+    {
+      "source": "brazil2006",
+      "variant": "clock_+30",
+      "planned_profiles": 200,
+      "paired_complete_profiles": 200,
+      "weighting": "unweighted fixed-hash stress subset, not a population estimate",
+      "error_interval_claimed": false,
+      "systems": {
+        "bazi": {
+          "mean_absolute_raw_change": 0.01003125,
+          "maximum_absolute_raw_change": 0.25,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.285,
+          "mean_absolute_within_person_percentile_change": 0.029440625000000005,
+          "elevated_flag_flip_fraction": 0.031125
+        },
+        "ziwei": {
+          "mean_absolute_raw_change": 0.066625,
+          "maximum_absolute_raw_change": 1.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.28,
+          "mean_absolute_within_person_percentile_change": 0.065134375,
+          "elevated_flag_flip_fraction": 0.066875
+        },
+        "qizheng": {
+          "mean_absolute_raw_change": 0.01710533333333333,
+          "maximum_absolute_raw_change": 0.3337777777777778,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.295,
+          "mean_absolute_within_person_percentile_change": 0.10630937499999998,
+          "elevated_flag_flip_fraction": 0.10075
+        },
+        "western": {
+          "mean_absolute_raw_change": 0.01054533073496275,
+          "maximum_absolute_raw_change": 0.09585823037167784,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.23788125,
+          "elevated_flag_flip_fraction": 0.24975
+        }
+      },
+      "concordance_flag_flip_fraction": 0.03125,
+      "profiles_with_any_concordance_flip": 131,
+      "baseline_concordance_fraction": 0.021625,
+      "stress_concordance_fraction": 0.025875,
+      "paired_record_years": 8000
+    },
+    {
+      "source": "brazil2006",
+      "variant": "clock_-120",
+      "planned_profiles": 200,
+      "paired_complete_profiles": 200,
+      "weighting": "unweighted fixed-hash stress subset, not a population estimate",
+      "error_interval_claimed": false,
+      "systems": {
+        "bazi": {
+          "mean_absolute_raw_change": 0.04175,
+          "maximum_absolute_raw_change": 0.5,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.121796875,
+          "elevated_flag_flip_fraction": 0.125875
+        },
+        "ziwei": {
+          "mean_absolute_raw_change": 0.2116875,
+          "maximum_absolute_raw_change": 1.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.21016562499999997,
+          "elevated_flag_flip_fraction": 0.236875
+        },
+        "qizheng": {
+          "mean_absolute_raw_change": 0.057127513888888884,
+          "maximum_absolute_raw_change": 0.33377777777777773,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.365953125,
+          "elevated_flag_flip_fraction": 0.352875
+        },
+        "western": {
+          "mean_absolute_raw_change": 0.012196068701878194,
+          "maximum_absolute_raw_change": 0.08803293913421142,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.27706875000000003,
+          "elevated_flag_flip_fraction": 0.27325
+        }
+      },
+      "concordance_flag_flip_fraction": 0.040625,
+      "profiles_with_any_concordance_flip": 155,
+      "baseline_concordance_fraction": 0.021625,
+      "stress_concordance_fraction": 0.02175,
+      "paired_record_years": 8000
+    },
+    {
+      "source": "brazil2006",
+      "variant": "clock_-30",
+      "planned_profiles": 200,
+      "paired_complete_profiles": 200,
+      "weighting": "unweighted fixed-hash stress subset, not a population estimate",
+      "error_interval_claimed": false,
+      "systems": {
+        "bazi": {
+          "mean_absolute_raw_change": 0.0135625,
+          "maximum_absolute_raw_change": 0.5,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.305,
+          "mean_absolute_within_person_percentile_change": 0.038809375,
+          "elevated_flag_flip_fraction": 0.04125
+        },
+        "ziwei": {
+          "mean_absolute_raw_change": 0.06175,
+          "maximum_absolute_raw_change": 1.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.29,
+          "mean_absolute_within_person_percentile_change": 0.060534375,
+          "elevated_flag_flip_fraction": 0.071125
+        },
+        "qizheng": {
+          "mean_absolute_raw_change": 0.013281166666666667,
+          "maximum_absolute_raw_change": 0.24711111111111111,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.255,
+          "mean_absolute_within_person_percentile_change": 0.0881875,
+          "elevated_flag_flip_fraction": 0.085375
+        },
+        "western": {
+          "mean_absolute_raw_change": 0.010566676306593331,
+          "maximum_absolute_raw_change": 0.08838839428844342,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.23438437499999998,
+          "elevated_flag_flip_fraction": 0.24775
+        }
+      },
+      "concordance_flag_flip_fraction": 0.02775,
+      "profiles_with_any_concordance_flip": 122,
+      "baseline_concordance_fraction": 0.021625,
+      "stress_concordance_fraction": 0.023625,
+      "paired_record_years": 8000
+    },
+    {
+      "source": "brazil2006",
+      "variant": "geo_east",
+      "planned_profiles": 100,
+      "paired_complete_profiles": 100,
+      "weighting": "unweighted fixed-hash stress subset, not a population estimate",
+      "error_interval_claimed": false,
+      "systems": {
+        "bazi": {
+          "mean_absolute_raw_change": 0.0,
+          "maximum_absolute_raw_change": 0.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.0,
+          "mean_absolute_within_person_percentile_change": 0.0,
+          "elevated_flag_flip_fraction": 0.0
+        },
+        "ziwei": {
+          "mean_absolute_raw_change": 0.0,
+          "maximum_absolute_raw_change": 0.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.0,
+          "mean_absolute_within_person_percentile_change": 0.0,
+          "elevated_flag_flip_fraction": 0.0
+        },
+        "qizheng": {
+          "mean_absolute_raw_change": 0.0,
+          "maximum_absolute_raw_change": 0.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.0,
+          "mean_absolute_within_person_percentile_change": 0.0,
+          "elevated_flag_flip_fraction": 0.0
+        },
+        "western": {
+          "mean_absolute_raw_change": 0.0012544130621246026,
+          "maximum_absolute_raw_change": 0.015077256592737245,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.033475000000000005,
+          "elevated_flag_flip_fraction": 0.0345
+        }
+      },
+      "concordance_flag_flip_fraction": 0.00225,
+      "profiles_with_any_concordance_flip": 7,
+      "baseline_concordance_fraction": 0.021,
+      "stress_concordance_fraction": 0.02175,
+      "paired_record_years": 4000
+    },
+    {
+      "source": "brazil2006",
+      "variant": "geo_north",
+      "planned_profiles": 100,
+      "paired_complete_profiles": 100,
+      "weighting": "unweighted fixed-hash stress subset, not a population estimate",
+      "error_interval_claimed": false,
+      "systems": {
+        "bazi": {
+          "mean_absolute_raw_change": 0.0,
+          "maximum_absolute_raw_change": 0.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.0,
+          "mean_absolute_within_person_percentile_change": 0.0,
+          "elevated_flag_flip_fraction": 0.0
+        },
+        "ziwei": {
+          "mean_absolute_raw_change": 0.0,
+          "maximum_absolute_raw_change": 0.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.0,
+          "mean_absolute_within_person_percentile_change": 0.0,
+          "elevated_flag_flip_fraction": 0.0
+        },
+        "qizheng": {
+          "mean_absolute_raw_change": 0.0,
+          "maximum_absolute_raw_change": 0.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.0,
+          "mean_absolute_within_person_percentile_change": 0.0,
+          "elevated_flag_flip_fraction": 0.0
+        },
+        "western": {
+          "mean_absolute_raw_change": 0.00022699638502327198,
+          "maximum_absolute_raw_change": 0.004652808622577886,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.007025,
+          "elevated_flag_flip_fraction": 0.009
+        }
+      },
+      "concordance_flag_flip_fraction": 0.0005,
+      "profiles_with_any_concordance_flip": 1,
+      "baseline_concordance_fraction": 0.021,
+      "stress_concordance_fraction": 0.021,
+      "paired_record_years": 4000
+    },
+    {
+      "source": "brazil2006",
+      "variant": "geo_south",
+      "planned_profiles": 100,
+      "paired_complete_profiles": 100,
+      "weighting": "unweighted fixed-hash stress subset, not a population estimate",
+      "error_interval_claimed": false,
+      "systems": {
+        "bazi": {
+          "mean_absolute_raw_change": 0.0,
+          "maximum_absolute_raw_change": 0.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.0,
+          "mean_absolute_within_person_percentile_change": 0.0,
+          "elevated_flag_flip_fraction": 0.0
+        },
+        "ziwei": {
+          "mean_absolute_raw_change": 0.0,
+          "maximum_absolute_raw_change": 0.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.0,
+          "mean_absolute_within_person_percentile_change": 0.0,
+          "elevated_flag_flip_fraction": 0.0
+        },
+        "qizheng": {
+          "mean_absolute_raw_change": 0.0,
+          "maximum_absolute_raw_change": 0.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.0,
+          "mean_absolute_within_person_percentile_change": 0.0,
+          "elevated_flag_flip_fraction": 0.0
+        },
+        "western": {
+          "mean_absolute_raw_change": 0.00022715714273679455,
+          "maximum_absolute_raw_change": 0.004438366463180861,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.007237500000000001,
+          "elevated_flag_flip_fraction": 0.0085
+        }
+      },
+      "concordance_flag_flip_fraction": 0.00025,
+      "profiles_with_any_concordance_flip": 1,
+      "baseline_concordance_fraction": 0.021,
+      "stress_concordance_fraction": 0.02075,
+      "paired_record_years": 4000
+    },
+    {
+      "source": "brazil2006",
+      "variant": "geo_west",
+      "planned_profiles": 100,
+      "paired_complete_profiles": 100,
+      "weighting": "unweighted fixed-hash stress subset, not a population estimate",
+      "error_interval_claimed": false,
+      "systems": {
+        "bazi": {
+          "mean_absolute_raw_change": 0.0,
+          "maximum_absolute_raw_change": 0.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.0,
+          "mean_absolute_within_person_percentile_change": 0.0,
+          "elevated_flag_flip_fraction": 0.0
+        },
+        "ziwei": {
+          "mean_absolute_raw_change": 0.0,
+          "maximum_absolute_raw_change": 0.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.0,
+          "mean_absolute_within_person_percentile_change": 0.0,
+          "elevated_flag_flip_fraction": 0.0
+        },
+        "qizheng": {
+          "mean_absolute_raw_change": 0.0,
+          "maximum_absolute_raw_change": 0.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.0,
+          "mean_absolute_within_person_percentile_change": 0.0,
+          "elevated_flag_flip_fraction": 0.0
+        },
+        "western": {
+          "mean_absolute_raw_change": 0.0012527571674740608,
+          "maximum_absolute_raw_change": 0.014379393439896665,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.033018750000000006,
+          "elevated_flag_flip_fraction": 0.036
+        }
+      },
+      "concordance_flag_flip_fraction": 0.00275,
+      "profiles_with_any_concordance_flip": 9,
+      "baseline_concordance_fraction": 0.021,
+      "stress_concordance_fraction": 0.02075,
+      "paired_record_years": 4000
+    },
+    {
+      "source": "ogdb2023",
+      "variant": "clock_+120",
+      "planned_profiles": 200,
+      "paired_complete_profiles": 200,
+      "weighting": "unweighted fixed-hash stress subset, not a population estimate",
+      "error_interval_claimed": false,
+      "systems": {
+        "bazi": {
+          "mean_absolute_raw_change": 0.044484375,
+          "maximum_absolute_raw_change": 0.5,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.13119687500000002,
+          "elevated_flag_flip_fraction": 0.127
+        },
+        "ziwei": {
+          "mean_absolute_raw_change": 0.2165,
+          "maximum_absolute_raw_change": 1.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.208078125,
+          "elevated_flag_flip_fraction": 0.234375
+        },
+        "qizheng": {
+          "mean_absolute_raw_change": 0.067107,
+          "maximum_absolute_raw_change": 0.4322222222222221,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.38752499999999995,
+          "elevated_flag_flip_fraction": 0.361375
+        },
+        "western": {
+          "mean_absolute_raw_change": 0.010864177744547822,
+          "maximum_absolute_raw_change": 0.07095234171990453,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.25808125,
+          "elevated_flag_flip_fraction": 0.2555
+        }
+      },
+      "concordance_flag_flip_fraction": 0.044,
+      "profiles_with_any_concordance_flip": 159,
+      "baseline_concordance_fraction": 0.024,
+      "stress_concordance_fraction": 0.02375,
+      "paired_record_years": 8000
+    },
+    {
+      "source": "ogdb2023",
+      "variant": "clock_+30",
+      "planned_profiles": 200,
+      "paired_complete_profiles": 200,
+      "weighting": "unweighted fixed-hash stress subset, not a population estimate",
+      "error_interval_claimed": false,
+      "systems": {
+        "bazi": {
+          "mean_absolute_raw_change": 0.006359375,
+          "maximum_absolute_raw_change": 0.25,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.155,
+          "mean_absolute_within_person_percentile_change": 0.019365625,
+          "elevated_flag_flip_fraction": 0.019
+        },
+        "ziwei": {
+          "mean_absolute_raw_change": 0.030625,
+          "maximum_absolute_raw_change": 1.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.15,
+          "mean_absolute_within_person_percentile_change": 0.029625,
+          "elevated_flag_flip_fraction": 0.02875
+        },
+        "qizheng": {
+          "mean_absolute_raw_change": 0.015787472222222224,
+          "maximum_absolute_raw_change": 0.4322222222222221,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.285,
+          "mean_absolute_within_person_percentile_change": 0.091184375,
+          "elevated_flag_flip_fraction": 0.08725
+        },
+        "western": {
+          "mean_absolute_raw_change": 0.010368911113733061,
+          "maximum_absolute_raw_change": 0.0685651528897045,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.24986562500000004,
+          "elevated_flag_flip_fraction": 0.2495
+        }
+      },
+      "concordance_flag_flip_fraction": 0.0275,
+      "profiles_with_any_concordance_flip": 131,
+      "baseline_concordance_fraction": 0.024,
+      "stress_concordance_fraction": 0.02075,
+      "paired_record_years": 8000
+    },
+    {
+      "source": "ogdb2023",
+      "variant": "clock_-120",
+      "planned_profiles": 200,
+      "paired_complete_profiles": 200,
+      "weighting": "unweighted fixed-hash stress subset, not a population estimate",
+      "error_interval_claimed": false,
+      "systems": {
+        "bazi": {
+          "mean_absolute_raw_change": 0.043015625,
+          "maximum_absolute_raw_change": 0.375,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.1257375,
+          "elevated_flag_flip_fraction": 0.126375
+        },
+        "ziwei": {
+          "mean_absolute_raw_change": 0.197,
+          "maximum_absolute_raw_change": 1.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.196803125,
+          "elevated_flag_flip_fraction": 0.23075
+        },
+        "qizheng": {
+          "mean_absolute_raw_change": 0.06644120833333335,
+          "maximum_absolute_raw_change": 0.4156666666666667,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.38744375000000003,
+          "elevated_flag_flip_fraction": 0.36225
+        },
+        "western": {
+          "mean_absolute_raw_change": 0.010915505711607472,
+          "maximum_absolute_raw_change": 0.07591211827591811,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.26443124999999995,
+          "elevated_flag_flip_fraction": 0.2545
+        }
+      },
+      "concordance_flag_flip_fraction": 0.04225,
+      "profiles_with_any_concordance_flip": 151,
+      "baseline_concordance_fraction": 0.024,
+      "stress_concordance_fraction": 0.02225,
+      "paired_record_years": 8000
+    },
+    {
+      "source": "ogdb2023",
+      "variant": "clock_-30",
+      "planned_profiles": 200,
+      "paired_complete_profiles": 200,
+      "weighting": "unweighted fixed-hash stress subset, not a population estimate",
+      "error_interval_claimed": false,
+      "systems": {
+        "bazi": {
+          "mean_absolute_raw_change": 0.015015625,
+          "maximum_absolute_raw_change": 0.25,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.33,
+          "mean_absolute_within_person_percentile_change": 0.044603125,
+          "elevated_flag_flip_fraction": 0.040625
+        },
+        "ziwei": {
+          "mean_absolute_raw_change": 0.0675,
+          "maximum_absolute_raw_change": 1.0,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.325,
+          "mean_absolute_within_person_percentile_change": 0.06856562499999999,
+          "elevated_flag_flip_fraction": 0.082
+        },
+        "qizheng": {
+          "mean_absolute_raw_change": 0.018689125,
+          "maximum_absolute_raw_change": 0.40255555555555556,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 0.315,
+          "mean_absolute_within_person_percentile_change": 0.109521875,
+          "elevated_flag_flip_fraction": 0.102125
+        },
+        "western": {
+          "mean_absolute_raw_change": 0.010188270746688339,
+          "maximum_absolute_raw_change": 0.07328659764549889,
+          "fraction_profiles_with_any_raw_change_gt_1e_12": 1.0,
+          "mean_absolute_within_person_percentile_change": 0.24527812499999999,
+          "elevated_flag_flip_fraction": 0.24
+        }
+      },
+      "concordance_flag_flip_fraction": 0.028625,
+      "profiles_with_any_concordance_flip": 130,
+      "baseline_concordance_fraction": 0.024,
+      "stress_concordance_fraction": 0.021625,
+      "paired_record_years": 8000
+    }
+  ]
+}

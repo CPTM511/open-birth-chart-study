@@ -1,0 +1,151 @@
+{
+  "created_utc": "2026-11-26T07:58:17.823447+00:00",
+  "status_for_registered_structural_study": "ready",
+  "complete_traditional_interpretation": false,
+  "full_traditional_mortality_model": "not_implemented",
+  "death_validation": "paused_by_user",
+  "primary_scores_changed_after_freeze": false,
+  "real_cohort_signals_seen_by_engine_implementer": false,
+  "test_methods_passed": 18,
+  "modules": [
+    {
+      "module": "BZ_calendar",
+      "status": "implemented_selected_conventions",
+      "implemented": "Solar-term year/month from the same instant in UTC+08:00; civil day/hour; 23:00 day change.",
+      "evidence": "Eight author goldens, day-cycle arithmetic, four-zone solar-term boundary.",
+      "limitation": "No independent almanac verification of every date; no true-solar-time claim."
+    },
+    {
+      "module": "BZ_ten_gods_hidden_stems",
+      "status": "implemented_selected_tables",
+      "implemented": "Ten-god, hidden-stem, growth, na-yin and empty-branch fields.",
+      "evidence": "Golden pillars and specified relationship examples.",
+      "limitation": "Table correctness is not predictive validity; no exhaustive independent table audit."
+    },
+    {
+      "module": "BZ_qiyun",
+      "status": "implemented_selected_convention",
+      "implemented": "Yun sect 2 starting timestamp and direction.",
+      "evidence": "Independent reconstruction of minute conversion for M/F.",
+      "limitation": "Different schools of starting-period rounding are not pooled."
+    },
+    {
+      "module": "BZ_decadal_yearly",
+      "status": "implemented_selected_snapshot",
+      "implemented": "24 contiguous ten-calendar-year intervals; July-1 active decade and annual pillar.",
+      "evidence": "No-gap assertions; 40 snapshots.",
+      "limitation": "No claim of continuous within-year coverage."
+    },
+    {
+      "module": "BZ_primary",
+      "status": "implemented_and_frozen",
+      "implemented": "Eight annual/decadal-to-natal branch-clash comparisons.",
+      "evidence": "Explicit cardinality and value-range assertions.",
+      "limitation": "Structural count, not event risk or complete adverse judgment."
+    },
+    {
+      "module": "BZ_structural_interactions",
+      "status": "implemented_bounded_set",
+      "implemented": "Six-clash/harmony/harm, stem-control/combination, trines and specified punishments.",
+      "evidence": "Named positive and negative relation examples.",
+      "limitation": "Transformation, combination precedence and placement effectiveness are not fully adjudicated."
+    },
+    {
+      "module": "BZ_strength",
+      "status": "partial_features_only",
+      "implemented": "Season, same-element roots, heavy-root clauses and visible support exposed.",
+      "evidence": "Independent counterexamples and no-verdict assertions.",
+      "limitation": "Classical strong/weak verdict is null; the descriptive weighted tally is never used to decide it."
+    },
+    {
+      "module": "BZ_pattern",
+      "status": "partial_conditional_selector",
+      "implemented": "Month-hidden/exposed selector, peer/blade exceptions and transformation-dependent status.",
+      "evidence": "Competing hidden stems and full-trine counterexamples.",
+      "limitation": "No complete priority among ordinary, special and transformed patterns."
+    },
+    {
+      "module": "BZ_yongshen",
+      "status": "not_fully_adjudicated",
+      "implemented": "Month-command role candidates are exported.",
+      "evidence": "Unique_yongshen_adjudicated is always false.",
+      "limitation": "No unique effective or optimal balancing element is claimed."
+    },
+    {
+      "module": "BZ_control_rescue",
+      "status": "partial_14_clauses",
+      "implemented": "14 conditional formation, damage, control and rescue clauses with unknown premises retained.",
+      "evidence": "Officer/damage/resource coexistence; killings/control/resource/wealth; original ambiguous fixture.",
+      "limitation": "Effective strength, ordering and net fortune remain unresolved."
+    },
+    {
+      "module": "ZW_calendar_life_body",
+      "status": "implemented_selected_conventions",
+      "implemented": "Chinese-calendar mapping of source local Gregorian date, forward late-Zi and fixed leap handling.",
+      "evidence": "26 independent life/body cases; 23:00 boundary; three runtime timezones.",
+      "limitation": "Mapping foreign civil dates is a declared convention, not universal school consensus."
+    },
+    {
+      "module": "ZW_major_minor_stars",
+      "status": "implemented_pinned_library",
+      "implemented": "12 palaces, 14 major stars, subsidiary/adjective stars, brightness and auxiliary cycles.",
+      "evidence": "Full-count assertions; golden Ziwei/Tianfu placement.",
+      "limitation": "Not every auxiliary star independently expert-adjudicated."
+    },
+    {
+      "module": "ZW_transformations",
+      "status": "implemented_selected_tables",
+      "implemented": "Natal, decadal and annual four-transformations with unique natal-star location checks.",
+      "evidence": "2026 targets checked and every result requires unique target locations.",
+      "limitation": "Other four-transformation table traditions not adjudicated."
+    },
+    {
+      "module": "ZW_decadal_yearly",
+      "status": "implemented_selected_snapshot",
+      "implemented": "Dynamic palace maps and transit-star objects; minor-cycle object when provided.",
+      "evidence": "40 annual snapshots with complete maps.",
+      "limitation": "Not continuous year coverage; minor/month/day/hour objects are not primary endpoints."
+    },
+    {
+      "module": "ZW_primary",
+      "status": "implemented_and_frozen",
+      "implemented": "Mean of annual and decadal Ji-in-corresponding-life/health indicators.",
+      "evidence": "Score equals the explicit two-indicator formula.",
+      "limitation": "Three-valued structural observable, not a probability."
+    },
+    {
+      "module": "ZW_brightness_context",
+      "status": "implemented_as_features",
+      "implemented": "Pinned brightness and presence of designated adverse/supportive stars.",
+      "evidence": "Rescue fixture includes temple Qisha and Ziwei.",
+      "limitation": "Unknown brightness is not imputed favorable; no complete rule priority."
+    },
+    {
+      "module": "ZW_control_rescue",
+      "status": "partial_5_clauses",
+      "implemented": "Five source-context clauses preserve mitigation and rescue alongside adverse premises.",
+      "evidence": "Qisha/Yang-Tuo duplication with temple and Ziwei rescue remains mixed and unadjudicated.",
+      "limitation": "No exhaustive traditional net judgment; qualitative thresholds remain unknown."
+    },
+    {
+      "module": "BOTH_input_missingness",
+      "status": "implemented",
+      "implemented": "Missing sex/clock and contradictory Bazi instant/offset cause abstention.",
+      "evidence": "Invalid input tests assert missing scores, not zero.",
+      "limitation": "No imputation from country, reputation, outcomes or downstream signal."
+    },
+    {
+      "module": "BOTH_empirical_prediction",
+      "status": "not_performed",
+      "implemented": "No outcomes are accepted by these APIs.",
+      "evidence": "No-outcome and pre-cohort implementation seal.",
+      "limitation": "Death blind-validation paused; no event-prediction calibration or accuracy estimate."
+    }
+  ],
+  "interface": {
+    "bazi": "build_natal(birth); annual_signals(natal, year)",
+    "ziwei": "build_natal(birth); annual_signals(natal, year); persistent ZiweiEngine.compute(birth, years, detailed=True)",
+    "meaning": "primary_score + status + components; detailed fields retain unknowns"
+  },
+  "outcome_contract": "No death probabilities, no lifespan cutoffs, no claim a structural concurrence forecasts an event."
+}

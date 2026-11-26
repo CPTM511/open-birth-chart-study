@@ -1,0 +1,36 @@
+{
+  "python": "3.12.14",
+  "node_package": {
+    "name": "iztro",
+    "version": "2.6.5",
+    "license": "MIT",
+    "registry": "https://www.npmjs.com/package/iztro/v/2.6.5",
+    "official_docs": "https://docs.iztro.com/en_US/quick-start"
+  },
+  "python_packages": [
+    {
+      "name": "lunar-python",
+      "version": "1.4.9"
+    },
+    {
+      "name": "pyswisseph",
+      "version": "2.10.3.2"
+    },
+    {
+      "name": "astronomy-engine",
+      "version": "2.1.19"
+    }
+  ],
+  "bazi_runtime_dependency": "lunar-python==1.4.9",
+  "ziwei_runtime_dependency": "iztro@2.6.5",
+  "shared_astronomy_dependencies": [
+    "pyswisseph==2.10.3.2",
+    "astronomy-engine==2.1.19"
+  ],
+  "upstream_golden_fixture": {
+    "url": "https://raw.githubusercontent.com/6tail/lunar-python/master/test/EightCharTest.py",
+    "sha256": "7bbebe669bd332175d05a038265f424403d16669900ca6fd9a55e8067620a5d4",
+    "dependency_independence": "author-maintained fixture; not independent validation"
+  },
+  "setup_note": "pyswisseph source build required CC=gcc CXX=g++ because default clang was absent; no paid service or account."
+}

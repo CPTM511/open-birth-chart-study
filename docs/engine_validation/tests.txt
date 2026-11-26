@@ -1,0 +1,16 @@
+test_house_angles_analytic_geometry_and_poles (test_qizheng_western.AstronomicalChecks.test_house_angles_analytic_geometry_and_poles) ... ok
+test_ten_bodies_against_independent_engine (test_qizheng_western.AstronomicalChecks.test_ten_bodies_against_independent_engine) ... ok
+test_time_offset_and_missing_clock (test_qizheng_western.AstronomicalChecks.test_time_offset_and_missing_clock) ... ok
+test_absolute_ziqi_not_arbitrary_phase (test_qizheng_western.HistoricalDefinitionChecks.test_absolute_ziqi_not_arbitrary_phase) ... ok
+test_all28_unequal_mansions_cover_circle (test_qizheng_western.HistoricalDefinitionChecks.test_all28_unequal_mansions_cover_circle) ... ok
+test_birthdays_not_january_reset (test_qizheng_western.HistoricalDefinitionChecks.test_birthdays_not_january_reset) ... ok
+test_four_points_exist_and_nodes_have_qing_names (test_qizheng_western.HistoricalDefinitionChecks.test_four_points_exist_and_nodes_have_qing_names) ... ok
+test_no_invented_extension_after_major_period_end (test_qizheng_western.HistoricalDefinitionChecks.test_no_invented_extension_after_major_period_end) ... ok
+test_compact_full_equal_and_twelve_samples (test_qizheng_western.WorkflowChecks.test_compact_full_equal_and_twelve_samples) ... ok
+test_model_completeness_is_not_predictive_validation (test_qizheng_western.WorkflowChecks.test_model_completeness_is_not_predictive_validation) ... ok
+test_secondary_zero_identity_and_day_year_mapping (test_qizheng_western.WorkflowChecks.test_secondary_zero_identity_and_day_year_mapping) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.044s
+
+OK

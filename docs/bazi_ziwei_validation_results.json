@@ -1,0 +1,84 @@
+{
+  "completed_utc": "2026-11-26T07:55:52.434793+00:00",
+  "test_framework": "unittest",
+  "test_method_count": 18,
+  "status": "passed",
+  "raw_output_sha256": "7fc3f6326d75bbbbec994e52d3d65ecb9c5857229a22595370b6acde2248c09f",
+  "raw_output": "test_output.txt",
+  "specific_cases": {
+    "upstream_bazi_golden_charts": 8,
+    "independent_day_cycle_hours": 60,
+    "solarterm_cross_zone_boundary_cases": 8,
+    "ziwei_life_body_formula_cases": 26,
+    "runtime_timezones": 3,
+    "annual_coverage_per_engine": 40
+  },
+  "fixture_correction": {
+    "original": "Expected unique seven-killings pattern despite both 庚 and 壬 exposed from 申",
+    "correction": "Preserved original as explicit ambiguity test; added unique 酉-month 七杀 fixture. No engine rule changed to satisfy original expectation."
+  },
+  "implementation_corrections_before_cohort": [
+    "Ziwei ZWC05 now examines each dynamic life palace separately, as the frozen clause specifies, instead of pooling life and health palace contexts. Primary score unchanged."
+  ],
+  "benchmark": {
+    "synthetic_only": true,
+    "birth_local": "2000-08-16T12:00:00",
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027,
+      2028,
+      2029,
+      2030,
+      2031,
+      2032,
+      2033,
+      2034,
+      2035,
+      2036,
+      2037,
+      2038,
+      2039,
+      2040,
+      2041,
+      2042,
+      2043,
+      2044,
+      2045,
+      2046,
+      2047,
+      2048,
+      2049,
+      2050,
+      2051,
+      2052,
+      2053,
+      2054,
+      2055,
+      2056,
+      2057,
+      2058,
+      2059,
+      2060
+    ],
+    "bazi_40_year_seconds": 0.0074381020003784215,
+    "ziwei_40_year_seconds_including_first_request_startup": 0.7543953139993391,
+    "interpretation": "Single synthetic request, not a cohort throughput guarantee; use persistent ZiweiEngine for batching.",
+    "ziwei_sequential_distinct_synthetic_40_year_requests_seconds": [
+      0.988740416998553,
+      0.5043859319994226,
+      0.3854653079997661,
+      0.487888968000334
+    ]
+  },
+  "verification_limits": [
+    "Upstream golden fixtures are author-maintained, not an independent historical almanac.",
+    "Life/body and day-cycle checks independently implement those formulas only.",
+    "No independent expert chart adjudication of all stars or all possible dates.",
+    "No empirical prediction or mortality validation."
+  ]
+}

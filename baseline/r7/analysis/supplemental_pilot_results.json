@@ -1,0 +1,723 @@
+{
+  "protocol_id": "R7-ADB-Z-2026-SOURCE-EXTENSION-1",
+  "ratings": {
+    "AA": {
+      "birth_qualified": 196,
+      "family_selected": 190,
+      "baseline_scored": 190,
+      "baseline_abstained": 0,
+      "outcome_status_counts": {
+        "death20_59": 13,
+        "died_before20": 0,
+        "survived60": 114,
+        "unknown": 63
+      },
+      "observed_endpoint_people": 127,
+      "analyzed_death20_59": 13,
+      "analyzed_survived60": 114,
+      "birth_country_counts": {
+        "DE": 21,
+        "PL": 8,
+        "FR": 39,
+        "AR": 1,
+        "US": 40,
+        "DZ": 1,
+        "MX": 8,
+        "ES": 3,
+        "PE": 6,
+        "IT": 35,
+        "NL": 11,
+        "BR": 2,
+        "CL": 3,
+        "CR": 3,
+        "VE": 1,
+        "BE": 2,
+        "IN": 1,
+        "CH": 1,
+        "NO": 1,
+        "GB": 2,
+        "TN": 1
+      },
+      "variants": {
+        "base": {
+          "comparison_pairs": 47,
+          "informative_strata": 7,
+          "informative_people": 40,
+          "log10_possible_label_assignments": 6.044853217267731,
+          "permutation_draws": 99999,
+          "seed": 20261126,
+          "monte_carlo_p_resolution": 1e-05,
+          "metrics": {
+            "BZ01": {
+              "stratified_auc": 0.5,
+              "p_raw": 1.0,
+              "descriptive_positive_vs_zero": {
+                "rows": [
+                  "score_positive",
+                  "score_zero"
+                ],
+                "columns": [
+                  "death20_59",
+                  "survived60"
+                ],
+                "table": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    13,
+                    114
+                  ]
+                ],
+                "scope": "Unadjusted, observed selected sample only",
+                "conditional_or": null,
+                "conditional_ci95": null,
+                "reason": "At least one marginal is zero"
+              },
+              "unadjusted_auc_descriptive": 0.5,
+              "p_holm_10": 1.0,
+              "passes_prespecified_family_alpha": false,
+              "direction_supports_hypothesis": false,
+              "supports_prespecified_direction": false
+            },
+            "ZW01": {
+              "stratified_auc": 0.6276595744680851,
+              "p_raw": 0.07168,
+              "descriptive_positive_vs_zero": {
+                "rows": [
+                  "score_positive",
+                  "score_zero"
+                ],
+                "columns": [
+                  "death20_59",
+                  "survived60"
+                ],
+                "table": [
+                  [
+                    2,
+                    4
+                  ],
+                  [
+                    11,
+                    110
+                  ]
+                ],
+                "scope": "Unadjusted, observed selected sample only",
+                "conditional_or": 4.893838129828408,
+                "conditional_ci95": [
+                  0.40039347839065875,
+                  38.945897850356296
+                ]
+              },
+              "unadjusted_auc_descriptive": 0.5593792172739541,
+              "p_holm_10": 0.6451199999999999,
+              "passes_prespecified_family_alpha": false,
+              "direction_supports_hypothesis": true,
+              "supports_prespecified_direction": false
+            },
+            "QZP01": {
+              "stratified_auc": 0.46808510638297873,
+              "p_raw": 1.0,
+              "descriptive_positive_vs_zero": {
+                "rows": [
+                  "score_positive",
+                  "score_zero"
+                ],
+                "columns": [
+                  "death20_59",
+                  "survived60"
+                ],
+                "table": [
+                  [
+                    0,
+                    3
+                  ],
+                  [
+                    13,
+                    111
+                  ]
+                ],
+                "scope": "Unadjusted, observed selected sample only",
+                "conditional_or": 0.0,
+                "conditional_ci95": [
+                  0.0,
+                  22.20859593350844
+                ]
+              },
+              "unadjusted_auc_descriptive": 0.4868421052631579,
+              "p_holm_10": 1.0,
+              "passes_prespecified_family_alpha": false,
+              "direction_supports_hypothesis": false,
+              "supports_prespecified_direction": false
+            },
+            "W01": {
+              "stratified_auc": 0.7021276595744681,
+              "p_raw": 0.03561,
+              "descriptive_positive_vs_zero": {
+                "rows": [
+                  "score_positive",
+                  "score_zero"
+                ],
+                "columns": [
+                  "death20_59",
+                  "survived60"
+                ],
+                "table": [
+                  [
+                    6,
+                    22
+                  ],
+                  [
+                    7,
+                    92
+                  ]
+                ],
+                "scope": "Unadjusted, observed selected sample only",
+                "conditional_or": 3.5388040296961663,
+                "conditional_ci95": [
+                  0.8885492962875955,
+                  13.725696353915142
+                ]
+              },
+              "unadjusted_auc_descriptive": 0.6322537112010796,
+              "p_holm_10": 0.3561,
+              "passes_prespecified_family_alpha": false,
+              "direction_supports_hypothesis": true,
+              "supports_prespecified_direction": false
+            },
+            "ENSEMBLE": {
+              "stratified_auc": 0.6914893617021277,
+              "p_raw": 0.09141,
+              "descriptive_positive_vs_zero": {
+                "rows": [
+                  "score_positive",
+                  "score_zero"
+                ],
+                "columns": [
+                  "death20_59",
+                  "survived60"
+                ],
+                "table": [
+                  [
+                    7,
+                    28
+                  ],
+                  [
+                    6,
+                    86
+                  ]
+                ],
+                "scope": "Unadjusted, observed selected sample only",
+                "conditional_or": 3.5405026066665553,
+                "conditional_ci95": [
+                  0.9327566456281075,
+                  13.931000254091904
+                ]
+              },
+              "unadjusted_auc_descriptive": 0.6450742240215924,
+              "p_holm_10": 0.73128,
+              "passes_prespecified_family_alpha": false,
+              "direction_supports_hypothesis": true,
+              "supports_prespecified_direction": false
+            }
+          }
+        },
+        "minus120": {
+          "comparison_pairs": 47,
+          "informative_strata": 7,
+          "informative_people": 40,
+          "log10_possible_label_assignments": 6.044853217267731,
+          "metrics": {
+            "BZ01": {
+              "stratified_auc": 0.5,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 0
+            },
+            "ZW01": {
+              "stratified_auc": 0.5319148936170213,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 17
+            },
+            "QZP01": {
+              "stratified_auc": 0.46808510638297873,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 2
+            },
+            "W01": {
+              "stratified_auc": 0.7021276595744681,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 2
+            },
+            "ENSEMBLE": {
+              "stratified_auc": 0.6595744680851063,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 19
+            }
+          }
+        },
+        "minus30": {
+          "comparison_pairs": 47,
+          "informative_strata": 7,
+          "informative_people": 40,
+          "log10_possible_label_assignments": 6.044853217267731,
+          "metrics": {
+            "BZ01": {
+              "stratified_auc": 0.5,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 0
+            },
+            "ZW01": {
+              "stratified_auc": 0.6595744680851063,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 4
+            },
+            "QZP01": {
+              "stratified_auc": 0.5,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 1
+            },
+            "W01": {
+              "stratified_auc": 0.7021276595744681,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 0
+            },
+            "ENSEMBLE": {
+              "stratified_auc": 0.7872340425531915,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 5
+            }
+          }
+        },
+        "plus30": {
+          "comparison_pairs": 47,
+          "informative_strata": 7,
+          "informative_people": 40,
+          "log10_possible_label_assignments": 6.044853217267731,
+          "metrics": {
+            "BZ01": {
+              "stratified_auc": 0.5,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 0
+            },
+            "ZW01": {
+              "stratified_auc": 0.6382978723404256,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 5
+            },
+            "QZP01": {
+              "stratified_auc": 0.46808510638297873,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 0
+            },
+            "W01": {
+              "stratified_auc": 0.7021276595744681,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 1
+            },
+            "ENSEMBLE": {
+              "stratified_auc": 0.723404255319149,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 6
+            }
+          }
+        },
+        "plus120": {
+          "comparison_pairs": 47,
+          "informative_strata": 7,
+          "informative_people": 40,
+          "log10_possible_label_assignments": 6.044853217267731,
+          "metrics": {
+            "BZ01": {
+              "stratified_auc": 0.5,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 0
+            },
+            "ZW01": {
+              "stratified_auc": 0.39361702127659576,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 19
+            },
+            "QZP01": {
+              "stratified_auc": 0.46808510638297873,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 0
+            },
+            "W01": {
+              "stratified_auc": 0.7021276595744681,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 2
+            },
+            "ENSEMBLE": {
+              "stratified_auc": 0.5106382978723404,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 21
+            }
+          }
+        }
+      }
+    },
+    "A": {
+      "birth_qualified": 42,
+      "family_selected": 42,
+      "baseline_scored": 42,
+      "baseline_abstained": 0,
+      "outcome_status_counts": {
+        "death20_59": 3,
+        "died_before20": 1,
+        "survived60": 16,
+        "unknown": 22
+      },
+      "observed_endpoint_people": 19,
+      "analyzed_death20_59": 3,
+      "analyzed_survived60": 16,
+      "birth_country_counts": {
+        "US": 24,
+        "CH": 2,
+        "IT": 2,
+        "FR": 1,
+        "VE": 1,
+        "AT": 1,
+        "IL": 1,
+        "DE": 4,
+        "MX": 1,
+        "IN": 1,
+        "NL": 2,
+        "CZ": 1,
+        "RU": 1
+      },
+      "variants": {
+        "base": {
+          "comparison_pairs": 5,
+          "informative_strata": 1,
+          "informative_people": 6,
+          "log10_possible_label_assignments": 0.7781512503836436,
+          "permutation_draws": 99999,
+          "seed": 20261127,
+          "monte_carlo_p_resolution": 1e-05,
+          "metrics": {
+            "BZ01": {
+              "stratified_auc": 0.5,
+              "p_raw": 1.0,
+              "descriptive_positive_vs_zero": {
+                "rows": [
+                  "score_positive",
+                  "score_zero"
+                ],
+                "columns": [
+                  "death20_59",
+                  "survived60"
+                ],
+                "table": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    3,
+                    16
+                  ]
+                ],
+                "scope": "Unadjusted, observed selected sample only",
+                "conditional_or": null,
+                "conditional_ci95": null,
+                "reason": "At least one marginal is zero"
+              },
+              "unadjusted_auc_descriptive": 0.5,
+              "p_holm_10": 1.0,
+              "passes_prespecified_family_alpha": false,
+              "direction_supports_hypothesis": false,
+              "supports_prespecified_direction": false
+            },
+            "ZW01": {
+              "stratified_auc": 0.5,
+              "p_raw": 1.0,
+              "descriptive_positive_vs_zero": {
+                "rows": [
+                  "score_positive",
+                  "score_zero"
+                ],
+                "columns": [
+                  "death20_59",
+                  "survived60"
+                ],
+                "table": [
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    2,
+                    16
+                  ]
+                ],
+                "scope": "Unadjusted, observed selected sample only",
+                "conditional_or": "infinity",
+                "conditional_ci95": [
+                  0.1367521367521371,
+                  "infinity"
+                ]
+              },
+              "unadjusted_auc_descriptive": 0.6666666666666666,
+              "p_holm_10": 1.0,
+              "passes_prespecified_family_alpha": false,
+              "direction_supports_hypothesis": false,
+              "supports_prespecified_direction": false
+            },
+            "QZP01": {
+              "stratified_auc": 0.3,
+              "p_raw": 1.0,
+              "descriptive_positive_vs_zero": {
+                "rows": [
+                  "score_positive",
+                  "score_zero"
+                ],
+                "columns": [
+                  "death20_59",
+                  "survived60"
+                ],
+                "table": [
+                  [
+                    0,
+                    2
+                  ],
+                  [
+                    3,
+                    14
+                  ]
+                ],
+                "scope": "Unadjusted, observed selected sample only",
+                "conditional_or": 0.0,
+                "conditional_ci95": [
+                  0.0,
+                  32.298883359219694
+                ]
+              },
+              "unadjusted_auc_descriptive": 0.4375,
+              "p_holm_10": 1.0,
+              "passes_prespecified_family_alpha": false,
+              "direction_supports_hypothesis": false,
+              "supports_prespecified_direction": false
+            },
+            "W01": {
+              "stratified_auc": 0.3,
+              "p_raw": 1.0,
+              "descriptive_positive_vs_zero": {
+                "rows": [
+                  "score_positive",
+                  "score_zero"
+                ],
+                "columns": [
+                  "death20_59",
+                  "survived60"
+                ],
+                "table": [
+                  [
+                    0,
+                    3
+                  ],
+                  [
+                    3,
+                    13
+                  ]
+                ],
+                "scope": "Unadjusted, observed selected sample only",
+                "conditional_or": 0.0,
+                "conditional_ci95": [
+                  0.0,
+                  15.885413293414848
+                ]
+              },
+              "unadjusted_auc_descriptive": 0.40625,
+              "p_holm_10": 1.0,
+              "passes_prespecified_family_alpha": false,
+              "direction_supports_hypothesis": false,
+              "supports_prespecified_direction": false
+            },
+            "ENSEMBLE": {
+              "stratified_auc": 0.2,
+              "p_raw": 0.83471,
+              "descriptive_positive_vs_zero": {
+                "rows": [
+                  "score_positive",
+                  "score_zero"
+                ],
+                "columns": [
+                  "death20_59",
+                  "survived60"
+                ],
+                "table": [
+                  [
+                    1,
+                    4
+                  ],
+                  [
+                    2,
+                    12
+                  ]
+                ],
+                "scope": "Unadjusted, observed selected sample only",
+                "conditional_or": 1.466194460048695,
+                "conditional_ci95": [
+                  0.020384776159885414,
+                  36.15969394977837
+                ]
+              },
+              "unadjusted_auc_descriptive": 0.5416666666666666,
+              "p_holm_10": 1.0,
+              "passes_prespecified_family_alpha": false,
+              "direction_supports_hypothesis": false,
+              "supports_prespecified_direction": false
+            }
+          }
+        },
+        "minus120": {
+          "comparison_pairs": 5,
+          "informative_strata": 1,
+          "informative_people": 6,
+          "log10_possible_label_assignments": 0.7781512503836436,
+          "metrics": {
+            "BZ01": {
+              "stratified_auc": 0.5,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 0
+            },
+            "ZW01": {
+              "stratified_auc": 0.5,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 2
+            },
+            "QZP01": {
+              "stratified_auc": 0.4,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 1
+            },
+            "W01": {
+              "stratified_auc": 0.3,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 0
+            },
+            "ENSEMBLE": {
+              "stratified_auc": 0.2,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 3
+            }
+          }
+        },
+        "minus30": {
+          "comparison_pairs": 5,
+          "informative_strata": 1,
+          "informative_people": 6,
+          "log10_possible_label_assignments": 0.7781512503836436,
+          "metrics": {
+            "BZ01": {
+              "stratified_auc": 0.5,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 0
+            },
+            "ZW01": {
+              "stratified_auc": 0.5,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 0
+            },
+            "QZP01": {
+              "stratified_auc": 0.3,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 0
+            },
+            "W01": {
+              "stratified_auc": 0.3,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 0
+            },
+            "ENSEMBLE": {
+              "stratified_auc": 0.2,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 0
+            }
+          }
+        },
+        "plus30": {
+          "comparison_pairs": 5,
+          "informative_strata": 1,
+          "informative_people": 6,
+          "log10_possible_label_assignments": 0.7781512503836436,
+          "metrics": {
+            "BZ01": {
+              "stratified_auc": 0.5,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 0
+            },
+            "ZW01": {
+              "stratified_auc": 0.5,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 0
+            },
+            "QZP01": {
+              "stratified_auc": 0.3,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 1
+            },
+            "W01": {
+              "stratified_auc": 0.3,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 0
+            },
+            "ENSEMBLE": {
+              "stratified_auc": 0.2,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 1
+            }
+          }
+        },
+        "plus120": {
+          "comparison_pairs": 5,
+          "informative_strata": 1,
+          "informative_people": 6,
+          "log10_possible_label_assignments": 0.7781512503836436,
+          "metrics": {
+            "BZ01": {
+              "stratified_auc": 0.5,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 0
+            },
+            "ZW01": {
+              "stratified_auc": 0.5,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 1
+            },
+            "QZP01": {
+              "stratified_auc": 0.4,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 1
+            },
+            "W01": {
+              "stratified_auc": 0.4,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 1
+            },
+            "ENSEMBLE": {
+              "stratified_auc": 0.4,
+              "p_raw": null,
+              "changed_scores_in_observed_people": 3
+            }
+          }
+        }
+      }
+    }
+  },
+  "test_family_size": 10,
+  "population_representative": false,
+  "full_four_system_mortality_validation": false,
+  "scores_are_death_probabilities": false,
+  "enforced_access_independence": false,
+  "scope": "Fixed local-rule candidates, masked retrospective selected public-record pilot only",
+  "execution_hashes": {
+    "predictions_sha256": "5fb7dd28e1a5bf1ced80f80c6ef85cbd870878193d3187313b866f74edfa9b75",
+    "covariates_sha256": "ecca37bd657a3602fbd58cf40a3274276767e1ee8f1ea932fb10067ceb9bb17b",
+    "analysis_plan_sha256": "91bdaf666cf8b4595131bf0d9d626e125afb0be1c3503c6e37e5271d144bf811",
+    "analysis_code_sha256": "b564e65c9ae6a744275a127a3d02ab0a0df410c8c4a55cd1ffa92ec688a34c2f",
+    "outcomes_sha256": "adc82e3435e4cc5358adef190a50f519b6464948828a33bf331cbd4ee7d9b005",
+    "seal_sha256": "173e07f3477940b579620ece0c73fde573562ce55d2698a9b3b680c29447303c"
+  }
+}

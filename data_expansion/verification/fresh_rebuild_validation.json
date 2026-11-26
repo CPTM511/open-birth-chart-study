@@ -1,0 +1,187 @@
+{
+  "Brazil_prior_evidence": "../audits/sample_integrity_validation.json",
+  "Brazil_prior_original_source_rows_verified": 2000,
+  "Brazil_rebuild_repeated": false,
+  "SINASC_or_ADB_individual_rows_published": false,
+  "archives_downloaded_during_verification": 0,
+  "created_utc": "2026-11-26T08:06:27.102860+00:00",
+  "fresh_output_directory_used": true,
+  "fresh_output_outside_repository": true,
+  "original_frozen_model_inputs_unchanged": true,
+  "published_row_level_files": [
+    "ogdb_birth_inputs.jsonl",
+    "ogdb_source_index.jsonl"
+  ],
+  "python_version": "3.12.14",
+  "rebuild_audit": {
+    "adb_z2026": {
+      "N": 341,
+      "birth_year_max": 2014,
+      "birth_year_min": 1880,
+      "countries": {
+        "AR": 4,
+        "AT": 4,
+        "AZ": 1,
+        "BE": 4,
+        "BR": 5,
+        "CA": 3,
+        "CH": 3,
+        "CL": 4,
+        "CN": 1,
+        "CR": 3,
+        "CZ": 1,
+        "DE": 29,
+        "DZ": 2,
+        "ES": 4,
+        "FR": 58,
+        "GB": 6,
+        "HR": 1,
+        "IL": 1,
+        "IN": 2,
+        "IT": 50,
+        "MX": 12,
+        "NL": 16,
+        "NO": 1,
+        "PE": 17,
+        "PK": 2,
+        "PL": 12,
+        "RU": 2,
+        "TN": 1,
+        "UA": 1,
+        "US": 89,
+        "VE": 2
+      },
+      "max_offset_residual_seconds": 3.637978807091713e-12,
+      "modern_1980_2019_countries": {
+        "AR": 1,
+        "BR": 2,
+        "CA": 2,
+        "CN": 1,
+        "DE": 1,
+        "ES": 1,
+        "FR": 6,
+        "GB": 3,
+        "IT": 2,
+        "MX": 2,
+        "NL": 1,
+        "PE": 5,
+        "PK": 2,
+        "PL": 2,
+        "US": 11
+      },
+      "n": 341,
+      "sex": {
+        "F": 83,
+        "M": 258
+      },
+      "sha256": "b2db70b22414ad12d8d6d4a7dee6d2bcd79cc5d2fbeb88b713bcf954cd029061",
+      "strata": 176,
+      "weighted_total": 341.0
+    },
+    "country_label_union_is_global_representativity": false,
+    "cross_source_birth_only_candidate_overlap": {
+      "adb_records_in_candidate_pairs": 4,
+      "identity_verified": false,
+      "interpretation": "Candidates can be coincidental and incomplete; do not claim independent unique people by summing source sample sizes.",
+      "matched_pairs": 4,
+      "ogdb_records_in_candidate_pairs": 4,
+      "rows_removed": 0,
+      "rule": "same local birth date and explicit sex, locality points within 25 km"
+    },
+    "ogdb2023": {
+      "N": 1388,
+      "birth_year_max": 1962,
+      "birth_year_min": 1880,
+      "countries": {
+        "BE": 1,
+        "DE": 15,
+        "FR": 833,
+        "IT": 178,
+        "LU": 1,
+        "US": 360
+      },
+      "max_offset_residual_seconds": 1.0,
+      "modern_1980_2019_countries": {},
+      "n": 1388,
+      "sex": {
+        "F": 87,
+        "M": 1301
+      },
+      "sha256": "76b78ec7e494c2bccc13922e782631071147519894c64cf691d09b0005e1c2cf",
+      "strata": 41,
+      "weighted_total": 1388.0
+    },
+    "union_of_source_country_labels": [
+      "AR",
+      "AT",
+      "AZ",
+      "BE",
+      "BR",
+      "CA",
+      "CH",
+      "CL",
+      "CN",
+      "CR",
+      "CZ",
+      "DE",
+      "DZ",
+      "ES",
+      "FR",
+      "GB",
+      "HR",
+      "IL",
+      "IN",
+      "IT",
+      "LU",
+      "MX",
+      "NL",
+      "NO",
+      "PE",
+      "PK",
+      "PL",
+      "RU",
+      "TN",
+      "UA",
+      "US",
+      "VE"
+    ]
+  },
+  "rebuilt_model_inputs": {
+    "adb_z2026": {
+      "expected_sha256": "b2db70b22414ad12d8d6d4a7dee6d2bcd79cc5d2fbeb88b713bcf954cd029061",
+      "matches_frozen_input": true,
+      "observed_sha256": "b2db70b22414ad12d8d6d4a7dee6d2bcd79cc5d2fbeb88b713bcf954cd029061",
+      "records": 341
+    },
+    "ogdb2023": {
+      "expected_sha256": "76b78ec7e494c2bccc13922e782631071147519894c64cf691d09b0005e1c2cf",
+      "matches_frozen_input": true,
+      "observed_sha256": "76b78ec7e494c2bccc13922e782631071147519894c64cf691d09b0005e1c2cf",
+      "records": 1388
+    }
+  },
+  "script_sha256": {
+    "audit_birth_inputs.py": "78707c884cd519e8d28b16e436b6b35e973e68b9cfa3bdcd04747432e16e967a",
+    "build_adb_reference.py": "f0c59249c8d59fa2eb6171104959f797df89c928a600f42fc5488b7da9e9abc2",
+    "build_birth_inputs.py": "5d3b886d691b98e0f33f1d18e604e6c16ac57bcb2e1fed9b3960642c181ad203",
+    "download_sources.py": "5cfa0e53cf117ccaaea83bbc0cc24fcd5907d138e0ffbd9cf30460659be00e65"
+  },
+  "steps": [
+    {
+      "exit_code": 0,
+      "step": "verify_cache"
+    },
+    {
+      "exit_code": 0,
+      "step": "rebuild_ogdb"
+    },
+    {
+      "exit_code": 0,
+      "step": "rebuild_adb"
+    },
+    {
+      "exit_code": 0,
+      "step": "validate_rebuilt_inputs"
+    }
+  ]
+}

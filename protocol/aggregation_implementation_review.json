@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-11-26T08:17:41.409575+00:00",
+  "stage": "aggregation implementation before first aggregate effect calculation",
+  "corrections": [
+    "Group source rows by explicit loader-to-manifest association; do not compare canonical source IDs with publisher labels. Map sensitivity aggregates by study ID to canonical source.",
+    "Compare metadata_sha256 and eligible_frame_N as well as model_input_sha256, source and sample_n against cohort seal."
+  ],
+  "frozen_scoring_or_hypotheses_changed": false,
+  "existing_outputs_reinterpreted": false,
+  "actual_metadata_matched_frozen_hashes": true
+}

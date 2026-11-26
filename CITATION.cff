@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the release version and commit, and attribute the original data and software providers separately."
+title: "Open Birth Chart Study: Versioned Four-System Structural Analysis"
+type: software
+authors:
+  - name: "Open Birth Chart Study contributors"
+version: 0.2.0
+date-released: 2026-11-26
+license: AGPL-3.0-or-later
+abstract: "An exploratory, reproducible analysis of specified Bazi, Ziwei, Qizheng and Western birth-chart structural indices. This release does not validate mortality forecasts or provide a globally representative individual sample."

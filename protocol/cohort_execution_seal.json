@@ -1,0 +1,117 @@
+{
+  "created_utc": "2026-11-26T07:58:27.811456+00:00",
+  "before_real_profile_execution": true,
+  "sources": [
+    {
+      "source": "ogdb2023",
+      "sample_n": 1388,
+      "eligible_frame_N": 1388,
+      "model_input_sha256": "76b78ec7e494c2bccc13922e782631071147519894c64cf691d09b0005e1c2cf",
+      "metadata_sha256": "c8c8a73ec04c1b0dd2f3659917038eba6c063553b80426f187379fc0c8b090c7",
+      "birth_decade_counts": {
+        "1920": 379,
+        "1930": 308,
+        "1910": 200,
+        "1940": 117,
+        "1900": 135,
+        "1890": 133,
+        "1880": 78,
+        "1950": 36,
+        "1960": 2
+      },
+      "country_counts": {
+        "FR": 833,
+        "US": 360,
+        "IT": 178,
+        "DE": 15,
+        "LU": 1,
+        "BE": 1
+      }
+    },
+    {
+      "source": "brazil2006",
+      "sample_n": 2000,
+      "eligible_frame_N": 2805207,
+      "model_input_sha256": "3d9a2dc48a26a083a20abbd372310310d13b6e93d880a4f8d1fafa02f8914f6d",
+      "metadata_sha256": "a50061c89d2ada34bffa55a0e500f413dd833263c5300771a6bc51be65b6d341",
+      "birth_decade_counts": {
+        "2000": 2000
+      },
+      "country_counts": {
+        "BR": 2000
+      }
+    },
+    {
+      "source": "adb_z2026",
+      "sample_n": 341,
+      "eligible_frame_N": 341,
+      "model_input_sha256": "b2db70b22414ad12d8d6d4a7dee6d2bcd79cc5d2fbeb88b713bcf954cd029061",
+      "metadata_sha256": "9dc9990cdee5b7afd3bde845ff322194c34a09fa46978cecbd6fdbf28518f6e4",
+      "birth_decade_counts": {
+        "1920": 26,
+        "1940": 38,
+        "1880": 21,
+        "1950": 31,
+        "1960": 36,
+        "1890": 26,
+        "1970": 43,
+        "1910": 26,
+        "1990": 14,
+        "2010": 3,
+        "1930": 30,
+        "2000": 3,
+        "1980": 22,
+        "1900": 22
+      },
+      "country_counts": {
+        "IT": 50,
+        "US": 89,
+        "NL": 16,
+        "GB": 6,
+        "DE": 29,
+        "MX": 12,
+        "FR": 58,
+        "AR": 4,
+        "ES": 4,
+        "PE": 17,
+        "BE": 4,
+        "PL": 12,
+        "CA": 3,
+        "CR": 3,
+        "CH": 3,
+        "CL": 4,
+        "DZ": 2,
+        "IL": 1,
+        "BR": 5,
+        "AT": 4,
+        "CN": 1,
+        "PK": 2,
+        "IN": 2,
+        "RU": 2,
+        "TN": 1,
+        "VE": 2,
+        "CZ": 1,
+        "AZ": 1,
+        "NO": 1,
+        "HR": 1,
+        "UA": 1
+      }
+    }
+  ],
+  "sample_records_total": 3729,
+  "distinct_country_codes": 32,
+  "total_is_records_not_deduplicated_independent_people": true,
+  "individual_mortality_labels_accepted": false,
+  "analysis_family_size": 6,
+  "code_hashes": {
+    "src/open_birth_chart/__init__.py": "667d4a15b970b851e20d17510224670c14646cfb6d5a1e388ca6b9cc6da8bf41",
+    "src/open_birth_chart/analysis.py": "0adfd9be37328603cc428fc6065d02725dc50630160ef0996a149ee3f31a522e",
+    "src/open_birth_chart/astronomy.py": "9331f1a20b6571207f28632bf89d72969c6992072c99fb3ff1235439502fb550",
+    "src/open_birth_chart/bazi_engine.py": "41d2b5f3cd0738d94366e5436a495d05d9f84b5d0c3d0a68efbf14383311d5df",
+    "src/open_birth_chart/io.py": "4c9159410a08836779a818897f4f49397fcffad9d3e436aa645facad8bdaf0de",
+    "src/open_birth_chart/qizheng_engine.py": "d50d0c7de06ca16cb0cf19557fd51b65f240363c68e7ce6bb9daa8f483c6123d",
+    "src/open_birth_chart/western_engine.py": "651c791cdaa20215c04214edda13c105dd9d111335585cca6d07d235f9dbe8a1",
+    "src/open_birth_chart/ziwei_engine.py": "84f0b0580fb1eb687bf36cc66bc8e46eb96f67f7436a0ef6cae64e144c572d47"
+  },
+  "runner_sha256": "36a67085e3c001a74fb1baa3caf5ed418bbf78944d524c0a320241c0fd32e03c"
+}

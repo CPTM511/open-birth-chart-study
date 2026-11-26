@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-11-26T08:17:55.950952+00:00",
+  "protocol_sha256": "f06f3dcaa72c5c7b02e839ad1edfdc966c7130be373bd7bd55c5534cbb6253fe",
+  "analysis_code_sha256": "a8466fa1ff9e0113411f64835147d7be45a8ae6324a1d3923c545bc57e00fef9",
+  "aggregation_code_sha256": "f7482e72b696be3590f16fccae590f0061ec10abb595634d4fb7b92b42a48dc7",
+  "base_profile_sha256": "5bdc0d2e5c53cb15928a4a0781e5c7785085d3d039cfbf7dcc9b44f2a3f1c401",
+  "stress_profile_sha256": "dedd1b8caa5a67517bdb0ca495883d4fff1c50217f5329d23bdd77ed1b700fc4",
+  "outcome_inputs": false,
+  "family_size": 6,
+  "source_order": [
+    "ogdb2023",
+    "brazil2006",
+    "adb_z2026"
+  ],
+  "draws": 1999,
+  "seed": 2026112608,
+  "local_freeze_not_external_preregistration": true
+}

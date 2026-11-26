@@ -1,0 +1,114 @@
+{
+  "review_completed_utc": "2026-11-26T08:05:46.366349+00:00",
+  "verdict": "pass_after_two_required_input_validation_corrections",
+  "reviewer": "separate project agent; no real cohort signal or outcome inspection; not external human peer review",
+  "allowed_read_scope": [
+    "src/open_birth_chart/analysis.py",
+    "tests/test_analysis.py",
+    "protocol/study_protocol.json",
+    "protocol/analysis_implementation_seal.json"
+  ],
+  "read_real_person_profiles": false,
+  "read_real_cohort_statistics": false,
+  "modified_model_engines": false,
+  "modified_analysis_code": false,
+  "reviewed_hashes": {
+    "src/open_birth_chart/analysis.py": "a8466fa1ff9e0113411f64835147d7be45a8ae6324a1d3923c545bc57e00fef9",
+    "tests/test_analysis.py": "aa0e241c71c7791d56d8aa8ff7c2fa765f8e4e7fe19932b38dd91cacf48fb5c4",
+    "protocol/study_protocol.json": "f06f3dcaa72c5c7b02e839ad1edfdc966c7130be373bd7bd55c5534cbb6253fe",
+    "protocol/analysis_implementation_seal.json": "b3c6bdcb71acce05860d17ab5048ca9d82f1ad720f06692ab136ac911db7ea68"
+  },
+  "original_analysis_hash_in_preserved_seal": "0adfd9be37328603cc428fc6065d02725dc50630160ef0996a149ee3f31a522e",
+  "required_corrections": [
+    {
+      "issue": "short input-key list silently truncated the null but not the observed population",
+      "status": "fixed and independently retested",
+      "hypotheses_changed": false
+    },
+    {
+      "issue": "N x 1 weights broadcast to an invalid weighted rate; synthetic 0.4 became 1.2",
+      "status": "fixed and independently retested in four entry points",
+      "hypotheses_changed": false
+    }
+  ],
+  "correction_checks": {
+    "phase_reference": {
+      "status": "rejected",
+      "reason": "Invalid source-frame sampling weights"
+    },
+    "weighted_rate": {
+      "status": "rejected",
+      "reason": "Weights must be a one-dimensional vector, one per profile"
+    },
+    "exact_phase_expectation": {
+      "status": "rejected",
+      "reason": "Weights must be a one-dimensional vector, one per profile"
+    },
+    "group_identical_inputs": {
+      "status": "rejected",
+      "reason": "Weights must be one-dimensional"
+    },
+    "short_input_keys": {
+      "status": "rejected",
+      "reason": "Input keys, profiles and weights must have equal lengths"
+    }
+  },
+  "independent_synthetic_checks": {
+    "independent_midrank_formula": "pass",
+    "ties_do_not_force_exact_top_20_percent": {
+      "quarter_ties_high_fraction": 0.25,
+      "constant_high_fraction": 0.0
+    },
+    "independent_asymmetric_exhaustive_enumeration": [
+      {
+        "marginal_counts": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "enumerated": 0.1445,
+        "implementation": 0.1445,
+        "state_position_combinations": 100000
+      },
+      {
+        "marginal_counts": [
+          0,
+          10,
+          3,
+          9
+        ],
+        "enumerated": 0.27,
+        "implementation": 0.27,
+        "state_position_combinations": 100000
+      }
+    ],
+    "weighted_30_and_40_year_exact_expectations": "pass",
+    "duplicate_weight_and_entire_seeded_null_equivalence": "pass",
+    "at_least_three_same_person_year_weighted_count": "pass",
+    "holm_six_slots_with_unavailable": "pass",
+    "mismatched_input_keys": {
+      "status": "correctly_rejected_after_fix",
+      "reason": "Input keys, profiles and weights must have equal lengths"
+    },
+    "reviewed_analysis_sha256": "da388f88e65317c2000c71496ce5f3033dd4ec69b906f0923c9c018afa27c25f"
+  },
+  "author_test_suite_reported_by_root": {
+    "test_methods": 10,
+    "status": "passed"
+  },
+  "unresolved_mandatory_mathematical_corrections": [],
+  "integration_requirements_outside_review_scope": [
+    "input_keys must include all chart-affecting inputs and conventions",
+    "all six prespecified source-by-age-window p-values must enter one Holm family, including nonestimable slots",
+    "report actual exclusions, source-frame weights and nonrepresentative source coverage accurately"
+  ],
+  "interpretation_requirements": [
+    "midrank percentile >=0.8 is not exactly the top 20 percent when ties occur",
+    "independent-phase shifts create a reference; the four real systems are not established independent evidence",
+    "phase reference intervals are not confidence intervals for population death risk",
+    "reference p-values do not test mortality or forecast validity",
+    "weights target the eligible source frame, not humanity",
+    "calendar-year comparisons confound age, cohort composition and calendar period"
+  ]
+}

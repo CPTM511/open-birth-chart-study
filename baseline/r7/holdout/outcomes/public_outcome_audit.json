@@ -1,0 +1,290 @@
+{
+  "audit_created_utc": "2026-11-26T02:24:45.919210+00:00",
+  "contains_person_names_ids_or_individual_source_text": false,
+  "source": {
+    "publisher": "Astrodienst Astro-Databank",
+    "sample": "Entire official free Z-surname sample",
+    "export_date": "2026-11-10",
+    "download_url": "https://www.astro.com/adbexport/z_sample.zip",
+    "terms_url": "https://www.astro.com/adbexport/00_readme.html",
+    "source_records": 483,
+    "birth_qualified": 238,
+    "excluded_prior_R5_candidate_registry_size": 1026,
+    "identified_prior_people_excluded": 4,
+    "all_old_candidate_exclusion_not_only_old_analyzed_subset": true,
+    "unique_Wikipedia_to_QID_links": 150,
+    "unique_sitelink_is_not_itself_verified_person_identity": true,
+    "AA_refers_to_birth_quality_not_death_certification": true
+  },
+  "cohort_flow": {
+    "primary": {
+      "AA": {
+        "birth_qualified": 196,
+        "family_selected": 190,
+        "all_birth_status_counts": {
+          "survived60": 103,
+          "unknown": 82,
+          "death20_59": 11
+        },
+        "selected_status_counts": {
+          "survived60": 98,
+          "unknown": 81,
+          "death20_59": 11
+        }
+      },
+      "A": {
+        "birth_qualified": 42,
+        "family_selected": 42,
+        "all_birth_status_counts": {
+          "death20_59": 3,
+          "survived60": 16,
+          "unknown": 22,
+          "died_before20": 1
+        },
+        "selected_status_counts": {
+          "death20_59": 3,
+          "survived60": 16,
+          "unknown": 22,
+          "died_before20": 1
+        }
+      }
+    },
+    "supplemental": {
+      "AA": {
+        "birth_qualified": 196,
+        "family_selected": 190,
+        "all_birth_status_counts": {
+          "survived60": 119,
+          "unknown": 64,
+          "death20_59": 13
+        },
+        "selected_status_counts": {
+          "survived60": 114,
+          "unknown": 63,
+          "death20_59": 13
+        }
+      },
+      "A": {
+        "birth_qualified": 42,
+        "family_selected": 42,
+        "all_birth_status_counts": {
+          "death20_59": 3,
+          "survived60": 16,
+          "unknown": 22,
+          "died_before20": 1
+        },
+        "selected_status_counts": {
+          "death20_59": 3,
+          "survived60": 16,
+          "unknown": 22,
+          "died_before20": 1
+        }
+      }
+    }
+  },
+  "bounded_review": {
+    "people_queried": 110,
+    "queries_per_person": 1,
+    "name_query_total": 110,
+    "second_name_query_rounds": 0,
+    "reviewer_assignment_sizes": [
+      55,
+      28,
+      27
+    ],
+    "main_liveness_before_last_temporal_review": 46,
+    "withdrawn_for_insufficient_actual_event_time_support_before_first_labels": 4,
+    "main_liveness_after_temporal_review": 42,
+    "rejected_at_merge_for_birth_day_conflict": 1,
+    "final_accepted_main_liveness": 41
+  },
+  "main_liveness_precision": {
+    "records": 41,
+    "calendar_date_fields_are_complete_days": 41,
+    "actual_event_interview_original_broadcast_or_lecture_dates": 19,
+    "contemporaneous_interview_evidence_observation_publication_dates": 22,
+    "publication_dates_are_not_claimed_exact_recording_dates": true,
+    "actual_event_after_age60_and_before_primary_cutoff_supported_by_explicit_age_or_contemporaneous_event_context": true,
+    "evidence_kind_counts": {
+      "dated_interview": 33,
+      "recorded_public_appearance": 8
+    },
+    "birth_rating_counts": {
+      "AA": 33,
+      "A": 8
+    },
+    "raw_date_role_counts": {
+      "evidence_observation_date": 16,
+      "documented_event_date": 1,
+      "documented_interview_date": 1,
+      "documented_original_broadcast_date": 4,
+      "documented_recorded_lecture_date": 1,
+      "documented_historical_interview_event_date": 1,
+      "evidence_observation_publication_date_not_exact_recording_day": 6,
+      "explicit_actual_event_date": 5,
+      "explicit_event_or_broadcast_date": 5,
+      "explicit_broadcast_date": 1
+    },
+    "imputed_actual_recording_days": 0
+  },
+  "manual_conflicts": {
+    "people": 4,
+    "categories": {
+      "external_birth_day_disagreements": 2,
+      "supplied_identity_anchor_birth_mismatch": 1,
+      "unresolved_interview_age_vs_publication_date": 1
+    },
+    "primary_known_status": 0,
+    "supplemental_known_status": 0,
+    "birth_records_removed_after_scores": 0,
+    "treatment": "Keep frozen birth records; retain unknown outcomes."
+  },
+  "exact_death_day_difference_without_endpoint_conflict": {
+    "people": 1,
+    "difference_in_days": 1,
+    "both_claims_later_than_verified_actual_interview_after60": true,
+    "primary_evidence_used": "Exactly dated actual personal interview, not either conflicting death day",
+    "exact_death_day_selected": false,
+    "known_primary_survival_endpoint_preserved": true
+  },
+  "primary_source_tiers_all_238": {
+    "ADB_Wikidata_day_concordant": 58,
+    "unknown": 79,
+    "ADB_only_no_independent_death_corroboration": 34,
+    "cross_source_conflict": 20,
+    "cross_source_metadata_unresolved": 5,
+    "affirmative_liveness_evidence": 41,
+    "ADB_Wikidata_coarse_concordant": 1
+  },
+  "primary_status_counts_all_238": {
+    "survived60": 119,
+    "unknown": 104,
+    "death20_59": 14,
+    "died_before20": 1
+  },
+  "source_tiers_by_rating_after_family_selection": {
+    "primary": {
+      "AA": {
+        "people": 190,
+        "ascertainment_counts": {
+          "ADB_Wikidata_day_concordant": 50,
+          "unknown": 61,
+          "ADB_only_no_independent_death_corroboration": 25,
+          "cross_source_conflict": 16,
+          "cross_source_metadata_unresolved": 4,
+          "affirmative_liveness_evidence": 33,
+          "ADB_Wikidata_coarse_concordant": 1
+        }
+      },
+      "A": {
+        "people": 42,
+        "ascertainment_counts": {
+          "ADB_only_no_independent_death_corroboration": 8,
+          "ADB_Wikidata_day_concordant": 4,
+          "affirmative_liveness_evidence": 8,
+          "unknown": 17,
+          "cross_source_conflict": 4,
+          "cross_source_metadata_unresolved": 1
+        }
+      }
+    },
+    "supplemental": {
+      "AA": {
+        "people": 190,
+        "ascertainment_counts": {
+          "ADB_Wikidata_day_concordant": 50,
+          "unknown": 43,
+          "ADB_only_no_independent_death_corroboration": 25,
+          "cross_source_conflict": 16,
+          "cross_source_metadata_unresolved": 4,
+          "affirmative_liveness_evidence": 33,
+          "independent_exact_death": 8,
+          "strict_Wikidata_aggregation": 3,
+          "supplemental_liveness_2026": 3,
+          "supplemental_liveness_interval": 4,
+          "ADB_Wikidata_coarse_concordant": 1
+        }
+      },
+      "A": {
+        "people": 42,
+        "ascertainment_counts": {
+          "ADB_only_no_independent_death_corroboration": 8,
+          "ADB_Wikidata_day_concordant": 4,
+          "affirmative_liveness_evidence": 8,
+          "unknown": 17,
+          "cross_source_conflict": 4,
+          "cross_source_metadata_unresolved": 1
+        }
+      }
+    }
+  },
+  "supplemental_sources": {
+    "newly_classified_people": 18,
+    "added_source_tiers": {
+      "independent_exact_death": 8,
+      "strict_Wikidata_aggregation": 3,
+      "supplemental_liveness_2026": 3,
+      "supplemental_liveness_interval": 4
+    },
+    "status_counts_all_238": {
+      "survived60": 135,
+      "unknown": 86,
+      "death20_59": 16,
+      "died_before20": 1
+    },
+    "original_known_primary_statuses_preserved": 134,
+    "source_criteria_fixed_after_custodian_label_preview_before_any_effect_result": true,
+    "official_page_explicitly_derived_from_Wikidata_not_counted_as_independent_death_evidence": 1,
+    "institutional_biography_not_equated_to_civil_death_certificate": true,
+    "only_entire_liveness_intervals_within_age60_to_retrieval_window_accepted": true,
+    "no_partial_death_date_promoted_to_full_day": true
+  },
+  "uncovered_primary_event_code": {
+    "code": "Other Death",
+    "birth_qualified_people": 1,
+    "subject_own_death_independently_checked": true,
+    "primary_regex_unchanged": true,
+    "supplemental_requires_separate_admissible_source": true
+  },
+  "freeze_and_execution": {
+    "prediction_seal_sha256": "1c083c1000f4409c56ea709562e786d0c865a6c9033c303cf3a90d67d60872e3",
+    "primary_codec_sha256": "5451ada312d3a1b6ee1cd891566d1a379d978b45fe666cbf092f33b73e7d8255",
+    "supplemental_codec_sha256": "b048787643406f69d48fdc5d39b58d33bb8378aa4798e4b762e4cea674d9e0e6",
+    "supplemental_codec_seal_sha256": "00080744b0c479fd8df980c8e18b064572d871ed364929f2f3bd922cc4bae79b",
+    "final_label_seal_sha256": "4c1be977e77b3cab497ba258c5d7a7c8143a88f750a77b9a32bdf935ac68b8ce",
+    "main_labels_sha256": "ef6a4e9dfba6e9443077683f7aefb2e08d5a826c661729eb580cd5ea1529f76a",
+    "supplemental_labels_sha256": "adc82e3435e4cc5358adef190a50f519b6464948828a33bf331cbd4ee7d9b005",
+    "statistical_outputs": {
+      "research_round7/analysis/real_pilot_results.json": "22feac09ecd16301e838519746ac692a940c14bda1e270295ffd6f8a8fff6560",
+      "research_round7/analysis/supplemental_pilot_results.json": "4444f180201c65c449304735282381d6011d2ceeba5836f13117baa4f354c0d9"
+    },
+    "both_label_files_final_before_either_effect_result": true,
+    "label_revisions_after_effect_results": 0,
+    "individual_prediction_values_opened_by_custodian": false,
+    "aggregate_effects_read_by_custodian_only_after_both_labels_final_and_both_analyses_completed": true,
+    "analysis_technical_failures": 0,
+    "analysis_execution_log_sha256": "6c19c6fc6b0241950dbabbe1a827044c02dce93948e038645f7a6fed66a79fab"
+  },
+  "limits": [
+    "Alphabetical historical public-record selection is not a representative population cohort.",
+    "Outcome absence never means survival. Observed-outcome analysis is conditional on ascertainment and selection.",
+    "Most birth-time accuracy codes are unspecified; a displayed clock format is not measurement precision.",
+    "Wikidata and Astro-Databank may share sources; agreement is not independent certification.",
+    "Source-extension criteria were fixed after custodian outcome preview, so the extension is exploratory rather than a fresh blinded replication.",
+    "The unchanged main codec has a documented uncovered event code; it was not retrofitted after label review.",
+    "Four fixed local candidate scores and their mean are not comprehensive implementations of four traditional systems, calibrated death probabilities, or predictions of death dates.",
+    "Shared filesystems provide procedural masking, not enforced access isolation, external registration, or external replication."
+  ],
+  "distribution": {
+    "only_aggregate_evidence_audit_for_public_package": true,
+    "do_not_include": [
+      "custodian/",
+      "versions/",
+      "raw Astro-Databank XML/ZIP",
+      "identity maps",
+      "individual source excerpts",
+      "individual outcome details"
+    ],
+    "scripts_and_aggregate_outputs_may_be_included": true
+  }
+}

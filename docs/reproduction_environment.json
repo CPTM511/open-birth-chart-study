@@ -1,0 +1,33 @@
+{
+  "fresh_clean_install_performed": false,
+  "node": "v24.22.3",
+  "node_lockfile_origin": "Actual installed dependency lock; root iztro requirement narrowed from caret range to exact 2.6.5 without re-resolving transitive versions",
+  "node_packages": {
+    "@babel/runtime": "7.29.15",
+    "dayjs": "1.11.23",
+    "i18next": "23.16.8",
+    "iztro": "2.6.5",
+    "lunar-lite": "0.2.9",
+    "lunar-typescript": "1.8.7"
+  },
+  "npm": "11.19.1",
+  "publication_python_packages": {
+    "markdown2": "2.5.3",
+    "matplotlib": "3.10.8"
+  },
+  "python": "3.12.14",
+  "python_build_tools": {
+    "pip": "26.2.2",
+    "setuptools": "84.2.1",
+    "wheel": "0.48.0"
+  },
+  "python_packages": {
+    "astronomy-engine": "2.1.19",
+    "lunar-python": "1.4.9",
+    "numpy": "2.3.5",
+    "pyswisseph": "2.10.3.2",
+    "scipy": "1.17.0"
+  },
+  "recorded_utc": "2026-11-26T08:14:18.402847+00:00",
+  "source_cohort_profiles_rerun_for_scaffolding": false
+}

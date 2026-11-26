@@ -1,0 +1,452 @@
+[
+  {
+    "year": 1880,
+    "body": "Sun",
+    "jd_ut": 2407882.0,
+    "swiss_longitude_deg": 84.692483463851,
+    "independent_nominal_ut_longitude_deg": 84.69267736629813,
+    "difference_nominal_ut_arcsec": 0.6980488095905457,
+    "difference_matched_tt_arcsec": 0.6980503250247239
+  },
+  {
+    "year": 1880,
+    "body": "Moon",
+    "jd_ut": 2407882.0,
+    "swiss_longitude_deg": 169.6917116717435,
+    "independent_nominal_ut_longitude_deg": 169.69233981032556,
+    "difference_nominal_ut_arcsec": 2.261298895462005,
+    "difference_matched_tt_arcsec": 3.1775229139725525
+  },
+  {
+    "year": 1880,
+    "body": "Mercury",
+    "jd_ut": 2407882.0,
+    "swiss_longitude_deg": 99.5314920180282,
+    "independent_nominal_ut_longitude_deg": 99.53121569185825,
+    "difference_nominal_ut_arcsec": 0.994774211881122,
+    "difference_matched_tt_arcsec": 0.9947726963446257
+  },
+  {
+    "year": 1880,
+    "body": "Venus",
+    "jd_ut": 2407882.0,
+    "swiss_longitude_deg": 76.85841280268757,
+    "independent_nominal_ut_longitude_deg": 76.85863670360322,
+    "difference_nominal_ut_arcsec": 0.8060432964157371,
+    "difference_matched_tt_arcsec": 0.8060448117475971
+  },
+  {
+    "year": 1880,
+    "body": "Mars",
+    "jd_ut": 2407882.0,
+    "swiss_longitude_deg": 128.22570395323288,
+    "independent_nominal_ut_longitude_deg": 128.22580304880654,
+    "difference_nominal_ut_arcsec": 0.35674406517500756,
+    "difference_matched_tt_arcsec": 0.356745580813822
+  },
+  {
+    "year": 1880,
+    "body": "Jupiter",
+    "jd_ut": 2407882.0,
+    "swiss_longitude_deg": 15.135390301963934,
+    "independent_nominal_ut_longitude_deg": 15.13549839449062,
+    "difference_nominal_ut_arcsec": 0.3891330960755113,
+    "difference_matched_tt_arcsec": 0.38913461191896204
+  },
+  {
+    "year": 1880,
+    "body": "Saturn",
+    "jd_ut": 2407882.0,
+    "swiss_longitude_deg": 26.41511973707269,
+    "independent_nominal_ut_longitude_deg": 26.414028788520238,
+    "difference_nominal_ut_arcsec": 3.9274147888022526,
+    "difference_matched_tt_arcsec": 3.9274132706054843
+  },
+  {
+    "year": 1880,
+    "body": "Uranus",
+    "jd_ut": 2407882.0,
+    "swiss_longitude_deg": 155.37441724985695,
+    "independent_nominal_ut_longitude_deg": 155.37490593811256,
+    "difference_nominal_ut_arcsec": 1.7592777202139587,
+    "difference_matched_tt_arcsec": 1.7592792358527731
+  },
+  {
+    "year": 1880,
+    "body": "Neptune",
+    "jd_ut": 2407882.0,
+    "swiss_longitude_deg": 43.317226034163205,
+    "independent_nominal_ut_longitude_deg": 43.316707678750525,
+    "difference_nominal_ut_arcsec": 1.8660794856486973,
+    "difference_matched_tt_arcsec": 1.8660779697029284
+  },
+  {
+    "year": 1880,
+    "body": "Pluto",
+    "jd_ut": 2407882.0,
+    "swiss_longitude_deg": 57.51965496896018,
+    "independent_nominal_ut_longitude_deg": 57.52128706810921,
+    "difference_nominal_ut_arcsec": 5.875556936473458,
+    "difference_matched_tt_arcsec": 5.87555845446559
+  },
+  {
+    "year": 1950,
+    "body": "Sun",
+    "jd_ut": 2433448.0,
+    "swiss_longitude_deg": 83.80981382267406,
+    "independent_nominal_ut_longitude_deg": 83.80977148360581,
+    "difference_nominal_ut_arcsec": 0.15242064567928537,
+    "difference_matched_tt_arcsec": 0.15242109925566183
+  },
+  {
+    "year": 1950,
+    "body": "Moon",
+    "jd_ut": 2433448.0,
+    "swiss_longitude_deg": 81.99923711349224,
+    "independent_nominal_ut_longitude_deg": 81.99933539354089,
+    "difference_nominal_ut_arcsec": 0.35380817507757456,
+    "difference_matched_tt_arcsec": 0.2872445800448986
+  },
+  {
+    "year": 1950,
+    "body": "Mercury",
+    "jd_ut": 2433448.0,
+    "swiss_longitude_deg": 61.096976866606646,
+    "independent_nominal_ut_longitude_deg": 61.09794985982041,
+    "difference_nominal_ut_arcsec": 3.502775569552341,
+    "difference_matched_tt_arcsec": 3.5027751159759646
+  },
+  {
+    "year": 1950,
+    "body": "Venus",
+    "jd_ut": 2433448.0,
+    "swiss_longitude_deg": 46.04092333363621,
+    "independent_nominal_ut_longitude_deg": 46.040629695741664,
+    "difference_nominal_ut_arcsec": 1.057096420356629,
+    "difference_matched_tt_arcsec": 1.0570968739330056
+  },
+  {
+    "year": 1950,
+    "body": "Mars",
+    "jd_ut": 2433448.0,
+    "swiss_longitude_deg": 181.37388785535828,
+    "independent_nominal_ut_longitude_deg": 181.37402561283187,
+    "difference_nominal_ut_arcsec": 0.49592690494364433,
+    "difference_matched_tt_arcsec": 0.4959264513672679
+  },
+  {
+    "year": 1950,
+    "body": "Jupiter",
+    "jd_ut": 2433448.0,
+    "swiss_longitude_deg": 337.2401510918584,
+    "independent_nominal_ut_longitude_deg": 337.2394953591805,
+    "difference_nominal_ut_arcsec": 2.3606376404359253,
+    "difference_matched_tt_arcsec": 2.36063809411462
+  },
+  {
+    "year": 1950,
+    "body": "Saturn",
+    "jd_ut": 2433448.0,
+    "swiss_longitude_deg": 163.40338127508718,
+    "independent_nominal_ut_longitude_deg": 163.4028174544338,
+    "difference_nominal_ut_arcsec": 2.029754352179225,
+    "difference_matched_tt_arcsec": 2.0297548058579196
+  },
+  {
+    "year": 1950,
+    "body": "Uranus",
+    "jd_ut": 2433448.0,
+    "swiss_longitude_deg": 94.47868350229537,
+    "independent_nominal_ut_longitude_deg": 94.47880398317342,
+    "difference_nominal_ut_arcsec": 0.4337311609901917,
+    "difference_matched_tt_arcsec": 0.43373070741381525
+  },
+  {
+    "year": 1950,
+    "body": "Neptune",
+    "jd_ut": 2433448.0,
+    "swiss_longitude_deg": 194.60743401175733,
+    "independent_nominal_ut_longitude_deg": 194.6055117731888,
+    "difference_nominal_ut_arcsec": 6.9200588467424495,
+    "difference_matched_tt_arcsec": 6.920059300318826
+  },
+  {
+    "year": 1950,
+    "body": "Pluto",
+    "jd_ut": 2433448.0,
+    "swiss_longitude_deg": 136.28441359351348,
+    "independent_nominal_ut_longitude_deg": 136.2846095316492,
+    "difference_nominal_ut_arcsec": 0.705377288636555,
+    "difference_matched_tt_arcsec": 0.7053768348555423
+  },
+  {
+    "year": 2000,
+    "body": "Sun",
+    "jd_ut": 2451711.0,
+    "swiss_longitude_deg": 84.68007940490105,
+    "independent_nominal_ut_longitude_deg": 84.68011733085415,
+    "difference_nominal_ut_arcsec": 0.13653343119131023,
+    "difference_matched_tt_arcsec": 0.13653334278842522
+  },
+  {
+    "year": 2000,
+    "body": "Moon",
+    "jd_ut": 2451711.0,
+    "swiss_longitude_deg": 248.90428846013333,
+    "independent_nominal_ut_longitude_deg": 248.9044490599416,
+    "difference_nominal_ut_arcsec": 0.5781593098163285,
+    "difference_matched_tt_arcsec": 0.5623447767220568
+  },
+  {
+    "year": 2000,
+    "body": "Mercury",
+    "jd_ut": 2451711.0,
+    "swiss_longitude_deg": 107.63950313076853,
+    "independent_nominal_ut_longitude_deg": 107.63875555024524,
+    "difference_nominal_ut_arcsec": 2.691289883864556,
+    "difference_matched_tt_arcsec": 2.691289972267441
+  },
+  {
+    "year": 2000,
+    "body": "Venus",
+    "jd_ut": 2451711.0,
+    "swiss_longitude_deg": 85.7902727022653,
+    "independent_nominal_ut_longitude_deg": 85.79021890147345,
+    "difference_nominal_ut_arcsec": 0.19368285064729207,
+    "difference_matched_tt_arcsec": 0.19368293894785893
+  },
+  {
+    "year": 2000,
+    "body": "Mars",
+    "jd_ut": 2451711.0,
+    "swiss_longitude_deg": 89.3146017315916,
+    "independent_nominal_ut_longitude_deg": 89.3147428315163,
+    "difference_nominal_ut_arcsec": 0.5079597288840887,
+    "difference_matched_tt_arcsec": 0.5079596405835218
+  },
+  {
+    "year": 2000,
+    "body": "Jupiter",
+    "jd_ut": 2451711.0,
+    "swiss_longitude_deg": 56.79670511061766,
+    "independent_nominal_ut_longitude_deg": 56.79666754805346,
+    "difference_nominal_ut_arcsec": 0.1352252310766744,
+    "difference_matched_tt_arcsec": 0.13522531937724125
+  },
+  {
+    "year": 2000,
+    "body": "Saturn",
+    "jd_ut": 2451711.0,
+    "swiss_longitude_deg": 54.902736670268084,
+    "independent_nominal_ut_longitude_deg": 54.904251400309704,
+    "difference_nominal_ut_arcsec": 5.453028149781858,
+    "difference_matched_tt_arcsec": 5.453028061481291
+  },
+  {
+    "year": 2000,
+    "body": "Uranus",
+    "jd_ut": 2451711.0,
+    "swiss_longitude_deg": 320.645844592503,
+    "independent_nominal_ut_longitude_deg": 320.64261383891596,
+    "difference_nominal_ut_arcsec": 11.63071291337019,
+    "difference_matched_tt_arcsec": 11.630713001568438
+  },
+  {
+    "year": 2000,
+    "body": "Neptune",
+    "jd_ut": 2451711.0,
+    "swiss_longitude_deg": 306.2038657797046,
+    "independent_nominal_ut_longitude_deg": 306.20668965707205,
+    "difference_nominal_ut_arcsec": 10.165958522861729,
+    "difference_matched_tt_arcsec": 10.165958434458844
+  },
+  {
+    "year": 2000,
+    "body": "Pluto",
+    "jd_ut": 2451711.0,
+    "swiss_longitude_deg": 251.17234103691328,
+    "independent_nominal_ut_longitude_deg": 251.1723857799232,
+    "difference_nominal_ut_arcsec": 0.16107483567111558,
+    "difference_matched_tt_arcsec": 0.16107474737054872
+  },
+  {
+    "year": 2026,
+    "body": "Sun",
+    "jd_ut": 2461207.0,
+    "swiss_longitude_deg": 84.41249631737413,
+    "independent_nominal_ut_longitude_deg": 84.41206656983164,
+    "difference_nominal_ut_arcsec": 1.5470911530428566,
+    "difference_matched_tt_arcsec": 1.5471135232701272
+  },
+  {
+    "year": 2026,
+    "body": "Moon",
+    "jd_ut": 2461207.0,
+    "swiss_longitude_deg": 89.84871876646542,
+    "independent_nominal_ut_longitude_deg": 89.84932491775322,
+    "difference_nominal_ut_arcsec": 2.1821446360718255,
+    "difference_matched_tt_arcsec": 1.945186946454669
+  },
+  {
+    "year": 2026,
+    "body": "Mercury",
+    "jd_ut": 2461207.0,
+    "swiss_longitude_deg": 108.90460341665109,
+    "independent_nominal_ut_longitude_deg": 108.90478778393046,
+    "difference_nominal_ut_arcsec": 0.6637222056951941,
+    "difference_matched_tt_arcsec": 0.6636998313751974
+  },
+  {
+    "year": 2026,
+    "body": "Venus",
+    "jd_ut": 2461207.0,
+    "swiss_longitude_deg": 122.3863573595517,
+    "independent_nominal_ut_longitude_deg": 122.38618853345012,
+    "difference_nominal_ut_arcsec": 0.6077739656575432,
+    "difference_matched_tt_arcsec": 0.6077963379311768
+  },
+  {
+    "year": 2026,
+    "body": "Mars",
+    "jd_ut": 2461207.0,
+    "swiss_longitude_deg": 50.40929666112213,
+    "independent_nominal_ut_longitude_deg": 50.40907491769813,
+    "difference_nominal_ut_arcsec": 0.7982763263726156,
+    "difference_matched_tt_arcsec": 0.7982986971114769
+  },
+  {
+    "year": 2026,
+    "body": "Jupiter",
+    "jd_ut": 2461207.0,
+    "swiss_longitude_deg": 116.91729664485672,
+    "independent_nominal_ut_longitude_deg": 116.9166785780304,
+    "difference_nominal_ut_arcsec": 2.225040574751347,
+    "difference_matched_tt_arcsec": 2.225062945285572
+  },
+  {
+    "year": 2026,
+    "body": "Saturn",
+    "jd_ut": 2461207.0,
+    "swiss_longitude_deg": 13.338965589377644,
+    "independent_nominal_ut_longitude_deg": 13.336510864656612,
+    "difference_nominal_ut_arcsec": 8.837008995669748,
+    "difference_matched_tt_arcsec": 8.83703136968279
+  },
+  {
+    "year": 2026,
+    "body": "Uranus",
+    "jd_ut": 2461207.0,
+    "swiss_longitude_deg": 62.88801288719986,
+    "independent_nominal_ut_longitude_deg": 62.887699495306244,
+    "difference_nominal_ut_arcsec": 1.1282108169552885,
+    "difference_matched_tt_arcsec": 1.1282331873871954
+  },
+  {
+    "year": 2026,
+    "body": "Neptune",
+    "jd_ut": 2461207.0,
+    "swiss_longitude_deg": 4.286760034473971,
+    "independent_nominal_ut_longitude_deg": 4.290046700167069,
+    "difference_nominal_ut_arcsec": 11.831996495197927,
+    "difference_matched_tt_arcsec": 11.83197412261734
+  },
+  {
+    "year": 2026,
+    "body": "Pluto",
+    "jd_ut": 2461207.0,
+    "swiss_longitude_deg": 305.1638247193548,
+    "independent_nominal_ut_longitude_deg": 305.1634845092127,
+    "difference_nominal_ut_arcsec": 1.2247565115558245,
+    "difference_matched_tt_arcsec": 1.224778886285094
+  },
+  {
+    "year": 2070,
+    "body": "Sun",
+    "jd_ut": 2477278.0,
+    "swiss_longitude_deg": 84.77364950302896,
+    "independent_nominal_ut_longitude_deg": 84.77428010051635,
+    "difference_nominal_ut_arcsec": 2.27015095454135,
+    "difference_matched_tt_arcsec": 2.270105733703076
+  },
+  {
+    "year": 2070,
+    "body": "Moon",
+    "jd_ut": 2477278.0,
+    "swiss_longitude_deg": 173.94874660231713,
+    "independent_nominal_ut_longitude_deg": 173.95651684394306,
+    "difference_nominal_ut_arcsec": 27.972869853363136,
+    "difference_matched_tt_arcsec": 1.0684225229852018
+  },
+  {
+    "year": 2070,
+    "body": "Mercury",
+    "jd_ut": 2477278.0,
+    "swiss_longitude_deg": 84.29419282212687,
+    "independent_nominal_ut_longitude_deg": 84.29568100349155,
+    "difference_nominal_ut_arcsec": 5.357452912789995,
+    "difference_matched_tt_arcsec": 5.3574076922586755
+  },
+  {
+    "year": 2070,
+    "body": "Venus",
+    "jd_ut": 2477278.0,
+    "swiss_longitude_deg": 54.64907930888228,
+    "independent_nominal_ut_longitude_deg": 54.649610851365715,
+    "difference_nominal_ut_arcsec": 1.913552940345653,
+    "difference_matched_tt_arcsec": 1.913507707536155
+  },
+  {
+    "year": 2070,
+    "body": "Mars",
+    "jd_ut": 2477278.0,
+    "swiss_longitude_deg": 133.43846719119173,
+    "independent_nominal_ut_longitude_deg": 133.438534288712,
+    "difference_nominal_ut_arcsec": 0.24155107292926914,
+    "difference_matched_tt_arcsec": 0.24150583797108993
+  },
+  {
+    "year": 2070,
+    "body": "Jupiter",
+    "jd_ut": 2477278.0,
+    "swiss_longitude_deg": 23.537626569956952,
+    "independent_nominal_ut_longitude_deg": 23.538648218023354,
+    "difference_nominal_ut_arcsec": 3.677933039034542,
+    "difference_matched_tt_arcsec": 3.6778878003929094
+  },
+  {
+    "year": 2070,
+    "body": "Saturn",
+    "jd_ut": 2477278.0,
+    "swiss_longitude_deg": 192.72066696825473,
+    "independent_nominal_ut_longitude_deg": 192.7202850205503,
+    "difference_nominal_ut_arcsec": 1.37501173593364,
+    "difference_matched_tt_arcsec": 1.3750569916624045
+  },
+  {
+    "year": 2070,
+    "body": "Uranus",
+    "jd_ut": 2477278.0,
+    "swiss_longitude_deg": 261.38746746203077,
+    "independent_nominal_ut_longitude_deg": 261.386984254135,
+    "difference_nominal_ut_arcsec": 1.739548424870918,
+    "difference_matched_tt_arcsec": 1.7395936458115102
+  },
+  {
+    "year": 2070,
+    "body": "Neptune",
+    "jd_ut": 2477278.0,
+    "swiss_longitude_deg": 100.06962064271397,
+    "independent_nominal_ut_longitude_deg": 100.07215326301764,
+    "difference_nominal_ut_arcsec": 9.117433093206273,
+    "difference_matched_tt_arcsec": 9.117387875539862
+  },
+  {
+    "year": 2070,
+    "body": "Pluto",
+    "jd_ut": 2477278.0,
+    "swiss_longitude_deg": 4.45273051718815,
+    "independent_nominal_ut_longitude_deg": 4.45083778638864,
+    "difference_nominal_ut_arcsec": 6.8138308782408785,
+    "difference_matched_tt_arcsec": 6.813876333899316
+  }
+]

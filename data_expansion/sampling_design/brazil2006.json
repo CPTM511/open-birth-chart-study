@@ -1,0 +1,393 @@
+{
+  "algorithm": "minimum 1 per nonempty stratum; proportional floor quotas and largest remainders; SHA256(seed+'|'+source_id) ascending within stratum",
+  "eligible_frame_N": 2805207,
+  "metadata_sha256": "a50061c89d2ada34bffa55a0e500f413dd833263c5300771a6bc51be65b6d341",
+  "model_input_sha256": "3d9a2dc48a26a083a20abbd372310310d13b6e93d880a4f8d1fafa02f8914f6d",
+  "outcome_fields": [],
+  "sample_n": 2000,
+  "seed": "OBS-R8-2026-11-26",
+  "selection_uses_model_outputs": false,
+  "source": "brazil2006",
+  "strata": [
+    {
+      "N_h": 12087,
+      "inclusion_probability": 0.0007446016381236039,
+      "n_h": 9,
+      "sample_weight": 1343.0,
+      "stratum_id": "BR|11|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 12709,
+      "inclusion_probability": 0.0007081595719568809,
+      "n_h": 9,
+      "sample_weight": 1412.111111111111,
+      "stratum_id": "BR|11|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 8160,
+      "inclusion_probability": 0.0007352941176470588,
+      "n_h": 6,
+      "sample_weight": 1360.0,
+      "stratum_id": "BR|12|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 8557,
+      "inclusion_probability": 0.0007011803202056796,
+      "n_h": 6,
+      "sample_weight": 1426.1666666666667,
+      "stratum_id": "BR|12|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 21277,
+      "inclusion_probability": 0.0007049866052545002,
+      "n_h": 15,
+      "sample_weight": 1418.4666666666667,
+      "stratum_id": "BR|13|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 22105,
+      "inclusion_probability": 0.0007238181406921511,
+      "n_h": 16,
+      "sample_weight": 1381.5625,
+      "stratum_id": "BR|13|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 4186,
+      "inclusion_probability": 0.000716674629718108,
+      "n_h": 3,
+      "sample_weight": 1395.3333333333333,
+      "stratum_id": "BR|14|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 4534,
+      "inclusion_probability": 0.0006616674018526688,
+      "n_h": 3,
+      "sample_weight": 1511.3333333333333,
+      "stratum_id": "BR|14|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 24875,
+      "inclusion_probability": 0.0007236180904522613,
+      "n_h": 18,
+      "sample_weight": 1381.9444444444443,
+      "stratum_id": "BR|15|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 26374,
+      "inclusion_probability": 0.0007204064609084705,
+      "n_h": 19,
+      "sample_weight": 1388.1052631578948,
+      "stratum_id": "BR|15|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 7367,
+      "inclusion_probability": 0.0006787023211619384,
+      "n_h": 5,
+      "sample_weight": 1473.4,
+      "stratum_id": "BR|16|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 7815,
+      "inclusion_probability": 0.0007677543186180423,
+      "n_h": 6,
+      "sample_weight": 1302.5,
+      "stratum_id": "BR|16|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 12790,
+      "inclusion_probability": 0.0007036747458952306,
+      "n_h": 9,
+      "sample_weight": 1421.111111111111,
+      "stratum_id": "BR|17|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 13247,
+      "inclusion_probability": 0.0006793991092322791,
+      "n_h": 9,
+      "sample_weight": 1471.888888888889,
+      "stratum_id": "BR|17|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 60494,
+      "inclusion_probability": 0.0007108142956326248,
+      "n_h": 43,
+      "sample_weight": 1406.8372093023256,
+      "stratum_id": "BR|21|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 63916,
+      "inclusion_probability": 0.0007196945991613993,
+      "n_h": 46,
+      "sample_weight": 1389.4782608695652,
+      "stratum_id": "BR|21|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 27954,
+      "inclusion_probability": 0.0007154611146884167,
+      "n_h": 20,
+      "sample_weight": 1397.7,
+      "stratum_id": "BR|22|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 29711,
+      "inclusion_probability": 0.0007068089259870082,
+      "n_h": 21,
+      "sample_weight": 1414.8095238095239,
+      "stratum_id": "BR|22|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 65240,
+      "inclusion_probability": 0.0007050889025137952,
+      "n_h": 46,
+      "sample_weight": 1418.2608695652175,
+      "stratum_id": "BR|23|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 69326,
+      "inclusion_probability": 0.0007068055275077172,
+      "n_h": 49,
+      "sample_weight": 1414.8163265306123,
+      "stratum_id": "BR|23|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 23327,
+      "inclusion_probability": 0.0007287692373644275,
+      "n_h": 17,
+      "sample_weight": 1372.1764705882354,
+      "stratum_id": "BR|24|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 24947,
+      "inclusion_probability": 0.0007215296428428268,
+      "n_h": 18,
+      "sample_weight": 1385.9444444444443,
+      "stratum_id": "BR|24|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 28697,
+      "inclusion_probability": 0.0006969369620517824,
+      "n_h": 20,
+      "sample_weight": 1434.85,
+      "stratum_id": "BR|25|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 30272,
+      "inclusion_probability": 0.0007267441860465116,
+      "n_h": 22,
+      "sample_weight": 1376.0,
+      "stratum_id": "BR|25|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 70961,
+      "inclusion_probability": 0.0007187046405772185,
+      "n_h": 51,
+      "sample_weight": 1391.3921568627452,
+      "stratum_id": "BR|26|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 75001,
+      "inclusion_probability": 0.0007066572445700724,
+      "n_h": 53,
+      "sample_weight": 1415.1132075471698,
+      "stratum_id": "BR|26|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 27080,
+      "inclusion_probability": 0.0007016248153618907,
+      "n_h": 19,
+      "sample_weight": 1425.2631578947369,
+      "stratum_id": "BR|27|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 28756,
+      "inclusion_probability": 0.0006955070246209487,
+      "n_h": 20,
+      "sample_weight": 1437.8,
+      "stratum_id": "BR|27|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 18550,
+      "inclusion_probability": 0.0007008086253369272,
+      "n_h": 13,
+      "sample_weight": 1426.923076923077,
+      "stratum_id": "BR|28|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 19317,
+      "inclusion_probability": 0.0007247502200134596,
+      "n_h": 14,
+      "sample_weight": 1379.7857142857142,
+      "stratum_id": "BR|28|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 106898,
+      "inclusion_probability": 0.0007109581095998054,
+      "n_h": 76,
+      "sample_weight": 1406.5526315789473,
+      "stratum_id": "BR|29|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 113402,
+      "inclusion_probability": 0.0007142731168762455,
+      "n_h": 81,
+      "sample_weight": 1400.0246913580247,
+      "stratum_id": "BR|29|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 128664,
+      "inclusion_probability": 0.000715040726232668,
+      "n_h": 92,
+      "sample_weight": 1398.5217391304348,
+      "stratum_id": "BR|31|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 135556,
+      "inclusion_probability": 0.0007155714243559857,
+      "n_h": 97,
+      "sample_weight": 1397.4845360824743,
+      "stratum_id": "BR|31|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 25273,
+      "inclusion_probability": 0.0007122225299726981,
+      "n_h": 18,
+      "sample_weight": 1404.0555555555557,
+      "stratum_id": "BR|32|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 26062,
+      "inclusion_probability": 0.0007290307727726191,
+      "n_h": 19,
+      "sample_weight": 1371.6842105263158,
+      "stratum_id": "BR|32|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 107246,
+      "inclusion_probability": 0.0007086511385040002,
+      "n_h": 76,
+      "sample_weight": 1411.1315789473683,
+      "stratum_id": "BR|33|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 110916,
+      "inclusion_probability": 0.0007122507122507123,
+      "n_h": 79,
+      "sample_weight": 1404.0,
+      "stratum_id": "BR|33|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 293452,
+      "inclusion_probability": 0.0007122118779221133,
+      "n_h": 209,
+      "sample_weight": 1404.0765550239234,
+      "stratum_id": "BR|35|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 308382,
+      "inclusion_probability": 0.0007134009118560746,
+      "n_h": 220,
+      "sample_weight": 1401.7363636363636,
+      "stratum_id": "BR|35|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 75222,
+      "inclusion_probability": 0.0007178750897343862,
+      "n_h": 54,
+      "sample_weight": 1393.0,
+      "stratum_id": "BR|41|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 78084,
+      "inclusion_probability": 0.0007171763741611598,
+      "n_h": 56,
+      "sample_weight": 1394.357142857143,
+      "stratum_id": "BR|41|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 40892,
+      "inclusion_probability": 0.0007091851706935342,
+      "n_h": 29,
+      "sample_weight": 1410.0689655172414,
+      "stratum_id": "BR|42|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 42960,
+      "inclusion_probability": 0.0007216014897579143,
+      "n_h": 31,
+      "sample_weight": 1385.8064516129032,
+      "stratum_id": "BR|42|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 69068,
+      "inclusion_probability": 0.0007094457635952974,
+      "n_h": 49,
+      "sample_weight": 1409.5510204081634,
+      "stratum_id": "BR|43|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 72312,
+      "inclusion_probability": 0.0007191060958070583,
+      "n_h": 52,
+      "sample_weight": 1390.6153846153845,
+      "stratum_id": "BR|43|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 19085,
+      "inclusion_probability": 0.0007335603877390621,
+      "n_h": 14,
+      "sample_weight": 1363.2142857142858,
+      "stratum_id": "BR|50|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 20176,
+      "inclusion_probability": 0.0006938937351308486,
+      "n_h": 14,
+      "sample_weight": 1441.142857142857,
+      "stratum_id": "BR|50|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 24049,
+      "inclusion_probability": 0.0007068900993804316,
+      "n_h": 17,
+      "sample_weight": 1414.6470588235295,
+      "stratum_id": "BR|51|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 25305,
+      "inclusion_probability": 0.0007113218731475993,
+      "n_h": 18,
+      "sample_weight": 1405.8333333333333,
+      "stratum_id": "BR|51|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 37857,
+      "inclusion_probability": 0.000713210238529202,
+      "n_h": 27,
+      "sample_weight": 1402.111111111111,
+      "stratum_id": "BR|52|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 39460,
+      "inclusion_probability": 0.0007095793208312215,
+      "n_h": 28,
+      "sample_weight": 1409.2857142857142,
+      "stratum_id": "BR|52|M|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 26923,
+      "inclusion_probability": 0.0007057163020465773,
+      "n_h": 19,
+      "sample_weight": 1417.0,
+      "stratum_id": "BR|53|F|2000|official_clock_municipality_reference_iana"
+    },
+    {
+      "N_h": 28331,
+      "inclusion_probability": 0.0007059404892167591,
+      "n_h": 20,
+      "sample_weight": 1416.55,
+      "stratum_id": "BR|53|M|2000|official_clock_municipality_reference_iana"
+    }
+  ],
+  "stratum_fields": "country / Brazil UF × explicit sex × birth decade × quality",
+  "weight_interpretation": "Conditional inclusion probabilities for this source's eligible records. They are not weights for national registered births outside eligibility, all births, or the global population."
+}

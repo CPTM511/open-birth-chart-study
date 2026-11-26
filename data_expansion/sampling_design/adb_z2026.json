@@ -1,0 +1,1247 @@
+{
+  "algorithm": "minimum 1 per nonempty stratum; proportional floor quotas and largest remainders; SHA256(seed+'|'+source_id) ascending within stratum",
+  "eligible_frame_N": 341,
+  "metadata_sha256": "9dc9990cdee5b7afd3bde845ff322194c34a09fa46978cecbd6fdbf28518f6e4",
+  "model_input_sha256": "b2db70b22414ad12d8d6d4a7dee6d2bcd79cc5d2fbeb88b713bcf954cd029061",
+  "outcome_fields": [],
+  "sample_n": 341,
+  "seed": "OBS-R8-2026-11-26",
+  "selection_uses_model_outputs": false,
+  "source": "adb_z2026",
+  "strata": [
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "AR|F|1970|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "AR|M|1880|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "AR|M|1970|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "AR|M|1980|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "AT|F|1970|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "AT|M|1920|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "AT|M|1970|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "AT|M|1970|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "AZ|F|1960|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "BE|F|1960|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "BE|M|1880|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "BE|M|1890|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "BE|M|1970|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "BR|M|1930|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "BR|M|1950|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "BR|M|1970|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "BR|M|1990|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "BR|M|1990|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "CA|M|1970|ADB_A"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "CA|M|1980|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "CH|M|1890|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "CH|M|1910|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "CH|M|1930|ADB_A"
+    },
+    {
+      "N_h": 3,
+      "inclusion_probability": 1.0,
+      "n_h": 3,
+      "sample_weight": 1.0,
+      "stratum_id": "CL|M|1890|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "CL|M|1960|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "CN|M|1980|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "CR|F|1920|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "CR|M|1900|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "CR|M|1910|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "CZ|M|1950|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "DE|F|1880|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "DE|F|1940|ADB_A"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "DE|F|1940|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "DE|F|1970|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "DE|F|1980|ADB_A"
+    },
+    {
+      "N_h": 6,
+      "inclusion_probability": 1.0,
+      "n_h": 6,
+      "sample_weight": 1.0,
+      "stratum_id": "DE|M|1880|ADB_AA"
+    },
+    {
+      "N_h": 10,
+      "inclusion_probability": 1.0,
+      "n_h": 10,
+      "sample_weight": 1.0,
+      "stratum_id": "DE|M|1890|ADB_AA"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "DE|M|1900|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "DE|M|1910|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "DE|M|1910|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "DE|M|1940|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "DE|M|1940|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "DE|M|1960|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "DZ|M|1910|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "DZ|M|1920|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "ES|F|1900|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "ES|M|1880|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "ES|M|1960|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "ES|M|1990|ADB_A"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|F|1880|ADB_AA"
+    },
+    {
+      "N_h": 3,
+      "inclusion_probability": 1.0,
+      "n_h": 3,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|F|1950|ADB_AA"
+    },
+    {
+      "N_h": 3,
+      "inclusion_probability": 1.0,
+      "n_h": 3,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|F|1960|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|F|1970|ADB_AA"
+    },
+    {
+      "N_h": 3,
+      "inclusion_probability": 1.0,
+      "n_h": 3,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|F|1980|ADB_AA"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|M|1890|ADB_AA"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|M|1900|ADB_AA"
+    },
+    {
+      "N_h": 4,
+      "inclusion_probability": 1.0,
+      "n_h": 4,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|M|1910|ADB_AA"
+    },
+    {
+      "N_h": 4,
+      "inclusion_probability": 1.0,
+      "n_h": 4,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|M|1920|ADB_AA"
+    },
+    {
+      "N_h": 7,
+      "inclusion_probability": 1.0,
+      "n_h": 7,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|M|1930|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|M|1940|ADB_A"
+    },
+    {
+      "N_h": 5,
+      "inclusion_probability": 1.0,
+      "n_h": 5,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|M|1940|ADB_AA"
+    },
+    {
+      "N_h": 7,
+      "inclusion_probability": 1.0,
+      "n_h": 7,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|M|1950|ADB_AA"
+    },
+    {
+      "N_h": 3,
+      "inclusion_probability": 1.0,
+      "n_h": 3,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|M|1960|ADB_AA"
+    },
+    {
+      "N_h": 8,
+      "inclusion_probability": 1.0,
+      "n_h": 8,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|M|1970|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|M|1980|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|M|1990|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|M|1990|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "GB|F|1880|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "GB|F|1960|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "GB|F|1960|ADB_AA"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "GB|F|1990|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "GB|F|2000|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "HR|M|1970|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "IL|M|1950|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "IN|F|1930|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "IN|F|1960|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|F|1910|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|F|1920|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|F|1930|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|F|1940|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|F|1950|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|F|1960|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|F|1970|ADB_A"
+    },
+    {
+      "N_h": 3,
+      "inclusion_probability": 1.0,
+      "n_h": 3,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|F|1970|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|F|1980|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|F|1980|ADB_AA"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|M|1880|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|M|1890|ADB_AA"
+    },
+    {
+      "N_h": 3,
+      "inclusion_probability": 1.0,
+      "n_h": 3,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|M|1900|ADB_AA"
+    },
+    {
+      "N_h": 4,
+      "inclusion_probability": 1.0,
+      "n_h": 4,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|M|1910|ADB_AA"
+    },
+    {
+      "N_h": 7,
+      "inclusion_probability": 1.0,
+      "n_h": 7,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|M|1920|ADB_AA"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|M|1930|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|M|1940|ADB_A"
+    },
+    {
+      "N_h": 5,
+      "inclusion_probability": 1.0,
+      "n_h": 5,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|M|1940|ADB_AA"
+    },
+    {
+      "N_h": 5,
+      "inclusion_probability": 1.0,
+      "n_h": 5,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|M|1950|ADB_AA"
+    },
+    {
+      "N_h": 5,
+      "inclusion_probability": 1.0,
+      "n_h": 5,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|M|1960|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|M|1970|ADB_A"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|M|1970|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "MX|F|1920|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "MX|F|1950|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "MX|F|1980|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "MX|M|1890|ADB_AA"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "MX|M|1900|ADB_AA"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "MX|M|1920|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "MX|M|1930|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "MX|M|1960|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "MX|M|1970|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "MX|M|1990|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "NL|F|1880|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "NL|F|1890|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "NL|F|2010|ADB_A"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "NL|M|1880|ADB_AA"
+    },
+    {
+      "N_h": 3,
+      "inclusion_probability": 1.0,
+      "n_h": 3,
+      "sample_weight": 1.0,
+      "stratum_id": "NL|M|1890|ADB_AA"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "NL|M|1900|ADB_AA"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "NL|M|1910|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "NL|M|1920|ADB_A"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "NL|M|1940|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "NL|M|1960|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "NO|F|1930|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "PE|F|1930|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "PE|F|1950|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "PE|F|1990|ADB_AA"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "PE|M|1950|ADB_AA"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "PE|M|1960|ADB_AA"
+    },
+    {
+      "N_h": 6,
+      "inclusion_probability": 1.0,
+      "n_h": 6,
+      "sample_weight": 1.0,
+      "stratum_id": "PE|M|1970|ADB_AA"
+    },
+    {
+      "N_h": 4,
+      "inclusion_probability": 1.0,
+      "n_h": 4,
+      "sample_weight": 1.0,
+      "stratum_id": "PE|M|1980|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "PK|F|1990|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "PK|M|1980|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "PL|F|1900|ADB_AA"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "PL|F|1970|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "PL|F|1980|ADB_A"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "PL|M|1880|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "PL|M|1890|ADB_AA"
+    },
+    {
+      "N_h": 3,
+      "inclusion_probability": 1.0,
+      "n_h": 3,
+      "sample_weight": 1.0,
+      "stratum_id": "PL|M|1900|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "PL|M|1950|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "PL|M|1980|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "RU|F|1970|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "RU|M|1940|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "TN|M|1940|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "UA|M|1970|ADB_A"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|1910|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|1910|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|1920|ADB_AA"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|1930|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|1940|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|1950|ADB_A"
+    },
+    {
+      "N_h": 3,
+      "inclusion_probability": 1.0,
+      "n_h": 3,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|1960|ADB_A"
+    },
+    {
+      "N_h": 3,
+      "inclusion_probability": 1.0,
+      "n_h": 3,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|1960|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|1970|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|1980|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|1980|ADB_AA"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|1990|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|1990|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|2000|ADB_AA"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|2010|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1880|ADB_AA"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1890|ADB_A"
+    },
+    {
+      "N_h": 4,
+      "inclusion_probability": 1.0,
+      "n_h": 4,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1900|ADB_AA"
+    },
+    {
+      "N_h": 7,
+      "inclusion_probability": 1.0,
+      "n_h": 7,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1910|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1920|ADB_A"
+    },
+    {
+      "N_h": 5,
+      "inclusion_probability": 1.0,
+      "n_h": 5,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1920|ADB_AA"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1930|ADB_A"
+    },
+    {
+      "N_h": 10,
+      "inclusion_probability": 1.0,
+      "n_h": 10,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1930|ADB_AA"
+    },
+    {
+      "N_h": 7,
+      "inclusion_probability": 1.0,
+      "n_h": 7,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1940|ADB_A"
+    },
+    {
+      "N_h": 7,
+      "inclusion_probability": 1.0,
+      "n_h": 7,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1940|ADB_AA"
+    },
+    {
+      "N_h": 4,
+      "inclusion_probability": 1.0,
+      "n_h": 4,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1950|ADB_A"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1950|ADB_AA"
+    },
+    {
+      "N_h": 4,
+      "inclusion_probability": 1.0,
+      "n_h": 4,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1960|ADB_A"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1960|ADB_AA"
+    },
+    {
+      "N_h": 3,
+      "inclusion_probability": 1.0,
+      "n_h": 3,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1970|ADB_A"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1970|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1980|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1990|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|2000|ADB_A"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "VE|M|1900|ADB_AA"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "VE|M|1940|ADB_A"
+    }
+  ],
+  "stratum_fields": "country / Brazil UF × explicit sex × birth decade × quality",
+  "weight_interpretation": "Conditional inclusion probabilities for this source's eligible records. They are not weights for national registered births outside eligibility, all births, or the global population."
+}

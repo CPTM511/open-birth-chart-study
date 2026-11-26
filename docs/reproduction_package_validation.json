@@ -1,0 +1,17 @@
+{
+  "wheel_name": "open_birth_chart_study-0.2.0-py3-none-any.whl",
+  "wheel_sha256": "9a7bc56c95f4203976c356b687b7f90720301e313bba454c4bedaac87245b985",
+  "packaging_build_passed": true,
+  "build_used_existing_packaging_tools": true,
+  "build_downloaded_dependencies": false,
+  "node_bridge_in_wheel": true,
+  "requires_dist": [
+    "Requires-Dist: numpy==2.3.5",
+    "Requires-Dist: scipy==1.17.0",
+    "Requires-Dist: lunar-python==1.4.9",
+    "Requires-Dist: pyswisseph==2.10.3.2",
+    "Requires-Dist: astronomy-engine==2.1.19"
+  ],
+  "clean_environment_install_tested": false,
+  "models_or_statistics_modified": false
+}

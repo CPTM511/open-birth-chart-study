@@ -1,0 +1,2428 @@
+{
+  "audit_id": "OBS-R8-SAMPLING-IMPLEMENTATION-DEVIATION-v1",
+  "created_utc": "2026-11-26T08:13:58.656699+00:00",
+  "status": "implementation_deviation_disclosure_preserving_frozen_protocol_and_as_executed_samples",
+  "timing": {
+    "study_protocol_frozen_utc": "2026-11-26T07:45:45.733710+00:00",
+    "cohort_execution_sealed_utc": "2026-11-26T07:58:27.811456+00:00",
+    "source_profile_computation_had_started_before_deviation_discovery": true,
+    "team_had_not_reviewed_actual_statistical_effects_at_deviation_discovery": true,
+    "basis": "Timing supplied by the root coordinating agent; no profile or analysis output was inspected to establish this timing.",
+    "this_disclosure_is_not_a_pre_execution_amendment": true
+  },
+  "original_frozen_protocol": {
+    "path": "protocol/study_protocol.json",
+    "seal_path": "protocol/study_protocol_seal.json",
+    "original_frozen_sha256": "f06f3dcaa72c5c7b02e839ad1edfdc966c7130be373bd7bd55c5534cbb6253fe",
+    "observed_sha256": "f06f3dcaa72c5c7b02e839ad1edfdc966c7130be373bd7bd55c5534cbb6253fe",
+    "matches_original_frozen_hash": true,
+    "local_freeze_not_external_registration": true,
+    "allocation_verbatim": "At least one per nonempty stratum; remaining quota proportional to remaining stratum capacity with largest-remainder allocation; cap at N_h. Take the entire eligible frame if <=2000."
+  },
+  "audit_scope": {
+    "inputs": "Only frozen stratum sizes and quotas, protocol and execution seals, data code, and provenance/verification/release manifests.",
+    "profiles_inspected": false,
+    "statistical_results_inspected": false,
+    "outcomes_inspected": false,
+    "row_level_samples_inspected": false,
+    "resampling_performed": false,
+    "frozen_protocol_changed": false,
+    "samples_changed": false,
+    "models_changed": false,
+    "existing_data_code_changed": false,
+    "no_frozen_files_changed_by_this_audit": true,
+    "written_paths": [
+      "docs/sampling_implementation_deviation.md",
+      "protocol/sampling_implementation_deviation.json"
+    ]
+  },
+  "comparison_definition": {
+    "N": "Sum of N_h in the frozen source sampling-design JSON.",
+    "H": "Number of nonempty strata in that same file.",
+    "target_n": "min(2000, N)",
+    "planned_allocation": "If N <= 2000, planned_n_h = N_h. Otherwise allocate one to each nonempty stratum, then distribute R=target_n-H across remaining capacities C_h=N_h-1: a_h=R*C_h/(N-H), start at 1+floor(a_h), and award the remaining slots by descending fractional remainder; exact ties use ascending lexical stratum_id. Enforce planned_n_h <= N_h.",
+    "planned_arithmetic": "Exact integer divmod; independently checked with fractions.Fraction, avoiding floating-point tie ambiguity.",
+    "implemented_allocation": "proportional_quotas computes ideal_h=target_n*N_h/N, initializes q_h=min(N_h,max(1,floor(ideal_h))), then removes excess quota or adds remaining slots relative to ideal_h. It does not reserve one first and allocate target_n-H against N_h-1. N <= 2000 returns the entire frame.",
+    "actual_n_h": "Recorded n_h from the frozen sampling-design JSON, verified by executing only the isolated unmodified proportional_quotas function on the same N_h values.",
+    "delta": "actual_n_h - planned_n_h",
+    "L1": "sum_h abs(actual_n_h - planned_n_h)",
+    "minimum_reassigned_slots": "L1/2 because planned and actual total sample sizes agree; this is a quota distance, not an executed reassignment or an estimate of statistical-effect impact.",
+    "within_stratum_selection": "Unchanged frozen ascending SHA256 order; no person identities or rows were selected, replaced or inspected for this comparison."
+  },
+  "data_code_hashes": {
+    "data_expansion/audit_birth_inputs.py": {
+      "observed_sha256": "78707c884cd519e8d28b16e436b6b35e973e68b9cfa3bdcd04747432e16e967a",
+      "release_manifest_sha256": "78707c884cd519e8d28b16e436b6b35e973e68b9cfa3bdcd04747432e16e967a",
+      "fresh_rebuild_manifest_sha256": "78707c884cd519e8d28b16e436b6b35e973e68b9cfa3bdcd04747432e16e967a",
+      "matches_both_manifests": true
+    },
+    "data_expansion/build_adb_reference.py": {
+      "observed_sha256": "f0c59249c8d59fa2eb6171104959f797df89c928a600f42fc5488b7da9e9abc2",
+      "release_manifest_sha256": "f0c59249c8d59fa2eb6171104959f797df89c928a600f42fc5488b7da9e9abc2",
+      "fresh_rebuild_manifest_sha256": "f0c59249c8d59fa2eb6171104959f797df89c928a600f42fc5488b7da9e9abc2",
+      "matches_both_manifests": true
+    },
+    "data_expansion/build_birth_inputs.py": {
+      "observed_sha256": "5d3b886d691b98e0f33f1d18e604e6c16ac57bcb2e1fed9b3960642c181ad203",
+      "release_manifest_sha256": "5d3b886d691b98e0f33f1d18e604e6c16ac57bcb2e1fed9b3960642c181ad203",
+      "fresh_rebuild_manifest_sha256": "5d3b886d691b98e0f33f1d18e604e6c16ac57bcb2e1fed9b3960642c181ad203",
+      "matches_both_manifests": true
+    },
+    "data_expansion/download_sources.py": {
+      "observed_sha256": "5cfa0e53cf117ccaaea83bbc0cc24fcd5907d138e0ffbd9cf30460659be00e65",
+      "release_manifest_sha256": "5cfa0e53cf117ccaaea83bbc0cc24fcd5907d138e0ffbd9cf30460659be00e65",
+      "fresh_rebuild_manifest_sha256": "5cfa0e53cf117ccaaea83bbc0cc24fcd5907d138e0ffbd9cf30460659be00e65",
+      "matches_both_manifests": true
+    }
+  },
+  "raw_source_archive_hashes_from_provenance": {
+    "manifest_path": "data_expansion/source_provenance.json",
+    "observed_manifest_sha256": "7f120fb33ad5a1921a553d3fce2c641f1f47d9e4c89da37fb5a388947fd10f8b",
+    "archives_reopened_or_rehashed_in_this_audit": false,
+    "entries": [
+      {
+        "name": "adb_z_sample.zip",
+        "role": "reused_alphabetical_reference_birth_frame",
+        "sha256": "f3b9a93eae4bf27588d2e4c0f81cfd47f1b8aad009f7c469843e2974fa371edc"
+      },
+      {
+        "name": "brazil2006.zip",
+        "role": "birth_record_frame",
+        "sha256": "4089f12103eb7af2840b39f0d5a6c4ac5aafcd46bf3cf9cd77964865ceffdd65"
+      },
+      {
+        "name": "ogdb_pg_dump.zip",
+        "role": "birth_record_frame",
+        "sha256": "b9a90c6bfc5856a05305360e8faa7d67ca71f001a9ae5ab4efd79df81dc0d01c"
+      },
+      {
+        "name": "ibge_localities_2022.zip",
+        "role": "municipal_seat_reference_coordinates",
+        "sha256": "1d96d5f0b379972a506d4b18c3696af974fbe59f8f6680557cb3a6dd38a0eb57"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "brazil2006",
+      "eligible_frame_N": 2805207,
+      "nonempty_strata_H": 54,
+      "planned_sample_n": 2000,
+      "actual_sample_n": 2000,
+      "full_eligible_frame": false,
+      "remaining_quota_after_one_each": 1946,
+      "remaining_capacity_sum": 2805153,
+      "largest_remainder_slots_after_floor": 27,
+      "strata_with_different_quota": 35,
+      "signed_sum_delta": 0,
+      "max_absolute_delta": 5,
+      "total_absolute_delta_L1": 44,
+      "minimum_reassigned_slots_L1_over_2": 22,
+      "minimum_reassigned_slots_fraction_of_actual_sample": 0.011,
+      "delta_frequency": {
+        "-1": 22,
+        "0": 19,
+        "1": 9,
+        "2": 2,
+        "4": 1,
+        "5": 1
+      },
+      "implemented_function_matches_recorded_n_h_for_every_stratum": true,
+      "sampling_design": {
+        "path": "data_expansion/sampling_design/brazil2006.json",
+        "observed_sha256": "39eceec508bcda8665e1d112de9a0c1153ca5dd1856bee0cf0849e282c409a93",
+        "release_manifest_sha256": "39eceec508bcda8665e1d112de9a0c1153ca5dd1856bee0cf0849e282c409a93",
+        "matches_release_manifest": true
+      },
+      "source_input_hashes_from_manifests": {
+        "model_input_sha256": "3d9a2dc48a26a083a20abbd372310310d13b6e93d880a4f8d1fafa02f8914f6d",
+        "metadata_sha256": "a50061c89d2ada34bffa55a0e500f413dd833263c5300771a6bc51be65b6d341",
+        "recorded_in": [
+          "data_expansion/sampling_design/brazil2006.json",
+          "protocol/cohort_execution_seal.json"
+        ],
+        "manifests_agree": true,
+        "row_level_inputs_read_or_rehashed_in_this_audit": false
+      },
+      "per_stratum_planned_vs_actual": [
+        {
+          "stratum_id": "BR|11|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 12087,
+          "planned_n_h": 9,
+          "actual_n_h": 9,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|11|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 12709,
+          "planned_n_h": 10,
+          "actual_n_h": 9,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|12|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 8160,
+          "planned_n_h": 7,
+          "actual_n_h": 6,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|12|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 8557,
+          "planned_n_h": 7,
+          "actual_n_h": 6,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|13|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 21277,
+          "planned_n_h": 16,
+          "actual_n_h": 15,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|13|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 22105,
+          "planned_n_h": 16,
+          "actual_n_h": 16,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|14|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 4186,
+          "planned_n_h": 4,
+          "actual_n_h": 3,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|14|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 4534,
+          "planned_n_h": 4,
+          "actual_n_h": 3,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|15|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 24875,
+          "planned_n_h": 18,
+          "actual_n_h": 18,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|15|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 26374,
+          "planned_n_h": 19,
+          "actual_n_h": 19,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|16|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 7367,
+          "planned_n_h": 6,
+          "actual_n_h": 5,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|16|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 7815,
+          "planned_n_h": 7,
+          "actual_n_h": 6,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|17|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 12790,
+          "planned_n_h": 10,
+          "actual_n_h": 9,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|17|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 13247,
+          "planned_n_h": 10,
+          "actual_n_h": 9,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|21|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 60494,
+          "planned_n_h": 43,
+          "actual_n_h": 43,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|21|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 63916,
+          "planned_n_h": 45,
+          "actual_n_h": 46,
+          "delta_actual_minus_planned": 1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|22|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 27954,
+          "planned_n_h": 20,
+          "actual_n_h": 20,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|22|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 29711,
+          "planned_n_h": 22,
+          "actual_n_h": 21,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|23|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 65240,
+          "planned_n_h": 46,
+          "actual_n_h": 46,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|23|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 69326,
+          "planned_n_h": 49,
+          "actual_n_h": 49,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|24|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 23327,
+          "planned_n_h": 17,
+          "actual_n_h": 17,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|24|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 24947,
+          "planned_n_h": 18,
+          "actual_n_h": 18,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|25|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 28697,
+          "planned_n_h": 21,
+          "actual_n_h": 20,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|25|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 30272,
+          "planned_n_h": 22,
+          "actual_n_h": 22,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|26|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 70961,
+          "planned_n_h": 50,
+          "actual_n_h": 51,
+          "delta_actual_minus_planned": 1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|26|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 75001,
+          "planned_n_h": 53,
+          "actual_n_h": 53,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|27|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 27080,
+          "planned_n_h": 20,
+          "actual_n_h": 19,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|27|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 28756,
+          "planned_n_h": 21,
+          "actual_n_h": 20,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|28|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 18550,
+          "planned_n_h": 14,
+          "actual_n_h": 13,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|28|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 19317,
+          "planned_n_h": 15,
+          "actual_n_h": 14,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|29|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 106898,
+          "planned_n_h": 75,
+          "actual_n_h": 76,
+          "delta_actual_minus_planned": 1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|29|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 113402,
+          "planned_n_h": 80,
+          "actual_n_h": 81,
+          "delta_actual_minus_planned": 1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|31|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 128664,
+          "planned_n_h": 90,
+          "actual_n_h": 92,
+          "delta_actual_minus_planned": 2,
+          "absolute_delta": 2
+        },
+        {
+          "stratum_id": "BR|31|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 135556,
+          "planned_n_h": 95,
+          "actual_n_h": 97,
+          "delta_actual_minus_planned": 2,
+          "absolute_delta": 2
+        },
+        {
+          "stratum_id": "BR|32|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 25273,
+          "planned_n_h": 19,
+          "actual_n_h": 18,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|32|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 26062,
+          "planned_n_h": 19,
+          "actual_n_h": 19,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|33|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 107246,
+          "planned_n_h": 75,
+          "actual_n_h": 76,
+          "delta_actual_minus_planned": 1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|33|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 110916,
+          "planned_n_h": 78,
+          "actual_n_h": 79,
+          "delta_actual_minus_planned": 1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|35|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 293452,
+          "planned_n_h": 205,
+          "actual_n_h": 209,
+          "delta_actual_minus_planned": 4,
+          "absolute_delta": 4
+        },
+        {
+          "stratum_id": "BR|35|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 308382,
+          "planned_n_h": 215,
+          "actual_n_h": 220,
+          "delta_actual_minus_planned": 5,
+          "absolute_delta": 5
+        },
+        {
+          "stratum_id": "BR|41|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 75222,
+          "planned_n_h": 53,
+          "actual_n_h": 54,
+          "delta_actual_minus_planned": 1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|41|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 78084,
+          "planned_n_h": 55,
+          "actual_n_h": 56,
+          "delta_actual_minus_planned": 1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|42|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 40892,
+          "planned_n_h": 29,
+          "actual_n_h": 29,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|42|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 42960,
+          "planned_n_h": 31,
+          "actual_n_h": 31,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|43|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 69068,
+          "planned_n_h": 49,
+          "actual_n_h": 49,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|43|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 72312,
+          "planned_n_h": 51,
+          "actual_n_h": 52,
+          "delta_actual_minus_planned": 1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|50|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 19085,
+          "planned_n_h": 14,
+          "actual_n_h": 14,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|50|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 20176,
+          "planned_n_h": 15,
+          "actual_n_h": 14,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|51|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 24049,
+          "planned_n_h": 18,
+          "actual_n_h": 17,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|51|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 25305,
+          "planned_n_h": 19,
+          "actual_n_h": 18,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|52|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 37857,
+          "planned_n_h": 27,
+          "actual_n_h": 27,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|52|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 39460,
+          "planned_n_h": 28,
+          "actual_n_h": 28,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|53|F|2000|official_clock_municipality_reference_iana",
+          "N_h": 26923,
+          "planned_n_h": 20,
+          "actual_n_h": 19,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        },
+        {
+          "stratum_id": "BR|53|M|2000|official_clock_municipality_reference_iana",
+          "N_h": 28331,
+          "planned_n_h": 21,
+          "actual_n_h": 20,
+          "delta_actual_minus_planned": -1,
+          "absolute_delta": 1
+        }
+      ]
+    },
+    {
+      "source": "ogdb2023",
+      "eligible_frame_N": 1388,
+      "nonempty_strata_H": 41,
+      "planned_sample_n": 1388,
+      "actual_sample_n": 1388,
+      "full_eligible_frame": true,
+      "remaining_quota_after_one_each": null,
+      "remaining_capacity_sum": null,
+      "largest_remainder_slots_after_floor": null,
+      "strata_with_different_quota": 0,
+      "signed_sum_delta": 0,
+      "max_absolute_delta": 0,
+      "total_absolute_delta_L1": 0,
+      "minimum_reassigned_slots_L1_over_2": 0,
+      "minimum_reassigned_slots_fraction_of_actual_sample": 0.0,
+      "delta_frequency": {
+        "0": 41
+      },
+      "implemented_function_matches_recorded_n_h_for_every_stratum": true,
+      "sampling_design": {
+        "path": "data_expansion/sampling_design/ogdb2023.json",
+        "observed_sha256": "42ac8a3760d6e42c2ac58c3938a7860f11435811c2d318cdd730f99f44dd6ff2",
+        "release_manifest_sha256": "42ac8a3760d6e42c2ac58c3938a7860f11435811c2d318cdd730f99f44dd6ff2",
+        "matches_release_manifest": true
+      },
+      "source_input_hashes_from_manifests": {
+        "model_input_sha256": "76b78ec7e494c2bccc13922e782631071147519894c64cf691d09b0005e1c2cf",
+        "metadata_sha256": "c8c8a73ec04c1b0dd2f3659917038eba6c063553b80426f187379fc0c8b090c7",
+        "recorded_in": [
+          "data_expansion/sampling_design/ogdb2023.json",
+          "protocol/cohort_execution_seal.json"
+        ],
+        "manifests_agree": true,
+        "row_level_inputs_read_or_rehashed_in_this_audit": false
+      },
+      "per_stratum_planned_vs_actual": [
+        {
+          "stratum_id": "BE|F|1900|source_clock_offset_consistent_locality_reference",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "DE|F|1920|source_clock_offset_consistent_locality_reference",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "DE|M|1890|source_clock_offset_consistent_locality_reference",
+          "N_h": 8,
+          "planned_n_h": 8,
+          "actual_n_h": 8,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "DE|M|1900|source_clock_offset_consistent_locality_reference",
+          "N_h": 3,
+          "planned_n_h": 3,
+          "actual_n_h": 3,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "DE|M|1910|source_clock_offset_consistent_locality_reference",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|F|1880|source_clock_offset_consistent_locality_reference",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|F|1890|source_clock_offset_consistent_locality_reference",
+          "N_h": 6,
+          "planned_n_h": 6,
+          "actual_n_h": 6,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|F|1900|source_clock_offset_consistent_locality_reference",
+          "N_h": 6,
+          "planned_n_h": 6,
+          "actual_n_h": 6,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|F|1910|source_clock_offset_consistent_locality_reference",
+          "N_h": 4,
+          "planned_n_h": 4,
+          "actual_n_h": 4,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|F|1920|source_clock_offset_consistent_locality_reference",
+          "N_h": 15,
+          "planned_n_h": 15,
+          "actual_n_h": 15,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|F|1930|source_clock_offset_consistent_locality_reference",
+          "N_h": 8,
+          "planned_n_h": 8,
+          "actual_n_h": 8,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|F|1940|source_clock_offset_consistent_locality_reference",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|M|1880|source_clock_offset_consistent_locality_reference",
+          "N_h": 16,
+          "planned_n_h": 16,
+          "actual_n_h": 16,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|M|1890|source_clock_offset_consistent_locality_reference",
+          "N_h": 62,
+          "planned_n_h": 62,
+          "actual_n_h": 62,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|M|1900|source_clock_offset_consistent_locality_reference",
+          "N_h": 82,
+          "planned_n_h": 82,
+          "actual_n_h": 82,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|M|1910|source_clock_offset_consistent_locality_reference",
+          "N_h": 139,
+          "planned_n_h": 139,
+          "actual_n_h": 139,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|M|1920|source_clock_offset_consistent_locality_reference",
+          "N_h": 295,
+          "planned_n_h": 295,
+          "actual_n_h": 295,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|M|1930|source_clock_offset_consistent_locality_reference",
+          "N_h": 195,
+          "planned_n_h": 195,
+          "actual_n_h": 195,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|M|1940|source_clock_offset_consistent_locality_reference",
+          "N_h": 3,
+          "planned_n_h": 3,
+          "actual_n_h": 3,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|F|1880|source_clock_offset_consistent_locality_reference",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|F|1900|source_clock_offset_consistent_locality_reference",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|M|1880|source_clock_offset_consistent_locality_reference",
+          "N_h": 59,
+          "planned_n_h": 59,
+          "actual_n_h": 59,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|M|1890|source_clock_offset_consistent_locality_reference",
+          "N_h": 57,
+          "planned_n_h": 57,
+          "actual_n_h": 57,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|M|1900|source_clock_offset_consistent_locality_reference",
+          "N_h": 38,
+          "planned_n_h": 38,
+          "actual_n_h": 38,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|M|1910|source_clock_offset_consistent_locality_reference",
+          "N_h": 21,
+          "planned_n_h": 21,
+          "actual_n_h": 21,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|M|1920|source_clock_offset_consistent_locality_reference",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "LU|M|1880|source_clock_offset_consistent_locality_reference",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|1900|source_clock_offset_consistent_locality_reference",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|1910|source_clock_offset_consistent_locality_reference",
+          "N_h": 6,
+          "planned_n_h": 6,
+          "actual_n_h": 6,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|1920|source_clock_offset_consistent_locality_reference",
+          "N_h": 8,
+          "planned_n_h": 8,
+          "actual_n_h": 8,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|1930|source_clock_offset_consistent_locality_reference",
+          "N_h": 7,
+          "planned_n_h": 7,
+          "actual_n_h": 7,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|1940|source_clock_offset_consistent_locality_reference",
+          "N_h": 8,
+          "planned_n_h": 8,
+          "actual_n_h": 8,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|1950|source_clock_offset_consistent_locality_reference",
+          "N_h": 10,
+          "planned_n_h": 10,
+          "actual_n_h": 10,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|1960|source_clock_offset_consistent_locality_reference",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1900|source_clock_offset_consistent_locality_reference",
+          "N_h": 3,
+          "planned_n_h": 3,
+          "actual_n_h": 3,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1910|source_clock_offset_consistent_locality_reference",
+          "N_h": 28,
+          "planned_n_h": 28,
+          "actual_n_h": 28,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1920|source_clock_offset_consistent_locality_reference",
+          "N_h": 58,
+          "planned_n_h": 58,
+          "actual_n_h": 58,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1930|source_clock_offset_consistent_locality_reference",
+          "N_h": 98,
+          "planned_n_h": 98,
+          "actual_n_h": 98,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1940|source_clock_offset_consistent_locality_reference",
+          "N_h": 105,
+          "planned_n_h": 105,
+          "actual_n_h": 105,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1950|source_clock_offset_consistent_locality_reference",
+          "N_h": 26,
+          "planned_n_h": 26,
+          "actual_n_h": 26,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1960|source_clock_offset_consistent_locality_reference",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        }
+      ]
+    },
+    {
+      "source": "adb_z2026",
+      "eligible_frame_N": 341,
+      "nonempty_strata_H": 176,
+      "planned_sample_n": 341,
+      "actual_sample_n": 341,
+      "full_eligible_frame": true,
+      "remaining_quota_after_one_each": null,
+      "remaining_capacity_sum": null,
+      "largest_remainder_slots_after_floor": null,
+      "strata_with_different_quota": 0,
+      "signed_sum_delta": 0,
+      "max_absolute_delta": 0,
+      "total_absolute_delta_L1": 0,
+      "minimum_reassigned_slots_L1_over_2": 0,
+      "minimum_reassigned_slots_fraction_of_actual_sample": 0.0,
+      "delta_frequency": {
+        "0": 176
+      },
+      "implemented_function_matches_recorded_n_h_for_every_stratum": true,
+      "sampling_design": {
+        "path": "data_expansion/sampling_design/adb_z2026.json",
+        "observed_sha256": "fbd64e73645ae15b231079b7a8e045ed1a2eb6a1e1fe70c7a5f60cd415b39b9c",
+        "release_manifest_sha256": "fbd64e73645ae15b231079b7a8e045ed1a2eb6a1e1fe70c7a5f60cd415b39b9c",
+        "matches_release_manifest": true
+      },
+      "source_input_hashes_from_manifests": {
+        "model_input_sha256": "b2db70b22414ad12d8d6d4a7dee6d2bcd79cc5d2fbeb88b713bcf954cd029061",
+        "metadata_sha256": "9dc9990cdee5b7afd3bde845ff322194c34a09fa46978cecbd6fdbf28518f6e4",
+        "recorded_in": [
+          "data_expansion/sampling_design/adb_z2026.json",
+          "protocol/cohort_execution_seal.json"
+        ],
+        "manifests_agree": true,
+        "row_level_inputs_read_or_rehashed_in_this_audit": false
+      },
+      "per_stratum_planned_vs_actual": [
+        {
+          "stratum_id": "AR|F|1970|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "AR|M|1880|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "AR|M|1970|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "AR|M|1980|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "AT|F|1970|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "AT|M|1920|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "AT|M|1970|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "AT|M|1970|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "AZ|F|1960|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BE|F|1960|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BE|M|1880|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BE|M|1890|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BE|M|1970|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|M|1930|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|M|1950|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|M|1970|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|M|1990|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "BR|M|1990|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "CA|M|1970|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "CA|M|1980|ADB_A",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "CH|M|1890|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "CH|M|1910|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "CH|M|1930|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "CL|M|1890|ADB_AA",
+          "N_h": 3,
+          "planned_n_h": 3,
+          "actual_n_h": 3,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "CL|M|1960|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "CN|M|1980|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "CR|F|1920|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "CR|M|1900|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "CR|M|1910|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "CZ|M|1950|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "DE|F|1880|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "DE|F|1940|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "DE|F|1940|ADB_AA",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "DE|F|1970|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "DE|F|1980|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "DE|M|1880|ADB_AA",
+          "N_h": 6,
+          "planned_n_h": 6,
+          "actual_n_h": 6,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "DE|M|1890|ADB_AA",
+          "N_h": 10,
+          "planned_n_h": 10,
+          "actual_n_h": 10,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "DE|M|1900|ADB_AA",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "DE|M|1910|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "DE|M|1910|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "DE|M|1940|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "DE|M|1940|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "DE|M|1960|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "DZ|M|1910|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "DZ|M|1920|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "ES|F|1900|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "ES|M|1880|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "ES|M|1960|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "ES|M|1990|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|F|1880|ADB_AA",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|F|1950|ADB_AA",
+          "N_h": 3,
+          "planned_n_h": 3,
+          "actual_n_h": 3,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|F|1960|ADB_AA",
+          "N_h": 3,
+          "planned_n_h": 3,
+          "actual_n_h": 3,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|F|1970|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|F|1980|ADB_AA",
+          "N_h": 3,
+          "planned_n_h": 3,
+          "actual_n_h": 3,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|M|1890|ADB_AA",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|M|1900|ADB_AA",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|M|1910|ADB_AA",
+          "N_h": 4,
+          "planned_n_h": 4,
+          "actual_n_h": 4,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|M|1920|ADB_AA",
+          "N_h": 4,
+          "planned_n_h": 4,
+          "actual_n_h": 4,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|M|1930|ADB_AA",
+          "N_h": 7,
+          "planned_n_h": 7,
+          "actual_n_h": 7,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|M|1940|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|M|1940|ADB_AA",
+          "N_h": 5,
+          "planned_n_h": 5,
+          "actual_n_h": 5,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|M|1950|ADB_AA",
+          "N_h": 7,
+          "planned_n_h": 7,
+          "actual_n_h": 7,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|M|1960|ADB_AA",
+          "N_h": 3,
+          "planned_n_h": 3,
+          "actual_n_h": 3,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|M|1970|ADB_AA",
+          "N_h": 8,
+          "planned_n_h": 8,
+          "actual_n_h": 8,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|M|1980|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|M|1990|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "FR|M|1990|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "GB|F|1880|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "GB|F|1960|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "GB|F|1960|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "GB|F|1990|ADB_A",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "GB|F|2000|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "HR|M|1970|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IL|M|1950|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IN|F|1930|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IN|F|1960|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|F|1910|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|F|1920|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|F|1930|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|F|1940|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|F|1950|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|F|1960|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|F|1970|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|F|1970|ADB_AA",
+          "N_h": 3,
+          "planned_n_h": 3,
+          "actual_n_h": 3,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|F|1980|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|F|1980|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|M|1880|ADB_AA",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|M|1890|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|M|1900|ADB_AA",
+          "N_h": 3,
+          "planned_n_h": 3,
+          "actual_n_h": 3,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|M|1910|ADB_AA",
+          "N_h": 4,
+          "planned_n_h": 4,
+          "actual_n_h": 4,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|M|1920|ADB_AA",
+          "N_h": 7,
+          "planned_n_h": 7,
+          "actual_n_h": 7,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|M|1930|ADB_AA",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|M|1940|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|M|1940|ADB_AA",
+          "N_h": 5,
+          "planned_n_h": 5,
+          "actual_n_h": 5,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|M|1950|ADB_AA",
+          "N_h": 5,
+          "planned_n_h": 5,
+          "actual_n_h": 5,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|M|1960|ADB_AA",
+          "N_h": 5,
+          "planned_n_h": 5,
+          "actual_n_h": 5,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|M|1970|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "IT|M|1970|ADB_AA",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "MX|F|1920|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "MX|F|1950|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "MX|F|1980|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "MX|M|1890|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "MX|M|1900|ADB_AA",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "MX|M|1920|ADB_AA",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "MX|M|1930|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "MX|M|1960|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "MX|M|1970|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "MX|M|1990|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "NL|F|1880|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "NL|F|1890|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "NL|F|2010|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "NL|M|1880|ADB_AA",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "NL|M|1890|ADB_AA",
+          "N_h": 3,
+          "planned_n_h": 3,
+          "actual_n_h": 3,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "NL|M|1900|ADB_AA",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "NL|M|1910|ADB_AA",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "NL|M|1920|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "NL|M|1940|ADB_AA",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "NL|M|1960|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "NO|F|1930|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "PE|F|1930|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "PE|F|1950|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "PE|F|1990|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "PE|M|1950|ADB_AA",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "PE|M|1960|ADB_AA",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "PE|M|1970|ADB_AA",
+          "N_h": 6,
+          "planned_n_h": 6,
+          "actual_n_h": 6,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "PE|M|1980|ADB_AA",
+          "N_h": 4,
+          "planned_n_h": 4,
+          "actual_n_h": 4,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "PK|F|1990|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "PK|M|1980|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "PL|F|1900|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "PL|F|1970|ADB_A",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "PL|F|1980|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "PL|M|1880|ADB_AA",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "PL|M|1890|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "PL|M|1900|ADB_AA",
+          "N_h": 3,
+          "planned_n_h": 3,
+          "actual_n_h": 3,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "PL|M|1950|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "PL|M|1980|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "RU|F|1970|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "RU|M|1940|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "TN|M|1940|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "UA|M|1970|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|1910|ADB_A",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|1910|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|1920|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|1930|ADB_AA",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|1940|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|1950|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|1960|ADB_A",
+          "N_h": 3,
+          "planned_n_h": 3,
+          "actual_n_h": 3,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|1960|ADB_AA",
+          "N_h": 3,
+          "planned_n_h": 3,
+          "actual_n_h": 3,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|1970|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|1980|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|1980|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|1990|ADB_A",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|1990|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|2000|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|F|2010|ADB_A",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1880|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1890|ADB_A",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1900|ADB_AA",
+          "N_h": 4,
+          "planned_n_h": 4,
+          "actual_n_h": 4,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1910|ADB_AA",
+          "N_h": 7,
+          "planned_n_h": 7,
+          "actual_n_h": 7,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1920|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1920|ADB_AA",
+          "N_h": 5,
+          "planned_n_h": 5,
+          "actual_n_h": 5,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1930|ADB_A",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1930|ADB_AA",
+          "N_h": 10,
+          "planned_n_h": 10,
+          "actual_n_h": 10,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1940|ADB_A",
+          "N_h": 7,
+          "planned_n_h": 7,
+          "actual_n_h": 7,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1940|ADB_AA",
+          "N_h": 7,
+          "planned_n_h": 7,
+          "actual_n_h": 7,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1950|ADB_A",
+          "N_h": 4,
+          "planned_n_h": 4,
+          "actual_n_h": 4,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1950|ADB_AA",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1960|ADB_A",
+          "N_h": 4,
+          "planned_n_h": 4,
+          "actual_n_h": 4,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1960|ADB_AA",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1970|ADB_A",
+          "N_h": 3,
+          "planned_n_h": 3,
+          "actual_n_h": 3,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1970|ADB_AA",
+          "N_h": 2,
+          "planned_n_h": 2,
+          "actual_n_h": 2,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1980|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|1990|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "US|M|2000|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "VE|M|1900|ADB_AA",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        },
+        {
+          "stratum_id": "VE|M|1940|ADB_A",
+          "N_h": 1,
+          "planned_n_h": 1,
+          "actual_n_h": 1,
+          "delta_actual_minus_planned": 0,
+          "absolute_delta": 0
+        }
+      ]
+    }
+  ],
+  "interpretation": {
+    "finding": "Brazil quotas differ from the declared reserve-one-then-apportion-remaining-capacity rule. OGDB and ADB agree because their complete eligible source frames are below 2000.",
+    "conditional_weight_scope": "Weights N_h/actual_n_h describe the actual eligible-source sampling allocation under the stated within-stratum selection mechanism. They do not erase the preregistration discrepancy, convert a deterministic hash sample into an externally randomized design, or make source selection globally representative.",
+    "remaining_limits": "An eligible-source-frame calculation is not a probability sample of all national births or the global population. This audit evaluates quota implementation only; it makes no claim about the size or direction of effects on scores, test statistics, p-values or conclusions.",
+    "handling": "Preserve the frozen protocol, code, source inputs, realized samples and models. Disclose the allocation deviation alongside any subsequent source-specific statistical analysis; do not silently relabel the implementation as exact protocol compliance."
+  },
+  "verification": {
+    "all_current_data_code_hashes_match_release_and_fresh_rebuild_manifests": true,
+    "all_sampling_design_hashes_match_release_manifest": true,
+    "all_model_input_and_metadata_hashes_agree_with_cohort_execution_seal": true,
+    "all_recorded_quotas_reproduced_by_actual_function": true,
+    "all_planned_and_actual_quotas_integer_positive_and_at_most_N_h": true,
+    "all_source_totals_equal_planned_and_actual_targets": true,
+    "all_signed_delta_sums_zero": true,
+    "protected_files_before_audit_sha256": {
+      "protocol/study_protocol.json": "f06f3dcaa72c5c7b02e839ad1edfdc966c7130be373bd7bd55c5534cbb6253fe",
+      "protocol/study_protocol_seal.json": "4adaa29ac2520cc86363e22d31ea87a0284cfeb4f79b9794f06690c35523725e",
+      "protocol/cohort_execution_seal.json": "e01b46917a99adf9df9a00826b64519c6a75b97633f6c83baf01f9f92389d7e6",
+      "data_expansion/release_manifest.json": "5f7fc8082e9a7991bf3019438d68351d5699ec99fad66f786a14507b87360452",
+      "data_expansion/source_provenance.json": "7f120fb33ad5a1921a553d3fce2c641f1f47d9e4c89da37fb5a388947fd10f8b",
+      "data_expansion/verification/fresh_rebuild_validation.json": "fad7285c2a527d589c1b148516cafdd73eaee5b9bca503f6828aab4043ab0f3d",
+      "data_expansion/audit_birth_inputs.py": "78707c884cd519e8d28b16e436b6b35e973e68b9cfa3bdcd04747432e16e967a",
+      "data_expansion/build_adb_reference.py": "f0c59249c8d59fa2eb6171104959f797df89c928a600f42fc5488b7da9e9abc2",
+      "data_expansion/build_birth_inputs.py": "5d3b886d691b98e0f33f1d18e604e6c16ac57bcb2e1fed9b3960642c181ad203",
+      "data_expansion/download_sources.py": "5cfa0e53cf117ccaaea83bbc0cc24fcd5907d138e0ffbd9cf30460659be00e65",
+      "data_expansion/sampling_design/brazil2006.json": "39eceec508bcda8665e1d112de9a0c1153ca5dd1856bee0cf0849e282c409a93",
+      "data_expansion/sampling_design/ogdb2023.json": "42ac8a3760d6e42c2ac58c3938a7860f11435811c2d318cdd730f99f44dd6ff2",
+      "data_expansion/sampling_design/adb_z2026.json": "fbd64e73645ae15b231079b7a8e045ed1a2eb6a1e1fe70c7a5f60cd415b39b9c"
+    },
+    "protected_files_unchanged_after_writes": true
+  }
+}

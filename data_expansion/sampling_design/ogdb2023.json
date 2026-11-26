@@ -1,0 +1,302 @@
+{
+  "algorithm": "minimum 1 per nonempty stratum; proportional floor quotas and largest remainders; SHA256(seed+'|'+source_id) ascending within stratum",
+  "eligible_frame_N": 1388,
+  "metadata_sha256": "c8c8a73ec04c1b0dd2f3659917038eba6c063553b80426f187379fc0c8b090c7",
+  "model_input_sha256": "76b78ec7e494c2bccc13922e782631071147519894c64cf691d09b0005e1c2cf",
+  "outcome_fields": [],
+  "sample_n": 1388,
+  "seed": "OBS-R8-2026-11-26",
+  "selection_uses_model_outputs": false,
+  "source": "ogdb2023",
+  "strata": [
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "BE|F|1900|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "DE|F|1920|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 8,
+      "inclusion_probability": 1.0,
+      "n_h": 8,
+      "sample_weight": 1.0,
+      "stratum_id": "DE|M|1890|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 3,
+      "inclusion_probability": 1.0,
+      "n_h": 3,
+      "sample_weight": 1.0,
+      "stratum_id": "DE|M|1900|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 2,
+      "inclusion_probability": 1.0,
+      "n_h": 2,
+      "sample_weight": 1.0,
+      "stratum_id": "DE|M|1910|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|F|1880|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 6,
+      "inclusion_probability": 1.0,
+      "n_h": 6,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|F|1890|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 6,
+      "inclusion_probability": 1.0,
+      "n_h": 6,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|F|1900|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 4,
+      "inclusion_probability": 1.0,
+      "n_h": 4,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|F|1910|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 15,
+      "inclusion_probability": 1.0,
+      "n_h": 15,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|F|1920|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 8,
+      "inclusion_probability": 1.0,
+      "n_h": 8,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|F|1930|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|F|1940|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 16,
+      "inclusion_probability": 1.0,
+      "n_h": 16,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|M|1880|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 62,
+      "inclusion_probability": 1.0,
+      "n_h": 62,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|M|1890|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 82,
+      "inclusion_probability": 1.0,
+      "n_h": 82,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|M|1900|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 139,
+      "inclusion_probability": 1.0,
+      "n_h": 139,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|M|1910|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 295,
+      "inclusion_probability": 1.0,
+      "n_h": 295,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|M|1920|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 195,
+      "inclusion_probability": 1.0,
+      "n_h": 195,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|M|1930|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 3,
+      "inclusion_probability": 1.0,
+      "n_h": 3,
+      "sample_weight": 1.0,
+      "stratum_id": "FR|M|1940|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|F|1880|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|F|1900|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 59,
+      "inclusion_probability": 1.0,
+      "n_h": 59,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|M|1880|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 57,
+      "inclusion_probability": 1.0,
+      "n_h": 57,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|M|1890|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 38,
+      "inclusion_probability": 1.0,
+      "n_h": 38,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|M|1900|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 21,
+      "inclusion_probability": 1.0,
+      "n_h": 21,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|M|1910|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "IT|M|1920|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "LU|M|1880|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|1900|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 6,
+      "inclusion_probability": 1.0,
+      "n_h": 6,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|1910|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 8,
+      "inclusion_probability": 1.0,
+      "n_h": 8,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|1920|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 7,
+      "inclusion_probability": 1.0,
+      "n_h": 7,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|1930|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 8,
+      "inclusion_probability": 1.0,
+      "n_h": 8,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|1940|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 10,
+      "inclusion_probability": 1.0,
+      "n_h": 10,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|1950|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "US|F|1960|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 3,
+      "inclusion_probability": 1.0,
+      "n_h": 3,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1900|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 28,
+      "inclusion_probability": 1.0,
+      "n_h": 28,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1910|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 58,
+      "inclusion_probability": 1.0,
+      "n_h": 58,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1920|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 98,
+      "inclusion_probability": 1.0,
+      "n_h": 98,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1930|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 105,
+      "inclusion_probability": 1.0,
+      "n_h": 105,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1940|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 26,
+      "inclusion_probability": 1.0,
+      "n_h": 26,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1950|source_clock_offset_consistent_locality_reference"
+    },
+    {
+      "N_h": 1,
+      "inclusion_probability": 1.0,
+      "n_h": 1,
+      "sample_weight": 1.0,
+      "stratum_id": "US|M|1960|source_clock_offset_consistent_locality_reference"
+    }
+  ],
+  "stratum_fields": "country / Brazil UF × explicit sex × birth decade × quality",
+  "weight_interpretation": "Conditional inclusion probabilities for this source's eligible records. They are not weights for national registered births outside eligibility, all births, or the global population."
+}
