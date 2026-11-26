@@ -1,0 +1,400 @@
+{
+  "algorithm": "One per nonempty stratum, then residual-capacity largest remainders.\n\n    q_h = 1 + floor((n-H)*(N_h-1)/(N-H)); allocate remaining slots by\n    descending fractional remainder, ascending stratum string on ties.\n    Fractions avoid platform-dependent rounding. If N<=target, take census.",
+  "common_sampling_code_sha256": "5d4188dcbf3415ad547689bc4df9d673647ebf05b3765370bc8d5652acb70504",
+  "eligible_frame_N": 1254336,
+  "geographic_reference_sha256": "aab6c23c703a9b6146b2ac4612924a8afcaf6f8d163b316bd63acfa534136595",
+  "metadata_sha256": "86a50efdd6db66fd4445be8903c2e19b77a32c1577df7e024db1f202c4999705",
+  "model_input_sha256": "47289b74bf639325bffb5e355f1493a698a8bb91cc95e7c5d3a643a7ce596794",
+  "outcome_fields": [],
+  "rank_method": "SHA256(seed+'|'+source_id) ascending; stable one-based DBF physical ordinal",
+  "sample_n": 2000,
+  "sampling_code_sha256": "8e95430f6d484e2dce3101577588c112a352da0533c7064104c5edffc67b0430",
+  "seed": "OBS-R9-2026-11-27",
+  "selection_uses_model_outputs": false,
+  "source": "INEGI-NACIM15-birth2015-registered2015",
+  "source_candidate_sha256": "d09c9b0a6325df667ceb94a84cbf0f19991c8bee310f76fc5321bf12de6e4c4a",
+  "strata": [
+    {
+      "N_h": 10973,
+      "inclusion_probability": 0.0016403900483003737,
+      "n_h": 18,
+      "sample_weight": 609.6111111111111,
+      "stratum_id": "01|F"
+    },
+    {
+      "N_h": 11501,
+      "inclusion_probability": 0.001652030258238414,
+      "n_h": 19,
+      "sample_weight": 605.3157894736842,
+      "stratum_id": "01|M"
+    },
+    {
+      "N_h": 19833,
+      "inclusion_probability": 0.0016134724953360562,
+      "n_h": 32,
+      "sample_weight": 619.78125,
+      "stratum_id": "02|F"
+    },
+    {
+      "N_h": 20723,
+      "inclusion_probability": 0.0015924335279640979,
+      "n_h": 33,
+      "sample_weight": 627.969696969697,
+      "stratum_id": "02|M"
+    },
+    {
+      "N_h": 4773,
+      "inclusion_probability": 0.0016760946993505132,
+      "n_h": 8,
+      "sample_weight": 596.625,
+      "stratum_id": "03|F"
+    },
+    {
+      "N_h": 5022,
+      "inclusion_probability": 0.0017921146953405018,
+      "n_h": 9,
+      "sample_weight": 558.0,
+      "stratum_id": "03|M"
+    },
+    {
+      "N_h": 5331,
+      "inclusion_probability": 0.0016882386043894203,
+      "n_h": 9,
+      "sample_weight": 592.3333333333334,
+      "stratum_id": "04|F"
+    },
+    {
+      "N_h": 5329,
+      "inclusion_probability": 0.001688872208669544,
+      "n_h": 9,
+      "sample_weight": 592.1111111111111,
+      "stratum_id": "04|M"
+    },
+    {
+      "N_h": 25297,
+      "inclusion_probability": 0.0015812151638534212,
+      "n_h": 40,
+      "sample_weight": 632.425,
+      "stratum_id": "07|F"
+    },
+    {
+      "N_h": 26341,
+      "inclusion_probability": 0.0015944724953494552,
+      "n_h": 42,
+      "sample_weight": 627.1666666666666,
+      "stratum_id": "07|M"
+    },
+    {
+      "N_h": 56509,
+      "inclusion_probability": 0.0015749703587039233,
+      "n_h": 89,
+      "sample_weight": 634.9325842696629,
+      "stratum_id": "09|F"
+    },
+    {
+      "N_h": 58462,
+      "inclusion_probability": 0.001573671786801683,
+      "n_h": 92,
+      "sample_weight": 635.4565217391304,
+      "stratum_id": "09|M"
+    },
+    {
+      "N_h": 520,
+      "inclusion_probability": 0.0038461538461538464,
+      "n_h": 2,
+      "sample_weight": 260.0,
+      "stratum_id": "10|F"
+    },
+    {
+      "N_h": 544,
+      "inclusion_probability": 0.003676470588235294,
+      "n_h": 2,
+      "sample_weight": 272.0,
+      "stratum_id": "10|M"
+    },
+    {
+      "N_h": 36387,
+      "inclusion_probability": 0.0015664935279083188,
+      "n_h": 57,
+      "sample_weight": 638.3684210526316,
+      "stratum_id": "11|F"
+    },
+    {
+      "N_h": 37670,
+      "inclusion_probability": 0.0015662330767188745,
+      "n_h": 59,
+      "sample_weight": 638.4745762711865,
+      "stratum_id": "11|M"
+    },
+    {
+      "N_h": 19856,
+      "inclusion_probability": 0.0016116035455278,
+      "n_h": 32,
+      "sample_weight": 620.5,
+      "stratum_id": "12|F"
+    },
+    {
+      "N_h": 20773,
+      "inclusion_probability": 0.0015886005873008231,
+      "n_h": 33,
+      "sample_weight": 629.4848484848485,
+      "stratum_id": "12|M"
+    },
+    {
+      "N_h": 16746,
+      "inclusion_probability": 0.0016123253314224292,
+      "n_h": 27,
+      "sample_weight": 620.2222222222222,
+      "stratum_id": "13|F"
+    },
+    {
+      "N_h": 17461,
+      "inclusion_probability": 0.0016035736784834774,
+      "n_h": 28,
+      "sample_weight": 623.6071428571429,
+      "stratum_id": "13|M"
+    },
+    {
+      "N_h": 58343,
+      "inclusion_probability": 0.001559741528546698,
+      "n_h": 91,
+      "sample_weight": 641.1318681318681,
+      "stratum_id": "14|F"
+    },
+    {
+      "N_h": 61120,
+      "inclusion_probability": 0.0015706806282722514,
+      "n_h": 96,
+      "sample_weight": 636.6666666666666,
+      "stratum_id": "14|M"
+    },
+    {
+      "N_h": 92013,
+      "inclusion_probability": 0.0015649962505298164,
+      "n_h": 144,
+      "sample_weight": 638.9791666666666,
+      "stratum_id": "15|F"
+    },
+    {
+      "N_h": 95306,
+      "inclusion_probability": 0.0015633853062766248,
+      "n_h": 149,
+      "sample_weight": 639.6375838926175,
+      "stratum_id": "15|M"
+    },
+    {
+      "N_h": 31155,
+      "inclusion_probability": 0.0015727812550152464,
+      "n_h": 49,
+      "sample_weight": 635.8163265306123,
+      "stratum_id": "16|F"
+    },
+    {
+      "N_h": 32306,
+      "inclusion_probability": 0.0015786541199777132,
+      "n_h": 51,
+      "sample_weight": 633.4509803921569,
+      "stratum_id": "16|M"
+    },
+    {
+      "N_h": 10902,
+      "inclusion_probability": 0.001651073197578426,
+      "n_h": 18,
+      "sample_weight": 605.6666666666666,
+      "stratum_id": "17|F"
+    },
+    {
+      "N_h": 11443,
+      "inclusion_probability": 0.001660403740277899,
+      "n_h": 19,
+      "sample_weight": 602.2631578947369,
+      "stratum_id": "17|M"
+    },
+    {
+      "N_h": 6921,
+      "inclusion_probability": 0.0017338534893801473,
+      "n_h": 12,
+      "sample_weight": 576.75,
+      "stratum_id": "18|F"
+    },
+    {
+      "N_h": 7160,
+      "inclusion_probability": 0.0016759776536312849,
+      "n_h": 12,
+      "sample_weight": 596.6666666666666,
+      "stratum_id": "18|M"
+    },
+    {
+      "N_h": 3854,
+      "inclusion_probability": 0.0018162947586922678,
+      "n_h": 7,
+      "sample_weight": 550.5714285714286,
+      "stratum_id": "20|F"
+    },
+    {
+      "N_h": 3905,
+      "inclusion_probability": 0.001792573623559539,
+      "n_h": 7,
+      "sample_weight": 557.8571428571429,
+      "stratum_id": "20|M"
+    },
+    {
+      "N_h": 41122,
+      "inclusion_probability": 0.0015806624191430378,
+      "n_h": 65,
+      "sample_weight": 632.6461538461539,
+      "stratum_id": "21|F"
+    },
+    {
+      "N_h": 42891,
+      "inclusion_probability": 0.0015854141894569957,
+      "n_h": 68,
+      "sample_weight": 630.75,
+      "stratum_id": "21|M"
+    },
+    {
+      "N_h": 17422,
+      "inclusion_probability": 0.0016071633566754678,
+      "n_h": 28,
+      "sample_weight": 622.2142857142857,
+      "stratum_id": "22|F"
+    },
+    {
+      "N_h": 18357,
+      "inclusion_probability": 0.001579778830963665,
+      "n_h": 29,
+      "sample_weight": 633.0,
+      "stratum_id": "22|M"
+    },
+    {
+      "N_h": 9663,
+      "inclusion_probability": 0.0016558004760426368,
+      "n_h": 16,
+      "sample_weight": 603.9375,
+      "stratum_id": "23|F"
+    },
+    {
+      "N_h": 10042,
+      "inclusion_probability": 0.0016928898625771759,
+      "n_h": 17,
+      "sample_weight": 590.7058823529412,
+      "stratum_id": "23|M"
+    },
+    {
+      "N_h": 17126,
+      "inclusion_probability": 0.0016349410253415858,
+      "n_h": 28,
+      "sample_weight": 611.6428571428571,
+      "stratum_id": "24|F"
+    },
+    {
+      "N_h": 17713,
+      "inclusion_probability": 0.0015807598938632642,
+      "n_h": 28,
+      "sample_weight": 632.6071428571429,
+      "stratum_id": "24|M"
+    },
+    {
+      "N_h": 19146,
+      "inclusion_probability": 0.0016191371565862321,
+      "n_h": 31,
+      "sample_weight": 617.6129032258065,
+      "stratum_id": "25|F"
+    },
+    {
+      "N_h": 20289,
+      "inclusion_probability": 0.0015772093252501356,
+      "n_h": 32,
+      "sample_weight": 634.03125,
+      "stratum_id": "25|M"
+    },
+    {
+      "N_h": 18304,
+      "inclusion_probability": 0.0015843531468531468,
+      "n_h": 29,
+      "sample_weight": 631.1724137931035,
+      "stratum_id": "26|F"
+    },
+    {
+      "N_h": 19405,
+      "inclusion_probability": 0.0015975264107188868,
+      "n_h": 31,
+      "sample_weight": 625.9677419354839,
+      "stratum_id": "26|M"
+    },
+    {
+      "N_h": 13492,
+      "inclusion_probability": 0.001630595908686629,
+      "n_h": 22,
+      "sample_weight": 613.2727272727273,
+      "stratum_id": "27|F"
+    },
+    {
+      "N_h": 13966,
+      "inclusion_probability": 0.0016468566518688243,
+      "n_h": 23,
+      "sample_weight": 607.2173913043479,
+      "stratum_id": "27|M"
+    },
+    {
+      "N_h": 8455,
+      "inclusion_probability": 0.0016558249556475459,
+      "n_h": 14,
+      "sample_weight": 603.9285714285714,
+      "stratum_id": "29|F"
+    },
+    {
+      "N_h": 8738,
+      "inclusion_probability": 0.0017166399633783474,
+      "n_h": 15,
+      "sample_weight": 582.5333333333333,
+      "stratum_id": "29|M"
+    },
+    {
+      "N_h": 41939,
+      "inclusion_probability": 0.0015737142039628986,
+      "n_h": 66,
+      "sample_weight": 635.439393939394,
+      "stratum_id": "30|F"
+    },
+    {
+      "N_h": 43736,
+      "inclusion_probability": 0.0015776477044082678,
+      "n_h": 69,
+      "sample_weight": 633.8550724637681,
+      "stratum_id": "30|M"
+    },
+    {
+      "N_h": 16213,
+      "inclusion_probability": 0.001603651390859187,
+      "n_h": 26,
+      "sample_weight": 623.5769230769231,
+      "stratum_id": "31|F"
+    },
+    {
+      "N_h": 16769,
+      "inclusion_probability": 0.001610113900650009,
+      "n_h": 27,
+      "sample_weight": 621.074074074074,
+      "stratum_id": "31|M"
+    },
+    {
+      "N_h": 12336,
+      "inclusion_probability": 0.001621271076523995,
+      "n_h": 20,
+      "sample_weight": 616.8,
+      "stratum_id": "32|F"
+    },
+    {
+      "N_h": 12733,
+      "inclusion_probability": 0.0016492578339747114,
+      "n_h": 21,
+      "sample_weight": 606.3333333333334,
+      "stratum_id": "32|M"
+    }
+  ],
+  "stratum_fields": "2015 occurrence state × explicit sex",
+  "timezone_rules_sha256": "953255eb49cf19ceb94bec4e04a521f3e8bf3c6c19555328b5cbc96407d7299c",
+  "tzdb": "2026c",
+  "weight_interpretation": "Only the registered2015/born2015 complete-field geographically resolved eligible source frame, not all Mexican births or humanity."
+}

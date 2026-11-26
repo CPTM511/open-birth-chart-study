@@ -1,0 +1,7 @@
+year,all_source_rows,all_reference_areas,selected_lfs_rows,selected_lfs_reference_areas,selected_break_flag_rows,selected_unreliable_flag_rows
+2020,7997,194,822,85,116,1
+2021,8202,197,891,92,69,3
+2022,8473,201,866,89,78,5
+2023,8069,194,892,92,10,4
+2024,8086,194,950,98,58,3
+2025,7138,176,790,83,9,8

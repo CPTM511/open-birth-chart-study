@@ -1,0 +1,815 @@
+{
+  "created_utc": "2026-11-26T17:17:38.404408+00:00",
+  "status": "passed",
+  "review_scope": "Independent code path using raw-observation sorting, direct selected sums and exact Fraction stratum arithmetic. Same project methods author; not external peer review.",
+  "not_reviewed": [
+    "bootstrap random-quantile tails were not replayed",
+    "birth source truth beyond frozen input/hash/interface checks",
+    "traditional rule validity",
+    "mortality or AI outcomes"
+  ],
+  "reference": {
+    "provenance": {
+      "input_sha256": "3d9a2dc48a26a083a20abbd372310310d13b6e93d880a4f8d1fafa02f8914f6d",
+      "metadata_sha256": "a50061c89d2ada34bffa55a0e500f413dd833263c5300771a6bc51be65b6d341",
+      "sample_n": 2000,
+      "eligible_frame_N": 2805207,
+      "profile_status_counts": {
+        "computed": 2000
+      },
+      "profile_sha256": [
+        "5bdc0d2e5c53cb15928a4a0781e5c7785085d3d039cfbf7dcc9b44f2a3f1c401"
+      ],
+      "strata": 54,
+      "all_clock_offsets_and_40_completed_ages_checked": true
+    },
+    "CDF_diagnostics": {
+      "selected_direct_CDF_checks": 80,
+      "max_direct_CDF_error": 5.695444116327053e-14,
+      "near_threshold_exact_rational_queries": 0,
+      "floating_threshold_flags_corrected_by_exact_rational_comparison": 0
+    },
+    "independent_joint_rate": 0.03214942848730289
+  },
+  "targets": [
+    {
+      "slot": "brazil2016",
+      "provenance": {
+        "input_sha256": "b4448fd26e763bebece195bb97196522f562ba5258a58c8471efe2bd16eb20ce",
+        "metadata_sha256": "08475a0130578b4bc8cc367f8a004827ebca27030c0977c6fb7b7048ad20f9a1",
+        "sample_n": 2000,
+        "eligible_frame_N": 2736944,
+        "profile_status_counts": {
+          "computed": 2000
+        },
+        "profile_sha256": [
+          "583517ee67130444a11aeb082e702a91d52d3ce7d54cf18cda453310d258c6f2"
+        ],
+        "strata": 54,
+        "all_clock_offsets_and_40_completed_ages_checked": true
+      },
+      "CDF_diagnostics": {
+        "selected_direct_CDF_checks": 80,
+        "max_direct_CDF_error": 5.395683899678261e-14,
+        "near_threshold_exact_rational_queries": 0,
+        "floating_threshold_flags_corrected_by_exact_rational_comparison": 0
+      },
+      "independent_joint_rate": 0.031871226767064054,
+      "independent_delta_joint_rate": -0.00027820172023883954,
+      "independent_analytic_design_variance": 5.31862259838038e-07,
+      "unweighted_joint_record_years": 2550,
+      "all_40_age_points_verified": true,
+      "all_45_calendar_display_entries_checked": true
+    },
+    {
+      "slot": "mexico2015",
+      "provenance": {
+        "input_sha256": "47289b74bf639325bffb5e355f1493a698a8bb91cc95e7c5d3a643a7ce596794",
+        "metadata_sha256": "86a50efdd6db66fd4445be8903c2e19b77a32c1577df7e024db1f202c4999705",
+        "sample_n": 2000,
+        "eligible_frame_N": 1254336,
+        "profile_status_counts": {
+          "computed": 2000
+        },
+        "profile_sha256": [
+          "4547c5c78514a6c8e68821d443b1364bb77c43e741685cb43a616fb649538a60"
+        ],
+        "strata": 54,
+        "all_clock_offsets_and_40_completed_ages_checked": true
+      },
+      "CDF_diagnostics": {
+        "selected_direct_CDF_checks": 80,
+        "max_direct_CDF_error": 5.562217353372034e-14,
+        "near_threshold_exact_rational_queries": 0,
+        "floating_threshold_flags_corrected_by_exact_rational_comparison": 0
+      },
+      "independent_joint_rate": 0.03324800096711601,
+      "independent_delta_joint_rate": 0.0010985724798131188,
+      "independent_analytic_design_variance": 6.122356571578513e-07,
+      "unweighted_joint_record_years": 2661,
+      "all_40_age_points_verified": true,
+      "all_45_calendar_display_entries_checked": true
+    }
+  ],
+  "comparisons": [
+    {
+      "label": "reference.J",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.mid_CDF_mean_half",
+      "max_abs_error": 3.086420008457935e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.raw_means",
+      "max_abs_error": 3.469446951953614e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.relative.age20_59_joint_rate",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.relative.age20_49_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.relative.age20_59_exact_independent_phase_mean",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.relative.age20_49_exact_independent_phase_mean",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.J",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.DeltaJ",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.raw_means",
+      "max_abs_error": 4.996003610813204e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.delta_raw_means",
+      "max_abs_error": 5.273559366969494e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.fixed_levels",
+      "max_abs_error": 3.086420008457935e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.delta_levels",
+      "max_abs_error": 3.086420008457935e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.DeltaL",
+      "max_abs_error": 2.2037927038809357e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.age_band_0",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.age_band_1",
+      "max_abs_error": 1.0408340855860843e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.age_band_2",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.age_band_3",
+      "max_abs_error": 1.3877787807814457e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.relative.age20_59_joint_rate",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.relative.age20_49_joint_rate",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.relative.age20_59_exact_independent_phase_mean",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.relative.age20_49_exact_independent_phase_mean",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.interval_point",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.exact_Fraction_design_variance",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-14,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.adjusted_delta_endpoints",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.ordinary_delta_endpoints",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.Bonferroni_marginal_coverage",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2036",
+      "max_abs_error": 3.122502256758253e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2037",
+      "max_abs_error": 6.591949208711867e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2038",
+      "max_abs_error": 6.245004513516506e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2039",
+      "max_abs_error": 5.898059818321144e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2040",
+      "max_abs_error": 5.551115123125783e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2041",
+      "max_abs_error": 2.7755575615628914e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2042",
+      "max_abs_error": 9.020562075079397e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2043",
+      "max_abs_error": 9.367506770274758e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2044",
+      "max_abs_error": 6.938893903907228e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2045",
+      "max_abs_error": 6.938893903907228e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2046",
+      "max_abs_error": 1.5959455978986625e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2047",
+      "max_abs_error": 7.979727989493313e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2048",
+      "max_abs_error": 8.326672684688674e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2049",
+      "max_abs_error": 3.2959746043559335e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2050",
+      "max_abs_error": 4.5102810375396984e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2051",
+      "max_abs_error": 3.469446951953614e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2052",
+      "max_abs_error": 2.0816681711721685e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2053",
+      "max_abs_error": 1.249000902703301e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2054",
+      "max_abs_error": 6.245004513516506e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2055",
+      "max_abs_error": 4.5102810375396984e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2056",
+      "max_abs_error": 4.163336342344337e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2057",
+      "max_abs_error": 4.163336342344337e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2058",
+      "max_abs_error": 1.249000902703301e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2059",
+      "max_abs_error": 8.326672684688674e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2060",
+      "max_abs_error": 9.020562075079397e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2061",
+      "max_abs_error": 9.71445146547012e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2062",
+      "max_abs_error": 5.204170427930421e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2063",
+      "max_abs_error": 8.326672684688674e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2064",
+      "max_abs_error": 2.42861286636753e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2065",
+      "max_abs_error": 2.6020852139652106e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2066",
+      "max_abs_error": 2.6020852139652106e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2067",
+      "max_abs_error": 9.020562075079397e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2068",
+      "max_abs_error": 1.6653345369377348e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2069",
+      "max_abs_error": 1.5265566588595902e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2016.calendar_2070",
+      "max_abs_error": 2.3592239273284576e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.J",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.DeltaJ",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.raw_means",
+      "max_abs_error": 2.636779683484747e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.delta_raw_means",
+      "max_abs_error": 2.220446049250313e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.fixed_levels",
+      "max_abs_error": 2.930988785010413e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.delta_levels",
+      "max_abs_error": 2.930988785010413e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.DeltaL",
+      "max_abs_error": 2.142730437526552e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.age_band_0",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.age_band_1",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.age_band_2",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.age_band_3",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.relative.age20_59_joint_rate",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.relative.age20_49_joint_rate",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.relative.age20_59_exact_independent_phase_mean",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.relative.age20_49_exact_independent_phase_mean",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.interval_point",
+      "max_abs_error": 1.3877787807814457e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.exact_Fraction_design_variance",
+      "max_abs_error": 1.0587911840678754e-22,
+      "tolerance": 1e-14,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.adjusted_delta_endpoints",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.ordinary_delta_endpoints",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.Bonferroni_marginal_coverage",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2035",
+      "max_abs_error": 4.163336342344337e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2036",
+      "max_abs_error": 5.551115123125783e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2037",
+      "max_abs_error": 2.7755575615628914e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2038",
+      "max_abs_error": 3.469446951953614e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2039",
+      "max_abs_error": 2.0816681711721685e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2040",
+      "max_abs_error": 9.540979117872439e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2041",
+      "max_abs_error": 2.42861286636753e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2042",
+      "max_abs_error": 6.938893903907228e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2043",
+      "max_abs_error": 4.85722573273506e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2044",
+      "max_abs_error": 5.551115123125783e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2045",
+      "max_abs_error": 6.938893903907228e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2046",
+      "max_abs_error": 3.469446951953614e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2047",
+      "max_abs_error": 3.122502256758253e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2048",
+      "max_abs_error": 2.7755575615628914e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2049",
+      "max_abs_error": 1.9081958235744878e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2050",
+      "max_abs_error": 1.5612511283791264e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2051",
+      "max_abs_error": 6.071532165918825e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2052",
+      "max_abs_error": 4.5102810375396984e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2053",
+      "max_abs_error": 2.7755575615628914e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2054",
+      "max_abs_error": 3.8163916471489756e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2055",
+      "max_abs_error": 4.85722573273506e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2056",
+      "max_abs_error": 3.469446951953614e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2057",
+      "max_abs_error": 9.020562075079397e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2058",
+      "max_abs_error": 3.469446951953614e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2059",
+      "max_abs_error": 3.122502256758253e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2060",
+      "max_abs_error": 6.245004513516506e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2061",
+      "max_abs_error": 2.7755575615628914e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2062",
+      "max_abs_error": 3.122502256758253e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2063",
+      "max_abs_error": 2.7755575615628914e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2064",
+      "max_abs_error": 2.7755575615628914e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2065",
+      "max_abs_error": 3.122502256758253e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2066",
+      "max_abs_error": 2.0816681711721685e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2067",
+      "max_abs_error": 6.938893903907228e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2068",
+      "max_abs_error": 7.632783294297951e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2069",
+      "max_abs_error": 9.71445146547012e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2015.calendar_2070",
+      "max_abs_error": 9.71445146547012e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    }
+  ],
+  "comparison_count": 118,
+  "failure_count": 0,
+  "max_aggregate_absolute_error": 3.086420008457935e-14,
+  "warnings": [
+    "Unavailable-slot alias: unified protocol uses early_brazil; methods output uses earlier_brazil. Both denote the same unavailable 1996/2001 slot; family size remains three."
+  ],
+  "input_hashes": {
+    "config": "2aee9d572b3888d62433e3dbaa1af402df7fcff83c9d6a0ef37cccabb64da8cf",
+    "primary_result": "d08f11813e606c1553d7d424d3ccf9feaeb610e1b19b5b9f2a417ec1ecc3c87c",
+    "verification_code": "2c294e113a9094fc6242970dac9e4f4c978bf6e689c024fc3a11a1907f9af772"
+  }
+}

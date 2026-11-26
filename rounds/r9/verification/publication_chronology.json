@@ -1,0 +1,29 @@
+{
+  "verified_utc": "2026-11-26T17:22:48.554Z",
+  "public_commits": [
+    {
+      "sha": "bf15973ab70ff3cb24edfadd578ba67b5e53014d",
+      "committer_date_utc": "2026-11-26T17:01:38Z",
+      "message": "Freeze R9 protocol before new cohort chart calculations\n\nFixed Brazil2006 reference, fixed 2000-record source slots, synthetic calibration gates, conditional source-frame intervals, and separated AI evidence track. Birth-field quality/schema audits were visible; no new cohort scores or outcomes were inspected.",
+      "tree_sha": "830283a387f68219bb007c4bd80bddc7eb9480b0"
+    },
+    {
+      "sha": "9776383e1755129ea727f78532afa0802e296019",
+      "committer_date_utc": "2026-11-26T17:11:35Z",
+      "message": "Seal R9 fixed-reference implementation and synthetic calibration before cohort inspection",
+      "tree_sha": "7694cd0ae4613587c1c75b6511e43dd0b60fffe5"
+    },
+    {
+      "sha": "270ae36c99b400da26462c27bce932b53bd86560",
+      "committer_date_utc": "2026-11-26T17:16:57Z",
+      "message": "Freeze separate R9 verification implementation before target aggregation",
+      "tree_sha": "acc5a0c746272e7a6a5c8a1e9214cd410606100c"
+    }
+  ],
+  "scoring_started_utc": {
+    "brazil2016": "2026-11-26T17:05:44.234556+00:00",
+    "mexico2015": "2026-11-26T17:11:30.137791+00:00"
+  },
+  "aggregate_created_utc": "2026-11-26T17:17:13.943584+00:00",
+  "interpretation": "Protocol public before scoring. Implementation/calibration public before target distribution inspection, not before all scoring. Separate reviewer implementation public before aggregation. This is project-public chronology, not external preregistration or peer review."
+}

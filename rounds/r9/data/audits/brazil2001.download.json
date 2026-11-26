@@ -1,0 +1,28 @@
+{
+  "catalogue_url": "https://dadosabertos.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc",
+  "catalogue_sha256": "f1dc24e429006d4e6cb3136030db6fd65467dfe1d8ea8fa94cd94c884a2d02d3",
+  "year": 2001,
+  "resource_id": "a5e9df05-033d-4124-aabf-699789e16b11",
+  "download_url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SINASC/csv/DNBR2001_csv.zip",
+  "retrieved_utc": "2026-11-26T16:57:37.958975+00:00",
+  "http_status": 200,
+  "bytes": 43270455,
+  "sha256": "3f8aad3a00c0071b8b7eb78bddd72ff5a5b2bd3026998f5e28992e55e1eceafc",
+  "headers": {
+    "Content-Type": "binary/octet-stream",
+    "Content-Length": "43270455",
+    "Last-Modified": "Fri, 08 May 2026 16:02:49 GMT",
+    "ETag": "\"83c1daac423dec1a13858aad4b0c21e6-6\""
+  },
+  "members": [
+    {
+      "name": "DNBR2001.csv",
+      "bytes": 391430257,
+      "compressed_bytes": 43270281
+    }
+  ],
+  "csv_headers": {
+    "DNBR2001.csv": "\"contador\";\"locnasc\";\"codestab\";\"codmunnasc\";\"idademae\";\"estcivmae\";\"escmae\";\"codocupmae\";\"qtdfilvivo\";\"qtdfilmort\";\"codmunres\";\"gestacao\";\"gravidez\";\"parto\";\"consultas\";\"dtnasc\";\"sexo\";\"apgar1\";\"apgar5\";\"racacor\";\"peso\";\"idanomal\";\"codanomal\""
+  },
+  "outcome_fields_used": false
+}

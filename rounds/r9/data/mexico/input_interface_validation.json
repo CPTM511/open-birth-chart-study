@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "r8_load_source_records": 2000,
+  "metadata_parity_and_hashes_valid": true,
+  "eligible_frame_N": 1254336,
+  "sum_weights": 1254336.0,
+  "distinct_chart_input_keys": 2000,
+  "countries": {
+    "MX": 2000
+  },
+  "strata": 54,
+  "birth_years": {
+    "2015": 2000
+  },
+  "coordinate_reference_years": {
+    "2020": 2000
+  },
+  "time_precision_seconds": {
+    "60": 2000
+  },
+  "selected_minute_multiple_five": 993,
+  "selected_minute_zero": 192,
+  "selected_months": {
+    "01": 208,
+    "02": 182,
+    "03": 211,
+    "04": 224,
+    "05": 186,
+    "06": 180,
+    "07": 184,
+    "08": 199,
+    "09": 186,
+    "10": 144,
+    "11": 73,
+    "12": 23
+  },
+  "chart_calculations_performed": false,
+  "r8_io_sha256": "4c9159410a08836779a818897f4f49397fcffad9d3e436aa645facad8bdaf0de"
+}

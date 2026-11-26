@@ -1,0 +1,12 @@
+{
+  "planned_year": 1996,
+  "single_field_only_fallback": 2001,
+  "status": "unavailable",
+  "reason": "HORANASC birth-clock field absent in both authentic archive schemas",
+  "additional_substitution": false,
+  "clock_imputed": false,
+  "archive_hashes": {
+    "1996": "5cfb729c71e25b4a17771524792dd3b570034617c2a6f31421eb68b6eab47930",
+    "2001": "3f8aad3a00c0071b8b7eb78bddd72ff5a5b2bd3026998f5e28992e55e1eceafc"
+  }
+}

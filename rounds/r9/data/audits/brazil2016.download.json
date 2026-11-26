@@ -1,0 +1,28 @@
+{
+  "catalogue_url": "https://dadosabertos.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc",
+  "catalogue_sha256": "f1dc24e429006d4e6cb3136030db6fd65467dfe1d8ea8fa94cd94c884a2d02d3",
+  "year": 2016,
+  "resource_id": "f42a60ae-77f3-4735-a670-5ff9f837b74d",
+  "download_url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SINASC/csv/SINASC_2016_csv.zip",
+  "retrieved_utc": "2026-11-26T16:57:20.533239+00:00",
+  "http_status": 200,
+  "bytes": 107375201,
+  "sha256": "a25e4d65e0ebd91ae48530c0ebdebba581e60b71f381d530564598a5d7390a87",
+  "headers": {
+    "Content-Type": "binary/octet-stream",
+    "Content-Length": "107375201",
+    "Last-Modified": "Fri, 08 May 2026 17:26:23 GMT",
+    "ETag": "\"5140db4dfdebdd8598f9ab71b6fdf5ad-13\""
+  },
+  "members": [
+    {
+      "name": "SINASC_2016.csv",
+      "bytes": 634531026,
+      "compressed_bytes": 107375021
+    }
+  ],
+  "csv_headers": {
+    "SINASC_2016.csv": "origem;codestab;codmunnasc;locnasc;idademae;estcivmae;escmae;codocupmae;qtdfilvivo;qtdfilmort;codmunres;gestacao;gravidez;parto;consultas;dtnasc;horanasc;sexo;apgar1;apgar5;racacor;peso;idanomal;dtcadastro;codanomal;numerolote;versaosist;dtrecebim;difdata;dtrecoriga;naturalmae;codmunnatu;codufnatu;escmae2010;seriescmae;dtnascmae;racacormae;qtdgestant;qtdpartnor;qtdpartces;idadepai;dtultmenst;semagestac;tpmetestim;consprenat;mesprenat;tpapresent;sttrabpart;stcesparto;tpnascassi;tpfuncresp;tpdocresp;dtdeclarac;escmaeagr1;stdnepidem;stdnnova;codpaisres;tprobson;paridade;kotelchuck;contador"
+  },
+  "outcome_fields_used": false
+}

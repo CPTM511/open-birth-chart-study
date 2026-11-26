@@ -1,0 +1,552 @@
+{
+  "schema": 1,
+  "release": "R9",
+  "date_shanghai": "2026-11-27",
+  "baseline_commit": "210bb7bdab85a9f3672f19241e9ef66eb22021a2",
+  "new_files_excluding_this_manifest": 90,
+  "public_protocol_commit": "bf15973ab70ff3cb24edfadd578ba67b5e53014d",
+  "files": [
+    {
+      "path": ".github/workflows/r9-checks.yml",
+      "bytes": 682,
+      "sha256": "13fab59d04f8cf1760f9dd74f37e3cbb0a7e72183880efb2fc3978f8d60744cf",
+      "git_blob_sha": "df7cdffa6bd215e2574ddae4a1caa25410c1f5a6"
+    },
+    {
+      "path": "R9.md",
+      "bytes": 1195,
+      "sha256": "8eb3165db6ae248dc51814402b6aa7293d40bd118754c94cdf05913cc139fb20",
+      "git_blob_sha": "7a12cb083789a3d47e88163a674a4f27aad932dc"
+    },
+    {
+      "path": "rounds/r9/README.md",
+      "bytes": 1625,
+      "sha256": "51b54dd3ab3c804425515c6c3bfc7a622a33f9f29eda3c7cd37f6c405ca034bd",
+      "git_blob_sha": "140d5856185e250b9403b1694430cc3f5a95c101"
+    },
+    {
+      "path": "rounds/r9/RESULTS.md",
+      "bytes": 10452,
+      "sha256": "0aadc8b3670dcc116983d93ea54ba63016e16b2f6430cfd9e3bb9c6528437ffd",
+      "git_blob_sha": "c34b5c12c92c224a79ab34950238015141b75eed"
+    },
+    {
+      "path": "rounds/r9/RESULTS.zh.md",
+      "bytes": 10285,
+      "sha256": "77366247ea1237656b3204ac664f9f9cac8b47ef565204da0af09c3543ab2437",
+      "git_blob_sha": "f4af4711a4ffa6272901a9bf177e9ff9f7130d31"
+    },
+    {
+      "path": "rounds/r9/ai/README.md",
+      "bytes": 5028,
+      "sha256": "00769bfb1f2e9fe070152773e2eb14dc9ae7076ad6e89cc429ce726d0cfca839",
+      "git_blob_sha": "53211ca7aacbaaf4d440fd2aeda8ca1743464a1f"
+    },
+    {
+      "path": "rounds/r9/ai/README.zh.md",
+      "bytes": 2722,
+      "sha256": "892001fce449fc3aa129cfa55118fadd74d3ef62cafda9767f02bc27ef9c640d",
+      "git_blob_sha": "0810f750ef8d4f622fd6ffe26ac6b30c50b138e4"
+    },
+    {
+      "path": "rounds/r9/ai/acquire_sources.py",
+      "bytes": 2151,
+      "sha256": "34138942b97a8faf9d9024b54b8cf2d14e305a8ea0a8729dce5f2e15900ca0d8",
+      "git_blob_sha": "bb967dd824b5af1078346d7eda41cfcbf041a9b8"
+    },
+    {
+      "path": "rounds/r9/ai/build_evidence.py",
+      "bytes": 9415,
+      "sha256": "0371ae74132f8ac9e21fed441b62d70319e64d2a19345dc58327068ffc5fbec4",
+      "git_blob_sha": "63c176d8c1583fd56cabce43bc08e65e8df17b11"
+    },
+    {
+      "path": "rounds/r9/ai/evidence_ledger.json",
+      "bytes": 13841,
+      "sha256": "cd5dec2bc9409507a3f1f7282da9e94e342f18db660e5d22a6d8f5187986da08",
+      "git_blob_sha": "ec01fc7d1ed39dacae7d69ba2a77d49f6a16fde2"
+    },
+    {
+      "path": "rounds/r9/ai/labor_audit.json",
+      "bytes": 8231,
+      "sha256": "83841641d02cfcacb282c1029b71c1040e09f8ce35579dd3565a53d946c032e8",
+      "git_blob_sha": "5ef53910d94e485bb6398aa560840d6a39d4b255"
+    },
+    {
+      "path": "rounds/r9/ai/metrics/labor_coverage_by_area.csv",
+      "bytes": 6444,
+      "sha256": "3842b9b30833ad935923a18a80576e40ee67094a78ef79f13335843ccbed8f3e",
+      "git_blob_sha": "0f2cf26eef4cf71be6e16f9dc258b7ad68f8dfba"
+    },
+    {
+      "path": "rounds/r9/ai/metrics/labor_coverage_by_year.csv",
+      "bytes": 306,
+      "sha256": "102b9ff5ce2040800061c7b6767b600332d0365b36b8ea1e4cb42a24edd0e802",
+      "git_blob_sha": "9110b6daea7df6bd9e2dc1b5b66ede734aeb20ba"
+    },
+    {
+      "path": "rounds/r9/ai/metrics/labor_lfs_isco08_major_total_sex_2020plus.csv",
+      "bytes": 905831,
+      "sha256": "e670302495d0db82cf42c742da240c3bd815164eb9c7c2469cd5e7db104b11f6",
+      "git_blob_sha": "ba46f18ad6a889f8cfc7b6a985cdb20451d79b94"
+    },
+    {
+      "path": "rounds/r9/ai/metrics/metr_model_horizons.csv",
+      "bytes": 1379,
+      "sha256": "bf3a5cb96891ad66587f4f5055d2ecff992a9e3683d631d1265fb850a796e59a",
+      "git_blob_sha": "166d0d2e7192e58f080aea648286d2fc848b663a"
+    },
+    {
+      "path": "rounds/r9/ai/metrics/metr_reported_trend.json",
+      "bytes": 1090,
+      "sha256": "01d2cd8699ee0089aa5759c0418417c9907e6a0f7c8f09c821c472facf0db41b",
+      "git_blob_sha": "40a962aff8411ae9d21f4275f6bff0603cb420a6"
+    },
+    {
+      "path": "rounds/r9/ai/operational_protocol.md",
+      "bytes": 5845,
+      "sha256": "5a0c34e2c67f1e3062d696915dd774a6044a0b355578d5f761c9c6f78e43951b",
+      "git_blob_sha": "a97a3b0c1ef8bb789f2e7bc29de0db41b067b63e"
+    },
+    {
+      "path": "rounds/r9/ai/source_catalog.json",
+      "bytes": 3376,
+      "sha256": "d8bc1717428262a755472f9a38fb3957ba5a49edb92b6ce5b4daa399302fa542",
+      "git_blob_sha": "85e3f463f1459b84f51f5daee1dd27eb03ac2a68"
+    },
+    {
+      "path": "rounds/r9/ai/source_fetch_manifest.json",
+      "bytes": 10028,
+      "sha256": "aef48d675c65638977d823cb2b217feb3f77a9323e5b74092cbb86d31648df7e",
+      "git_blob_sha": "1c4afdcd6d501c7200573a00178f258029b4dde1"
+    },
+    {
+      "path": "rounds/r9/ai/verification.json",
+      "bytes": 585,
+      "sha256": "00e664c766e0ce0dd8c6ac70739432435df27c8be1bd9c1f41e68d6298079a1b",
+      "git_blob_sha": "a2583255d016cb972540bbc4e0bc7690237a99ff"
+    },
+    {
+      "path": "rounds/r9/data/COVERAGE.md",
+      "bytes": 6371,
+      "sha256": "e4d69651d11cb6a39c91787827c7880f1538ddc986af44681d34502c5e00bbd0",
+      "git_blob_sha": "737c6ea48e091697032f676175c2a3423e8707a9"
+    },
+    {
+      "path": "rounds/r9/data/audits/brazil1996.download.json",
+      "bytes": 1238,
+      "sha256": "4fb42eee6f33c9b62af280fa78287431c050574354782845bf7c8cd7543d4955",
+      "git_blob_sha": "937fba01f06fd99044211eba8854cb1a6446f2fe"
+    },
+    {
+      "path": "rounds/r9/data/audits/brazil2001.download.json",
+      "bytes": 1255,
+      "sha256": "1bd810f29dcc614f44e1b3b860ee6460b60423fb62d1065533f45db82ab88b49",
+      "git_blob_sha": "583b7095ace662068d481bf7fa0fdae90f3323e6"
+    },
+    {
+      "path": "rounds/r9/data/audits/brazil2016.download.json",
+      "bytes": 1572,
+      "sha256": "4e8612ddb05cc7c3482edc58254706b56cc796df2f4072704abeefca1eb1a649",
+      "git_blob_sha": "4ab64720a30ea4477196d8884e4f1d1cd471900d"
+    },
+    {
+      "path": "rounds/r9/data/audits/brazil2016_audit.json",
+      "bytes": 2439,
+      "sha256": "bdd69b78c305abd28c8cad5c3eeae9cf7a2d8a774dc51c8064b6ce8a4cfbfbb9",
+      "git_blob_sha": "4cdf547dd583a72f9906cb2cc8e6983f5014374b"
+    },
+    {
+      "path": "rounds/r9/data/audits/brazil2016_sampling_manifest.json",
+      "bytes": 10475,
+      "sha256": "a9b1bd18748597c316d5bf8422d42c73f1778f619f512a6ab05a505718a6e4b3",
+      "git_blob_sha": "f8cb3a2683e7afc976f7d6ba45902c6487258efc"
+    },
+    {
+      "path": "rounds/r9/data/audits/early_brazil_unavailable.json",
+      "bytes": 423,
+      "sha256": "4c4c8376c26c8cc5ba8ff6835196a20bda74daeac1441eb26a03380d74ecf53d",
+      "git_blob_sha": "ae37df7a7e32feae16a063655e01b758537d254e"
+    },
+    {
+      "path": "rounds/r9/data/brazil_acquire.py",
+      "bytes": 3935,
+      "sha256": "e702d88bcdbe35b16d2ee7eac5395d4c8372e1c52852cb66958959d703ffbd39",
+      "git_blob_sha": "538b369c99379e2b25624bd458857aa2b93bf0b5"
+    },
+    {
+      "path": "rounds/r9/data/build_brazil.py",
+      "bytes": 7418,
+      "sha256": "4b5cac609c9c94ea074acc2d63f8f8283c3efb72948af30a8dce5c4f1f193e5b",
+      "git_blob_sha": "1b7b67102d8d7173d44e325b26b8f6ab73dc3070"
+    },
+    {
+      "path": "rounds/r9/data/common.py",
+      "bytes": 1222,
+      "sha256": "5d4188dcbf3415ad547689bc4df9d673647ebf05b3765370bc8d5652acb70504",
+      "git_blob_sha": "8c0b72f9df124ea5338de55c741803b5795e324e"
+    },
+    {
+      "path": "rounds/r9/data/mexico/README.md",
+      "bytes": 9176,
+      "sha256": "3d74df67ef0a42bf4fc4f9ae503ebdca39175966cf694692d2f6aac1661364ac",
+      "git_blob_sha": "bed035e4bcb75a11b71b58f6cf53b236066feb53"
+    },
+    {
+      "path": "rounds/r9/data/mexico/acquisition_manifest.json",
+      "bytes": 1668,
+      "sha256": "32d357ef2a931bb919c6ec0a5865f8d9e33db59384e2ab1e5e3a8605b215e92a",
+      "git_blob_sha": "b5233dc99dcd07ce62f43083b3ec31dca4335fe6"
+    },
+    {
+      "path": "rounds/r9/data/mexico/audit_mexico2015.py",
+      "bytes": 10711,
+      "sha256": "4945b410055e1982e0d50f8f2171c3fe1c44af59d80ad37dce99d641b00abc8b",
+      "git_blob_sha": "279ea6af82e0607402a558d06a6d6a96af3b68cf"
+    },
+    {
+      "path": "rounds/r9/data/mexico/birth_field_audit.json",
+      "bytes": 211900,
+      "sha256": "2aa0837ead532f6cb24c5eb722bc20ddad19077339608c34a6abaa3b826b0739",
+      "git_blob_sha": "5c757e0993315719c7094e1da384243254332a40"
+    },
+    {
+      "path": "rounds/r9/data/mexico/download_mexico2015.py",
+      "bytes": 2534,
+      "sha256": "eea3bec8c69f58ebc79e895c9b3e1aa90828ae2a3b080ab7fdc31172e0e2c68e",
+      "git_blob_sha": "1b8641eac63063f1306bc028e346a631e6b57b41"
+    },
+    {
+      "path": "rounds/r9/data/mexico/frame_audit.json",
+      "bytes": 2443,
+      "sha256": "593554df70604c931ca839362ae4b86fe26f847a0ba069f9667bb9099c99a0de",
+      "git_blob_sha": "0336c1ec664a8724410f4c2281f491ab04a2c268"
+    },
+    {
+      "path": "rounds/r9/data/mexico/geo/README.md",
+      "bytes": 4151,
+      "sha256": "84067987b1c47b0060936c75ac73f1d25c8b40350c76768d39666045bf21da3a",
+      "git_blob_sha": "f23b73e7dabe0047d00615f2cd17b5b205dd9b25"
+    },
+    {
+      "path": "rounds/r9/data/mexico/geo/acquire_geo_sources.py",
+      "bytes": 1805,
+      "sha256": "d8f6885103217d593013fc1b94e03386e0c5063dbbeb55fc8b91e116e6c0421e",
+      "git_blob_sha": "651c76354058e4890536d16d901d501b55a7ac46"
+    },
+    {
+      "path": "rounds/r9/data/mexico/geo/build_locality_references.py",
+      "bytes": 4575,
+      "sha256": "1174b15bbc3843858927a85404c2b0519353b236878ac2e0546c03f710d5bf6f",
+      "git_blob_sha": "dbf4169c036048272596dacde9adc5fb8535dd45"
+    },
+    {
+      "path": "rounds/r9/data/mexico/geo/geo_source_catalog.json",
+      "bytes": 783,
+      "sha256": "6e74384658fd6e4ce189020751b05ca94524b0877b5e3cea6ef99202bd70c638",
+      "git_blob_sha": "58ca3cb67491aea569b6a013b1e032b68841d0b7"
+    },
+    {
+      "path": "rounds/r9/data/mexico/geo/geo_support_audit.json",
+      "bytes": 802,
+      "sha256": "61d016086464cb7598b84ca587cdb3fcc78e276ebf69b3e663a9930dbf16827c",
+      "git_blob_sha": "2043a3586f790463fa394bc0b4ec8f896aab7728"
+    },
+    {
+      "path": "rounds/r9/data/mexico/geo/locality2020_refs_for_birth2015.json",
+      "bytes": 5586946,
+      "sha256": "aab6c23c703a9b6146b2ac4612924a8afcaf6f8d163b316bd63acfa534136595",
+      "git_blob_sha": "7a4ded1b5e44920cc96fa910b95fbe14258df05f"
+    },
+    {
+      "path": "rounds/r9/data/mexico/geo/retrieval_manifest.json",
+      "bytes": 686,
+      "sha256": "adabbfe58f38f96094159139b3c16a0e02013e00b8b9f8eeb995321b49d224e1",
+      "git_blob_sha": "55d6d9fbbbdffda4be5412a61953f7120852483f"
+    },
+    {
+      "path": "rounds/r9/data/mexico/geo/timezone2015_conservative.json",
+      "bytes": 2863,
+      "sha256": "953255eb49cf19ceb94bec4e04a521f3e8bf3c6c19555328b5cbc96407d7299c",
+      "git_blob_sha": "c10a0a869135ab0d13353bfe75f67946766213d7"
+    },
+    {
+      "path": "rounds/r9/data/mexico/geo/timezone2015_validation.json",
+      "bytes": 3018,
+      "sha256": "dbe2943b7381905da8df628de68801e2e62b625bb53450297c450f21bc07f18c",
+      "git_blob_sha": "5243c593565426f9cfc1252dd3696ea1d324f42d"
+    },
+    {
+      "path": "rounds/r9/data/mexico/geo/timezone_source_manifest.json",
+      "bytes": 277,
+      "sha256": "bfcff655d642ccb6843715a1804190c8d3ac523b4e026fed8c388332e1b0e969",
+      "git_blob_sha": "45f13623d0985d2f8a70f7878231847aefb1f2d3"
+    },
+    {
+      "path": "rounds/r9/data/mexico/geo/validate_timezone2015.py",
+      "bytes": 3532,
+      "sha256": "7defbd3f799a6cb1d19dee539c2f2c64251a893df431ac2830650bb69c3b9d3d",
+      "git_blob_sha": "0da8a176b7e5c255f0f95eb72dee28d50dd7c6f3"
+    },
+    {
+      "path": "rounds/r9/data/mexico/independent_source_reread.json",
+      "bytes": 301,
+      "sha256": "b68db985e6dc1e5e65bffb3156141ac864f58636fc70718ea4be12000ee81b6b",
+      "git_blob_sha": "490cd6a8b63f49e53c9997ce0b191ae9287dae27"
+    },
+    {
+      "path": "rounds/r9/data/mexico/input_interface_validation.json",
+      "bytes": 802,
+      "sha256": "174fffde64ee409ee5279273c8d5e6a2143b60ab52ae519e61fea45669d3d65f",
+      "git_blob_sha": "8398ab017d62d3ba901b05b07ae7b12ddc329134"
+    },
+    {
+      "path": "rounds/r9/data/mexico/sample_mexico2015.py",
+      "bytes": 10296,
+      "sha256": "8e95430f6d484e2dce3101577588c112a352da0533c7064104c5edffc67b0430",
+      "git_blob_sha": "29abbca0d5f861824d5b8e47ee8017b7383e9e4f"
+    },
+    {
+      "path": "rounds/r9/data/mexico/sampling_manifest.json",
+      "bytes": 10700,
+      "sha256": "1753c0806e22b60ebbc5ca4fd778a1925f7ebd71c64a89cceb83085e0f52dc17",
+      "git_blob_sha": "dc4ba33b44488537bfc9a2558d9bc91ebc882bbd"
+    },
+    {
+      "path": "rounds/r9/data/mexico/verify_selected.py",
+      "bytes": 3920,
+      "sha256": "1e3c4133281abde376aba4fb1a188e6779e85c87e863c5d7c2ae19a15f9a914a",
+      "git_blob_sha": "e0dee571221a09fc4dc9c8ecc46be39fc47682c5"
+    },
+    {
+      "path": "rounds/r9/execution/brazil2016_completion.json",
+      "bytes": 323,
+      "sha256": "0bae9a157ad122c034c120e675ccfa4a97edcb15e7f7c983437dfbec4cf2e3d4",
+      "git_blob_sha": "0cb8c3388bf4f5bd7ad106e2907a4fb56e144278"
+    },
+    {
+      "path": "rounds/r9/execution/brazil2016_input_seal.json",
+      "bytes": 12721,
+      "sha256": "2a9e291717f5435b32590d76dba1c4cb9f5b1bc4460243223503fef9f551bff2",
+      "git_blob_sha": "72c6458692fff369b1ace8f7e27fc844f7306f16"
+    },
+    {
+      "path": "rounds/r9/execution/mexico2015_completion.json",
+      "bytes": 324,
+      "sha256": "6a6bb3f559e314f6862b2cddb23e39ba8418353a1b78f532244b179778ee59ca",
+      "git_blob_sha": "618ec7440c2b092b4a90ee2897b8468cb0e29205"
+    },
+    {
+      "path": "rounds/r9/execution/mexico2015_input_seal.json",
+      "bytes": 12962,
+      "sha256": "a7f6418ae3794d1a6695bbf1a397e19fe1b858e82a602f1cb0ef48999cbe0d53",
+      "git_blob_sha": "14b157b5b7d860d7abb46b53c9e7381f993f163d"
+    },
+    {
+      "path": "rounds/r9/methods/CALIBRATION_REPORT.md",
+      "bytes": 4438,
+      "sha256": "154ae729da92b35e56a42d285f0ff61cdb226b60b0a99fed852c984e89e8864a",
+      "git_blob_sha": "033c8dab699d438e844e6964fcc19c07ab14f325"
+    },
+    {
+      "path": "rounds/r9/methods/PROTOCOL_SUPPLEMENT.md",
+      "bytes": 10112,
+      "sha256": "5a012ac6a059e3702ce5ed07f1300b6238916cd2d2ffeebbc77d624370795d67",
+      "git_blob_sha": "0601ae02040db7283ea28470b2b66f4fa9cfefa6"
+    },
+    {
+      "path": "rounds/r9/methods/RULE_CONFORMANCE_CHECKLIST.md",
+      "bytes": 2480,
+      "sha256": "479794661d8098e9ad9540f0cf0ddee418041e6052caf64dcf905ac4b018bd81",
+      "git_blob_sha": "8d307f84cb7a9edc1eefc85c562e709efb082927"
+    },
+    {
+      "path": "rounds/r9/methods/USAGE.md",
+      "bytes": 3261,
+      "sha256": "a1fc1fe16adfd5ad0fb2fc5310be279c3c735d259dcf3d09fbf869c941d40770",
+      "git_blob_sha": "daad6d24ffdc17d762e485ab83970a8dd8d7c98e"
+    },
+    {
+      "path": "rounds/r9/methods/analyze_new_cohorts.py",
+      "bytes": 8937,
+      "sha256": "4a05ae4ddb9e16c63d5fbd92be8513d5facbe0cbe35b1713f8cb7bb724f7634c",
+      "git_blob_sha": "18909f7061bf94e4ddb734352c7cab66e956be63"
+    },
+    {
+      "path": "rounds/r9/methods/calibrate_synthetic.py",
+      "bytes": 9549,
+      "sha256": "246f983deaadc8ed54d67157b5ec4c54e95eaa49e51271e9eee410cf1f0f76d6",
+      "git_blob_sha": "3ebafb5db9770dce20a205bf2cb7adb9ef5af242"
+    },
+    {
+      "path": "rounds/r9/methods/fixed_reference.py",
+      "bytes": 8909,
+      "sha256": "f5e92dd35702bb198550c2fd8d47aaf7c8b51a08aa4bfdc779af46e7f8c02321",
+      "git_blob_sha": "f4fbfbcd3fadb99f957998c903bb21e15c584db1"
+    },
+    {
+      "path": "rounds/r9/methods/math_verification.json",
+      "bytes": 856,
+      "sha256": "7bdda057d9853d13c96a2efe8a0b4584c2e96175716e83c1a7918c1c8e45d01f",
+      "git_blob_sha": "18f96527b147e92786d80d611ec34f213378f6c6"
+    },
+    {
+      "path": "rounds/r9/methods/methods_implementation_seal.json",
+      "bytes": 1413,
+      "sha256": "19b958168cf4f1be41bb608fc9b81497f69f15685ef431feb0881a3656b4b08a",
+      "git_blob_sha": "dd40c9d07db7e2535502c50a338a82ba3dae7b54"
+    },
+    {
+      "path": "rounds/r9/methods/r8_tail_count_replay.json",
+      "bytes": 6490,
+      "sha256": "fbb814e46fe7d03dc8adc65d0defb16055055f2c3c227aebb83dfcd6868c6252",
+      "git_blob_sha": "323250c58cbcb45ec3740f30fa5c194fca049e01"
+    },
+    {
+      "path": "rounds/r9/methods/reference_validation.json",
+      "bytes": 381,
+      "sha256": "c0b08fd902f2ee82a3ec1dac61bfb6e2226608006f428c61462b57dd5de30c7c",
+      "git_blob_sha": "cb04ff3279b8472c35759903cffebdb8ac87ab2e"
+    },
+    {
+      "path": "rounds/r9/methods/replay_r8_tail_counts.py",
+      "bytes": 5609,
+      "sha256": "f94d3c17330f62df77a8960c3f3b139dbc1fce81292f89a15d4435049f9cdfee",
+      "git_blob_sha": "f5552459296fd0c55c601aa339c56af55d0dacc1"
+    },
+    {
+      "path": "rounds/r9/methods/synthetic_calibration.json",
+      "bytes": 7533,
+      "sha256": "04b0a5138ebe1c30e0c627fccb04a2f7e5c75e91245dbc38377852099e39e3ec",
+      "git_blob_sha": "6e53a087a534a991ad6a46043d7156fc5752251d"
+    },
+    {
+      "path": "rounds/r9/methods/verify_math.py",
+      "bytes": 4474,
+      "sha256": "a16505772a6773475cbd0876fd2095784362d584efed7bf4a3ae72f77b03d8b8",
+      "git_blob_sha": "1c88c2e76a8fe0e1ef5b863a3a2163a19e6514de"
+    },
+    {
+      "path": "rounds/r9/protocol.json",
+      "bytes": 6710,
+      "sha256": "b2b0a1801d49eba74215b02b7f5cf87775c279e2f6f8db7c9947a0e530528617",
+      "git_blob_sha": "0240d82977185a70bc1555e1012328e4056de350"
+    },
+    {
+      "path": "rounds/r9/public_freeze_receipt.json",
+      "bytes": 604,
+      "sha256": "02aea86ee9ba28d8fd8770acea5ee9fb9ad37dba0a7a9591363fbf1fe73de3e6",
+      "git_blob_sha": "2b8f0d58613a231d8ad42c2391257db6034e5f11"
+    },
+    {
+      "path": "rounds/r9/public_methods_receipt.json",
+      "bytes": 476,
+      "sha256": "a4829bb674d9e059ef11480621c196c2cbac0e82e479a6abb05b188212670705",
+      "git_blob_sha": "61985a35e7113e2b3482561df3fbff834cd3e7e0"
+    },
+    {
+      "path": "rounds/r9/results/calendar_view.png",
+      "bytes": 251703,
+      "sha256": "ec7e8a5b6d5b655a0e822f3e963a401ba6dde2467b05721fb948fb58fb333961",
+      "git_blob_sha": "bb610d8fa58408cf58a451b8b3ba4308a4314b3b"
+    },
+    {
+      "path": "rounds/r9/results/calendar_view.svg",
+      "bytes": 78401,
+      "sha256": "5d8ad21cca9fd78a73c5283cc6aa743ccddd17de55c73ecebd163366fab9d430",
+      "git_blob_sha": "9fb6af36c393aafc3eddaf73a4abe7165548dbf5"
+    },
+    {
+      "path": "rounds/r9/results/cohort_contrasts.png",
+      "bytes": 111497,
+      "sha256": "a55fedda9455bda9214d6977f274778698b4cfa13e52fb7d450ed7c3d57ec1ab",
+      "git_blob_sha": "7c0bc11317f5788044afefde1b1348ba4ec584a2"
+    },
+    {
+      "path": "rounds/r9/results/cohort_contrasts.svg",
+      "bytes": 75905,
+      "sha256": "670bfa76b66cbe998ed545c1c2054e584a680788bd16471736346f781bc68c36",
+      "git_blob_sha": "b29600e039b2f27b29045e5fb4aa5d95f97f5991"
+    },
+    {
+      "path": "rounds/r9/results/plot_results.py",
+      "bytes": 3434,
+      "sha256": "e24ac379b76977280a2288e6e24bdf3602188114ef69c277baacf364a068d14a",
+      "git_blob_sha": "420c132b82963833187a7178bd8e8b89132f49dc"
+    },
+    {
+      "path": "rounds/r9/results/structural_comparison.json",
+      "bytes": 50129,
+      "sha256": "d08f11813e606c1553d7d424d3ccf9feaeb610e1b19b5b9f2a417ec1ecc3c87c",
+      "git_blob_sha": "378b9a5eede0fa298635fbfdc885cb68d5d4e6c4"
+    },
+    {
+      "path": "rounds/r9/run_guarded_profiles.py",
+      "bytes": 3660,
+      "sha256": "bbf10cec50dab115ad54025067380d8c129c559cbbd3735a5a91399ab1a89d25",
+      "git_blob_sha": "babdf932aec957aa4634c9c43ab89c38399cf3c3"
+    },
+    {
+      "path": "rounds/r9/verification/RESULT_REVIEW.md",
+      "bytes": 3824,
+      "sha256": "913c4d5698e5d15eb54196a221f5e97964f39f9d4d80894eb7e51db366570876",
+      "git_blob_sha": "5b8e1a31771509023718daf867f58b8c84adae97"
+    },
+    {
+      "path": "rounds/r9/verification/REVIEW_PLAN.md",
+      "bytes": 2719,
+      "sha256": "d075da89464fd204566c0c776cdd98f52ba00c7a9ee25395044c32068126218b",
+      "git_blob_sha": "0a1341bb4fdc1e179d59386851e032d81f833c1c"
+    },
+    {
+      "path": "rounds/r9/verification/predata_selfcheck.json",
+      "bytes": 470,
+      "sha256": "aa97d0435918c61b1ec1449b89de18231216d8a6556906f30ecc85313902d989",
+      "git_blob_sha": "e5b83f26abdc4815a6bb3c29f3e2a99f9b909242"
+    },
+    {
+      "path": "rounds/r9/verification/publication_chronology.json",
+      "bytes": 1655,
+      "sha256": "434b7197c47fdb313a31f0c53a8f9bb334e0f64aad7a17569548e038f41d34ff",
+      "git_blob_sha": "d8e497aeddb0a05ce50341b9d2af6ab0fe8594ee"
+    },
+    {
+      "path": "rounds/r9/verification/r8_baseline_manifest.json",
+      "bytes": 30662,
+      "sha256": "1f9c4d2399919ee447208758e189017fb76a250febe3728f231cf0b37921d5f4",
+      "git_blob_sha": "dc745921b44261cb89f2e5df663bc4cd6f76b780"
+    },
+    {
+      "path": "rounds/r9/verification/result_review.json",
+      "bytes": 21763,
+      "sha256": "136cadb8888ae410256891882595c90d3da4ef92009465a7e4f899ca75594713",
+      "git_blob_sha": "ad8dff462243da3ca0cd6a6b3fc1f45cf423ccd7"
+    },
+    {
+      "path": "rounds/r9/verification/review_completion_receipt.json",
+      "bytes": 674,
+      "sha256": "c975ef1a87ebccc81513e2789e153a66c19f434aa2a4449cfcb1a3e7592a7f98",
+      "git_blob_sha": "10daa9d61d6fa8070193f46c3c2e1048b78603c3"
+    },
+    {
+      "path": "rounds/r9/verification/review_preparation_seal.json",
+      "bytes": 331,
+      "sha256": "836d1c843c9bd8dcdb878b1c0a4db4bd2461bc314d91288e56d44e3be264dcd1",
+      "git_blob_sha": "fd7103f262d35a1b559e1452cb5c8686e55e9bc1"
+    },
+    {
+      "path": "rounds/r9/verification/verify_aggregates.py",
+      "bytes": 19607,
+      "sha256": "2c294e113a9094fc6242970dac9e4f4c978bf6e689c024fc3a11a1907f9af772",
+      "git_blob_sha": "6fc31860d8a5af7a86d6c2bd3f903d6b47673947"
+    },
+    {
+      "path": "rounds/r9/verification/verify_release.py",
+      "bytes": 3592,
+      "sha256": "944b4a1a5b54f8e0e35884adb444b68331a5a0c9d8fe01b51c633bf6a83c6497",
+      "git_blob_sha": "c19c98f312c281e4c3409f1780b72d61622360d9"
+    }
+  ],
+  "individual_birth_inputs_or_profiles_published": false,
+  "note": "This manifest excludes itself; the final Git tree commits it. Git-backed source artifacts are retained in this repository."
+}

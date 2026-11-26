@@ -1,0 +1,13 @@
+{
+  "completed_utc": "2026-11-26T17:18:55.839645+00:00",
+  "coordinator_aggregation_ready_received": true,
+  "public_review_preparation_commit": "270ae36c99b400da26462c27bce932b53bd86560",
+  "sealed_review_code_unchanged": true,
+  "sealed_methods_unchanged_verified_in_review": true,
+  "files": {
+    "verify_aggregates.py": "2c294e113a9094fc6242970dac9e4f4c978bf6e689c024fc3a11a1907f9af772",
+    "REVIEW_PLAN.md": "d075da89464fd204566c0c776cdd98f52ba00c7a9ee25395044c32068126218b",
+    "result_review.json": "136cadb8888ae410256891882595c90d3da4ef92009465a7e4f899ca75594713",
+    "RESULT_REVIEW.md": "913c4d5698e5d15eb54196a221f5e97964f39f9d4d80894eb7e51db366570876"
+  }
+}

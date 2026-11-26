@@ -1,0 +1,48 @@
+{
+  "source_page": "https://www.inegi.org.mx/programas/natalidad/",
+  "catalog_item": {
+    "consecutivo": "31",
+    "idArchivo": "78786",
+    "titulo": "2015",
+    "descripcion": "Descarga",
+    "formato": "_dbf.zip&37.3  MB&SIN_ESTANDAR|",
+    "tipoInformacion": "Microdatos",
+    "areaGeografica": "Estados Unidos Mexicanos,0 -78786     |",
+    "url": "",
+    "extension": "dbf|",
+    "pathLogico": "/programas/natalidad/microdatos/2015/natalidad_base_datos_2015",
+    "anioInformacion": "|2015",
+    "fechaActualizacion": null,
+    "idAreaGeografica": "0"
+  },
+  "url": "https://www.inegi.org.mx/contenidos/programas/natalidad/microdatos/2015/natalidad_base_datos_2015_dbf.zip",
+  "final_url": "https://www.inegi.org.mx/contenidos/programas/natalidad/microdatos/2015/natalidad_base_datos_2015_dbf.zip",
+  "status": 200,
+  "headers": {
+    "content-type": "application/x-zip-compressed",
+    "last-modified": "Thu, 25 Sep 2025 12:00:51 GMT",
+    "etag": "\"75a925a142edc1:0\"",
+    "content-length": "39143088"
+  },
+  "bytes": 39143088,
+  "sha256": "995c451db513f19641c1e28032d0164e3e5a2c5a0b210b49e0754fde15f4f6c7",
+  "members": [
+    {
+      "name": "Descripcion BD_Nacimientos 2015_LOC_.pdf",
+      "bytes": 1093795,
+      "compressed": 1080682
+    },
+    {
+      "name": "NACIM15.dbf",
+      "bytes": 207117889,
+      "compressed": 37596655
+    },
+    {
+      "name": "CATEMLNA15.dbf",
+      "bytes": 5530842,
+      "compressed": 465263
+    }
+  ],
+  "retrieved_at_utc": "2026-11-26T16:57:19.240037+00:00",
+  "url_resolution": "Official program HTML -> pestanadata.js -> descargaMasivaV2.min.js -> official catalog API -> urlNas + pathLogico + formato suffix"
+}

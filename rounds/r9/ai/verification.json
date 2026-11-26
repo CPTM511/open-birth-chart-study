@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-11-26T17:02:21.269375+00:00",
+  "checks": {
+    "labor_rows_match_audit": true,
+    "labor_area_count_match": true,
+    "labor_source_mapping_complete": true,
+    "labor_labels_present": true,
+    "labor_missing_value_count_match": true,
+    "labor_break_count_match": true,
+    "labor_unreliable_count_match": true,
+    "metr_model_count": true,
+    "evidence_item_count": true,
+    "json_files_parse": true,
+    "python_syntax": true
+  },
+  "scope": "File/content consistency only; no independent re-estimation of METR fits or causal labor validation."
+}
