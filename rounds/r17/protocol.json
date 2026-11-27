@@ -1,0 +1,39 @@
+{
+  "id": "OBS-R17-EMPLOYMENT-2026-11-28",
+  "created_utc": "2026-11-27T16:13:09.199051+00:00",
+  "source_urls": {
+    "RPSGENAIUSAGESHAREEDLWWOR.csv": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=RPSGENAIUSAGESHAREEDLWWOR",
+    "RPSGENAIUSAGESHARELWWORK.csv": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=RPSGENAIUSAGESHARELWWORK",
+    "RPSGENAIUSAGESHAREWORK.csv": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=RPSGENAIUSAGESHAREWORK",
+    "canaries_age_exposure.zip": "https://storage.googleapis.com/aviary-del-public/release_memos/latest/downloads/canaries_age_by_exposure_results.zip"
+  },
+  "source_sha256": {
+    "RPSGENAIUSAGESHAREEDLWWOR.csv": "28113dfaefb3055be1f97d2635f70d484718d9d07a40f377fcff1d4fefc7c8ae",
+    "RPSGENAIUSAGESHARELWWORK.csv": "c59733ecacedc122ec51c7f110ddb618440806a249431fb892558e45d9387501",
+    "RPSGENAIUSAGESHAREWORK.csv": "695ebdb1b58bb0086897cfd8bd32dcade79aad6395d0b6218cbb61320f02b3cb",
+    "canaries_age_exposure.zip": "a443f5e59765d4bfa7d2a6e673789ee572b3aa5d24541b3e2f3573e09beeec6f"
+  },
+  "method_sha256": {
+    "REGISTRATION.zh.md": "463c601773e9087333c79667dabebec88520eda9dcd26ad8b056343394adb547",
+    "observed.py": "25aba0c790708bdcd57902a161385bc5f609fa921999d7110df291d4df8f16a8",
+    "REVIEW_CORRECTION.zh.md": "7c96f353ab0fde8277ffdbfe6541b3d832f155328063309f2305e90aad730b71"
+  },
+  "fred_quarters": [
+    "2024-Q3",
+    "2026-Q3"
+  ],
+  "payroll_vintage": "2026-11-15",
+  "primary_exposure_quintiles": [
+    5,
+    1
+  ],
+  "primary_payroll_ages": [
+    "22-25",
+    "41-49"
+  ],
+  "primary_payroll_month": "2026-10-01",
+  "publication_only_explored": true,
+  "prior_knowledge": "The source pages and published studies were read. Particular raw target values were not searched.",
+  "original_protocol_sha256": "b985928eb61d066d38faf60a0acf4b5a2201d293a5b8024a63475a4e78e2acdf",
+  "review_correction": "Treat separate index and year-over-year tables as rounded outputs and verify interval compatibility with disclosed display precision."
+}
