@@ -1,0 +1,14 @@
+{
+  "base_commit": "7247a42e1a04747d213a584f4e5be28125a2040c",
+  "version": "OBS-R22-QZ-DEGREE-1.0",
+  "files_sha256": {
+    "rounds/r22/REGISTRATION.zh.md": "2edfb70fedf46666c800aa9198d5db6a134e453bddc6f0a0dda5b7f0350d0cf8",
+    "src/open_birth_chart/qizheng_engine.py": "d50d0c7de06ca16cb0cf19557fd51b65f240363c68e7ce6bb9daa8f483c6123d",
+    "rounds/r16/classical.py": "7c6781ec75f6ea583c12280f9fc28fde1b4cbcc69c4825f706a149b6a961a10e"
+  },
+  "volume_468_original_sha256": "33c94263a4b23ccec39e4b8c36d50809b00511d1df4fa69cb09f9320d38ae670",
+  "source_page_23_sha256": "6ec42ae7ad38dbf4afe709494838c91db966dce57a0b2034e09a82bd33810b4e",
+  "source_page_45_sha256": "83edccd150f1fe4088f2720d4780f7b8e3594661722f2314cbce58077a193ef0",
+  "yuanshi_54_revision": 1959444,
+  "yuanshi_54_snapshot_sha256": "d552fc027464e3c0ad86cd5e551e370b647abb9bbe963b8110e564a3d4904ecf"
+}

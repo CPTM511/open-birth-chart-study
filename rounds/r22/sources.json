@@ -1,0 +1,55 @@
+{
+  "gujin_grid_page": 45,
+  "grid_orientation": "Columns are numbered from 1 at the high-longitude end to 30 at the low-longitude end. In each segment list, the entries are [mansion, first displayed degree, number of cells], descending one degree per cell.",
+  "grid_segments": {
+    "子":[["危",11,11],["虚",9,9],["女",11,10]],
+    "丑":[["女",1,2],["牛",6,7],["斗",23,21]],
+    "寅":[["斗",2,3],["箕",10,11],["尾",18,16]],
+    "卯":[["尾",2,2],["心",6,6],["房",5,6],["氐",16,16]],
+    "辰":[["氐",0,1],["亢",9,9],["角",12,12],["轸",17,8]],
+    "巳":[["轸",9,9],["翼",19,19],["张",16,2]],
+    "午":[["张",14,14],["星",6,6],["柳",13,10]],
+    "未":[["柳",3,4],["鬼",2,3],["井",30,23]],
+    "申":[["井",7,8],["参",10,10],["觜",0,1],["毕",16,11]],
+    "酉":[["毕",5,6],["昴",10,11],["胃",15,13]],
+    "戌":[["胃",2,2],["娄",12,12],["奎",16,16]],
+    "亥":[["奎",0,1],["壁",8,8],["室",17,17],["危",15,4]]
+  },
+  "grid_reading_uncertainty": [
+    {"palace":"子","column":1,"reading":["危",11],"basis":"The first compound glyph has a faint lower stroke. The next two cells are tenth and ninth degrees of the same mansion."},
+    {"palace":"丑","column":1,"reading":["女",1],"basis":"In the compound glyph one horizontal numeral stroke is legible; the next cell is degree zero."},
+    {"palace":"酉","column":7,"reading":["昴",10],"basis":"The compound numeral is smudged. The subsequent cell reads degree nine."}
+  ],
+  "yuanshi_mansion_widths": {
+    "角":"12.87","亢":"9.56","氐":"16.40","房":"5.48","心":"6.27","尾":"17.95","箕":"9.59",
+    "斗":"23.47","牛":"6.90","女":"11.12","虚":"9.0075","危":"15.95","室":"18.32","壁":"9.34",
+    "奎":"17.87","娄":"12.36","胃":"15.81","昴":"11.08","毕":"16.50","觜":"0.05","参":"10.28",
+    "井":"31.03","鬼":"2.11","柳":"13","星":"6.31","张":"17.79","翼":"20.09","轸":"18.75"
+  },
+  "yuanshi_palace_heads": {
+    "子":["女","2.0638"],"丑":["斗","3.7685"],"寅":["尾","3.0115"],"卯":["氐","1.1452"],
+    "辰":["轸","10.0797"],"巳":["张","15.2606"],"午":["柳","3.8680"],"未":["井","8.3494"],
+    "申":["毕","6.8805"],"酉":["胃","3.7456"],"戌":["奎","1.7363"],"亥":["危","12.6491"]
+  },
+  "alternate_chou_head": ["斗","2.7685"],
+  "subdegree_note": "The Tai mark 太 is read as three quarters of a hundredth. In the northern widths this reconstructs 94.1075 ancient units and the four quarters add to 365.2575.",
+  "numbered_chapter_notes": {
+    "gujin_transfers":[["子","虚",6,"酉","午","星",5],["子","女",3,"酉","午","柳",4]],
+    "gujin_limits":[["午","星",5,15],["午","张",11,20],["午","张",12,20],["午","张",13,20]],
+    "xingxue_zi_limits":[[2,11],[3,11],[4,11],[5,12],[6,12],[7,12],[8,13],[9,13],[10,13]],
+    "xingxue_solar_wing_example":{"solar":["巳","翼",10],"inferred_ming_palace":"丑","printed_entries":[["寅",13],["卯",23],["辰",33],["巳",48],["午",57],["未",64],["申",75]]}
+  },
+  "printed_rates": {
+    "相貌":{"duration":"10","rate":"3","days_per_unit":120},
+    "福德":{"duration":"11","rate":"2.7207","days_per_unit":132},
+    "官禄":{"duration":"15","rate":"2","days_per_unit":180},
+    "迁移":{"duration":"8","rate":"3.75","days_per_unit":96},
+    "疾厄":{"duration":"7","rate":"4.2850","days_per_unit":84},
+    "妻妾":{"duration":"11","rate":"2.7207","days_per_unit":132},
+    "奴仆":{"duration":"4.5","rate":"6.6006","days_per_unit":54},
+    "男女":{"duration":"4.5","rate":"6.6006","days_per_unit":54},
+    "田宅":{"duration":"4.5","rate":"6.6006","days_per_unit":54},
+    "兄弟":{"duration":"5","rate":"6","days_per_unit":60},
+    "财帛":{"duration":"5","rate":"6","days_per_unit":60}
+  }
+}
