@@ -1,6 +1,6 @@
 # 开放命盘研究宪章
 
-**第 1.0 版 · 中文**　[English](CONSTITUTION.md)
+**第 1.0 版 · 2026 年 11 月 27 日采纳 · 中文**　[English](CONSTITUTION.md)
 
 ## 一　研究使命
 
@@ -54,6 +54,6 @@
 
 每轮发布全部预设比较，包括阴性结果、未取得的资料和失败的验证。发现错误时登记受影响版本、是否已看见结果、影响范围和修复证据，在原结论旁链接更正。主结论失去依据时标明撤回。新模型和有待检验的解释在后续版本中提出。对公众、媒体及社交平台的表述沿用报告的分母和证据范围。
 
-本宪章自维护者合入主分支起指导后续工作。修改通过有理由的公开变更提出，载明版本、日期、影响的决策和生效轮次。既有轮次按其原冻结方案评价，并保留历史版本。每轮收尾时据尚存的不确定性决定下一项最有价值的工作，也可以决定暂停。
+第 1.0 版在 R10 结项后由维护者合入主分支，自采纳日起适用于后续立项、分析、复核与发布。修改通过有理由的公开变更提出，载明版本、日期、影响的决策和生效轮次。既有轮次按其原冻结方案评价，并保留历史版本。每轮收尾时据尚存的不确定性决定下一项最有价值的工作，也可以决定暂停。[R10 结项记录](R10.md) · [宪章采纳记录](https://github.com/CPTM511/open-birth-chart-study/pull/2)
 
-项目依据见[原始研究问题](docs/RESEARCH_QUESTIONS.md)、[四体系实现范围](docs/four_system_readiness.md)、[参与方式](CONTRIBUTING.md)及[数据使用条款](data_expansion/DATA_LICENSES.md)。方法参考包括[预先登记](https://www.cos.io/initiatives/prereg)、[STROBE 观察研究报告指南](https://www.strobe-statement.org/)、[RECORD 常规记录报告指南](https://doi.org/10.1371/journal.pmed.1001885)与[FAIR 数据原则](https://www.gofair.foundation/fair-principles)。
+项目依据见[原始研究问题](docs/RESEARCH_QUESTIONS.md)、[四体系实现范围](docs/four_system_readiness.md)、[参与方式](CONTRIBUTING.md)及[数据使用条款](data_expansion/DATA_LICENSES.md)。方法参考包括[预先登记](https://www.cos.io/initiatives/prereg)、[STROBE 观察研究报告指南](https://www.strobe-statement.org/)、[RECORD 常规收集健康数据报告指南](https://doi.org/10.1371/journal.pmed.1001885)与[FAIR 数据原则](https://www.gofair.foundation/fair-principles)。

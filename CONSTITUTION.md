@@ -1,6 +1,6 @@
 # Open Birth Chart Study Constitution
 
-**Version 1.0 · English**　[中文](CONSTITUTION.zh.md)
+**Version 1.0 · Adopted 27 November 2026 · English**　[中文](CONSTITUTION.zh.md)
 
 ## 1. Purpose
 
@@ -54,6 +54,6 @@ The proposer records the question and what could refute it. The analyst records 
 
 Release every registered comparison, including null results, unavailable sources and failed validation. For a material error, identify the affected version, whether results had already been seen, the scope of the impact and the repair evidence. Link the correction beside the earlier claim. Mark a conclusion as withdrawn if its basis fails. New models and explanations awaiting validation belong in a subsequent version. Public summaries and social posts carry the same denominator and scope as the research report.
 
-This charter governs future work from its adoption on the default branch. Propose amendments in public and record the rationale, dated version, affected decisions and first round governed by the change. Evaluate earlier rounds under their original frozen protocols and preserve that history. At the close of a round, use the remaining uncertainty to choose the next investigation or to pause.
+Version 1.0 takes effect upon adoption on the default branch after the close of R10. It governs subsequent study proposals, analyses, reviews and releases. Propose amendments in public and record the rationale, dated version, affected decisions and first round governed by the change. Evaluate earlier rounds under their original frozen protocols and preserve that history. At the close of a round, use the remaining uncertainty to choose the next investigation or to pause. [R10 closing record](R10.md) · [Charter adoption record](https://github.com/CPTM511/open-birth-chart-study/pull/2)
 
-Project records include the [research questions](docs/RESEARCH_QUESTIONS.md), [four-system implementation boundaries](docs/four_system_readiness.md), [contribution process](CONTRIBUTING.md) and [source terms](data_expansion/DATA_LICENSES.md). Methodological references include [preregistration](https://www.cos.io/initiatives/prereg), [STROBE reporting guidance](https://www.strobe-statement.org/), [RECORD guidance for routinely collected data](https://doi.org/10.1371/journal.pmed.1001885) and the [FAIR principles](https://www.gofair.foundation/fair-principles).
+Project records include the [research questions](docs/RESEARCH_QUESTIONS.md), [four-system implementation boundaries](docs/four_system_readiness.md), [contribution process](CONTRIBUTING.md) and [source terms](data_expansion/DATA_LICENSES.md). Methodological references include [preregistration](https://www.cos.io/initiatives/prereg), [STROBE reporting guidance](https://www.strobe-statement.org/), [RECORD guidance for routinely collected health data](https://doi.org/10.1371/journal.pmed.1001885) and the [FAIR principles](https://www.gofair.foundation/fair-principles).
