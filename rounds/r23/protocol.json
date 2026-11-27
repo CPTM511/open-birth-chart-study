@@ -1,0 +1,13 @@
+{
+  "base_commit": "e0366ee4a81f1f70b64bfef20cdab26f2046f078",
+  "version": "OBS-R23-ZW-MING-CHARTS-1.0",
+  "planned_slots": 15,
+  "global_page_start": 193,
+  "global_page_last": 200,
+  "files_sha256": {
+    "rounds/r23/REGISTRATION.zh.md": "db162866c7de58ecddd145b7593cf8243c0c6890ef5ea2d5238ca287451ba505",
+    "rounds/r23/scan-receipts.json": "ffd9da8b05774c6281309edb138684adaaaea678d1bccc9cefcd30581ddb8b78",
+    "package-lock.json": "17fd60175498619a22939476eef4504fc7df724729a5de2fdb9dae3747fa828a",
+    "src/open_birth_chart/ziwei_bridge.cjs": "976c2b4b8bd887b87865c4e3bfe8f02cce5f1dfdd1c4a6d14959308ca34e978f"
+  }
+}
