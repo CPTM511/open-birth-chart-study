@@ -1,0 +1,551 @@
+{
+  "registration_commit": "e9253370ca127a1ff0f2d2f84ffb995a9ddabfed",
+  "cases": [
+    {
+      "id": 1,
+      "target": "食神制杀前提",
+      "r8_month_pattern": "七杀",
+      "r8_month_pattern_status": "base_month_candidate",
+      "r8_unique_month_candidate": true,
+      "r8_clauses": [
+        "BZC05a"
+      ],
+      "premise_status": "present",
+      "chapter_evidence": {
+        "conditions": {
+          "食神制杀前提": true,
+          "食重透印的可核部分": false,
+          "杀印同通月令": false,
+          "财印食伤制化链": false,
+          "寅亥化印与透财前提": false,
+          "伤官制官留月令杀前提": false,
+          "冲月令杀留透官前提": false,
+          "无食伤而见刃与藏印": false
+        },
+        "visible_stems": {
+          "year": {
+            "stem": "乙",
+            "role": "比肩"
+          },
+          "month": {
+            "stem": "乙",
+            "role": "比肩"
+          },
+          "hour": {
+            "stem": "丁",
+            "role": "食神"
+          }
+        },
+        "month_hidden_stems": {
+          "辛": "七杀"
+        },
+        "month_killing_context": true,
+        "visible_wealth_precedes_food": false,
+        "visible_killings_exact_in_month": [],
+        "visible_resource_exact_in_month": [],
+        "visible_killings_same_element_roots_in_month": {},
+        "food_root_positions": {
+          "丁": []
+        },
+        "finances_resource_output_killing_links": [],
+        "strict_food_chain": false,
+        "adjacent_officer_control": [],
+        "officer_branch_clash": [],
+        "blade_positions": [],
+        "hidden_resource": {
+          "year": [
+            "壬"
+          ],
+          "hour": [
+            "癸"
+          ]
+        },
+        "no_visible_or_hidden_output": false,
+        "strength_or_transformation_adjudicated": false
+      }
+    },
+    {
+      "id": 2,
+      "target": "食重透印的可核部分",
+      "r8_month_pattern": "食神",
+      "r8_month_pattern_status": "base_month_candidate",
+      "r8_unique_month_candidate": true,
+      "r8_clauses": [],
+      "premise_status": "partial",
+      "chapter_evidence": {
+        "conditions": {
+          "食神制杀前提": false,
+          "食重透印的可核部分": true,
+          "杀印同通月令": false,
+          "财印食伤制化链": false,
+          "寅亥化印与透财前提": false,
+          "伤官制官留月令杀前提": false,
+          "冲月令杀留透官前提": false,
+          "无食伤而见刃与藏印": false
+        },
+        "visible_stems": {
+          "year": {
+            "stem": "壬",
+            "role": "七杀"
+          },
+          "month": {
+            "stem": "甲",
+            "role": "偏印"
+          },
+          "hour": {
+            "stem": "戊",
+            "role": "食神"
+          }
+        },
+        "month_hidden_stems": {
+          "戊": "食神",
+          "乙": "正印",
+          "癸": "正官"
+        },
+        "month_killing_context": false,
+        "visible_wealth_precedes_food": false,
+        "visible_killings_exact_in_month": [],
+        "visible_resource_exact_in_month": [],
+        "visible_killings_same_element_roots_in_month": {
+          "壬": [
+            "癸"
+          ]
+        },
+        "food_root_positions": {
+          "戊": [
+            "year",
+            "month",
+            "day",
+            "hour"
+          ]
+        },
+        "finances_resource_output_killing_links": [],
+        "strict_food_chain": false,
+        "adjacent_officer_control": [],
+        "officer_branch_clash": [],
+        "blade_positions": [],
+        "hidden_resource": {
+          "year": [
+            "乙"
+          ],
+          "month": [
+            "乙"
+          ]
+        },
+        "no_visible_or_hidden_output": false,
+        "strength_or_transformation_adjudicated": false
+      }
+    },
+    {
+      "id": 3,
+      "target": "杀印同通月令",
+      "r8_month_pattern": null,
+      "r8_month_pattern_status": "competing_exposed_candidates",
+      "r8_unique_month_candidate": false,
+      "r8_clauses": [],
+      "premise_status": "present",
+      "chapter_evidence": {
+        "conditions": {
+          "食神制杀前提": false,
+          "食重透印的可核部分": false,
+          "杀印同通月令": true,
+          "财印食伤制化链": false,
+          "寅亥化印与透财前提": false,
+          "伤官制官留月令杀前提": false,
+          "冲月令杀留透官前提": false,
+          "无食伤而见刃与藏印": false
+        },
+        "visible_stems": {
+          "year": {
+            "stem": "丙",
+            "role": "偏财"
+          },
+          "month": {
+            "stem": "戊",
+            "role": "七杀"
+          },
+          "hour": {
+            "stem": "辛",
+            "role": "正印"
+          }
+        },
+        "month_hidden_stems": {
+          "戊": "七杀",
+          "辛": "正印",
+          "丁": "正财"
+        },
+        "month_killing_context": true,
+        "visible_wealth_precedes_food": false,
+        "visible_killings_exact_in_month": [
+          "戊"
+        ],
+        "visible_resource_exact_in_month": [
+          "辛"
+        ],
+        "visible_killings_same_element_roots_in_month": {
+          "戊": [
+            "戊"
+          ]
+        },
+        "food_root_positions": {},
+        "finances_resource_output_killing_links": [],
+        "strict_food_chain": false,
+        "adjacent_officer_control": [],
+        "officer_branch_clash": [],
+        "blade_positions": [],
+        "hidden_resource": {
+          "month": [
+            "辛"
+          ],
+          "day": [
+            "辛"
+          ],
+          "hour": [
+            "辛"
+          ]
+        },
+        "no_visible_or_hidden_output": false,
+        "strength_or_transformation_adjudicated": false
+      }
+    },
+    {
+      "id": 4,
+      "target": "财印食伤制化链",
+      "r8_month_pattern": "七杀",
+      "r8_month_pattern_status": "base_month_candidate",
+      "r8_unique_month_candidate": true,
+      "r8_clauses": [],
+      "premise_status": "present",
+      "chapter_evidence": {
+        "conditions": {
+          "食神制杀前提": false,
+          "食重透印的可核部分": false,
+          "杀印同通月令": false,
+          "财印食伤制化链": true,
+          "寅亥化印与透财前提": false,
+          "伤官制官留月令杀前提": false,
+          "冲月令杀留透官前提": false,
+          "无食伤而见刃与藏印": false
+        },
+        "visible_stems": {
+          "year": {
+            "stem": "戊",
+            "role": "伤官"
+          },
+          "month": {
+            "stem": "甲",
+            "role": "正印"
+          },
+          "hour": {
+            "stem": "庚",
+            "role": "正财"
+          }
+        },
+        "month_hidden_stems": {
+          "癸": "七杀"
+        },
+        "month_killing_context": true,
+        "visible_wealth_precedes_food": false,
+        "visible_killings_exact_in_month": [],
+        "visible_resource_exact_in_month": [],
+        "visible_killings_same_element_roots_in_month": {},
+        "food_root_positions": {},
+        "finances_resource_output_killing_links": [
+          [
+            "hour",
+            "month",
+            "year",
+            "癸",
+            "伤官"
+          ]
+        ],
+        "strict_food_chain": false,
+        "adjacent_officer_control": [],
+        "officer_branch_clash": [],
+        "blade_positions": [],
+        "hidden_resource": {
+          "day": [
+            "乙"
+          ]
+        },
+        "no_visible_or_hidden_output": false,
+        "strength_or_transformation_adjudicated": false
+      }
+    },
+    {
+      "id": 5,
+      "target": "寅亥化印与透财前提",
+      "r8_month_pattern": "偏印",
+      "r8_month_pattern_status": "base_month_candidate",
+      "r8_unique_month_candidate": true,
+      "r8_clauses": [],
+      "premise_status": "present",
+      "chapter_evidence": {
+        "conditions": {
+          "食神制杀前提": false,
+          "食重透印的可核部分": false,
+          "杀印同通月令": false,
+          "财印食伤制化链": false,
+          "寅亥化印与透财前提": true,
+          "伤官制官留月令杀前提": false,
+          "冲月令杀留透官前提": false,
+          "无食伤而见刃与藏印": false
+        },
+        "visible_stems": {
+          "year": {
+            "stem": "甲",
+            "role": "偏印"
+          },
+          "month": {
+            "stem": "乙",
+            "role": "正印"
+          },
+          "hour": {
+            "stem": "庚",
+            "role": "偏财"
+          }
+        },
+        "month_hidden_stems": {
+          "壬": "七杀",
+          "甲": "偏印"
+        },
+        "month_killing_context": true,
+        "visible_wealth_precedes_food": false,
+        "visible_killings_exact_in_month": [],
+        "visible_resource_exact_in_month": [
+          "甲"
+        ],
+        "visible_killings_same_element_roots_in_month": {},
+        "food_root_positions": {},
+        "finances_resource_output_killing_links": [],
+        "strict_food_chain": false,
+        "adjacent_officer_control": [],
+        "officer_branch_clash": [],
+        "blade_positions": [],
+        "hidden_resource": {
+          "month": [
+            "甲"
+          ],
+          "hour": [
+            "甲"
+          ]
+        },
+        "no_visible_or_hidden_output": false,
+        "strength_or_transformation_adjudicated": false
+      }
+    },
+    {
+      "id": 6,
+      "target": "伤官制官留月令杀前提",
+      "r8_month_pattern": "建禄月劫",
+      "r8_month_pattern_status": "base_month_candidate",
+      "r8_unique_month_candidate": false,
+      "r8_clauses": [],
+      "premise_status": "present",
+      "chapter_evidence": {
+        "conditions": {
+          "食神制杀前提": false,
+          "食重透印的可核部分": false,
+          "杀印同通月令": false,
+          "财印食伤制化链": false,
+          "寅亥化印与透财前提": false,
+          "伤官制官留月令杀前提": true,
+          "冲月令杀留透官前提": false,
+          "无食伤而见刃与藏印": false
+        },
+        "visible_stems": {
+          "year": {
+            "stem": "癸",
+            "role": "伤官"
+          },
+          "month": {
+            "stem": "丁",
+            "role": "正官"
+          },
+          "hour": {
+            "stem": "庚",
+            "role": "比肩"
+          }
+        },
+        "month_hidden_stems": {
+          "丙": "七杀",
+          "庚": "比肩",
+          "戊": "偏印"
+        },
+        "month_killing_context": true,
+        "visible_wealth_precedes_food": false,
+        "visible_killings_exact_in_month": [],
+        "visible_resource_exact_in_month": [],
+        "visible_killings_same_element_roots_in_month": {},
+        "food_root_positions": {},
+        "finances_resource_output_killing_links": [],
+        "strict_food_chain": false,
+        "adjacent_officer_control": [
+          [
+            "year",
+            "month"
+          ]
+        ],
+        "officer_branch_clash": [],
+        "blade_positions": [],
+        "hidden_resource": {
+          "month": [
+            "戊"
+          ],
+          "day": [
+            "戊"
+          ],
+          "hour": [
+            "戊"
+          ]
+        },
+        "no_visible_or_hidden_output": false,
+        "strength_or_transformation_adjudicated": false
+      }
+    },
+    {
+      "id": 7,
+      "target": "冲月令杀留透官前提",
+      "r8_month_pattern": "七杀",
+      "r8_month_pattern_status": "base_month_candidate",
+      "r8_unique_month_candidate": true,
+      "r8_clauses": [],
+      "premise_status": "present",
+      "chapter_evidence": {
+        "conditions": {
+          "食神制杀前提": false,
+          "食重透印的可核部分": false,
+          "杀印同通月令": false,
+          "财印食伤制化链": false,
+          "寅亥化印与透财前提": false,
+          "伤官制官留月令杀前提": false,
+          "冲月令杀留透官前提": true,
+          "无食伤而见刃与藏印": false
+        },
+        "visible_stems": {
+          "year": {
+            "stem": "丙",
+            "role": "正官"
+          },
+          "month": {
+            "stem": "甲",
+            "role": "正财"
+          },
+          "hour": {
+            "stem": "辛",
+            "role": "比肩"
+          }
+        },
+        "month_hidden_stems": {
+          "丁": "七杀",
+          "己": "偏印"
+        },
+        "month_killing_context": true,
+        "visible_wealth_precedes_food": false,
+        "visible_killings_exact_in_month": [],
+        "visible_resource_exact_in_month": [],
+        "visible_killings_same_element_roots_in_month": {},
+        "food_root_positions": {},
+        "finances_resource_output_killing_links": [],
+        "strict_food_chain": false,
+        "adjacent_officer_control": [],
+        "officer_branch_clash": [
+          "year"
+        ],
+        "blade_positions": [],
+        "hidden_resource": {
+          "month": [
+            "己"
+          ]
+        },
+        "no_visible_or_hidden_output": false,
+        "strength_or_transformation_adjudicated": false
+      }
+    },
+    {
+      "id": 8,
+      "target": "无食伤而见刃与藏印",
+      "r8_month_pattern": null,
+      "r8_month_pattern_status": "competing_exposed_candidates",
+      "r8_unique_month_candidate": false,
+      "r8_clauses": [],
+      "premise_status": "present",
+      "chapter_evidence": {
+        "conditions": {
+          "食神制杀前提": false,
+          "食重透印的可核部分": false,
+          "杀印同通月令": false,
+          "财印食伤制化链": false,
+          "寅亥化印与透财前提": false,
+          "伤官制官留月令杀前提": false,
+          "冲月令杀留透官前提": false,
+          "无食伤而见刃与藏印": true
+        },
+        "visible_stems": {
+          "year": {
+            "stem": "戊",
+            "role": "比肩"
+          },
+          "month": {
+            "stem": "甲",
+            "role": "七杀"
+          },
+          "hour": {
+            "stem": "戊",
+            "role": "比肩"
+          }
+        },
+        "month_hidden_stems": {
+          "甲": "七杀",
+          "丙": "偏印",
+          "戊": "比肩"
+        },
+        "month_killing_context": true,
+        "visible_wealth_precedes_food": false,
+        "visible_killings_exact_in_month": [
+          "甲"
+        ],
+        "visible_resource_exact_in_month": [],
+        "visible_killings_same_element_roots_in_month": {
+          "甲": [
+            "甲"
+          ]
+        },
+        "food_root_positions": {},
+        "finances_resource_output_killing_links": [],
+        "strict_food_chain": false,
+        "adjacent_officer_control": [],
+        "officer_branch_clash": [],
+        "blade_positions": [
+          "hour"
+        ],
+        "hidden_resource": {
+          "month": [
+            "丙"
+          ],
+          "day": [
+            "丙"
+          ],
+          "hour": [
+            "丁"
+          ]
+        },
+        "no_visible_or_hidden_output": true,
+        "strength_or_transformation_adjudicated": false
+      }
+    }
+  ],
+  "counts": {
+    "known_classical_cases": 8,
+    "r8_killing_as_month_pattern": 3,
+    "r8_killing_as_unique_month_pattern": 3,
+    "r8_clause_matches_by_case": {
+      "BZC05a": 1,
+      "BZC05b": 0,
+      "BZC05c": 0
+    },
+    "bounded_source_premises_present": 7,
+    "bounded_source_premises_partial": 1
+  },
+  "outcomes_scored": false
+}
