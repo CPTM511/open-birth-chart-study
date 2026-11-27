@@ -1,0 +1,10 @@
+[
+  {"id": 1, "pillars": ["乙亥", "乙酉", "乙卯", "丁丑"], "world_library_pdf": [79], "collected_edition_pdf": [57, 58], "target": "食神制杀前提"},
+  {"id": 2, "pillars": ["壬辰", "甲辰", "丙戌", "戊戌"], "world_library_pdf": [79], "collected_edition_pdf": [58], "target": "食重透印的可核部分"},
+  {"id": 3, "pillars": ["丙寅", "戊戌", "壬戌", "辛丑"], "world_library_pdf": [79], "collected_edition_pdf": [58], "target": "杀印同通月令"},
+  {"id": 4, "pillars": ["戊戌", "甲子", "丁未", "庚戌"], "world_library_pdf": [80], "collected_edition_pdf": [58], "target": "财印食伤制化链"},
+  {"id": 5, "pillars": ["甲申", "乙亥", "丙戌", "庚寅"], "world_library_pdf": [80], "collected_edition_pdf": [58], "target": "寅亥化印与透财前提"},
+  {"id": 6, "pillars": ["癸卯", "丁巳", "庚寅", "庚辰"], "world_library_pdf": [80], "collected_edition_pdf": [58], "target": "伤官制官留月令杀前提"},
+  {"id": 7, "pillars": ["丙子", "甲午", "辛亥", "辛卯"], "world_library_pdf": [80], "collected_edition_pdf": [58, 59], "target": "冲月令杀留透官前提"},
+  {"id": 8, "pillars": ["戊辰", "甲寅", "戊寅", "戊午"], "world_library_pdf": [80, 81], "collected_edition_pdf": [59], "target": "无食伤而见刃与藏印", "reading_world_library": "刃", "reading_collected_edition": "印"}
+]

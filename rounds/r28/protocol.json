@@ -1,0 +1,10 @@
+{
+  "registration_commit": "e9253370ca127a1ff0f2d2f84ffb995a9ddabfed",
+  "files_sha256": {
+    "rounds/r28/REGISTRATION.zh.md": "0fe9d0e285b68b301faa2fe7704844db84d29df9fc2bc88c79fb184e8fad8ec6",
+    "rounds/r28/cases.json": "fd255b4337cacb2c0832c077596a829b923bbc94bf6089a309d2a477eb4cd741",
+    "rounds/r28/sources.json": "6f5d7470ff0651039decd775424173c6fae3bcf77358e3485cd35471469799fc",
+    "src/open_birth_chart/bazi_engine.py": "41d2b5f3cd0738d94366e5436a495d05d9f84b5d0c3d0a68efbf14383311d5df",
+    "rounds/r21/officer_cases.py": "6ac85fef30c703ba8b8f14d407060a3a4814d8d559e87b4bf2014502ece43293"
+  }
+}
