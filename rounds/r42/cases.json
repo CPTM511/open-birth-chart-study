@@ -1,0 +1,22 @@
+{
+  "sources": {
+    "world_library": {"pdf_page": 33, "printed_page": 24},
+    "collected": {"pdf_page": 28, "printed_page": 15}
+  },
+  "cases": [
+    {"id": "xin_yin", "day": "辛", "month": "寅", "pair": "甲丙", "roles": ["正财", "正官"],
+      "month_main": "甲", "direction": "generation", "source_result": "纯"},
+    {"id": "wu_shen", "day": "戊", "month": "申", "pair": "庚壬", "roles": ["食神", "偏财"],
+      "month_main": "庚", "direction": "generation", "source_result": "纯"},
+    {"id": "gui_wei", "day": "癸", "month": "未", "pair": "乙己", "roles": ["食神", "七杀"],
+      "month_main": "己", "direction": "control", "source_result": "纯", "r8_clause": "BZC05a"},
+    {"id": "ren_wei", "day": "壬", "month": "未", "pair": "乙己", "roles": ["伤官", "正官"],
+      "month_main": "己", "direction": "control", "source_result": "杂", "r8_clause": "BZC06a"},
+    {"id": "jia_chen", "day": "甲", "month": "辰", "pair": "戊壬", "roles": ["偏财", "偏印"],
+      "month_main": "戊", "direction": "control", "source_result": "杂"},
+    {"id": "gui_wu", "day": "癸", "month": "午", "pair": "丁己", "roles": ["偏财", "七杀"],
+      "month_main": "丁", "direction": "generation", "source_result": "杂", "omitted_in": ["collected"]}
+  ],
+  "matched_calendar_pair": ["gui_wei", "ren_wei"],
+  "calendar_attempt_limit_per_side": 120
+}
