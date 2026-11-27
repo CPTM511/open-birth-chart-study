@@ -1,0 +1,355 @@
+{
+  "round": "R42",
+  "source_pdf_sha256": {
+    "world_library": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620",
+    "collected": "b1ac0a7dd4dc260647b65bd9338ad815fc0855d78e0ea01ed428237b28eb61c8"
+  },
+  "registration_sha256": "9e2acb0d5ae1bf0372daf94d686bab9bb8a91a59b09650f9889d21d1078a5096",
+  "case_spec_sha256": "747fe491c4203be0b8fc1283ad2d6e79084f9d1035da2b7f4f99606a3542a926",
+  "edition_scope": {
+    "world_library": {
+      "pdf_page": 33,
+      "printed_page": 24,
+      "covered_case_ids": [
+        "xin_yin",
+        "wu_shen",
+        "gui_wei",
+        "ren_wei",
+        "jia_chen",
+        "gui_wu"
+      ],
+      "pure": 3,
+      "mixed": 3,
+      "counterexamples_to_generation_pure_control_mixed": [
+        "gui_wei",
+        "gui_wu"
+      ]
+    },
+    "collected": {
+      "pdf_page": 28,
+      "printed_page": 15,
+      "covered_case_ids": [
+        "xin_yin",
+        "wu_shen",
+        "gui_wei",
+        "ren_wei",
+        "jia_chen"
+      ],
+      "pure": 3,
+      "mixed": 2,
+      "counterexamples_to_generation_pure_control_mixed": [
+        "gui_wei"
+      ]
+    }
+  },
+  "cases": {
+    "xin_yin": {
+      "stated_purity": "纯",
+      "two_stem_roles": {
+        "甲": "正财",
+        "丙": "正官"
+      },
+      "monthly_main_stem": "甲",
+      "named_stems_hidden_in_month": [
+        "甲",
+        "丙"
+      ],
+      "direction": {
+        "source": "甲",
+        "target": "丙",
+        "relation": "generation"
+      },
+      "simplified_generation_pure_control_mixed_agrees": true,
+      "exposure_counts": {
+        "both": 576,
+        "first_only": 972,
+        "second_only": 972,
+        "neither": 1800
+      },
+      "additional_visible_stem_counts": {
+        "present": 504,
+        "extra_controls_named_stem": 216,
+        "named_stem_controls_extra": 324,
+        "by_stem": {
+          "丁": 36,
+          "乙": 36,
+          "壬": 36,
+          "己": 108,
+          "庚": 72,
+          "戊": 108,
+          "癸": 72,
+          "辛": 36
+        }
+      },
+      "r8_month_command_status_counts": {
+        "competing_exposed_candidates": 558,
+        "transformation_premises_require_adjudication": 18
+      },
+      "r8_unique_month_candidate_count": 0,
+      "r8_named_clause": null
+    },
+    "wu_shen": {
+      "stated_purity": "纯",
+      "two_stem_roles": {
+        "庚": "食神",
+        "壬": "偏财"
+      },
+      "monthly_main_stem": "庚",
+      "named_stems_hidden_in_month": [
+        "庚",
+        "壬"
+      ],
+      "direction": {
+        "source": "庚",
+        "target": "壬",
+        "relation": "generation"
+      },
+      "simplified_generation_pure_control_mixed_agrees": true,
+      "exposure_counts": {
+        "both": 324,
+        "first_only": 1224,
+        "second_only": 1476,
+        "neither": 1296
+      },
+      "additional_visible_stem_counts": {
+        "present": 324,
+        "extra_controls_named_stem": 144,
+        "named_stem_controls_extra": 108,
+        "by_stem": {
+          "己": 36,
+          "戊": 108,
+          "甲": 108,
+          "癸": 72
+        }
+      },
+      "r8_month_command_status_counts": {
+        "competing_exposed_candidates": 288,
+        "transformation_premises_require_adjudication": 36
+      },
+      "r8_unique_month_candidate_count": 0,
+      "r8_named_clause": null
+    },
+    "gui_wei": {
+      "stated_purity": "纯",
+      "two_stem_roles": {
+        "乙": "食神",
+        "己": "七杀"
+      },
+      "monthly_main_stem": "己",
+      "named_stems_hidden_in_month": [
+        "乙",
+        "己"
+      ],
+      "direction": {
+        "source": "乙",
+        "target": "己",
+        "relation": "control"
+      },
+      "simplified_generation_pure_control_mixed_agrees": false,
+      "exposure_counts": {
+        "both": 216,
+        "first_only": 1332,
+        "second_only": 1332,
+        "neither": 1440
+      },
+      "additional_visible_stem_counts": {
+        "present": 216,
+        "extra_controls_named_stem": 72,
+        "named_stem_controls_extra": 108,
+        "by_stem": {
+          "丙": 36,
+          "戊": 36,
+          "癸": 72,
+          "辛": 72
+        }
+      },
+      "r8_month_command_status_counts": {
+        "competing_exposed_candidates": 184,
+        "transformation_premises_require_adjudication": 32
+      },
+      "r8_unique_month_candidate_count": 0,
+      "r8_named_clause": {
+        "rule": "BZC05a",
+        "matches": 0
+      }
+    },
+    "ren_wei": {
+      "stated_purity": "杂",
+      "two_stem_roles": {
+        "乙": "伤官",
+        "己": "正官"
+      },
+      "monthly_main_stem": "己",
+      "named_stems_hidden_in_month": [
+        "乙",
+        "己"
+      ],
+      "direction": {
+        "source": "乙",
+        "target": "己",
+        "relation": "control"
+      },
+      "simplified_generation_pure_control_mixed_agrees": true,
+      "exposure_counts": {
+        "both": 216,
+        "first_only": 1332,
+        "second_only": 1332,
+        "neither": 1440
+      },
+      "additional_visible_stem_counts": {
+        "present": 216,
+        "extra_controls_named_stem": 72,
+        "named_stem_controls_extra": 108,
+        "by_stem": {
+          "丙": 36,
+          "戊": 36,
+          "癸": 72,
+          "辛": 72
+        }
+      },
+      "r8_month_command_status_counts": {
+        "competing_exposed_candidates": 216
+      },
+      "r8_unique_month_candidate_count": 0,
+      "r8_named_clause": {
+        "rule": "BZC06a",
+        "matches": 0
+      }
+    },
+    "jia_chen": {
+      "stated_purity": "杂",
+      "two_stem_roles": {
+        "戊": "偏财",
+        "壬": "偏印"
+      },
+      "monthly_main_stem": "戊",
+      "named_stems_hidden_in_month": [
+        "戊"
+      ],
+      "direction": {
+        "source": "戊",
+        "target": "壬",
+        "relation": "control"
+      },
+      "simplified_generation_pure_control_mixed_agrees": true,
+      "exposure_counts": {
+        "both": 216,
+        "first_only": 1332,
+        "second_only": 1332,
+        "neither": 1440
+      },
+      "additional_visible_stem_counts": {
+        "present": 216,
+        "extra_controls_named_stem": 108,
+        "named_stem_controls_extra": 72,
+        "by_stem": {
+          "丙": 72,
+          "己": 36,
+          "甲": 72,
+          "辛": 36
+        }
+      },
+      "r8_month_command_status_counts": {
+        "base_month_candidate": 184,
+        "transformation_premises_require_adjudication": 32
+      },
+      "r8_unique_month_candidate_count": 184,
+      "r8_named_clause": null
+    },
+    "gui_wu": {
+      "stated_purity": "杂",
+      "two_stem_roles": {
+        "丁": "偏财",
+        "己": "七杀"
+      },
+      "monthly_main_stem": "丁",
+      "named_stems_hidden_in_month": [
+        "丁",
+        "己"
+      ],
+      "direction": {
+        "source": "丁",
+        "target": "己",
+        "relation": "generation"
+      },
+      "simplified_generation_pure_control_mixed_agrees": false,
+      "exposure_counts": {
+        "both": 72,
+        "first_only": 684,
+        "second_only": 684,
+        "neither": 2880
+      },
+      "additional_visible_stem_counts": {
+        "present": 72,
+        "extra_controls_named_stem": 0,
+        "named_stem_controls_extra": 36,
+        "by_stem": {
+          "丙": 36,
+          "庚": 36
+        }
+      },
+      "r8_month_command_status_counts": {
+        "base_month_candidate": 72
+      },
+      "r8_unique_month_candidate_count": 72,
+      "r8_named_clause": null
+    }
+  },
+  "role_reversal_pair": {
+    "case_ids": [
+      "gui_wei",
+      "ren_wei"
+    ],
+    "shared_year_month_and_non_day_stem_keys": 36,
+    "legal_candidates_with_counterpart": [
+      216,
+      216
+    ],
+    "inverse_attempt_count": [
+      1,
+      1
+    ],
+    "status": "calendar_pair_found",
+    "witnesses": [
+      {
+        "pillars": [
+          "丙午",
+          "乙未",
+          "癸丑",
+          "己未"
+        ],
+        "synthetic_local_clock": "1906-07-08T14:00:00"
+      },
+      {
+        "pillars": [
+          "丙午",
+          "乙未",
+          "壬午",
+          "己酉"
+        ],
+        "synthetic_local_clock": "1906-08-06T18:00:00"
+      }
+    ]
+  },
+  "paired_previous_chapter": {
+    "xin_yin": {
+      "same_visible_stems": "甲丙",
+      "coexposed_count_in_both_chapters": 576,
+      "r39_role_order": "正財，兼正官",
+      "r42_label": "纯"
+    },
+    "gui_wei_and_bing_shen": {
+      "shared_directed_role_relation": [
+        "食神",
+        "control",
+        "七杀"
+      ],
+      "r39_additional_generation": [
+        "食神",
+        "generation",
+        "偏财"
+      ],
+      "r39_target": "財"
+    }
+  }
+}
