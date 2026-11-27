@@ -1,0 +1,141 @@
+{
+  "registration_commit": "4c42add710d1f00bfae572e0bee2d455a019a5e8",
+  "frozen_before_join_and_outcome_estimation": true,
+  "files": {
+    "jp2000.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000002625866",
+      "bytes": 191376,
+      "sha256": "817d1206496cb40b68deaa72dcee1489f1d7ce61b01b93658a91d96952efc070"
+    },
+    "jp2001.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000002624223",
+      "bytes": 190914,
+      "sha256": "2f4fd51dced67db7d5d25998654728eb875e399864d04884f9c63f94262f1ac6"
+    },
+    "jp2002.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000002622580",
+      "bytes": 190601,
+      "sha256": "0369b832ef25db56601cee110a4fdb20b7a13ccc9903adf2722b981fbdf3a94e"
+    },
+    "jp2003.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000002620918",
+      "bytes": 192526,
+      "sha256": "533e346004dc016710ef66cd90db283a466f6a542252b34c23939cc072d3f652"
+    },
+    "jp2004.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000002619256",
+      "bytes": 192328,
+      "sha256": "3143ad453b15c23ab9b6e20784ae349b00d694e82fe59c1e447eab6578ec5cec"
+    },
+    "jp2005.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000002615987",
+      "bytes": 191237,
+      "sha256": "a0373fb5dadc5d33806308d99b68fcfd02ee711a2fbc90cb668cd04417967222"
+    },
+    "jp2006.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000002614035",
+      "bytes": 191860,
+      "sha256": "b68e8ae420455458b247d4d19bf8fde91b4ff654ddeb2359b125d4313ceab459"
+    },
+    "jp2007.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000001660257",
+      "bytes": 191816,
+      "sha256": "889673d2b244932fb86e3d99cd429ec88ae513866a533ed0e62a87a238a9ceb7"
+    },
+    "jp2008.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000003071279",
+      "bytes": 191760,
+      "sha256": "c72f26606b1d03e75e09f303e0fe1dfbfc5f4b29f7e41746379263b7063b328a"
+    },
+    "jp2009.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000008185419",
+      "bytes": 191344,
+      "sha256": "54f937cec507e69e06b73898a924d9882299444d3b3411c958080fe3c732eed9"
+    },
+    "jp2010.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000011816928",
+      "bytes": 191344,
+      "sha256": "593f66d677e09e4d8484dc243ec90fbf93239a7f7caee8db51351c243ac683bb"
+    },
+    "jp2011.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000014888167",
+      "bytes": 190886,
+      "sha256": "a62c1fb95451efbc4502303c91fb20efe9e5e182a0c2335ae76b61d950a7d0a0"
+    },
+    "jp2012.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000021997181",
+      "bytes": 190508,
+      "sha256": "2a83bc36b8478cc8e8f07f0cb5fad280102c87919016ae8a47d9ba845dc09265"
+    },
+    "jp2013.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000027231774",
+      "bytes": 190306,
+      "sha256": "15453f40d501b88f9215b154de121b7426cfc56fa5cf1bc535d59108ab19b803"
+    },
+    "jp2014.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000031288692",
+      "bytes": 189708,
+      "sha256": "c0b9a774807ee9d9291e40b28e56295a43d4a3f7db5c248a7a942309c53b6894"
+    },
+    "jp2015.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000032022182",
+      "bytes": 189691,
+      "sha256": "0a69b3a62083c7ab2a74d1d2964b7154a340d0017e28c2dc3928fee9b00ff13d"
+    },
+    "jp2016.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000032025016",
+      "bytes": 189193,
+      "sha256": "ed7832da21411143499565ac864b2aabe54d1aef98db9a086fbec61afbcfef90"
+    },
+    "jp2017.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000032025136",
+      "bytes": 188498,
+      "sha256": "67742ff7f91e22ab66563fac366ea68a1023490fa0404e026c3260cff0ff47b9"
+    },
+    "jp2018.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000031881466",
+      "bytes": 187886,
+      "sha256": "b6c6f0423f7173ad03dadb9c186d70b14bb09f718192b30abaa5daafecd4bf93"
+    },
+    "jp2019.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000031981666",
+      "bytes": 187128,
+      "sha256": "b063c7fc78c949212d89ca56f1ce807ad643e5fdfaf64ed5a6decd8012449d91"
+    },
+    "jp2020.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000032118682",
+      "bytes": 186942,
+      "sha256": "28cca6174f7b4cd4f5695dda5bdb769ed7e1c45a476c7b531dec8647317e8348"
+    },
+    "jp2021.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000032241418",
+      "bytes": 186685,
+      "sha256": "009e482537fc0d87c8188db9cf3dfcebf13d647e1df96a8a5d7ce4478404d889"
+    },
+    "jp2022.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040101676",
+      "bytes": 186217,
+      "sha256": "4ca76eb23c09f236a766563ec771e6c07d0161474427af2b4ac2d23c0991e45e"
+    },
+    "jp2023.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040207269",
+      "bytes": 185647,
+      "sha256": "71c0dd7f60051a273262455fb008415b0330e65a2b73105081a7e7952d314bfb"
+    },
+    "jp2024.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040320531",
+      "bytes": 185250,
+      "sha256": "26bbeed3690fd8f23c6a6baf02710351bc22d23fd651cc89b9eb46669d6d04cb"
+    },
+    "jp2025.csv": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040503807",
+      "bytes": 185022,
+      "sha256": "8cb9bec8ece54e8dfd4dab0a39f72ad4ee152424249b085b7ff20465f6d58993"
+    },
+    "holidays.csv": {
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv",
+      "bytes": 21538,
+      "sha256": "cec37a743c96995cdb9cb52b685c9003634682a9b0e1a640a6b9b96881fe964a"
+    }
+  }
+}
