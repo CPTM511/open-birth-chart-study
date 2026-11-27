@@ -1,0 +1,65 @@
+{
+  "scope": "Original archives and birth-year denominators before eligibility and sampling.",
+  "source_fields_read": [
+    "DBF deletion flag",
+    "ANO_NAC"
+  ],
+  "slots": [
+    {
+      "slot": "mexico_2000s",
+      "birth_year": 2009,
+      "archives": [
+        {
+          "registration_year": 2009,
+          "url": "https://www.inegi.org.mx/contenidos/programas/natalidad/microdatos/2009/natalidad_base_datos_2009_dbf.zip",
+          "bytes": 41832163,
+          "sha256": "e3822ae4a5225bccd0c1d48a65852bd55203b9ae5b356a4d0a5c7d4457f50e73",
+          "member": "NACIM09.dbf",
+          "physical_rows": 2577214,
+          "active_rows": 2577214,
+          "active_target_birth_year_rows": 1630785
+        },
+        {
+          "registration_year": 2010,
+          "url": "https://www.inegi.org.mx/contenidos/programas/natalidad/microdatos/2010/natalidad_base_datos_2010_dbf.zip",
+          "bytes": 45392484,
+          "sha256": "02519153dbf85d25a049095d9cf2ed118f869455117f30a76929a1638be19e58",
+          "member": "NACIM10.dbf",
+          "physical_rows": 2643908,
+          "active_rows": 2643908,
+          "active_target_birth_year_rows": 542132
+        }
+      ],
+      "source_rows": 5221122,
+      "target_birth_year_rows": 2172917
+    },
+    {
+      "slot": "mexico2020",
+      "birth_year": 2020,
+      "archives": [
+        {
+          "registration_year": 2020,
+          "url": "https://www.inegi.org.mx/contenidos/programas/natalidad/microdatos/2020/natalidad_base_datos_2020_dbf.zip",
+          "bytes": 36326771,
+          "sha256": "4b05f3312565be0612e7513c378d42525ed38f06f765cb7dc552949a5bdf5b34",
+          "member": "NACIM20.DBF",
+          "physical_rows": 1629211,
+          "active_rows": 1629211,
+          "active_target_birth_year_rows": 1169571
+        },
+        {
+          "registration_year": 2021,
+          "url": "https://www.inegi.org.mx/contenidos/programas/natalidad/microdatos/2021/natalidad_base_datos_2021_dbf.zip",
+          "bytes": 40466857,
+          "sha256": "9915953675c27a51e8b47bb8c8dfdd1c6ce3b011a1687311ac24575689c27aaa",
+          "member": "nacim21.dbf",
+          "physical_rows": 1912178,
+          "active_rows": 1912178,
+          "active_target_birth_year_rows": 504677
+        }
+      ],
+      "source_rows": 3541389,
+      "target_birth_year_rows": 1674248
+    }
+  ]
+}
