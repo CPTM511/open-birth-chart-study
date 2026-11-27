@@ -1,0 +1,54 @@
+{
+  "ages": [
+    20,
+    59
+  ],
+  "born_records_total": 12000,
+  "common_reference_refit_draws": 999,
+  "created_utc": "2026-11-27T07:32:53.969908+00:00",
+  "earlier_unverified_target_calculation_started": true,
+  "files_sha256": {
+    "rounds/r10/independent_replay/REGISTRATION.md": "23b6b300a12e17125d3dc58aa02e728c1412762f7d4224cb3d16f641772beb6f",
+    "rounds/r10/independent_replay/analysis_config.json": "2f062e8ee76fd823fe1496ea868fe8c69ba668ab18a597360366de3ddcd6e729",
+    "rounds/r10/independent_replay/prepare_inputs.py": "d5189a0f5f891b719d03c494ebde087837b657ddba192bd5d1dd51e27b38f6db",
+    "rounds/r10/independent_replay/prepared_receipt.json": "455e45ce3748d1d6a71a0c60c1b775d275add98c640d32302d65ced7b91c89a6",
+    "rounds/r10/independent_replay/run_scoring.py": "677afa4453aa53716584a45f66eb402e922960ccd832f49eda52fc0b047c9e56",
+    "rounds/r10/independent_replay/source_design_2009/rebuild_design.py": "28d304db10d095dafbb61d1ddd90371bf860e46916f0fbb9e0b49363976a0d41",
+    "rounds/r10/independent_replay/verification/review_refits.py": "8433bbeffcacec5ed12cc9b9f74c4a841be95f9b544fdfb5098a6684ec3d2d35",
+    "rounds/r10/independent_replay/verification/test_refit_replay.py": "87b0b81464f54c85b3f289e519bedc64bf673fe5ba9275a64c94c484678d8369",
+    "rounds/r10/protocol.json": "38c01264437a27ac6eb4c0340e036b8bedc83d910c892964d2c2384dda59029a",
+    "rounds/r10/public_freeze_receipt.json": "c1953c1d27e069649f2ceaf3598bae363d7c7294a53c26e09e351f4ba44a884c",
+    "rounds/r10/public_methods_receipt.json": "ae972ce3c01486873190f07700535ba5c80e3c2f5ada4407419121d538dda799",
+    "rounds/r10/public_source_decisions_receipt.json": "8b2bed339bf751f48febe8b0382ef12bd016f9b640ce11aec63d0460b826b68c",
+    "rounds/r10/recovery/input_and_design_receipt.json": "8df457b4834ec327565995c678972787cabc991ad1920d57be95aea509b0da94",
+    "rounds/r10/recovery/mexico2009/rebuild_inputs.py": "70790bf9f2c5aca70817689543707196a6d9c5c1005f91418c964374c51e2c44",
+    "rounds/r10/recovery/mexico2020/rebuild_inputs.py": "f5f243f009e675b5a8649e80e5763151ae2fef7c1ef8392357ef6760dbf1437c",
+    "rounds/r10/recovery/reference_anchor.json": "47767d15caa200928fbc36b76978925071f34315da2d3a01f96febda07969bd2",
+    "rounds/r10/source_decisions.json": "0dc86090acc0ccc331a742b8d0d163bb1dcdfe606f35b43e4e7f454a4e2ea34e",
+    "rounds/r10/verification/prior_release_manifest.json": "bf33c46bce793d3e1799fbd8ab6056fdc58e0a18fafa3a274acdbfb76217e782"
+  },
+  "four_systems": [
+    "Bazi",
+    "Ziwei Doushu",
+    "Qizheng Siyu",
+    "Western astrology"
+  ],
+  "historical_mexico_metadata_missing": [
+    "mexico_2000s",
+    "mexico2020"
+  ],
+  "id": "OBS-R10-INDEPENDENT-2026-11-27",
+  "original_methods_commit": "515e8d95b3d53522c2f4fe8868c6a3505580ade9",
+  "pre_replay_recovery_commit": "943addc967bec492221faeb0df84980af3e51c68",
+  "prepared_receipt_sha256": "455e45ce3748d1d6a71a0c60c1b775d275add98c640d32302d65ced7b91c89a6",
+  "primary_draws_per_target": 9999,
+  "primary_family_slots": 7,
+  "reference_files_sha256": {
+    "reference/brazil2006/birth_inputs.jsonl": "3d9a2dc48a26a083a20abbd372310310d13b6e93d880a4f8d1fafa02f8914f6d",
+    "reference/brazil2006/birth_metadata.jsonl": "a50061c89d2ada34bffa55a0e500f413dd833263c5300771a6bc51be65b6d341",
+    "reference/brazil2006/sampling_manifest.json": "39eceec508bcda8665e1d112de9a0c1153ca5dd1856bee0cf0849e282c409a93",
+    "reference/full-frozen-r8-baseline_profiles.jsonl": "5bdc0d2e5c53cb15928a4a0781e5c7785085d3d039cfbf7dcc9b44f2a3f1c401"
+  },
+  "this_replay_target_scores_calculated_or_seen_before_registration": false,
+  "type": "prospective registration of a retrospective computational replay on the identical samples"
+}

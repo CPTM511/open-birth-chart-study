@@ -1,0 +1,196 @@
+{
+  "status": "passed",
+  "real_R10_targets_inspected": false,
+  "scope": "Independent pre-target code/domain and arithmetic review; internal second-agent check, not external validation",
+  "source_diffs": [
+    {
+      "file": "src/open_birth_chart/__init__.py",
+      "hash_and_full_diff_match": true,
+      "only_authorized_domain_change": true
+    },
+    {
+      "file": "src/open_birth_chart/astronomy.py",
+      "hash_and_full_diff_match": true,
+      "only_authorized_domain_change": true
+    },
+    {
+      "file": "src/open_birth_chart/bazi_engine.py",
+      "hash_and_full_diff_match": true,
+      "only_authorized_domain_change": true
+    },
+    {
+      "file": "src/open_birth_chart/ziwei_engine.py",
+      "hash_and_full_diff_match": true,
+      "only_authorized_domain_change": true
+    },
+    {
+      "file": "src/open_birth_chart/qizheng_engine.py",
+      "hash_and_full_diff_match": true,
+      "only_authorized_domain_change": true
+    },
+    {
+      "file": "src/open_birth_chart/western_engine.py",
+      "hash_and_full_diff_match": true,
+      "only_authorized_domain_change": true
+    },
+    {
+      "file": "src/open_birth_chart/ziwei_bridge.cjs",
+      "hash_and_full_diff_match": true,
+      "only_authorized_domain_change": true
+    },
+    {
+      "file": "src/open_birth_chart/io.py",
+      "hash_and_full_diff_match": true,
+      "only_authorized_domain_change": true
+    },
+    {
+      "file": "scripts/run_profiles.py",
+      "hash_and_full_diff_match": true,
+      "scoring_AST_unchanged": true,
+      "remaining_change": "run provenance metadata only"
+    }
+  ],
+  "engine_fixtures": {
+    "legacy": [
+      {
+        "synthetic_birth_year": 1880,
+        "whole_profile_exact_match": true,
+        "system_age_scores": 160
+      },
+      {
+        "synthetic_birth_year": 2006,
+        "whole_profile_exact_match": true,
+        "system_age_scores": 160
+      },
+      {
+        "synthetic_birth_year": 2019,
+        "whole_profile_exact_match": true,
+        "system_age_scores": 160
+      }
+    ],
+    "extension": [
+      {
+        "synthetic_birth_date": "2024-02-29",
+        "sex": "F",
+        "recorded_offset_seconds": -10800,
+        "status": "computed",
+        "age_points": 40,
+        "systems": 4,
+        "calendar_first": 2044,
+        "calendar_last": 2083
+      },
+      {
+        "synthetic_birth_date": "2024-12-31",
+        "sex": "M",
+        "recorded_offset_seconds": 28800,
+        "status": "computed",
+        "age_points": 40,
+        "systems": 4,
+        "calendar_first": 2045,
+        "calendar_last": 2084
+      },
+      {
+        "synthetic_birth_date": "2025-07-02",
+        "sex": "F",
+        "recorded_offset_seconds": 0,
+        "status": "computed",
+        "age_points": 40,
+        "systems": 4,
+        "calendar_first": 2046,
+        "calendar_last": 2085
+      }
+    ],
+    "out_of_range_1879_and_2026_rejected": true
+  },
+  "reference_replicate_math": {
+    "enumerations": [
+      {
+        "n": 2,
+        "N": 7,
+        "enumerated_resamples": 2,
+        "exact_variance": "45/448",
+        "max_weight_total_or_mean_error": 1.1102230246251565e-16,
+        "minimum_replicate_weight": 0.5419601084501919
+      },
+      {
+        "n": 3,
+        "N": 12,
+        "enumerated_resamples": 9,
+        "exact_variance": "7/192",
+        "max_weight_total_or_mean_error": 3.552713678800501e-15,
+        "minimum_replicate_weight": 0.5358983848622456
+      },
+      {
+        "n": 4,
+        "N": 17,
+        "enumerated_resamples": 64,
+        "exact_variance": "2015/52224",
+        "max_weight_total_or_mean_error": 1.1102230246251565e-16,
+        "minimum_replicate_weight": 0.5334828131703738
+      },
+      {
+        "n": 5,
+        "N": 8,
+        "enumerated_resamples": 625,
+        "exact_variance": "3/160",
+        "max_weight_total_or_mean_error": 1.7763568394002505e-15,
+        "minimum_replicate_weight": 0.6202041028867289
+      }
+    ],
+    "conclusion": "Exact conditional mean and design-variance identity verified for the linear weighted mean. This does not calibrate the nonlinear refitted threshold interval; the declared exploratory label remains appropriate."
+  },
+  "independent_threshold_oracle": [
+    {
+      "case": "exact_boundary",
+      "exact_q_at_one": "4/5",
+      "exact_ge_four_fifths": true,
+      "independent_flags_pass": true,
+      "primary_and_refit_baseline_match_independent_oracle": true,
+      "corrected_joint_rate": 0.39999999999999997,
+      "rational_queries": 16
+    },
+    {
+      "case": "strictly_below",
+      "exact_q_at_one": "266666666667/333333333334",
+      "exact_ge_four_fifths": false,
+      "independent_flags_pass": true,
+      "primary_and_refit_baseline_match_independent_oracle": true,
+      "corrected_joint_rate": 0.0,
+      "rational_queries": 16
+    },
+    {
+      "case": "strictly_above",
+      "exact_q_at_one": "400000000001/500000000001",
+      "exact_ge_four_fifths": true,
+      "independent_flags_pass": true,
+      "primary_and_refit_baseline_match_independent_oracle": true,
+      "corrected_joint_rate": 0.3999999999992,
+      "rational_queries": 16
+    },
+    {
+      "case": "refit_binary_weights_with_ties_gaps_and_zero_masses",
+      "independent_flags_pass": true
+    },
+    {
+      "case": "independent_primary_bootstrap_replay_two_unequal_strata",
+      "draws": 9999,
+      "family": 7,
+      "point_fraction": "15/38",
+      "all_interval_endpoints_and_variances_match": true
+    }
+  ],
+  "reviewed_code_sha256": {
+    "rounds/r10/methods/analyze_cohorts.py": "548bc881302b3fb13a14ca22b0d0a66ac1ce939fdc7fd7c9c5c726368d4f658b",
+    "rounds/r10/methods/benchmark_refit.py": "03646dfc8706bf31b2ab7a74ba82e35f00eebc5930fbdc58c912a1b1ec038fb3",
+    "rounds/r10/methods/check_adapter.py": "57aeb2759bae25195df25be37fb516874ed9355d96aa7551e32cbbe22e4e7638",
+    "rounds/r10/methods/check_methods.py": "90d6b0b4ba96f30a3a0b2c72db35543123059e802d442cfd20a420459bc7884d",
+    "rounds/r10/methods/check_scope_extension.py": "28a147a0023f9de8e100a7446c5388333b0962a870c5f35cffa814f28a2e8c37",
+    "rounds/r10/methods/precision_reference.py": "29973a0dc528521743fc777d6eec19291f181f3bc699974004e08bb2e0a12ad1",
+    "rounds/r10/methods/r10_io.py": "7112302cba5c320fbd71f3aad8914be5e81372998735614c9c52446dd21f69cd",
+    "rounds/r10/methods/reference_sensitivity.py": "00f58f6d30588a11b67676a467c8f7a1d04e9b170f8e5e0b4a331ddcf2637e95",
+    "rounds/r10/methods/run_profiles.py": "cbac2cacb8f9e07e916821251a36b4ca2e95b7bf6c176eb5f81ab083621d9e0d",
+    "rounds/r10/methods/threshold_precision.py": "1b4637b018078640c55724eae009eebcf30e969efbe6fd7c87622b2bcb33e62c"
+  },
+  "reviewer_code_sha256": "0406d9fe8571f4a174fc67253273fd5cd741c62853f5663e17e22cf0bbf0ff87",
+  "verifier_code_sha256": "412e1149635269fee91c3de93d390bd448f8ee1379519ff5e56380e2de493084"
+}

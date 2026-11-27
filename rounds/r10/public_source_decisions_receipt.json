@@ -1,0 +1,36 @@
+{
+  "public_source_decisions_commit": "117daaa92936ab7f376debfd45f7afe9cd0e3561",
+  "verified_utc": "2026-11-27T02:08:51.668Z",
+  "all_seven_slots_closed_before_real_scoring": true,
+  "new_real_R10_scores_inspected": false,
+  "files": [
+    {
+      "path": "rounds/r10/source_decisions.json",
+      "sha256": "0dc86090acc0ccc331a742b8d0d163bb1dcdfe606f35b43e4e7f454a4e2ea34e"
+    },
+    {
+      "path": "rounds/r10/brazil/audits/brazil2007_sampling_manifest.json",
+      "sha256": "46c7b7b08db791866c6d9605c312a23c8d22841d7b1862f11fc72966b6aa7535"
+    },
+    {
+      "path": "rounds/r10/brazil/audits/brazil2010_sampling_manifest.json",
+      "sha256": "53c15781d0d3a0e07a2f308bb69d12a1c40256ca01ac33579409b93101a2ba16"
+    },
+    {
+      "path": "rounds/r10/brazil/audits/brazil2020_sampling_manifest.json",
+      "sha256": "489061f4ee8fde68747dd14d04d300cd311aa1941e92893cc26ca5d2b1d70b34"
+    },
+    {
+      "path": "rounds/r10/brazil/audits/brazil2024_sampling_manifest.json",
+      "sha256": "81c98966440014f756e75630ea0332b62d5b11d664a05af2116624eca013e1cd"
+    },
+    {
+      "path": "rounds/r10/mexico/samples/mexico2020/sampling_manifest.json",
+      "sha256": "a46d31478281e7fef2b2f57bc933d22f524154ba8d69d55a502e6d335302f6e6"
+    },
+    {
+      "path": "rounds/r10/mexico/samples/mexico_2000s/sampling_manifest.json",
+      "sha256": "72a3e3bebbad60ab5624abb5be796a300df710ce97627689e6f322e1894ae45e"
+    }
+  ]
+}

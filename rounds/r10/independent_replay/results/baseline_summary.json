@@ -1,0 +1,12 @@
+{
+  "completed_utc": "2026-11-27T08:00:22.244772+00:00",
+  "mode": "baseline",
+  "input_records": 12000,
+  "tasks": 12000,
+  "status_counts": {
+    "computed": 12000
+  },
+  "elapsed_seconds": 1552.74910941,
+  "result_sha256": "9076924ba2e21c46f592170ecf2b6e2097846124e05be4a2da3e12599c1e9746",
+  "outcome_inputs": false
+}

@@ -1,0 +1,96 @@
+{
+  "id": "OBS-R10-INDEPENDENT-2026-11-27",
+  "status": "completed_independent_computational_replay",
+  "public_registration_commit": "23d0dce5f0e8103de495c4935eadb9dce17d8548",
+  "public_registration_sha256": "de24e4fc3221f28f7688778f382d9db93c1351577afabcd7ddc6d5214e30dd6a",
+  "historical_methods_commit": "515e8d95b3d53522c2f4fe8868c6a3505580ade9",
+  "scoring_started_utc": "2026-11-27T07:34:33.004520+00:00",
+  "scoring_completed_utc": "2026-11-27T08:00:22.244772+00:00",
+  "frozen_files_verified": {
+    "previous_release": 221,
+    "historical_methods": 38,
+    "independent_registration": 18
+  },
+  "design": {
+    "target_records": 12000,
+    "by_slot": {
+      "brazil2010": 2000,
+      "brazil2020": 2000,
+      "brazil2024": 2000,
+      "brazil_2000s": 2000,
+      "mexico2020": 2000,
+      "mexico_2000s": 2000
+    },
+    "ages": [
+      20,
+      59
+    ],
+    "four_systems": [
+      "Bazi",
+      "Ziwei Doushu",
+      "Qizheng Siyu",
+      "Western astrology"
+    ],
+    "modeled_target_record_years": 480000,
+    "finite_target_scores": 1920000,
+    "historical_mexican_sampling_metadata_not_recovered": [
+      "mexico_2000s",
+      "mexico2020"
+    ],
+    "all_target_model_inputs_match_historical_hashes": true,
+    "weights": "Sealed original stratum N_h/n_h verified by record and rank; independent official-data reconstruction for both Mexican designs.",
+    "reference": "Fixed Brazil SINASC 2006",
+    "reference_records": 2000,
+    "reference_joint_rate": 0.03214942848730289,
+    "full_historical_reference_profiles_sha256": "5bdc0d2e5c53cb15928a4a0781e5c7785085d3d039cfbf7dcc9b44f2a3f1c401",
+    "private_target_profiles_sha256": "9076924ba2e21c46f592170ecf2b6e2097846124e05be4a2da3e12599c1e9746"
+  },
+  "inference": {
+    "primary_unit": "Probability of a modeled record-year meeting the joint threshold, averaged with record design weights",
+    "adjusted_family_slots": 7,
+    "conditional_bootstrap_draws_per_target": 9999,
+    "empirical_reference_refits": 999,
+    "unavailable_slots": [
+      {
+        "slot": "new_country",
+        "reason": "No verified accessible full-input frame among CO,US,PE,EC,UY; schema absence and unverified access are distinguished in feasibility ledger"
+      }
+    ],
+    "above_zero_adjusted": [
+      "brazil2020",
+      "brazil2024",
+      "mexico2020"
+    ],
+    "includes_zero_adjusted": [
+      "brazil_2000s",
+      "brazil2010",
+      "mexico_2000s"
+    ],
+    "all_adjusted_upper_bounds_less_than_delta_0_01": true,
+    "observed_outcomes_used": false
+  },
+  "internal_review": {
+    "linux_primary_comparisons_passed": 399,
+    "macos_primary_comparisons_failed": 20,
+    "macos_primary_comparisons_total": 399,
+    "max_cross_platform_primary_endpoint_difference_pp": 0.011666643356619127,
+    "classification_against_zero_and_plus_1pp_unchanged": true,
+    "shared_reference_comparisons_passed": 37,
+    "descriptive_values_crosschecked": 168,
+    "fresh_profiles_matched": 12,
+    "scope": "Internal recomputation and implementation checks, with shared source records and scoring engines."
+  },
+  "artifact_sha256": {
+    "aggregation_ready.json": "695b3d1278a12cf6779aac84467639ecdb4c82f510eb8d4897a359dc5405d213",
+    "baseline_summary.json": "0573df614892d3c2d23214c71245a7374713711cc120e85aa7594fe5f6456d12",
+    "cohort_contrasts.csv": "d1a4c346304435656ca87f4487c505b175718451becf89d669516f9cef7fae6a",
+    "cohort_contrasts.png": "9b92e1975da8b59bb114d3ad61c4d48c78d8672ac7d10d0f5a7941ee60a02f55",
+    "four_system_means.csv": "b278827a186574a41acfdb53a71a546ff1d4789df8a13f0ad24e7363d6b3f0c5",
+    "fresh_worker_review.json": "ad298cc355b40a1e572c4a371c6fc465605a63f2e19d0ed63b6cc7ab84654f8e",
+    "independent_descriptive_review.json": "f9c79df63460f3b5295ab230b69240d0a6c158a0a88839d136d41c9460731a47",
+    "independent_primary_review.json": "b4c099aec89e35f22a8b8911bb6dd4389c39350d97ae6142ba446e8dbb83550b",
+    "independent_refit_review.json": "cec79fb85ec6324de6a69c6f83d60afc86307583873df79024710720d94345af",
+    "macos_primary_replay.json": "770a0fe7de6b7ec0a18c73f6dc499d76d2598a5fd8fb4f2a1fb43e926f683917",
+    "structural_comparison.json": "e1af036e5b2fb0ea4813782a8dc4488fe2e08c69a3d4c2cb7452097ecff59c7b"
+  }
+}

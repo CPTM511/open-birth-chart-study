@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "real_R10_targets_inspected": false,
+  "count": 5,
+  "checks": [
+    "synthetic2024 complete fixture reaches all layers, retains age/calendar coverage and census variance",
+    "exact protocol seeds, seven-slot family,9999 primary draws and999 refit draws are used",
+    "missing available target is rejected before analysis",
+    "duplicate target slot is rejected",
+    "incomplete computed-profile coverage is rejected"
+  ],
+  "fixture_records": 2,
+  "fixture_kind": "synthetic inputs and synthetic raw-score arrays; not actual human births",
+  "reference": "existing frozen R8 Brazil2006 only",
+  "runtime_seconds": 7.376
+}

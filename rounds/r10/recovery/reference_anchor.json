@@ -1,0 +1,22 @@
+{
+  "scope": "Fixed R8 Brazil 2006 reference under R10 rules. No target effects estimated.",
+  "reference_source": "SINASC-2006",
+  "reference_records": 2000,
+  "completed_age_range": [
+    20,
+    59
+  ],
+  "record_years": 80000,
+  "system_age_scores": 320000,
+  "model_input_sha256": "3d9a2dc48a26a083a20abbd372310310d13b6e93d880a4f8d1fafa02f8914f6d",
+  "full_frozen_profile_sha256": "5bdc0d2e5c53cb15928a4a0781e5c7785085d3d039cfbf7dcc9b44f2a3f1c401",
+  "weighted_joint_year_rate": 0.03214942848730289,
+  "independent_weighted_joint_year_rate": 0.03214942848730289,
+  "threshold_classification_differences": 0,
+  "independent_cdf_checks": {
+    "selected_direct_CDF_checks": 80,
+    "max_direct_CDF_error": 5.695444116327053e-14,
+    "near_threshold_exact_rational_queries": 0,
+    "floating_threshold_flags_corrected_by_exact_rational_comparison": 0
+  }
+}

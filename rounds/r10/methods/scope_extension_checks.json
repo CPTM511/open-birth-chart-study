@@ -1,0 +1,111 @@
+{
+  "status": "passed",
+  "real_R10_targets_inspected": false,
+  "date_gate_cases": [
+    {
+      "year": 1879,
+      "R8_accepted": false,
+      "R10_accepted": false
+    },
+    {
+      "year": 1880,
+      "R8_accepted": true,
+      "R10_accepted": true
+    },
+    {
+      "year": 2019,
+      "R8_accepted": true,
+      "R10_accepted": true
+    },
+    {
+      "year": 2020,
+      "R8_accepted": false,
+      "R10_accepted": true
+    },
+    {
+      "year": 2024,
+      "R8_accepted": false,
+      "R10_accepted": true
+    },
+    {
+      "year": 2025,
+      "R8_accepted": false,
+      "R10_accepted": true
+    },
+    {
+      "year": 2026,
+      "R8_accepted": false,
+      "R10_accepted": false
+    }
+  ],
+  "loader_change": "Only maximum birth year2019\u21922025 in an additive copy; R8 unchanged",
+  "runner_changes": "Only root locator, loader/engine-package routing, protocol/provenance metadata; scoring function identical",
+  "unchanged_function_ast_sha256": {
+    "init_worker": "c36ccc499430cf9e320d79e275976560bea575b9221d7564accb1dd99e34bf97",
+    "score_record": "3b1267555bf3ed9e516d80408fd6041ef15e85532f1fc9e1a8bf11a0aae7a8af"
+  },
+  "engine_package_diff_checks": [
+    {
+      "file": "__init__.py",
+      "only_declared_date_scope_changes": true
+    },
+    {
+      "file": "astronomy.py",
+      "only_declared_date_scope_changes": true
+    },
+    {
+      "file": "bazi_engine.py",
+      "only_declared_date_scope_changes": true
+    },
+    {
+      "file": "ziwei_engine.py",
+      "only_declared_date_scope_changes": true
+    },
+    {
+      "file": "qizheng_engine.py",
+      "only_declared_date_scope_changes": true
+    },
+    {
+      "file": "western_engine.py",
+      "only_declared_date_scope_changes": true
+    },
+    {
+      "file": "ziwei_bridge.cjs",
+      "only_declared_date_scope_changes": true
+    }
+  ],
+  "legacy_synthetic_equivalence": [
+    {
+      "synthetic_birth_year": 1880,
+      "whole_profile_exact_match": true,
+      "system_year_scores": 160
+    },
+    {
+      "synthetic_birth_year": 2006,
+      "whole_profile_exact_match": true,
+      "system_year_scores": 160
+    },
+    {
+      "synthetic_birth_year": 2019,
+      "whole_profile_exact_match": true,
+      "system_year_scores": 160
+    }
+  ],
+  "synthetic_future_trajectory": {
+    "birth_year": 2024,
+    "calendar_first": 2044,
+    "calendar_last": 2083,
+    "systems": 4,
+    "age_points": 40,
+    "status": "computed"
+  },
+  "R10_engine_package_sha256": {
+    "__init__.py": "667d4a15b970b851e20d17510224670c14646cfb6d5a1e388ca6b9cc6da8bf41",
+    "astronomy.py": "ae6e824a8cb9b605a4ee9a836022ea5370b9ce45caa57e2081c65bf70ec5544b",
+    "bazi_engine.py": "417b2f296b38964ac9df02f3094d8b3a3d7e874db0f26959c677c52a34db6406",
+    "ziwei_bridge.cjs": "3ca9a898ddd860f8e5faa16c5655367e221a949c053d114bbaa9382e96b59b4e",
+    "ziwei_engine.py": "84f0b0580fb1eb687bf36cc66bc8e46eb96f67f7436a0ef6cae64e144c572d47",
+    "western_engine.py": "651c791cdaa20215c04214edda13c105dd9d111335585cca6d07d235f9dbe8a1",
+    "qizheng_engine.py": "d50d0c7de06ca16cb0cf19557fd51b65f240363c68e7ce6bb9daa8f483c6123d"
+  }
+}

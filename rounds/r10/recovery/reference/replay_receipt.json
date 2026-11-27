@@ -1,0 +1,121 @@
+{
+  "verified_utc": "2026-11-27T03:57:43.062834+00:00",
+  "frozen_R8_release_commit": "210bb7bdab85a9f3672f19241e9ef66eb22021a2",
+  "sources_in_original_order": [
+    {
+      "source": "ogdb2023",
+      "sample_n": 1388,
+      "model_input_sha256": "76b78ec7e494c2bccc13922e782631071147519894c64cf691d09b0005e1c2cf",
+      "metadata_sha256": "c8c8a73ec04c1b0dd2f3659917038eba6c063553b80426f187379fc0c8b090c7"
+    },
+    {
+      "source": "brazil2006",
+      "sample_n": 2000,
+      "model_input_sha256": "3d9a2dc48a26a083a20abbd372310310d13b6e93d880a4f8d1fafa02f8914f6d",
+      "metadata_sha256": "a50061c89d2ada34bffa55a0e500f413dd833263c5300771a6bc51be65b6d341"
+    },
+    {
+      "source": "adb_z2026",
+      "sample_n": 341,
+      "model_input_sha256": "b2db70b22414ad12d8d6d4a7dee6d2bcd79cc5d2fbeb88b713bcf954cd029061",
+      "metadata_sha256": "9dc9990cdee5b7afd3bde845ff322194c34a09fa46978cecbd6fdbf28518f6e4"
+    }
+  ],
+  "computed_records_by_source": {
+    "OGDB-2023-08-20": 1388,
+    "SINASC-2006": 2000,
+    "ADB-official-free-Z-2026-11-10": 341
+  },
+  "checked_years_per_record": 40,
+  "checked_systems_per_year": 4,
+  "finite_in_range_model_scores_checked": 596640,
+  "frozen_full_profile_sha256": "5bdc0d2e5c53cb15928a4a0781e5c7785085d3d039cfbf7dcc9b44f2a3f1c401",
+  "computed_full_profile_sha256": "5bdc0d2e5c53cb15928a4a0781e5c7785085d3d039cfbf7dcc9b44f2a3f1c401",
+  "full_profile_exact_match": true,
+  "public_fixture_comparison": {
+    "python": "3.12.14",
+    "platform": "Linux-6.8.0-134-generic-x86_64-with-glibc2.36",
+    "machine": "x86_64",
+    "libc": [
+      "glibc",
+      "2.36"
+    ],
+    "compiler": "gcc",
+    "pyswisseph_version": 20230604,
+    "swiss_longitude_float_comparisons": 50,
+    "swiss_longitude_exact_matches": 50,
+    "swiss_longitude_max_abs_error_degrees": 0.0,
+    "annual_2026": [
+      {
+        "system": "Western",
+        "score_and_component_fields": 6,
+        "exact_matches": 6,
+        "primary_score_exact": true,
+        "max_abs_error": 0.0
+      },
+      {
+        "system": "Qizheng",
+        "score_and_component_fields": 7,
+        "exact_matches": 7,
+        "primary_score_exact": true,
+        "max_abs_error": 0.0
+      }
+    ]
+  },
+  "runtime": {
+    "oci_image": "docker.io/library/python@sha256:dbbe4ceb97851e2e5fa83798b239811f871cb743b259ba3563737349f6bcfaa0",
+    "oci_platform": "linux/amd64",
+    "tag_at_replay": "3.12.14-bookworm",
+    "python": "3.12.14",
+    "node": "24.22.3",
+    "npm": "11.19.1",
+    "pyswisseph": "2.10.3.2",
+    "pyswisseph_install": "Built from the pinned official PyPI sdist using the image compiler",
+    "node_archive_sha256": "4f2b175a6d53a5c617a80dba2676238a0688cef28c6da4eba35c7d844e66fcfb",
+    "jobs": 4
+  },
+  "model_parameters_modified": false,
+  "macos_native_comparison": {
+    "profiles_computed": 3729,
+    "returned_profile_sha256": "a487230ccce5d3e31a633b2a6227fc78b07e524b5ab3702b14ab6c81c769a949",
+    "matches_frozen_bytes": false,
+    "public_fixture_comparison": {
+      "python": "3.12.14",
+      "platform": "macOS-27.0.1-arm64-arm-64bit",
+      "machine": "arm64",
+      "libc": [
+        "",
+        ""
+      ],
+      "compiler": "clang",
+      "pyswisseph_version": 20230604,
+      "swiss_longitude_float_comparisons": 50,
+      "swiss_longitude_exact_matches": 0,
+      "swiss_longitude_max_abs_error_degrees": 9.426628366782097e-10,
+      "annual_2026": [
+        {
+          "system": "Western",
+          "score_and_component_fields": 6,
+          "exact_matches": 2,
+          "primary_score_exact": false,
+          "max_abs_error": 1.3959319811185367e-13
+        },
+        {
+          "system": "Qizheng",
+          "score_and_component_fields": 7,
+          "exact_matches": 7,
+          "primary_score_exact": true,
+          "max_abs_error": 0.0
+        }
+      ]
+    }
+  },
+  "linux_full_synthetic_recheck": {
+    "source": "docs/engine_validation/synthetic_full_chart_examples.json",
+    "comparison": "Stored JSON compared with output of unchanged build_natal and annual_signals(..., include_details=True) for the same synthetic input after JSON serialization",
+    "western_numeric_fields_exact": 2664,
+    "qizheng_numeric_fields_exact": 1670,
+    "differences_in_other_values_or_structure": 0
+  },
+  "independence": "The input and scoring replay uses the original project implementation on a fresh machine. The checksum comparisons and profile-shape/readback checks are separate validation steps."
+}

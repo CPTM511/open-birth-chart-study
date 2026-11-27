@@ -1,0 +1,80 @@
+{
+  "extension_id": "OBS-R10-DATE-SCOPE-2025-v1",
+  "reason": "User authorized births in the2020s; original input/engine validators capped2019",
+  "R8_R9_files_modified": false,
+  "score_rule_changes": false,
+  "files": [
+    {
+      "source": "src/open_birth_chart/__init__.py",
+      "additive_copy": "rounds/r10/methods/open_birth_chart_r10/__init__.py",
+      "source_sha256": "667d4a15b970b851e20d17510224670c14646cfb6d5a1e388ca6b9cc6da8bf41",
+      "copy_sha256": "667d4a15b970b851e20d17510224670c14646cfb6d5a1e388ca6b9cc6da8bf41",
+      "changed": false,
+      "unified_diff": ""
+    },
+    {
+      "source": "src/open_birth_chart/astronomy.py",
+      "additive_copy": "rounds/r10/methods/open_birth_chart_r10/astronomy.py",
+      "source_sha256": "9331f1a20b6571207f28632bf89d72969c6992072c99fb3ff1235439502fb550",
+      "copy_sha256": "ae6e824a8cb9b605a4ee9a836022ea5370b9ce45caa57e2081c65bf70ec5544b",
+      "changed": true,
+      "unified_diff": "--- src/open_birth_chart/astronomy.py\n+++ rounds/r10/methods/open_birth_chart_r10/astronomy.py\n@@ -58,8 +58,8 @@\n         raise InputError(\"Complete birth_local clock label required\") from exc\n     if civil.tzinfo is not None:\n         raise InputError(\"birth_local must be a local label without zone suffix\")\n-    if not 1880 <= civil.year <= 2019:\n-        raise InputError(\"Birth outside registered 1880\u20132019 range\")\n+    if not 1880 <= civil.year <= 2025:\n+        raise InputError(\"Birth outside registered 1880\u20132025 range\")\n     offset = row.get(\"source_offset_seconds\")\n     if offset is None and row.get(\"timezone_offset_minutes\") is not None:\n         offset = float(row[\"timezone_offset_minutes\"]) * 60\n"
+    },
+    {
+      "source": "src/open_birth_chart/bazi_engine.py",
+      "additive_copy": "rounds/r10/methods/open_birth_chart_r10/bazi_engine.py",
+      "source_sha256": "41d2b5f3cd0738d94366e5436a495d05d9f84b5d0c3d0a68efbf14383311d5df",
+      "copy_sha256": "417b2f296b38964ac9df02f3094d8b3a3d7e874db0f26959c677c52a34db6406",
+      "changed": true,
+      "unified_diff": "--- src/open_birth_chart/bazi_engine.py\n+++ rounds/r10/methods/open_birth_chart_r10/bazi_engine.py\n@@ -59,8 +59,8 @@\n         raise InputError(\"Date without a clock is not eligible\")\n     if civil.tzinfo is not None:\n         raise InputError(\"birth_local must be a clock label without offset\")\n-    if not 1880 <= civil.year <= 2019:\n-        raise InputError(\"Birth year outside the frozen 1880\u20132019 scope\")\n+    if not 1880 <= civil.year <= 2025:\n+        raise InputError(\"Birth year outside the frozen 1880\u20132025 scope\")\n     sex = row.get(\"sex\", row.get(\"sex_resolved\"))\n     if sex not in (\"M\", \"F\"):\n         raise InputError(\"Traditional cycle direction requires recorded M/F\")\n"
+    },
+    {
+      "source": "src/open_birth_chart/ziwei_engine.py",
+      "additive_copy": "rounds/r10/methods/open_birth_chart_r10/ziwei_engine.py",
+      "source_sha256": "84f0b0580fb1eb687bf36cc66bc8e46eb96f67f7436a0ef6cae64e144c572d47",
+      "copy_sha256": "84f0b0580fb1eb687bf36cc66bc8e46eb96f67f7436a0ef6cae64e144c572d47",
+      "changed": false,
+      "unified_diff": ""
+    },
+    {
+      "source": "src/open_birth_chart/qizheng_engine.py",
+      "additive_copy": "rounds/r10/methods/open_birth_chart_r10/qizheng_engine.py",
+      "source_sha256": "d50d0c7de06ca16cb0cf19557fd51b65f240363c68e7ce6bb9daa8f483c6123d",
+      "copy_sha256": "d50d0c7de06ca16cb0cf19557fd51b65f240363c68e7ce6bb9daa8f483c6123d",
+      "changed": false,
+      "unified_diff": ""
+    },
+    {
+      "source": "src/open_birth_chart/western_engine.py",
+      "additive_copy": "rounds/r10/methods/open_birth_chart_r10/western_engine.py",
+      "source_sha256": "651c791cdaa20215c04214edda13c105dd9d111335585cca6d07d235f9dbe8a1",
+      "copy_sha256": "651c791cdaa20215c04214edda13c105dd9d111335585cca6d07d235f9dbe8a1",
+      "changed": false,
+      "unified_diff": ""
+    },
+    {
+      "source": "src/open_birth_chart/ziwei_bridge.cjs",
+      "additive_copy": "rounds/r10/methods/open_birth_chart_r10/ziwei_bridge.cjs",
+      "source_sha256": "976c2b4b8bd887b87865c4e3bfe8f02cce5f1dfdd1c4a6d14959308ca34e978f",
+      "copy_sha256": "3ca9a898ddd860f8e5faa16c5655367e221a949c053d114bbaa9382e96b59b4e",
+      "changed": true,
+      "unified_diff": "--- src/open_birth_chart/ziwei_bridge.cjs\n+++ rounds/r10/methods/open_birth_chart_r10/ziwei_bridge.cjs\n@@ -24,7 +24,7 @@\n   if(!m) throw Error('Complete source local date and clock required');\n   const [y,mo,d,hh,mm,ss]=m.slice(1).map(x=>Number(x||0));\n   const t=new Date(Date.UTC(y,mo-1,d,hh,mm,ss));\n-  if(y<1880||y>2019||t.getUTCFullYear()!==y||t.getUTCMonth()!==mo-1||t.getUTCDate()!==d||hh>23||mm>59||ss>59) throw Error('Invalid or out-of-scope date');\n+  if(y<1880||y>2025||t.getUTCFullYear()!==y||t.getUTCMonth()!==mo-1||t.getUTCDate()!==d||hh>23||mm>59||ss>59) throw Error('Invalid or out-of-scope date');\n   if(typeof shift!=='number'||!Number.isFinite(shift)) throw Error('Invalid clock shift');\n   const sex=row.sex||row.sex_resolved;\n   if(!['M','F'].includes(sex)) throw Error('Recorded M/F required for traditional cycle direction');\n"
+    },
+    {
+      "source": "src/open_birth_chart/io.py",
+      "additive_copy": "rounds/r10/methods/r10_io.py",
+      "source_sha256": "4c9159410a08836779a818897f4f49397fcffad9d3e436aa645facad8bdaf0de",
+      "copy_sha256": "7112302cba5c320fbd71f3aad8914be5e81372998735614c9c52446dd21f69cd",
+      "changed": true,
+      "unified_diff": "--- src/open_birth_chart/io.py\n+++ rounds/r10/methods/r10_io.py\n@@ -59,7 +59,7 @@\n         if civil.tzinfo is not None:raise ValueError('Civil label unexpectedly zoned')\n         if abs((civil-absolute.replace(tzinfo=None)).total_seconds()-birth['source_offset_seconds'])>1:\n             raise ValueError('Inconsistent absolute instant')\n-        if not 1880<=civil.year<=2019:raise ValueError('Outside registered cohort')\n+        if not 1880<=civil.year<=2025:raise ValueError('Outside registered cohort')\n         if not -90<float(birth['latitude'])<90 or not -180<=float(birth['longitude'])<=180:\n             raise ValueError('Invalid coordinates')\n         w=float(meta['sample_weight'])\n"
+    },
+    {
+      "source": "scripts/run_profiles.py",
+      "additive_copy": "rounds/r10/methods/run_profiles.py",
+      "source_sha256": "36a67085e3c001a74fb1baa3caf5ed418bbf78944d524c0a320241c0fd32e03c",
+      "copy_sha256": "cbac2cacb8f9e07e916821251a36b4ca2e95b7bf6c176eb5f81ab083621d9e0d",
+      "changed": true,
+      "unified_diff": "--- scripts/run_profiles.py\n+++ rounds/r10/methods/run_profiles.py\n@@ -10,14 +10,14 @@\n import argparse,hashlib,json,multiprocessing,os,sys,time\n import numpy as np\n \n-ROOT=Path(__file__).resolve().parents[1]\n+ROOT=Path(__file__).resolve().parents[3]\n sys.path.insert(0,str(ROOT/'src'))\n-from open_birth_chart.io import load_source,sha256,chart_key\n+from r10_io import load_source,sha256,chart_key\n \n \n def init_worker():\n     global bz,zw,qz,west,zw_engine\n-    from open_birth_chart import bazi_engine as bz,ziwei_engine as zw,qizheng_engine as qz,western_engine as west\n+    from open_birth_chart_r10 import bazi_engine as bz,ziwei_engine as zw,qizheng_engine as qz,western_engine as west\n     zw_engine=zw.ZiweiEngine()\n \n \n@@ -84,7 +84,7 @@\n                     tasks.append((row,'geo_'+label,0,geo))\n     run={'created_utc':datetime.now(timezone.utc).isoformat(),'mode':args.mode,'input_records':len(rows),'tasks':len(tasks),'jobs':args.jobs,\n          'source_manifests':source_manifests,'code_hashes':{str(p.relative_to(ROOT)):sha256(p) for p in sorted((ROOT/'src/open_birth_chart').glob('*.py'))},\n-         'protocol_sha256':sha256(ROOT/'protocol/study_protocol.json'),'outcome_inputs':False}\n+         'protocol_sha256':sha256(ROOT/'rounds/r10/protocol.json'),'input_loader_sha256':sha256(Path(__file__).with_name('r10_io.py')),'runner_sha256':sha256(Path(__file__)),'date_scope':'R10 1880\u20132025; R8 scoring rules','date_scope_engine_hashes':{str(p.relative_to(ROOT)):sha256(p) for p in sorted((Path(__file__).parent/'open_birth_chart_r10').glob('*')) if p.is_file()},'outcome_inputs':False}\n     (out/(args.mode+'_run_seal.json')).write_text(json.dumps(run,indent=2)+'\\n')\n     counts=Counter();start=time.monotonic()\n     with result.open('x') as f,multiprocessing.Pool(args.jobs,initializer=init_worker) as pool:\n"
+    }
+  ]
+}

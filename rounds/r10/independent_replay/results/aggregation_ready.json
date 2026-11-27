@@ -1,0 +1,27 @@
+{
+  "ages_per_record": 40,
+  "counts_by_slot": {
+    "brazil2010": 2000,
+    "brazil2020": 2000,
+    "brazil2024": 2000,
+    "brazil_2000s": 2000,
+    "mexico2020": 2000,
+    "mexico_2000s": 2000
+  },
+  "distinct_records": 12000,
+  "external_outcomes_used": false,
+  "finite_system_scores": 1920000,
+  "historical_mexican_metadata_files_recovered": 0,
+  "id": "OBS-R10-INDEPENDENT-2026-11-27",
+  "prepared_receipt_sha256": "455e45ce3748d1d6a71a0c60c1b775d275add98c640d32302d65ced7b91c89a6",
+  "profile_file_sha256": "9076924ba2e21c46f592170ecf2b6e2097846124e05be4a2da3e12599c1e9746",
+  "profile_run_seal_sha256": "e7547aa39ec84c31cd7613fbf27ebf75f1ddae3bd830d1be3b7cbdfb66fcf711",
+  "profile_summary_sha256": "0573df614892d3c2d23214c71245a7374713711cc120e85aa7594fe5f6456d12",
+  "record_years": 480000,
+  "registration_sha256": "de24e4fc3221f28f7688778f382d9db93c1351577afabcd7ddc6d5214e30dd6a",
+  "scoring_completed_utc": "2026-11-27T08:00:22.244772+00:00",
+  "stage": "AGGREGATION_READY",
+  "started_utc": "2026-11-27T07:34:33.004520+00:00",
+  "systems": 4,
+  "validated_utc": "2026-11-27T08:00:25.840707+00:00"
+}
