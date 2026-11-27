@@ -6,7 +6,7 @@
 
 这是四个选定结构模型的结果。本轮没有进行死亡结局验证，没有估算预测准确率，也没有取得全球代表性个人样本。
 
-[English](README.md) · [中文文章](articles/substack.zh.md) · [英文主稿](articles/substack.en.md) · [复现步骤](docs/REPRODUCING.md) · [方法](docs/statistical_design.md) · [研究宪章](CONSTITUTION.zh.md) · [当前进展](RESEARCH_STATUS.zh.md)
+[English](README.md) · [中文文章](articles/substack.zh.md) · [英文主稿](articles/substack.en.md) · [复现步骤](docs/REPRODUCING.md) · [方法](docs/statistical_design.md)
 
 ## 数据范围
 

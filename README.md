@@ -6,7 +6,7 @@ R8 computes Bazi, Ziwei, Qizheng and Western structural indices for **3,729 sour
 
 **Result:** none of the six planned source/age-window alignment tests rejected the specified independent-phase reference after Holm correction; the smallest adjusted p value was **0.183**. This result concerns the chosen structural indices. **R8 does not test death outcomes, estimate prediction accuracy, or provide a globally representative individual sample.**
 
-[中文](README.zh.md) · [English article](articles/substack.en.md) · [中文文章](articles/substack.zh.md) · [Reproduce](docs/REPRODUCING.md) · [Methods](docs/statistical_design.md) · [Contribute](CONTRIBUTING.md) · [Research charter](CONSTITUTION.md) · [Research status 中文](RESEARCH_STATUS.zh.md)
+[中文](README.zh.md) · [English article](articles/substack.en.md) · [中文文章](articles/substack.zh.md) · [Reproduce](docs/REPRODUCING.md) · [Methods](docs/statistical_design.md) · [Contribute](CONTRIBUTING.md)
 
 ## Question
 
