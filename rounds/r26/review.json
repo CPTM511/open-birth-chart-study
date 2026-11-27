@@ -1,0 +1,22 @@
+{
+  "review_date": "2026-11-28",
+  "scope": "Same project session used the sealed R10 and R12 data as inputs, independently evaluated the declared reweighting using rational row weights, and checked the linearization on synthetic data. No outside replication or outcome follow-up was included.",
+  "registration_commit": "c78c4950149d60f53ead926e160b2aa9ee89472f",
+  "source_replay_matches_existing_published_rates": 8,
+  "private_input_receipts": {
+    "r10": "695b3d1278a12cf6779aac84467639ecdb4c82f510eb8d4897a359dc5405d213",
+    "r12": "7d5889413664330faed5c685c5ded2a76236258c7ed631b6c125d0cc8b60f75a"
+  },
+  "verification": {
+    "cohorts": 8,
+    "weighted_rates_recomputed": 24,
+    "reweighted_cross_cohort_contrasts_verified": 14,
+    "both_calendar_and_clock_margins_match_exactly": true,
+    "frozen_model_record_years": 640000
+  },
+  "fresh_replay_byte_equal": true,
+  "results_sha256": "0efdf5ad82501ed7820c5031b3468a840b61f4909b69987069b29148c55b29b6",
+  "project_tests": 54,
+  "prior_r8_files": 130,
+  "prior_r9_files": 90
+}

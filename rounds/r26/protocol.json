@@ -1,0 +1,61 @@
+{
+  "version": "OBS-R26-BIRTH-CLOCK-BALANCE-1.0",
+  "base_commit": "ba4a575fcd2b0e1bee75c059772b5ed439cb9567",
+  "cohorts": [
+    [
+      "brazil2006",
+      "BR",
+      2006
+    ],
+    [
+      "brazil_2000s",
+      "BR",
+      2007
+    ],
+    [
+      "brazil2010",
+      "BR",
+      2010
+    ],
+    [
+      "brazil2020",
+      "BR",
+      2020
+    ],
+    [
+      "brazil2024",
+      "BR",
+      2024
+    ],
+    [
+      "mexico_2000s",
+      "MX",
+      2009
+    ],
+    [
+      "mexico2020",
+      "MX",
+      2020
+    ],
+    [
+      "mexico2023_early",
+      "MX",
+      2023
+    ]
+  ],
+  "daytime_hours_inclusive": [
+    9,
+    17
+  ],
+  "sample_size_each": 2000,
+  "aging_years": 40,
+  "reference": "brazil2006",
+  "primary_level": "quarter_and_sex",
+  "sensitivity_level": "month_and_sex",
+  "simultaneous_family_size": 7,
+  "practical_threshold_pp": 0.1,
+  "conditional_alpha": 0.05,
+  "r10_receipt": "695b3d1278a12cf6779aac84467639ecdb4c82f510eb8d4897a359dc5405d213",
+  "r12_receipt": "7d5889413664330faed5c685c5ded2a76236258c7ed631b6c125d0cc8b60f75a",
+  "r12_inputs": "4accf9ac7d06051fea8ab843a78d68e02bf6b4abdf040bab44a0172e78fe7fde"
+}

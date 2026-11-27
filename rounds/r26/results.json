@@ -1,0 +1,444 @@
+{
+  "version": "OBS-R26-BIRTH-CLOCK-BALANCE-1.0",
+  "threshold_pp": 0.1,
+  "normal_threshold_simultaneous": 2.690109527159,
+  "fixed_threshold_reference": "brazil2006",
+  "cohorts": {
+    "brazil2006": {
+      "source": "BR",
+      "birth_year": 2006,
+      "records": 2000,
+      "record_years": 80000,
+      "observed_rate": 0.032149428487,
+      "observed_weekday_minus_weekend_daytime_pp": 1.717645039564,
+      "original_effective_weight_n": 1999.744662300139,
+      "quarter_and_sex": {
+        "status": "computed",
+        "adjusted_rate": 0.032118081265,
+        "factorization_effect_pp": -0.003134722204,
+        "movement_variance": 2.469e-09,
+        "state_mix_total_variation_pp": 0.141967223597,
+        "minimum_cell_records": 24,
+        "effective_weight_n": 1997.831928360731,
+        "multipliers_from_to": [
+          0.927813803427,
+          1.097741508243
+        ]
+      },
+      "month_and_sex": {
+        "status": "computed",
+        "adjusted_rate": 0.031952477817,
+        "factorization_effect_pp": -0.019695067059,
+        "movement_variance": 1.0716e-08,
+        "state_mix_total_variation_pp": 0.274479355918,
+        "minimum_cell_records": 5,
+        "effective_weight_n": 1986.476530761779,
+        "multipliers_from_to": [
+          0.792754314993,
+          1.416617915225
+        ]
+      }
+    },
+    "brazil_2000s": {
+      "source": "BR",
+      "birth_year": 2007,
+      "records": 2000,
+      "record_years": 80000,
+      "observed_rate": 0.033699311842,
+      "observed_weekday_minus_weekend_daytime_pp": 0.326504714313,
+      "original_effective_weight_n": 1998.100766993963,
+      "quarter_and_sex": {
+        "status": "computed",
+        "adjusted_rate": 0.033662858915,
+        "factorization_effect_pp": -0.003645292724,
+        "movement_variance": 5.12e-09,
+        "state_mix_total_variation_pp": 0.315769625874,
+        "minimum_cell_records": 19,
+        "effective_weight_n": 1989.965257671805,
+        "multipliers_from_to": [
+          0.806494968735,
+          1.283891325704
+        ]
+      },
+      "month_and_sex": {
+        "status": "computed",
+        "adjusted_rate": 0.033544278466,
+        "factorization_effect_pp": -0.015503337585,
+        "movement_variance": 1.4838e-08,
+        "state_mix_total_variation_pp": 0.493626155596,
+        "minimum_cell_records": 4,
+        "effective_weight_n": 1970.231648364627,
+        "multipliers_from_to": [
+          0.656339481436,
+          1.744972234574
+        ]
+      }
+    },
+    "brazil2010": {
+      "source": "BR",
+      "birth_year": 2010,
+      "records": 2000,
+      "record_years": 80000,
+      "observed_rate": 0.03157812812,
+      "observed_weekday_minus_weekend_daytime_pp": 2.045435257541,
+      "original_effective_weight_n": 1998.118212142756,
+      "quarter_and_sex": {
+        "status": "computed",
+        "adjusted_rate": 0.031611476363,
+        "factorization_effect_pp": 0.003334824347,
+        "movement_variance": 6.857e-09,
+        "state_mix_total_variation_pp": 0.267081528657,
+        "minimum_cell_records": 18,
+        "effective_weight_n": 1988.730902544764,
+        "multipliers_from_to": [
+          0.803613894596,
+          1.278670425687
+        ]
+      },
+      "month_and_sex": {
+        "status": "computed",
+        "adjusted_rate": 0.031605390892,
+        "factorization_effect_pp": 0.002726277259,
+        "movement_variance": 1.3962e-08,
+        "state_mix_total_variation_pp": 0.598081475261,
+        "minimum_cell_records": 3,
+        "effective_weight_n": 1968.955548940237,
+        "multipliers_from_to": [
+          0.653653763927,
+          2.04499582865
+        ]
+      }
+    },
+    "brazil2020": {
+      "source": "BR",
+      "birth_year": 2020,
+      "records": 2000,
+      "record_years": 80000,
+      "observed_rate": 0.038303099332,
+      "observed_weekday_minus_weekend_daytime_pp": 2.258783864133,
+      "original_effective_weight_n": 1998.091252570515,
+      "quarter_and_sex": {
+        "status": "computed",
+        "adjusted_rate": 0.038329272059,
+        "factorization_effect_pp": 0.002617272687,
+        "movement_variance": 6.961e-09,
+        "state_mix_total_variation_pp": 0.200563766718,
+        "minimum_cell_records": 23,
+        "effective_weight_n": 1992.383623121133,
+        "multipliers_from_to": [
+          0.843279642272,
+          1.256335862712
+        ]
+      },
+      "month_and_sex": {
+        "status": "computed",
+        "adjusted_rate": 0.03820624113,
+        "factorization_effect_pp": -0.009685820208,
+        "movement_variance": 2.5054e-08,
+        "state_mix_total_variation_pp": 0.405797367662,
+        "minimum_cell_records": 3,
+        "effective_weight_n": 1971.125181638015,
+        "multipliers_from_to": [
+          0.686729928604,
+          1.731829344776
+        ]
+      }
+    },
+    "brazil2024": {
+      "source": "BR",
+      "birth_year": 2024,
+      "records": 2000,
+      "record_years": 80000,
+      "observed_rate": 0.037287740453,
+      "observed_weekday_minus_weekend_daytime_pp": 2.233998857173,
+      "original_effective_weight_n": 1998.235288126387,
+      "quarter_and_sex": {
+        "status": "computed",
+        "adjusted_rate": 0.03711995523,
+        "factorization_effect_pp": -0.016778522248,
+        "movement_variance": 8.219e-09,
+        "state_mix_total_variation_pp": 0.323018955416,
+        "minimum_cell_records": 15,
+        "effective_weight_n": 1988.588683696876,
+        "multipliers_from_to": [
+          0.838863851894,
+          1.248532804404
+        ]
+      },
+      "month_and_sex": {
+        "status": "computed",
+        "adjusted_rate": 0.037026825757,
+        "factorization_effect_pp": -0.026091469627,
+        "movement_variance": 1.8686e-08,
+        "state_mix_total_variation_pp": 0.623270221552,
+        "minimum_cell_records": 2,
+        "effective_weight_n": 1960.397890071879,
+        "multipliers_from_to": [
+          0.603100687679,
+          2.95004896322
+        ]
+      }
+    },
+    "mexico_2000s": {
+      "source": "MX",
+      "birth_year": 2009,
+      "records": 2000,
+      "record_years": 80000,
+      "observed_rate": 0.030230236697,
+      "observed_weekday_minus_weekend_daytime_pp": 2.82603588413,
+      "original_effective_weight_n": 1998.763050008006,
+      "quarter_and_sex": {
+        "status": "computed",
+        "adjusted_rate": 0.030217439004,
+        "factorization_effect_pp": -0.001279769301,
+        "movement_variance": 3.552e-09,
+        "state_mix_total_variation_pp": 0.24910424144,
+        "minimum_cell_records": 14,
+        "effective_weight_n": 1989.342010961926,
+        "multipliers_from_to": [
+          0.859845448053,
+          1.279417416297
+        ]
+      },
+      "month_and_sex": {
+        "status": "computed",
+        "adjusted_rate": 0.030242103301,
+        "factorization_effect_pp": 0.001186660479,
+        "movement_variance": 1.5864e-08,
+        "state_mix_total_variation_pp": 0.467353660676,
+        "minimum_cell_records": 1,
+        "effective_weight_n": 1957.129033157687,
+        "multipliers_from_to": [
+          0.769736586163,
+          4.497710922453
+        ]
+      }
+    },
+    "mexico2020": {
+      "source": "MX",
+      "birth_year": 2020,
+      "records": 2000,
+      "record_years": 80000,
+      "observed_rate": 0.036143462357,
+      "observed_weekday_minus_weekend_daytime_pp": 4.566842493335,
+      "original_effective_weight_n": 1998.998638128059,
+      "quarter_and_sex": {
+        "status": "computed",
+        "adjusted_rate": 0.036151959273,
+        "factorization_effect_pp": 0.000849691661,
+        "movement_variance": 3.397e-09,
+        "state_mix_total_variation_pp": 0.196541479695,
+        "minimum_cell_records": 19,
+        "effective_weight_n": 1993.132753341251,
+        "multipliers_from_to": [
+          0.87751021298,
+          1.194715455724
+        ]
+      },
+      "month_and_sex": {
+        "status": "computed",
+        "adjusted_rate": 0.036161699462,
+        "factorization_effect_pp": 0.001823710504,
+        "movement_variance": 1.2006e-08,
+        "state_mix_total_variation_pp": 0.392892808046,
+        "minimum_cell_records": 3,
+        "effective_weight_n": 1979.917977350154,
+        "multipliers_from_to": [
+          0.673283919759,
+          1.765454908656
+        ]
+      }
+    },
+    "mexico2023_early": {
+      "source": "MX",
+      "birth_year": 2023,
+      "records": 2000,
+      "record_years": 80000,
+      "observed_rate": 0.032151164817,
+      "observed_weekday_minus_weekend_daytime_pp": -0.588171179067,
+      "original_effective_weight_n": 1996.363306999386,
+      "quarter_and_sex": {
+        "status": "computed",
+        "adjusted_rate": 0.032172346296,
+        "factorization_effect_pp": 0.002118147889,
+        "movement_variance": 1.493e-09,
+        "state_mix_total_variation_pp": 0.245924488257,
+        "minimum_cell_records": 21,
+        "effective_weight_n": 1992.497150928304,
+        "multipliers_from_to": [
+          0.888881617151,
+          1.164072001557
+        ]
+      },
+      "month_and_sex": {
+        "status": "computed",
+        "adjusted_rate": 0.032287788964,
+        "factorization_effect_pp": 0.013662414685,
+        "movement_variance": 8.086e-09,
+        "state_mix_total_variation_pp": 0.634670249058,
+        "minimum_cell_records": 5,
+        "effective_weight_n": 1972.772995602265,
+        "multipliers_from_to": [
+          0.686467146658,
+          1.49279453806
+        ]
+      }
+    }
+  },
+  "contrasts": {
+    "brazil_2000s": {
+      "original_contrast_pp": 0.154988335492,
+      "quarter_and_sex": {
+        "status": "computed",
+        "adjusted_contrast_pp": 0.154477764972,
+        "contrast_movement_pp": -0.00051057052,
+        "material_point_movement": false,
+        "simultaneous95_interval_for_movement_pp": [
+          -0.023946404837,
+          0.022925263797
+        ],
+        "excludes_material_change": true
+      },
+      "month_and_sex": {
+        "status": "computed",
+        "adjusted_contrast_pp": 0.159180064965,
+        "contrast_movement_pp": 0.004191729473,
+        "material_point_movement": false,
+        "simultaneous95_interval_for_movement_pp": null,
+        "excludes_material_change": false
+      }
+    },
+    "brazil2010": {
+      "original_contrast_pp": -0.057130036744,
+      "quarter_and_sex": {
+        "status": "computed",
+        "adjusted_contrast_pp": -0.050660490193,
+        "contrast_movement_pp": 0.006469546551,
+        "material_point_movement": false,
+        "simultaneous95_interval_for_movement_pp": [
+          -0.019508971156,
+          0.032448064258
+        ],
+        "excludes_material_change": true
+      },
+      "month_and_sex": {
+        "status": "computed",
+        "adjusted_contrast_pp": -0.034708692426,
+        "contrast_movement_pp": 0.022421344318,
+        "material_point_movement": false,
+        "simultaneous95_interval_for_movement_pp": null,
+        "excludes_material_change": false
+      }
+    },
+    "brazil2020": {
+      "original_contrast_pp": 0.615367084506,
+      "quarter_and_sex": {
+        "status": "computed",
+        "adjusted_contrast_pp": 0.621119079397,
+        "contrast_movement_pp": 0.005751994891,
+        "material_point_movement": false,
+        "simultaneous95_interval_for_movement_pp": [
+          -0.020371655504,
+          0.031875645286
+        ],
+        "excludes_material_change": true
+      },
+      "month_and_sex": {
+        "status": "computed",
+        "adjusted_contrast_pp": 0.625376331356,
+        "contrast_movement_pp": 0.01000924685,
+        "material_point_movement": false,
+        "simultaneous95_interval_for_movement_pp": null,
+        "excludes_material_change": false
+      }
+    },
+    "brazil2024": {
+      "original_contrast_pp": 0.513831196549,
+      "quarter_and_sex": {
+        "status": "computed",
+        "adjusted_contrast_pp": 0.500187396505,
+        "contrast_movement_pp": -0.013643800044,
+        "material_point_movement": false,
+        "simultaneous95_interval_for_movement_pp": [
+          -0.041455400132,
+          0.014167800045
+        ],
+        "excludes_material_change": true
+      },
+      "month_and_sex": {
+        "status": "computed",
+        "adjusted_contrast_pp": 0.507434793981,
+        "contrast_movement_pp": -0.006396402568,
+        "material_point_movement": false,
+        "simultaneous95_interval_for_movement_pp": null,
+        "excludes_material_change": false
+      }
+    },
+    "mexico_2000s": {
+      "original_contrast_pp": -0.191919179078,
+      "quarter_and_sex": {
+        "status": "computed",
+        "adjusted_contrast_pp": -0.190064226175,
+        "contrast_movement_pp": 0.001854952903,
+        "material_point_movement": false,
+        "simultaneous95_interval_for_movement_pp": [
+          -0.019019517839,
+          0.022729423644
+        ],
+        "excludes_material_change": true
+      },
+      "month_and_sex": {
+        "status": "computed",
+        "adjusted_contrast_pp": -0.17103745154,
+        "contrast_movement_pp": 0.020881727538,
+        "material_point_movement": false,
+        "simultaneous95_interval_for_movement_pp": null,
+        "excludes_material_change": false
+      }
+    },
+    "mexico2020": {
+      "original_contrast_pp": 0.399403386941,
+      "quarter_and_sex": {
+        "status": "computed",
+        "adjusted_contrast_pp": 0.403387800805,
+        "contrast_movement_pp": 0.003984413865,
+        "material_point_movement": false,
+        "simultaneous95_interval_for_movement_pp": [
+          -0.016619019515,
+          0.024587847245
+        ],
+        "excludes_material_change": true
+      },
+      "month_and_sex": {
+        "status": "computed",
+        "adjusted_contrast_pp": 0.420922164503,
+        "contrast_movement_pp": 0.021518777562,
+        "material_point_movement": false,
+        "simultaneous95_interval_for_movement_pp": null,
+        "excludes_material_change": false
+      }
+    },
+    "mexico2023_early": {
+      "original_contrast_pp": 0.000173632939,
+      "quarter_and_sex": {
+        "status": "computed",
+        "adjusted_contrast_pp": 0.005426503032,
+        "contrast_movement_pp": 0.005252870093,
+        "material_point_movement": false,
+        "simultaneous95_interval_for_movement_pp": [
+          -0.011680677728,
+          0.022186417914
+        ],
+        "excludes_material_change": true
+      },
+      "month_and_sex": {
+        "status": "computed",
+        "adjusted_contrast_pp": 0.033531114682,
+        "contrast_movement_pp": 0.033357481744,
+        "material_point_movement": false,
+        "simultaneous95_interval_for_movement_pp": null,
+        "excludes_material_change": false
+      }
+    }
+  }
+}
