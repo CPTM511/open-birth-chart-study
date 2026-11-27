@@ -82,7 +82,9 @@ def payroll(sources):
     by_key = {(r["observation_date"],r["exposure_quintile"]):[Decimal(r[a]) for a in AGES] for r in index}
     for q in EXPOSURE:
         require(all(x==100 for x in by_key[BASELINE,q]),"Payroll normalization differs")
-    checked, maximum_error = 0,0.0
+    checked, strict_mismatches, maximum_error = 0,0,0.0
+    index_radius = Fraction(1,200)
+    yoy_radius = Fraction(1,200000)
     require(len(yoy)==(len(months)-12)*5 and
             {(r["observation_date"],r["exposure_quintile"]) for r in yoy}==
             {(m,q) for m in months[12:] for q in EXPOSURE},"Incomplete published year-on-year checks")
@@ -90,9 +92,15 @@ def payroll(sources):
         m,q=row["observation_date"],row["exposure_quintile"]
         last_year = f"{int(m[:4])-1}{m[4:]}"
         for age,end,start in zip(AGES,by_key[m,q],by_key[last_year,q],strict=True):
-            expected = Fraction(end)/Fraction(start)-1
-            error = abs(float(expected)-float(row[age]))
-            require(error<3e-7,"Published year-on-year rate differs from indexed series")
+            current, prior = Fraction(end), Fraction(start)
+            published = Fraction(row[age])
+            expected = current/prior-1
+            error = abs(float(expected-published))
+            strict_mismatches += int(error>=3e-7)
+            lower = (current-index_radius)/(prior+index_radius)-1
+            upper = (current+index_radius)/(prior-index_radius)-1
+            require(lower-yoy_radius <= published <= upper+yoy_radius,
+                    "Published year-on-year rate falls outside the index display precision")
             maximum_error=max(error,maximum_error)
             checked+=1
     gaps={}
@@ -107,7 +115,9 @@ def payroll(sources):
     young,mid = (gaps[AGES[k]]["gap_percent_at_prespecified_months"][months[-1]] for k in (0,4))
     return {"observation_months":len(months),"vintage":"2026-11-15","baseline":BASELINE,"ages":gaps,
             "latest_22_25_minus_41_49_gap_pp":young-mid,"yoy_cells_checked":checked,
-            "max_absolute_yoy_revision_residual":maximum_error,
+            "max_absolute_yoy_point_residual":maximum_error,"original_tolerance_exceedances":strict_mismatches,
+            "display_index_rounding_radius_points":float(index_radius),
+            "display_yoy_rounding_radius_fraction":float(yoy_radius),
             "unit":"Normalized employment index within publisher's selected ADP employers."}
 
 

@@ -15,7 +15,8 @@
   },
   "method_sha256": {
     "REGISTRATION.zh.md": "463c601773e9087333c79667dabebec88520eda9dcd26ad8b056343394adb547",
-    "observed.py": "f429860dfa51115091a61fb2378903e9e5d2063d6815e535848487e4ecd7bd76"
+    "observed.py": "25aba0c790708bdcd57902a161385bc5f609fa921999d7110df291d4df8f16a8",
+    "REVIEW_CORRECTION.zh.md": "7c96f353ab0fde8277ffdbfe6541b3d832f155328063309f2305e90aad730b71"
   },
   "fred_quarters": [
     "2024-Q3",
@@ -32,5 +33,7 @@
   ],
   "primary_payroll_month": "2026-10-01",
   "publication_only_explored": true,
-  "prior_knowledge": "The source pages and published studies were read. Particular raw target values were not searched."
+  "prior_knowledge": "The source pages and published studies were read. Particular raw target values were not searched.",
+  "original_protocol_sha256": "b985928eb61d066d38faf60a0acf4b5a2201d293a5b8024a63475a4e78e2acdf",
+  "review_correction": "Treat separate index and year-over-year tables as rounded outputs and verify interval compatibility with disclosed display precision."
 }
