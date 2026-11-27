@@ -1,0 +1,4736 @@
+{
+  "created_utc": "2026-11-27T08:04:16.751520+00:00",
+  "analysis": "R10 registered country-by-birth-year structural comparisons",
+  "protocol_sha256": "38c01264437a27ac6eb4c0340e036b8bedc83d910c892964d2c2384dda59029a",
+  "source_decisions_sha256": "0dc86090acc0ccc331a742b8d0d163bb1dcdfe606f35b43e4e7f454a4e2ea34e",
+  "reference": {
+    "n_source_records": 2000,
+    "reference_joint_rate": 0.03214942848730289,
+    "joint_rate": 0.03214942848730289,
+    "delta_joint_rate": 0.0,
+    "raw_system_means": [
+      0.08594997711492557,
+      0.16862871595320553,
+      0.17600272134227204,
+      0.02066291242423695
+    ],
+    "delta_raw_system_means": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "fixed_reference_system_means": [
+      0.5000000000000038,
+      0.5000000000000051,
+      0.49999999999999817,
+      0.49999999999996914
+    ],
+    "delta_fixed_reference_system_means": [
+      3.774758283725532e-15,
+      5.10702591327572e-15,
+      -1.8318679906315083e-15,
+      -3.086420008457935e-14
+    ],
+    "delta_L": -5.9396931817445875e-15,
+    "age_band_joint_rates": [
+      0.026267968245700858,
+      0.02464403660138915,
+      0.029499090326859528,
+      0.048186618775262056
+    ],
+    "provenance": {
+      "input_sha256": "3d9a2dc48a26a083a20abbd372310310d13b6e93d880a4f8d1fafa02f8914f6d",
+      "metadata_sha256": "a50061c89d2ada34bffa55a0e500f413dd833263c5300771a6bc51be65b6d341",
+      "sampling_manifest_sha256": "39eceec508bcda8665e1d112de9a0c1153ca5dd1856bee0cf0849e282c409a93",
+      "profile_files": [
+        {
+          "name": "full-frozen-r8-baseline_profiles.jsonl",
+          "sha256": "5bdc0d2e5c53cb15928a4a0781e5c7785085d3d039cfbf7dcc9b44f2a3f1c401"
+        }
+      ],
+      "source_labels": [
+        "SINASC-2006"
+      ],
+      "sample_n": 2000,
+      "eligible_frame_N": 2805207,
+      "complete_profiles": 2000
+    },
+    "relative_alignment": {
+      "kind": "R8 within-person relative alignment; descriptive continuity, no new p values",
+      "age20_59_joint_rate": 0.022867257282944593,
+      "age20_49_joint_rate": 0.018639771434575875,
+      "age20_59_exact_independent_phase_mean": 0.02225289677812102,
+      "age20_49_exact_independent_phase_mean": 0.0179849479818628
+    },
+    "birth_years": [
+      2006
+    ],
+    "age20_39_joint_rate_descriptive": 0.025456002423545003,
+    "age20_39_calendar_range": [
+      2026,
+      2046
+    ],
+    "primary_calendar_range": [
+      2026,
+      2066
+    ],
+    "modeled_record_years_total": 80000,
+    "modeled_record_years_within_2026_2070": 80000,
+    "calendar_2026_2070": [
+      {
+        "year": 2026,
+        "eligible_source_records": 1002,
+        "joint_rate": 0.023941674164448094,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2027,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.02907846110556955,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2028,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.01950864205325046,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2029,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.025491067486195673,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2030,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.02050567974153773,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2031,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.008031657891540213,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2032,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.020543879129395443,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2033,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.0240708745865486,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2034,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.021985981445123447,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2035,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.04249368207248578,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2036,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.06995195007435445,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2037,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.023511021916797357,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2038,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.011505560463970856,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2039,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.009496165612722991,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2040,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.015505746100315557,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2041,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.02396860806472217,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2042,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.025016440164924908,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2043,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.023959451741191705,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2044,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.022013598691370127,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2045,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.030957976680180275,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2046,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.03502539823280316,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2047,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.023530174322192128,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2048,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.048469287579935974,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2049,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.021504779265835453,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2050,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.020471510892712565,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2051,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.020978377681066678,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2052,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.03353770545224242,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2053,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.04502953125434157,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2054,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.03149636111385582,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2055,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.028980730988477043,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2056,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.02751313283975741,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2057,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.018962406134560728,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2058,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.03146786450577975,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2059,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.03949695126816134,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2060,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.08239250377138037,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2061,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.046565764359688094,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2062,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.052006121827996736,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2063,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.05608002819799089,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2064,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.06743140974772249,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2065,
+        "eligible_source_records": 2000,
+        "joint_rate": 0.04894482045853961,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2066,
+        "eligible_source_records": 998,
+        "joint_rate": 0.05309449006479632,
+        "descriptive_only": true,
+        "peak_listing_eligible": true
+      },
+      {
+        "year": 2067,
+        "eligible_source_records": 0,
+        "joint_rate": null,
+        "descriptive_only": true,
+        "peak_listing_eligible": false
+      },
+      {
+        "year": 2068,
+        "eligible_source_records": 0,
+        "joint_rate": null,
+        "descriptive_only": true,
+        "peak_listing_eligible": false
+      },
+      {
+        "year": 2069,
+        "eligible_source_records": 0,
+        "joint_rate": null,
+        "descriptive_only": true,
+        "peak_listing_eligible": false
+      },
+      {
+        "year": 2070,
+        "eligible_source_records": 0,
+        "joint_rate": null,
+        "descriptive_only": true,
+        "peak_listing_eligible": false
+      }
+    ]
+  },
+  "primary_family_size": 7,
+  "primary_draws": 9999,
+  "primary_age_window": "Complete ages20\u201359; calendar2026\u20132070 and ages20\u201339 are descriptive only",
+  "all_available_registered_slots_estimated": true,
+  "no_real_world_null_pvalues": true,
+  "unavailable_slots": [
+    {
+      "slot": "new_country",
+      "reason": "No verified accessible full-input frame among CO,US,PE,EC,UY; schema absence and unverified access are distinguished in feasibility ledger"
+    }
+  ],
+  "targets": [
+    {
+      "n_source_records": 2000,
+      "reference_joint_rate": 0.03214942848730289,
+      "joint_rate": 0.03369931184222137,
+      "delta_joint_rate": 0.0015498833549184785,
+      "raw_system_means": [
+        0.08641871033147265,
+        0.16708527647358162,
+        0.17558399190054064,
+        0.020719042133918338
+      ],
+      "delta_raw_system_means": [
+        0.0004687332165470848,
+        -0.0015434394796239037,
+        -0.000418729441731408,
+        5.6129709681388557e-05
+      ],
+      "fixed_reference_system_means": [
+        0.5015040347472735,
+        0.4982343204895283,
+        0.4960668248065707,
+        0.5006749004770844
+      ],
+      "delta_fixed_reference_system_means": [
+        0.0015040347472734528,
+        -0.001765679510471685,
+        -0.003933175193429284,
+        0.0006749004770844058
+      ],
+      "delta_L": -0.0008799798698857497,
+      "age_band_joint_rates": [
+        0.026943589608987677,
+        0.02834437201842626,
+        0.027513004441515058,
+        0.05199628129995651
+      ],
+      "slot": "brazil_2000s",
+      "provenance": {
+        "input_sha256": "1c2d60956ebaef3bb41552941bf547f0633f163ecb0a6fa6b4e34173977cf584",
+        "metadata_sha256": "21096fff21650dcfc19c8b1812b5a6380338bae839b355b4bd730757f8a0c91c",
+        "sampling_manifest_sha256": "46c7b7b08db791866c6d9605c312a23c8d22841d7b1862f11fc72966b6aa7535",
+        "profile_files": [
+          {
+            "name": "baseline_profiles.jsonl",
+            "sha256": "9076924ba2e21c46f592170ecf2b6e2097846124e05be4a2da3e12599c1e9746"
+          }
+        ],
+        "source_labels": [
+          "SINASC-2007"
+        ],
+        "sample_n": 2000,
+        "eligible_frame_N": 2751898,
+        "complete_profiles": 2000
+      },
+      "sampling_interval": {
+        "status": "computed_assumption_conditional",
+        "point": 0.03369931184222138,
+        "strata": [
+          {
+            "stratum": "BR|11|F|2007",
+            "sample_n": 9,
+            "frame_n": 11257
+          },
+          {
+            "stratum": "BR|11|M|2007",
+            "sample_n": 9,
+            "frame_n": 11656
+          },
+          {
+            "stratum": "BR|12|F|2007",
+            "sample_n": 7,
+            "frame_n": 7993
+          },
+          {
+            "stratum": "BR|12|M|2007",
+            "sample_n": 7,
+            "frame_n": 8523
+          },
+          {
+            "stratum": "BR|13|F|2007",
+            "sample_n": 16,
+            "frame_n": 20553
+          },
+          {
+            "stratum": "BR|13|M|2007",
+            "sample_n": 16,
+            "frame_n": 21584
+          },
+          {
+            "stratum": "BR|14|F|2007",
+            "sample_n": 4,
+            "frame_n": 4306
+          },
+          {
+            "stratum": "BR|14|M|2007",
+            "sample_n": 4,
+            "frame_n": 4554
+          },
+          {
+            "stratum": "BR|15|F|2007",
+            "sample_n": 18,
+            "frame_n": 24714
+          },
+          {
+            "stratum": "BR|15|M|2007",
+            "sample_n": 20,
+            "frame_n": 26514
+          },
+          {
+            "stratum": "BR|16|F|2007",
+            "sample_n": 6,
+            "frame_n": 7171
+          },
+          {
+            "stratum": "BR|16|M|2007",
+            "sample_n": 6,
+            "frame_n": 7723
+          },
+          {
+            "stratum": "BR|17|F|2007",
+            "sample_n": 10,
+            "frame_n": 12402
+          },
+          {
+            "stratum": "BR|17|M|2007",
+            "sample_n": 10,
+            "frame_n": 12643
+          },
+          {
+            "stratum": "BR|21|F|2007",
+            "sample_n": 44,
+            "frame_n": 60684
+          },
+          {
+            "stratum": "BR|21|M|2007",
+            "sample_n": 46,
+            "frame_n": 63477
+          },
+          {
+            "stratum": "BR|22|F|2007",
+            "sample_n": 20,
+            "frame_n": 27257
+          },
+          {
+            "stratum": "BR|22|M|2007",
+            "sample_n": 21,
+            "frame_n": 28426
+          },
+          {
+            "stratum": "BR|23|F|2007",
+            "sample_n": 47,
+            "frame_n": 64810
+          },
+          {
+            "stratum": "BR|23|M|2007",
+            "sample_n": 50,
+            "frame_n": 68864
+          },
+          {
+            "stratum": "BR|24|F|2007",
+            "sample_n": 18,
+            "frame_n": 23363
+          },
+          {
+            "stratum": "BR|24|M|2007",
+            "sample_n": 19,
+            "frame_n": 25018
+          },
+          {
+            "stratum": "BR|25|F|2007",
+            "sample_n": 21,
+            "frame_n": 28204
+          },
+          {
+            "stratum": "BR|25|M|2007",
+            "sample_n": 22,
+            "frame_n": 29712
+          },
+          {
+            "stratum": "BR|26|F|2007",
+            "sample_n": 50,
+            "frame_n": 69392
+          },
+          {
+            "stratum": "BR|26|M|2007",
+            "sample_n": 53,
+            "frame_n": 73185
+          },
+          {
+            "stratum": "BR|27|F|2007",
+            "sample_n": 20,
+            "frame_n": 27027
+          },
+          {
+            "stratum": "BR|27|M|2007",
+            "sample_n": 21,
+            "frame_n": 28592
+          },
+          {
+            "stratum": "BR|28|F|2007",
+            "sample_n": 14,
+            "frame_n": 17965
+          },
+          {
+            "stratum": "BR|28|M|2007",
+            "sample_n": 14,
+            "frame_n": 18874
+          },
+          {
+            "stratum": "BR|29|F|2007",
+            "sample_n": 77,
+            "frame_n": 108110
+          },
+          {
+            "stratum": "BR|29|M|2007",
+            "sample_n": 81,
+            "frame_n": 113364
+          },
+          {
+            "stratum": "BR|31|F|2007",
+            "sample_n": 90,
+            "frame_n": 125848
+          },
+          {
+            "stratum": "BR|31|M|2007",
+            "sample_n": 94,
+            "frame_n": 131809
+          },
+          {
+            "stratum": "BR|32|F|2007",
+            "sample_n": 19,
+            "frame_n": 24733
+          },
+          {
+            "stratum": "BR|32|M|2007",
+            "sample_n": 19,
+            "frame_n": 26042
+          },
+          {
+            "stratum": "BR|33|F|2007",
+            "sample_n": 76,
+            "frame_n": 105780
+          },
+          {
+            "stratum": "BR|33|M|2007",
+            "sample_n": 79,
+            "frame_n": 110925
+          },
+          {
+            "stratum": "BR|35|F|2007",
+            "sample_n": 205,
+            "frame_n": 287881
+          },
+          {
+            "stratum": "BR|35|M|2007",
+            "sample_n": 216,
+            "frame_n": 303640
+          },
+          {
+            "stratum": "BR|41|F|2007",
+            "sample_n": 52,
+            "frame_n": 71970
+          },
+          {
+            "stratum": "BR|41|M|2007",
+            "sample_n": 54,
+            "frame_n": 75416
+          },
+          {
+            "stratum": "BR|42|F|2007",
+            "sample_n": 29,
+            "frame_n": 39701
+          },
+          {
+            "stratum": "BR|42|M|2007",
+            "sample_n": 31,
+            "frame_n": 41974
+          },
+          {
+            "stratum": "BR|43|F|2007",
+            "sample_n": 47,
+            "frame_n": 65051
+          },
+          {
+            "stratum": "BR|43|M|2007",
+            "sample_n": 49,
+            "frame_n": 68343
+          },
+          {
+            "stratum": "BR|50|F|2007",
+            "sample_n": 14,
+            "frame_n": 18723
+          },
+          {
+            "stratum": "BR|50|M|2007",
+            "sample_n": 15,
+            "frame_n": 19611
+          },
+          {
+            "stratum": "BR|51|F|2007",
+            "sample_n": 17,
+            "frame_n": 22896
+          },
+          {
+            "stratum": "BR|51|M|2007",
+            "sample_n": 18,
+            "frame_n": 24396
+          },
+          {
+            "stratum": "BR|52|F|2007",
+            "sample_n": 27,
+            "frame_n": 36652
+          },
+          {
+            "stratum": "BR|52|M|2007",
+            "sample_n": 28,
+            "frame_n": 38848
+          },
+          {
+            "stratum": "BR|53|F|2007",
+            "sample_n": 20,
+            "frame_n": 26178
+          },
+          {
+            "stratum": "BR|53|M|2007",
+            "sample_n": 21,
+            "frame_n": 27564
+          }
+        ],
+        "draws": 9999,
+        "seed": 20261127100,
+        "family_size_including_unavailable_slots": 7,
+        "conditioning": "fixed reference; fixed scores; stated finite frame and stratified sampling approximation",
+        "not_included": [
+          "reference estimation",
+          "source selection",
+          "clock/location error",
+          "model validity",
+          "global generalization"
+        ],
+        "interval95": [
+          0.03227129208919219,
+          0.03515286106410681
+        ],
+        "family_adjusted_interval": [
+          0.03173483515430934,
+          0.035738471559837615
+        ],
+        "family_adjusted_marginal_coverage": 0.9928571428571429,
+        "analytic_design_variance": 5.550240622780409e-07,
+        "bootstrap_variance": 5.475440741202815e-07,
+        "delta_joint_interval95": [
+          0.00012186360188929518,
+          0.0030034325768039175
+        ],
+        "delta_joint_family_adjusted_interval": [
+          -0.00041459333299355416,
+          0.0035890430725347214
+        ]
+      },
+      "relative_alignment": {
+        "kind": "R8 within-person relative alignment; descriptive continuity, no new p values",
+        "age20_59_joint_rate": 0.023170109933332957,
+        "age20_49_joint_rate": 0.018869167737326664,
+        "age20_59_exact_independent_phase_mean": 0.02192055472552764,
+        "age20_49_exact_independent_phase_mean": 0.0179592399065238
+      },
+      "birth_years": [
+        2007
+      ],
+      "age20_39_joint_rate_descriptive": 0.02764398081370697,
+      "age20_39_calendar_range": [
+        2027,
+        2047
+      ],
+      "primary_calendar_range": [
+        2027,
+        2067
+      ],
+      "modeled_record_years_total": 80000,
+      "modeled_record_years_within_2026_2070": 80000,
+      "calendar_2026_2070": [
+        {
+          "year": 2026,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2027,
+          "eligible_source_records": 1039,
+          "joint_rate": 0.007570437798242527,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2028,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03306721639640693,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2029,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.02503634032056271,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2030,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.026145025632671647,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2031,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.01605233629679557,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2032,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.007572670907106134,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2033,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.01157947866892773,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2034,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.023971209469098833,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2035,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.02672200264537332,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2036,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03766577354142778,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2037,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.08983736105338229,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2038,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.02608751955668989,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2039,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.026096916897133168,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2040,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.014458350503482266,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2041,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.031365028257407564,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2042,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03706757423961695,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2043,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.017592062558570903,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2044,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.028984927317914595,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2045,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.023584973577517064,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2046,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.020453683638501873,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2047,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03362916158483378,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2048,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.016433077686542705,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2049,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.056426238849363895,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2050,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.014930250755241457,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2051,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.02004362282692209,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2052,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.018992918936720782,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2053,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.04197044951418461,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2054,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.040933804384754774,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2055,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.02200349753058975,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2056,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.017458301489914414,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2057,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.019909263109056535,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2058,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.021593407544469236,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2059,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.028681072766674386,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2060,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.04112263495869908,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2061,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.09118176777548853,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2062,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.058931166839758686,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2063,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.042556019908111024,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2064,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.0690331044822237,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2065,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.056993937197645575,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2066,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.07451866190596518,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2067,
+          "eligible_source_records": 961,
+          "joint_rate": 0.06948050153839405,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2068,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2069,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2070,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        }
+      ]
+    },
+    {
+      "n_source_records": 2000,
+      "reference_joint_rate": 0.03214942848730289,
+      "joint_rate": 0.03157812811986679,
+      "delta_joint_rate": -0.0005713003674361061,
+      "raw_system_means": [
+        0.08785039548244111,
+        0.17229923673911002,
+        0.17499641153936815,
+        0.020578638926526994
+      ],
+      "delta_raw_system_means": [
+        0.0019004183675155467,
+        0.003670520785904491,
+        -0.001006309802903893,
+        -8.427349770995587e-05
+      ],
+      "fixed_reference_system_means": [
+        0.5037320857213086,
+        0.5026680414154229,
+        0.4957730277416805,
+        0.4971328771080184
+      ],
+      "delta_fixed_reference_system_means": [
+        0.0037320857213085645,
+        0.0026680414154228727,
+        -0.004226972258319472,
+        -0.0028671228919815994
+      ],
+      "delta_L": -0.0001734920033923948,
+      "age_band_joint_rates": [
+        0.02671982976861205,
+        0.021898196535524505,
+        0.024085708374591324,
+        0.053608777800739256
+      ],
+      "slot": "brazil2010",
+      "provenance": {
+        "input_sha256": "e073e19bcb0eda1f0a144314e5a8b42dd497857ec4db7d6712136deabaa6e922",
+        "metadata_sha256": "04d899a99e119f66b55bb72005d4bfbd8e7b0ded411ca925a4afea97ec6a1585",
+        "sampling_manifest_sha256": "53c15781d0d3a0e07a2f308bb69d12a1c40256ca01ac33579409b93101a2ba16",
+        "profile_files": [
+          {
+            "name": "baseline_profiles.jsonl",
+            "sha256": "9076924ba2e21c46f592170ecf2b6e2097846124e05be4a2da3e12599c1e9746"
+          }
+        ],
+        "source_labels": [
+          "SINASC-2010"
+        ],
+        "sample_n": 2000,
+        "eligible_frame_N": 2736095,
+        "complete_profiles": 2000
+      },
+      "sampling_interval": {
+        "status": "computed_assumption_conditional",
+        "point": 0.03157812811986679,
+        "strata": [
+          {
+            "stratum": "BR|11|F|2010",
+            "sample_n": 10,
+            "frame_n": 12479
+          },
+          {
+            "stratum": "BR|11|M|2010",
+            "sample_n": 10,
+            "frame_n": 13269
+          },
+          {
+            "stratum": "BR|12|F|2010",
+            "sample_n": 7,
+            "frame_n": 8208
+          },
+          {
+            "stratum": "BR|12|M|2010",
+            "sample_n": 7,
+            "frame_n": 8716
+          },
+          {
+            "stratum": "BR|13|F|2010",
+            "sample_n": 16,
+            "frame_n": 21425
+          },
+          {
+            "stratum": "BR|13|M|2010",
+            "sample_n": 17,
+            "frame_n": 22658
+          },
+          {
+            "stratum": "BR|14|F|2010",
+            "sample_n": 4,
+            "frame_n": 4425
+          },
+          {
+            "stratum": "BR|14|M|2010",
+            "sample_n": 4,
+            "frame_n": 4670
+          },
+          {
+            "stratum": "BR|15|F|2010",
+            "sample_n": 18,
+            "frame_n": 23763
+          },
+          {
+            "stratum": "BR|15|M|2010",
+            "sample_n": 19,
+            "frame_n": 25195
+          },
+          {
+            "stratum": "BR|16|F|2010",
+            "sample_n": 7,
+            "frame_n": 7822
+          },
+          {
+            "stratum": "BR|16|M|2010",
+            "sample_n": 7,
+            "frame_n": 8106
+          },
+          {
+            "stratum": "BR|17|F|2010",
+            "sample_n": 9,
+            "frame_n": 11891
+          },
+          {
+            "stratum": "BR|17|M|2010",
+            "sample_n": 10,
+            "frame_n": 12406
+          },
+          {
+            "stratum": "BR|21|F|2010",
+            "sample_n": 41,
+            "frame_n": 56890
+          },
+          {
+            "stratum": "BR|21|M|2010",
+            "sample_n": 44,
+            "frame_n": 59882
+          },
+          {
+            "stratum": "BR|22|F|2010",
+            "sample_n": 19,
+            "frame_n": 25181
+          },
+          {
+            "stratum": "BR|22|M|2010",
+            "sample_n": 20,
+            "frame_n": 26693
+          },
+          {
+            "stratum": "BR|23|F|2010",
+            "sample_n": 45,
+            "frame_n": 62536
+          },
+          {
+            "stratum": "BR|23|M|2010",
+            "sample_n": 48,
+            "frame_n": 66006
+          },
+          {
+            "stratum": "BR|24|F|2010",
+            "sample_n": 18,
+            "frame_n": 23385
+          },
+          {
+            "stratum": "BR|24|M|2010",
+            "sample_n": 19,
+            "frame_n": 24769
+          },
+          {
+            "stratum": "BR|25|F|2010",
+            "sample_n": 21,
+            "frame_n": 27951
+          },
+          {
+            "stratum": "BR|25|M|2010",
+            "sample_n": 22,
+            "frame_n": 29236
+          },
+          {
+            "stratum": "BR|26|F|2010",
+            "sample_n": 49,
+            "frame_n": 67012
+          },
+          {
+            "stratum": "BR|26|M|2010",
+            "sample_n": 51,
+            "frame_n": 70969
+          },
+          {
+            "stratum": "BR|27|F|2010",
+            "sample_n": 19,
+            "frame_n": 25928
+          },
+          {
+            "stratum": "BR|27|M|2010",
+            "sample_n": 20,
+            "frame_n": 26784
+          },
+          {
+            "stratum": "BR|28|F|2010",
+            "sample_n": 13,
+            "frame_n": 17166
+          },
+          {
+            "stratum": "BR|28|M|2010",
+            "sample_n": 14,
+            "frame_n": 18046
+          },
+          {
+            "stratum": "BR|29|F|2010",
+            "sample_n": 74,
+            "frame_n": 102715
+          },
+          {
+            "stratum": "BR|29|M|2010",
+            "sample_n": 78,
+            "frame_n": 107956
+          },
+          {
+            "stratum": "BR|31|F|2010",
+            "sample_n": 89,
+            "frame_n": 123942
+          },
+          {
+            "stratum": "BR|31|M|2010",
+            "sample_n": 93,
+            "frame_n": 129815
+          },
+          {
+            "stratum": "BR|32|F|2010",
+            "sample_n": 19,
+            "frame_n": 25001
+          },
+          {
+            "stratum": "BR|32|M|2010",
+            "sample_n": 20,
+            "frame_n": 26519
+          },
+          {
+            "stratum": "BR|33|F|2010",
+            "sample_n": 76,
+            "frame_n": 104927
+          },
+          {
+            "stratum": "BR|33|M|2010",
+            "sample_n": 79,
+            "frame_n": 110191
+          },
+          {
+            "stratum": "BR|35|F|2010",
+            "sample_n": 210,
+            "frame_n": 293246
+          },
+          {
+            "stratum": "BR|35|M|2010",
+            "sample_n": 220,
+            "frame_n": 308540
+          },
+          {
+            "stratum": "BR|41|F|2010",
+            "sample_n": 54,
+            "frame_n": 73957
+          },
+          {
+            "stratum": "BR|41|M|2010",
+            "sample_n": 56,
+            "frame_n": 77949
+          },
+          {
+            "stratum": "BR|42|F|2010",
+            "sample_n": 30,
+            "frame_n": 41133
+          },
+          {
+            "stratum": "BR|42|M|2010",
+            "sample_n": 32,
+            "frame_n": 43203
+          },
+          {
+            "stratum": "BR|43|F|2010",
+            "sample_n": 47,
+            "frame_n": 64778
+          },
+          {
+            "stratum": "BR|43|M|2010",
+            "sample_n": 50,
+            "frame_n": 68393
+          },
+          {
+            "stratum": "BR|50|F|2010",
+            "sample_n": 15,
+            "frame_n": 19494
+          },
+          {
+            "stratum": "BR|50|M|2010",
+            "sample_n": 15,
+            "frame_n": 20274
+          },
+          {
+            "stratum": "BR|51|F|2010",
+            "sample_n": 18,
+            "frame_n": 23763
+          },
+          {
+            "stratum": "BR|51|M|2010",
+            "sample_n": 19,
+            "frame_n": 25015
+          },
+          {
+            "stratum": "BR|52|F|2010",
+            "sample_n": 28,
+            "frame_n": 37680
+          },
+          {
+            "stratum": "BR|52|M|2010",
+            "sample_n": 29,
+            "frame_n": 39162
+          },
+          {
+            "stratum": "BR|53|F|2010",
+            "sample_n": 20,
+            "frame_n": 26698
+          },
+          {
+            "stratum": "BR|53|M|2010",
+            "sample_n": 21,
+            "frame_n": 28277
+          }
+        ],
+        "draws": 9999,
+        "seed": 20261127101,
+        "family_size_including_unavailable_slots": 7,
+        "conditioning": "fixed reference; fixed scores; stated finite frame and stratified sampling approximation",
+        "not_included": [
+          "reference estimation",
+          "source selection",
+          "clock/location error",
+          "model validity",
+          "global generalization"
+        ],
+        "interval95": [
+          0.030120818585407712,
+          0.03309226955328212
+        ],
+        "family_adjusted_interval": [
+          0.029529683037095363,
+          0.03365199709653484
+        ],
+        "family_adjusted_marginal_coverage": 0.9928571428571429,
+        "analytic_design_variance": 5.855239752551047e-07,
+        "bootstrap_variance": 5.889680356214658e-07,
+        "delta_joint_interval95": [
+          -0.0020286099018951807,
+          0.0009428410659792288
+        ],
+        "delta_joint_family_adjusted_interval": [
+          -0.0026197454502075307,
+          0.0015025686092319454
+        ]
+      },
+      "relative_alignment": {
+        "kind": "R8 within-person relative alignment; descriptive continuity, no new p values",
+        "age20_59_joint_rate": 0.020384097118216895,
+        "age20_49_joint_rate": 0.015401077701543357,
+        "age20_59_exact_independent_phase_mean": 0.020567927332338237,
+        "age20_49_exact_independent_phase_mean": 0.015934149238993344
+      },
+      "birth_years": [
+        2010
+      ],
+      "age20_39_joint_rate_descriptive": 0.024309013152068275,
+      "age20_39_calendar_range": [
+        2030,
+        2050
+      ],
+      "primary_calendar_range": [
+        2030,
+        2070
+      ],
+      "modeled_record_years_total": 80000,
+      "modeled_record_years_within_2026_2070": 80000,
+      "calendar_2026_2070": [
+        {
+          "year": 2026,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2027,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2028,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2029,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2030,
+          "eligible_source_records": 1029,
+          "joint_rate": 0.022363196504654594,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2031,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.016381527305416234,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2032,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.023558062525825395,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2033,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.030910192846777804,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2034,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03511343764217998,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2035,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.013360396282699567,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2036,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.018016512553759308,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2037,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03324631656026951,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2038,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.027307154500200808,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2039,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03099895014974176,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2040,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.0442233018801398,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2041,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.021964851409089978,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2042,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.021935506171040082,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2043,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.014860538216889502,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2044,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.023943525112220518,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2045,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03206846685299801,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2046,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.003531539562777986,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2047,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.023477847988725493,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2048,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.017537778263110173,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2049,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.026098258745779757,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2050,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.028081307993950345,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2051,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.018983319938965803,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2052,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.04263059343791297,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2053,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.029882816037258925,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2054,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.0339768439721098,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2055,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.022846230853528236,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2056,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.027979401758598123,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2057,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.019057558424265014,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2058,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.009490109444464047,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2059,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.012057583187473186,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2060,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.021003064504179478,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2061,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.015941765569425632,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2062,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03203322484591138,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2063,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.037183457460161204,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2064,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.10645373938304357,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2065,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.05163961527116609,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2066,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.06965605729114169,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2067,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.07295494574148476,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2068,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.04747518833108189,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2069,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.06368226092931312,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2070,
+          "eligible_source_records": 971,
+          "joint_rate": 0.06195948129618189,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        }
+      ]
+    },
+    {
+      "n_source_records": 2000,
+      "reference_joint_rate": 0.03214942848730289,
+      "joint_rate": 0.03830309933236106,
+      "delta_joint_rate": 0.006153670845058169,
+      "raw_system_means": [
+        0.08831420490340638,
+        0.16979942239879223,
+        0.17581910783477508,
+        0.020596405903060656
+      ],
+      "delta_raw_system_means": [
+        0.002364227788480819,
+        0.0011707064455867,
+        -0.00018361350749696026,
+        -6.650652117629399e-05
+      ],
+      "fixed_reference_system_means": [
+        0.5066649768264486,
+        0.49965302444782933,
+        0.4982424963284547,
+        0.4906552993755084
+      ],
+      "delta_fixed_reference_system_means": [
+        0.006664976826448621,
+        -0.00034697555217066967,
+        -0.001757503671545313,
+        -0.009344700624491609
+      ],
+      "delta_L": -0.0011960507554397704,
+      "age_band_joint_rates": [
+        0.02832680906867907,
+        0.02667546296631714,
+        0.03140735956436522,
+        0.06680276573008281
+      ],
+      "slot": "brazil2020",
+      "provenance": {
+        "input_sha256": "1255c1ceb4785f866dec1f0dfc85f26d65bfb0fe2f24890edd89f4053b11781f",
+        "metadata_sha256": "c81664532ab7fd417d17b97503420f24541c61b06b0c8bde49d216d36b2869d2",
+        "sampling_manifest_sha256": "489061f4ee8fde68747dd14d04d300cd311aa1941e92893cc26ca5d2b1d70b34",
+        "profile_files": [
+          {
+            "name": "baseline_profiles.jsonl",
+            "sha256": "9076924ba2e21c46f592170ecf2b6e2097846124e05be4a2da3e12599c1e9746"
+          }
+        ],
+        "source_labels": [
+          "SINASC-2020"
+        ],
+        "sample_n": 2000,
+        "eligible_frame_N": 2609808,
+        "complete_profiles": 2000
+      },
+      "sampling_interval": {
+        "status": "computed_assumption_conditional",
+        "point": 0.03830309933236107,
+        "strata": [
+          {
+            "stratum": "BR|11|F|2020",
+            "sample_n": 10,
+            "frame_n": 12447
+          },
+          {
+            "stratum": "BR|11|M|2020",
+            "sample_n": 11,
+            "frame_n": 13174
+          },
+          {
+            "stratum": "BR|12|F|2020",
+            "sample_n": 7,
+            "frame_n": 7694
+          },
+          {
+            "stratum": "BR|12|M|2020",
+            "sample_n": 7,
+            "frame_n": 8220
+          },
+          {
+            "stratum": "BR|13|F|2020",
+            "sample_n": 17,
+            "frame_n": 21326
+          },
+          {
+            "stratum": "BR|13|M|2020",
+            "sample_n": 18,
+            "frame_n": 22398
+          },
+          {
+            "stratum": "BR|14|F|2020",
+            "sample_n": 6,
+            "frame_n": 6555
+          },
+          {
+            "stratum": "BR|14|M|2020",
+            "sample_n": 6,
+            "frame_n": 6951
+          },
+          {
+            "stratum": "BR|15|F|2020",
+            "sample_n": 17,
+            "frame_n": 21756
+          },
+          {
+            "stratum": "BR|15|M|2020",
+            "sample_n": 18,
+            "frame_n": 22708
+          },
+          {
+            "stratum": "BR|16|F|2020",
+            "sample_n": 7,
+            "frame_n": 7806
+          },
+          {
+            "stratum": "BR|16|M|2020",
+            "sample_n": 7,
+            "frame_n": 8181
+          },
+          {
+            "stratum": "BR|17|F|2020",
+            "sample_n": 10,
+            "frame_n": 11431
+          },
+          {
+            "stratum": "BR|17|M|2020",
+            "sample_n": 10,
+            "frame_n": 12013
+          },
+          {
+            "stratum": "BR|21|F|2020",
+            "sample_n": 39,
+            "frame_n": 50655
+          },
+          {
+            "stratum": "BR|21|M|2020",
+            "sample_n": 41,
+            "frame_n": 52970
+          },
+          {
+            "stratum": "BR|22|F|2020",
+            "sample_n": 18,
+            "frame_n": 23214
+          },
+          {
+            "stratum": "BR|22|M|2020",
+            "sample_n": 19,
+            "frame_n": 24603
+          },
+          {
+            "stratum": "BR|23|F|2020",
+            "sample_n": 45,
+            "frame_n": 59448
+          },
+          {
+            "stratum": "BR|23|M|2020",
+            "sample_n": 47,
+            "frame_n": 62317
+          },
+          {
+            "stratum": "BR|24|F|2020",
+            "sample_n": 17,
+            "frame_n": 21532
+          },
+          {
+            "stratum": "BR|24|M|2020",
+            "sample_n": 18,
+            "frame_n": 22512
+          },
+          {
+            "stratum": "BR|25|F|2020",
+            "sample_n": 21,
+            "frame_n": 27240
+          },
+          {
+            "stratum": "BR|25|M|2020",
+            "sample_n": 22,
+            "frame_n": 28819
+          },
+          {
+            "stratum": "BR|26|F|2020",
+            "sample_n": 48,
+            "frame_n": 63657
+          },
+          {
+            "stratum": "BR|26|M|2020",
+            "sample_n": 50,
+            "frame_n": 66330
+          },
+          {
+            "stratum": "BR|27|F|2020",
+            "sample_n": 19,
+            "frame_n": 23528
+          },
+          {
+            "stratum": "BR|27|M|2020",
+            "sample_n": 19,
+            "frame_n": 24527
+          },
+          {
+            "stratum": "BR|28|F|2020",
+            "sample_n": 13,
+            "frame_n": 15828
+          },
+          {
+            "stratum": "BR|28|M|2020",
+            "sample_n": 14,
+            "frame_n": 16962
+          },
+          {
+            "stratum": "BR|29|F|2020",
+            "sample_n": 69,
+            "frame_n": 91132
+          },
+          {
+            "stratum": "BR|29|M|2020",
+            "sample_n": 72,
+            "frame_n": 94728
+          },
+          {
+            "stratum": "BR|31|F|2020",
+            "sample_n": 91,
+            "frame_n": 120435
+          },
+          {
+            "stratum": "BR|31|M|2020",
+            "sample_n": 95,
+            "frame_n": 126236
+          },
+          {
+            "stratum": "BR|32|F|2020",
+            "sample_n": 20,
+            "frame_n": 25959
+          },
+          {
+            "stratum": "BR|32|M|2020",
+            "sample_n": 21,
+            "frame_n": 27419
+          },
+          {
+            "stratum": "BR|33|F|2020",
+            "sample_n": 73,
+            "frame_n": 96956
+          },
+          {
+            "stratum": "BR|33|M|2020",
+            "sample_n": 77,
+            "frame_n": 101870
+          },
+          {
+            "stratum": "BR|35|F|2020",
+            "sample_n": 202,
+            "frame_n": 269645
+          },
+          {
+            "stratum": "BR|35|M|2020",
+            "sample_n": 212,
+            "frame_n": 283565
+          },
+          {
+            "stratum": "BR|41|F|2020",
+            "sample_n": 54,
+            "frame_n": 70939
+          },
+          {
+            "stratum": "BR|41|M|2020",
+            "sample_n": 57,
+            "frame_n": 75463
+          },
+          {
+            "stratum": "BR|42|F|2020",
+            "sample_n": 37,
+            "frame_n": 47619
+          },
+          {
+            "stratum": "BR|42|M|2020",
+            "sample_n": 38,
+            "frame_n": 50080
+          },
+          {
+            "stratum": "BR|43|F|2020",
+            "sample_n": 49,
+            "frame_n": 63777
+          },
+          {
+            "stratum": "BR|43|M|2020",
+            "sample_n": 51,
+            "frame_n": 66717
+          },
+          {
+            "stratum": "BR|50|F|2020",
+            "sample_n": 16,
+            "frame_n": 19939
+          },
+          {
+            "stratum": "BR|50|M|2020",
+            "sample_n": 17,
+            "frame_n": 20911
+          },
+          {
+            "stratum": "BR|51|F|2020",
+            "sample_n": 22,
+            "frame_n": 27823
+          },
+          {
+            "stratum": "BR|51|M|2020",
+            "sample_n": 23,
+            "frame_n": 29157
+          },
+          {
+            "stratum": "BR|52|F|2020",
+            "sample_n": 30,
+            "frame_n": 39143
+          },
+          {
+            "stratum": "BR|52|M|2020",
+            "sample_n": 32,
+            "frame_n": 41041
+          },
+          {
+            "stratum": "BR|53|F|2020",
+            "sample_n": 20,
+            "frame_n": 25607
+          },
+          {
+            "stratum": "BR|53|M|2020",
+            "sample_n": 21,
+            "frame_n": 26845
+          }
+        ],
+        "draws": 9999,
+        "seed": 20261127102,
+        "family_size_including_unavailable_slots": 7,
+        "conditioning": "fixed reference; fixed scores; stated finite frame and stratified sampling approximation",
+        "not_included": [
+          "reference estimation",
+          "source selection",
+          "clock/location error",
+          "model validity",
+          "global generalization"
+        ],
+        "interval95": [
+          0.03663244253965959,
+          0.039985489984541135
+        ],
+        "family_adjusted_interval": [
+          0.03602538695743368,
+          0.040673424154936695
+        ],
+        "family_adjusted_marginal_coverage": 0.9928571428571429,
+        "analytic_design_variance": 7.266468558049787e-07,
+        "bootstrap_variance": 7.319313299400428e-07,
+        "delta_joint_interval95": [
+          0.004483014052356696,
+          0.007836061497238242
+        ],
+        "delta_joint_family_adjusted_interval": [
+          0.0038759584701307873,
+          0.008523995667633802
+        ]
+      },
+      "relative_alignment": {
+        "kind": "R8 within-person relative alignment; descriptive continuity, no new p values",
+        "age20_59_joint_rate": 0.020804495887464015,
+        "age20_49_joint_rate": 0.015129625082476646,
+        "age20_59_exact_independent_phase_mean": 0.020533160737327635,
+        "age20_49_exact_independent_phase_mean": 0.015569899425600983
+      },
+      "birth_years": [
+        2020
+      ],
+      "age20_39_joint_rate_descriptive": 0.027501136017498106,
+      "age20_39_calendar_range": [
+        2040,
+        2060
+      ],
+      "primary_calendar_range": [
+        2040,
+        2080
+      ],
+      "modeled_record_years_total": 80000,
+      "modeled_record_years_within_2026_2070": 61044,
+      "calendar_2026_2070": [
+        {
+          "year": 2026,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2027,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2028,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2029,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2030,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2031,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2032,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2033,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2034,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2035,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2036,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2037,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2038,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2039,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2040,
+          "eligible_source_records": 1044,
+          "joint_rate": 0.03480816761566659,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2041,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.018725613835350388,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2042,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03769602780060343,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2043,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.028542540880586633,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2044,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.020134227946847046,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2045,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.007589849140836011,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2046,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.029576038537663465,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2047,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03452075082662656,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2048,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.031905614301756674,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2049,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03249640397781621,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2050,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.04490382400139302,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2051,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.01637399565873268,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2052,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.019962018437707486,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2053,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.018051163404343904,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2054,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.026673908029244717,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2055,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.02816203452147826,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2056,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.01702977435292924,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2057,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.028075724193903712,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2058,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.024693159183887897,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2059,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03661859597831538,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2060,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.0345939766660914,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2061,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03400038641550452,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2062,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.0649757021928825,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2063,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.02046511830097972,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2064,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.04097259728732857,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2065,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.02000712995508896,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2066,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.028305938195003887,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2067,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03365045201629978,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2068,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.025360154978791596,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2069,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.020412881699527728,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2070,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03334212643304361,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        }
+      ]
+    },
+    {
+      "n_source_records": 2000,
+      "reference_joint_rate": 0.03214942848730289,
+      "joint_rate": 0.0372877404527916,
+      "delta_joint_rate": 0.005138311965488709,
+      "raw_system_means": [
+        0.08660669420232195,
+        0.16683826932144533,
+        0.17645300247696172,
+        0.02075900798032583
+      ],
+      "delta_raw_system_means": [
+        0.0006567170873963829,
+        -0.0017904466317602008,
+        0.0004502811346896729,
+        9.609555608888071e-05
+      ],
+      "fixed_reference_system_means": [
+        0.5000850783177058,
+        0.4977380652708468,
+        0.5001339705057454,
+        0.4959291842766246
+      ],
+      "delta_fixed_reference_system_means": [
+        8.507831770576679e-05,
+        -0.0022619347291532033,
+        0.00013397050574537328,
+        -0.0040708157233754205
+      ],
+      "delta_L": -0.0015284254072693848,
+      "age_band_joint_rates": [
+        0.02368879636724282,
+        0.02920778528494281,
+        0.03552802153492221,
+        0.06072635862405858
+      ],
+      "slot": "brazil2024",
+      "provenance": {
+        "input_sha256": "8e9305b7360acce8bddc14b5c641a897d56ba49d8f6882b0ef7bddc1969e6cbf",
+        "metadata_sha256": "fb0057f9732f51c4d001ae92dd02edae3f8e125ded74d25d7d4359b4357c2b3f",
+        "sampling_manifest_sha256": "81c98966440014f756e75630ea0332b62d5b11d664a05af2116624eca013e1cd",
+        "profile_files": [
+          {
+            "name": "baseline_profiles.jsonl",
+            "sha256": "9076924ba2e21c46f592170ecf2b6e2097846124e05be4a2da3e12599c1e9746"
+          }
+        ],
+        "source_labels": [
+          "SINASC-2024"
+        ],
+        "sample_n": 2000,
+        "eligible_frame_N": 2285483,
+        "complete_profiles": 2000
+      },
+      "sampling_interval": {
+        "status": "computed_assumption_conditional",
+        "point": 0.03728774045279161,
+        "strata": [
+          {
+            "stratum": "BR|11|F|2024",
+            "sample_n": 10,
+            "frame_n": 10470
+          },
+          {
+            "stratum": "BR|11|M|2024",
+            "sample_n": 10,
+            "frame_n": 11131
+          },
+          {
+            "stratum": "BR|12|F|2024",
+            "sample_n": 7,
+            "frame_n": 6829
+          },
+          {
+            "stratum": "BR|12|M|2024",
+            "sample_n": 7,
+            "frame_n": 7065
+          },
+          {
+            "stratum": "BR|13|F|2024",
+            "sample_n": 16,
+            "frame_n": 17982
+          },
+          {
+            "stratum": "BR|13|M|2024",
+            "sample_n": 17,
+            "frame_n": 18931
+          },
+          {
+            "stratum": "BR|14|F|2024",
+            "sample_n": 6,
+            "frame_n": 5893
+          },
+          {
+            "stratum": "BR|14|M|2024",
+            "sample_n": 6,
+            "frame_n": 6164
+          },
+          {
+            "stratum": "BR|15|F|2024",
+            "sample_n": 19,
+            "frame_n": 20653
+          },
+          {
+            "stratum": "BR|15|M|2024",
+            "sample_n": 20,
+            "frame_n": 21956
+          },
+          {
+            "stratum": "BR|16|F|2024",
+            "sample_n": 7,
+            "frame_n": 6786
+          },
+          {
+            "stratum": "BR|16|M|2024",
+            "sample_n": 7,
+            "frame_n": 7012
+          },
+          {
+            "stratum": "BR|17|F|2024",
+            "sample_n": 10,
+            "frame_n": 10619
+          },
+          {
+            "stratum": "BR|17|M|2024",
+            "sample_n": 11,
+            "frame_n": 11223
+          },
+          {
+            "stratum": "BR|21|F|2024",
+            "sample_n": 38,
+            "frame_n": 43552
+          },
+          {
+            "stratum": "BR|21|M|2024",
+            "sample_n": 40,
+            "frame_n": 46393
+          },
+          {
+            "stratum": "BR|22|F|2024",
+            "sample_n": 19,
+            "frame_n": 20777
+          },
+          {
+            "stratum": "BR|22|M|2024",
+            "sample_n": 19,
+            "frame_n": 21296
+          },
+          {
+            "stratum": "BR|23|F|2024",
+            "sample_n": 45,
+            "frame_n": 51464
+          },
+          {
+            "stratum": "BR|23|M|2024",
+            "sample_n": 47,
+            "frame_n": 54333
+          },
+          {
+            "stratum": "BR|24|F|2024",
+            "sample_n": 16,
+            "frame_n": 17944
+          },
+          {
+            "stratum": "BR|24|M|2024",
+            "sample_n": 17,
+            "frame_n": 19063
+          },
+          {
+            "stratum": "BR|25|F|2024",
+            "sample_n": 21,
+            "frame_n": 24117
+          },
+          {
+            "stratum": "BR|25|M|2024",
+            "sample_n": 23,
+            "frame_n": 25333
+          },
+          {
+            "stratum": "BR|26|F|2024",
+            "sample_n": 47,
+            "frame_n": 54636
+          },
+          {
+            "stratum": "BR|26|M|2024",
+            "sample_n": 50,
+            "frame_n": 57411
+          },
+          {
+            "stratum": "BR|27|F|2024",
+            "sample_n": 20,
+            "frame_n": 22334
+          },
+          {
+            "stratum": "BR|27|M|2024",
+            "sample_n": 21,
+            "frame_n": 23281
+          },
+          {
+            "stratum": "BR|28|F|2024",
+            "sample_n": 13,
+            "frame_n": 14016
+          },
+          {
+            "stratum": "BR|28|M|2024",
+            "sample_n": 14,
+            "frame_n": 14748
+          },
+          {
+            "stratum": "BR|29|F|2024",
+            "sample_n": 66,
+            "frame_n": 76400
+          },
+          {
+            "stratum": "BR|29|M|2024",
+            "sample_n": 69,
+            "frame_n": 79674
+          },
+          {
+            "stratum": "BR|31|F|2024",
+            "sample_n": 92,
+            "frame_n": 106989
+          },
+          {
+            "stratum": "BR|31|M|2024",
+            "sample_n": 96,
+            "frame_n": 111748
+          },
+          {
+            "stratum": "BR|32|F|2024",
+            "sample_n": 22,
+            "frame_n": 24245
+          },
+          {
+            "stratum": "BR|32|M|2024",
+            "sample_n": 22,
+            "frame_n": 25292
+          },
+          {
+            "stratum": "BR|33|F|2024",
+            "sample_n": 69,
+            "frame_n": 79802
+          },
+          {
+            "stratum": "BR|33|M|2024",
+            "sample_n": 72,
+            "frame_n": 83826
+          },
+          {
+            "stratum": "BR|35|F|2024",
+            "sample_n": 197,
+            "frame_n": 230438
+          },
+          {
+            "stratum": "BR|35|M|2024",
+            "sample_n": 207,
+            "frame_n": 241711
+          },
+          {
+            "stratum": "BR|41|F|2024",
+            "sample_n": 56,
+            "frame_n": 64073
+          },
+          {
+            "stratum": "BR|41|M|2024",
+            "sample_n": 58,
+            "frame_n": 67157
+          },
+          {
+            "stratum": "BR|42|F|2024",
+            "sample_n": 40,
+            "frame_n": 45608
+          },
+          {
+            "stratum": "BR|42|M|2024",
+            "sample_n": 42,
+            "frame_n": 47860
+          },
+          {
+            "stratum": "BR|43|F|2024",
+            "sample_n": 48,
+            "frame_n": 54774
+          },
+          {
+            "stratum": "BR|43|M|2024",
+            "sample_n": 50,
+            "frame_n": 57071
+          },
+          {
+            "stratum": "BR|50|F|2024",
+            "sample_n": 16,
+            "frame_n": 18147
+          },
+          {
+            "stratum": "BR|50|M|2024",
+            "sample_n": 18,
+            "frame_n": 19478
+          },
+          {
+            "stratum": "BR|51|F|2024",
+            "sample_n": 24,
+            "frame_n": 27098
+          },
+          {
+            "stratum": "BR|51|M|2024",
+            "sample_n": 25,
+            "frame_n": 28011
+          },
+          {
+            "stratum": "BR|52|F|2024",
+            "sample_n": 33,
+            "frame_n": 37931
+          },
+          {
+            "stratum": "BR|52|M|2024",
+            "sample_n": 34,
+            "frame_n": 39071
+          },
+          {
+            "stratum": "BR|53|F|2024",
+            "sample_n": 20,
+            "frame_n": 22240
+          },
+          {
+            "stratum": "BR|53|M|2024",
+            "sample_n": 21,
+            "frame_n": 23427
+          }
+        ],
+        "draws": 9999,
+        "seed": 20261127103,
+        "family_size_including_unavailable_slots": 7,
+        "conditioning": "fixed reference; fixed scores; stated finite frame and stratified sampling approximation",
+        "not_included": [
+          "reference estimation",
+          "source selection",
+          "clock/location error",
+          "model validity",
+          "global generalization"
+        ],
+        "interval95": [
+          0.03572076769039066,
+          0.0388540932086995
+        ],
+        "family_adjusted_interval": [
+          0.03512914807867961,
+          0.039405183928268
+        ],
+        "family_adjusted_marginal_coverage": 0.9928571428571429,
+        "analytic_design_variance": 6.53642486210188e-07,
+        "bootstrap_variance": 6.403018617765797e-07,
+        "delta_joint_interval95": [
+          0.0035713392030877686,
+          0.006704664721396608
+        ],
+        "delta_joint_family_adjusted_interval": [
+          0.002979719591376717,
+          0.007255755440965107
+        ]
+      },
+      "relative_alignment": {
+        "kind": "R8 within-person relative alignment; descriptive continuity, no new p values",
+        "age20_59_joint_rate": 0.023462746282303396,
+        "age20_49_joint_rate": 0.017540541164149336,
+        "age20_59_exact_independent_phase_mean": 0.02259220445151557,
+        "age20_49_exact_independent_phase_mean": 0.016993964990331904
+      },
+      "birth_years": [
+        2024
+      ],
+      "age20_39_joint_rate_descriptive": 0.02644829082609282,
+      "age20_39_calendar_range": [
+        2044,
+        2064
+      ],
+      "primary_calendar_range": [
+        2044,
+        2084
+      ],
+      "modeled_record_years_total": 80000,
+      "modeled_record_years_within_2026_2070": 53035,
+      "calendar_2026_2070": [
+        {
+          "year": 2026,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2027,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2028,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2029,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2030,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2031,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2032,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2033,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2034,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2035,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2036,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2037,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2038,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2039,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2040,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2041,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2042,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2043,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2044,
+          "eligible_source_records": 1035,
+          "joint_rate": 0.013491849828474647,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2045,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.024971724960192943,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2046,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03698101492474423,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2047,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.026886336685088986,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2048,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.018832577699211712,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2049,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.005486038649220134,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2050,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.015914721419993078,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2051,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.02190001639364808,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2052,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.0244974239975441,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2053,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.0284712134898108,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2054,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.06900672986705055,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2055,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.026489607830804125,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2056,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.025954204153374516,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2057,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.022015668385408204,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2058,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.021636757894315455,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2059,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.028480426665675972,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2060,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.02241289042030303,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2061,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.036415004125298155,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2062,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.02405042995288225,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2063,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.031128808458905678,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2064,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.02742897607051388,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2065,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.022557862316672284,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2066,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.06354909010218249,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2067,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.04633830324197487,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2068,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03593571126602458,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2069,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.048260546898330065,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2070,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.04193804111450789,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        }
+      ]
+    },
+    {
+      "n_source_records": 2000,
+      "reference_joint_rate": 0.03214942848730289,
+      "joint_rate": 0.03023023669652704,
+      "delta_joint_rate": -0.0019191917907758517,
+      "raw_system_means": [
+        0.08684084089975397,
+        0.15650617229033503,
+        0.17629591010763002,
+        0.020584123074605255
+      ],
+      "delta_raw_system_means": [
+        0.0008908637848284023,
+        -0.012122543662870494,
+        0.0002931887653579712,
+        -7.878934963169437e-05
+      ],
+      "fixed_reference_system_means": [
+        0.5041010699645704,
+        0.4884596545169931,
+        0.4990009195626931,
+        0.49755394795299235
+      ],
+      "delta_fixed_reference_system_means": [
+        0.004101069964570381,
+        -0.01154034548300692,
+        -0.0009990804373068984,
+        -0.002446052047007652
+      ],
+      "delta_L": -0.0027211020006877584,
+      "age_band_joint_rates": [
+        0.026045124969196868,
+        0.019858914386170868,
+        0.025879002663631016,
+        0.04913790476710943
+      ],
+      "slot": "mexico_2000s",
+      "provenance": {
+        "input_sha256": "cff3aae86557673296be0ca5fe186b2b1bc1ed696aa0dedce75bfe390ee3935e",
+        "metadata_sha256": "14228a699ed89f14a3a4f7ac6b0864c4887ea1c24878019db564d1f870d22795",
+        "sampling_manifest_sha256": "839706a499b37144faba98d891a56700ffe7d4e5306ad2589c91a4e41d2da67b",
+        "profile_files": [
+          {
+            "name": "baseline_profiles.jsonl",
+            "sha256": "9076924ba2e21c46f592170ecf2b6e2097846124e05be4a2da3e12599c1e9746"
+          }
+        ],
+        "source_labels": [
+          "INEGI-birth2009-registered2009_2010"
+        ],
+        "sample_n": 2000,
+        "eligible_frame_N": 1645435,
+        "complete_profiles": 2000
+      },
+      "sampling_interval": {
+        "status": "computed_assumption_conditional",
+        "point": 0.030230236696527045,
+        "strata": [
+          {
+            "stratum": "01|F",
+            "sample_n": 17,
+            "frame_n": 13192
+          },
+          {
+            "stratum": "01|M",
+            "sample_n": 17,
+            "frame_n": 13528
+          },
+          {
+            "stratum": "02|F",
+            "sample_n": 22,
+            "frame_n": 17854
+          },
+          {
+            "stratum": "02|M",
+            "sample_n": 23,
+            "frame_n": 18538
+          },
+          {
+            "stratum": "03|F",
+            "sample_n": 8,
+            "frame_n": 6337
+          },
+          {
+            "stratum": "03|M",
+            "sample_n": 9,
+            "frame_n": 6560
+          },
+          {
+            "stratum": "04|F",
+            "sample_n": 9,
+            "frame_n": 6604
+          },
+          {
+            "stratum": "04|M",
+            "sample_n": 9,
+            "frame_n": 6887
+          },
+          {
+            "stratum": "07|F",
+            "sample_n": 57,
+            "frame_n": 46970
+          },
+          {
+            "stratum": "07|M",
+            "sample_n": 58,
+            "frame_n": 48525
+          },
+          {
+            "stratum": "10|F",
+            "sample_n": 8,
+            "frame_n": 5749
+          },
+          {
+            "stratum": "10|M",
+            "sample_n": 8,
+            "frame_n": 5839
+          },
+          {
+            "stratum": "11|F",
+            "sample_n": 64,
+            "frame_n": 53295
+          },
+          {
+            "stratum": "11|M",
+            "sample_n": 67,
+            "frame_n": 55834
+          },
+          {
+            "stratum": "12|F",
+            "sample_n": 39,
+            "frame_n": 31801
+          },
+          {
+            "stratum": "12|M",
+            "sample_n": 41,
+            "frame_n": 33575
+          },
+          {
+            "stratum": "13|F",
+            "sample_n": 32,
+            "frame_n": 26294
+          },
+          {
+            "stratum": "13|M",
+            "sample_n": 33,
+            "frame_n": 27026
+          },
+          {
+            "stratum": "14|F",
+            "sample_n": 86,
+            "frame_n": 71501
+          },
+          {
+            "stratum": "14|M",
+            "sample_n": 89,
+            "frame_n": 74386
+          },
+          {
+            "stratum": "15|F",
+            "sample_n": 164,
+            "frame_n": 138107
+          },
+          {
+            "stratum": "15|M",
+            "sample_n": 170,
+            "frame_n": 143112
+          },
+          {
+            "stratum": "16|F",
+            "sample_n": 52,
+            "frame_n": 42941
+          },
+          {
+            "stratum": "16|M",
+            "sample_n": 54,
+            "frame_n": 44786
+          },
+          {
+            "stratum": "17|F",
+            "sample_n": 18,
+            "frame_n": 14679
+          },
+          {
+            "stratum": "17|M",
+            "sample_n": 19,
+            "frame_n": 15260
+          },
+          {
+            "stratum": "18|F",
+            "sample_n": 12,
+            "frame_n": 9144
+          },
+          {
+            "stratum": "18|M",
+            "sample_n": 12,
+            "frame_n": 9564
+          },
+          {
+            "stratum": "20|F",
+            "sample_n": 41,
+            "frame_n": 34031
+          },
+          {
+            "stratum": "20|M",
+            "sample_n": 42,
+            "frame_n": 34839
+          },
+          {
+            "stratum": "21|F",
+            "sample_n": 67,
+            "frame_n": 55646
+          },
+          {
+            "stratum": "21|M",
+            "sample_n": 69,
+            "frame_n": 57820
+          },
+          {
+            "stratum": "22|F",
+            "sample_n": 24,
+            "frame_n": 19282
+          },
+          {
+            "stratum": "22|M",
+            "sample_n": 25,
+            "frame_n": 20386
+          },
+          {
+            "stratum": "23|F",
+            "sample_n": 12,
+            "frame_n": 9217
+          },
+          {
+            "stratum": "23|M",
+            "sample_n": 12,
+            "frame_n": 9629
+          },
+          {
+            "stratum": "24|F",
+            "sample_n": 30,
+            "frame_n": 24711
+          },
+          {
+            "stratum": "24|M",
+            "sample_n": 31,
+            "frame_n": 25626
+          },
+          {
+            "stratum": "25|F",
+            "sample_n": 32,
+            "frame_n": 25957
+          },
+          {
+            "stratum": "25|M",
+            "sample_n": 33,
+            "frame_n": 26698
+          },
+          {
+            "stratum": "26|F",
+            "sample_n": 30,
+            "frame_n": 24223
+          },
+          {
+            "stratum": "26|M",
+            "sample_n": 31,
+            "frame_n": 24982
+          },
+          {
+            "stratum": "27|F",
+            "sample_n": 28,
+            "frame_n": 22770
+          },
+          {
+            "stratum": "27|M",
+            "sample_n": 30,
+            "frame_n": 24142
+          },
+          {
+            "stratum": "29|F",
+            "sample_n": 15,
+            "frame_n": 11777
+          },
+          {
+            "stratum": "29|M",
+            "sample_n": 15,
+            "frame_n": 12203
+          },
+          {
+            "stratum": "30|F",
+            "sample_n": 75,
+            "frame_n": 62221
+          },
+          {
+            "stratum": "30|M",
+            "sample_n": 78,
+            "frame_n": 64812
+          },
+          {
+            "stratum": "31|F",
+            "sample_n": 21,
+            "frame_n": 16599
+          },
+          {
+            "stratum": "31|M",
+            "sample_n": 21,
+            "frame_n": 17247
+          },
+          {
+            "stratum": "32|F",
+            "sample_n": 20,
+            "frame_n": 16223
+          },
+          {
+            "stratum": "32|M",
+            "sample_n": 21,
+            "frame_n": 16506
+          }
+        ],
+        "draws": 9999,
+        "seed": 20261127104,
+        "family_size_including_unavailable_slots": 7,
+        "conditioning": "fixed reference; fixed scores; stated finite frame and stratified sampling approximation",
+        "not_included": [
+          "reference estimation",
+          "source selection",
+          "clock/location error",
+          "model validity",
+          "global generalization"
+        ],
+        "interval95": [
+          0.02882397547399282,
+          0.03170580784082934
+        ],
+        "family_adjusted_interval": [
+          0.02827930610572806,
+          0.03218427119109923
+        ],
+        "family_adjusted_marginal_coverage": 0.9928571428571429,
+        "analytic_design_variance": 5.175382524462598e-07,
+        "bootstrap_variance": 5.276037238276278e-07,
+        "delta_joint_interval95": [
+          -0.0033254530133100743,
+          -0.000443620646473554
+        ],
+        "delta_joint_family_adjusted_interval": [
+          -0.0038701223815748344,
+          3.484270379633392e-05
+        ]
+      },
+      "relative_alignment": {
+        "kind": "R8 within-person relative alignment; descriptive continuity, no new p values",
+        "age20_59_joint_rate": 0.021660989673543796,
+        "age20_49_joint_rate": 0.016944386395724667,
+        "age20_59_exact_independent_phase_mean": 0.02131313474724253,
+        "age20_49_exact_independent_phase_mean": 0.017262015409508096
+      },
+      "birth_years": [
+        2009
+      ],
+      "age20_39_joint_rate_descriptive": 0.02295201967768386,
+      "age20_39_calendar_range": [
+        2029,
+        2049
+      ],
+      "primary_calendar_range": [
+        2029,
+        2069
+      ],
+      "modeled_record_years_total": 80000,
+      "modeled_record_years_within_2026_2070": 80000,
+      "calendar_2026_2070": [
+        {
+          "year": 2026,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2027,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2028,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2029,
+          "eligible_source_records": 944,
+          "joint_rate": 0.0381372880926572,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2030,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.019038552116169626,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2031,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.013516431857934325,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2032,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.01853908998098151,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2033,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.02657555667735685,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2034,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.011037079127816395,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2035,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03196532514979307,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2036,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03886467067710791,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2037,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03393968657108777,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2038,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.031499670974270255,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2039,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.04202816045565908,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2040,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.00603239821456672,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2041,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.013529365042990448,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2042,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.01505110431354462,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2043,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.016053221137736225,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2044,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.02943335345831378,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2045,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.017023508287506376,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2046,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.011929643425815881,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2047,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.030996594541737796,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2048,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.02348688292464215,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2049,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.020511262428375494,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2050,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.040087492527678334,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2051,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.04341649678040576,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2052,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.020430484347993792,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2053,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.0320151186465021,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2054,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.030018301426725326,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2055,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.021458571342832484,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2056,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.024412212845212982,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2057,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.009052003181504056,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2058,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.013882707768322358,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2059,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.02636605528473188,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2060,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.01444102554992076,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2061,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.0222905032243238,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2062,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.036328251229102486,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2063,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.09289645880440073,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2064,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.04950404875766482,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2065,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.07034772207269085,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2066,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.055278739426714345,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2067,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.06291754089612818,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2068,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.04696561212026513,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2069,
+          "eligible_source_records": 1056,
+          "joint_rate": 0.0531176679283565,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2070,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        }
+      ]
+    },
+    {
+      "n_source_records": 2000,
+      "reference_joint_rate": 0.03214942848730289,
+      "joint_rate": 0.03614346235671093,
+      "delta_joint_rate": 0.00399403386940804,
+      "raw_system_means": [
+        0.0878672451658218,
+        0.16431334547600596,
+        0.17587271181542144,
+        0.020628749642173465
+      ],
+      "delta_raw_system_means": [
+        0.0019172680508962314,
+        -0.0043153704771995705,
+        -0.00013000952685060518,
+        -3.416278206348419e-05
+      ],
+      "fixed_reference_system_means": [
+        0.5055475968456451,
+        0.49467700196149944,
+        0.4988590297646808,
+        0.4929109456993632
+      ],
+      "delta_fixed_reference_system_means": [
+        0.0055475968456450975,
+        -0.005322998038500559,
+        -0.0011409702353192275,
+        -0.007089054300636777
+      ],
+      "delta_L": -0.0020013564322028388,
+      "age_band_joint_rates": [
+        0.0258506841833852,
+        0.026143612293202587,
+        0.03135345486318163,
+        0.06122609808707432
+      ],
+      "slot": "mexico2020",
+      "provenance": {
+        "input_sha256": "238d328202a72cd08ea0e5dcd38938868859f94d46efc758513df410ad25e68c",
+        "metadata_sha256": "b6e3096b53f380d45c00a27dbad391c2d1b5cda84051ef43d79ea332d1e0194f",
+        "sampling_manifest_sha256": "fb77f099e0f44e893487cf9b2577236beac437864cb30f9c07ccce5de613de43",
+        "profile_files": [
+          {
+            "name": "baseline_profiles.jsonl",
+            "sha256": "9076924ba2e21c46f592170ecf2b6e2097846124e05be4a2da3e12599c1e9746"
+          }
+        ],
+        "source_labels": [
+          "INEGI-birth2020-registered2020_2021"
+        ],
+        "sample_n": 2000,
+        "eligible_frame_N": 1369906,
+        "complete_profiles": 2000
+      },
+      "sampling_interval": {
+        "status": "computed_assumption_conditional",
+        "point": 0.03614346235671094,
+        "strata": [
+          {
+            "stratum": "01|F",
+            "sample_n": 18,
+            "frame_n": 11803
+          },
+          {
+            "stratum": "01|M",
+            "sample_n": 18,
+            "frame_n": 12308
+          },
+          {
+            "stratum": "02|F",
+            "sample_n": 31,
+            "frame_n": 21153
+          },
+          {
+            "stratum": "02|M",
+            "sample_n": 32,
+            "frame_n": 21899
+          },
+          {
+            "stratum": "03|F",
+            "sample_n": 8,
+            "frame_n": 5187
+          },
+          {
+            "stratum": "03|M",
+            "sample_n": 9,
+            "frame_n": 5315
+          },
+          {
+            "stratum": "04|F",
+            "sample_n": 8,
+            "frame_n": 5283
+          },
+          {
+            "stratum": "04|M",
+            "sample_n": 9,
+            "frame_n": 5484
+          },
+          {
+            "stratum": "07|F",
+            "sample_n": 55,
+            "frame_n": 37971
+          },
+          {
+            "stratum": "07|M",
+            "sample_n": 57,
+            "frame_n": 39165
+          },
+          {
+            "stratum": "09|F",
+            "sample_n": 68,
+            "frame_n": 47254
+          },
+          {
+            "stratum": "09|M",
+            "sample_n": 71,
+            "frame_n": 49491
+          },
+          {
+            "stratum": "10|F",
+            "sample_n": 12,
+            "frame_n": 7814
+          },
+          {
+            "stratum": "10|M",
+            "sample_n": 13,
+            "frame_n": 8178
+          },
+          {
+            "stratum": "11|F",
+            "sample_n": 67,
+            "frame_n": 46185
+          },
+          {
+            "stratum": "11|M",
+            "sample_n": 68,
+            "frame_n": 47440
+          },
+          {
+            "stratum": "12|F",
+            "sample_n": 37,
+            "frame_n": 25580
+          },
+          {
+            "stratum": "12|M",
+            "sample_n": 39,
+            "frame_n": 26447
+          },
+          {
+            "stratum": "13|F",
+            "sample_n": 24,
+            "frame_n": 15989
+          },
+          {
+            "stratum": "13|M",
+            "sample_n": 25,
+            "frame_n": 16615
+          },
+          {
+            "stratum": "14|F",
+            "sample_n": 80,
+            "frame_n": 55287
+          },
+          {
+            "stratum": "14|M",
+            "sample_n": 84,
+            "frame_n": 58119
+          },
+          {
+            "stratum": "15|F",
+            "sample_n": 129,
+            "frame_n": 89909
+          },
+          {
+            "stratum": "15|M",
+            "sample_n": 133,
+            "frame_n": 92977
+          },
+          {
+            "stratum": "16|F",
+            "sample_n": 51,
+            "frame_n": 35002
+          },
+          {
+            "stratum": "16|M",
+            "sample_n": 52,
+            "frame_n": 36208
+          },
+          {
+            "stratum": "17|F",
+            "sample_n": 18,
+            "frame_n": 11886
+          },
+          {
+            "stratum": "17|M",
+            "sample_n": 19,
+            "frame_n": 12414
+          },
+          {
+            "stratum": "18|F",
+            "sample_n": 11,
+            "frame_n": 7168
+          },
+          {
+            "stratum": "18|M",
+            "sample_n": 11,
+            "frame_n": 7222
+          },
+          {
+            "stratum": "20|F",
+            "sample_n": 26,
+            "frame_n": 17856
+          },
+          {
+            "stratum": "20|M",
+            "sample_n": 28,
+            "frame_n": 18820
+          },
+          {
+            "stratum": "21|F",
+            "sample_n": 73,
+            "frame_n": 50393
+          },
+          {
+            "stratum": "21|M",
+            "sample_n": 75,
+            "frame_n": 52264
+          },
+          {
+            "stratum": "22|F",
+            "sample_n": 26,
+            "frame_n": 17578
+          },
+          {
+            "stratum": "22|M",
+            "sample_n": 27,
+            "frame_n": 18255
+          },
+          {
+            "stratum": "23|F",
+            "sample_n": 16,
+            "frame_n": 10573
+          },
+          {
+            "stratum": "23|M",
+            "sample_n": 16,
+            "frame_n": 10880
+          },
+          {
+            "stratum": "24|F",
+            "sample_n": 30,
+            "frame_n": 20343
+          },
+          {
+            "stratum": "24|M",
+            "sample_n": 31,
+            "frame_n": 21458
+          },
+          {
+            "stratum": "25|F",
+            "sample_n": 29,
+            "frame_n": 19865
+          },
+          {
+            "stratum": "25|M",
+            "sample_n": 30,
+            "frame_n": 20700
+          },
+          {
+            "stratum": "26|F",
+            "sample_n": 26,
+            "frame_n": 17520
+          },
+          {
+            "stratum": "26|M",
+            "sample_n": 27,
+            "frame_n": 18410
+          },
+          {
+            "stratum": "27|F",
+            "sample_n": 25,
+            "frame_n": 16665
+          },
+          {
+            "stratum": "27|M",
+            "sample_n": 25,
+            "frame_n": 17047
+          },
+          {
+            "stratum": "29|F",
+            "sample_n": 13,
+            "frame_n": 8786
+          },
+          {
+            "stratum": "29|M",
+            "sample_n": 14,
+            "frame_n": 9123
+          },
+          {
+            "stratum": "30|F",
+            "sample_n": 61,
+            "frame_n": 41904
+          },
+          {
+            "stratum": "30|M",
+            "sample_n": 63,
+            "frame_n": 43447
+          },
+          {
+            "stratum": "31|F",
+            "sample_n": 22,
+            "frame_n": 14597
+          },
+          {
+            "stratum": "31|M",
+            "sample_n": 22,
+            "frame_n": 15153
+          },
+          {
+            "stratum": "32|F",
+            "sample_n": 19,
+            "frame_n": 12504
+          },
+          {
+            "stratum": "32|M",
+            "sample_n": 19,
+            "frame_n": 13012
+          }
+        ],
+        "draws": 9999,
+        "seed": 20261127105,
+        "family_size_including_unavailable_slots": 7,
+        "conditioning": "fixed reference; fixed scores; stated finite frame and stratified sampling approximation",
+        "not_included": [
+          "reference estimation",
+          "source selection",
+          "clock/location error",
+          "model validity",
+          "global generalization"
+        ],
+        "interval95": [
+          0.03448155807553548,
+          0.03781243801414477
+        ],
+        "family_adjusted_interval": [
+          0.03389983815229013,
+          0.03841607695708842
+        ],
+        "family_adjusted_marginal_coverage": 0.9928571428571429,
+        "analytic_design_variance": 7.097947833463056e-07,
+        "bootstrap_variance": 7.213492136508067e-07,
+        "delta_joint_interval95": [
+          0.00233212958823259,
+          0.005663009526841879
+        ],
+        "delta_joint_family_adjusted_interval": [
+          0.0017504096649872333,
+          0.00626664846978553
+        ]
+      },
+      "relative_alignment": {
+        "kind": "R8 within-person relative alignment; descriptive continuity, no new p values",
+        "age20_59_joint_rate": 0.02088548699447507,
+        "age20_49_joint_rate": 0.01511093100745715,
+        "age20_59_exact_independent_phase_mean": 0.020776979824838573,
+        "age20_49_exact_independent_phase_mean": 0.015359810611283272
+      },
+      "birth_years": [
+        2020
+      ],
+      "age20_39_joint_rate_descriptive": 0.025997148238293893,
+      "age20_39_calendar_range": [
+        2040,
+        2060
+      ],
+      "primary_calendar_range": [
+        2040,
+        2080
+      ],
+      "modeled_record_years_total": 80000,
+      "modeled_record_years_within_2026_2070": 61013,
+      "calendar_2026_2070": [
+        {
+          "year": 2026,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2027,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2028,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2029,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2030,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2031,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2032,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2033,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2034,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2035,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2036,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2037,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2038,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2039,
+          "eligible_source_records": 0,
+          "joint_rate": null,
+          "descriptive_only": true,
+          "peak_listing_eligible": false
+        },
+        {
+          "year": 2040,
+          "eligible_source_records": 1013,
+          "joint_rate": 0.041516717390246156,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2041,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.0170446396297671,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2042,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.030480308431284672,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2043,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.02296913947497475,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2044,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.016492389409844415,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2045,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.006493148401637375,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2046,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.022558938024768185,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2047,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.033995039981479576,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2048,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03794628105385143,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2049,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.028935040383258125,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2050,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.043538891754545665,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2051,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.016566896186723325,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2052,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.020356556562182184,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2053,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.020082927557672346,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2054,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.022584914931510214,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2055,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.036466944392973474,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2056,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.021000722368029624,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2057,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.02335506448373076,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2058,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03265117973059357,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2059,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.02233589173541305,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2060,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.02845830882904879,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2061,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.038018663447270104,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2062,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.05506856302022179,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2063,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.025948123835575692,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2064,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.027993325703498634,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2065,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.016040264691243297,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2066,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.03340539537922953,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2067,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.033576295001596715,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2068,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.031026883971080166,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2069,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.017494446920174947,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        },
+        {
+          "year": 2070,
+          "eligible_source_records": 2000,
+          "joint_rate": 0.04153709808775425,
+          "descriptive_only": true,
+          "peak_listing_eligible": true
+        }
+      ]
+    }
+  ],
+  "interpretation": "Structural source-frame contrasts; no decade-wide, global, mortality or AI-risk inference.",
+  "reference_refit_sensitivity": {
+    "status": "computed_exploratory_sensitivity",
+    "draws": 999,
+    "reference_seed": 20261127200,
+    "target_seeds": {
+      "brazil_2000s": 20261127201,
+      "brazil2010": 20261127202,
+      "brazil2020": 20261127203,
+      "brazil2024": 20261127204,
+      "mexico_2000s": 20261127205,
+      "mexico2020": 20261127206
+    },
+    "reference_draw_shared_across_targets": true,
+    "reference_CDF_refitted_each_draw": true,
+    "threshold_precision": "Exact >=4/5 near-boundary oracle; baseline uses rational N_h/n_h, replicate CDFs use exact binary ratios of supplied floating replicate weights",
+    "replicate_weight_rule": "g_i=1-sqrt(1-n_h/N_h)+sqrt(1-n_h/N_h)*n_h/(n_h-1)*m_i; m~Multinomial(n_h-1,1/n_h); census unchanged",
+    "full_refit_reference_joint_percentile_range95": [
+      0.03075886172932327,
+      0.033543220411019085
+    ],
+    "targets": [
+      {
+        "slot": "brazil2010",
+        "point_delta_joint_rate": -0.0005713003674361061,
+        "full_reference_refit_percentile_range95": [
+          -0.0026722944550053866,
+          0.0016313928466354152
+        ],
+        "full_reference_refit_mean": -0.0005317303862673886,
+        "full_reference_refit_variance": 1.1914292729304886e-06,
+        "fixed_CDF_two_sample_percentile_range95": [
+          -0.002660706476817888,
+          0.0016077084931988915
+        ],
+        "fixed_CDF_two_sample_variance": 1.1723511851626295e-06
+      },
+      {
+        "slot": "brazil2020",
+        "point_delta_joint_rate": 0.006153670845058169,
+        "full_reference_refit_percentile_range95": [
+          0.003933962858697544,
+          0.008322873501211154
+        ],
+        "full_reference_refit_mean": 0.006122033616484195,
+        "full_reference_refit_variance": 1.2775244850758152e-06,
+        "fixed_CDF_two_sample_percentile_range95": [
+          0.004039898834135448,
+          0.008343081562531201
+        ],
+        "fixed_CDF_two_sample_variance": 1.2559293511246417e-06
+      },
+      {
+        "slot": "brazil2024",
+        "point_delta_joint_rate": 0.005138311965488709,
+        "full_reference_refit_percentile_range95": [
+          0.003030605281529715,
+          0.007252681855141218
+        ],
+        "full_reference_refit_mean": 0.005150739500487467,
+        "full_reference_refit_variance": 1.1821217950814668e-06,
+        "fixed_CDF_two_sample_percentile_range95": [
+          0.0029809071786110236,
+          0.007248366404402351
+        ],
+        "fixed_CDF_two_sample_variance": 1.1571094839386435e-06
+      },
+      {
+        "slot": "brazil_2000s",
+        "point_delta_joint_rate": 0.0015498833549184785,
+        "full_reference_refit_percentile_range95": [
+          -0.0006762708320130907,
+          0.0035001663259661645
+        ],
+        "full_reference_refit_mean": 0.0014155685674193895,
+        "full_reference_refit_variance": 1.13380934883932e-06,
+        "fixed_CDF_two_sample_percentile_range95": [
+          -0.0005677860649841256,
+          0.0034775934823891587
+        ],
+        "fixed_CDF_two_sample_variance": 1.0841082552089464e-06
+      },
+      {
+        "slot": "mexico2020",
+        "point_delta_joint_rate": 0.00399403386940804,
+        "full_reference_refit_percentile_range95": [
+          0.0019301976048149959,
+          0.0064241013102479295
+        ],
+        "full_reference_refit_mean": 0.004083919235313295,
+        "full_reference_refit_variance": 1.2939551454721434e-06,
+        "fixed_CDF_two_sample_percentile_range95": [
+          0.0018879957022058488,
+          0.006255911870787892
+        ],
+        "fixed_CDF_two_sample_variance": 1.2287860982468146e-06
+      },
+      {
+        "slot": "mexico_2000s",
+        "point_delta_joint_rate": -0.0019191917907758517,
+        "full_reference_refit_percentile_range95": [
+          -0.004019341300385072,
+          9.118812692070422e-05
+        ],
+        "full_reference_refit_mean": -0.001963736126622264,
+        "full_reference_refit_variance": 1.1162518084820607e-06,
+        "fixed_CDF_two_sample_percentile_range95": [
+          -0.004004811687093617,
+          5.138862221153675e-05
+        ],
+        "fixed_CDF_two_sample_variance": 1.1018372819474625e-06
+      }
+    ],
+    "runtime_seconds": 14.480467,
+    "interpretation": "Empirical 2.5th\u201397.5th percentile sensitivity ranges. No calibrated coverage for the nonsmooth threshold functional, no multiplicity-adjusted conclusion, and no mortality/AI-risk interpretation.",
+    "excluded_uncertainty": [
+      "source undercoverage",
+      "registration delay outside sampled archives",
+      "clock/location error",
+      "engine or traditional-rule validity",
+      "global population generalization"
+    ],
+    "unavailable_targets": []
+  },
+  "primary_threshold_precision": {
+    "comparison": "Exact rational design-weight >=4/5 oracle within2e-10 of the threshold; no widened threshold",
+    "diagnostics": {
+      "boundary_cells_checked": 0,
+      "float_classification_corrections": 0
+    }
+  },
+  "code_sha256": {
+    "rounds/r10/methods/analyze_cohorts.py": "548bc881302b3fb13a14ca22b0d0a66ac1ce939fdc7fd7c9c5c726368d4f658b",
+    "rounds/r10/methods/r10_io.py": "7112302cba5c320fbd71f3aad8914be5e81372998735614c9c52446dd21f69cd",
+    "rounds/r10/methods/reference_sensitivity.py": "00f58f6d30588a11b67676a467c8f7a1d04e9b170f8e5e0b4a331ddcf2637e95",
+    "rounds/r10/methods/threshold_precision.py": "1b4637b018078640c55724eae009eebcf30e969efbe6fd7c87622b2bcb33e62c",
+    "rounds/r10/methods/precision_reference.py": "29973a0dc528521743fc777d6eec19291f181f3bc699974004e08bb2e0a12ad1",
+    "rounds/r9/methods/fixed_reference.py": "f5e92dd35702bb198550c2fd8d47aaf7c8b51a08aa4bfdc779af46e7f8c02321",
+    "rounds/r9/methods/analyze_new_cohorts.py": "4a05ae4ddb9e16c63d5fbd92be8513d5facbe0cbe35b1713f8cb7bb724f7634c"
+  },
+  "analysis_config_sha256": "2f062e8ee76fd823fe1496ea868fe8c69ba668ab18a597360366de3ddcd6e729"
+}

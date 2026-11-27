@@ -1,0 +1,2638 @@
+{
+  "created_utc": "2026-11-27T08:06:54.194351+00:00",
+  "status": "passed",
+  "review_scope": "Internal second-agent review; sorted raw-value CDF, direct selected sums, exact Fraction(N_h,n_h) threshold/variance arithmetic and independent primary bootstrap replay. No imports from primary methods; not external peer review.",
+  "not_reviewed": [
+    "full reference-refit Monte Carlo distribution not replayed",
+    "birth-record truth beyond sealed inputs",
+    "traditional-rule predictive validity",
+    "mortality or AI outcomes"
+  ],
+  "reference": {
+    "provenance": {
+      "input_sha256": "3d9a2dc48a26a083a20abbd372310310d13b6e93d880a4f8d1fafa02f8914f6d",
+      "metadata_sha256": "a50061c89d2ada34bffa55a0e500f413dd833263c5300771a6bc51be65b6d341",
+      "sampling_manifest_sha256": "39eceec508bcda8665e1d112de9a0c1153ca5dd1856bee0cf0849e282c409a93",
+      "input_seal_sha256": null,
+      "sample_n": 2000,
+      "eligible_frame_N": 2805207,
+      "profile_status_counts": {
+        "computed": 2000
+      },
+      "profile_sha256": [
+        "5bdc0d2e5c53cb15928a4a0781e5c7785085d3d039cfbf7dcc9b44f2a3f1c401"
+      ],
+      "strata": 54,
+      "all_clock_offsets_and_40_completed_ages_checked": true
+    },
+    "CDF_diagnostics": {
+      "selected_direct_CDF_checks": 80,
+      "max_direct_CDF_error": 5.695444116327053e-14,
+      "near_threshold_exact_rational_queries": 0,
+      "floating_threshold_flags_corrected_by_exact_rational_comparison": 0
+    },
+    "independent_joint_rate": 0.03214942848730289
+  },
+  "targets": [
+    {
+      "slot": "brazil_2000s",
+      "provenance": {
+        "input_sha256": "1c2d60956ebaef3bb41552941bf547f0633f163ecb0a6fa6b4e34173977cf584",
+        "metadata_sha256": "21096fff21650dcfc19c8b1812b5a6380338bae839b355b4bd730757f8a0c91c",
+        "sampling_manifest_sha256": "46c7b7b08db791866c6d9605c312a23c8d22841d7b1862f11fc72966b6aa7535",
+        "input_seal_sha256": "d77b42330d355e7632cabf5f018ef97d7b75d14f1de3bc3b6b5ea4047ec0a224",
+        "sample_n": 2000,
+        "eligible_frame_N": 2751898,
+        "profile_status_counts": {
+          "computed": 2000
+        },
+        "profile_sha256": [
+          "9076924ba2e21c46f592170ecf2b6e2097846124e05be4a2da3e12599c1e9746"
+        ],
+        "strata": 54,
+        "all_clock_offsets_and_40_completed_ages_checked": true
+      },
+      "CDF_diagnostics": {
+        "selected_direct_CDF_checks": 80,
+        "max_direct_CDF_error": 5.495603971894525e-14,
+        "near_threshold_exact_rational_queries": 0,
+        "floating_threshold_flags_corrected_by_exact_rational_comparison": 0
+      },
+      "independent_joint_rate": 0.03369931184222137,
+      "independent_delta_joint_rate": 0.0015498833549184785,
+      "independent_analytic_design_variance": 5.550240622780407e-07,
+      "unweighted_joint_record_years": 2695,
+      "all_40_age_points_verified": true,
+      "all_45_calendar_entries_checked": true,
+      "primary_bootstrap_replayed": true
+    },
+    {
+      "slot": "brazil2010",
+      "provenance": {
+        "input_sha256": "e073e19bcb0eda1f0a144314e5a8b42dd497857ec4db7d6712136deabaa6e922",
+        "metadata_sha256": "04d899a99e119f66b55bb72005d4bfbd8e7b0ded411ca925a4afea97ec6a1585",
+        "sampling_manifest_sha256": "53c15781d0d3a0e07a2f308bb69d12a1c40256ca01ac33579409b93101a2ba16",
+        "input_seal_sha256": "014210b476760d95d01f426da472653a4497893a737521616f9f25e2f591f28f",
+        "sample_n": 2000,
+        "eligible_frame_N": 2736095,
+        "profile_status_counts": {
+          "computed": 2000
+        },
+        "profile_sha256": [
+          "9076924ba2e21c46f592170ecf2b6e2097846124e05be4a2da3e12599c1e9746"
+        ],
+        "strata": 54,
+        "all_clock_offsets_and_40_completed_ages_checked": true
+      },
+      "CDF_diagnostics": {
+        "selected_direct_CDF_checks": 80,
+        "max_direct_CDF_error": 5.540012892879531e-14,
+        "near_threshold_exact_rational_queries": 0,
+        "floating_threshold_flags_corrected_by_exact_rational_comparison": 0
+      },
+      "independent_joint_rate": 0.03157812811986679,
+      "independent_delta_joint_rate": -0.0005713003674361061,
+      "independent_analytic_design_variance": 5.855239752551045e-07,
+      "unweighted_joint_record_years": 2526,
+      "all_40_age_points_verified": true,
+      "all_45_calendar_entries_checked": true,
+      "primary_bootstrap_replayed": true
+    },
+    {
+      "slot": "brazil2020",
+      "provenance": {
+        "input_sha256": "1255c1ceb4785f866dec1f0dfc85f26d65bfb0fe2f24890edd89f4053b11781f",
+        "metadata_sha256": "c81664532ab7fd417d17b97503420f24541c61b06b0c8bde49d216d36b2869d2",
+        "sampling_manifest_sha256": "489061f4ee8fde68747dd14d04d300cd311aa1941e92893cc26ca5d2b1d70b34",
+        "input_seal_sha256": "bc7a6f5636f4ff91381f6b3ae00c8aad1a5f71231fb4a602aaf0aae2603f9b16",
+        "sample_n": 2000,
+        "eligible_frame_N": 2609808,
+        "profile_status_counts": {
+          "computed": 2000
+        },
+        "profile_sha256": [
+          "9076924ba2e21c46f592170ecf2b6e2097846124e05be4a2da3e12599c1e9746"
+        ],
+        "strata": 54,
+        "all_clock_offsets_and_40_completed_ages_checked": true
+      },
+      "CDF_diagnostics": {
+        "selected_direct_CDF_checks": 80,
+        "max_direct_CDF_error": 5.717648576819556e-14,
+        "near_threshold_exact_rational_queries": 0,
+        "floating_threshold_flags_corrected_by_exact_rational_comparison": 0
+      },
+      "independent_joint_rate": 0.03830309933236106,
+      "independent_delta_joint_rate": 0.006153670845058169,
+      "independent_analytic_design_variance": 7.266468558049785e-07,
+      "unweighted_joint_record_years": 3065,
+      "all_40_age_points_verified": true,
+      "all_45_calendar_entries_checked": true,
+      "primary_bootstrap_replayed": true
+    },
+    {
+      "slot": "brazil2024",
+      "provenance": {
+        "input_sha256": "8e9305b7360acce8bddc14b5c641a897d56ba49d8f6882b0ef7bddc1969e6cbf",
+        "metadata_sha256": "fb0057f9732f51c4d001ae92dd02edae3f8e125ded74d25d7d4359b4357c2b3f",
+        "sampling_manifest_sha256": "81c98966440014f756e75630ea0332b62d5b11d664a05af2116624eca013e1cd",
+        "input_seal_sha256": "88c4fbbeb59eaec3e2af326198ff44db33936fc3c36b9a14a870d6d8976365bf",
+        "sample_n": 2000,
+        "eligible_frame_N": 2285483,
+        "profile_status_counts": {
+          "computed": 2000
+        },
+        "profile_sha256": [
+          "9076924ba2e21c46f592170ecf2b6e2097846124e05be4a2da3e12599c1e9746"
+        ],
+        "strata": 54,
+        "all_clock_offsets_and_40_completed_ages_checked": true
+      },
+      "CDF_diagnostics": {
+        "selected_direct_CDF_checks": 80,
+        "max_direct_CDF_error": 5.639932965095795e-14,
+        "near_threshold_exact_rational_queries": 0,
+        "floating_threshold_flags_corrected_by_exact_rational_comparison": 0
+      },
+      "independent_joint_rate": 0.0372877404527916,
+      "independent_delta_joint_rate": 0.005138311965488709,
+      "independent_analytic_design_variance": 6.53642486210188e-07,
+      "unweighted_joint_record_years": 2988,
+      "all_40_age_points_verified": true,
+      "all_45_calendar_entries_checked": true,
+      "primary_bootstrap_replayed": true
+    },
+    {
+      "slot": "mexico_2000s",
+      "provenance": {
+        "input_sha256": "cff3aae86557673296be0ca5fe186b2b1bc1ed696aa0dedce75bfe390ee3935e",
+        "metadata_sha256": "14228a699ed89f14a3a4f7ac6b0864c4887ea1c24878019db564d1f870d22795",
+        "sampling_manifest_sha256": "839706a499b37144faba98d891a56700ffe7d4e5306ad2589c91a4e41d2da67b",
+        "input_seal_sha256": "e1e3235b88aff6e51bae7ecece2a78dcfba865f094a1c10e6f1d4ddd5f2e5b20",
+        "sample_n": 2000,
+        "eligible_frame_N": 1645435,
+        "profile_status_counts": {
+          "computed": 2000
+        },
+        "profile_sha256": [
+          "9076924ba2e21c46f592170ecf2b6e2097846124e05be4a2da3e12599c1e9746"
+        ],
+        "strata": 52,
+        "all_clock_offsets_and_40_completed_ages_checked": true
+      },
+      "CDF_diagnostics": {
+        "selected_direct_CDF_checks": 80,
+        "max_direct_CDF_error": 5.540012892879531e-14,
+        "near_threshold_exact_rational_queries": 0,
+        "floating_threshold_flags_corrected_by_exact_rational_comparison": 0
+      },
+      "independent_joint_rate": 0.03023023669652704,
+      "independent_delta_joint_rate": -0.0019191917907758517,
+      "independent_analytic_design_variance": 5.175382524462599e-07,
+      "unweighted_joint_record_years": 2421,
+      "all_40_age_points_verified": true,
+      "all_45_calendar_entries_checked": true,
+      "primary_bootstrap_replayed": true
+    },
+    {
+      "slot": "mexico2020",
+      "provenance": {
+        "input_sha256": "238d328202a72cd08ea0e5dcd38938868859f94d46efc758513df410ad25e68c",
+        "metadata_sha256": "b6e3096b53f380d45c00a27dbad391c2d1b5cda84051ef43d79ea332d1e0194f",
+        "sampling_manifest_sha256": "fb77f099e0f44e893487cf9b2577236beac437864cb30f9c07ccce5de613de43",
+        "input_seal_sha256": "a0e67c8af3db6964fb07bf93823d525337cf642c58f4a16b9341eb55b378aa05",
+        "sample_n": 2000,
+        "eligible_frame_N": 1369906,
+        "profile_status_counts": {
+          "computed": 2000
+        },
+        "profile_sha256": [
+          "9076924ba2e21c46f592170ecf2b6e2097846124e05be4a2da3e12599c1e9746"
+        ],
+        "strata": 54,
+        "all_clock_offsets_and_40_completed_ages_checked": true
+      },
+      "CDF_diagnostics": {
+        "selected_direct_CDF_checks": 80,
+        "max_direct_CDF_error": 5.695444116327053e-14,
+        "near_threshold_exact_rational_queries": 0,
+        "floating_threshold_flags_corrected_by_exact_rational_comparison": 0
+      },
+      "independent_joint_rate": 0.03614346235671093,
+      "independent_delta_joint_rate": 0.00399403386940804,
+      "independent_analytic_design_variance": 7.097947833463055e-07,
+      "unweighted_joint_record_years": 2893,
+      "all_40_age_points_verified": true,
+      "all_45_calendar_entries_checked": true,
+      "primary_bootstrap_replayed": true
+    }
+  ],
+  "unavailable_slots": [
+    "new_country"
+  ],
+  "family_size_retained": 7,
+  "comparisons": [
+    {
+      "label": "reference.J",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.raw_means",
+      "max_abs_error": 3.469446951953614e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.mid_CDF_mean_half",
+      "max_abs_error": 3.086420008457935e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.relative.age20_59_joint_rate",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.relative.age20_49_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.relative.age20_59_exact_independent_phase_mean",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.relative.age20_49_exact_independent_phase_mean",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.age20_39_joint_rate_descriptive",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2026",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2027",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2028",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2029",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2030",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2031",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2032",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2033",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2034",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2035",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2036",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2037",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2038",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2039",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2040",
+      "max_abs_error": 1.734723475976807e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2041",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2042",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2043",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2044",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2045",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2046",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2047",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2048",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2049",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2050",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2051",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2052",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2053",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2054",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2055",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2056",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2057",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2058",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2059",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2060",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2061",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2062",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2063",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2064",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2065",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "reference.calendar_2066",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.delta_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.reference_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.raw_system_means",
+      "max_abs_error": 2.220446049250313e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.delta_raw_system_means",
+      "max_abs_error": 2.636779683484747e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.fixed_reference_system_means",
+      "max_abs_error": 2.936539900133539e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.delta_fixed_reference_system_means",
+      "max_abs_error": 2.936539900133539e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.delta_L",
+      "max_abs_error": 2.1760371282653068e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.age_band_joint_rates",
+      "max_abs_error": 1.3877787807814457e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.interval_point",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.exact_Fraction_design_variance",
+      "max_abs_error": 2.117582368135751e-22,
+      "tolerance": 1e-14,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.bootstrap_replay.interval95",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.bootstrap_replay.family_adjusted_interval",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.bootstrap_replay.bootstrap_variance",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-14,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.delta_interval95",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.delta_family_interval",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.Bonferroni_marginal_coverage",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.relative.age20_59_joint_rate",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.relative.age20_49_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.relative.age20_59_exact_independent_phase_mean",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.relative.age20_49_exact_independent_phase_mean",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.age20_39_joint_rate_descriptive",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2027",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2028",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2029",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2030",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2031",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2032",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2033",
+      "max_abs_error": 1.734723475976807e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2034",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2035",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2036",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2037",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2038",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2039",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2040",
+      "max_abs_error": 1.734723475976807e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2041",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2042",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2043",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2044",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2045",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2046",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2047",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2048",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2049",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2050",
+      "max_abs_error": 1.734723475976807e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2051",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2052",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2053",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2054",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2055",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2056",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2057",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2058",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2059",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2060",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2061",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2062",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2063",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2064",
+      "max_abs_error": 1.3877787807814457e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2065",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2066",
+      "max_abs_error": 1.3877787807814457e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.calendar_2067",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.delta_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.reference_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.raw_system_means",
+      "max_abs_error": 3.0531133177191805e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.delta_raw_system_means",
+      "max_abs_error": 2.914335439641036e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.fixed_reference_system_means",
+      "max_abs_error": 3.008704396734174e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.delta_fixed_reference_system_means",
+      "max_abs_error": 3.008704396734174e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.delta_L",
+      "max_abs_error": 2.2315482794965646e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.age_band_joint_rates",
+      "max_abs_error": 2.7755575615628914e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.interval_point",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.exact_Fraction_design_variance",
+      "max_abs_error": 2.117582368135751e-22,
+      "tolerance": 1e-14,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.bootstrap_replay.interval95",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.bootstrap_replay.family_adjusted_interval",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.bootstrap_replay.bootstrap_variance",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-14,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.delta_interval95",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.delta_family_interval",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.Bonferroni_marginal_coverage",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.relative.age20_59_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.relative.age20_49_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.relative.age20_59_exact_independent_phase_mean",
+      "max_abs_error": 1.0408340855860843e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.relative.age20_49_exact_independent_phase_mean",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.age20_39_joint_rate_descriptive",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2030",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2031",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2032",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2033",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2034",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2035",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2036",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2037",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2038",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2039",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2040",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2041",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2042",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2043",
+      "max_abs_error": 1.734723475976807e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2044",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2045",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2046",
+      "max_abs_error": 4.336808689942018e-19,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2047",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2048",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2049",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2050",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2051",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2052",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2053",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2054",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2055",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2056",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2057",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2058",
+      "max_abs_error": 1.734723475976807e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2059",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2060",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2061",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2062",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2063",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2064",
+      "max_abs_error": 1.3877787807814457e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2065",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2066",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2067",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2068",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2069",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.calendar_2070",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.delta_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.reference_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.raw_system_means",
+      "max_abs_error": 1.942890293094024e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.delta_raw_system_means",
+      "max_abs_error": 3.191891195797325e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.fixed_reference_system_means",
+      "max_abs_error": 2.9531932455029164e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.delta_fixed_reference_system_means",
+      "max_abs_error": 2.9531932455029164e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.delta_L",
+      "max_abs_error": 2.120525977034049e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.age_band_joint_rates",
+      "max_abs_error": 1.3877787807814457e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.interval_point",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.exact_Fraction_design_variance",
+      "max_abs_error": 2.117582368135751e-22,
+      "tolerance": 1e-14,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.bootstrap_replay.interval95",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.bootstrap_replay.family_adjusted_interval",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.bootstrap_replay.bootstrap_variance",
+      "max_abs_error": 1.0587911840678754e-22,
+      "tolerance": 1e-14,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.delta_interval95",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.delta_family_interval",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.Bonferroni_marginal_coverage",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.relative.age20_59_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.relative.age20_49_joint_rate",
+      "max_abs_error": 1.734723475976807e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.relative.age20_59_exact_independent_phase_mean",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.relative.age20_49_exact_independent_phase_mean",
+      "max_abs_error": 5.204170427930421e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.age20_39_joint_rate_descriptive",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2040",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2041",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2042",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2043",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2044",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2045",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2046",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2047",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2048",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2049",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2050",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2051",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2052",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2053",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2054",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2055",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2056",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2057",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2058",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2059",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2060",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2061",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2062",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2063",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2064",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2065",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2066",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2067",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2068",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2069",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.calendar_2070",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.delta_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.reference_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.raw_system_means",
+      "max_abs_error": 1.3877787807814457e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.delta_raw_system_means",
+      "max_abs_error": 2.0816681711721685e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.fixed_reference_system_means",
+      "max_abs_error": 3.0753177782116836e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.delta_fixed_reference_system_means",
+      "max_abs_error": 3.0753177782116836e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.delta_L",
+      "max_abs_error": 2.19824158875781e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.age_band_joint_rates",
+      "max_abs_error": 1.3877787807814457e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.interval_point",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.exact_Fraction_design_variance",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-14,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.bootstrap_replay.interval95",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.bootstrap_replay.family_adjusted_interval",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.bootstrap_replay.bootstrap_variance",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-14,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.delta_interval95",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.delta_family_interval",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.Bonferroni_marginal_coverage",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.relative.age20_59_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.relative.age20_49_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.relative.age20_59_exact_independent_phase_mean",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.relative.age20_49_exact_independent_phase_mean",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.age20_39_joint_rate_descriptive",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2044",
+      "max_abs_error": 1.734723475976807e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2045",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2046",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2047",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2048",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2049",
+      "max_abs_error": 8.673617379884035e-19,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2050",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2051",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2052",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2053",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2054",
+      "max_abs_error": 1.3877787807814457e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2055",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2056",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2057",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2058",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2059",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2060",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2061",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2062",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2063",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2064",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2065",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2066",
+      "max_abs_error": 1.3877787807814457e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2067",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2068",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2069",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.calendar_2070",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.delta_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.reference_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.raw_system_means",
+      "max_abs_error": 3.0531133177191805e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.delta_raw_system_means",
+      "max_abs_error": 3.608224830031759e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.fixed_reference_system_means",
+      "max_abs_error": 3.108624468950438e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.delta_fixed_reference_system_means",
+      "max_abs_error": 3.108624468950438e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.delta_L",
+      "max_abs_error": 2.1760371282653068e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.age_band_joint_rates",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.interval_point",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.exact_Fraction_design_variance",
+      "max_abs_error": 1.0587911840678754e-22,
+      "tolerance": 1e-14,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.bootstrap_replay.interval95",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.bootstrap_replay.family_adjusted_interval",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.bootstrap_replay.bootstrap_variance",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-14,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.delta_interval95",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.delta_family_interval",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.Bonferroni_marginal_coverage",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.relative.age20_59_joint_rate",
+      "max_abs_error": 1.0408340855860843e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.relative.age20_49_joint_rate",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.relative.age20_59_exact_independent_phase_mean",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.relative.age20_49_exact_independent_phase_mean",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.age20_39_joint_rate_descriptive",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2029",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2030",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2031",
+      "max_abs_error": 1.734723475976807e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2032",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2033",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2034",
+      "max_abs_error": 1.734723475976807e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2035",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2036",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2037",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2038",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2039",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2040",
+      "max_abs_error": 8.673617379884035e-19,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2041",
+      "max_abs_error": 1.734723475976807e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2042",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2043",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2044",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2045",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2046",
+      "max_abs_error": 1.734723475976807e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2047",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2048",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2049",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2050",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2051",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2052",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2053",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2054",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2055",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2056",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2057",
+      "max_abs_error": 1.734723475976807e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2058",
+      "max_abs_error": 1.734723475976807e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2059",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2060",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2061",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2062",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2063",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2064",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2065",
+      "max_abs_error": 1.3877787807814457e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2066",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2067",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2068",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.calendar_2069",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.delta_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.reference_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.raw_system_means",
+      "max_abs_error": 3.885780586188048e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.delta_raw_system_means",
+      "max_abs_error": 4.440892098500626e-16,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.fixed_reference_system_means",
+      "max_abs_error": 2.964295475749168e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.delta_fixed_reference_system_means",
+      "max_abs_error": 2.964295475749168e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.delta_L",
+      "max_abs_error": 2.148281552649678e-14,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.age_band_joint_rates",
+      "max_abs_error": 2.0816681711721685e-17,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.interval_point",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.exact_Fraction_design_variance",
+      "max_abs_error": 1.0587911840678754e-22,
+      "tolerance": 1e-14,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.bootstrap_replay.interval95",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.bootstrap_replay.family_adjusted_interval",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.bootstrap_replay.bootstrap_variance",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-14,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.delta_interval95",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.delta_family_interval",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.Bonferroni_marginal_coverage",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.relative.age20_59_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.relative.age20_49_joint_rate",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.relative.age20_59_exact_independent_phase_mean",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.relative.age20_49_exact_independent_phase_mean",
+      "max_abs_error": 1.734723475976807e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.age20_39_joint_rate_descriptive",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2040",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2041",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2042",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2043",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2044",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2045",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2046",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2047",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2048",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2049",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2050",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2051",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2052",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2053",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2054",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2055",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2056",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2057",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2058",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2059",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2060",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2061",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2062",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2063",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2064",
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2065",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2066",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2067",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2068",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2069",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.calendar_2070",
+      "max_abs_error": 6.938893903907228e-18,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2010.refit_fixed_point",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2020.refit_fixed_point",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil2024.refit_fixed_point",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "brazil_2000s.refit_fixed_point",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico2020.refit_fixed_point",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    },
+    {
+      "label": "mexico_2000s.refit_fixed_point",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "pass": true
+    }
+  ],
+  "comparison_count": 399,
+  "failure_count": 0,
+  "max_aggregate_absolute_error": 3.108624468950438e-14,
+  "input_hashes": {
+    "config": "2f062e8ee76fd823fe1496ea868fe8c69ba668ab18a597360366de3ddcd6e729",
+    "primary_result": "e1af036e5b2fb0ea4813782a8dc4488fe2e08c69a3d4c2cb7452097ecff59c7b",
+    "verification_code": "412e1149635269fee91c3de93d390bd448f8ee1379519ff5e56380e2de493084"
+  }
+}
