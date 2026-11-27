@@ -7,6 +7,6 @@
 | 1999 | 604,769 | 572,900 | 1,177,669 | 1,177,669 |
 | 2006 | 560,439 | 532,235 | 1,092,674 | 1,092,674 |
 
-预先登记记录了当时见到的另一份表值 1,104,862。本轮的同口径对照采用上述已核权威年度系列。更正范围限于年度分母的独立核对。根据登记第二项，两个年份的男女总数均可用于模型范围的条件约束。
+预先登记记录了当时见到的另一份表值 1,104,862。厚生劳动省的国籍专题表确认，该数是在日本发生的日本籍与外国籍新生儿合计。其中 1,092,674 为日本籍，12,188 为外国籍。本轮采用出生第 7 表所覆盖的在日本出生的日本籍新生儿。更正范围限于年度分母的独立核对。根据登记第二项，两个年份的男女总数均可用于模型范围的条件约束。
 
-[人口统计资料集 2008 表 4-1](https://www.ipss.go.jp/syoushika/tohkei/Data/Popular2008/T04-01.html) · [人口统计资料集 2023 修订表 4-1](https://www.ipss.go.jp/syoushika/tohkei/Data/Popular2023RE/T04-01.files/sheet002.htm) · [厚生劳动省白皮书年度序列](https://www.mhlw.go.jp/wp/hakusyo/kousei/26-2/dl/01.pdf)
+[人口统计资料集 2008 表 4-1](https://www.ipss.go.jp/syoushika/tohkei/Data/Popular2008/T04-01.html) · [人口统计资料集 2023 修订表 4-1](https://www.ipss.go.jp/syoushika/tohkei/Data/Popular2023RE/T04-01.files/sheet002.htm) · [厚生劳动省国籍专题原表](https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/tokusyu/gaikoku07/dl/01a.pdf) · [厚生劳动省白皮书年度序列](https://www.mhlw.go.jp/wp/hakusyo/kousei/26-2/dl/01.pdf)
