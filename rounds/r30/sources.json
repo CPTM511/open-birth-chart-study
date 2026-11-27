@@ -1,0 +1,42 @@
+{
+  "portal": "https://www.datos.gov.co",
+  "license_id": "CC_40_BY_SA",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "timezone": "America/Bogota",
+  "source_offset_seconds": -18000,
+  "common_window": ["2022-06-01", "2022-12-31"],
+  "sites": {
+    "duitama": {
+      "id": "cv8g-j7c4",
+      "publisher": "E.S.E. Hospital Regional de Duitama, Boyacá",
+      "published_rows": 591,
+      "rows_updated_unix": 1683686263,
+      "birth_window": ["2022-06-01", "2022-12-31"],
+      "area_fields": {
+        "departamento": "BOYACA",
+        "municipio": "DUITAMA",
+        "institucion": "EMPRESASOCIALDELESTADOHOSPITALREGIONALDEDUITAMA"
+      },
+      "geo_precision": "municipality_reference",
+      "latitude": 5.82450,
+      "longitude": -73.03408,
+      "coordinate_source": "https://www.geonames.org/3685084/duitama.html"
+    },
+    "colon": {
+      "id": "qa7n-i2xc",
+      "publisher": "E.S.E. Hospital Pío XII de Colón, Putumayo",
+      "published_rows": 1097,
+      "rows_updated_unix": 1794330598,
+      "birth_window": ["2021-01-01", "2026-09-30"],
+      "area_fields": {
+        "area_nacimiento": "CABECERAMUNICIPAL",
+        "sitio_parto": "INSTITUCIONDESALUD"
+      },
+      "period_field": "periodo",
+      "geo_precision": "publisher_municipality_proxy",
+      "latitude": 1.19034,
+      "longitude": -76.97369,
+      "coordinate_source": "https://www.geonames.org/3686107"
+    }
+  }
+}
