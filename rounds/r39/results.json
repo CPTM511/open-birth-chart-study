@@ -1,0 +1,1482 @@
+{
+  "round": "R39",
+  "source_pdf_sha256": {
+    "world_library": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620",
+    "collected": "b1ac0a7dd4dc260647b65bd9338ad815fc0855d78e0ea01ed428237b28eb61c8"
+  },
+  "case_spec_sha256": "07078a1f35c2fcc37a9866f4af9d21a3a630e8b75c25089b67751b5329e93517",
+  "lunar_python": "1.4.9",
+  "r8_engine": "OBS-R8-BZ-1.0",
+  "opening_month_stem_roles": "not_applicable_day_stem_unspecified",
+  "independent_ten_god_relations_checked": 100,
+  "independent_trine_groups_checked": 4,
+  "sexagenary_combinations_by_day_month": {
+    "丁亥": 4320,
+    "丙寅": 4320,
+    "丙申": 4320,
+    "乙寅": 4320,
+    "乙申": 4320,
+    "壬戌": 4320,
+    "己申": 4320,
+    "癸寅": 4320,
+    "辛寅": 4320
+  },
+  "edition_results": {
+    "world_library": {
+      "cases": {
+        "ding_hai_change": {
+          "status": "testable",
+          "pdf_pages": [
+            31
+          ],
+          "textual_target": "印",
+          "literal": {
+            "count": 270,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 270
+            },
+            "r8_candidate_ten_god_counts": {
+              "正印": 22,
+              "正官": 248
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          },
+          "concealed_stem_not_exposed": {
+            "count": 270,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 270
+            },
+            "r8_candidate_ten_god_counts": {
+              "正印": 22,
+              "正官": 248
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          }
+        },
+        "ji_shen_change": {
+          "status": "testable",
+          "pdf_pages": [
+            31
+          ],
+          "textual_target": "财",
+          "literal": {
+            "count": 1548,
+            "r8_selection_status_counts": {
+              "base_month_candidate": 822,
+              "competing_exposed_candidates": 702,
+              "transformation_premises_require_adjudication": 24
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 720,
+              "正财": 828
+            },
+            "r8_unique_month_candidate_count": 822,
+            "r8_unique_yongshen_count": 0
+          },
+          "concealed_stem_not_exposed": {
+            "count": 1332,
+            "r8_selection_status_counts": {
+              "base_month_candidate": 822,
+              "competing_exposed_candidates": 486,
+              "transformation_premises_require_adjudication": 24
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 504,
+              "正财": 828
+            },
+            "r8_unique_month_candidate_count": 822,
+            "r8_unique_yongshen_count": 0
+          }
+        },
+        "xin_yin_officer": {
+          "status": "testable",
+          "pdf_pages": [
+            31
+          ],
+          "textual_target": "官",
+          "literal": {
+            "count": 1548,
+            "r8_selection_status_counts": {
+              "base_month_candidate": 756,
+              "competing_exposed_candidates": 768,
+              "transformation_premises_require_adjudication": 24
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 792,
+              "正官": 756
+            },
+            "r8_unique_month_candidate_count": 756,
+            "r8_unique_yongshen_count": 0
+          },
+          "concealed_stem_not_exposed": {
+            "count": 1548,
+            "r8_selection_status_counts": {
+              "base_month_candidate": 756,
+              "competing_exposed_candidates": 768,
+              "transformation_premises_require_adjudication": 24
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 792,
+              "正官": 756
+            },
+            "r8_unique_month_candidate_count": 756,
+            "r8_unique_yongshen_count": 0
+          }
+        },
+        "ren_xu_resource": {
+          "status": "trigger_unspecified",
+          "pdf_pages": [
+            31
+          ],
+          "textual_target": "傷為財",
+          "month_hidden_roles": {
+            "戊": "七杀",
+            "辛": "正印",
+            "丁": "正财"
+          },
+          "named_input_role_is_month_hidden": false
+        },
+        "gui_yin_wealth": {
+          "status": "omitted",
+          "pdf_pages": [],
+          "textual_target": null
+        },
+        "yi_yin_output": {
+          "status": "target_unresolved",
+          "pdf_pages": [
+            31
+          ],
+          "textual_target": "月生",
+          "literal": {
+            "count": 24,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 24
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 18,
+              "正财": 6
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          },
+          "concealed_stem_not_exposed": {
+            "count": 24,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 24
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 18,
+              "正财": 6
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          }
+        },
+        "bing_yin_adverse": {
+          "status": "testable",
+          "pdf_pages": [
+            32
+          ],
+          "textual_target": "劫",
+          "literal": {
+            "count": 117,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 117
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 21,
+              "偏印": 16,
+              "比肩": 20,
+              "食神": 60
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          },
+          "concealed_stem_not_exposed": {
+            "count": 117,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 117
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 21,
+              "偏印": 16,
+              "比肩": 20,
+              "食神": 60
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          }
+        },
+        "bing_shen_adverse": {
+          "status": "testable",
+          "pdf_pages": [
+            32
+          ],
+          "textual_target": "煞",
+          "literal": {
+            "count": 153,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 153
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 97,
+              "七杀": 56
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          },
+          "concealed_stem_not_exposed": {
+            "count": 121,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 121
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 65,
+              "七杀": 56
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          }
+        },
+        "xin_yin_retain": {
+          "status": "testable",
+          "pdf_pages": [
+            32
+          ],
+          "textual_target": "正財，兼正官",
+          "literal": {
+            "count": 576,
+            "r8_selection_status_counts": {
+              "competing_exposed_candidates": 558,
+              "transformation_premises_require_adjudication": 18
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 576
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          },
+          "concealed_stem_not_exposed": {
+            "count": 576,
+            "r8_selection_status_counts": {
+              "competing_exposed_candidates": 558,
+              "transformation_premises_require_adjudication": 18
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 576
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          }
+        },
+        "yi_shen_retain": {
+          "status": "testable",
+          "pdf_pages": [
+            32
+          ],
+          "textual_target": "正官，兼印",
+          "literal": {
+            "count": 576,
+            "r8_selection_status_counts": {
+              "competing_exposed_candidates": 564,
+              "transformation_premises_require_adjudication": 12
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 576
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          },
+          "concealed_stem_not_exposed": {
+            "count": 576,
+            "r8_selection_status_counts": {
+              "competing_exposed_candidates": 564,
+              "transformation_premises_require_adjudication": 12
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 576
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          }
+        },
+        "gui_yin_retain": {
+          "status": "testable",
+          "pdf_pages": [
+            32
+          ],
+          "textual_target": "傷官，戊官忌見",
+          "literal": {
+            "count": 576,
+            "r8_selection_status_counts": {
+              "competing_exposed_candidates": 564,
+              "transformation_premises_require_adjudication": 12
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 576
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0,
+            "with_additional_visible_stem": {
+              "戊": 72
+            }
+          },
+          "concealed_stem_not_exposed": {
+            "count": 576,
+            "r8_selection_status_counts": {
+              "competing_exposed_candidates": 564,
+              "transformation_premises_require_adjudication": 12
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 576
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0,
+            "with_additional_visible_stem": {
+              "戊": 72
+            }
+          }
+        },
+        "bing_yin_retain": {
+          "status": "testable",
+          "pdf_pages": [
+            32
+          ],
+          "textual_target": "印",
+          "literal": {
+            "count": 62,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 62
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 4,
+              "偏印": 33,
+              "比肩": 4,
+              "食神": 21
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0,
+            "visible_alternatives": {
+              "壬": 62
+            }
+          },
+          "concealed_stem_not_exposed": {
+            "count": 62,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 62
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 4,
+              "偏印": 33,
+              "比肩": 4,
+              "食神": 21
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0,
+            "visible_alternatives": {
+              "壬": 62
+            }
+          }
+        },
+        "bing_shen_retain": {
+          "status": "testable",
+          "pdf_pages": [
+            32
+          ],
+          "textual_target": "財",
+          "literal": {
+            "count": 648,
+            "r8_selection_status_counts": {
+              "competing_exposed_candidates": 570,
+              "transformation_premises_require_adjudication": 78
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 648
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          },
+          "concealed_stem_not_exposed": {
+            "count": 648,
+            "r8_selection_status_counts": {
+              "competing_exposed_candidates": 570,
+              "transformation_premises_require_adjudication": 78
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 648
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          }
+        }
+      },
+      "paired_predicate_overlaps": {
+        "xin_yin_officer/xin_yin_retain": {
+          "literal": {
+            "both": 576,
+            "first_only": 972,
+            "second_only": 0
+          },
+          "concealed_stem_not_exposed": {
+            "both": 576,
+            "first_only": 972,
+            "second_only": 0
+          }
+        },
+        "gui_yin_wealth/gui_yin_retain": {
+          "status": "clause_absent_or_trigger_unspecified"
+        },
+        "bing_yin_adverse/bing_yin_retain": {
+          "literal": {
+            "both": 41,
+            "first_only": 76,
+            "second_only": 21
+          },
+          "concealed_stem_not_exposed": {
+            "both": 41,
+            "first_only": 76,
+            "second_only": 21
+          }
+        },
+        "bing_shen_adverse/bing_shen_retain": {
+          "literal": {
+            "both": 78,
+            "first_only": 75,
+            "second_only": 570
+          },
+          "concealed_stem_not_exposed": {
+            "both": 65,
+            "first_only": 56,
+            "second_only": 583
+          }
+        }
+      }
+    },
+    "collected": {
+      "cases": {
+        "ding_hai_change": {
+          "status": "testable",
+          "pdf_pages": [
+            27
+          ],
+          "textual_target": "印",
+          "literal": {
+            "count": 270,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 270
+            },
+            "r8_candidate_ten_god_counts": {
+              "正印": 22,
+              "正官": 248
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          },
+          "concealed_stem_not_exposed": {
+            "count": 270,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 270
+            },
+            "r8_candidate_ten_god_counts": {
+              "正印": 22,
+              "正官": 248
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          }
+        },
+        "ji_shen_change": {
+          "status": "testable",
+          "pdf_pages": [
+            27
+          ],
+          "textual_target": "财",
+          "literal": {
+            "count": 1548,
+            "r8_selection_status_counts": {
+              "base_month_candidate": 822,
+              "competing_exposed_candidates": 702,
+              "transformation_premises_require_adjudication": 24
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 720,
+              "正财": 828
+            },
+            "r8_unique_month_candidate_count": 822,
+            "r8_unique_yongshen_count": 0
+          },
+          "concealed_stem_not_exposed": {
+            "count": 1332,
+            "r8_selection_status_counts": {
+              "base_month_candidate": 822,
+              "competing_exposed_candidates": 486,
+              "transformation_premises_require_adjudication": 24
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 504,
+              "正财": 828
+            },
+            "r8_unique_month_candidate_count": 822,
+            "r8_unique_yongshen_count": 0
+          }
+        },
+        "xin_yin_officer": {
+          "status": "testable",
+          "pdf_pages": [
+            27
+          ],
+          "textual_target": "官",
+          "literal": {
+            "count": 1548,
+            "r8_selection_status_counts": {
+              "base_month_candidate": 756,
+              "competing_exposed_candidates": 768,
+              "transformation_premises_require_adjudication": 24
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 792,
+              "正官": 756
+            },
+            "r8_unique_month_candidate_count": 756,
+            "r8_unique_yongshen_count": 0
+          },
+          "concealed_stem_not_exposed": {
+            "count": 1548,
+            "r8_selection_status_counts": {
+              "base_month_candidate": 756,
+              "competing_exposed_candidates": 768,
+              "transformation_premises_require_adjudication": 24
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 792,
+              "正官": 756
+            },
+            "r8_unique_month_candidate_count": 756,
+            "r8_unique_yongshen_count": 0
+          }
+        },
+        "ren_xu_resource": {
+          "status": "testable",
+          "pdf_pages": [
+            27
+          ],
+          "textual_target": "印",
+          "literal": {
+            "count": 1080,
+            "r8_selection_status_counts": {
+              "base_month_candidate": 420,
+              "competing_exposed_candidates": 628,
+              "transformation_premises_require_adjudication": 32
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 648,
+              "正印": 432
+            },
+            "r8_unique_month_candidate_count": 420,
+            "r8_unique_yongshen_count": 0
+          },
+          "concealed_stem_not_exposed": {
+            "count": 1080,
+            "r8_selection_status_counts": {
+              "base_month_candidate": 420,
+              "competing_exposed_candidates": 628,
+              "transformation_premises_require_adjudication": 32
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 648,
+              "正印": 432
+            },
+            "r8_unique_month_candidate_count": 420,
+            "r8_unique_yongshen_count": 0
+          }
+        },
+        "gui_yin_wealth": {
+          "status": "testable",
+          "pdf_pages": [
+            27
+          ],
+          "textual_target": "财",
+          "literal": {
+            "count": 24,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 24
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 18,
+              "正财": 6
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0,
+            "with_additional_visible_stem": {
+              "戊": 12
+            }
+          },
+          "concealed_stem_not_exposed": {
+            "count": 12,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 12
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 6,
+              "正财": 6
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0,
+            "with_additional_visible_stem": {
+              "戊": 6
+            }
+          }
+        },
+        "yi_yin_output": {
+          "status": "testable",
+          "pdf_pages": [
+            27
+          ],
+          "textual_target": "食傷",
+          "literal": {
+            "count": 24,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 24
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 18,
+              "正财": 6
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          },
+          "concealed_stem_not_exposed": {
+            "count": 24,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 24
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 18,
+              "正财": 6
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          }
+        },
+        "bing_yin_adverse": {
+          "status": "testable",
+          "pdf_pages": [
+            27
+          ],
+          "textual_target": "劫",
+          "literal": {
+            "count": 117,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 117
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 21,
+              "偏印": 16,
+              "比肩": 20,
+              "食神": 60
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          },
+          "concealed_stem_not_exposed": {
+            "count": 117,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 117
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 21,
+              "偏印": 16,
+              "比肩": 20,
+              "食神": 60
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          }
+        },
+        "bing_shen_adverse": {
+          "status": "testable",
+          "pdf_pages": [
+            27
+          ],
+          "textual_target": "煞",
+          "literal": {
+            "count": 153,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 153
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 97,
+              "七杀": 56
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          },
+          "concealed_stem_not_exposed": {
+            "count": 121,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 121
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 65,
+              "七杀": 56
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          }
+        },
+        "xin_yin_retain": {
+          "status": "testable",
+          "pdf_pages": [
+            27
+          ],
+          "textual_target": "正財，兼正官",
+          "literal": {
+            "count": 576,
+            "r8_selection_status_counts": {
+              "competing_exposed_candidates": 558,
+              "transformation_premises_require_adjudication": 18
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 576
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          },
+          "concealed_stem_not_exposed": {
+            "count": 576,
+            "r8_selection_status_counts": {
+              "competing_exposed_candidates": 558,
+              "transformation_premises_require_adjudication": 18
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 576
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          }
+        },
+        "yi_shen_retain": {
+          "status": "testable",
+          "pdf_pages": [
+            27
+          ],
+          "textual_target": "正官，兼印",
+          "literal": {
+            "count": 576,
+            "r8_selection_status_counts": {
+              "competing_exposed_candidates": 564,
+              "transformation_premises_require_adjudication": 12
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 576
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          },
+          "concealed_stem_not_exposed": {
+            "count": 576,
+            "r8_selection_status_counts": {
+              "competing_exposed_candidates": 564,
+              "transformation_premises_require_adjudication": 12
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 576
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          }
+        },
+        "gui_yin_retain": {
+          "status": "testable",
+          "pdf_pages": [
+            27
+          ],
+          "textual_target": "傷官，戊官忌見",
+          "literal": {
+            "count": 576,
+            "r8_selection_status_counts": {
+              "competing_exposed_candidates": 564,
+              "transformation_premises_require_adjudication": 12
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 576
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0,
+            "with_additional_visible_stem": {
+              "戊": 72
+            }
+          },
+          "concealed_stem_not_exposed": {
+            "count": 576,
+            "r8_selection_status_counts": {
+              "competing_exposed_candidates": 564,
+              "transformation_premises_require_adjudication": 12
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 576
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0,
+            "with_additional_visible_stem": {
+              "戊": 72
+            }
+          }
+        },
+        "bing_yin_retain": {
+          "status": "testable",
+          "pdf_pages": [
+            27,
+            28
+          ],
+          "textual_target": "印",
+          "literal": {
+            "count": 194,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 194
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 124,
+              "偏印": 45,
+              "比肩": 4,
+              "食神": 21
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0,
+            "visible_alternatives": {
+              "壬": 41,
+              "壬甲": 21,
+              "甲": 132
+            }
+          },
+          "concealed_stem_not_exposed": {
+            "count": 194,
+            "r8_selection_status_counts": {
+              "transformation_premises_require_adjudication": 194
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 124,
+              "偏印": 45,
+              "比肩": 4,
+              "食神": 21
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0,
+            "visible_alternatives": {
+              "壬": 41,
+              "壬甲": 21,
+              "甲": 132
+            }
+          }
+        },
+        "bing_shen_retain": {
+          "status": "testable",
+          "pdf_pages": [
+            28
+          ],
+          "textual_target": "財",
+          "literal": {
+            "count": 648,
+            "r8_selection_status_counts": {
+              "competing_exposed_candidates": 570,
+              "transformation_premises_require_adjudication": 78
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 648
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          },
+          "concealed_stem_not_exposed": {
+            "count": 648,
+            "r8_selection_status_counts": {
+              "competing_exposed_candidates": 570,
+              "transformation_premises_require_adjudication": 78
+            },
+            "r8_candidate_ten_god_counts": {
+              "none": 648
+            },
+            "r8_unique_month_candidate_count": 0,
+            "r8_unique_yongshen_count": 0
+          }
+        }
+      },
+      "paired_predicate_overlaps": {
+        "xin_yin_officer/xin_yin_retain": {
+          "literal": {
+            "both": 576,
+            "first_only": 972,
+            "second_only": 0
+          },
+          "concealed_stem_not_exposed": {
+            "both": 576,
+            "first_only": 972,
+            "second_only": 0
+          }
+        },
+        "gui_yin_wealth/gui_yin_retain": {
+          "literal": {
+            "both": 12,
+            "first_only": 12,
+            "second_only": 564,
+            "both_with_additional_visible_stem": {
+              "戊": 6
+            }
+          },
+          "concealed_stem_not_exposed": {
+            "both": 0,
+            "first_only": 12,
+            "second_only": 576,
+            "both_with_additional_visible_stem": {
+              "戊": 0
+            }
+          }
+        },
+        "bing_yin_adverse/bing_yin_retain": {
+          "literal": {
+            "both": 41,
+            "first_only": 76,
+            "second_only": 153
+          },
+          "concealed_stem_not_exposed": {
+            "both": 41,
+            "first_only": 76,
+            "second_only": 153
+          }
+        },
+        "bing_shen_adverse/bing_shen_retain": {
+          "literal": {
+            "both": 78,
+            "first_only": 75,
+            "second_only": 570
+          },
+          "concealed_stem_not_exposed": {
+            "both": 65,
+            "first_only": 56,
+            "second_only": 583
+          }
+        }
+      }
+    }
+  },
+  "synthetic_calendar_controls": {
+    "ding_hai_mao": {
+      "legal_candidates_with_counterpart": {
+        "with": 191,
+        "without": 791
+      },
+      "inverse_attempts": {
+        "with": 12,
+        "without": 13
+      },
+      "successful_calendar_round_trips": {
+        "with": 12,
+        "without": 12
+      },
+      "status": "calendar_pair_found",
+      "changed_pillar_positions": [
+        "day"
+      ],
+      "with": {
+        "pillars": [
+          "丁丑",
+          "辛亥",
+          "丁卯",
+          "丁未"
+        ],
+        "synthetic_birth_local": "1937-12-06T14:00:00",
+        "matching_clause_ids": {
+          "world_library": {
+            "literal": [
+              "ding_hai_change"
+            ],
+            "concealed_stem_not_exposed": [
+              "ding_hai_change"
+            ]
+          },
+          "collected": {
+            "literal": [
+              "ding_hai_change"
+            ],
+            "concealed_stem_not_exposed": [
+              "ding_hai_change"
+            ]
+          }
+        },
+        "r8_selection_status": "transformation_premises_require_adjudication"
+      },
+      "without": {
+        "pillars": [
+          "丁丑",
+          "辛亥",
+          "丁丑",
+          "丁未"
+        ],
+        "synthetic_birth_local": "1997-12-01T14:00:00",
+        "matching_clause_ids": {
+          "world_library": {
+            "literal": [],
+            "concealed_stem_not_exposed": []
+          },
+          "collected": {
+            "literal": [],
+            "concealed_stem_not_exposed": []
+          }
+        },
+        "r8_selection_status": "base_month_candidate"
+      }
+    },
+    "ji_shen_ren": {
+      "legal_candidates_with_counterpart": {
+        "with": 252,
+        "without": 144
+      },
+      "inverse_attempts": {
+        "with": 15,
+        "without": 14
+      },
+      "successful_calendar_round_trips": {
+        "with": 12,
+        "without": 12
+      },
+      "status": "calendar_pair_found",
+      "changed_pillar_positions": [
+        "hour"
+      ],
+      "with": {
+        "pillars": [
+          "丁丑",
+          "戊申",
+          "己丑",
+          "壬申"
+        ],
+        "synthetic_birth_local": "1937-08-30T16:00:00",
+        "matching_clause_ids": {
+          "world_library": {
+            "literal": [
+              "ji_shen_change"
+            ],
+            "concealed_stem_not_exposed": [
+              "ji_shen_change"
+            ]
+          },
+          "collected": {
+            "literal": [
+              "ji_shen_change"
+            ],
+            "concealed_stem_not_exposed": [
+              "ji_shen_change"
+            ]
+          }
+        },
+        "r8_selection_status": "competing_exposed_candidates"
+      },
+      "without": {
+        "pillars": [
+          "丁丑",
+          "戊申",
+          "己丑",
+          "癸酉"
+        ],
+        "synthetic_birth_local": "1937-08-30T18:00:00",
+        "matching_clause_ids": {
+          "world_library": {
+            "literal": [],
+            "concealed_stem_not_exposed": []
+          },
+          "collected": {
+            "literal": [],
+            "concealed_stem_not_exposed": []
+          }
+        },
+        "r8_selection_status": "base_month_candidate"
+      }
+    },
+    "xin_yin_jia": {
+      "legal_candidates_with_counterpart": {
+        "with": 576,
+        "without": 972
+      },
+      "inverse_attempts": {
+        "with": 15,
+        "without": 16
+      },
+      "successful_calendar_round_trips": {
+        "with": 12,
+        "without": 12
+      },
+      "status": "calendar_pair_found",
+      "changed_pillar_positions": [
+        "year",
+        "month",
+        "hour"
+      ],
+      "with": {
+        "pillars": [
+          "丙午",
+          "庚寅",
+          "辛丑",
+          "甲午"
+        ],
+        "synthetic_birth_local": "1906-02-26T12:00:00",
+        "matching_clause_ids": {
+          "world_library": {
+            "literal": [
+              "xin_yin_officer",
+              "xin_yin_retain"
+            ],
+            "concealed_stem_not_exposed": [
+              "xin_yin_officer",
+              "xin_yin_retain"
+            ]
+          },
+          "collected": {
+            "literal": [
+              "xin_yin_officer",
+              "xin_yin_retain"
+            ],
+            "concealed_stem_not_exposed": [
+              "xin_yin_officer",
+              "xin_yin_retain"
+            ]
+          }
+        },
+        "r8_selection_status": "competing_exposed_candidates"
+      },
+      "without": {
+        "pillars": [
+          "丁丑",
+          "壬寅",
+          "辛丑",
+          "丙申"
+        ],
+        "synthetic_birth_local": "1997-02-28T16:00:00",
+        "matching_clause_ids": {
+          "world_library": {
+            "literal": [
+              "xin_yin_officer"
+            ],
+            "concealed_stem_not_exposed": [
+              "xin_yin_officer"
+            ]
+          },
+          "collected": {
+            "literal": [
+              "xin_yin_officer"
+            ],
+            "concealed_stem_not_exposed": [
+              "xin_yin_officer"
+            ]
+          }
+        },
+        "r8_selection_status": "base_month_candidate"
+      }
+    },
+    "gui_yin_fire": {
+      "legal_candidates_with_counterpart": {
+        "with": 12,
+        "without": 132
+      },
+      "inverse_attempts": {
+        "with": 12,
+        "without": 16
+      },
+      "successful_calendar_round_trips": {
+        "with": 9,
+        "without": 12
+      },
+      "status": "calendar_pair_found",
+      "changed_pillar_positions": [
+        "year",
+        "month",
+        "hour"
+      ],
+      "with": {
+        "pillars": [
+          "甲戌",
+          "丙寅",
+          "癸丑",
+          "戊午"
+        ],
+        "synthetic_birth_local": "1934-02-11T12:00:00",
+        "matching_clause_ids": {
+          "world_library": {
+            "literal": [
+              "gui_yin_retain"
+            ],
+            "concealed_stem_not_exposed": [
+              "gui_yin_retain"
+            ]
+          },
+          "collected": {
+            "literal": [
+              "gui_yin_wealth",
+              "gui_yin_retain"
+            ],
+            "concealed_stem_not_exposed": [
+              "gui_yin_retain"
+            ]
+          }
+        },
+        "r8_selection_status": "transformation_premises_require_adjudication"
+      },
+      "without": {
+        "pillars": [
+          "戊午",
+          "甲寅",
+          "癸丑",
+          "丙辰"
+        ],
+        "synthetic_birth_local": "1978-02-20T08:00:00",
+        "matching_clause_ids": {
+          "world_library": {
+            "literal": [
+              "gui_yin_retain"
+            ],
+            "concealed_stem_not_exposed": [
+              "gui_yin_retain"
+            ]
+          },
+          "collected": {
+            "literal": [
+              "gui_yin_retain"
+            ],
+            "concealed_stem_not_exposed": [
+              "gui_yin_retain"
+            ]
+          }
+        },
+        "r8_selection_status": "competing_exposed_candidates"
+      }
+    },
+    "bing_yin_ren": {
+      "legal_candidates_with_counterpart": {
+        "with": 41,
+        "without": 76
+      },
+      "inverse_attempts": {
+        "with": 29,
+        "without": 14
+      },
+      "successful_calendar_round_trips": {
+        "with": 12,
+        "without": 12
+      },
+      "status": "calendar_pair_found",
+      "changed_pillar_positions": [
+        "hour"
+      ],
+      "with": {
+        "pillars": [
+          "丙午",
+          "庚寅",
+          "丙戌",
+          "壬辰"
+        ],
+        "synthetic_birth_local": "1906-02-11T08:00:00",
+        "matching_clause_ids": {
+          "world_library": {
+            "literal": [
+              "bing_yin_adverse",
+              "bing_yin_retain"
+            ],
+            "concealed_stem_not_exposed": [
+              "bing_yin_adverse",
+              "bing_yin_retain"
+            ]
+          },
+          "collected": {
+            "literal": [
+              "bing_yin_adverse",
+              "bing_yin_retain"
+            ],
+            "concealed_stem_not_exposed": [
+              "bing_yin_adverse",
+              "bing_yin_retain"
+            ]
+          }
+        },
+        "r8_selection_status": "transformation_premises_require_adjudication"
+      },
+      "without": {
+        "pillars": [
+          "丙午",
+          "庚寅",
+          "丙戌",
+          "丁酉"
+        ],
+        "synthetic_birth_local": "1906-02-11T18:00:00",
+        "matching_clause_ids": {
+          "world_library": {
+            "literal": [
+              "bing_yin_adverse"
+            ],
+            "concealed_stem_not_exposed": [
+              "bing_yin_adverse"
+            ]
+          },
+          "collected": {
+            "literal": [
+              "bing_yin_adverse"
+            ],
+            "concealed_stem_not_exposed": [
+              "bing_yin_adverse"
+            ]
+          }
+        },
+        "r8_selection_status": "transformation_premises_require_adjudication"
+      }
+    },
+    "bing_yin_jia": {
+      "legal_candidates_with_counterpart": {
+        "with": 132,
+        "without": 76
+      },
+      "inverse_attempts": {
+        "with": 14,
+        "without": 14
+      },
+      "successful_calendar_round_trips": {
+        "with": 12,
+        "without": 12
+      },
+      "status": "calendar_pair_found",
+      "changed_pillar_positions": [
+        "hour"
+      ],
+      "with": {
+        "pillars": [
+          "丙午",
+          "庚寅",
+          "丙戌",
+          "甲午"
+        ],
+        "synthetic_birth_local": "1906-02-11T12:00:00",
+        "matching_clause_ids": {
+          "world_library": {
+            "literal": [],
+            "concealed_stem_not_exposed": []
+          },
+          "collected": {
+            "literal": [
+              "bing_yin_retain"
+            ],
+            "concealed_stem_not_exposed": [
+              "bing_yin_retain"
+            ]
+          }
+        },
+        "r8_selection_status": "transformation_premises_require_adjudication"
+      },
+      "without": {
+        "pillars": [
+          "丙午",
+          "庚寅",
+          "丙戌",
+          "丁酉"
+        ],
+        "synthetic_birth_local": "1906-02-11T18:00:00",
+        "matching_clause_ids": {
+          "world_library": {
+            "literal": [
+              "bing_yin_adverse"
+            ],
+            "concealed_stem_not_exposed": [
+              "bing_yin_adverse"
+            ]
+          },
+          "collected": {
+            "literal": [
+              "bing_yin_adverse"
+            ],
+            "concealed_stem_not_exposed": [
+              "bing_yin_adverse"
+            ]
+          }
+        },
+        "r8_selection_status": "transformation_premises_require_adjudication"
+      }
+    },
+    "bing_shen_wu": {
+      "legal_candidates_with_counterpart": {
+        "with": 65,
+        "without": 56
+      },
+      "inverse_attempts": {
+        "with": 15,
+        "without": 16
+      },
+      "successful_calendar_round_trips": {
+        "with": 12,
+        "without": 12
+      },
+      "status": "calendar_pair_found",
+      "changed_pillar_positions": [
+        "year",
+        "month"
+      ],
+      "with": {
+        "pillars": [
+          "丁丑",
+          "戊申",
+          "丙子",
+          "壬辰"
+        ],
+        "synthetic_birth_local": "1937-08-17T08:00:00",
+        "matching_clause_ids": {
+          "world_library": {
+            "literal": [
+              "bing_shen_adverse",
+              "bing_shen_retain"
+            ],
+            "concealed_stem_not_exposed": [
+              "bing_shen_adverse",
+              "bing_shen_retain"
+            ]
+          },
+          "collected": {
+            "literal": [
+              "bing_shen_adverse",
+              "bing_shen_retain"
+            ],
+            "concealed_stem_not_exposed": [
+              "bing_shen_adverse",
+              "bing_shen_retain"
+            ]
+          }
+        },
+        "r8_selection_status": "transformation_premises_require_adjudication"
+      },
+      "without": {
+        "pillars": [
+          "丙子",
+          "丙申",
+          "丙子",
+          "壬辰"
+        ],
+        "synthetic_birth_local": "1936-08-22T08:00:00",
+        "matching_clause_ids": {
+          "world_library": {
+            "literal": [
+              "bing_shen_adverse"
+            ],
+            "concealed_stem_not_exposed": [
+              "bing_shen_adverse"
+            ]
+          },
+          "collected": {
+            "literal": [
+              "bing_shen_adverse"
+            ],
+            "concealed_stem_not_exposed": [
+              "bing_shen_adverse"
+            ]
+          }
+        },
+        "r8_selection_status": "transformation_premises_require_adjudication"
+      }
+    }
+  }
+}

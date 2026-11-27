@@ -1,0 +1,124 @@
+{
+  "sources": {
+    "world_library": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/NLC416-11jh010455-35296_%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE.pdf",
+      "file": "world-library.pdf",
+      "file_sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620",
+      "pdf_pages": [31, 32],
+      "printed_pages": [22, 23]
+    },
+    "collected": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/NLC416-13jh002326-46443_%E6%B7%B5%E6%B5%B7%E5%AD%90%E5%B9%B3_%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE_%E7%AC%AC2%E5%8D%B7.pdf",
+      "file": "second-edition.pdf",
+      "file_sha256": "b1ac0a7dd4dc260647b65bd9338ad815fc0855d78e0ea01ed428237b28eb61c8",
+      "pdf_pages": [26, 27, 28],
+      "printed_pages": [13, 14, 15]
+    }
+  },
+  "opening": {
+    "month": "寅", "month_main": "甲", "discussed_hidden": "甲丙戊",
+    "visible": "丙", "absent": "甲", "day": null,
+    "pdf_pages": {"world_library": [31], "collected": [26, 27]}
+  },
+  "cases": [
+    {
+      "id": "ding_hai_change", "section": "opening_examples", "day": "丁", "month": "亥",
+      "month_main": "壬", "roles": {"壬": "正官"}, "trine": "亥卯未", "trine_element": "木", "trine_role_family": "印",
+      "target": "印", "pdf_pages": {"world_library": [31], "collected": [27]}
+    },
+    {
+      "id": "ji_shen_change", "section": "opening_examples", "day": "己", "month": "申",
+      "month_main": "庚", "roles": {"庚": "伤官", "壬": "正财"}, "visible": "壬", "concealed_contrast": "庚",
+      "target": "财", "pdf_pages": {"world_library": [31], "collected": [27]}
+    },
+    {
+      "id": "xin_yin_officer", "section": "favorable", "day": "辛", "month": "寅",
+      "month_main": "甲", "roles": {"甲": "正财", "丙": "正官"}, "visible": "丙",
+      "target": "官", "pdf_pages": {"world_library": [31], "collected": [27]}
+    },
+    {
+      "id": "ren_xu_resource", "section": "favorable", "day": "壬", "month": "戌",
+      "month_main": "戊", "roles": {"戊": "七杀", "辛": "正印"}, "visible": "辛",
+      "target": "印", "pdf_pages": {"world_library": [31], "collected": [27]},
+      "edition_overrides": {
+        "world_library": {"status": "trigger_unspecified", "target": "傷為財", "visible": null, "stated_from_role": "伤官"}
+      }
+    },
+    {
+      "id": "gui_yin_wealth", "section": "favorable", "day": "癸", "month": "寅",
+      "month_main": "甲", "roles": {"甲": "伤官", "丙": "正财", "戊": "正官"}, "visible": "丙", "concealed_contrast": "甲",
+      "trine": "寅午戌", "trine_element": "火", "trine_role_family": "财", "stratify_visible": "戊",
+      "target": "财", "pdf_pages": {"world_library": [], "collected": [27]},
+      "edition_overrides": {"world_library": {"status": "omitted", "target": null}}
+    },
+    {
+      "id": "yi_yin_output", "section": "favorable", "day": "乙", "month": "寅",
+      "month_main": "甲", "roles": {"甲": "劫财", "戊": "正财"}, "visible": "戊",
+      "trine": "寅午戌", "trine_element": "火", "trine_role_family": "食伤",
+      "target": "食傷", "pdf_pages": {"world_library": [31], "collected": [27]},
+      "edition_overrides": {"world_library": {"status": "target_unresolved", "target": "月生"}}
+    },
+    {
+      "id": "bing_yin_adverse", "section": "adverse", "day": "丙", "month": "寅",
+      "month_main": "甲", "roles": {"甲": "偏印"}, "absent": "甲",
+      "trine": "寅午戌", "trine_element": "火", "trine_role_family": "比劫",
+      "target": "劫", "pdf_pages": {"world_library": [32], "collected": [27]}
+    },
+    {
+      "id": "bing_shen_adverse", "section": "adverse", "day": "丙", "month": "申",
+      "month_main": "庚", "roles": {"庚": "偏财", "壬": "七杀"}, "visible": "壬", "concealed_contrast": "庚",
+      "trine": "申子辰", "trine_element": "水", "trine_role_family": "官杀",
+      "target": "煞", "pdf_pages": {"world_library": [32], "collected": [27]}
+    },
+    {
+      "id": "xin_yin_retain", "section": "retained", "day": "辛", "month": "寅",
+      "month_main": "甲", "roles": {"甲": "正财", "丙": "正官"}, "visible": "丙甲",
+      "target": "正財，兼正官", "pdf_pages": {"world_library": [32], "collected": [27]}
+    },
+    {
+      "id": "yi_shen_retain", "section": "retained", "day": "乙", "month": "申",
+      "month_main": "庚", "roles": {"庚": "正官", "壬": "正印", "戊": "正财"}, "visible": "壬戊",
+      "generation": ["戊庚"], "control": ["戊壬"],
+      "target": "正官，兼印", "pdf_pages": {"world_library": [32], "collected": [27]}
+    },
+    {
+      "id": "gui_yin_retain", "section": "retained", "day": "癸", "month": "寅",
+      "month_main": "甲", "roles": {"甲": "伤官", "丙": "正财", "戊": "正官"}, "visible": "丙甲", "stratify_visible": "戊",
+      "target": "傷官，戊官忌見", "pdf_pages": {"world_library": [32], "collected": [27]}
+    },
+    {
+      "id": "bing_yin_retain", "section": "retained", "day": "丙", "month": "寅",
+      "month_main": "甲", "roles": {"甲": "偏印", "壬": "七杀"}, "visible_any": "甲壬",
+      "trine": "寅午戌", "trine_element": "火", "trine_role_family": "比劫",
+      "target": "印", "pdf_pages": {"world_library": [32], "collected": [27, 28]},
+      "edition_overrides": {"world_library": {"visible_any": "壬"}}
+    },
+    {
+      "id": "bing_shen_retain", "section": "retained", "day": "丙", "month": "申",
+      "month_main": "庚", "roles": {"庚": "偏财", "壬": "七杀", "戊": "食神"}, "visible": "壬戊",
+      "generation": ["戊庚"], "control": ["戊壬"],
+      "target": "財", "pdf_pages": {"world_library": [32], "collected": [28]}
+    }
+  ],
+  "overlaps": [
+    ["xin_yin_officer", "xin_yin_retain"],
+    ["gui_yin_wealth", "gui_yin_retain"],
+    ["bing_yin_adverse", "bing_yin_retain"],
+    ["bing_shen_adverse", "bing_shen_retain"]
+  ],
+  "controls": [
+    {"id": "ding_hai_mao", "day": "丁", "month": "亥", "branches": "未",
+      "toggle_branches": "卯", "match_visible": true},
+    {"id": "ji_shen_ren", "day": "己", "month": "申", "absent": "庚",
+      "toggle_visible": "壬", "substitute_visible": "癸", "match_visible": true},
+    {"id": "xin_yin_jia", "day": "辛", "month": "寅", "visible": "丙", "toggle_visible": "甲"},
+    {"id": "gui_yin_fire", "day": "癸", "month": "寅", "visible": "甲丙",
+      "toggle_branches": "午戌", "match_visible": true},
+    {"id": "bing_yin_ren", "day": "丙", "month": "寅", "absent": "甲", "branches": "午戌", "toggle_visible": "壬"},
+    {"id": "bing_yin_jia", "day": "丙", "month": "寅", "absent": "壬", "branches": "午戌", "toggle_visible": "甲"},
+    {"id": "bing_shen_wu", "day": "丙", "month": "申", "visible": "壬", "absent": "庚",
+      "branches": "子辰", "toggle_visible": "戊"}
+  ],
+  "calendar_controls": {"start_year": 1900, "end_year": 2019, "offset_seconds": 28800, "sect": 1,
+    "inverse_attempt_limit_per_side": 120, "valid_limit_per_side": 12}
+}
