@@ -1,0 +1,473 @@
+{
+  "round": "R32",
+  "files_sha256": {
+    "REGISTRATION.zh.md": "fb924ced693f8a28ed00bfd80ca55a16d6d5dd0792f69275f6bca077caf66a2d",
+    "source_numeric.json": "8f391791209eff4fafd788d1b9956cd31c4e09bac3620df4100f62000a471b04",
+    "coordinates.py": "befc56119414f09e3aed9799c74ceb25a40373f8d8c70b55d2ce7da36bd176ac",
+    "input_data.py": "c5000444a07698a06b081c4769e3da93e7fd2d7455ba23b7e570204578d0116a",
+    "replay.py": "13dc80078afac1be5a4e69a42857dabda01f38aecbf16945370102f05e82b7e2"
+  },
+  "source_epoch": {
+    "winter_eq_from_jiao": "394/5",
+    "winter_ji_ra": "10",
+    "winter_ecliptic_from_jiao": 77.7646173688736,
+    "astronomical_epoch_julian_day_ut": 2188925.2465467653,
+    "swiss_mean_obliquity_deg": 23.532616207656886,
+    "swiss_ephemeris_version": "2.10.03"
+  },
+  "reconstructed_widths": {
+    "native_corrected": {
+      "mean_absolute_error_old_degrees": 0.002845488367151323,
+      "max_absolute_error_old_degrees": 0.00941923347889457,
+      "within_0_005_old_degrees": 24,
+      "match_rounded_hundredth_excluding_xu": 24,
+      "xu_special_fraction_error_old_degrees": -0.008773979817897088,
+      "group_sums_old_degrees": [
+        78.13277199381608,
+        94.088771270823,
+        83.96281866594528,
+        109.07313806941563
+      ],
+      "signed_errors_old_degrees": {
+        "角": 0.0010293743306286724,
+        "亢": -0.0026569956944115956,
+        "氐": 0.005787937439907345,
+        "房": 0.004056274587361598,
+        "心": 0.0034713303573559954,
+        "尾": 0.0011907199571955108,
+        "箕": -0.0001066471619589347,
+        "斗": -0.0045363913242422215,
+        "牛": -0.001411570170623768,
+        "女": -0.0019833383855751108,
+        "虚": -0.008773979817897088,
+        "危": -0.0029126634690770418,
+        "室": 0.002592682787940909,
+        "壁": -0.0017034687975292053,
+        "奎": -0.0015651860332156192,
+        "娄": 0.00941923347889457,
+        "胃": 0.004206896275364806,
+        "昴": -0.0027745862925555604,
+        "毕": 0.005830657253800683,
+        "觜": -0.0033582089552238806,
+        "参": 0.0010598602182194383,
+        "井": -0.0035213405936947778,
+        "鬼": 0.0006109449090717692,
+        "柳": 0.0003029307480598051,
+        "星": -0.0007848343764559462,
+        "张": 0.0002779947963174204,
+        "翼": -0.0001917059189600688,
+        "轸": -0.0035559201486977054
+      },
+      "projected_widths_old_degrees": {
+        "角": 12.871029374330629,
+        "亢": 9.557343004305588,
+        "氐": 16.405787937439907,
+        "房": 5.484056274587362,
+        "心": 6.273471330357356,
+        "尾": 17.951190719957197,
+        "箕": 9.589893352838041,
+        "斗": 23.46546360867576,
+        "牛": 6.898588429829376,
+        "女": 11.118016661614424,
+        "虚": 8.998726020182103,
+        "危": 15.947087336530924,
+        "室": 18.322592682787942,
+        "壁": 9.33829653120247,
+        "奎": 17.868434813966786,
+        "娄": 12.369419233478894,
+        "胃": 15.814206896275365,
+        "昴": 11.077225413707444,
+        "毕": 16.5058306572538,
+        "觜": 0.04664179104477612,
+        "参": 10.28105986021822,
+        "井": 31.026478659406305,
+        "鬼": 2.1106109449090718,
+        "柳": 13.00030293074806,
+        "星": 6.309215165623544,
+        "张": 17.790277994796316,
+        "翼": 20.08980829408104,
+        "轸": 18.7464440798513
+      }
+    },
+    "native_as_printed": {
+      "mean_absolute_error_old_degrees": 0.002973375713010326,
+      "max_absolute_error_old_degrees": 0.00941923347889457,
+      "within_0_005_old_degrees": 24,
+      "match_rounded_hundredth_excluding_xu": 24,
+      "xu_special_fraction_error_old_degrees": -0.008773979817897088,
+      "group_sums_old_degrees": [
+        78.13277199381608,
+        94.088771270823,
+        83.96281866594528,
+        109.07313806941563
+      ],
+      "signed_errors_old_degrees": {
+        "角": 0.0010293743306286724,
+        "亢": -0.0026569956944115956,
+        "氐": 0.005787937439907345,
+        "房": 0.004056274587361598,
+        "心": 0.0034713303573559954,
+        "尾": 0.0011907199571955108,
+        "箕": -0.0001066471619589347,
+        "斗": -0.0045363913242422215,
+        "牛": -0.001411570170623768,
+        "女": -0.0019833383855751108,
+        "虚": -0.008773979817897088,
+        "危": -0.0029126634690770418,
+        "室": 0.002592682787940909,
+        "壁": -0.0017034687975292053,
+        "奎": -0.0015651860332156192,
+        "娄": 0.00941923347889457,
+        "胃": 0.004206896275364806,
+        "昴": -0.0027745862925555604,
+        "毕": 0.005830657253800683,
+        "觜": -0.0033582089552238806,
+        "参": 0.0010598602182194383,
+        "井": -0.0035213405936947778,
+        "鬼": -0.0017904228420260373,
+        "柳": 0.0027042984991576115,
+        "星": -0.0007848343764559462,
+        "张": 0.0002779947963174204,
+        "翼": -0.0001917059189600688,
+        "轸": -0.0035559201486977054
+      },
+      "projected_widths_old_degrees": {
+        "角": 12.871029374330629,
+        "亢": 9.557343004305588,
+        "氐": 16.405787937439907,
+        "房": 5.484056274587362,
+        "心": 6.273471330357356,
+        "尾": 17.951190719957197,
+        "箕": 9.589893352838041,
+        "斗": 23.46546360867576,
+        "牛": 6.898588429829376,
+        "女": 11.118016661614424,
+        "虚": 8.998726020182103,
+        "危": 15.947087336530924,
+        "室": 18.322592682787942,
+        "壁": 9.33829653120247,
+        "奎": 17.868434813966786,
+        "娄": 12.369419233478894,
+        "胃": 15.814206896275365,
+        "昴": 11.077225413707444,
+        "毕": 16.5058306572538,
+        "觜": 0.04664179104477612,
+        "参": 10.28105986021822,
+        "井": 31.026478659406305,
+        "鬼": 2.108209577157974,
+        "柳": 13.002704298499157,
+        "星": 6.309215165623544,
+        "张": 17.790277994796316,
+        "翼": 20.08980829408104,
+        "轸": 18.7464440798513
+      }
+    },
+    "spherical_mean_obliquity": {
+      "mean_absolute_error_old_degrees": 0.060532982798913754,
+      "max_absolute_error_old_degrees": 0.16526955922224484,
+      "within_0_005_old_degrees": 3,
+      "match_rounded_hundredth_excluding_xu": 2,
+      "xu_special_fraction_error_old_degrees": -0.003858861517042878,
+      "group_sums_old_degrees": [
+        78.07095371216474,
+        94.10271119668592,
+        83.96685593034996,
+        109.11697916079939
+      ],
+      "signed_errors_old_degrees": {
+        "角": 0.07903887156814626,
+        "亢": 0.05016600337522784,
+        "氐": 0.01975087620969921,
+        "房": -0.017648090012632997,
+        "心": -0.032562115414548835,
+        "尾": -0.10722726186100837,
+        "箕": -0.04056457170014951,
+        "斗": -0.12897093145973781,
+        "牛": -0.044575233716210125,
+        "女": -0.04482205312899208,
+        "虚": -0.003858861517042878,
+        "危": 0.07749562315689193,
+        "室": 0.10410040840745623,
+        "壁": 0.03584224494355363,
+        "奎": 0.09033961054600238,
+        "娄": 0.0836928240044306,
+        "胃": 0.03777524766401906,
+        "昴": -0.04442130225050474,
+        "毕": -0.09742725134808587,
+        "觜": -0.003632428262610111,
+        "参": -0.049470770003290025,
+        "井": -0.16526955922224484,
+        "鬼": -0.012359063698580836,
+        "柳": -0.05344416374994053,
+        "星": -0.0012081018392129934,
+        "张": 0.08145499845501286,
+        "翼": 0.1101461244883881,
+        "轸": 0.07765892636596446
+      },
+      "projected_widths_old_degrees": {
+        "角": 12.949038871568145,
+        "亢": 9.610166003375229,
+        "氐": 16.4197508762097,
+        "房": 5.462351909987367,
+        "心": 6.237437884585451,
+        "尾": 17.84277273813899,
+        "箕": 9.54943542829985,
+        "斗": 23.341029068540262,
+        "牛": 6.8554247662837895,
+        "女": 11.075177946871008,
+        "虚": 9.003641138482957,
+        "危": 16.02749562315689,
+        "室": 18.424100408407455,
+        "壁": 9.375842244943554,
+        "奎": 17.960339610546,
+        "娄": 12.443692824004431,
+        "胃": 15.84777524766402,
+        "昴": 11.035578697749495,
+        "毕": 16.402572748651913,
+        "觜": 0.04636757173738989,
+        "参": 10.23052922999671,
+        "井": 30.864730440777755,
+        "鬼": 2.0976409363014192,
+        "柳": 12.94655583625006,
+        "星": 6.308791898160787,
+        "张": 17.871454998455015,
+        "翼": 20.200146124488388,
+        "轸": 18.827658926365963
+      }
+    },
+    "equator_equals_ecliptic": {
+      "mean_absolute_error_old_degrees": 0.655,
+      "max_absolute_error_old_degrees": 2.27,
+      "within_0_005_old_degrees": 1,
+      "match_rounded_hundredth_excluding_xu": 1,
+      "xu_special_fraction_error_old_degrees": -0.05,
+      "group_sums_old_degrees": [
+        79.2,
+        93.8075,
+        83.85,
+        108.4
+      ],
+      "signed_errors_old_degrees": {
+        "角": -0.77,
+        "亢": -0.36,
+        "氐": -0.1,
+        "房": 0.12,
+        "心": 0.23,
+        "尾": 1.15,
+        "箕": 0.81,
+        "斗": 1.73,
+        "牛": 0.3,
+        "女": 0.23,
+        "虚": -0.05,
+        "危": -0.55,
+        "室": -1.22,
+        "壁": -0.74,
+        "奎": -1.27,
+        "娄": -0.56,
+        "胃": -0.21,
+        "昴": 0.22,
+        "毕": 0.9,
+        "觜": 0.0,
+        "参": 0.82,
+        "井": 2.27,
+        "鬼": 0.09,
+        "柳": 0.3,
+        "星": -0.01,
+        "张": -0.54,
+        "翼": -1.34,
+        "轸": -1.45
+      },
+      "projected_widths_old_degrees": {
+        "角": 12.1,
+        "亢": 9.2,
+        "氐": 16.3,
+        "房": 5.6,
+        "心": 6.5,
+        "尾": 19.1,
+        "箕": 10.4,
+        "斗": 25.2,
+        "牛": 7.2,
+        "女": 11.35,
+        "虚": 8.9575,
+        "危": 15.4,
+        "室": 17.1,
+        "壁": 8.6,
+        "奎": 16.6,
+        "娄": 11.8,
+        "胃": 15.6,
+        "昴": 11.3,
+        "毕": 17.4,
+        "觜": 0.05,
+        "参": 11.1,
+        "井": 33.3,
+        "鬼": 2.2,
+        "柳": 13.3,
+        "星": 6.3,
+        "张": 17.25,
+        "翼": 18.75,
+        "轸": 17.3
+      }
+    }
+  },
+  "ming_1599_worked_example": {
+    "printed_seasonal_accumulation_exact": "290367549/2500",
+    "recomputed_seasonal_accumulation_exact": "290367549/2500",
+    "matches_printed_seasonal_accumulation": true,
+    "printed_equatorial_ji_old_degrees": 5.1346,
+    "epoch_year_label": 1281,
+    "ming_worked_example_year_label": 1599,
+    "elapsed_years": 318,
+    "reconstructed_from_time_rule": {
+      "fixed_turn": {
+        "equatorial_ji_exact": "25673/5000",
+        "equatorial_difference_old_degrees": 0.0,
+        "ecliptic_ji": 4.728269886625496
+      },
+      "adjusted_turn": {
+        "equatorial_ji_exact": "6299/1250",
+        "equatorial_difference_old_degrees": -0.0954,
+        "ecliptic_ji": 4.64033551479399
+      }
+    },
+    "ecliptic_ji_given_printed_equatorial_ji": 4.728269886625496,
+    "printed_ecliptic_ji_old_degrees": {
+      "volume_two": 4.7282,
+      "volume_fifty_one": 4.7258
+    },
+    "ecliptic_differences_given_printed_equatorial_ji": {
+      "volume_two": 6.988662549543736e-05,
+      "volume_fifty_one": 0.0024698866254954373
+    },
+    "matches_0_0001_old_degrees_given_printed_equatorial_ji": {
+      "volume_two": true,
+      "volume_fifty_one": false
+    }
+  },
+  "modern_standardized_examples": {
+    "wikisource_san": {
+      "solar_dates": {
+        "days": 366,
+        "solar_mansion_disagrees": 15,
+        "solar_palace_disagrees": 7
+      },
+      "first_change_age": {
+        "head": {
+          "date_branch_combinations": 4392,
+          "ming_palace_disagrees": 84,
+          "rotated_computed": 4216,
+          "reprojected_computed": 4208,
+          "both_age_computable": 4160,
+          "age_disagrees_when_both_computable": 702,
+          "maximum_absolute_age_difference": 9,
+          "largest_age_difference_given_same_ming_palace": 1,
+          "age_disagreements_with_a_change_of_ming_palace": 30,
+          "reprojected_outside_target_palace": 130,
+          "only_one_age_computable": 104,
+          "rotated_outside_target_palace": 131,
+          "neither_age_computable": 128,
+          "rotated_outside_first_change_lookup": 45,
+          "reprojected_outside_first_change_lookup": 54
+        },
+        "tail": {
+          "date_branch_combinations": 4392,
+          "ming_palace_disagrees": 84,
+          "rotated_computed": 4119,
+          "reprojected_computed": 4110,
+          "both_age_computable": 4036,
+          "age_disagrees_when_both_computable": 925,
+          "maximum_absolute_age_difference": 9,
+          "largest_age_difference_given_same_ming_palace": 1,
+          "reprojected_outside_first_change_lookup": 137,
+          "only_one_age_computable": 157,
+          "rotated_outside_first_change_lookup": 132,
+          "neither_age_computable": 199,
+          "reprojected_outside_target_palace": 145,
+          "age_disagreements_with_a_change_of_ming_palace": 14,
+          "rotated_outside_target_palace": 141
+        }
+      },
+      "other_solar_ephemeris": {
+        "maximum_solar_longitude_difference_arcsec": 1.5990298989549956,
+        "classification_differences": {
+          "rotated_printed_table": {
+            "mansion_days": 0,
+            "palace_days": 0,
+            "head_age_or_status_combinations": 0,
+            "tail_age_or_status_combinations": 0
+          },
+          "reprojected_equatorial_table": {
+            "mansion_days": 0,
+            "palace_days": 0,
+            "head_age_or_status_combinations": 0,
+            "tail_age_or_status_combinations": 0
+          }
+        }
+      }
+    },
+    "shidian_er": {
+      "solar_dates": {
+        "days": 366,
+        "solar_mansion_disagrees": 15,
+        "solar_palace_disagrees": 7
+      },
+      "first_change_age": {
+        "head": {
+          "date_branch_combinations": 4392,
+          "ming_palace_disagrees": 84,
+          "rotated_computed": 4210,
+          "reprojected_computed": 4197,
+          "both_age_computable": 4151,
+          "age_disagrees_when_both_computable": 686,
+          "maximum_absolute_age_difference": 9,
+          "largest_age_difference_given_same_ming_palace": 1,
+          "age_disagreements_with_a_change_of_ming_palace": 29,
+          "reprojected_outside_target_palace": 140,
+          "only_one_age_computable": 105,
+          "rotated_outside_target_palace": 137,
+          "neither_age_computable": 136,
+          "rotated_outside_first_change_lookup": 45,
+          "reprojected_outside_first_change_lookup": 55
+        },
+        "tail": {
+          "date_branch_combinations": 4392,
+          "ming_palace_disagrees": 84,
+          "rotated_computed": 4112,
+          "reprojected_outside_first_change_lookup": 142,
+          "only_one_age_computable": 158,
+          "reprojected_computed": 4096,
+          "both_age_computable": 4025,
+          "age_disagrees_when_both_computable": 923,
+          "maximum_absolute_age_difference": 9,
+          "largest_age_difference_given_same_ming_palace": 1,
+          "rotated_outside_first_change_lookup": 132,
+          "neither_age_computable": 209,
+          "reprojected_outside_target_palace": 154,
+          "age_disagreements_with_a_change_of_ming_palace": 12,
+          "rotated_outside_target_palace": 148
+        }
+      },
+      "other_solar_ephemeris": {
+        "maximum_solar_longitude_difference_arcsec": 1.5990298989549956,
+        "classification_differences": {
+          "rotated_printed_table": {
+            "mansion_days": 0,
+            "palace_days": 0,
+            "head_age_or_status_combinations": 0,
+            "tail_age_or_status_combinations": 0
+          },
+          "reprojected_equatorial_table": {
+            "mansion_days": 0,
+            "palace_days": 0,
+            "head_age_or_status_combinations": 0,
+            "tail_age_or_status_combinations": 0
+          }
+        }
+      }
+    }
+  },
+  "verification": {
+    "independent_exact_arc_and_roundtrip_probes": 1496,
+    "independent_angular_and_roundtrip_probes_for_uncorrected_reading": 1496,
+    "direct_equatorial_sector_labels_verified_for_all_366_dates_and_both_chou_readings": true
+  }
+}
