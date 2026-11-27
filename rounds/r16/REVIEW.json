@@ -1,0 +1,161 @@
+{
+  "registration_sha256": "b04cf2119899613949372931754b7e90f5673f478cddf154a87f53158775f9a0",
+  "pyswisseph": 20230604,
+  "ziwei": {
+    "natal_stems": 10,
+    "cells": 40,
+    "difference_cells": [
+      {
+        "natal_stem": "壬",
+        "transformation": "科",
+        "classical": "天府",
+        "pinned_library": "左辅"
+      }
+    ],
+    "hua_ji_identical_by_stem": true
+  },
+  "yuebo": {
+    "edition": "大清道光十三年七政經緯躔度時憲書",
+    "observations": [
+      {
+        "days_from_almanac_epoch": 0,
+        "target_longitude_deg": 314.1461107071174,
+        "interpolated_returned_flags": 260,
+        "signed_error_arcmin": {
+          "mean": -28.996409222402235,
+          "osculating": 69.64958750613732,
+          "interpolated": -225.11148739257692
+        }
+      },
+      {
+        "days_from_almanac_epoch": 10,
+        "target_longitude_deg": 315.2964985775953,
+        "interpolated_returned_flags": 260,
+        "signed_error_arcmin": {
+          "mean": -31.470633644444206,
+          "osculating": 1302.268943799853,
+          "interpolated": -272.3696413031473
+        }
+      },
+      {
+        "days_from_almanac_epoch": 20,
+        "target_longitude_deg": 316.4302197814065,
+        "interpolated_returned_flags": 260,
+        "signed_error_arcmin": {
+          "mean": -32.92843998410376,
+          "osculating": -176.4443233502277,
+          "interpolated": -277.4171691329775
+        }
+      },
+      {
+        "days_from_almanac_epoch": 29,
+        "target_longitude_deg": 317.44723553150334,
+        "interpolated_returned_flags": 260,
+        "signed_error_arcmin": {
+          "mean": -34.02187833850235,
+          "osculating": -91.43427680004834,
+          "interpolated": -257.4375671290022
+        }
+      },
+      {
+        "days_from_almanac_epoch": 39,
+        "target_longitude_deg": 318.56429006864784,
+        "interpolated_returned_flags": 260,
+        "signed_error_arcmin": {
+          "mean": -34.44373334192733,
+          "osculating": 1638.6577281037933,
+          "interpolated": -217.3004508313477
+        }
+      },
+      {
+        "days_from_almanac_epoch": 49,
+        "target_longitude_deg": 319.68134460579245,
+        "interpolated_returned_flags": 260,
+        "signed_error_arcmin": {
+          "mean": -34.85073145119259,
+          "osculating": 224.48424336843232,
+          "interpolated": -168.18150140791772
+        }
+      },
+      {
+        "days_from_almanac_epoch": 59,
+        "target_longitude_deg": 320.78173247627035,
+        "interpolated_returned_flags": 260,
+        "signed_error_arcmin": {
+          "mean": -34.23612853135978,
+          "osculating": -484.4183095662777,
+          "interpolated": -113.49134579727206
+        }
+      },
+      {
+        "days_from_almanac_epoch": 69,
+        "target_longitude_deg": 321.86545368008166,
+        "interpolated_returned_flags": 260,
+        "signed_error_arcmin": {
+          "mean": -32.590415863626276,
+          "osculating": 1177.5106526479635,
+          "interpolated": -56.5203015550037
+        }
+      },
+      {
+        "days_from_almanac_epoch": 79,
+        "target_longitude_deg": 322.9491748838929,
+        "interpolated_returned_flags": 260,
+        "signed_error_arcmin": {
+          "mean": -30.92796824075549,
+          "osculating": 223.16132203252664,
+          "interpolated": -1.3955819631610211
+        }
+      },
+      {
+        "days_from_almanac_epoch": 88,
+        "target_longitude_deg": 323.91619063398963,
+        "interpolated_returned_flags": 260,
+        "signed_error_arcmin": {
+          "mean": -28.91886624894937,
+          "osculating": -913.7222912329435,
+          "interpolated": 47.171277652646495
+        }
+      },
+      {
+        "days_from_almanac_epoch": 98,
+        "target_longitude_deg": 324.99991183780094,
+        "interpolated_returned_flags": 260,
+        "signed_error_arcmin": {
+          "mean": -27.206085567094078,
+          "osculating": -252.80215914895166,
+          "interpolated": 97.7131942473568
+        }
+      },
+      {
+        "days_from_almanac_epoch": 108,
+        "target_longitude_deg": 326.05029970827877,
+        "interpolated_returned_flags": 260,
+        "signed_error_arcmin": {
+          "mean": -23.471657679406235,
+          "osculating": 217.38404282766737,
+          "interpolated": 145.69675077084298
+        }
+      }
+    ],
+    "summary": {
+      "mean": {
+        "mean_absolute_error_arcmin": 31.17191234281364,
+        "max_absolute_error_arcmin": 34.85073145119259
+      },
+      "osculating": {
+        "mean_absolute_error_arcmin": 564.3281566987351,
+        "max_absolute_error_arcmin": 1638.6577281037933
+      },
+      "interpolated": {
+        "mean_absolute_error_arcmin": 156.6505224319377,
+        "max_absolute_error_arcmin": 277.4171691329775
+      }
+    },
+    "parameters_fit": 0,
+    "target_longitude_convention": "Beijing local mean midnight at116.4E is the declared reconstruction convention",
+    "scope": "R8 historical time and mansion conversion used for three defined modern lunar apogees."
+  },
+  "cohort_scores_used": false,
+  "observed_outcomes_used": false
+}
