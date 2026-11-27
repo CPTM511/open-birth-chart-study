@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "count": 9,
+  "checks": [
+    "all nine n-1 resamples preserve total, nonnegative weights and exact finite-frame mean variance",
+    "100 replicate draws preserve finite-frame stratum totals",
+    "census replicate weights are unchanged",
+    "non-census singleton produces unavailable sensitivity",
+    "cached refit CDF equals original implementation for 10 reweightings with ties",
+    "refitted reference percentile mean remains one half with unequal weights",
+    "identical score arrays have identical joint flags under a shared reference",
+    "exact 4/5 equality is included and both sides about 1e-13 away match an independent Fraction oracle without tolerance widening",
+    "sensitivity baseline and primary use the same exact design-weight boundary rule"
+  ],
+  "real_R10_targets_inspected": false,
+  "scope": "Arithmetic and implementation checks; not confidence-coverage validation or real-world prediction"
+}

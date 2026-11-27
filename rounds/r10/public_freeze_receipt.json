@@ -1,0 +1,16 @@
+{
+  "public_protocol_commit": "f792dc314a4183564c44504842302795f2dba0cb",
+  "verified_utc": "2026-11-27T01:58:02.150Z",
+  "files": [
+    {
+      "path": "rounds/r10/README.md",
+      "sha256": "eaa5883c6550dc8a87fbdc744ca88f1abb1f158d8cd7d208cee248830317bf80"
+    },
+    {
+      "path": "rounds/r10/protocol.json",
+      "sha256": "38c01264437a27ac6eb4c0340e036b8bedc83d910c892964d2c2384dda59029a"
+    }
+  ],
+  "remote_bytes_verified": true,
+  "new_R10_real_scores_computed_before_freeze": false
+}
