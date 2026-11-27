@@ -1,0 +1,8 @@
+{
+  "archive_sha256": "c162da4339001473ef36aa03dccb39c12d3c66fde349fcac67a181439aba917c",
+  "archive_size_bytes": 16873,
+  "snapshot_of_four_publisher_distributions": true,
+  "new_directory_exact_replay": true,
+  "result_sha256": "7ec4e6c32e67c3b36103808747fd42f8dc2885f0e9575fd2aea8f1ff9a047c36",
+  "publisher_vintage_access": "The stable hashes describe the exact version. Live publisher links may advance."
+}

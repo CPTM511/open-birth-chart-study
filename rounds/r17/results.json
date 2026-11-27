@@ -1,0 +1,124 @@
+{
+  "registration_sha256": "dbe9281e150291cdd37e2eed2578b6472de89e8abe96f35954942f0aa505fce2",
+  "rps": {
+    "quarters": 9,
+    "nested_series_quarter_checks": 9,
+    "source_series": {
+      "ever_work": "RPSGENAIUSAGESHAREWORK",
+      "last_week_work": "RPSGENAIUSAGESHARELWWORK",
+      "every_workday": "RPSGENAIUSAGESHAREEDLWWOR"
+    },
+    "rates": {
+      "ever_work": {
+        "2024_Q3_percent": 33.2712831356,
+        "2026_Q3_percent": 40.5455002479,
+        "difference_pp": 7.2742171123
+      },
+      "last_week_work": {
+        "2024_Q3_percent": 28.1940029658,
+        "2026_Q3_percent": 34.8442056827,
+        "difference_pp": 6.6502027169
+      },
+      "every_workday": {
+        "2024_Q3_percent": 12.1022610673,
+        "2026_Q3_percent": 11.4691834418,
+        "difference_pp": -0.6330776255
+      }
+    },
+    "unit": "Percent of employed respondents aged 18\u201364, publisher-weighted point estimates."
+  },
+  "payroll": {
+    "observation_months": 60,
+    "vintage": "2026-11-15",
+    "baseline": "2022-11-01",
+    "ages": {
+      "Early Career 1 (22-25)": {
+        "latest_least_exposed_index": 108.60000000000001,
+        "latest_most_exposed_index": 88.2,
+        "gap_percent_at_prespecified_months": {
+          "2021-11-01": 3.722311029915506,
+          "2022-11-01": 0.0,
+          "2026-06-01": -18.992673992673982,
+          "2026-08-01": -19.689497716894977,
+          "2026-09-01": -19.22865013774103,
+          "2026-10-01": -18.78453038674034
+        },
+        "pre_nov_2022_gap_change_pp": -3.722311029915506
+      },
+      "Early Career 2 (26-30)": {
+        "latest_least_exposed_index": 106.60000000000001,
+        "latest_most_exposed_index": 96.59,
+        "gap_percent_at_prespecified_months": {
+          "2021-11-01": 0.20625271385149804,
+          "2022-11-01": 0.0,
+          "2026-06-01": -8.661048689138585,
+          "2026-08-01": -9.0310442144873,
+          "2026-09-01": -8.79017013232515,
+          "2026-10-01": -9.390243902439034
+        },
+        "pre_nov_2022_gap_change_pp": -0.20625271385149804
+      },
+      "Developing (31-34)": {
+        "latest_least_exposed_index": 107.69999999999999,
+        "latest_most_exposed_index": 101.6,
+        "gap_percent_at_prespecified_months": {
+          "2021-11-01": 2.233638597274961,
+          "2022-11-01": 0.0,
+          "2026-06-01": -3.9399624765478514,
+          "2026-08-01": -4.761904761904762,
+          "2026-09-01": -4.864359214218896,
+          "2026-10-01": -5.663881151346324
+        },
+        "pre_nov_2022_gap_change_pp": -2.233638597274961
+      },
+      "Mid-Career 1 (35-40)": {
+        "latest_least_exposed_index": 114.8,
+        "latest_most_exposed_index": 109.3,
+        "gap_percent_at_prespecified_months": {
+          "2021-11-01": 1.2065217391304348,
+          "2022-11-01": 0.0,
+          "2026-06-01": -4.795117698343505,
+          "2026-08-01": -4.799301919720768,
+          "2026-09-01": -4.720279720279703,
+          "2026-10-01": -4.790940766550523
+        },
+        "pre_nov_2022_gap_change_pp": -1.2065217391304348
+      },
+      "Mid-Career 2 (41-49)": {
+        "latest_least_exposed_index": 109.2,
+        "latest_most_exposed_index": 110.1,
+        "gap_percent_at_prespecified_months": {
+          "2021-11-01": 0.7034632034632035,
+          "2022-11-01": 0.0,
+          "2026-06-01": 1.5755329008341243,
+          "2026-08-01": 1.2927054478301017,
+          "2026-09-01": 1.1970534069981398,
+          "2026-10-01": 0.8241758241758241
+        },
+        "pre_nov_2022_gap_change_pp": -0.7034632034632035
+      },
+      "Senior (50+)": {
+        "latest_least_exposed_index": 107.1,
+        "latest_most_exposed_index": 105.5,
+        "gap_percent_at_prespecified_months": {
+          "2021-11-01": 1.1142362613587191,
+          "2022-11-01": 0.0,
+          "2026-06-01": -1.3145539906103287,
+          "2026-08-01": -1.407129455909953,
+          "2026-09-01": -1.4981273408239792,
+          "2026-10-01": -1.4939309056956116
+        },
+        "pre_nov_2022_gap_change_pp": -1.1142362613587191
+      }
+    },
+    "latest_22_25_minus_41_49_gap_pp": -19.608706210916164,
+    "yoy_cells_checked": 1440,
+    "max_absolute_yoy_point_residual": 4.894420982440542e-05,
+    "original_tolerance_exceedances": 1185,
+    "display_index_rounding_radius_points": 0.005,
+    "display_yoy_rounding_radius_fraction": 5e-06,
+    "unit": "Normalized employment index within publisher's selected ADP employers."
+  },
+  "data_linkage": false,
+  "research_design": "Descriptive analysis of two published aggregates."
+}
