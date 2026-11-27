@@ -1,0 +1,67 @@
+{
+  "sources": {
+    "world_library": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/NLC416-11jh010455-35296_%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE.pdf",
+      "file_sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620",
+      "pdf_pages": [39, 40, 41],
+      "printed_pages": [30, 31, 32]
+    },
+    "collected": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/NLC416-13jh002326-46443_%E6%B7%B5%E6%B5%B7%E5%AD%90%E5%B9%B3_%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE_%E7%AC%AC2%E5%8D%B7.pdf",
+      "file_sha256": "b1ac0a7dd4dc260647b65bd9338ad815fc0855d78e0ea01ed428237b28eb61c8",
+      "pdf_pages": [32, 33],
+      "printed_pages": [19, 20]
+    }
+  },
+  "opening_examples": [
+    {"example": "官逢財生", "world_library": {"用": "官", "相": "財"}, "collected": {"用": "官", "相": "財"}},
+    {"example": "財旺生官", "world_library": {"用": "官", "相": "官"}, "collected": {"用": "財", "相": "官"}},
+    {"example": "煞逢食制", "world_library": {"用": "煞", "相": "食"}, "collected": {"用": "煞", "相": "食"}}
+  ],
+  "cases": [
+    {
+      "case": "officer_with_ren", "day": "甲", "month": "酉", "root_role": "正官", "visible": "丁壬",
+      "roles": {"丁": "伤官", "壬": "偏印"},
+      "bind": "壬丁", "ordered_control_edges": ["丁辛"], "last_edge_before_after_binding": [true, false],
+      "pdf_pages": {"world_library": [39], "collected": [32]}
+    },
+    {
+      "case": "wealth_with_ji", "day": "戊", "month": "子", "root_role": "正财", "visible": "甲己",
+      "roles": {"甲": "七杀", "己": "劫财"},
+      "bind": "己甲", "ordered_control_edges": ["甲戊"], "last_edge_before_after_binding": [true, false],
+      "pdf_pages": {"world_library": [39, 40], "collected": [32]}
+    },
+    {
+      "case": "killing_with_wu", "day": "乙", "month": "酉", "root_role": "七杀", "visible": "丁癸戊",
+      "roles": {"丁": "食神", "癸": "偏印", "戊": "正财"},
+      "fixed_visible_positions": {"year": "丁", "month": "癸", "hour": "戊"},
+      "bind": "戊癸", "ordered_control_edges": ["癸丁", "丁辛"], "last_edge_before_after_binding": [false, true],
+      "pdf_pages": {"world_library": [40], "collected": [32]}
+    },
+    {
+      "case": "hai_wood_meeting", "day": "癸", "month": "亥", "root_role": "劫财", "visible": "丙",
+      "roles": {"丙": "正财"}, "required_branches": "卯未",
+      "meeting_branches": "亥卯未", "meeting_element": "木",
+      "generation_example": "癸乙丙", "pdf_pages": {"world_library": [40], "collected": [32]}
+    },
+    {
+      "case": "shen_water_meeting", "day": "庚", "month": "申", "root_role": "比肩", "visible": "癸",
+      "roles": {"癸": "伤官"}, "required_branches": "子辰",
+      "meeting_branches": "申子辰", "meeting_element": "水", "generation_example": "庚癸",
+      "edition_overrides": {"world_library": {"month": "甲", "visible": "", "roles": {}, "visible_element": "水"}},
+      "pdf_pages": {"world_library": [40], "collected": [32, 33]}
+    },
+    {
+      "case": "officer_support_bound", "day": "甲", "month": "酉", "root_role": "正官", "visible": "丁癸戊",
+      "roles": {"丁": "伤官", "癸": "正印", "戊": "偏财"},
+      "bind": "戊癸", "ordered_control_edges": ["癸丁", "丁辛"], "last_edge_before_after_binding": [false, true],
+      "pdf_pages": {"world_library": [40], "collected": [33]}
+    },
+    {
+      "case": "wealth_support_bound", "day": "丁", "month": "酉", "root_role": "偏财", "visible": "癸己甲",
+      "roles": {"癸": "七杀", "己": "食神", "甲": "正印"}, "generation_example": "己辛",
+      "bind": "甲己", "ordered_control_edges": ["己癸", "癸丁"], "last_edge_before_after_binding": [false, true],
+      "pdf_pages": {"world_library": [40], "collected": [33]}
+    }
+  ]
+}
