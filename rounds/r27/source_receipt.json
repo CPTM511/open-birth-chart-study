@@ -1,0 +1,447 @@
+{
+  "archive": "Stadsarchief Amsterdam",
+  "fonds": 5009,
+  "year": 1901,
+  "catalog_record": "https://id.archief.amsterdam/80ae8641-6dbd-40ae-e053-b784100ad8d3",
+  "seed": "OBS-R27-AMSTERDAM-1901-V1",
+  "registration_sha256": "693febb8c78fb29f06cde70bc44db7ce71ec6056b2c3fa5192dd89436e8fcd03",
+  "receipt_created_utc": "2026-11-27T18:18:25.626179+00:00",
+  "scans_in_frame_total": 2611,
+  "scans_selected_total": 42,
+  "volumes": {
+    "4686": {
+      "inventory_id": "7938e58e-c8a4-a815-5dd0-1ac91c8c84d6",
+      "iiif_collection": "https://id.archief.amsterdam/resources/records/media/7938e58e-c8a4-a815-5dd0-1ac91c8c84d6/iiif/3/collection.json",
+      "manifest_count": 2,
+      "scans_total": 204,
+      "scans_in_frame": 200,
+      "ordered_canvas_metadata_sha256": "651fd460ff8505671ee98770bf30124feaa9b2c55a34c64bab6ec60b97132a74",
+      "selected": [
+        {
+          "position": 3,
+          "local_name": "4686-003.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/21ad506f-8343-46af-afb6-2772bd098974/full/max/0/default.jpg",
+          "archival_scan": "A24519000003.jp2",
+          "sha256": "bfbc8b2bf87f4c364c798a5e5c99db5d0bdba48497f3d5159a83c4cfbe09053d"
+        },
+        {
+          "position": 91,
+          "local_name": "4686-091.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/03f83445-6198-4724-939a-5ccf2f769979/full/max/0/default.jpg",
+          "archival_scan": "A24519000091.jp2",
+          "sha256": "13bd7072d2c6f155e55e4a4c41007c73409d97663207bc06a342f191c5fdcb57"
+        },
+        {
+          "position": 186,
+          "local_name": "4686-186.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/a632093c-ce03-4a42-a78d-2a53ec48953f/full/max/0/default.jpg",
+          "archival_scan": "A24519000186.jp2",
+          "sha256": "901abd8789de8a4e101871f58531d3371376743ed3b7bd9d0a6c12da4ec6ce89"
+        }
+      ]
+    },
+    "4687": {
+      "inventory_id": "612f1bf3-8d5a-cc79-292f-e7d75ff88054",
+      "iiif_collection": "https://id.archief.amsterdam/resources/records/media/612f1bf3-8d5a-cc79-292f-e7d75ff88054/iiif/3/collection.json",
+      "manifest_count": 2,
+      "scans_total": 204,
+      "scans_in_frame": 200,
+      "ordered_canvas_metadata_sha256": "831838510eb3ad72007cd4f4b14a2cbb891a2275ead6c9ea634d6cbeff8998ea",
+      "selected": [
+        {
+          "position": 37,
+          "local_name": "4687-037.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/865e85b8-c5aa-4a30-ad74-8068cbabdb46/full/max/0/default.jpg",
+          "archival_scan": "KLAB04196000037.jp2",
+          "sha256": "2501548e0b0f5194c17a319f5a8ef520ea77492148d134ab89812b0b7ca36c89"
+        },
+        {
+          "position": 188,
+          "local_name": "4687-188.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/833dc6ad-a3b2-42cf-8ef8-fa8b1b1e752e/full/max/0/default.jpg",
+          "archival_scan": "KLAB04196000188.jp2",
+          "sha256": "6d42410bdd58b2b90472b4f716e744ba720d76ff2d3d29c38380505c1368b021"
+        },
+        {
+          "position": 201,
+          "local_name": "4687-201.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/0f9b58c4-e265-4978-be79-1c86aedbe6a5/full/max/0/default.jpg",
+          "archival_scan": "KLAB04196000201.jp2",
+          "sha256": "b996f4913f083b60c6f2e2f3758d48338693901e34bc6c61e0cfde19dce9f295"
+        }
+      ]
+    },
+    "4688": {
+      "inventory_id": "4069a0bd-7c4a-7265-3066-d96d7448984d",
+      "iiif_collection": "https://id.archief.amsterdam/resources/records/media/4069a0bd-7c4a-7265-3066-d96d7448984d/iiif/3/collection.json",
+      "manifest_count": 2,
+      "scans_total": 204,
+      "scans_in_frame": 200,
+      "ordered_canvas_metadata_sha256": "32ee1ed3a2ace15685913e5daec440bd486004fcd531979f732846e3f4a232b3",
+      "selected": [
+        {
+          "position": 18,
+          "local_name": "4688-018.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/9f252471-ed52-4929-95b6-ddfb79269136/full/max/0/default.jpg",
+          "archival_scan": "KLAB04198000018.jp2",
+          "sha256": "abab9f9f22d3376374614eb3c8508ee501704e1cd683f41ca551004eb4af7dcc"
+        },
+        {
+          "position": 104,
+          "local_name": "4688-104.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/3d3d723a-1fcf-4499-9857-07dbbd2a7c64/full/max/0/default.jpg",
+          "archival_scan": "KLAB04198000104.jp2",
+          "sha256": "83a86c59a75bd42a66f5db40a7f85afa352d415ff966d59c316110ad02772ba8"
+        },
+        {
+          "position": 113,
+          "local_name": "4688-113.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/6085496e-60a0-4691-8b9c-6ffd38a79152/full/max/0/default.jpg",
+          "archival_scan": "KLAB04198000113.jp2",
+          "sha256": "eb6b1e9c634edcf07034805b95ad881cfea5b1d78ba42857017782e47806f6b6"
+        }
+      ]
+    },
+    "4689": {
+      "inventory_id": "e559667a-7654-35e7-48a2-1a54cc5ce2f3",
+      "iiif_collection": "https://id.archief.amsterdam/resources/records/media/e559667a-7654-35e7-48a2-1a54cc5ce2f3/iiif/3/collection.json",
+      "manifest_count": 2,
+      "scans_total": 206,
+      "scans_in_frame": 202,
+      "ordered_canvas_metadata_sha256": "e60debeab9b3c3b0a7005dc2ec71fc952a3218bf41b710efe747e16c2ca74a1e",
+      "selected": [
+        {
+          "position": 44,
+          "local_name": "4689-044.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/1adb9c64-34f2-4b6c-8c48-ad2d79aec29d/full/max/0/default.jpg",
+          "archival_scan": "BUSA02601000044.jp2",
+          "sha256": "e18fe793559f45fbd3096ef3bf6422310838c77bf7876ae99cf55f75ded09ed0"
+        },
+        {
+          "position": 85,
+          "local_name": "4689-085.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/8505177d-9ecc-4d66-a6b4-4b1df6351c8d/full/max/0/default.jpg",
+          "archival_scan": "BUSA02601000085.jp2",
+          "sha256": "ad241d62467e9318a1b7c421e637049bef8192e70ae2f82268ccd165c9b0d4b5"
+        },
+        {
+          "position": 150,
+          "local_name": "4689-150.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/28cb44d8-726b-4174-a6de-f1a3c8dd4c66/full/max/0/default.jpg",
+          "archival_scan": "BUSA02601000150.jp2",
+          "sha256": "06bf5d7b8b305336a44fdabb2c66ce5b70529902208ca13ca4a861680bd4e447"
+        }
+      ]
+    },
+    "4690": {
+      "inventory_id": "f6df9244-5906-d49c-7dad-508eef7c8af7",
+      "iiif_collection": "https://id.archief.amsterdam/resources/records/media/f6df9244-5906-d49c-7dad-508eef7c8af7/iiif/3/collection.json",
+      "manifest_count": 2,
+      "scans_total": 206,
+      "scans_in_frame": 202,
+      "ordered_canvas_metadata_sha256": "ab1232589f1122ac67a888abb62d9be04ed8d8b144b8d5b9e586e8c997b238d7",
+      "selected": [
+        {
+          "position": 88,
+          "local_name": "4690-088.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/e21b836a-6fe4-4576-a891-03d422bafa13/full/max/0/default.jpg",
+          "archival_scan": "BUSA02602000088.jp2",
+          "sha256": "9ff1f9e9f722f726e245ee6e9a47b16d5732a2089025e1348a37775c0db141b0"
+        },
+        {
+          "position": 117,
+          "local_name": "4690-117.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/57c0e81e-d507-4c7b-a511-7418c967a9b2/full/max/0/default.jpg",
+          "archival_scan": "BUSA02602000117.jp2",
+          "sha256": "2919b8c1d572c65d1f48eaa09969da639dc6b0ea089e80f70297ae0920eafb46"
+        },
+        {
+          "position": 140,
+          "local_name": "4690-140.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/2af01233-1515-4122-84c3-aac4705b4e0d/full/max/0/default.jpg",
+          "archival_scan": "BUSA02602000140.jp2",
+          "sha256": "6f3f6b2015a8b21dc1b2ecb8a43411e184ab354db765eb518ae69f20a954283d"
+        }
+      ]
+    },
+    "4691": {
+      "inventory_id": "ba0a6d96-feb6-dd8b-5f11-2487acae8f1d",
+      "iiif_collection": "https://id.archief.amsterdam/resources/records/media/ba0a6d96-feb6-dd8b-5f11-2487acae8f1d/iiif/3/collection.json",
+      "manifest_count": 2,
+      "scans_total": 206,
+      "scans_in_frame": 202,
+      "ordered_canvas_metadata_sha256": "c3ba8de6c06dd45a31fa8b584a15fbaa342129675f6dc98ff0ac1da695e4533c",
+      "selected": [
+        {
+          "position": 32,
+          "local_name": "4691-032.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/c05b6304-149a-41cc-8be8-a86e90a313b1/full/max/0/default.jpg",
+          "archival_scan": "BUSA02603000032.jp2",
+          "sha256": "adc55c6a311ba8b9c62d2421e9d19f8ad70b828be2cdfe947190f2dcf27f5530"
+        },
+        {
+          "position": 76,
+          "local_name": "4691-076.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/f52839e3-81fc-41e1-8303-60bc0b9bb0a9/full/max/0/default.jpg",
+          "archival_scan": "BUSA02603000076.jp2",
+          "sha256": "0d89879d9b2acab37f87c36cc814f535d7a7edb2b12350248edd37e1e567f9a2"
+        },
+        {
+          "position": 166,
+          "local_name": "4691-166.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/afcd2e29-f722-4afc-8bc7-34f5bd0ab7f3/full/max/0/default.jpg",
+          "archival_scan": "BUSA02603000166.jp2",
+          "sha256": "6268537471150789d8269ed07bed71cf9ca874c20cbc7a806746728a8a26b35d"
+        }
+      ]
+    },
+    "4692": {
+      "inventory_id": "e37e4dd4-a5d3-d132-9362-622f44aa93a0",
+      "iiif_collection": "https://id.archief.amsterdam/resources/records/media/e37e4dd4-a5d3-d132-9362-622f44aa93a0/iiif/3/collection.json",
+      "manifest_count": 2,
+      "scans_total": 206,
+      "scans_in_frame": 202,
+      "ordered_canvas_metadata_sha256": "4e759a999d6c67fa5d0b15cd55096ec2aa79c11dc723b1a1d86e5b743f6bd7ee",
+      "selected": [
+        {
+          "position": 41,
+          "local_name": "4692-041.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/90c390fa-19b9-48d2-8e90-0939def477e0/full/max/0/default.jpg",
+          "archival_scan": "KLAC02889000041.jp2",
+          "sha256": "2426b8c8323b57c28141c465417fd8cbf8b919636c883809d21cc362af1fb2d8"
+        },
+        {
+          "position": 88,
+          "local_name": "4692-088.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/df69e405-7342-4a97-9fba-096a80245238/full/max/0/default.jpg",
+          "archival_scan": "KLAC02889000088.jp2",
+          "sha256": "dae439b1c1403e89d307c51e3ae6909b6bae31a77ac96bca4e64919d8485b103"
+        },
+        {
+          "position": 152,
+          "local_name": "4692-152.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/8cbeb595-fce4-4c4f-8956-6e7f9823ce88/full/max/0/default.jpg",
+          "archival_scan": "KLAC02889000152.jp2",
+          "sha256": "3bd327bde85d90e499a6c7111d969d284618685ab064ed4c4418ef03bb9bdda2"
+        }
+      ]
+    },
+    "4693": {
+      "inventory_id": "07604c8c-0168-12ff-1697-09ebbc3474cc",
+      "iiif_collection": "https://id.archief.amsterdam/resources/records/media/07604c8c-0168-12ff-1697-09ebbc3474cc/iiif/3/collection.json",
+      "manifest_count": 2,
+      "scans_total": 204,
+      "scans_in_frame": 200,
+      "ordered_canvas_metadata_sha256": "10aae7d754dbf96acf38a721ca0f4f245d726edd8d2ad2b4f6e12b9f8c36f3ee",
+      "selected": [
+        {
+          "position": 124,
+          "local_name": "4693-124.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/0531611f-f59b-4506-a8f1-20fb5f29f2bc/full/max/0/default.jpg",
+          "archival_scan": "KLAB01964000124.jp2",
+          "sha256": "6f09f8355a701793de2fc27bc885b190214aa8332ea51e62cdb9e7ea3d99ab14"
+        },
+        {
+          "position": 127,
+          "local_name": "4693-127.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/12aa0f57-645c-42b5-a3f6-807da0f7acf4/full/max/0/default.jpg",
+          "archival_scan": "KLAB01964000127.jp2",
+          "sha256": "c4bc5109669cb38e5d8140bf8647c99b6ffbf4376b91808867f4470fb003deaf"
+        },
+        {
+          "position": 135,
+          "local_name": "4693-135.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/5b22bcbf-a2b7-42e9-b82b-b6ff0b85c09f/full/max/0/default.jpg",
+          "archival_scan": "KLAB01964000135.jp2",
+          "sha256": "285f32e0592205f9eb6bd3130659a16fac65f26cbb27ebdb486569f11285c2e6"
+        }
+      ]
+    },
+    "4694": {
+      "inventory_id": "749139e2-8275-853a-d6ca-1ede7071dcaf",
+      "iiif_collection": "https://id.archief.amsterdam/resources/records/media/749139e2-8275-853a-d6ca-1ede7071dcaf/iiif/3/collection.json",
+      "manifest_count": 2,
+      "scans_total": 206,
+      "scans_in_frame": 202,
+      "ordered_canvas_metadata_sha256": "17d488a0d47cb2435a9384ea19a8669b7db380ed8f78e08a422bf8544a12db98",
+      "selected": [
+        {
+          "position": 27,
+          "local_name": "4694-027.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/123f966f-b930-4ffe-bda8-b5c10b879731/full/max/0/default.jpg",
+          "archival_scan": "BUSA02604000027.jp2",
+          "sha256": "79f2735a42dbd5e1c1fa021a1bbbc1c21d683dcd3e4409f8d2c1d3f599e7e83f"
+        },
+        {
+          "position": 46,
+          "local_name": "4694-046.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/ab2e0d11-7fd0-4461-a425-22e34ca01f9b/full/max/0/default.jpg",
+          "archival_scan": "BUSA02604000046.jp2",
+          "sha256": "4db8ae82314502511a7952c012f016d51329647da5a26f88b74122824d05e671"
+        },
+        {
+          "position": 197,
+          "local_name": "4694-197.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/89ceeba4-f178-4fa3-9694-70b5ed26b061/full/max/0/default.jpg",
+          "archival_scan": "BUSA02604000197.jp2",
+          "sha256": "ad81ca7588fe2b942c1bad64fa388ff7ddbfdee9b78fd836b72ae2fb42c693fc"
+        }
+      ]
+    },
+    "4695": {
+      "inventory_id": "40acbbda-b1dc-fc39-6d82-2cbe0645f2ef",
+      "iiif_collection": "https://id.archief.amsterdam/resources/records/media/40acbbda-b1dc-fc39-6d82-2cbe0645f2ef/iiif/3/collection.json",
+      "manifest_count": 2,
+      "scans_total": 206,
+      "scans_in_frame": 202,
+      "ordered_canvas_metadata_sha256": "eb360f54af3691af3c39a05bab86cb8985fc366f386188a3361979077ec79fbb",
+      "selected": [
+        {
+          "position": 47,
+          "local_name": "4695-047.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/3e8264cf-126b-449a-82c9-c15d056f697c/full/max/0/default.jpg",
+          "archival_scan": "KLAB01981000047.jp2",
+          "sha256": "0bac648cc88aebc713325153e1415c0898b866da6eeaac334f956a1e067744c8"
+        },
+        {
+          "position": 147,
+          "local_name": "4695-147.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/18d28779-61a6-4636-9f29-aae15efc28d4/full/max/0/default.jpg",
+          "archival_scan": "KLAB01981000147.jp2",
+          "sha256": "11bf159544945cd127c05ddcfefa24e8a950458ac7a126ee9da5cc0db9c391da"
+        },
+        {
+          "position": 189,
+          "local_name": "4695-189.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/42116455-7a45-4a43-b02e-3b2fdf9497a1/full/max/0/default.jpg",
+          "archival_scan": "KLAB01981000189.jp2",
+          "sha256": "0d9baea0394795f1b51b267ef2c8c353230031a128691d22687de20b9748acc8"
+        }
+      ]
+    },
+    "4696": {
+      "inventory_id": "186f9924-d6b2-3e13-105b-6039b8fdb1c9",
+      "iiif_collection": "https://id.archief.amsterdam/resources/records/media/186f9924-d6b2-3e13-105b-6039b8fdb1c9/iiif/3/collection.json",
+      "manifest_count": 2,
+      "scans_total": 204,
+      "scans_in_frame": 200,
+      "ordered_canvas_metadata_sha256": "289bb21421ce6701192e0fe70b5000d5f63261e649e35a794419e5210fed0b22",
+      "selected": [
+        {
+          "position": 57,
+          "local_name": "4696-057.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/7f354da5-f9a4-4958-937b-cc04f4c3887f/full/max/0/default.jpg",
+          "archival_scan": "A16470000057.jp2",
+          "sha256": "71219cea60c11bf1aee5c70000877e4587b48cfe41818d7aa59a49794aa09350"
+        },
+        {
+          "position": 63,
+          "local_name": "4696-063.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/511117fc-58eb-4892-b428-e2da1693ef52/full/max/0/default.jpg",
+          "archival_scan": "A16470000063.jp2",
+          "sha256": "28d6b674e6d3f333ef3e428e962afb8d7b5a334d40e04a17fd29ec23e7b83bbb"
+        },
+        {
+          "position": 161,
+          "local_name": "4696-161.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/eb63bd5d-fe2c-42a4-9446-e6d427b03351/full/max/0/default.jpg",
+          "archival_scan": "A16470000161.jp2",
+          "sha256": "57dce8527ed093ccf483b83256afe54af7cd6b653d9528a04d0badda2b0e902b"
+        }
+      ]
+    },
+    "4697": {
+      "inventory_id": "4fd0ca72-8adb-7843-e967-58d7d20ec224",
+      "iiif_collection": "https://id.archief.amsterdam/resources/records/media/4fd0ca72-8adb-7843-e967-58d7d20ec224/iiif/3/collection.json",
+      "manifest_count": 2,
+      "scans_total": 205,
+      "scans_in_frame": 201,
+      "ordered_canvas_metadata_sha256": "8a68b502e133baffeec8920ea739c8714cc0180f9e8e0acc46ed76d1ce9aba41",
+      "selected": [
+        {
+          "position": 154,
+          "local_name": "4697-154.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/9d2b9ecb-ecbb-41de-acd2-96152daa3fd8/full/max/0/default.jpg",
+          "archival_scan": "KLAB04212000154.jp2",
+          "sha256": "6c5a1efe1a8a3ed286a2a3a1a3721a55866cac4ab573f2ddfa686ea6bcb40f8f"
+        },
+        {
+          "position": 163,
+          "local_name": "4697-163.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/c0d0b528-d747-4bed-870a-af09c0b3dd33/full/max/0/default.jpg",
+          "archival_scan": "KLAB04212000163.jp2",
+          "sha256": "e9adaddded754fd5a040be1526e6e5bef3640c953972c54d72dbce2d4ca55c52"
+        },
+        {
+          "position": 166,
+          "local_name": "4697-166.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/c11d9285-673d-4dce-8aad-5238649de6aa/full/max/0/default.jpg",
+          "archival_scan": "KLAB04212000166.jp2",
+          "sha256": "a62e82d25edd535eced2f7d67a355205ae9927d80e8e976139c1c37a6a90d4c9"
+        }
+      ]
+    },
+    "4698": {
+      "inventory_id": "d542e932-ca49-d716-03a2-b6f659e71863",
+      "iiif_collection": "https://id.archief.amsterdam/resources/records/media/d542e932-ca49-d716-03a2-b6f659e71863/iiif/3/collection.json",
+      "manifest_count": 1,
+      "scans_total": 103,
+      "scans_in_frame": 99,
+      "ordered_canvas_metadata_sha256": "5bba216fffcf0759b046eec8ebbe2a21d06e0d9eafe6eeef8955a9ce4144a54c",
+      "selected": [
+        {
+          "position": 57,
+          "local_name": "4698-057.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/fa97be28-f851-4301-9905-67ed95cd47ec/full/max/0/default.jpg",
+          "archival_scan": "BUSA02605000057.jp2",
+          "sha256": "15f36c0855c71511f8496c6ec89023b2872e7fcf8158a1e9d4f224b21f312138"
+        },
+        {
+          "position": 74,
+          "local_name": "4698-074.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/b03a08a3-b04c-44c0-a513-3362e6ca5067/full/max/0/default.jpg",
+          "archival_scan": "BUSA02605000074.jp2",
+          "sha256": "9753aef016302f836a4383b704df4814bf545bbad2af3a54369e8d0a474886bc"
+        },
+        {
+          "position": 82,
+          "local_name": "4698-082.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/03226bcc-a092-44e9-89da-44c234ec3910/full/max/0/default.jpg",
+          "archival_scan": "BUSA02605000082.jp2",
+          "sha256": "1e87600f1a14a88be5472f39fa998a42553f785ad057356cb0fed5da9bbbe587"
+        }
+      ]
+    },
+    "4699": {
+      "inventory_id": "24b50c94-aa44-650c-8705-28d6e3a1235a",
+      "iiif_collection": "https://id.archief.amsterdam/resources/records/media/24b50c94-aa44-650c-8705-28d6e3a1235a/iiif/3/collection.json",
+      "manifest_count": 1,
+      "scans_total": 103,
+      "scans_in_frame": 99,
+      "ordered_canvas_metadata_sha256": "f696077d4861ee87ff08c008f43b297fc85ff5bc43957bce8295ea07dafa62d0",
+      "selected": [
+        {
+          "position": 21,
+          "local_name": "4699-021.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/47bccd50-4903-48bd-afb2-305e01b013c1/full/max/0/default.jpg",
+          "archival_scan": "BUSA02606000021.jp2",
+          "sha256": "5d15d10a652859f54593adc0bc64a687b100e38a3c793e5b2736248998df14de"
+        },
+        {
+          "position": 37,
+          "local_name": "4699-037.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/c1c53027-351c-4bfb-b96c-c17281f33d3a/full/max/0/default.jpg",
+          "archival_scan": "BUSA02606000037.jp2",
+          "sha256": "d121c857314c6edc7032987f174c7d707610417a2b177c04b1d0b9b0c24709ae"
+        },
+        {
+          "position": 96,
+          "local_name": "4699-096.jpg",
+          "iiif_image": "https://id.archief.amsterdam/resources/iiif/3/cf56ed9c-96d8-4ee8-8e2f-1d4b2698f28b/full/max/0/default.jpg",
+          "archival_scan": "BUSA02606000096.jp2",
+          "sha256": "907194a8011d646f47f16addddb021b2a0f0053a6957d4ffe323cbd0ad3b8872"
+        }
+      ]
+    }
+  }
+}
