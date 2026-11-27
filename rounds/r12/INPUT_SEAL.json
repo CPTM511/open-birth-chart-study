@@ -1,0 +1,63 @@
+{
+  "id": "OBS-R12-MX-HOLDOUT-2026-11-27",
+  "status": "two_source_passes_match",
+  "registration_sha256": "9e30467ddeea63f1fb5dcffc3cfcd51d9bae9304ef10ffe0dda7721913fdb54c",
+  "completed_utc": "2026-11-27T14:57:21.500478+00:00",
+  "samples": {
+    "mexico2023_early": {
+      "birth_year": 2023,
+      "registration_years": [
+        2023,
+        2024
+      ],
+      "eligible_frame_records": 1244893,
+      "selected_records": 2000,
+      "state_sex_strata": 54,
+      "noncensus_singletons": 0,
+      "extra_rows_with_matching_chart_input_tuples": 0,
+      "private_file_sha256": {
+        "birth_inputs.jsonl": "dda07d2a2bcf543f4a895c2fdd8ec739d6c967a9af7c3fda9a8f3a00a614c437",
+        "birth_metadata.jsonl": "6a07ed0dbd8331e74855c8ad50eb375b2b403e52c6db79ed109cadff2fc516b4",
+        "sampling_manifest.json": "fe24d3c995a6b8e36c67f1bb1e2c795683fa2e061d95a22fd6e56e2bf381a1db"
+      }
+    },
+    "mexico2023_late": {
+      "birth_year": 2023,
+      "registration_years": [
+        2025
+      ],
+      "eligible_frame_records": 39107,
+      "selected_records": 1000,
+      "state_sex_strata": 54,
+      "noncensus_singletons": 0,
+      "extra_rows_with_matching_chart_input_tuples": 0,
+      "private_file_sha256": {
+        "birth_inputs.jsonl": "05e00305aeabf5da6199d663aae0e0f3b5a3b25118d290e19c2a348c7de6551f",
+        "birth_metadata.jsonl": "214c0982b5938ced87ece2eddba736bbb78a2c77896c01af7949ca0654398ee6",
+        "sampling_manifest.json": "f380a4b766716b2be692d30d6aca9e1897027387ac982f6f826a820141472035"
+      }
+    },
+    "mexico2020_late": {
+      "birth_year": 2020,
+      "registration_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "eligible_frame_records": 145522,
+      "selected_records": 1000,
+      "state_sex_strata": 54,
+      "noncensus_singletons": 0,
+      "extra_rows_with_matching_chart_input_tuples": 0,
+      "private_file_sha256": {
+        "birth_inputs.jsonl": "e3152544fe4f6eec17fd22234d2f711531e788be0bba90b3e2395b8782509435",
+        "birth_metadata.jsonl": "9b01b7358e0cd02b3b46ad40abe91cc454dd9fd63dca0230b5c9abe0fcee8d44",
+        "sampling_manifest.json": "cdbef90f0c77413dcf12b65833d7d62ba3d215118ff740072fc8e0551742d588"
+      }
+    }
+  },
+  "original_records_score_accessed": false,
+  "physical_source_row_overlap": 0,
+  "replay_scope": "Same eligibility decoder, independent forward heap and reverse ordered-list sampling, and matching R11 archive totals and exclusions."
+}

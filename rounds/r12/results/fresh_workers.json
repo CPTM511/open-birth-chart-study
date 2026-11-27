@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "profile_file_sha256": "0d2ae4f5e4c4fa82d2a4230b90734126b0b1f32c737e59bae07a5630c199b0c1",
+  "entire_profile_objects_equal": 6,
+  "record_years_recomputed": 240,
+  "system_year_scores_recomputed": 960,
+  "selection": "Lowest and highest sampling rank in each new group, with study ID tie-break.",
+  "scope": "Fresh Linux process and R10 engines for each selected record."
+}

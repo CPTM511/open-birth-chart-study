@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "finite_score_threshold_cells_checked": 1280000,
+  "matching_draws_replayed": 4999,
+  "individual_sampling_bootstraps_replayed": 39996,
+  "aggregate_fields_checked": 97,
+  "largest_absolute_field_difference": 3.1030733538273125e-14,
+  "scope": "Shared immutable profile reader and seeds. Alternate sorted-prefix CDF with exact boundary checks, integer multinomial-frequency arithmetic using uniform sampled indices, and byte-based permutation replay.",
+  "result_sha256": "d63fcbcff9911d31bda0496746ed5843da87cc4b979a6cafd818d89331e324f8",
+  "registration_sha256": "9e30467ddeea63f1fb5dcffc3cfcd51d9bae9304ef10ffe0dda7721913fdb54c",
+  "input_sha256": "4accf9ac7d06051fea8ab843a78d68e02bf6b4abdf040bab44a0172e78fe7fde"
+}
