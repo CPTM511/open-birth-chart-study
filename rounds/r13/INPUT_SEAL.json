@@ -1,0 +1,12 @@
+{
+  "registration_sha256": "559700670ecbda34f501b1bd24b0a81a18664f6c461afff47dffb7a786853fc1",
+  "records": 5408,
+  "physical_source_rows_distinct": 5408,
+  "complete_census_of_eligible_rows": true,
+  "additional_rows_with_duplicate_input_tuple": 4,
+  "private_input_sha256": {
+    "birth_inputs.jsonl": "bfb73ec731de88a1365156c25a70b323ba55252cfa5f3f857664e54ccaf35502",
+    "birth_metadata.jsonl": "8cd26687951cbc418f5ae3ea3bdf7d4e0e34f72bceba0c00f3b11336d9b5ede1",
+    "sampling_manifest.json": "45b120a20ab35049a39b4c1d87437f277327d01d8bde056ee0c4b3c4316739a3"
+  }
+}
