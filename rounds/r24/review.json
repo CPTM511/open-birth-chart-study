@@ -1,0 +1,30 @@
+{
+  "review_date": "2026-11-28",
+  "scope": "AI-assisted execution and review in one project session. The author's unchanged scripts and this repository's separate arithmetic were both executed. No external peer review or acquisition of unreleased trial records.",
+  "registration_commit": "2b0875ed3e7abab6910dd89476daded8e145323f",
+  "source_seal_commit": "c5a1437928c192b179047808ffe0561d7ac9123c",
+  "published_status_note_commit": "c690df3c8cf082aea96cd1395b6e6d9fe5cbc25b",
+  "results_sha256": "c75f70bd4d581500e3c1993202af93bf42ca3734aef4cc98f0f135af7c3770f2",
+  "fresh_public_download_and_byte_exact_replay": {
+    "files": 4,
+    "result_match": true
+  },
+  "authors_unchanged_scripts": {
+    "statsmodels": "0.14.4",
+    "scipy": "1.15.2",
+    "numpy": "2.2.4",
+    "pandas": "2.2.3",
+    "matched_output_values_at_printed_precision": 22
+  },
+  "independent_completion_point_checks": {
+    "method": "Exact Fraction counts from the published task status table",
+    "groups_reconciled": 3
+  },
+  "local_project_suite": {
+    "passed": 47
+  },
+  "r9_release_integrity": {
+    "frozen_r8_files_verified": 130,
+    "r9_manifest_files_verified": 90
+  }
+}

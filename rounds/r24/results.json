@@ -1,0 +1,378 @@
+{
+  "early_2025": {
+    "completion_unavailable_reason": "Only valid completed tasks are released.",
+    "initial_only_same_primary_sample": {
+      "ci95_time_change_ratio": {
+        "classical_normal": [
+          0.0191913604,
+          0.4087999588
+        ],
+        "developer_cluster_normal": [
+          -0.0046262275,
+          0.4425101265
+        ],
+        "developer_cluster_t": [
+          -0.0206518607,
+          0.466114744
+        ],
+        "hc3_normal": [
+          0.0179133821,
+          0.4105686906
+        ]
+      },
+      "log_coefficient": 0.1808738889,
+      "n_by_assignment": {
+        "ai": 136,
+        "no_ai": 110
+      },
+      "n_developers": 16,
+      "n_tasks": 246,
+      "time_change_ratio": 0.1982640554
+    },
+    "mean_imputed_review_minutes": {
+      "ai": 14.9448818898,
+      "no_ai": 9.7087378641
+    },
+    "missing_post_review_counts": {
+      "ai": 9,
+      "no_ai": 7
+    },
+    "one_developer_omitted_count": 16,
+    "one_developer_omitted_primary_range": [
+      0.1503451578,
+      0.2444507965
+    ],
+    "primary_total_time": {
+      "ci95_time_change_ratio": {
+        "classical_normal": [
+          0.0125598527,
+          0.3947762361
+        ],
+        "developer_cluster_normal": [
+          0.0163163258,
+          0.3896209126
+        ],
+        "developer_cluster_t": [
+          0.0025016424,
+          0.408770181
+        ],
+        "hc3_normal": [
+          0.0130188469,
+          0.3941442693
+        ]
+      },
+      "log_coefficient": 0.1726078151,
+      "n_by_assignment": {
+        "ai": 136,
+        "no_ai": 110
+      },
+      "n_developers": 16,
+      "n_tasks": 246,
+      "time_change_ratio": 0.1883999412
+    },
+    "released_records": 246
+  },
+  "late_2025": {
+    "all": {
+      "completion_among_all_released": {
+        "by_assignment": {
+          "ai": {
+            "completion_share": 0.7528641571,
+            "counts": {
+              "cheating": 0,
+              "complete": 460,
+              "corrupted": 3,
+              "ditched": 28,
+              "incomplete": 120
+            },
+            "n_released": 611
+          },
+          "no_ai": {
+            "completion_share": 0.7036328872,
+            "counts": {
+              "cheating": 2,
+              "complete": 368,
+              "corrupted": 0,
+              "ditched": 29,
+              "incomplete": 124
+            },
+            "n_released": 523
+          }
+        },
+        "ci95_share_diff_developer_cluster_t": [
+          -0.0238748493,
+          0.1223373891
+        ],
+        "n_developers": 57,
+        "share_diff_ai_minus_no_ai": 0.0492312699
+      },
+      "excluded_before_time_model": 307,
+      "initial_only_same_primary_sample": {
+        "ci95_time_change_ratio": {
+          "classical_normal": [
+            -0.1887411548,
+            0.0258655044
+          ],
+          "developer_cluster_normal": [
+            -0.2299636739,
+            0.0807833816
+          ],
+          "developer_cluster_t": [
+            -0.2331283631,
+            0.0852435068
+          ],
+          "hc3_normal": [
+            -0.1876740714,
+            0.0245179123
+          ]
+        },
+        "log_coefficient": -0.0918157285,
+        "n_by_assignment": {
+          "ai": 459,
+          "no_ai": 365
+        },
+        "n_developers": 52,
+        "n_tasks": 824,
+        "time_change_ratio": -0.08772676
+      },
+      "one_developer_omitted_count": 53,
+      "one_developer_omitted_primary_range": [
+        -0.0981996742,
+        -0.0315325519
+      ],
+      "primary_records_zero_filled_review": 0,
+      "primary_total_time": {
+        "ci95_time_change_ratio": {
+          "classical_normal": [
+            -0.1584757322,
+            0.0539139441
+          ],
+          "developer_cluster_normal": [
+            -0.1819455453,
+            0.0841505173
+          ],
+          "developer_cluster_t": [
+            -0.1846846047,
+            0.0877927306
+          ],
+          "hc3_normal": [
+            -0.158535439,
+            0.0539887255
+          ]
+        },
+        "log_coefficient": -0.0600148136,
+        "n_by_assignment": {
+          "ai": 460,
+          "no_ai": 367
+        },
+        "n_developers": 53,
+        "n_tasks": 827,
+        "time_change_ratio": -0.0582494172
+      },
+      "released_complete_excluded_by_time_or_forecast": 1
+    },
+    "new": {
+      "completion_among_all_released": {
+        "by_assignment": {
+          "ai": {
+            "completion_share": 0.7423664122,
+            "counts": {
+              "cheating": 0,
+              "complete": 389,
+              "corrupted": 3,
+              "ditched": 27,
+              "incomplete": 105
+            },
+            "n_released": 524
+          },
+          "no_ai": {
+            "completion_share": 0.7173396675,
+            "counts": {
+              "cheating": 2,
+              "complete": 302,
+              "corrupted": 0,
+              "ditched": 26,
+              "incomplete": 91
+            },
+            "n_released": 421
+          }
+        },
+        "ci95_share_diff_developer_cluster_t": [
+          -0.0621091404,
+          0.1121626299
+        ],
+        "n_developers": 47,
+        "share_diff_ai_minus_no_ai": 0.0250267448
+      },
+      "excluded_before_time_model": 255,
+      "initial_only_same_primary_sample": {
+        "ci95_time_change_ratio": {
+          "classical_normal": [
+            -0.1822696555,
+            0.0623714604
+          ],
+          "developer_cluster_normal": [
+            -0.2340776387,
+            0.1342316457
+          ],
+          "developer_cluster_t": [
+            -0.2385232877,
+            0.1408535105
+          ],
+          "hc3_normal": [
+            -0.1802975724,
+            0.0598155515
+          ]
+        },
+        "log_coefficient": -0.0703595064,
+        "n_by_assignment": {
+          "ai": 388,
+          "no_ai": 299
+        },
+        "n_developers": 43,
+        "n_tasks": 687,
+        "time_change_ratio": -0.0679413214
+      },
+      "one_developer_omitted_count": 44,
+      "one_developer_omitted_primary_range": [
+        -0.0820039893,
+        -0.0023820584
+      ],
+      "primary_records_zero_filled_review": 0,
+      "primary_total_time": {
+        "ci95_time_change_ratio": {
+          "classical_normal": [
+            -0.1470689598,
+            0.0904174079
+          ],
+          "developer_cluster_normal": [
+            -0.1790974709,
+            0.1329613699
+          ],
+          "developer_cluster_t": [
+            -0.1829160951,
+            0.1382562407
+          ],
+          "hc3_normal": [
+            -0.1466273996,
+            0.0898531937
+          ]
+        },
+        "log_coefficient": -0.0362580063,
+        "n_by_assignment": {
+          "ai": 389,
+          "no_ai": 301
+        },
+        "n_developers": 44,
+        "n_tasks": 690,
+        "time_change_ratio": -0.0356085577
+      },
+      "released_complete_excluded_by_time_or_forecast": 1
+    },
+    "panel": {
+      "completion_among_all_released": {
+        "by_assignment": {
+          "ai": {
+            "completion_share": 0.816091954,
+            "counts": {
+              "cheating": 0,
+              "complete": 71,
+              "corrupted": 0,
+              "ditched": 1,
+              "incomplete": 15
+            },
+            "n_released": 87
+          },
+          "no_ai": {
+            "completion_share": 0.6470588235,
+            "counts": {
+              "cheating": 0,
+              "complete": 66,
+              "corrupted": 0,
+              "ditched": 3,
+              "incomplete": 33
+            },
+            "n_released": 102
+          }
+        },
+        "ci95_share_diff_developer_cluster_t": [
+          0.0456190517,
+          0.2924472093
+        ],
+        "n_developers": 10,
+        "share_diff_ai_minus_no_ai": 0.1690331305
+      },
+      "excluded_before_time_model": 52,
+      "initial_only_same_primary_sample": {
+        "ci95_time_change_ratio": {
+          "classical_normal": [
+            -0.3827290582,
+            0.0304426696
+          ],
+          "developer_cluster_normal": [
+            -0.3709124696,
+            0.0110871482
+          ],
+          "developer_cluster_t": [
+            -0.3967197094,
+            0.0543396279
+          ],
+          "hc3_normal": [
+            -0.3861890735,
+            0.0362512129
+          ]
+        },
+        "log_coefficient": -0.2262293688,
+        "n_by_assignment": {
+          "ai": 71,
+          "no_ai": 66
+        },
+        "n_developers": 9,
+        "n_tasks": 137,
+        "time_change_ratio": -0.202464849
+      },
+      "one_developer_omitted_count": 9,
+      "one_developer_omitted_primary_range": [
+        -0.285270294,
+        -0.1270854846
+      ],
+      "primary_records_zero_filled_review": 0,
+      "primary_total_time": {
+        "ci95_time_change_ratio": {
+          "classical_normal": [
+            -0.3802895707,
+            0.0822715142
+          ],
+          "developer_cluster_normal": [
+            -0.3697348422,
+            0.0641472663
+          ],
+          "developer_cluster_t": [
+            -0.3982139078,
+            0.1145072201
+          ],
+          "hc3_normal": [
+            -0.3835744754,
+            0.0880388918
+          ]
+        },
+        "log_coefficient": -0.1997204366,
+        "n_by_assignment": {
+          "ai": 71,
+          "no_ai": 66
+        },
+        "n_developers": 9,
+        "n_tasks": 137,
+        "time_change_ratio": -0.1810403278
+      },
+      "released_complete_excluded_by_time_or_forecast": 0
+    }
+  },
+  "protocol_version": "OBS-R24-METR-TASKS-1.0",
+  "source_sha256": {
+    "early/data_complete.csv": "1493fc46dc379b15d2c39273fa7a7ee98767ff0d90dea113f300d7338f165746",
+    "early/regression.py": "41307fa0b2f617eb815fdaaf41ee18c04fb7332eab118e86c1556154f496afd6",
+    "late/data.csv": "fa238b373596d5c7538f4203dd1cb316f66c1b460b11485eded6bc74430b3ceb",
+    "late/regression.py": "d2d02bb5ca25ae3e809c7168d05e9a17893a5656df467cd3977aac2196b7a7d0"
+  }
+}

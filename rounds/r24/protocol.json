@@ -1,0 +1,23 @@
+{
+  "version": "OBS-R24-METR-TASKS-1.0",
+  "baselines": [
+    {
+      "label": "early_2025",
+      "repository": "METR/Measuring-Early-2025-AI-on-Exp-OSS-Devs",
+      "commit": "7ff2d7670235f531dff77eff58355bd77392f396",
+      "data": "data_complete.csv",
+      "code": "regression.py",
+      "method": "https://arxiv.org/abs/2507.09089v2"
+    },
+    {
+      "label": "late_2025",
+      "repository": "METR/Measuring-Late-2025-AI-on-OSS-Devs",
+      "commit": "55f007216a26493f0a9b7650ab3191cad7fb9e7f",
+      "data": "data.csv",
+      "code": "regression.py",
+      "method": "https://metr.org/blog/2026-02-24-uplift-update/"
+    }
+  ],
+  "state": "Before opening either task CSV or running an estimator.",
+  "base_commit": "4e5f7cba69135eaa28ea3f74b18852addf31c6a6"
+}
