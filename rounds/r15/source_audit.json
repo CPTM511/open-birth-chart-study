@@ -1,0 +1,50 @@
+{
+  "archive": {
+    "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SINASC/csv/SINASC_1999_csv.zip",
+    "bytes": 40239938,
+    "etag": "\"2a482f35146ebfb8edc2aa1ac8e054d5-5\"",
+    "sha256": "a60fd7527927fcfca1b7a06c80603d8fefb0fbdf99d77799ce24d3cbb80ad4b2",
+    "zip_member": "SINASC_1999.csv",
+    "member_bytes": 382946215,
+    "member_crc32": "fe98711d",
+    "complete_archive_crc_verified": true
+  },
+  "municipality_reference_sha256": "d3c8f97c7580413df2131b2227d4c442a34a957d244775affc162a1de99b9803",
+  "full_private_audit_sha256": "95f4ca3816fe7d3b304fba1eb039159b7eb806012b998700fa1c7f9068d9853d",
+  "timezone_version": "2026c",
+  "counts": {
+    "raw_rows": 3256433,
+    "recorded_1999_birth_year": 3256339,
+    "complete_birth_fields": 49348,
+    "eligible": 49348
+  },
+  "clock_among_1999_rows": {
+    "blank": 3206921,
+    "hhmm": 49393,
+    "on_the_hour": 6049,
+    "midnight": 169,
+    "invalid": 25
+  },
+  "eligible_clock": {
+    "on_the_hour": 6040,
+    "midnight": 169
+  },
+  "invalid_fields_nonexclusive": {
+    "clock": 3207040,
+    "sex": 6755,
+    "birth_year": 94
+  },
+  "exclusions": {
+    "invalid_or_missing_fields": 3207085
+  },
+  "eligible_state_sex_strata": 11,
+  "largest_eligible_state": {
+    "code": "27",
+    "name": "Alagoas",
+    "source_rows": 64246,
+    "recorded_hhmm": 49166,
+    "eligible": 49121
+  },
+  "other_eligible_rows": 227,
+  "privacy": "Aggregate source flow. Low-frequency geographic-by-sex counts retained only in the private audit."
+}
