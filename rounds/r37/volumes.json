@@ -1,0 +1,85 @@
+{
+  "catalogue": "https://recherches.archives-lyon.fr/search/results?formUuid=20795eb0-b9d4-452b-8e25-91fcb1a2c246&2-date=1901&4-controlledAccessSubject=naissance&5-controlledAccessPhysicalCharacteristic=registre",
+  "archive_attribution": "Ville de Lyon, Archives municipales",
+  "reproduction_conditions": "https://www.archives-lyon.fr/pages/donnees-ouvertes",
+  "volumes": {
+    "2E/1840": {
+      "district": 1,
+      "title": "Naissances : registre des actes (03/01/1901-31/12/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/3k746d9mhxf5",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/3k746d9mhxf5/manifest.json"
+    },
+    "2E/1853": {
+      "district": 2,
+      "title": "Naissances : registre des actes (01/01/1901-04/03/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/q3knrgzp8hcv",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/q3knrgzp8hcv/manifest.json"
+    },
+    "2E/1854": {
+      "district": 2,
+      "title": "Naissances : registre des actes (04/03/1901-18/05/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/904stlhfp2q6",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/904stlhfp2q6/manifest.json"
+    },
+    "2E/1855": {
+      "district": 2,
+      "title": "Naissances : registre des actes (18/05/1901-05/08/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/cwsglvj4h7m6",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/cwsglvj4h7m6/manifest.json"
+    },
+    "2E/1856": {
+      "district": 2,
+      "title": "Naissances : registre des actes (05/08/1901-21/10/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/x2p91w84kqj7",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/x2p91w84kqj7/manifest.json"
+    },
+    "2E/1857": {
+      "district": 2,
+      "title": "Naissances : registre des actes (22/10/1901-31/12/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/479g8jdkncth",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/479g8jdkncth/manifest.json"
+    },
+    "2E/1872": {
+      "district": 3,
+      "title": "Naissances : registre des actes (02/01/1901-13/04/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/kvhb9z41wsx2",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/kvhb9z41wsx2/manifest.json"
+    },
+    "2E/1873": {
+      "district": 3,
+      "title": "Naissances : registre des actes (13/04/1901-12/07/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/591wbtjsd8mp",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/591wbtjsd8mp/manifest.json"
+    },
+    "2E/1874": {
+      "district": 3,
+      "title": "Naissances : registre des actes (12/07/1901-14/10/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/nqhp6xrfg3m5",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/nqhp6xrfg3m5/manifest.json"
+    },
+    "2E/1875": {
+      "district": 3,
+      "title": "Naissances : registre des actes (14/10/1901-31/12/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/x4k1wz7t2dh6",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/x4k1wz7t2dh6/manifest.json"
+    },
+    "2E/1889": {
+      "district": 4,
+      "title": "Naissances : registre des actes (02/01/1901-31/12/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/kr65t13zmhql",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/kr65t13zmhql/manifest.json"
+    },
+    "2E/1898": {
+      "district": 5,
+      "title": "Naissances : registre des actes (01/01/1901-30/12/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/nmh543xqpdzf",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/nmh543xqpdzf/manifest.json"
+    },
+    "2E/1907": {
+      "district": 6,
+      "title": "Naissances : registre des actes (02/01/1901-31/12/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/grs3nvj5fmh2",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/grs3nvj5fmh2/manifest.json"
+    }
+  }
+}
