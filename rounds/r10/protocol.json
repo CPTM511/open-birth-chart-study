@@ -1,0 +1,233 @@
+{
+  "id": "OBS-R10-2026-11-27-v1",
+  "created_utc": "2026-11-27T01:56:13.868434+00:00",
+  "date_shanghai": "2026-11-27",
+  "parent_commit": "10439059fbbeec3e99ac3bd7012d1e54e61e75f8",
+  "question": "Expand observed birth cohorts in2000\u201309,2010\u201319,2020\u201324 and compare source-year structural quantities against a fixed empirical reference",
+  "status": "Public freeze required before selected sampling and all new real scoring",
+  "data_seen": "R8/R9 results and R10 catalogue/schema/birth-only quality audits; no R10 selected chart scores or external outcomes",
+  "source_slots": [
+    {
+      "id": "brazil_2000s",
+      "allowed_birth_years": [
+        2007
+      ],
+      "expected_country": "BR",
+      "source_label": "SINASC-2007",
+      "selection": "2005 lacked clock; sole field-only fallback2007 has required fields",
+      "coordinate_policy": "official2022 municipal-seat reference; historical timezone gates",
+      "primary_bootstrap_seed": 20261127100,
+      "status": "available",
+      "reason": "Required birth fields established; complete birth-only eligibility audit determines restricted frame"
+    },
+    {
+      "id": "brazil2010",
+      "allowed_birth_years": [
+        2010
+      ],
+      "expected_country": "BR",
+      "source_label": "SINASC-2010",
+      "primary_bootstrap_seed": 20261127101,
+      "status": "available",
+      "reason": "Required birth fields established; complete birth-only eligibility audit determines restricted frame"
+    },
+    {
+      "id": "brazil2020",
+      "allowed_birth_years": [
+        2020
+      ],
+      "expected_country": "BR",
+      "source_label": "SINASC-2020",
+      "primary_bootstrap_seed": 20261127102,
+      "status": "available",
+      "reason": "Required birth fields established; complete birth-only eligibility audit determines restricted frame"
+    },
+    {
+      "id": "brazil2024",
+      "allowed_birth_years": [
+        2024
+      ],
+      "expected_country": "BR",
+      "source_label": "SINASC-2024",
+      "release_status": "latest complete year at freeze;2025preliminary and2026preview excluded",
+      "primary_bootstrap_seed": 20261127103,
+      "status": "available",
+      "reason": "Required birth fields established; complete birth-only eligibility audit determines restricted frame"
+    },
+    {
+      "id": "mexico_2000s",
+      "allowed_birth_years": [
+        2009
+      ],
+      "expected_country": "MX",
+      "registration_years": [
+        2009,
+        2010
+      ],
+      "selection": "2005 lacks clock; sole2009fallback has clock and municipality, no locality. Eligible only if official municipality-name/code to seat reference can be verified before sampling; otherwise unavailable",
+      "coordinate_policy": "explicitly approximate official municipal seat, matching Brazilian level; no inferred individual birthplace",
+      "primary_bootstrap_seed": 20261127104,
+      "status": "conditional",
+      "reason": "Requires verified official municipality-code/name to municipal-seat reference before source decision"
+    },
+    {
+      "id": "mexico2020",
+      "allowed_birth_years": [
+        2020
+      ],
+      "expected_country": "MX",
+      "registration_years": [
+        2020,
+        2021
+      ],
+      "coordinate_policy": "official2020 locality code plus normalized-name exact match",
+      "primary_bootstrap_seed": 20261127105,
+      "status": "available",
+      "reason": "Required birth fields established; complete birth-only eligibility audit determines restricted frame"
+    },
+    {
+      "id": "new_country",
+      "allowed_birth_years": [],
+      "expected_country": null,
+      "status": "unavailable",
+      "candidates": [
+        "CO",
+        "US",
+        "PE",
+        "EC",
+        "UY"
+      ],
+      "substitution_after_freeze": false,
+      "primary_bootstrap_seed": 20261127106,
+      "reason": "No verified accessible full-input frame among five audited country leads"
+    }
+  ],
+  "sampling": {
+    "seed": "OBS-R10-2026-11-27",
+    "n_per_slot": 2000,
+    "smaller_frame": "census",
+    "strata": "state of birth x explicit source M/F, within a country/birth-year union of listed registration archives",
+    "quotas": "R9 exact residual-capacity largest-remainder algorithm; ascending SHA256(seed|stable registration-year/source-row ID)",
+    "weights": "N_h/n_h on eligible source records only",
+    "unknown_clock": "exclude; no imputation",
+    "timezone_database": "2026c",
+    "record_identity": "not verified unique people; matching birth tuples retained and audited, not assumed duplicates"
+  },
+  "reference": {
+    "source": "SINASC-2006",
+    "records": 2000,
+    "sample_path": "R8 frozen Brazil2006",
+    "profile_sha256": "5bdc0d2e5c53cb15928a4a0781e5c7785085d3d039cfbf7dcc9b44f2a3f1c401",
+    "reference_weights": "R8 eligible source-frame weights",
+    "target_in_reference": false,
+    "reference_uncertainty": "Fixed empirical reference conditional estimand; ordinary target resampling excludes reference-estimation uncertainty"
+  },
+  "score_rules": {
+    "original_engine_hashes": {
+      "src/open_birth_chart/astronomy.py": "9331f1a20b6571207f28632bf89d72969c6992072c99fb3ff1235439502fb550",
+      "src/open_birth_chart/bazi_engine.py": "41d2b5f3cd0738d94366e5436a495d05d9f84b5d0c3d0a68efbf14383311d5df",
+      "src/open_birth_chart/ziwei_engine.py": "84f0b0580fb1eb687bf36cc66bc8e46eb96f67f7436a0ef6cae64e144c572d47",
+      "src/open_birth_chart/qizheng_engine.py": "d50d0c7de06ca16cb0cf19557fd51b65f240363c68e7ce6bb9daa8f483c6123d",
+      "src/open_birth_chart/western_engine.py": "651c791cdaa20215c04214edda13c105dd9d111335585cca6d07d235f9dbe8a1",
+      "src/open_birth_chart/io.py": "4c9159410a08836779a818897f4f49397fcffad9d3e436aa645facad8bdaf0de"
+    },
+    "policy": "All R8/R9 files unchanged. Additive R10 copies may extend only hardcoded birth-year gates from2019 through2025 plus module/resource routing. Score formulas remain unchanged; exact legacy-fixture agreement and a synthetic2024 four-system trajectory required. All executable changes documented and hashed before real scoring."
+  },
+  "age_window": {
+    "primary_completed_ages": [
+      20,
+      59
+    ],
+    "points": 40,
+    "index": "R8 July1 civil-age convention",
+    "descriptive_completed_ages": [
+      20,
+      39
+    ],
+    "calendar_display": [
+      2026,
+      2070
+    ],
+    "coverage_note": "2024births firstenterage20in2044/45; primarymayextendthrough2084. Missing calendar coverage is not zero or death."
+  },
+  "fixed_reference_transform": {
+    "bands": [
+      [
+        20,
+        29
+      ],
+      [
+        30,
+        39
+      ],
+      [
+        40,
+        49
+      ],
+      [
+        50,
+        59
+      ]
+    ],
+    "formula": "For each system/band, F_R(x) = sum_i w_i sum_a [1(score_ia<x)+0.5*1(score_ia=x)]/(10*sum_i w_i); apply without refitting target",
+    "threshold": 0.8,
+    "ties": "weighted mid-CDF; threshold does not guarantee20% positive years",
+    "range": [
+      0,
+      1
+    ]
+  },
+  "primary_endpoint": {
+    "definition": "source-weighted proportion of record-years with at least3 of4 fixed-reference transformed scores>=0.8",
+    "contrast": "DeltaJ=J_target-J_reference",
+    "report_units": "percentage points",
+    "planned_contrast_slots": 7,
+    "resolution_target_pp": 1.0,
+    "interpretation": "model structural frequency, never event probability"
+  },
+  "inference": {
+    "family_size": 7,
+    "primary_draws": 9999,
+    "family_alpha": 0.05,
+    "primary_method": "unchanged R9 whole-record within-stratum finite-population-rescaled bootstrap; fixed F_R and J_R",
+    "primary_not_included": [
+      "reference estimation",
+      "source selection",
+      "clock/location error",
+      "traditional model validity",
+      "global generalization"
+    ],
+    "unavailable_slots": "retained in family; not zero",
+    "no_real_world_null_pvalues": true
+  },
+  "reference_stability_sensitivity": {
+    "draws": 999,
+    "seed": 20261127200,
+    "status": "exploratory; does not replace primary",
+    "resample": "whole reference and target records within strata; common reference replicate across all targets; refit weighted CDF every draw",
+    "weights": "nonnegative n_h-1 finite-population replicate weights; preserve each stratum total; require independent exact toy mean/variance checks",
+    "benchmark": "10 synthetic n2000 seven-target draws0.6873sec;999projection68.66sec belowpreselected120sec budget",
+    "limits": "discrete threshold/nonregular calibration uncertainty; bootstrap sensitivity is not exact confidence or predictive validation",
+    "target_seed_rule": "base seed+1+registered slot index,0-based; same reference replicate across all targets"
+  },
+  "secondary_endpoints": [
+    "raw model means",
+    "fixed-reference means and DeltaL",
+    "descriptive ages20\u201339",
+    "age-band summaries",
+    "descriptive2026\u20132070 curves with denominators",
+    "R9 relative-ranking continuity separately labelled"
+  ],
+  "scope_limits": [
+    "selected years do not represent an entire birth decade",
+    "two national administrative-source countries do not represent humanity",
+    "no data for future births2027\u201329",
+    "calendar-age-cohort confounding remains",
+    "public demographic estimates/projections are separate aggregate benchmarks, not added individual records"
+  ],
+  "geography_extension": "Five additional country leads audited; none met verified full-input access at freeze. No padded or synthetic individual records",
+  "mortality_outcome_validation": "paused per user",
+  "ai_track": "prior R9 evidence retained; no new AI causal claim or astrology-to-AI mapping",
+  "change_policy": "additive documented corrections only; never change source choice, sample size, scoring rules or primary endpoint after inspecting target effects",
+  "source_decision_gate": "Publish source_decisions.json closing all seven slots as available/unavailable after birth-only audits and before any real R10 scoring; never use model output. Conditional Mexico2009 failure gives unavailable, no further year substitution."
+}
