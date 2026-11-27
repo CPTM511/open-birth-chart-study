@@ -1,0 +1,37 @@
+{
+  "review_date": "2026-11-28",
+  "role_scope": "AI-assisted execution and review by the same project session. Python arithmetic is separate from Iztro. No external historical chart rereading or academic peer review was performed.",
+  "registration_commit": "3569677f4cd82d484f739a6c1b28177ac4338c88",
+  "transcription_commit": "f38b03832250843c6fae738b3131682f3171e035",
+  "results_sha256": "f8eb9b4746caa7e01a49abf963488a04e716426580e7ad63a1a3d94516b0f73d",
+  "official_image_digests_reverified": 11,
+  "supplementary_source_after_results": {
+    "page": 84,
+    "canvas": "https://www.digital.archives.go.jp/api/iiif/4468520/canvas/C102812186700",
+    "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102812186700/iiif/M2019050811103249305_0084.jp2/full/max/0/native.jpg",
+    "sha256": "366f656fd2a51520746543e1cc96d77a8a2e5dc920281684d4543926166de613"
+  },
+  "visual_reread_after_results": [
+    "193L bureau",
+    "194L year/month/day and Ziwei palace",
+    "196R undecided glyph",
+    "197R unread Tianliang",
+    "199R unread Tianliang",
+    "199L duplicated stars",
+    "200L bureau"
+  ],
+  "independent_count_check_from_sealed_cell_sets": {
+    "equal": 230,
+    "different": 18,
+    "unread": 7
+  },
+  "modern_carrier_pairs_equal_within_each_time_branch": 18,
+  "in_scope_modern_charts_matching_r8_bridge": 19,
+  "library_only_modern_charts": 17,
+  "local_main_suite_passed": 44,
+  "local_previous_round_focused_tests_passed": 23,
+  "r9_release_integrity": {
+    "frozen_r8_files_verified": 130,
+    "r9_manifest_files_verified": 90
+  }
+}

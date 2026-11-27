@@ -1,0 +1,6210 @@
+{
+  "charts": [
+    {
+      "classical": {
+        "body": "子",
+        "bureau": 6,
+        "life": "子",
+        "life_pair": "戊子",
+        "stars": {
+          "七杀": [
+            "丑"
+          ],
+          "天同": [
+            "辰"
+          ],
+          "天府": [
+            "未"
+          ],
+          "天机": [
+            "申"
+          ],
+          "天梁": [
+            "子"
+          ],
+          "天相": [
+            "亥"
+          ],
+          "太阳": [
+            "午"
+          ],
+          "太阴": [
+            "申"
+          ],
+          "巨门": [
+            "戌"
+          ],
+          "廉贞": [
+            "丑"
+          ],
+          "武曲": [
+            "巳"
+          ],
+          "破军": [
+            "巳"
+          ],
+          "紫微": [
+            "酉"
+          ],
+          "贪狼": [
+            "酉"
+          ]
+        }
+      },
+      "comparison": {
+        "classical_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "variant_dependent",
+          "天同": "variant_dependent",
+          "天府": "variant_dependent",
+          "天机": "variant_dependent",
+          "天梁": "variant_dependent",
+          "天相": "variant_dependent",
+          "太阳": "variant_dependent",
+          "太阴": "variant_dependent",
+          "巨门": "variant_dependent",
+          "廉贞": "variant_dependent",
+          "武曲": "variant_dependent",
+          "破军": "variant_dependent",
+          "紫微": "variant_dependent",
+          "贪狼": "variant_dependent"
+        },
+        "printed_classical": {
+          "body": "equal",
+          "bureau": "different",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_modern": {
+          "body": "equal",
+          "bureau": "different",
+          "life": "equal",
+          "七杀": "variant_dependent",
+          "天同": "variant_dependent",
+          "天府": "variant_dependent",
+          "天机": "variant_dependent",
+          "天梁": "variant_dependent",
+          "天相": "variant_dependent",
+          "太阳": "variant_dependent",
+          "太阴": "variant_dependent",
+          "巨门": "variant_dependent",
+          "廉贞": "variant_dependent",
+          "武曲": "variant_dependent",
+          "破军": "variant_dependent",
+          "紫微": "variant_dependent",
+          "贪狼": "variant_dependent"
+        },
+        "printed_ziwei_origin_other_stars": {
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "贪狼": "equal"
+        }
+      },
+      "modern_by_carrier": [
+        {
+          "roundtrip_ganzhi": "庚戌",
+          "roundtrip_lunar_date": {
+            "day": 1,
+            "is_leap": false,
+            "month": 11,
+            "year": 1970
+          },
+          "solar_date": "1970-11-29",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "子",
+              "branch": "early_zi",
+              "bureau": 6,
+              "interface_clock": "00:00",
+              "life": "子",
+              "processed_lunar_date": {
+                "day": 1,
+                "is_leap": false,
+                "month": 11,
+                "year": 1970
+              },
+              "r8_bridge": "equal",
+              "stars": {
+                "七杀": [
+                  "丑"
+                ],
+                "天同": [
+                  "辰"
+                ],
+                "天府": [
+                  "未"
+                ],
+                "天机": [
+                  "申"
+                ],
+                "天梁": [
+                  "子"
+                ],
+                "天相": [
+                  "亥"
+                ],
+                "太阳": [
+                  "午"
+                ],
+                "太阴": [
+                  "申"
+                ],
+                "巨门": [
+                  "戌"
+                ],
+                "廉贞": [
+                  "丑"
+                ],
+                "武曲": [
+                  "巳"
+                ],
+                "破军": [
+                  "巳"
+                ],
+                "紫微": [
+                  "酉"
+                ],
+                "贪狼": [
+                  "酉"
+                ]
+              },
+              "time_index": 0,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "different",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            },
+            {
+              "body": "子",
+              "branch": "late_zi",
+              "bureau": 6,
+              "interface_clock": "23:00",
+              "life": "子",
+              "processed_lunar_date": {
+                "day": 2,
+                "is_leap": false,
+                "month": 11,
+                "year": 1970
+              },
+              "r8_bridge": "equal",
+              "stars": {
+                "七杀": [
+                  "辰"
+                ],
+                "天同": [
+                  "丑"
+                ],
+                "天府": [
+                  "戌"
+                ],
+                "天机": [
+                  "巳"
+                ],
+                "天梁": [
+                  "卯"
+                ],
+                "天相": [
+                  "寅"
+                ],
+                "太阳": [
+                  "卯"
+                ],
+                "太阴": [
+                  "亥"
+                ],
+                "巨门": [
+                  "丑"
+                ],
+                "廉贞": [
+                  "戌"
+                ],
+                "武曲": [
+                  "寅"
+                ],
+                "破军": [
+                  "申"
+                ],
+                "紫微": [
+                  "午"
+                ],
+                "贪狼": [
+                  "子"
+                ]
+              },
+              "time_index": 12,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "different",
+                "life": "equal",
+                "七杀": "different",
+                "天同": "different",
+                "天府": "different",
+                "天机": "different",
+                "天梁": "different",
+                "天相": "different",
+                "太阳": "different",
+                "太阴": "different",
+                "巨门": "different",
+                "廉贞": "different",
+                "武曲": "different",
+                "破军": "different",
+                "紫微": "different",
+                "贪狼": "different"
+              }
+            }
+          ],
+          "year": 1970
+        },
+        {
+          "roundtrip_ganzhi": "庚戌",
+          "roundtrip_lunar_date": {
+            "day": 1,
+            "is_leap": false,
+            "month": 11,
+            "year": 2030
+          },
+          "solar_date": "2030-11-25",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "子",
+              "branch": "early_zi",
+              "bureau": 6,
+              "interface_clock": "00:00",
+              "life": "子",
+              "processed_lunar_date": {
+                "day": 1,
+                "is_leap": false,
+                "month": 11,
+                "year": 2030
+              },
+              "r8_bridge": "outside_r8_solar_year_scope",
+              "stars": {
+                "七杀": [
+                  "丑"
+                ],
+                "天同": [
+                  "辰"
+                ],
+                "天府": [
+                  "未"
+                ],
+                "天机": [
+                  "申"
+                ],
+                "天梁": [
+                  "子"
+                ],
+                "天相": [
+                  "亥"
+                ],
+                "太阳": [
+                  "午"
+                ],
+                "太阴": [
+                  "申"
+                ],
+                "巨门": [
+                  "戌"
+                ],
+                "廉贞": [
+                  "丑"
+                ],
+                "武曲": [
+                  "巳"
+                ],
+                "破军": [
+                  "巳"
+                ],
+                "紫微": [
+                  "酉"
+                ],
+                "贪狼": [
+                  "酉"
+                ]
+              },
+              "time_index": 0,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "different",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            },
+            {
+              "body": "子",
+              "branch": "late_zi",
+              "bureau": 6,
+              "interface_clock": "23:00",
+              "life": "子",
+              "processed_lunar_date": {
+                "day": 2,
+                "is_leap": false,
+                "month": 11,
+                "year": 2030
+              },
+              "r8_bridge": "outside_r8_solar_year_scope",
+              "stars": {
+                "七杀": [
+                  "辰"
+                ],
+                "天同": [
+                  "丑"
+                ],
+                "天府": [
+                  "戌"
+                ],
+                "天机": [
+                  "巳"
+                ],
+                "天梁": [
+                  "卯"
+                ],
+                "天相": [
+                  "寅"
+                ],
+                "太阳": [
+                  "卯"
+                ],
+                "太阴": [
+                  "亥"
+                ],
+                "巨门": [
+                  "丑"
+                ],
+                "廉贞": [
+                  "戌"
+                ],
+                "武曲": [
+                  "寅"
+                ],
+                "破军": [
+                  "申"
+                ],
+                "紫微": [
+                  "午"
+                ],
+                "贪狼": [
+                  "子"
+                ]
+              },
+              "time_index": 12,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "different",
+                "life": "equal",
+                "七杀": "different",
+                "天同": "different",
+                "天府": "different",
+                "天机": "different",
+                "天梁": "different",
+                "天相": "different",
+                "太阳": "different",
+                "太阴": "different",
+                "巨门": "different",
+                "廉贞": "different",
+                "武曲": "different",
+                "破军": "different",
+                "紫微": "different",
+                "贪狼": "different"
+              }
+            }
+          ],
+          "year": 2030
+        }
+      ],
+      "printed": {
+        "body": "子",
+        "bureau": 5,
+        "life": "子",
+        "七杀": [
+          "丑"
+        ],
+        "天同": [
+          "辰"
+        ],
+        "天府": [
+          "未"
+        ],
+        "天机": [
+          "申"
+        ],
+        "天梁": [
+          "子"
+        ],
+        "天相": [
+          "亥"
+        ],
+        "太阳": [
+          "午"
+        ],
+        "太阴": [
+          "申"
+        ],
+        "巨门": [
+          "戌"
+        ],
+        "廉贞": [
+          "丑"
+        ],
+        "武曲": [
+          "巳"
+        ],
+        "破军": [
+          "巳"
+        ],
+        "紫微": [
+          "酉"
+        ],
+        "贪狼": [
+          "酉"
+        ]
+      },
+      "slot": "193L"
+    },
+    {
+      "classical": {
+        "body": "子",
+        "bureau": 3,
+        "life": "申",
+        "life_pair": "庚申",
+        "stars": {
+          "七杀": [
+            "午"
+          ],
+          "天同": [
+            "亥"
+          ],
+          "天府": [
+            "子"
+          ],
+          "天机": [
+            "卯"
+          ],
+          "天梁": [
+            "巳"
+          ],
+          "天相": [
+            "辰"
+          ],
+          "太阳": [
+            "丑"
+          ],
+          "太阴": [
+            "丑"
+          ],
+          "巨门": [
+            "卯"
+          ],
+          "廉贞": [
+            "申"
+          ],
+          "武曲": [
+            "子"
+          ],
+          "破军": [
+            "戌"
+          ],
+          "紫微": [
+            "辰"
+          ],
+          "贪狼": [
+            "寅"
+          ]
+        }
+      },
+      "comparison": {
+        "classical_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_classical": {
+          "body": "source_unread",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_modern": {
+          "body": "source_unread",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_ziwei_origin_other_stars": {
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "贪狼": "equal"
+        }
+      },
+      "modern_by_carrier": [
+        {
+          "roundtrip_ganzhi": "癸丑",
+          "roundtrip_lunar_date": {
+            "day": 9,
+            "is_leap": false,
+            "month": 9,
+            "year": 1973
+          },
+          "solar_date": "1973-10-04",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "子",
+              "branch": "fixed",
+              "bureau": 3,
+              "interface_clock": "04:00",
+              "life": "申",
+              "processed_lunar_date": {
+                "day": 9,
+                "is_leap": false,
+                "month": 9,
+                "year": 1973
+              },
+              "r8_bridge": "equal",
+              "stars": {
+                "七杀": [
+                  "午"
+                ],
+                "天同": [
+                  "亥"
+                ],
+                "天府": [
+                  "子"
+                ],
+                "天机": [
+                  "卯"
+                ],
+                "天梁": [
+                  "巳"
+                ],
+                "天相": [
+                  "辰"
+                ],
+                "太阳": [
+                  "丑"
+                ],
+                "太阴": [
+                  "丑"
+                ],
+                "巨门": [
+                  "卯"
+                ],
+                "廉贞": [
+                  "申"
+                ],
+                "武曲": [
+                  "子"
+                ],
+                "破军": [
+                  "戌"
+                ],
+                "紫微": [
+                  "辰"
+                ],
+                "贪狼": [
+                  "寅"
+                ]
+              },
+              "time_index": 2,
+              "vs_printed": {
+                "body": "source_unread",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 1973
+        },
+        {
+          "roundtrip_ganzhi": "癸丑",
+          "roundtrip_lunar_date": {
+            "day": 9,
+            "is_leap": false,
+            "month": 9,
+            "year": 2033
+          },
+          "solar_date": "2033-10-01",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "子",
+              "branch": "fixed",
+              "bureau": 3,
+              "interface_clock": "04:00",
+              "life": "申",
+              "processed_lunar_date": {
+                "day": 9,
+                "is_leap": false,
+                "month": 9,
+                "year": 2033
+              },
+              "r8_bridge": "outside_r8_solar_year_scope",
+              "stars": {
+                "七杀": [
+                  "午"
+                ],
+                "天同": [
+                  "亥"
+                ],
+                "天府": [
+                  "子"
+                ],
+                "天机": [
+                  "卯"
+                ],
+                "天梁": [
+                  "巳"
+                ],
+                "天相": [
+                  "辰"
+                ],
+                "太阳": [
+                  "丑"
+                ],
+                "太阴": [
+                  "丑"
+                ],
+                "巨门": [
+                  "卯"
+                ],
+                "廉贞": [
+                  "申"
+                ],
+                "武曲": [
+                  "子"
+                ],
+                "破军": [
+                  "戌"
+                ],
+                "紫微": [
+                  "辰"
+                ],
+                "贪狼": [
+                  "寅"
+                ]
+              },
+              "time_index": 2,
+              "vs_printed": {
+                "body": "source_unread",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 2033
+        }
+      ],
+      "printed": {
+        "body": null,
+        "bureau": 3,
+        "life": "申",
+        "七杀": [
+          "午"
+        ],
+        "天同": [
+          "亥"
+        ],
+        "天府": [
+          "子"
+        ],
+        "天机": [
+          "卯"
+        ],
+        "天梁": [
+          "巳"
+        ],
+        "天相": [
+          "辰"
+        ],
+        "太阳": [
+          "丑"
+        ],
+        "太阴": [
+          "丑"
+        ],
+        "巨门": [
+          "卯"
+        ],
+        "廉贞": [
+          "申"
+        ],
+        "武曲": [
+          "子"
+        ],
+        "破军": [
+          "戌"
+        ],
+        "紫微": [
+          "辰"
+        ],
+        "贪狼": [
+          "寅"
+        ]
+      },
+      "slot": "194R"
+    },
+    {
+      "classical": {
+        "body": "申",
+        "bureau": 3,
+        "life": "寅",
+        "life_pair": "庚寅",
+        "stars": {
+          "七杀": [
+            "卯"
+          ],
+          "天同": [
+            "寅"
+          ],
+          "天府": [
+            "酉"
+          ],
+          "天机": [
+            "午"
+          ],
+          "天梁": [
+            "寅"
+          ],
+          "天相": [
+            "丑"
+          ],
+          "太阳": [
+            "辰"
+          ],
+          "太阴": [
+            "戌"
+          ],
+          "巨门": [
+            "子"
+          ],
+          "廉贞": [
+            "亥"
+          ],
+          "武曲": [
+            "卯"
+          ],
+          "破军": [
+            "未"
+          ],
+          "紫微": [
+            "未"
+          ],
+          "贪狼": [
+            "亥"
+          ]
+        }
+      },
+      "comparison": {
+        "classical_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_classical": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "different",
+          "天同": "different",
+          "天府": "different",
+          "天机": "different",
+          "天梁": "different",
+          "天相": "different",
+          "太阳": "different",
+          "太阴": "different",
+          "巨门": "different",
+          "廉贞": "different",
+          "武曲": "different",
+          "破军": "different",
+          "紫微": "different",
+          "贪狼": "different"
+        },
+        "printed_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "different",
+          "天同": "different",
+          "天府": "different",
+          "天机": "different",
+          "天梁": "different",
+          "天相": "different",
+          "太阳": "different",
+          "太阴": "different",
+          "巨门": "different",
+          "廉贞": "different",
+          "武曲": "different",
+          "破军": "different",
+          "紫微": "different",
+          "贪狼": "different"
+        },
+        "printed_ziwei_origin_other_stars": {
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "贪狼": "equal"
+        }
+      },
+      "modern_by_carrier": [
+        {
+          "roundtrip_ganzhi": "辛酉",
+          "roundtrip_lunar_date": {
+            "day": 20,
+            "is_leap": false,
+            "month": 4,
+            "year": 1981
+          },
+          "solar_date": "1981-05-23",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "申",
+              "branch": "fixed",
+              "bureau": 3,
+              "interface_clock": "06:00",
+              "life": "寅",
+              "processed_lunar_date": {
+                "day": 20,
+                "is_leap": false,
+                "month": 4,
+                "year": 1981
+              },
+              "r8_bridge": "equal",
+              "stars": {
+                "七杀": [
+                  "卯"
+                ],
+                "天同": [
+                  "寅"
+                ],
+                "天府": [
+                  "酉"
+                ],
+                "天机": [
+                  "午"
+                ],
+                "天梁": [
+                  "寅"
+                ],
+                "天相": [
+                  "丑"
+                ],
+                "太阳": [
+                  "辰"
+                ],
+                "太阴": [
+                  "戌"
+                ],
+                "巨门": [
+                  "子"
+                ],
+                "廉贞": [
+                  "亥"
+                ],
+                "武曲": [
+                  "卯"
+                ],
+                "破军": [
+                  "未"
+                ],
+                "紫微": [
+                  "未"
+                ],
+                "贪狼": [
+                  "亥"
+                ]
+              },
+              "time_index": 3,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "different",
+                "天同": "different",
+                "天府": "different",
+                "天机": "different",
+                "天梁": "different",
+                "天相": "different",
+                "太阳": "different",
+                "太阴": "different",
+                "巨门": "different",
+                "廉贞": "different",
+                "武曲": "different",
+                "破军": "different",
+                "紫微": "different",
+                "贪狼": "different"
+              }
+            }
+          ],
+          "year": 1981
+        },
+        {
+          "roundtrip_ganzhi": "辛酉",
+          "roundtrip_lunar_date": {
+            "day": 20,
+            "is_leap": false,
+            "month": 4,
+            "year": 2041
+          },
+          "solar_date": "2041-05-19",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "申",
+              "branch": "fixed",
+              "bureau": 3,
+              "interface_clock": "06:00",
+              "life": "寅",
+              "processed_lunar_date": {
+                "day": 20,
+                "is_leap": false,
+                "month": 4,
+                "year": 2041
+              },
+              "r8_bridge": "outside_r8_solar_year_scope",
+              "stars": {
+                "七杀": [
+                  "卯"
+                ],
+                "天同": [
+                  "寅"
+                ],
+                "天府": [
+                  "酉"
+                ],
+                "天机": [
+                  "午"
+                ],
+                "天梁": [
+                  "寅"
+                ],
+                "天相": [
+                  "丑"
+                ],
+                "太阳": [
+                  "辰"
+                ],
+                "太阴": [
+                  "戌"
+                ],
+                "巨门": [
+                  "子"
+                ],
+                "廉贞": [
+                  "亥"
+                ],
+                "武曲": [
+                  "卯"
+                ],
+                "破军": [
+                  "未"
+                ],
+                "紫微": [
+                  "未"
+                ],
+                "贪狼": [
+                  "亥"
+                ]
+              },
+              "time_index": 3,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "different",
+                "天同": "different",
+                "天府": "different",
+                "天机": "different",
+                "天梁": "different",
+                "天相": "different",
+                "太阳": "different",
+                "太阴": "different",
+                "巨门": "different",
+                "廉贞": "different",
+                "武曲": "different",
+                "破军": "different",
+                "紫微": "different",
+                "贪狼": "different"
+              }
+            }
+          ],
+          "year": 2041
+        }
+      ],
+      "printed": {
+        "body": "申",
+        "bureau": 3,
+        "life": "寅",
+        "七杀": [
+          "亥"
+        ],
+        "天同": [
+          "午"
+        ],
+        "天府": [
+          "巳"
+        ],
+        "天机": [
+          "戌"
+        ],
+        "天梁": [
+          "戌"
+        ],
+        "天相": [
+          "酉"
+        ],
+        "太阳": [
+          "申"
+        ],
+        "太阴": [
+          "午"
+        ],
+        "巨门": [
+          "申"
+        ],
+        "廉贞": [
+          "卯"
+        ],
+        "武曲": [
+          "未"
+        ],
+        "破军": [
+          "卯"
+        ],
+        "紫微": [
+          "亥"
+        ],
+        "贪狼": [
+          "未"
+        ]
+      },
+      "slot": "194L"
+    },
+    {
+      "classical": {
+        "body": "辰",
+        "bureau": 4,
+        "life": "辰",
+        "life_pair": "庚辰",
+        "stars": {
+          "七杀": [
+            "亥"
+          ],
+          "天同": [
+            "午"
+          ],
+          "天府": [
+            "巳"
+          ],
+          "天机": [
+            "戌"
+          ],
+          "天梁": [
+            "戌"
+          ],
+          "天相": [
+            "酉"
+          ],
+          "太阳": [
+            "申"
+          ],
+          "太阴": [
+            "午"
+          ],
+          "巨门": [
+            "申"
+          ],
+          "廉贞": [
+            "卯"
+          ],
+          "武曲": [
+            "未"
+          ],
+          "破军": [
+            "卯"
+          ],
+          "紫微": [
+            "亥"
+          ],
+          "贪狼": [
+            "未"
+          ]
+        }
+      },
+      "comparison": {
+        "classical_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "variant_dependent",
+          "天同": "variant_dependent",
+          "天府": "variant_dependent",
+          "天机": "variant_dependent",
+          "天梁": "variant_dependent",
+          "天相": "variant_dependent",
+          "太阳": "variant_dependent",
+          "太阴": "variant_dependent",
+          "巨门": "variant_dependent",
+          "廉贞": "variant_dependent",
+          "武曲": "variant_dependent",
+          "破军": "variant_dependent",
+          "紫微": "variant_dependent",
+          "贪狼": "variant_dependent"
+        },
+        "printed_classical": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "variant_dependent",
+          "天同": "variant_dependent",
+          "天府": "variant_dependent",
+          "天机": "variant_dependent",
+          "天梁": "variant_dependent",
+          "天相": "variant_dependent",
+          "太阳": "variant_dependent",
+          "太阴": "variant_dependent",
+          "巨门": "variant_dependent",
+          "廉贞": "variant_dependent",
+          "武曲": "variant_dependent",
+          "破军": "variant_dependent",
+          "紫微": "variant_dependent",
+          "贪狼": "variant_dependent"
+        },
+        "printed_ziwei_origin_other_stars": {
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "贪狼": "equal"
+        }
+      },
+      "modern_by_carrier": [
+        {
+          "roundtrip_ganzhi": "庚申",
+          "roundtrip_lunar_date": {
+            "day": 1,
+            "is_leap": false,
+            "month": 3,
+            "year": 1980
+          },
+          "solar_date": "1980-04-15",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "辰",
+              "branch": "early_zi",
+              "bureau": 4,
+              "interface_clock": "00:00",
+              "life": "辰",
+              "processed_lunar_date": {
+                "day": 1,
+                "is_leap": false,
+                "month": 3,
+                "year": 1980
+              },
+              "r8_bridge": "equal",
+              "stars": {
+                "七杀": [
+                  "亥"
+                ],
+                "天同": [
+                  "午"
+                ],
+                "天府": [
+                  "巳"
+                ],
+                "天机": [
+                  "戌"
+                ],
+                "天梁": [
+                  "戌"
+                ],
+                "天相": [
+                  "酉"
+                ],
+                "太阳": [
+                  "申"
+                ],
+                "太阴": [
+                  "午"
+                ],
+                "巨门": [
+                  "申"
+                ],
+                "廉贞": [
+                  "卯"
+                ],
+                "武曲": [
+                  "未"
+                ],
+                "破军": [
+                  "卯"
+                ],
+                "紫微": [
+                  "亥"
+                ],
+                "贪狼": [
+                  "未"
+                ]
+              },
+              "time_index": 0,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            },
+            {
+              "body": "辰",
+              "branch": "late_zi",
+              "bureau": 4,
+              "interface_clock": "23:00",
+              "life": "辰",
+              "processed_lunar_date": {
+                "day": 2,
+                "is_leap": false,
+                "month": 3,
+                "year": 1980
+              },
+              "r8_bridge": "equal",
+              "stars": {
+                "七杀": [
+                  "午"
+                ],
+                "天同": [
+                  "亥"
+                ],
+                "天府": [
+                  "子"
+                ],
+                "天机": [
+                  "卯"
+                ],
+                "天梁": [
+                  "巳"
+                ],
+                "天相": [
+                  "辰"
+                ],
+                "太阳": [
+                  "丑"
+                ],
+                "太阴": [
+                  "丑"
+                ],
+                "巨门": [
+                  "卯"
+                ],
+                "廉贞": [
+                  "申"
+                ],
+                "武曲": [
+                  "子"
+                ],
+                "破军": [
+                  "戌"
+                ],
+                "紫微": [
+                  "辰"
+                ],
+                "贪狼": [
+                  "寅"
+                ]
+              },
+              "time_index": 12,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "different",
+                "天同": "different",
+                "天府": "different",
+                "天机": "different",
+                "天梁": "different",
+                "天相": "different",
+                "太阳": "different",
+                "太阴": "different",
+                "巨门": "different",
+                "廉贞": "different",
+                "武曲": "different",
+                "破军": "different",
+                "紫微": "different",
+                "贪狼": "different"
+              }
+            }
+          ],
+          "year": 1980
+        },
+        {
+          "roundtrip_ganzhi": "庚申",
+          "roundtrip_lunar_date": {
+            "day": 1,
+            "is_leap": false,
+            "month": 3,
+            "year": 2040
+          },
+          "solar_date": "2040-04-11",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "辰",
+              "branch": "early_zi",
+              "bureau": 4,
+              "interface_clock": "00:00",
+              "life": "辰",
+              "processed_lunar_date": {
+                "day": 1,
+                "is_leap": false,
+                "month": 3,
+                "year": 2040
+              },
+              "r8_bridge": "outside_r8_solar_year_scope",
+              "stars": {
+                "七杀": [
+                  "亥"
+                ],
+                "天同": [
+                  "午"
+                ],
+                "天府": [
+                  "巳"
+                ],
+                "天机": [
+                  "戌"
+                ],
+                "天梁": [
+                  "戌"
+                ],
+                "天相": [
+                  "酉"
+                ],
+                "太阳": [
+                  "申"
+                ],
+                "太阴": [
+                  "午"
+                ],
+                "巨门": [
+                  "申"
+                ],
+                "廉贞": [
+                  "卯"
+                ],
+                "武曲": [
+                  "未"
+                ],
+                "破军": [
+                  "卯"
+                ],
+                "紫微": [
+                  "亥"
+                ],
+                "贪狼": [
+                  "未"
+                ]
+              },
+              "time_index": 0,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            },
+            {
+              "body": "辰",
+              "branch": "late_zi",
+              "bureau": 4,
+              "interface_clock": "23:00",
+              "life": "辰",
+              "processed_lunar_date": {
+                "day": 2,
+                "is_leap": false,
+                "month": 3,
+                "year": 2040
+              },
+              "r8_bridge": "outside_r8_solar_year_scope",
+              "stars": {
+                "七杀": [
+                  "午"
+                ],
+                "天同": [
+                  "亥"
+                ],
+                "天府": [
+                  "子"
+                ],
+                "天机": [
+                  "卯"
+                ],
+                "天梁": [
+                  "巳"
+                ],
+                "天相": [
+                  "辰"
+                ],
+                "太阳": [
+                  "丑"
+                ],
+                "太阴": [
+                  "丑"
+                ],
+                "巨门": [
+                  "卯"
+                ],
+                "廉贞": [
+                  "申"
+                ],
+                "武曲": [
+                  "子"
+                ],
+                "破军": [
+                  "戌"
+                ],
+                "紫微": [
+                  "辰"
+                ],
+                "贪狼": [
+                  "寅"
+                ]
+              },
+              "time_index": 12,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "different",
+                "天同": "different",
+                "天府": "different",
+                "天机": "different",
+                "天梁": "different",
+                "天相": "different",
+                "太阳": "different",
+                "太阴": "different",
+                "巨门": "different",
+                "廉贞": "different",
+                "武曲": "different",
+                "破军": "different",
+                "紫微": "different",
+                "贪狼": "different"
+              }
+            }
+          ],
+          "year": 2040
+        }
+      ],
+      "printed": {
+        "body": "辰",
+        "bureau": 4,
+        "life": "辰",
+        "七杀": [
+          "亥"
+        ],
+        "天同": [
+          "午"
+        ],
+        "天府": [
+          "巳"
+        ],
+        "天机": [
+          "戌"
+        ],
+        "天梁": [
+          "戌"
+        ],
+        "天相": [
+          "酉"
+        ],
+        "太阳": [
+          "申"
+        ],
+        "太阴": [
+          "午"
+        ],
+        "巨门": [
+          "申"
+        ],
+        "廉贞": [
+          "卯"
+        ],
+        "武曲": [
+          "未"
+        ],
+        "破军": [
+          "卯"
+        ],
+        "紫微": [
+          "亥"
+        ],
+        "贪狼": [
+          "未"
+        ]
+      },
+      "slot": "195R"
+    },
+    {
+      "classical": {
+        "body": "巳",
+        "bureau": 5,
+        "life": "卯",
+        "life_pair": "己卯",
+        "stars": {
+          "七杀": [
+            "寅"
+          ],
+          "天同": [
+            "卯"
+          ],
+          "天府": [
+            "申"
+          ],
+          "天机": [
+            "未"
+          ],
+          "天梁": [
+            "丑"
+          ],
+          "天相": [
+            "子"
+          ],
+          "太阳": [
+            "巳"
+          ],
+          "太阴": [
+            "酉"
+          ],
+          "巨门": [
+            "亥"
+          ],
+          "廉贞": [
+            "子"
+          ],
+          "武曲": [
+            "辰"
+          ],
+          "破军": [
+            "午"
+          ],
+          "紫微": [
+            "申"
+          ],
+          "贪狼": [
+            "戌"
+          ]
+        }
+      },
+      "comparison": {
+        "classical_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_classical": {
+          "body": "source_unread",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_modern": {
+          "body": "source_unread",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_ziwei_origin_other_stars": {
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "贪狼": "equal"
+        }
+      },
+      "modern_by_carrier": [
+        {
+          "roundtrip_ganzhi": "乙卯",
+          "roundtrip_lunar_date": {
+            "day": 11,
+            "is_leap": false,
+            "month": 3,
+            "year": 1975
+          },
+          "solar_date": "1975-04-22",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "巳",
+              "branch": "fixed",
+              "bureau": 5,
+              "interface_clock": "02:00",
+              "life": "卯",
+              "processed_lunar_date": {
+                "day": 11,
+                "is_leap": false,
+                "month": 3,
+                "year": 1975
+              },
+              "r8_bridge": "equal",
+              "stars": {
+                "七杀": [
+                  "寅"
+                ],
+                "天同": [
+                  "卯"
+                ],
+                "天府": [
+                  "申"
+                ],
+                "天机": [
+                  "未"
+                ],
+                "天梁": [
+                  "丑"
+                ],
+                "天相": [
+                  "子"
+                ],
+                "太阳": [
+                  "巳"
+                ],
+                "太阴": [
+                  "酉"
+                ],
+                "巨门": [
+                  "亥"
+                ],
+                "廉贞": [
+                  "子"
+                ],
+                "武曲": [
+                  "辰"
+                ],
+                "破军": [
+                  "午"
+                ],
+                "紫微": [
+                  "申"
+                ],
+                "贪狼": [
+                  "戌"
+                ]
+              },
+              "time_index": 1,
+              "vs_printed": {
+                "body": "source_unread",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 1975
+        },
+        {
+          "roundtrip_ganzhi": "乙卯",
+          "roundtrip_lunar_date": {
+            "day": 11,
+            "is_leap": false,
+            "month": 3,
+            "year": 2035
+          },
+          "solar_date": "2035-04-18",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "巳",
+              "branch": "fixed",
+              "bureau": 5,
+              "interface_clock": "02:00",
+              "life": "卯",
+              "processed_lunar_date": {
+                "day": 11,
+                "is_leap": false,
+                "month": 3,
+                "year": 2035
+              },
+              "r8_bridge": "outside_r8_solar_year_scope",
+              "stars": {
+                "七杀": [
+                  "寅"
+                ],
+                "天同": [
+                  "卯"
+                ],
+                "天府": [
+                  "申"
+                ],
+                "天机": [
+                  "未"
+                ],
+                "天梁": [
+                  "丑"
+                ],
+                "天相": [
+                  "子"
+                ],
+                "太阳": [
+                  "巳"
+                ],
+                "太阴": [
+                  "酉"
+                ],
+                "巨门": [
+                  "亥"
+                ],
+                "廉贞": [
+                  "子"
+                ],
+                "武曲": [
+                  "辰"
+                ],
+                "破军": [
+                  "午"
+                ],
+                "紫微": [
+                  "申"
+                ],
+                "贪狼": [
+                  "戌"
+                ]
+              },
+              "time_index": 1,
+              "vs_printed": {
+                "body": "source_unread",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 2035
+        }
+      ],
+      "printed": {
+        "body": null,
+        "bureau": 5,
+        "life": "卯",
+        "七杀": [
+          "寅"
+        ],
+        "天同": [
+          "卯"
+        ],
+        "天府": [
+          "申"
+        ],
+        "天机": [
+          "未"
+        ],
+        "天梁": [
+          "丑"
+        ],
+        "天相": [
+          "子"
+        ],
+        "太阳": [
+          "巳"
+        ],
+        "太阴": [
+          "酉"
+        ],
+        "巨门": [
+          "亥"
+        ],
+        "廉贞": [
+          "子"
+        ],
+        "武曲": [
+          "辰"
+        ],
+        "破军": [
+          "午"
+        ],
+        "紫微": [
+          "申"
+        ],
+        "贪狼": [
+          "戌"
+        ]
+      },
+      "slot": "195L"
+    },
+    {
+      "classical": {
+        "body": "亥",
+        "bureau": 4,
+        "life": "卯",
+        "life_pair": "癸卯",
+        "stars": {
+          "七杀": [
+            "丑"
+          ],
+          "天同": [
+            "辰"
+          ],
+          "天府": [
+            "未"
+          ],
+          "天机": [
+            "申"
+          ],
+          "天梁": [
+            "子"
+          ],
+          "天相": [
+            "亥"
+          ],
+          "太阳": [
+            "午"
+          ],
+          "太阴": [
+            "申"
+          ],
+          "巨门": [
+            "戌"
+          ],
+          "廉贞": [
+            "丑"
+          ],
+          "武曲": [
+            "巳"
+          ],
+          "破军": [
+            "巳"
+          ],
+          "紫微": [
+            "酉"
+          ],
+          "贪狼": [
+            "酉"
+          ]
+        }
+      },
+      "comparison": {
+        "classical_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_classical": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "source_unread",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "source_unread",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_ziwei_origin_other_stars": {
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "source_unread",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "贪狼": "equal"
+        }
+      },
+      "modern_by_carrier": [
+        {
+          "roundtrip_ganzhi": "壬子",
+          "roundtrip_lunar_date": {
+            "day": 22,
+            "is_leap": false,
+            "month": 12,
+            "year": 1972
+          },
+          "solar_date": "1973-01-25",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "亥",
+              "branch": "fixed",
+              "bureau": 4,
+              "interface_clock": "20:00",
+              "life": "卯",
+              "processed_lunar_date": {
+                "day": 22,
+                "is_leap": false,
+                "month": 12,
+                "year": 1972
+              },
+              "r8_bridge": "equal",
+              "stars": {
+                "七杀": [
+                  "丑"
+                ],
+                "天同": [
+                  "辰"
+                ],
+                "天府": [
+                  "未"
+                ],
+                "天机": [
+                  "申"
+                ],
+                "天梁": [
+                  "子"
+                ],
+                "天相": [
+                  "亥"
+                ],
+                "太阳": [
+                  "午"
+                ],
+                "太阴": [
+                  "申"
+                ],
+                "巨门": [
+                  "戌"
+                ],
+                "廉贞": [
+                  "丑"
+                ],
+                "武曲": [
+                  "巳"
+                ],
+                "破军": [
+                  "巳"
+                ],
+                "紫微": [
+                  "酉"
+                ],
+                "贪狼": [
+                  "酉"
+                ]
+              },
+              "time_index": 10,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "source_unread",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 1972
+        },
+        {
+          "roundtrip_ganzhi": "壬子",
+          "roundtrip_lunar_date": {
+            "day": 22,
+            "is_leap": false,
+            "month": 12,
+            "year": 2032
+          },
+          "solar_date": "2033-01-22",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "亥",
+              "branch": "fixed",
+              "bureau": 4,
+              "interface_clock": "20:00",
+              "life": "卯",
+              "processed_lunar_date": {
+                "day": 22,
+                "is_leap": false,
+                "month": 12,
+                "year": 2032
+              },
+              "r8_bridge": "outside_r8_solar_year_scope",
+              "stars": {
+                "七杀": [
+                  "丑"
+                ],
+                "天同": [
+                  "辰"
+                ],
+                "天府": [
+                  "未"
+                ],
+                "天机": [
+                  "申"
+                ],
+                "天梁": [
+                  "子"
+                ],
+                "天相": [
+                  "亥"
+                ],
+                "太阳": [
+                  "午"
+                ],
+                "太阴": [
+                  "申"
+                ],
+                "巨门": [
+                  "戌"
+                ],
+                "廉贞": [
+                  "丑"
+                ],
+                "武曲": [
+                  "巳"
+                ],
+                "破军": [
+                  "巳"
+                ],
+                "紫微": [
+                  "酉"
+                ],
+                "贪狼": [
+                  "酉"
+                ]
+              },
+              "time_index": 10,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "source_unread",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 2032
+        }
+      ],
+      "printed": {
+        "body": "亥",
+        "bureau": 4,
+        "life": "卯",
+        "七杀": [
+          "丑"
+        ],
+        "天同": [
+          "辰"
+        ],
+        "天府": [
+          "未"
+        ],
+        "天机": null,
+        "天梁": [
+          "子"
+        ],
+        "天相": [
+          "亥"
+        ],
+        "太阳": [
+          "午"
+        ],
+        "太阴": [
+          "申"
+        ],
+        "巨门": [
+          "戌"
+        ],
+        "廉贞": [
+          "丑"
+        ],
+        "武曲": [
+          "巳"
+        ],
+        "破军": [
+          "巳"
+        ],
+        "紫微": [
+          "酉"
+        ],
+        "贪狼": [
+          "酉"
+        ]
+      },
+      "slot": "196R"
+    },
+    {
+      "classical": {
+        "body": "卯",
+        "bureau": 5,
+        "life": "卯",
+        "life_pair": "己卯",
+        "stars": {
+          "七杀": [
+            "卯"
+          ],
+          "天同": [
+            "寅"
+          ],
+          "天府": [
+            "酉"
+          ],
+          "天机": [
+            "午"
+          ],
+          "天梁": [
+            "寅"
+          ],
+          "天相": [
+            "丑"
+          ],
+          "太阳": [
+            "辰"
+          ],
+          "太阴": [
+            "戌"
+          ],
+          "巨门": [
+            "子"
+          ],
+          "廉贞": [
+            "亥"
+          ],
+          "武曲": [
+            "卯"
+          ],
+          "破军": [
+            "未"
+          ],
+          "紫微": [
+            "未"
+          ],
+          "贪狼": [
+            "亥"
+          ]
+        }
+      },
+      "comparison": {
+        "classical_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "variant_dependent",
+          "天同": "variant_dependent",
+          "天府": "variant_dependent",
+          "天机": "variant_dependent",
+          "天梁": "variant_dependent",
+          "天相": "variant_dependent",
+          "太阳": "variant_dependent",
+          "太阴": "variant_dependent",
+          "巨门": "variant_dependent",
+          "廉贞": "variant_dependent",
+          "武曲": "variant_dependent",
+          "破军": "variant_dependent",
+          "紫微": "variant_dependent",
+          "贪狼": "variant_dependent"
+        },
+        "printed_classical": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "variant_dependent",
+          "天同": "variant_dependent",
+          "天府": "variant_dependent",
+          "天机": "variant_dependent",
+          "天梁": "variant_dependent",
+          "天相": "variant_dependent",
+          "太阳": "variant_dependent",
+          "太阴": "variant_dependent",
+          "巨门": "variant_dependent",
+          "廉贞": "variant_dependent",
+          "武曲": "variant_dependent",
+          "破军": "variant_dependent",
+          "紫微": "variant_dependent",
+          "贪狼": "variant_dependent"
+        },
+        "printed_ziwei_origin_other_stars": {
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "贪狼": "equal"
+        }
+      },
+      "modern_by_carrier": [
+        {
+          "roundtrip_ganzhi": "乙卯",
+          "roundtrip_lunar_date": {
+            "day": 6,
+            "is_leap": false,
+            "month": 2,
+            "year": 1975
+          },
+          "solar_date": "1975-03-18",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "卯",
+              "branch": "early_zi",
+              "bureau": 5,
+              "interface_clock": "00:00",
+              "life": "卯",
+              "processed_lunar_date": {
+                "day": 6,
+                "is_leap": false,
+                "month": 2,
+                "year": 1975
+              },
+              "r8_bridge": "equal",
+              "stars": {
+                "七杀": [
+                  "卯"
+                ],
+                "天同": [
+                  "寅"
+                ],
+                "天府": [
+                  "酉"
+                ],
+                "天机": [
+                  "午"
+                ],
+                "天梁": [
+                  "寅"
+                ],
+                "天相": [
+                  "丑"
+                ],
+                "太阳": [
+                  "辰"
+                ],
+                "太阴": [
+                  "戌"
+                ],
+                "巨门": [
+                  "子"
+                ],
+                "廉贞": [
+                  "亥"
+                ],
+                "武曲": [
+                  "卯"
+                ],
+                "破军": [
+                  "未"
+                ],
+                "紫微": [
+                  "未"
+                ],
+                "贪狼": [
+                  "亥"
+                ]
+              },
+              "time_index": 0,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            },
+            {
+              "body": "卯",
+              "branch": "late_zi",
+              "bureau": 5,
+              "interface_clock": "23:00",
+              "life": "卯",
+              "processed_lunar_date": {
+                "day": 7,
+                "is_leap": false,
+                "month": 2,
+                "year": 1975
+              },
+              "r8_bridge": "equal",
+              "stars": {
+                "七杀": [
+                  "戌"
+                ],
+                "天同": [
+                  "未"
+                ],
+                "天府": [
+                  "辰"
+                ],
+                "天机": [
+                  "亥"
+                ],
+                "天梁": [
+                  "酉"
+                ],
+                "天相": [
+                  "申"
+                ],
+                "太阳": [
+                  "酉"
+                ],
+                "太阴": [
+                  "巳"
+                ],
+                "巨门": [
+                  "未"
+                ],
+                "廉贞": [
+                  "辰"
+                ],
+                "武曲": [
+                  "申"
+                ],
+                "破军": [
+                  "寅"
+                ],
+                "紫微": [
+                  "子"
+                ],
+                "贪狼": [
+                  "午"
+                ]
+              },
+              "time_index": 12,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "different",
+                "天同": "different",
+                "天府": "different",
+                "天机": "different",
+                "天梁": "different",
+                "天相": "different",
+                "太阳": "different",
+                "太阴": "different",
+                "巨门": "different",
+                "廉贞": "different",
+                "武曲": "different",
+                "破军": "different",
+                "紫微": "different",
+                "贪狼": "different"
+              }
+            }
+          ],
+          "year": 1975
+        },
+        {
+          "roundtrip_ganzhi": "乙卯",
+          "roundtrip_lunar_date": {
+            "day": 6,
+            "is_leap": false,
+            "month": 2,
+            "year": 2035
+          },
+          "solar_date": "2035-03-15",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "卯",
+              "branch": "early_zi",
+              "bureau": 5,
+              "interface_clock": "00:00",
+              "life": "卯",
+              "processed_lunar_date": {
+                "day": 6,
+                "is_leap": false,
+                "month": 2,
+                "year": 2035
+              },
+              "r8_bridge": "outside_r8_solar_year_scope",
+              "stars": {
+                "七杀": [
+                  "卯"
+                ],
+                "天同": [
+                  "寅"
+                ],
+                "天府": [
+                  "酉"
+                ],
+                "天机": [
+                  "午"
+                ],
+                "天梁": [
+                  "寅"
+                ],
+                "天相": [
+                  "丑"
+                ],
+                "太阳": [
+                  "辰"
+                ],
+                "太阴": [
+                  "戌"
+                ],
+                "巨门": [
+                  "子"
+                ],
+                "廉贞": [
+                  "亥"
+                ],
+                "武曲": [
+                  "卯"
+                ],
+                "破军": [
+                  "未"
+                ],
+                "紫微": [
+                  "未"
+                ],
+                "贪狼": [
+                  "亥"
+                ]
+              },
+              "time_index": 0,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            },
+            {
+              "body": "卯",
+              "branch": "late_zi",
+              "bureau": 5,
+              "interface_clock": "23:00",
+              "life": "卯",
+              "processed_lunar_date": {
+                "day": 7,
+                "is_leap": false,
+                "month": 2,
+                "year": 2035
+              },
+              "r8_bridge": "outside_r8_solar_year_scope",
+              "stars": {
+                "七杀": [
+                  "戌"
+                ],
+                "天同": [
+                  "未"
+                ],
+                "天府": [
+                  "辰"
+                ],
+                "天机": [
+                  "亥"
+                ],
+                "天梁": [
+                  "酉"
+                ],
+                "天相": [
+                  "申"
+                ],
+                "太阳": [
+                  "酉"
+                ],
+                "太阴": [
+                  "巳"
+                ],
+                "巨门": [
+                  "未"
+                ],
+                "廉贞": [
+                  "辰"
+                ],
+                "武曲": [
+                  "申"
+                ],
+                "破军": [
+                  "寅"
+                ],
+                "紫微": [
+                  "子"
+                ],
+                "贪狼": [
+                  "午"
+                ]
+              },
+              "time_index": 12,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "different",
+                "天同": "different",
+                "天府": "different",
+                "天机": "different",
+                "天梁": "different",
+                "天相": "different",
+                "太阳": "different",
+                "太阴": "different",
+                "巨门": "different",
+                "廉贞": "different",
+                "武曲": "different",
+                "破军": "different",
+                "紫微": "different",
+                "贪狼": "different"
+              }
+            }
+          ],
+          "year": 2035
+        }
+      ],
+      "printed": {
+        "body": "卯",
+        "bureau": 5,
+        "life": "卯",
+        "七杀": [
+          "卯"
+        ],
+        "天同": [
+          "寅"
+        ],
+        "天府": [
+          "酉"
+        ],
+        "天机": [
+          "午"
+        ],
+        "天梁": [
+          "寅"
+        ],
+        "天相": [
+          "丑"
+        ],
+        "太阳": [
+          "辰"
+        ],
+        "太阴": [
+          "戌"
+        ],
+        "巨门": [
+          "子"
+        ],
+        "廉贞": [
+          "亥"
+        ],
+        "武曲": [
+          "卯"
+        ],
+        "破军": [
+          "未"
+        ],
+        "紫微": [
+          "未"
+        ],
+        "贪狼": [
+          "亥"
+        ]
+      },
+      "slot": "196L"
+    },
+    {
+      "classical": {
+        "body": "申",
+        "bureau": 4,
+        "life": "子",
+        "life_pair": "甲子",
+        "stars": {
+          "七杀": [
+            "寅"
+          ],
+          "天同": [
+            "卯"
+          ],
+          "天府": [
+            "申"
+          ],
+          "天机": [
+            "未"
+          ],
+          "天梁": [
+            "丑"
+          ],
+          "天相": [
+            "子"
+          ],
+          "太阳": [
+            "巳"
+          ],
+          "太阴": [
+            "酉"
+          ],
+          "巨门": [
+            "亥"
+          ],
+          "廉贞": [
+            "子"
+          ],
+          "武曲": [
+            "辰"
+          ],
+          "破军": [
+            "午"
+          ],
+          "紫微": [
+            "申"
+          ],
+          "贪狼": [
+            "戌"
+          ]
+        }
+      },
+      "comparison": {
+        "classical_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_classical": {
+          "body": "source_unread",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "source_unread",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_modern": {
+          "body": "source_unread",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "source_unread",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_ziwei_origin_other_stars": {
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "source_unread",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "贪狼": "equal"
+        }
+      },
+      "modern_by_carrier": [
+        {
+          "roundtrip_ganzhi": "癸丑",
+          "roundtrip_lunar_date": {
+            "day": 28,
+            "is_leap": false,
+            "month": 9,
+            "year": 1973
+          },
+          "solar_date": "1973-10-23",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "申",
+              "branch": "fixed",
+              "bureau": 4,
+              "interface_clock": "20:00",
+              "life": "子",
+              "processed_lunar_date": {
+                "day": 28,
+                "is_leap": false,
+                "month": 9,
+                "year": 1973
+              },
+              "r8_bridge": "equal",
+              "stars": {
+                "七杀": [
+                  "寅"
+                ],
+                "天同": [
+                  "卯"
+                ],
+                "天府": [
+                  "申"
+                ],
+                "天机": [
+                  "未"
+                ],
+                "天梁": [
+                  "丑"
+                ],
+                "天相": [
+                  "子"
+                ],
+                "太阳": [
+                  "巳"
+                ],
+                "太阴": [
+                  "酉"
+                ],
+                "巨门": [
+                  "亥"
+                ],
+                "廉贞": [
+                  "子"
+                ],
+                "武曲": [
+                  "辰"
+                ],
+                "破军": [
+                  "午"
+                ],
+                "紫微": [
+                  "申"
+                ],
+                "贪狼": [
+                  "戌"
+                ]
+              },
+              "time_index": 10,
+              "vs_printed": {
+                "body": "source_unread",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "source_unread",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 1973
+        },
+        {
+          "roundtrip_ganzhi": "癸丑",
+          "roundtrip_lunar_date": {
+            "day": 28,
+            "is_leap": false,
+            "month": 9,
+            "year": 2033
+          },
+          "solar_date": "2033-10-20",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "申",
+              "branch": "fixed",
+              "bureau": 4,
+              "interface_clock": "20:00",
+              "life": "子",
+              "processed_lunar_date": {
+                "day": 28,
+                "is_leap": false,
+                "month": 9,
+                "year": 2033
+              },
+              "r8_bridge": "outside_r8_solar_year_scope",
+              "stars": {
+                "七杀": [
+                  "寅"
+                ],
+                "天同": [
+                  "卯"
+                ],
+                "天府": [
+                  "申"
+                ],
+                "天机": [
+                  "未"
+                ],
+                "天梁": [
+                  "丑"
+                ],
+                "天相": [
+                  "子"
+                ],
+                "太阳": [
+                  "巳"
+                ],
+                "太阴": [
+                  "酉"
+                ],
+                "巨门": [
+                  "亥"
+                ],
+                "廉贞": [
+                  "子"
+                ],
+                "武曲": [
+                  "辰"
+                ],
+                "破军": [
+                  "午"
+                ],
+                "紫微": [
+                  "申"
+                ],
+                "贪狼": [
+                  "戌"
+                ]
+              },
+              "time_index": 10,
+              "vs_printed": {
+                "body": "source_unread",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "source_unread",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 2033
+        }
+      ],
+      "printed": {
+        "body": null,
+        "bureau": 4,
+        "life": "子",
+        "七杀": [
+          "寅"
+        ],
+        "天同": [
+          "卯"
+        ],
+        "天府": [
+          "申"
+        ],
+        "天机": [
+          "未"
+        ],
+        "天梁": null,
+        "天相": [
+          "子"
+        ],
+        "太阳": [
+          "巳"
+        ],
+        "太阴": [
+          "酉"
+        ],
+        "巨门": [
+          "亥"
+        ],
+        "廉贞": [
+          "子"
+        ],
+        "武曲": [
+          "辰"
+        ],
+        "破军": [
+          "午"
+        ],
+        "紫微": [
+          "申"
+        ],
+        "贪狼": [
+          "戌"
+        ]
+      },
+      "slot": "197R"
+    },
+    {
+      "classical": {
+        "body": "巳",
+        "bureau": 5,
+        "life": "丑",
+        "life_pair": "辛丑",
+        "stars": {
+          "七杀": [
+            "子"
+          ],
+          "天同": [
+            "巳"
+          ],
+          "天府": [
+            "午"
+          ],
+          "天机": [
+            "酉"
+          ],
+          "天梁": [
+            "亥"
+          ],
+          "天相": [
+            "戌"
+          ],
+          "太阳": [
+            "未"
+          ],
+          "太阴": [
+            "未"
+          ],
+          "巨门": [
+            "酉"
+          ],
+          "廉贞": [
+            "寅"
+          ],
+          "武曲": [
+            "午"
+          ],
+          "破军": [
+            "辰"
+          ],
+          "紫微": [
+            "戌"
+          ],
+          "贪狼": [
+            "申"
+          ]
+        }
+      },
+      "comparison": {
+        "classical_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_classical": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_ziwei_origin_other_stars": {
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "贪狼": "equal"
+        }
+      },
+      "modern_by_carrier": [
+        {
+          "roundtrip_ganzhi": "辛未",
+          "roundtrip_lunar_date": {
+            "day": 21,
+            "is_leap": false,
+            "month": 2,
+            "year": 1931
+          },
+          "solar_date": "1931-04-08",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "巳",
+              "branch": "fixed",
+              "bureau": 5,
+              "interface_clock": "04:00",
+              "life": "丑",
+              "processed_lunar_date": {
+                "day": 21,
+                "is_leap": false,
+                "month": 2,
+                "year": 1931
+              },
+              "r8_bridge": "equal",
+              "stars": {
+                "七杀": [
+                  "子"
+                ],
+                "天同": [
+                  "巳"
+                ],
+                "天府": [
+                  "午"
+                ],
+                "天机": [
+                  "酉"
+                ],
+                "天梁": [
+                  "亥"
+                ],
+                "天相": [
+                  "戌"
+                ],
+                "太阳": [
+                  "未"
+                ],
+                "太阴": [
+                  "未"
+                ],
+                "巨门": [
+                  "酉"
+                ],
+                "廉贞": [
+                  "寅"
+                ],
+                "武曲": [
+                  "午"
+                ],
+                "破军": [
+                  "辰"
+                ],
+                "紫微": [
+                  "戌"
+                ],
+                "贪狼": [
+                  "申"
+                ]
+              },
+              "time_index": 2,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 1931
+        },
+        {
+          "roundtrip_ganzhi": "辛未",
+          "roundtrip_lunar_date": {
+            "day": 21,
+            "is_leap": false,
+            "month": 2,
+            "year": 1991
+          },
+          "solar_date": "1991-04-05",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "巳",
+              "branch": "fixed",
+              "bureau": 5,
+              "interface_clock": "04:00",
+              "life": "丑",
+              "processed_lunar_date": {
+                "day": 21,
+                "is_leap": false,
+                "month": 2,
+                "year": 1991
+              },
+              "r8_bridge": "equal",
+              "stars": {
+                "七杀": [
+                  "子"
+                ],
+                "天同": [
+                  "巳"
+                ],
+                "天府": [
+                  "午"
+                ],
+                "天机": [
+                  "酉"
+                ],
+                "天梁": [
+                  "亥"
+                ],
+                "天相": [
+                  "戌"
+                ],
+                "太阳": [
+                  "未"
+                ],
+                "太阴": [
+                  "未"
+                ],
+                "巨门": [
+                  "酉"
+                ],
+                "廉贞": [
+                  "寅"
+                ],
+                "武曲": [
+                  "午"
+                ],
+                "破军": [
+                  "辰"
+                ],
+                "紫微": [
+                  "戌"
+                ],
+                "贪狼": [
+                  "申"
+                ]
+              },
+              "time_index": 2,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 1991
+        }
+      ],
+      "printed": {
+        "body": "巳",
+        "bureau": 5,
+        "life": "丑",
+        "七杀": [
+          "子"
+        ],
+        "天同": [
+          "巳"
+        ],
+        "天府": [
+          "午"
+        ],
+        "天机": [
+          "酉"
+        ],
+        "天梁": [
+          "亥"
+        ],
+        "天相": [
+          "戌"
+        ],
+        "太阳": [
+          "未"
+        ],
+        "太阴": [
+          "未"
+        ],
+        "巨门": [
+          "酉"
+        ],
+        "廉贞": [
+          "寅"
+        ],
+        "武曲": [
+          "午"
+        ],
+        "破军": [
+          "辰"
+        ],
+        "紫微": [
+          "戌"
+        ],
+        "贪狼": [
+          "申"
+        ]
+      },
+      "slot": "197L"
+    },
+    {
+      "classical": {
+        "body": "辰",
+        "bureau": 4,
+        "life": "辰",
+        "life_pair": "庚辰",
+        "stars": {
+          "七杀": [
+            "卯"
+          ],
+          "天同": [
+            "寅"
+          ],
+          "天府": [
+            "酉"
+          ],
+          "天机": [
+            "午"
+          ],
+          "天梁": [
+            "寅"
+          ],
+          "天相": [
+            "丑"
+          ],
+          "太阳": [
+            "辰"
+          ],
+          "太阴": [
+            "戌"
+          ],
+          "巨门": [
+            "子"
+          ],
+          "廉贞": [
+            "亥"
+          ],
+          "武曲": [
+            "卯"
+          ],
+          "破军": [
+            "未"
+          ],
+          "紫微": [
+            "未"
+          ],
+          "贪狼": [
+            "亥"
+          ]
+        }
+      },
+      "comparison": {
+        "classical_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_classical": {
+          "body": "source_unread",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_modern": {
+          "body": "source_unread",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_ziwei_origin_other_stars": {
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "贪狼": "equal"
+        }
+      },
+      "modern_by_carrier": [
+        {
+          "roundtrip_ganzhi": "庚申",
+          "roundtrip_lunar_date": {
+            "day": 24,
+            "is_leap": false,
+            "month": 9,
+            "year": 1980
+          },
+          "solar_date": "1980-11-01",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "辰",
+              "branch": "fixed",
+              "bureau": 4,
+              "interface_clock": "12:00",
+              "life": "辰",
+              "processed_lunar_date": {
+                "day": 24,
+                "is_leap": false,
+                "month": 9,
+                "year": 1980
+              },
+              "r8_bridge": "equal",
+              "stars": {
+                "七杀": [
+                  "卯"
+                ],
+                "天同": [
+                  "寅"
+                ],
+                "天府": [
+                  "酉"
+                ],
+                "天机": [
+                  "午"
+                ],
+                "天梁": [
+                  "寅"
+                ],
+                "天相": [
+                  "丑"
+                ],
+                "太阳": [
+                  "辰"
+                ],
+                "太阴": [
+                  "戌"
+                ],
+                "巨门": [
+                  "子"
+                ],
+                "廉贞": [
+                  "亥"
+                ],
+                "武曲": [
+                  "卯"
+                ],
+                "破军": [
+                  "未"
+                ],
+                "紫微": [
+                  "未"
+                ],
+                "贪狼": [
+                  "亥"
+                ]
+              },
+              "time_index": 6,
+              "vs_printed": {
+                "body": "source_unread",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 1980
+        },
+        {
+          "roundtrip_ganzhi": "庚申",
+          "roundtrip_lunar_date": {
+            "day": 24,
+            "is_leap": false,
+            "month": 9,
+            "year": 2040
+          },
+          "solar_date": "2040-10-29",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "辰",
+              "branch": "fixed",
+              "bureau": 4,
+              "interface_clock": "12:00",
+              "life": "辰",
+              "processed_lunar_date": {
+                "day": 24,
+                "is_leap": false,
+                "month": 9,
+                "year": 2040
+              },
+              "r8_bridge": "outside_r8_solar_year_scope",
+              "stars": {
+                "七杀": [
+                  "卯"
+                ],
+                "天同": [
+                  "寅"
+                ],
+                "天府": [
+                  "酉"
+                ],
+                "天机": [
+                  "午"
+                ],
+                "天梁": [
+                  "寅"
+                ],
+                "天相": [
+                  "丑"
+                ],
+                "太阳": [
+                  "辰"
+                ],
+                "太阴": [
+                  "戌"
+                ],
+                "巨门": [
+                  "子"
+                ],
+                "廉贞": [
+                  "亥"
+                ],
+                "武曲": [
+                  "卯"
+                ],
+                "破军": [
+                  "未"
+                ],
+                "紫微": [
+                  "未"
+                ],
+                "贪狼": [
+                  "亥"
+                ]
+              },
+              "time_index": 6,
+              "vs_printed": {
+                "body": "source_unread",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 2040
+        }
+      ],
+      "printed": {
+        "body": null,
+        "bureau": 4,
+        "life": "辰",
+        "七杀": [
+          "卯"
+        ],
+        "天同": [
+          "寅"
+        ],
+        "天府": [
+          "酉"
+        ],
+        "天机": [
+          "午"
+        ],
+        "天梁": [
+          "寅"
+        ],
+        "天相": [
+          "丑"
+        ],
+        "太阳": [
+          "辰"
+        ],
+        "太阴": [
+          "戌"
+        ],
+        "巨门": [
+          "子"
+        ],
+        "廉贞": [
+          "亥"
+        ],
+        "武曲": [
+          "卯"
+        ],
+        "破军": [
+          "未"
+        ],
+        "紫微": [
+          "未"
+        ],
+        "贪狼": [
+          "亥"
+        ]
+      },
+      "slot": "198R"
+    },
+    {
+      "classical": {
+        "body": "子",
+        "bureau": 4,
+        "life": "申",
+        "life_pair": "壬申",
+        "stars": {
+          "七杀": [
+            "戌"
+          ],
+          "天同": [
+            "未"
+          ],
+          "天府": [
+            "辰"
+          ],
+          "天机": [
+            "亥"
+          ],
+          "天梁": [
+            "酉"
+          ],
+          "天相": [
+            "申"
+          ],
+          "太阳": [
+            "酉"
+          ],
+          "太阴": [
+            "巳"
+          ],
+          "巨门": [
+            "未"
+          ],
+          "廉贞": [
+            "辰"
+          ],
+          "武曲": [
+            "申"
+          ],
+          "破军": [
+            "寅"
+          ],
+          "紫微": [
+            "子"
+          ],
+          "贪狼": [
+            "午"
+          ]
+        }
+      },
+      "comparison": {
+        "classical_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_classical": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_ziwei_origin_other_stars": {
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "贪狼": "equal"
+        }
+      },
+      "modern_by_carrier": [
+        {
+          "roundtrip_ganzhi": "甲辰",
+          "roundtrip_lunar_date": {
+            "day": 5,
+            "is_leap": false,
+            "month": 9,
+            "year": 1964
+          },
+          "solar_date": "1964-10-10",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "子",
+              "branch": "fixed",
+              "bureau": 4,
+              "interface_clock": "04:00",
+              "life": "申",
+              "processed_lunar_date": {
+                "day": 5,
+                "is_leap": false,
+                "month": 9,
+                "year": 1964
+              },
+              "r8_bridge": "equal",
+              "stars": {
+                "七杀": [
+                  "戌"
+                ],
+                "天同": [
+                  "未"
+                ],
+                "天府": [
+                  "辰"
+                ],
+                "天机": [
+                  "亥"
+                ],
+                "天梁": [
+                  "酉"
+                ],
+                "天相": [
+                  "申"
+                ],
+                "太阳": [
+                  "酉"
+                ],
+                "太阴": [
+                  "巳"
+                ],
+                "巨门": [
+                  "未"
+                ],
+                "廉贞": [
+                  "辰"
+                ],
+                "武曲": [
+                  "申"
+                ],
+                "破军": [
+                  "寅"
+                ],
+                "紫微": [
+                  "子"
+                ],
+                "贪狼": [
+                  "午"
+                ]
+              },
+              "time_index": 2,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 1964
+        },
+        {
+          "roundtrip_ganzhi": "甲辰",
+          "roundtrip_lunar_date": {
+            "day": 5,
+            "is_leap": false,
+            "month": 9,
+            "year": 2024
+          },
+          "solar_date": "2024-10-07",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "子",
+              "branch": "fixed",
+              "bureau": 4,
+              "interface_clock": "04:00",
+              "life": "申",
+              "processed_lunar_date": {
+                "day": 5,
+                "is_leap": false,
+                "month": 9,
+                "year": 2024
+              },
+              "r8_bridge": "outside_r8_solar_year_scope",
+              "stars": {
+                "七杀": [
+                  "戌"
+                ],
+                "天同": [
+                  "未"
+                ],
+                "天府": [
+                  "辰"
+                ],
+                "天机": [
+                  "亥"
+                ],
+                "天梁": [
+                  "酉"
+                ],
+                "天相": [
+                  "申"
+                ],
+                "太阳": [
+                  "酉"
+                ],
+                "太阴": [
+                  "巳"
+                ],
+                "巨门": [
+                  "未"
+                ],
+                "廉贞": [
+                  "辰"
+                ],
+                "武曲": [
+                  "申"
+                ],
+                "破军": [
+                  "寅"
+                ],
+                "紫微": [
+                  "子"
+                ],
+                "贪狼": [
+                  "午"
+                ]
+              },
+              "time_index": 2,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 2024
+        }
+      ],
+      "printed": {
+        "body": "子",
+        "bureau": 4,
+        "life": "申",
+        "七杀": [
+          "戌"
+        ],
+        "天同": [
+          "未"
+        ],
+        "天府": [
+          "辰"
+        ],
+        "天机": [
+          "亥"
+        ],
+        "天梁": [
+          "酉"
+        ],
+        "天相": [
+          "申"
+        ],
+        "太阳": [
+          "酉"
+        ],
+        "太阴": [
+          "巳"
+        ],
+        "巨门": [
+          "未"
+        ],
+        "廉贞": [
+          "辰"
+        ],
+        "武曲": [
+          "申"
+        ],
+        "破军": [
+          "寅"
+        ],
+        "紫微": [
+          "子"
+        ],
+        "贪狼": [
+          "午"
+        ]
+      },
+      "slot": "198L"
+    },
+    {
+      "classical": {
+        "body": "未",
+        "bureau": 2,
+        "life": "丑",
+        "life_pair": "丁丑",
+        "stars": {
+          "七杀": [
+            "丑"
+          ],
+          "天同": [
+            "辰"
+          ],
+          "天府": [
+            "未"
+          ],
+          "天机": [
+            "申"
+          ],
+          "天梁": [
+            "子"
+          ],
+          "天相": [
+            "亥"
+          ],
+          "太阳": [
+            "午"
+          ],
+          "太阴": [
+            "申"
+          ],
+          "巨门": [
+            "戌"
+          ],
+          "廉贞": [
+            "丑"
+          ],
+          "武曲": [
+            "巳"
+          ],
+          "破军": [
+            "巳"
+          ],
+          "紫微": [
+            "酉"
+          ],
+          "贪狼": [
+            "酉"
+          ]
+        }
+      },
+      "comparison": {
+        "classical_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_classical": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "source_unread",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "source_unread",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_ziwei_origin_other_stars": {
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "source_unread",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "贪狼": "equal"
+        }
+      },
+      "modern_by_carrier": [
+        {
+          "roundtrip_ganzhi": "甲辰",
+          "roundtrip_lunar_date": {
+            "day": 16,
+            "is_leap": false,
+            "month": 9,
+            "year": 1964
+          },
+          "solar_date": "1964-10-21",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "未",
+              "branch": "fixed",
+              "bureau": 2,
+              "interface_clock": "18:00",
+              "life": "丑",
+              "processed_lunar_date": {
+                "day": 16,
+                "is_leap": false,
+                "month": 9,
+                "year": 1964
+              },
+              "r8_bridge": "equal",
+              "stars": {
+                "七杀": [
+                  "丑"
+                ],
+                "天同": [
+                  "辰"
+                ],
+                "天府": [
+                  "未"
+                ],
+                "天机": [
+                  "申"
+                ],
+                "天梁": [
+                  "子"
+                ],
+                "天相": [
+                  "亥"
+                ],
+                "太阳": [
+                  "午"
+                ],
+                "太阴": [
+                  "申"
+                ],
+                "巨门": [
+                  "戌"
+                ],
+                "廉贞": [
+                  "丑"
+                ],
+                "武曲": [
+                  "巳"
+                ],
+                "破军": [
+                  "巳"
+                ],
+                "紫微": [
+                  "酉"
+                ],
+                "贪狼": [
+                  "酉"
+                ]
+              },
+              "time_index": 9,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "source_unread",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 1964
+        },
+        {
+          "roundtrip_ganzhi": "甲辰",
+          "roundtrip_lunar_date": {
+            "day": 16,
+            "is_leap": false,
+            "month": 9,
+            "year": 2024
+          },
+          "solar_date": "2024-10-18",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "未",
+              "branch": "fixed",
+              "bureau": 2,
+              "interface_clock": "18:00",
+              "life": "丑",
+              "processed_lunar_date": {
+                "day": 16,
+                "is_leap": false,
+                "month": 9,
+                "year": 2024
+              },
+              "r8_bridge": "outside_r8_solar_year_scope",
+              "stars": {
+                "七杀": [
+                  "丑"
+                ],
+                "天同": [
+                  "辰"
+                ],
+                "天府": [
+                  "未"
+                ],
+                "天机": [
+                  "申"
+                ],
+                "天梁": [
+                  "子"
+                ],
+                "天相": [
+                  "亥"
+                ],
+                "太阳": [
+                  "午"
+                ],
+                "太阴": [
+                  "申"
+                ],
+                "巨门": [
+                  "戌"
+                ],
+                "廉贞": [
+                  "丑"
+                ],
+                "武曲": [
+                  "巳"
+                ],
+                "破军": [
+                  "巳"
+                ],
+                "紫微": [
+                  "酉"
+                ],
+                "贪狼": [
+                  "酉"
+                ]
+              },
+              "time_index": 9,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "source_unread",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 2024
+        }
+      ],
+      "printed": {
+        "body": "未",
+        "bureau": 2,
+        "life": "丑",
+        "七杀": [
+          "丑"
+        ],
+        "天同": [
+          "辰"
+        ],
+        "天府": [
+          "未"
+        ],
+        "天机": [
+          "申"
+        ],
+        "天梁": null,
+        "天相": [
+          "亥"
+        ],
+        "太阳": [
+          "午"
+        ],
+        "太阴": [
+          "申"
+        ],
+        "巨门": [
+          "戌"
+        ],
+        "廉贞": [
+          "丑"
+        ],
+        "武曲": [
+          "巳"
+        ],
+        "破军": [
+          "巳"
+        ],
+        "紫微": [
+          "酉"
+        ],
+        "贪狼": [
+          "酉"
+        ]
+      },
+      "slot": "199R"
+    },
+    {
+      "classical": {
+        "body": "申",
+        "bureau": 2,
+        "life": "子",
+        "life_pair": "丙子",
+        "stars": {
+          "七杀": [
+            "子"
+          ],
+          "天同": [
+            "巳"
+          ],
+          "天府": [
+            "午"
+          ],
+          "天机": [
+            "酉"
+          ],
+          "天梁": [
+            "亥"
+          ],
+          "天相": [
+            "戌"
+          ],
+          "太阳": [
+            "未"
+          ],
+          "太阴": [
+            "未"
+          ],
+          "巨门": [
+            "酉"
+          ],
+          "廉贞": [
+            "寅"
+          ],
+          "武曲": [
+            "午"
+          ],
+          "破军": [
+            "辰"
+          ],
+          "紫微": [
+            "戌"
+          ],
+          "贪狼": [
+            "申"
+          ]
+        }
+      },
+      "comparison": {
+        "classical_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_classical": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "different",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "different",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "different",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "different",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_ziwei_origin_other_stars": {
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "different",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "different",
+          "破军": "equal",
+          "贪狼": "equal"
+        }
+      },
+      "modern_by_carrier": [
+        {
+          "roundtrip_ganzhi": "己酉",
+          "roundtrip_lunar_date": {
+            "day": 18,
+            "is_leap": false,
+            "month": 3,
+            "year": 1969
+          },
+          "solar_date": "1969-05-04",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "申",
+              "branch": "fixed",
+              "bureau": 2,
+              "interface_clock": "08:00",
+              "life": "子",
+              "processed_lunar_date": {
+                "day": 18,
+                "is_leap": false,
+                "month": 3,
+                "year": 1969
+              },
+              "r8_bridge": "equal",
+              "stars": {
+                "七杀": [
+                  "子"
+                ],
+                "天同": [
+                  "巳"
+                ],
+                "天府": [
+                  "午"
+                ],
+                "天机": [
+                  "酉"
+                ],
+                "天梁": [
+                  "亥"
+                ],
+                "天相": [
+                  "戌"
+                ],
+                "太阳": [
+                  "未"
+                ],
+                "太阴": [
+                  "未"
+                ],
+                "巨门": [
+                  "酉"
+                ],
+                "廉贞": [
+                  "寅"
+                ],
+                "武曲": [
+                  "午"
+                ],
+                "破军": [
+                  "辰"
+                ],
+                "紫微": [
+                  "戌"
+                ],
+                "贪狼": [
+                  "申"
+                ]
+              },
+              "time_index": 4,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "different",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "different",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 1969
+        },
+        {
+          "roundtrip_ganzhi": "己酉",
+          "roundtrip_lunar_date": {
+            "day": 18,
+            "is_leap": false,
+            "month": 3,
+            "year": 2029
+          },
+          "solar_date": "2029-05-01",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "申",
+              "branch": "fixed",
+              "bureau": 2,
+              "interface_clock": "08:00",
+              "life": "子",
+              "processed_lunar_date": {
+                "day": 18,
+                "is_leap": false,
+                "month": 3,
+                "year": 2029
+              },
+              "r8_bridge": "outside_r8_solar_year_scope",
+              "stars": {
+                "七杀": [
+                  "子"
+                ],
+                "天同": [
+                  "巳"
+                ],
+                "天府": [
+                  "午"
+                ],
+                "天机": [
+                  "酉"
+                ],
+                "天梁": [
+                  "亥"
+                ],
+                "天相": [
+                  "戌"
+                ],
+                "太阳": [
+                  "未"
+                ],
+                "太阴": [
+                  "未"
+                ],
+                "巨门": [
+                  "酉"
+                ],
+                "廉贞": [
+                  "寅"
+                ],
+                "武曲": [
+                  "午"
+                ],
+                "破军": [
+                  "辰"
+                ],
+                "紫微": [
+                  "戌"
+                ],
+                "贪狼": [
+                  "申"
+                ]
+              },
+              "time_index": 4,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "different",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "different",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 2029
+        }
+      ],
+      "printed": {
+        "body": "申",
+        "bureau": 2,
+        "life": "子",
+        "七杀": [
+          "子"
+        ],
+        "天同": [
+          "巳"
+        ],
+        "天府": [
+          "午"
+        ],
+        "天机": [
+          "酉"
+        ],
+        "天梁": [
+          "亥"
+        ],
+        "天相": [
+          "申",
+          "戌"
+        ],
+        "太阳": [
+          "未"
+        ],
+        "太阴": [
+          "未"
+        ],
+        "巨门": [
+          "酉"
+        ],
+        "廉贞": [
+          "寅"
+        ],
+        "武曲": [
+          "午",
+          "申"
+        ],
+        "破军": [
+          "辰"
+        ],
+        "紫微": [
+          "戌"
+        ],
+        "贪狼": [
+          "申"
+        ]
+      },
+      "slot": "199L"
+    },
+    {
+      "classical": {
+        "body": "申",
+        "bureau": 2,
+        "life": "子",
+        "life_pair": "丙子",
+        "stars": {
+          "七杀": [
+            "戌"
+          ],
+          "天同": [
+            "未"
+          ],
+          "天府": [
+            "辰"
+          ],
+          "天机": [
+            "亥"
+          ],
+          "天梁": [
+            "酉"
+          ],
+          "天相": [
+            "申"
+          ],
+          "太阳": [
+            "酉"
+          ],
+          "太阴": [
+            "巳"
+          ],
+          "巨门": [
+            "未"
+          ],
+          "廉贞": [
+            "辰"
+          ],
+          "武曲": [
+            "申"
+          ],
+          "破军": [
+            "寅"
+          ],
+          "紫微": [
+            "子"
+          ],
+          "贪狼": [
+            "午"
+          ]
+        }
+      },
+      "comparison": {
+        "classical_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_classical": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_ziwei_origin_other_stars": {
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "贪狼": "equal"
+        }
+      },
+      "modern_by_carrier": [
+        {
+          "roundtrip_ganzhi": "己酉",
+          "roundtrip_lunar_date": {
+            "day": 22,
+            "is_leap": false,
+            "month": 3,
+            "year": 1969
+          },
+          "solar_date": "1969-05-08",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "申",
+              "branch": "fixed",
+              "bureau": 2,
+              "interface_clock": "08:00",
+              "life": "子",
+              "processed_lunar_date": {
+                "day": 22,
+                "is_leap": false,
+                "month": 3,
+                "year": 1969
+              },
+              "r8_bridge": "equal",
+              "stars": {
+                "七杀": [
+                  "戌"
+                ],
+                "天同": [
+                  "未"
+                ],
+                "天府": [
+                  "辰"
+                ],
+                "天机": [
+                  "亥"
+                ],
+                "天梁": [
+                  "酉"
+                ],
+                "天相": [
+                  "申"
+                ],
+                "太阳": [
+                  "酉"
+                ],
+                "太阴": [
+                  "巳"
+                ],
+                "巨门": [
+                  "未"
+                ],
+                "廉贞": [
+                  "辰"
+                ],
+                "武曲": [
+                  "申"
+                ],
+                "破军": [
+                  "寅"
+                ],
+                "紫微": [
+                  "子"
+                ],
+                "贪狼": [
+                  "午"
+                ]
+              },
+              "time_index": 4,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 1969
+        },
+        {
+          "roundtrip_ganzhi": "己酉",
+          "roundtrip_lunar_date": {
+            "day": 22,
+            "is_leap": false,
+            "month": 3,
+            "year": 2029
+          },
+          "solar_date": "2029-05-05",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "申",
+              "branch": "fixed",
+              "bureau": 2,
+              "interface_clock": "08:00",
+              "life": "子",
+              "processed_lunar_date": {
+                "day": 22,
+                "is_leap": false,
+                "month": 3,
+                "year": 2029
+              },
+              "r8_bridge": "outside_r8_solar_year_scope",
+              "stars": {
+                "七杀": [
+                  "戌"
+                ],
+                "天同": [
+                  "未"
+                ],
+                "天府": [
+                  "辰"
+                ],
+                "天机": [
+                  "亥"
+                ],
+                "天梁": [
+                  "酉"
+                ],
+                "天相": [
+                  "申"
+                ],
+                "太阳": [
+                  "酉"
+                ],
+                "太阴": [
+                  "巳"
+                ],
+                "巨门": [
+                  "未"
+                ],
+                "廉贞": [
+                  "辰"
+                ],
+                "武曲": [
+                  "申"
+                ],
+                "破军": [
+                  "寅"
+                ],
+                "紫微": [
+                  "子"
+                ],
+                "贪狼": [
+                  "午"
+                ]
+              },
+              "time_index": 4,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "equal",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 2029
+        }
+      ],
+      "printed": {
+        "body": "申",
+        "bureau": 2,
+        "life": "子",
+        "七杀": [
+          "戌"
+        ],
+        "天同": [
+          "未"
+        ],
+        "天府": [
+          "辰"
+        ],
+        "天机": [
+          "亥"
+        ],
+        "天梁": [
+          "酉"
+        ],
+        "天相": [
+          "申"
+        ],
+        "太阳": [
+          "酉"
+        ],
+        "太阴": [
+          "巳"
+        ],
+        "巨门": [
+          "未"
+        ],
+        "廉贞": [
+          "辰"
+        ],
+        "武曲": [
+          "申"
+        ],
+        "破军": [
+          "寅"
+        ],
+        "紫微": [
+          "子"
+        ],
+        "贪狼": [
+          "午"
+        ]
+      },
+      "slot": "200R"
+    },
+    {
+      "classical": {
+        "body": "申",
+        "bureau": 6,
+        "life": "子",
+        "life_pair": "戊子",
+        "stars": {
+          "七杀": [
+            "午"
+          ],
+          "天同": [
+            "亥"
+          ],
+          "天府": [
+            "子"
+          ],
+          "天机": [
+            "卯"
+          ],
+          "天梁": [
+            "巳"
+          ],
+          "天相": [
+            "辰"
+          ],
+          "太阳": [
+            "丑"
+          ],
+          "太阴": [
+            "丑"
+          ],
+          "巨门": [
+            "卯"
+          ],
+          "廉贞": [
+            "申"
+          ],
+          "武曲": [
+            "子"
+          ],
+          "破军": [
+            "戌"
+          ],
+          "紫微": [
+            "辰"
+          ],
+          "贪狼": [
+            "寅"
+          ]
+        }
+      },
+      "comparison": {
+        "classical_modern": {
+          "body": "equal",
+          "bureau": "equal",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_classical": {
+          "body": "equal",
+          "bureau": "different",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_modern": {
+          "body": "equal",
+          "bureau": "different",
+          "life": "equal",
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "紫微": "equal",
+          "贪狼": "equal"
+        },
+        "printed_ziwei_origin_other_stars": {
+          "七杀": "equal",
+          "天同": "equal",
+          "天府": "equal",
+          "天机": "equal",
+          "天梁": "equal",
+          "天相": "equal",
+          "太阳": "equal",
+          "太阴": "equal",
+          "巨门": "equal",
+          "廉贞": "equal",
+          "武曲": "equal",
+          "破军": "equal",
+          "贪狼": "equal"
+        }
+      },
+      "modern_by_carrier": [
+        {
+          "roundtrip_ganzhi": "庚戌",
+          "roundtrip_lunar_date": {
+            "day": 18,
+            "is_leap": false,
+            "month": 3,
+            "year": 1970
+          },
+          "solar_date": "1970-04-23",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "申",
+              "branch": "fixed",
+              "bureau": 6,
+              "interface_clock": "08:00",
+              "life": "子",
+              "processed_lunar_date": {
+                "day": 18,
+                "is_leap": false,
+                "month": 3,
+                "year": 1970
+              },
+              "r8_bridge": "equal",
+              "stars": {
+                "七杀": [
+                  "午"
+                ],
+                "天同": [
+                  "亥"
+                ],
+                "天府": [
+                  "子"
+                ],
+                "天机": [
+                  "卯"
+                ],
+                "天梁": [
+                  "巳"
+                ],
+                "天相": [
+                  "辰"
+                ],
+                "太阳": [
+                  "丑"
+                ],
+                "太阴": [
+                  "丑"
+                ],
+                "巨门": [
+                  "卯"
+                ],
+                "廉贞": [
+                  "申"
+                ],
+                "武曲": [
+                  "子"
+                ],
+                "破军": [
+                  "戌"
+                ],
+                "紫微": [
+                  "辰"
+                ],
+                "贪狼": [
+                  "寅"
+                ]
+              },
+              "time_index": 4,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "different",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 1970
+        },
+        {
+          "roundtrip_ganzhi": "庚戌",
+          "roundtrip_lunar_date": {
+            "day": 18,
+            "is_leap": false,
+            "month": 3,
+            "year": 2030
+          },
+          "solar_date": "2030-04-20",
+          "status": "valid",
+          "variants": [
+            {
+              "body": "申",
+              "branch": "fixed",
+              "bureau": 6,
+              "interface_clock": "08:00",
+              "life": "子",
+              "processed_lunar_date": {
+                "day": 18,
+                "is_leap": false,
+                "month": 3,
+                "year": 2030
+              },
+              "r8_bridge": "outside_r8_solar_year_scope",
+              "stars": {
+                "七杀": [
+                  "午"
+                ],
+                "天同": [
+                  "亥"
+                ],
+                "天府": [
+                  "子"
+                ],
+                "天机": [
+                  "卯"
+                ],
+                "天梁": [
+                  "巳"
+                ],
+                "天相": [
+                  "辰"
+                ],
+                "太阳": [
+                  "丑"
+                ],
+                "太阴": [
+                  "丑"
+                ],
+                "巨门": [
+                  "卯"
+                ],
+                "廉贞": [
+                  "申"
+                ],
+                "武曲": [
+                  "子"
+                ],
+                "破军": [
+                  "戌"
+                ],
+                "紫微": [
+                  "辰"
+                ],
+                "贪狼": [
+                  "寅"
+                ]
+              },
+              "time_index": 4,
+              "vs_printed": {
+                "body": "equal",
+                "bureau": "different",
+                "life": "equal",
+                "七杀": "equal",
+                "天同": "equal",
+                "天府": "equal",
+                "天机": "equal",
+                "天梁": "equal",
+                "天相": "equal",
+                "太阳": "equal",
+                "太阴": "equal",
+                "巨门": "equal",
+                "廉贞": "equal",
+                "武曲": "equal",
+                "破军": "equal",
+                "紫微": "equal",
+                "贪狼": "equal"
+              }
+            }
+          ],
+          "year": 2030
+        }
+      ],
+      "printed": {
+        "body": "申",
+        "bureau": 3,
+        "life": "子",
+        "七杀": [
+          "午"
+        ],
+        "天同": [
+          "亥"
+        ],
+        "天府": [
+          "子"
+        ],
+        "天机": [
+          "卯"
+        ],
+        "天梁": [
+          "巳"
+        ],
+        "天相": [
+          "辰"
+        ],
+        "太阳": [
+          "丑"
+        ],
+        "太阴": [
+          "丑"
+        ],
+        "巨门": [
+          "卯"
+        ],
+        "廉贞": [
+          "申"
+        ],
+        "武曲": [
+          "子"
+        ],
+        "破军": [
+          "戌"
+        ],
+        "紫微": [
+          "辰"
+        ],
+        "贪狼": [
+          "寅"
+        ]
+      },
+      "slot": "200L"
+    }
+  ],
+  "field_counts": {
+    "classical_modern": {
+      "all_available_fields_equal": 12,
+      "all_fields": {
+        "equal": 213,
+        "variant_dependent": 42
+      },
+      "by_field": {
+        "body": {
+          "equal": 15
+        },
+        "bureau": {
+          "equal": 15
+        },
+        "life": {
+          "equal": 15
+        },
+        "七杀": {
+          "equal": 12,
+          "variant_dependent": 3
+        },
+        "天同": {
+          "equal": 12,
+          "variant_dependent": 3
+        },
+        "天府": {
+          "equal": 12,
+          "variant_dependent": 3
+        },
+        "天机": {
+          "equal": 12,
+          "variant_dependent": 3
+        },
+        "天梁": {
+          "equal": 12,
+          "variant_dependent": 3
+        },
+        "天相": {
+          "equal": 12,
+          "variant_dependent": 3
+        },
+        "太阳": {
+          "equal": 12,
+          "variant_dependent": 3
+        },
+        "太阴": {
+          "equal": 12,
+          "variant_dependent": 3
+        },
+        "巨门": {
+          "equal": 12,
+          "variant_dependent": 3
+        },
+        "廉贞": {
+          "equal": 12,
+          "variant_dependent": 3
+        },
+        "武曲": {
+          "equal": 12,
+          "variant_dependent": 3
+        },
+        "破军": {
+          "equal": 12,
+          "variant_dependent": 3
+        },
+        "紫微": {
+          "equal": 12,
+          "variant_dependent": 3
+        },
+        "贪狼": {
+          "equal": 12,
+          "variant_dependent": 3
+        }
+      },
+      "complete_core_equal": 12,
+      "complete_with_body_equal": 12
+    },
+    "printed_classical": {
+      "all_available_fields_equal": 11,
+      "all_fields": {
+        "different": 18,
+        "equal": 230,
+        "source_unread": 7
+      },
+      "by_field": {
+        "body": {
+          "equal": 11,
+          "source_unread": 4
+        },
+        "bureau": {
+          "different": 2,
+          "equal": 13
+        },
+        "life": {
+          "equal": 15
+        },
+        "七杀": {
+          "different": 1,
+          "equal": 14
+        },
+        "天同": {
+          "different": 1,
+          "equal": 14
+        },
+        "天府": {
+          "different": 1,
+          "equal": 14
+        },
+        "天机": {
+          "different": 1,
+          "equal": 13,
+          "source_unread": 1
+        },
+        "天梁": {
+          "different": 1,
+          "equal": 12,
+          "source_unread": 2
+        },
+        "天相": {
+          "different": 2,
+          "equal": 13
+        },
+        "太阳": {
+          "different": 1,
+          "equal": 14
+        },
+        "太阴": {
+          "different": 1,
+          "equal": 14
+        },
+        "巨门": {
+          "different": 1,
+          "equal": 14
+        },
+        "廉贞": {
+          "different": 1,
+          "equal": 14
+        },
+        "武曲": {
+          "different": 2,
+          "equal": 13
+        },
+        "破军": {
+          "different": 1,
+          "equal": 14
+        },
+        "紫微": {
+          "different": 1,
+          "equal": 14
+        },
+        "贪狼": {
+          "different": 1,
+          "equal": 14
+        }
+      },
+      "complete_core_equal": 8,
+      "complete_with_body_equal": 5
+    },
+    "printed_modern": {
+      "all_available_fields_equal": 9,
+      "all_fields": {
+        "different": 18,
+        "equal": 188,
+        "source_unread": 7,
+        "variant_dependent": 42
+      },
+      "by_field": {
+        "body": {
+          "equal": 11,
+          "source_unread": 4
+        },
+        "bureau": {
+          "different": 2,
+          "equal": 13
+        },
+        "life": {
+          "equal": 15
+        },
+        "七杀": {
+          "different": 1,
+          "equal": 11,
+          "variant_dependent": 3
+        },
+        "天同": {
+          "different": 1,
+          "equal": 11,
+          "variant_dependent": 3
+        },
+        "天府": {
+          "different": 1,
+          "equal": 11,
+          "variant_dependent": 3
+        },
+        "天机": {
+          "different": 1,
+          "equal": 10,
+          "source_unread": 1,
+          "variant_dependent": 3
+        },
+        "天梁": {
+          "different": 1,
+          "equal": 9,
+          "source_unread": 2,
+          "variant_dependent": 3
+        },
+        "天相": {
+          "different": 2,
+          "equal": 10,
+          "variant_dependent": 3
+        },
+        "太阳": {
+          "different": 1,
+          "equal": 11,
+          "variant_dependent": 3
+        },
+        "太阴": {
+          "different": 1,
+          "equal": 11,
+          "variant_dependent": 3
+        },
+        "巨门": {
+          "different": 1,
+          "equal": 11,
+          "variant_dependent": 3
+        },
+        "廉贞": {
+          "different": 1,
+          "equal": 11,
+          "variant_dependent": 3
+        },
+        "武曲": {
+          "different": 2,
+          "equal": 10,
+          "variant_dependent": 3
+        },
+        "破军": {
+          "different": 1,
+          "equal": 11,
+          "variant_dependent": 3
+        },
+        "紫微": {
+          "different": 1,
+          "equal": 11,
+          "variant_dependent": 3
+        },
+        "贪狼": {
+          "different": 1,
+          "equal": 11,
+          "variant_dependent": 3
+        }
+      },
+      "complete_core_equal": 6,
+      "complete_with_body_equal": 3
+    },
+    "printed_ziwei_origin_other_stars": {
+      "all_fields": {
+        "different": 2,
+        "equal": 190,
+        "source_unread": 3
+      },
+      "by_field": {
+        "七杀": {
+          "equal": 15
+        },
+        "天同": {
+          "equal": 15
+        },
+        "天府": {
+          "equal": 15
+        },
+        "天机": {
+          "equal": 14,
+          "source_unread": 1
+        },
+        "天梁": {
+          "equal": 13,
+          "source_unread": 2
+        },
+        "天相": {
+          "different": 1,
+          "equal": 14
+        },
+        "太阳": {
+          "equal": 15
+        },
+        "太阴": {
+          "equal": 15
+        },
+        "巨门": {
+          "equal": 15
+        },
+        "廉贞": {
+          "equal": 15
+        },
+        "武曲": {
+          "different": 1,
+          "equal": 14
+        },
+        "破军": {
+          "equal": 15
+        },
+        "贪狼": {
+          "equal": 15
+        }
+      }
+    }
+  },
+  "modern_candidate_field_counts": {
+    "early_zi": {
+      "different": 2,
+      "equal": 100
+    },
+    "fixed": {
+      "different": 34,
+      "equal": 360,
+      "source_unread": 14
+    },
+    "late_zi": {
+      "different": 86,
+      "equal": 16
+    }
+  },
+  "modern_carrier_status": {
+    "valid": 30
+  },
+  "r8_bridge_status": {
+    "equal": 19,
+    "outside_r8_solar_year_scope": 17
+  },
+  "registration_version": "OBS-R23-ZW-MING-CHARTS-1.0",
+  "sha256_sealed_inputs": {
+    "package-lock.json": "17fd60175498619a22939476eef4504fc7df724729a5de2fdb9dae3747fa828a",
+    "rounds/r23/REGISTRATION.zh.md": "db162866c7de58ecddd145b7593cf8243c0c6890ef5ea2d5238ca287451ba505",
+    "rounds/r23/protocol.json": "2c243bb80edf59ca43f37f4f247171d4113330b8b4f5c0d52c033d6152686159",
+    "rounds/r23/rules-scan-receipts.json": "f48f3ea2921b430e60a0273e61e0a41beccdab86d279c700cfd51a83957c5645",
+    "rounds/r23/scan-receipts.json": "ffd9da8b05774c6281309edb138684adaaaea678d1bccc9cefcd30581ddb8b78",
+    "rounds/r23/transcription.json": "24d4f88ea2a061444a3b8d61e14d2ddcf0430cc6ac5db1decbcf2401d13d9f10",
+    "src/open_birth_chart/ziwei_bridge.cjs": "976c2b4b8bd887b87865c4e3bfe8f02cce5f1dfdd1c4a6d14959308ca34e978f"
+  },
+  "slots": 15,
+  "source_complete_with_body_slots": 9,
+  "source_core_complete_slots": 12
+}

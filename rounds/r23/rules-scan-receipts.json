@@ -1,0 +1,20 @@
+[
+  {
+    "page": 85,
+    "canvas": "https://www.digital.archives.go.jp/api/iiif/4468520/canvas/C102812186800",
+    "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102812186800/iiif/M2019050811103249305_0085.jp2/full/max/0/native.jpg",
+    "sha256": "e1dc1926a62cc534dee0055cb7f5da4bf6dab5cc55084c7591078cc0ac8dabb9"
+  },
+  {
+    "page": 86,
+    "canvas": "https://www.digital.archives.go.jp/api/iiif/4468520/canvas/C102812186900",
+    "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102812186900/iiif/M2019050811103249305_0086.jp2/full/max/0/native.jpg",
+    "sha256": "a44ac810cbf5c2a6d4053983677621e2574c0540e0323fdbd6c27ead3303f884"
+  },
+  {
+    "page": 87,
+    "canvas": "https://www.digital.archives.go.jp/api/iiif/4468520/canvas/C102812187000",
+    "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102812187000/iiif/M2019050811103249305_0087.jp2/full/max/0/native.jpg",
+    "sha256": "6e8c584cb01dce720c3ef862a23a127af11d987e14ef0df40d841492576d00a9"
+  }
+]
