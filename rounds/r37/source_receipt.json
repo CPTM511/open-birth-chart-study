@@ -1,0 +1,504 @@
+{
+  "registration_sha256": "68b13efadfe6e2c1a5594e9bea1af39df12d51e707e1850da32c57dcf44b56a0",
+  "volume_index_sha256": "af98dd1bee2edba2872ba4edbe54b2603d9e8984d1d3aa733bc12f3fa3e06806",
+  "retrieved_utc": "2026-11-27T22:22:19.973585+00:00",
+  "archive_attribution": "Ville de Lyon, Archives municipales",
+  "eligible_scan_positions": 1948,
+  "scans_selected": 39,
+  "volumes": {
+    "2E/1840": {
+      "district": 1,
+      "title": "Naissances : registre des actes (03/01/1901-31/12/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/3k746d9mhxf5",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/3k746d9mhxf5/manifest.json",
+      "source_order_sha256": "bf0e28a1100195e7c4cddf6a5a14991565e4bb34b186931b1f2893b263474f0a",
+      "scan_count": 124,
+      "sample_frame_count": 120,
+      "selected": [
+        {
+          "position": 15,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/3k746d9mhxf5/0f1a2244-ce51-43e4-b2c5-24677b8e44a5/canvas/14",
+          "label": "Image n°15",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/3k746d9mhxf5/0f1a2244-ce51-43e4-b2c5-24677b8e44a5/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/3k746d9mhxf5/0f1a2244-ce51-43e4-b2c5-24677b8e44a5",
+          "local_name": "1840-015.jpg",
+          "sha256": "f8fb33176841e794ff811cfd92a782be94c12af7559940069dab15170f3e61f4"
+        },
+        {
+          "position": 33,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/3k746d9mhxf5/8efce81a-8c42-4da0-8174-f98ee8646a52/canvas/32",
+          "label": "Image n°33",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/3k746d9mhxf5/8efce81a-8c42-4da0-8174-f98ee8646a52/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/3k746d9mhxf5/8efce81a-8c42-4da0-8174-f98ee8646a52",
+          "local_name": "1840-033.jpg",
+          "sha256": "d68abb85de9511c740cc97eedd69dfba75ae6275d518de6a06185643113d5886"
+        },
+        {
+          "position": 69,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/3k746d9mhxf5/db9cc57f-f002-42ed-9c3e-9167df0fac07/canvas/68",
+          "label": "Image n°69",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/3k746d9mhxf5/db9cc57f-f002-42ed-9c3e-9167df0fac07/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/3k746d9mhxf5/db9cc57f-f002-42ed-9c3e-9167df0fac07",
+          "local_name": "1840-069.jpg",
+          "sha256": "042dee8e6c8dafa270a4bcea65306ddd1a77482f496e2996ac96c6d29424bc12"
+        }
+      ]
+    },
+    "2E/1853": {
+      "district": 2,
+      "title": "Naissances : registre des actes (01/01/1901-04/03/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/q3knrgzp8hcv",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/q3knrgzp8hcv/manifest.json",
+      "source_order_sha256": "3dbfc7d0a73652dbf2f4130088d9b2046fc01fe153fbcbd81c4ca8c36abb9195",
+      "scan_count": 151,
+      "sample_frame_count": 147,
+      "selected": [
+        {
+          "position": 16,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/q3knrgzp8hcv/9db943ec-09b8-40fc-9cbd-ba13c623f858/canvas/15",
+          "label": "Image n°16",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/q3knrgzp8hcv/9db943ec-09b8-40fc-9cbd-ba13c623f858/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/q3knrgzp8hcv/9db943ec-09b8-40fc-9cbd-ba13c623f858",
+          "local_name": "1853-016.jpg",
+          "sha256": "cf2142aaee8ce1ba086d9bb1c99a7d09096b73e72cbebd648c58dc2056612f5e"
+        },
+        {
+          "position": 85,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/q3knrgzp8hcv/e68f286d-f51e-4e93-b253-240cd609d56c/canvas/84",
+          "label": "Image n°85",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/q3knrgzp8hcv/e68f286d-f51e-4e93-b253-240cd609d56c/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/q3knrgzp8hcv/e68f286d-f51e-4e93-b253-240cd609d56c",
+          "local_name": "1853-085.jpg",
+          "sha256": "1a000f24c660f9976d01eb0dbba00623e3eddb816169c13ab4eeeb45cfd96dd6"
+        },
+        {
+          "position": 89,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/q3knrgzp8hcv/4a4fc2ca-b8ab-481b-9ecf-54c3983307fb/canvas/88",
+          "label": "Image n°89",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/q3knrgzp8hcv/4a4fc2ca-b8ab-481b-9ecf-54c3983307fb/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/q3knrgzp8hcv/4a4fc2ca-b8ab-481b-9ecf-54c3983307fb",
+          "local_name": "1853-089.jpg",
+          "sha256": "191580ea87f6db6ffea3857f3dd125ae219324cc0bd08c86115ea86515384ce6"
+        }
+      ]
+    },
+    "2E/1854": {
+      "district": 2,
+      "title": "Naissances : registre des actes (04/03/1901-18/05/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/904stlhfp2q6",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/904stlhfp2q6/manifest.json",
+      "source_order_sha256": "f0b402b8b369b66dd12f7fdf19bc807b287a1898ff0e0f2a86a3769f17d49a35",
+      "scan_count": 187,
+      "sample_frame_count": 183,
+      "selected": [
+        {
+          "position": 8,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/904stlhfp2q6/f808e8c9-99f5-4b01-9954-e4a2e6149971/canvas/7",
+          "label": "Image n°8",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/904stlhfp2q6/f808e8c9-99f5-4b01-9954-e4a2e6149971/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/904stlhfp2q6/f808e8c9-99f5-4b01-9954-e4a2e6149971",
+          "local_name": "1854-008.jpg",
+          "sha256": "2d328efc7da36a829292977bd68c28d296d9d1e30933395c064243dcfe40ab8a"
+        },
+        {
+          "position": 26,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/904stlhfp2q6/83cde936-4468-477a-ac1d-c1fbf996b9d0/canvas/25",
+          "label": "Image n°26",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/904stlhfp2q6/83cde936-4468-477a-ac1d-c1fbf996b9d0/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/904stlhfp2q6/83cde936-4468-477a-ac1d-c1fbf996b9d0",
+          "local_name": "1854-026.jpg",
+          "sha256": "023c5e61f8ca7124f6d4c7ff22560d6c234817432910acd9bba0d6da556d56a2"
+        },
+        {
+          "position": 129,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/904stlhfp2q6/b2d514f6-e284-4f06-ac93-86d4c4eaa3ba/canvas/128",
+          "label": "Image n°129",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/904stlhfp2q6/b2d514f6-e284-4f06-ac93-86d4c4eaa3ba/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/904stlhfp2q6/b2d514f6-e284-4f06-ac93-86d4c4eaa3ba",
+          "local_name": "1854-129.jpg",
+          "sha256": "cb6cda8ed714bc26066affd63cfc2becd460230e4850b90307008895ee2f662c"
+        }
+      ]
+    },
+    "2E/1855": {
+      "district": 2,
+      "title": "Naissances : registre des actes (18/05/1901-05/08/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/cwsglvj4h7m6",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/cwsglvj4h7m6/manifest.json",
+      "source_order_sha256": "db33bad359c5b338834e9eaecee8ce95b15e7572d63a276cc02d5f79c195aa75",
+      "scan_count": 187,
+      "sample_frame_count": 183,
+      "selected": [
+        {
+          "position": 79,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/cwsglvj4h7m6/adc98ae7-2429-4ff9-a38e-3de4d7619401/canvas/78",
+          "label": "Image n°79",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/cwsglvj4h7m6/adc98ae7-2429-4ff9-a38e-3de4d7619401/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/cwsglvj4h7m6/adc98ae7-2429-4ff9-a38e-3de4d7619401",
+          "local_name": "1855-079.jpg",
+          "sha256": "7ba3bb4a516b84102481afecd6461ba5ec23f00c9c6258a6787855c77f603292"
+        },
+        {
+          "position": 135,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/cwsglvj4h7m6/ae27e116-7edd-452a-b91a-0e06add56c96/canvas/134",
+          "label": "Image n°135",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/cwsglvj4h7m6/ae27e116-7edd-452a-b91a-0e06add56c96/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/cwsglvj4h7m6/ae27e116-7edd-452a-b91a-0e06add56c96",
+          "local_name": "1855-135.jpg",
+          "sha256": "cda460b4f0f6b1625f3f95977d63261a02d86ea63fc0ffc9e9beb899ff5e046e"
+        },
+        {
+          "position": 178,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/cwsglvj4h7m6/1936ecca-c1e0-4982-855a-71ae50df2ce0/canvas/177",
+          "label": "Image n°178",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/cwsglvj4h7m6/1936ecca-c1e0-4982-855a-71ae50df2ce0/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/cwsglvj4h7m6/1936ecca-c1e0-4982-855a-71ae50df2ce0",
+          "local_name": "1855-178.jpg",
+          "sha256": "337508865f3ab9612477e4d9a03f586a1990b3491d2764519be5e5301b7bc9c0"
+        }
+      ]
+    },
+    "2E/1856": {
+      "district": 2,
+      "title": "Naissances : registre des actes (05/08/1901-21/10/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/x2p91w84kqj7",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/x2p91w84kqj7/manifest.json",
+      "source_order_sha256": "54f02cd1f0d9a626cf8492605c3b0327db419fa7f4c72340d000583556986d00",
+      "scan_count": 187,
+      "sample_frame_count": 183,
+      "selected": [
+        {
+          "position": 23,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/x2p91w84kqj7/e28c2b9b-24e0-4ffe-8ba5-72118767d723/canvas/22",
+          "label": "Image n°23",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/x2p91w84kqj7/e28c2b9b-24e0-4ffe-8ba5-72118767d723/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/x2p91w84kqj7/e28c2b9b-24e0-4ffe-8ba5-72118767d723",
+          "local_name": "1856-023.jpg",
+          "sha256": "f6b878579f9f24ef402ef46b90bdecc21e37bb730b310f07177eb606b6300de3"
+        },
+        {
+          "position": 82,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/x2p91w84kqj7/f9976eae-11b2-4c38-a248-2baa2be3e51f/canvas/81",
+          "label": "Image n°82",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/x2p91w84kqj7/f9976eae-11b2-4c38-a248-2baa2be3e51f/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/x2p91w84kqj7/f9976eae-11b2-4c38-a248-2baa2be3e51f",
+          "local_name": "1856-082.jpg",
+          "sha256": "9e272ba55ac91e53a9eae38117699f81d2dfd5ecda195a0972af87f6caa3c518"
+        },
+        {
+          "position": 101,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/x2p91w84kqj7/316966f5-5b9a-4926-a32c-ed58b4179122/canvas/100",
+          "label": "Image n°101",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/x2p91w84kqj7/316966f5-5b9a-4926-a32c-ed58b4179122/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/x2p91w84kqj7/316966f5-5b9a-4926-a32c-ed58b4179122",
+          "local_name": "1856-101.jpg",
+          "sha256": "5bd35ec0614dbc2548104b758d1e3912ed291865f59d7ad982aa821c4976be00"
+        }
+      ]
+    },
+    "2E/1857": {
+      "district": 2,
+      "title": "Naissances : registre des actes (22/10/1901-31/12/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/479g8jdkncth",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/479g8jdkncth/manifest.json",
+      "source_order_sha256": "2e7cd1b23e14d4a7fda9bce19da24af5b7db48ff62f45142086651e1cea92502",
+      "scan_count": 170,
+      "sample_frame_count": 166,
+      "selected": [
+        {
+          "position": 4,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/479g8jdkncth/48041a0c-a715-4a99-ba4e-c8386401e778/canvas/3",
+          "label": "Image n°4",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/479g8jdkncth/48041a0c-a715-4a99-ba4e-c8386401e778/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/479g8jdkncth/48041a0c-a715-4a99-ba4e-c8386401e778",
+          "local_name": "1857-004.jpg",
+          "sha256": "7e42e6762319549e1b5315a020143700084bc2b3a22bc8efb40e4eba46d640c9"
+        },
+        {
+          "position": 106,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/479g8jdkncth/2a8bcc2a-50c7-4af3-ab22-3cef8de82f34/canvas/105",
+          "label": "Image n°106",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/479g8jdkncth/2a8bcc2a-50c7-4af3-ab22-3cef8de82f34/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/479g8jdkncth/2a8bcc2a-50c7-4af3-ab22-3cef8de82f34",
+          "local_name": "1857-106.jpg",
+          "sha256": "446dd26ce7428a055c7b28e16e4cb34a560404748aa4ce4d66ad954c2352a410"
+        },
+        {
+          "position": 160,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/479g8jdkncth/bdefef6a-f3fa-4d8e-a759-21acddcfebd3/canvas/159",
+          "label": "Image n°160",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/479g8jdkncth/bdefef6a-f3fa-4d8e-a759-21acddcfebd3/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/479g8jdkncth/bdefef6a-f3fa-4d8e-a759-21acddcfebd3",
+          "local_name": "1857-160.jpg",
+          "sha256": "8f0842fbe3b0b31e181ad77abc460c8ca3156ac2d4445a9d5bc26212a121bad4"
+        }
+      ]
+    },
+    "2E/1872": {
+      "district": 3,
+      "title": "Naissances : registre des actes (02/01/1901-13/04/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/kvhb9z41wsx2",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/kvhb9z41wsx2/manifest.json",
+      "source_order_sha256": "3fa7112c730fee4ac603133058a2d42001cbc328fc65848aa437facab43bb660",
+      "scan_count": 125,
+      "sample_frame_count": 121,
+      "selected": [
+        {
+          "position": 12,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/kvhb9z41wsx2/f612a5ac-13ae-46d6-8ba6-b4fdf4604754/canvas/11",
+          "label": "Image n°12",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/kvhb9z41wsx2/f612a5ac-13ae-46d6-8ba6-b4fdf4604754/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/kvhb9z41wsx2/f612a5ac-13ae-46d6-8ba6-b4fdf4604754",
+          "local_name": "1872-012.jpg",
+          "sha256": "94a2d0f95b69c2251bebf3da7ac6b25fe05ed369e248e30295895b6a3e848cef"
+        },
+        {
+          "position": 50,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/kvhb9z41wsx2/b5623ee8-1623-4049-a323-31356539a5ba/canvas/49",
+          "label": "Image n°50",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/kvhb9z41wsx2/b5623ee8-1623-4049-a323-31356539a5ba/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/kvhb9z41wsx2/b5623ee8-1623-4049-a323-31356539a5ba",
+          "local_name": "1872-050.jpg",
+          "sha256": "75b2d343f7f49a839e956e071705fadccfa72869cabbdf577b072016f16b0409"
+        },
+        {
+          "position": 90,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/kvhb9z41wsx2/423de98d-d115-4580-9d5e-44cabc016313/canvas/89",
+          "label": "Image n°90",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/kvhb9z41wsx2/423de98d-d115-4580-9d5e-44cabc016313/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/kvhb9z41wsx2/423de98d-d115-4580-9d5e-44cabc016313",
+          "local_name": "1872-090.jpg",
+          "sha256": "bc079479cee47c46cdc4c81fc7b7f737b26cc930f9321e20cb497e53f34e45d2"
+        }
+      ]
+    },
+    "2E/1873": {
+      "district": 3,
+      "title": "Naissances : registre des actes (13/04/1901-12/07/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/591wbtjsd8mp",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/591wbtjsd8mp/manifest.json",
+      "source_order_sha256": "45fd1d448180be744991fcfbf61d184a4b21e0327bd864f644b98d1526d4a23d",
+      "scan_count": 109,
+      "sample_frame_count": 105,
+      "selected": [
+        {
+          "position": 22,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/591wbtjsd8mp/2d89abe1-3c3f-4244-986b-d48995187beb/canvas/21",
+          "label": "Image n°22",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/591wbtjsd8mp/2d89abe1-3c3f-4244-986b-d48995187beb/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/591wbtjsd8mp/2d89abe1-3c3f-4244-986b-d48995187beb",
+          "local_name": "1873-022.jpg",
+          "sha256": "46b8047bde713938b202cd453e2b05135da5e25dca629fd580422e3af0e150d2"
+        },
+        {
+          "position": 28,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/591wbtjsd8mp/1c564aee-6729-47e5-97fd-e99b7c641b87/canvas/27",
+          "label": "Image n°28",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/591wbtjsd8mp/1c564aee-6729-47e5-97fd-e99b7c641b87/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/591wbtjsd8mp/1c564aee-6729-47e5-97fd-e99b7c641b87",
+          "local_name": "1873-028.jpg",
+          "sha256": "7c3b0b6df1999649f0a8a407ae1f4ced79d2a90ec4a99b92093c5f979fa839c1"
+        },
+        {
+          "position": 82,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/591wbtjsd8mp/36f2e7c7-e6c8-48bd-9c9d-8c150735c336/canvas/81",
+          "label": "Image n°82",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/591wbtjsd8mp/36f2e7c7-e6c8-48bd-9c9d-8c150735c336/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/591wbtjsd8mp/36f2e7c7-e6c8-48bd-9c9d-8c150735c336",
+          "local_name": "1873-082.jpg",
+          "sha256": "1bdfc3f5e7cf73bc4b90ae1247db46dd59eaab883fdcf97bc0bffaf491456069"
+        }
+      ]
+    },
+    "2E/1874": {
+      "district": 3,
+      "title": "Naissances : registre des actes (12/07/1901-14/10/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/nqhp6xrfg3m5",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/nqhp6xrfg3m5/manifest.json",
+      "source_order_sha256": "c2bee960b7687727a5c4764d7e78b084f18f7e2af98ced423060eec9f9a107f0",
+      "scan_count": 109,
+      "sample_frame_count": 105,
+      "selected": [
+        {
+          "position": 6,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/nqhp6xrfg3m5/6f0f06b7-769d-4012-892c-cc3b3c8e8431/canvas/5",
+          "label": "Image n°6",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/nqhp6xrfg3m5/6f0f06b7-769d-4012-892c-cc3b3c8e8431/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/nqhp6xrfg3m5/6f0f06b7-769d-4012-892c-cc3b3c8e8431",
+          "local_name": "1874-006.jpg",
+          "sha256": "734c3747a8f6b8d5adf2fc8e32eb30e2fa5a9d5b61bbd78a0b9e504486d197ae"
+        },
+        {
+          "position": 28,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/nqhp6xrfg3m5/5e8bd9eb-aebf-4434-882d-c9f539230b84/canvas/27",
+          "label": "Image n°28",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/nqhp6xrfg3m5/5e8bd9eb-aebf-4434-882d-c9f539230b84/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/nqhp6xrfg3m5/5e8bd9eb-aebf-4434-882d-c9f539230b84",
+          "local_name": "1874-028.jpg",
+          "sha256": "2b9ccae92d2b18fbc542541d0c3b21a697d90d23adb74244434a690c7c03be77"
+        },
+        {
+          "position": 48,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/nqhp6xrfg3m5/05172846-891f-44b9-9103-edbe532fde09/canvas/47",
+          "label": "Image n°48",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/nqhp6xrfg3m5/05172846-891f-44b9-9103-edbe532fde09/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/nqhp6xrfg3m5/05172846-891f-44b9-9103-edbe532fde09",
+          "local_name": "1874-048.jpg",
+          "sha256": "a52021d8f9310e7a57ef60433820d58d8e517b5d25482e1a8cbdc05b2f866fd0"
+        }
+      ]
+    },
+    "2E/1875": {
+      "district": 3,
+      "title": "Naissances : registre des actes (14/10/1901-31/12/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/x4k1wz7t2dh6",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/x4k1wz7t2dh6/manifest.json",
+      "source_order_sha256": "765e1319d0f2fe14482730d1edf17c8015210ece160abab5fc0e868875620996",
+      "scan_count": 104,
+      "sample_frame_count": 100,
+      "selected": [
+        {
+          "position": 6,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/x4k1wz7t2dh6/ac556c36-e2e2-428b-ad05-c8fe6e7ce1a1/canvas/5",
+          "label": "Image n°6",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/x4k1wz7t2dh6/ac556c36-e2e2-428b-ad05-c8fe6e7ce1a1/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/x4k1wz7t2dh6/ac556c36-e2e2-428b-ad05-c8fe6e7ce1a1",
+          "local_name": "1875-006.jpg",
+          "sha256": "a79ac81a8252b77ed43a2b1549fe09d515ec4e27dce65fcb7705fc496bbb4577"
+        },
+        {
+          "position": 21,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/x4k1wz7t2dh6/66223e45-227c-4f36-83ed-c01184107637/canvas/20",
+          "label": "Image n°21",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/x4k1wz7t2dh6/66223e45-227c-4f36-83ed-c01184107637/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/x4k1wz7t2dh6/66223e45-227c-4f36-83ed-c01184107637",
+          "local_name": "1875-021.jpg",
+          "sha256": "0516e17148894392d453864d584a354ef8414abbc31ecfcaabd5e01e292f1ba5"
+        },
+        {
+          "position": 90,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/x4k1wz7t2dh6/336ce609-19ce-4890-bc80-4208873e94fd/canvas/89",
+          "label": "Image n°90",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/x4k1wz7t2dh6/336ce609-19ce-4890-bc80-4208873e94fd/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/x4k1wz7t2dh6/336ce609-19ce-4890-bc80-4208873e94fd",
+          "local_name": "1875-090.jpg",
+          "sha256": "f63dcab6322a99b93732f4d9e4b7069c9dc68f7c5be188b1a22ffa54fecd464b"
+        }
+      ]
+    },
+    "2E/1889": {
+      "district": 4,
+      "title": "Naissances : registre des actes (02/01/1901-31/12/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/kr65t13zmhql",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/kr65t13zmhql/manifest.json",
+      "source_order_sha256": "aad5f2c03702ecb6bdfe3e866c6bda0ea6b76adcee56f7e7b86f7ca4589c849a",
+      "scan_count": 95,
+      "sample_frame_count": 91,
+      "selected": [
+        {
+          "position": 10,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/kr65t13zmhql/e70979fd-b0b3-47b4-96d5-4c47d4983fbd/canvas/9",
+          "label": "Image n°10",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/kr65t13zmhql/e70979fd-b0b3-47b4-96d5-4c47d4983fbd/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/kr65t13zmhql/e70979fd-b0b3-47b4-96d5-4c47d4983fbd",
+          "local_name": "1889-010.jpg",
+          "sha256": "b5a52ab93a89580bdaa73948d5287cda6e6b91566fd71e4767271d2ffb670646"
+        },
+        {
+          "position": 38,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/kr65t13zmhql/2100159c-7834-44fb-b9e1-3bd1d09a21d5/canvas/37",
+          "label": "Image n°38",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/kr65t13zmhql/2100159c-7834-44fb-b9e1-3bd1d09a21d5/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/kr65t13zmhql/2100159c-7834-44fb-b9e1-3bd1d09a21d5",
+          "local_name": "1889-038.jpg",
+          "sha256": "2ade19aef77bae25ce0066bcee993b554c6136b45b3f9d1ec8a8b0c365c2f758"
+        },
+        {
+          "position": 59,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/kr65t13zmhql/6d1ba6aa-13ea-4808-aa26-472491f96105/canvas/58",
+          "label": "Image n°59",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/kr65t13zmhql/6d1ba6aa-13ea-4808-aa26-472491f96105/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/kr65t13zmhql/6d1ba6aa-13ea-4808-aa26-472491f96105",
+          "local_name": "1889-059.jpg",
+          "sha256": "3a1cd0d255afda6874a2c7df4ef9c1cd0aa4ddbd3f62aaf62d04fd023a145831"
+        }
+      ]
+    },
+    "2E/1898": {
+      "district": 5,
+      "title": "Naissances : registre des actes (01/01/1901-30/12/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/nmh543xqpdzf",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/nmh543xqpdzf/manifest.json",
+      "source_order_sha256": "ffd0b0e08c39b8f7109d37692c458e0f30c58bd3f8d87288e39bbb35227cc5eb",
+      "scan_count": 180,
+      "sample_frame_count": 176,
+      "selected": [
+        {
+          "position": 131,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/nmh543xqpdzf/c5a37029-fe1e-49ed-824e-237f0c0471f7/canvas/130",
+          "label": "Image n°131",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/nmh543xqpdzf/c5a37029-fe1e-49ed-824e-237f0c0471f7/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/nmh543xqpdzf/c5a37029-fe1e-49ed-824e-237f0c0471f7",
+          "local_name": "1898-131.jpg",
+          "sha256": "ce94c688afcff597e3d6226175a74b71029bd4d18d17ee9412e39a7808a1ff94"
+        },
+        {
+          "position": 133,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/nmh543xqpdzf/a1aa2d49-528f-44f4-83c0-a9713ea6e6cb/canvas/132",
+          "label": "Image n°133",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/nmh543xqpdzf/a1aa2d49-528f-44f4-83c0-a9713ea6e6cb/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/nmh543xqpdzf/a1aa2d49-528f-44f4-83c0-a9713ea6e6cb",
+          "local_name": "1898-133.jpg",
+          "sha256": "b318fa81e03dcc04288471296f0dd1284cf6e2fe829a23c84f39c3bc7b770628"
+        },
+        {
+          "position": 170,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/nmh543xqpdzf/28ff6b5a-112d-45e8-a37f-6248060cc436/canvas/169",
+          "label": "Image n°170",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/nmh543xqpdzf/28ff6b5a-112d-45e8-a37f-6248060cc436/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/nmh543xqpdzf/28ff6b5a-112d-45e8-a37f-6248060cc436",
+          "local_name": "1898-170.jpg",
+          "sha256": "0cfcd0dafea7146049705db91ebde472d68393085726f16b3640856aeccf374b"
+        }
+      ]
+    },
+    "2E/1907": {
+      "district": 6,
+      "title": "Naissances : registre des actes (02/01/1901-31/12/1901).",
+      "notice": "https://recherches.archives-lyon.fr/ark:/18811/grs3nvj5fmh2",
+      "manifest": "https://recherches.archives-lyon.fr/iiif/ark:/18811/grs3nvj5fmh2/manifest.json",
+      "source_order_sha256": "830e0b3c4e9533be6f79f1aca73442d9c089a27955bc92fb09c04fbb95e51850",
+      "scan_count": 272,
+      "sample_frame_count": 268,
+      "selected": [
+        {
+          "position": 42,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/grs3nvj5fmh2/426d387e-d697-4ed8-8b72-dc75ad7643ee/canvas/41",
+          "label": "Image n°42",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/grs3nvj5fmh2/426d387e-d697-4ed8-8b72-dc75ad7643ee/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/grs3nvj5fmh2/426d387e-d697-4ed8-8b72-dc75ad7643ee",
+          "local_name": "1907-042.jpg",
+          "sha256": "507b3760d1bd8d69debfd06c4b39012761a07367244f17c62ff04e396011709d"
+        },
+        {
+          "position": 169,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/grs3nvj5fmh2/1a06f3ae-9541-484a-882e-0574701d5971/canvas/168",
+          "label": "Image n°169",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/grs3nvj5fmh2/1a06f3ae-9541-484a-882e-0574701d5971/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/grs3nvj5fmh2/1a06f3ae-9541-484a-882e-0574701d5971",
+          "local_name": "1907-169.jpg",
+          "sha256": "d16d218da68166a476f1e441a8b1945dfd1adc323d23e6bad21cf80261982b40"
+        },
+        {
+          "position": 231,
+          "canvas": "https://recherches.archives-lyon.fr/iiif/ark:/18811/grs3nvj5fmh2/3c9ecd1e-47d7-4c14-8b44-b54ed9614670/canvas/230",
+          "label": "Image n°231",
+          "image": "https://recherches.archives-lyon.fr/iiif/ark:/18811/grs3nvj5fmh2/3c9ecd1e-47d7-4c14-8b44-b54ed9614670/full/max/0/default.jpg",
+          "record_page": "https://recherches.archives-lyon.fr/ark:/18811/grs3nvj5fmh2/3c9ecd1e-47d7-4c14-8b44-b54ed9614670",
+          "local_name": "1907-231.jpg",
+          "sha256": "a35aa1d1a10be8ddf4f521299acce443fac9184f2a440ae24ee4a2c0cd0fa6c5"
+        }
+      ]
+    }
+  }
+}
