@@ -1,0 +1,43 @@
+{
+  "base_commit": "99a745d1609b308c2f59fb939d9a60ac51cd1761",
+  "method": "OBS-R19-QING-YUEBO-1.0",
+  "source_editions": {
+    "1910": {
+      "pdf_source": "Harvard DRS 53541092",
+      "pdf_sha256": "9d3c705d0354a9fc7a86bccc8041a4d3fd2c497677ab0566b38775e70d4225d2",
+      "pdf_pages": [
+        41,
+        42
+      ],
+      "first_date": "1910-02-10",
+      "planned_dates": 36,
+      "official_date_table_sha256": {
+        "1910": "50f8589ba3b583e261782a849735c0ef103af7d4ba67a38d3bafcc72dfa7c548",
+        "1911": "1b048383789c1c9110c67b4d4f37e0cdec602e1b50ada13195443c17e99f3a86"
+      }
+    },
+    "1860": {
+      "pdf_source": "Harvard DRS 53541090",
+      "pdf_sha256": "2da5842c2da4cc005053918c7f9c581ecce676befd041e42c63f8a23910f1707",
+      "pdf_pages": [
+        46
+      ],
+      "first_date": "1860-01-23",
+      "planned_dates": 39
+    }
+  },
+  "day_of_lunar_month": [
+    1,
+    11,
+    21
+  ],
+  "precision_threshold_arcminute": 1,
+  "allowed_missing_or_outside_precision": 1,
+  "maximum_threshold_arcminute": 60,
+  "files_sha256": {
+    "rounds/r20/REGISTRATION.zh.md": "57a010f3c1b7a06f3a740c0eb25c7ac77ec5b0643b4f15b17a34a4f05770f849",
+    "rounds/r19/qing_apogee.py": "13d385435051da278421aa8e6ff8a54f827ea6f42ea80a50404a7397aac7df31",
+    "src/open_birth_chart/qizheng_engine.py": "d50d0c7de06ca16cb0cf19557fd51b65f240363c68e7ce6bb9daa8f483c6123d",
+    "src/open_birth_chart/astronomy.py": "9331f1a20b6571207f28632bf89d72969c6992072c99fb3ff1235439502fb550"
+  }
+}

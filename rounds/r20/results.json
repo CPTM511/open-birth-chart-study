@@ -1,0 +1,1562 @@
+{
+  "registration_sha256": "f5301b170a2508298cad64a4df67bc8ecee0251aaafbca572daa395045c10e8e",
+  "transcription_sha256": "fbdb11088040846b0b681d0809035e4700f4a70d3075fd0f7551a2253597702e",
+  "formula_version": "OBS-R19-QING-YUEBO-1.0",
+  "fitted_parameters": 0,
+  "comparison_by_edition": {
+    "1910": {
+      "planned_dates": 36,
+      "observed_days_with_printed_month": 36,
+      "reconciled_month_starts_including_next_year": 13,
+      "all_external_date_disagreements": [],
+      "summary": {
+        "modern_mean": {
+          "reported_dates": 36,
+          "within_precision": 3,
+          "strict_gate": false,
+          "wide_gate_on_observed_dates": true,
+          "mean_absolute_error_arcmin": 14.284348803385285,
+          "median_signed_error_arcmin": -14.441051099902324,
+          "maximum_absolute_error_arcmin": 28.664730214103997
+        },
+        "qing_mean": {
+          "reported_dates": 36,
+          "within_precision": 1,
+          "strict_gate": false,
+          "wide_gate_on_observed_dates": true,
+          "mean_absolute_error_arcmin": 12.436054509648121,
+          "median_signed_error_arcmin": 1.2103088923166183,
+          "maximum_absolute_error_arcmin": 20.028132348492704
+        },
+        "qing_highest_in_use": {
+          "reported_dates": 36,
+          "within_precision": 27,
+          "strict_gate": false,
+          "wide_gate_on_observed_dates": true,
+          "mean_absolute_error_arcmin": 0.7440756469349689,
+          "median_signed_error_arcmin": 0.6534482615515458,
+          "maximum_absolute_error_arcmin": 2.0473922359173002
+        },
+        "qing_full_6973": {
+          "reported_dates": 36,
+          "within_precision": 0,
+          "strict_gate": false,
+          "wide_gate_on_observed_dates": false,
+          "mean_absolute_error_arcmin": 485.25347496079314,
+          "median_signed_error_arcmin": -43.78691334457244,
+          "maximum_absolute_error_arcmin": 737.9343244722304
+        },
+        "qing_full_6913": {
+          "reported_dates": 36,
+          "within_precision": 0,
+          "strict_gate": false,
+          "wide_gate_on_observed_dates": false,
+          "mean_absolute_error_arcmin": 485.26875855694914,
+          "median_signed_error_arcmin": -43.77077821202931,
+          "maximum_absolute_error_arcmin": 738.1039120922946
+        }
+      },
+      "summary_excluding_bare_degrees": {
+        "modern_mean": {
+          "reported_dates": 36,
+          "within_precision": 3,
+          "strict_gate": false,
+          "wide_gate_on_observed_dates": true,
+          "mean_absolute_error_arcmin": 14.284348803385285,
+          "median_signed_error_arcmin": -14.441051099902324,
+          "maximum_absolute_error_arcmin": 28.664730214103997
+        },
+        "qing_mean": {
+          "reported_dates": 36,
+          "within_precision": 1,
+          "strict_gate": false,
+          "wide_gate_on_observed_dates": true,
+          "mean_absolute_error_arcmin": 12.436054509648121,
+          "median_signed_error_arcmin": 1.2103088923166183,
+          "maximum_absolute_error_arcmin": 20.028132348492704
+        },
+        "qing_highest_in_use": {
+          "reported_dates": 36,
+          "within_precision": 27,
+          "strict_gate": false,
+          "wide_gate_on_observed_dates": true,
+          "mean_absolute_error_arcmin": 0.7440756469349689,
+          "median_signed_error_arcmin": 0.6534482615515458,
+          "maximum_absolute_error_arcmin": 2.0473922359173002
+        },
+        "qing_full_6973": {
+          "reported_dates": 36,
+          "within_precision": 0,
+          "strict_gate": false,
+          "wide_gate_on_observed_dates": false,
+          "mean_absolute_error_arcmin": 485.25347496079314,
+          "median_signed_error_arcmin": -43.78691334457244,
+          "maximum_absolute_error_arcmin": 737.9343244722304
+        },
+        "qing_full_6913": {
+          "reported_dates": 36,
+          "within_precision": 0,
+          "strict_gate": false,
+          "wide_gate_on_observed_dates": false,
+          "mean_absolute_error_arcmin": 485.26875855694914,
+          "median_signed_error_arcmin": -43.77077821202931,
+          "maximum_absolute_error_arcmin": 738.1039120922946
+        }
+      },
+      "observations": [
+        {
+          "lunar_month": "1",
+          "lunar_day": 1,
+          "pdf_page": 41,
+          "gregorian_local_date": "1910-02-10",
+          "printed_mansion_degree_minute": [
+            "角",
+            3,
+            28
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -19.51735258721328,
+            "qing_mean": -10.283355444286144,
+            "qing_highest_in_use": 2.0401025671463913,
+            "qing_full_6973": -624.7235743838058,
+            "qing_full_6913": -624.589124540085
+          }
+        },
+        {
+          "lunar_month": "1",
+          "lunar_day": 11,
+          "pdf_page": 41,
+          "gregorian_local_date": "1910-02-20",
+          "printed_mansion_degree_minute": [
+            "角",
+            4,
+            38
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -22.809216346176413,
+            "qing_mean": -13.461590006315873,
+            "qing_highest_in_use": 1.3973055684459723,
+            "qing_full_6973": -719.8459009155107,
+            "qing_full_6913": -719.7044494393657
+          }
+        },
+        {
+          "lunar_month": "1",
+          "lunar_day": 21,
+          "pdf_page": 41,
+          "gregorian_local_date": "1910-03-02",
+          "printed_mansion_degree_minute": [
+            "角",
+            5,
+            47
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -25.128921947818412,
+            "qing_mean": -15.639824568291942,
+            "qing_highest_in_use": 1.297239591684729,
+            "qing_full_6973": -733.1173453339994,
+            "qing_full_6913": -732.9766860813453
+          }
+        },
+        {
+          "lunar_month": "2",
+          "lunar_day": 1,
+          "pdf_page": 41,
+          "gregorian_local_date": "1910-03-11",
+          "printed_mansion_degree_minute": [
+            "角",
+            6,
+            48
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -26.124357871842108,
+            "qing_mean": -16.500235674119494,
+            "qing_highest_in_use": 1.8666435045798835,
+            "qing_full_6973": -686.6348065794227,
+            "qing_full_6913": -686.4984482424592
+          }
+        },
+        {
+          "lunar_month": "2",
+          "lunar_day": 11,
+          "pdf_page": 41,
+          "gregorian_local_date": "1910-03-21",
+          "printed_mansion_degree_minute": [
+            "角",
+            7,
+            56
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -27.47896682809369,
+            "qing_mean": -17.678470236149337,
+            "qing_highest_in_use": 1.7479285618026097,
+            "qing_full_6973": -586.2879265699189,
+            "qing_full_6913": -586.1581413857363
+          }
+        },
+        {
+          "lunar_month": "2",
+          "lunar_day": 21,
+          "pdf_page": 41,
+          "gregorian_local_date": "1910-03-31",
+          "printed_mansion_degree_minute": [
+            "角",
+            9,
+            3
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -27.864824514585962,
+            "qing_mean": -17.85670479818009,
+            "qing_highest_in_use": 2.0473922359173002,
+            "qing_full_6973": -447.7835341456546,
+            "qing_full_6913": -447.6609667654009
+          }
+        },
+        {
+          "lunar_month": "3",
+          "lunar_day": 1,
+          "pdf_page": 41,
+          "gregorian_local_date": "1910-04-10",
+          "printed_mansion_degree_minute": [
+            "角",
+            10,
+            10
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -28.25850346926643,
+            "qing_mean": -18.034939360154567,
+            "qing_highest_in_use": 1.7570284935590053,
+            "qing_full_6973": -284.90236389003996,
+            "qing_full_6913": -284.7870863704702
+          }
+        },
+        {
+          "lunar_month": "3",
+          "lunar_day": 11,
+          "pdf_page": 41,
+          "gregorian_local_date": "1910-04-20",
+          "printed_mansion_degree_minute": [
+            "亢",
+            0,
+            37
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -28.664730214103997,
+            "qing_mean": -18.213173922187025,
+            "qing_highest_in_use": 0.8864493411505237,
+            "qing_full_6973": -108.52343069474273,
+            "qing_full_6913": -108.41538554249155
+          }
+        },
+        {
+          "lunar_month": "3",
+          "lunar_day": 21,
+          "pdf_page": 41,
+          "gregorian_local_date": "1910-04-30",
+          "printed_mansion_degree_minute": [
+            "亢",
+            1,
+            43
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -28.09974703320904,
+            "qing_mean": -17.39140848421698,
+            "qing_highest_in_use": 0.4618660746615433,
+            "qing_full_6973": 72.81214976944852,
+            "qing_full_6913": 72.91287209354721
+          }
+        },
+        {
+          "lunar_month": "4",
+          "lunar_day": 1,
+          "pdf_page": 41,
+          "gregorian_local_date": "1910-05-09",
+          "printed_mansion_degree_minute": [
+            "亢",
+            2,
+            41
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -26.20247463631074,
+            "qing_mean": -15.251819589989282,
+            "qing_highest_in_use": 1.039980881278666,
+            "qing_full_6973": 233.479807862808,
+            "qing_full_6913": 233.57357068418366
+          }
+        },
+        {
+          "lunar_month": "4",
+          "lunar_day": 11,
+          "pdf_page": 41,
+          "gregorian_local_date": "1910-05-19",
+          "printed_mansion_degree_minute": [
+            "亢",
+            3,
+            46
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -24.65298106302498,
+            "qing_mean": -13.430054151965578,
+            "qing_highest_in_use": 0.6879322356917328,
+            "qing_full_6973": 399.0134472961239,
+            "qing_full_6913": 399.09855748852976
+          }
+        },
+        {
+          "lunar_month": "4",
+          "lunar_day": 21,
+          "pdf_page": 41,
+          "gregorian_local_date": "1910-05-29",
+          "printed_mansion_degree_minute": [
+            "亢",
+            4,
+            50
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -22.124109710834432,
+            "qing_mean": -10.608288713995648,
+            "qing_highest_in_use": 0.9373050712821396,
+            "qing_full_6973": 543.4942880875144,
+            "qing_full_6913": 543.5690042116198
+          }
+        },
+        {
+          "lunar_month": "5",
+          "lunar_day": 1,
+          "pdf_page": 42,
+          "gregorian_local_date": "1910-06-07",
+          "printed_mansion_degree_minute": [
+            "亢",
+            5,
+            48
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -20.264494515248543,
+            "qing_mean": -8.468699819822518,
+            "qing_highest_in_use": 0.48273081282786734,
+            "qing_full_6973": 645.7952059708384,
+            "qing_full_6913": 645.8581653923858
+          }
+        },
+        {
+          "lunar_month": "5",
+          "lunar_day": 11,
+          "pdf_page": 42,
+          "gregorian_local_date": "1910-06-17",
+          "printed_mansion_degree_minute": [
+            "亢",
+            6,
+            52
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -17.75687164214048,
+            "qing_mean": -5.646934381852589,
+            "qing_highest_in_use": 0.18759905023557621,
+            "qing_full_6973": 718.905554118158,
+            "qing_full_6913": 718.9514234002633
+          }
+        },
+        {
+          "lunar_month": "5",
+          "lunar_day": 21,
+          "pdf_page": 42,
+          "gregorian_local_date": "1910-06-27",
+          "printed_mansion_degree_minute": [
+            "亢",
+            7,
+            55
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -14.260411546847536,
+            "qing_mean": -1.8251689437727237,
+            "qing_highest_in_use": 0.7304323583628047,
+            "qing_full_6973": 737.558969346718,
+            "qing_full_6913": 737.5817558691136
+          }
+        },
+        {
+          "lunar_month": "6",
+          "lunar_day": 1,
+          "pdf_page": 42,
+          "gregorian_local_date": "1910-07-07",
+          "printed_mansion_degree_minute": [
+            "亢",
+            8,
+            59
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -11.781209655495672,
+            "qing_mean": 0.9965964941972061,
+            "qing_highest_in_use": 0.20245918435421117,
+            "qing_full_6973": 687.2464588122563,
+            "qing_full_6913": 687.2383831545704
+          }
+        },
+        {
+          "lunar_month": "6",
+          "lunar_day": 11,
+          "pdf_page": 42,
+          "gregorian_local_date": "1910-07-17",
+          "printed_mansion_degree_minute": [
+            "亢",
+            10,
+            2
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -8.318310054531253,
+            "qing_mean": 4.818361932166226,
+            "qing_highest_in_use": 0.6964778038735631,
+            "qing_full_6973": 561.3068330963648,
+            "qing_full_6913": 561.2594202410662
+          }
+        },
+        {
+          "lunar_month": "6",
+          "lunar_day": 21,
+          "pdf_page": 42,
+          "gregorian_local_date": "1910-07-27",
+          "printed_mansion_degree_minute": [
+            "氐",
+            0,
+            30
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -5.856523483986393,
+            "qing_mean": 7.640127370136156,
+            "qing_highest_in_use": 0.3048001369506892,
+            "qing_full_6973": 359.5166129080724,
+            "qing_full_6913": 359.42368723820664
+          }
+        },
+        {
+          "lunar_month": "7",
+          "lunar_day": 1,
+          "pdf_page": 42,
+          "gregorian_local_date": "1910-08-05",
+          "printed_mansion_degree_minute": [
+            "氐",
+            1,
+            27
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -3.048889070412315,
+            "qing_mean": 10.779716264308377,
+            "qing_highest_in_use": 0.7242977870521372,
+            "qing_full_6973": 130.18245498149156,
+            "qing_full_6913": 130.04880949707285
+          }
+        },
+        {
+          "lunar_month": "7",
+          "lunar_day": 11,
+          "pdf_page": 42,
+          "gregorian_local_date": "1910-08-15",
+          "printed_mansion_degree_minute": [
+            "氐",
+            2,
+            31
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -0.6180891244071063,
+            "qing_mean": 13.60148170233117,
+            "qing_highest_in_use": 0.7933298265885469,
+            "qing_full_6973": -144.64770203373064,
+            "qing_full_6913": -144.81763078409074
+          }
+        },
+        {
+          "lunar_month": "7",
+          "lunar_day": 21,
+          "pdf_page": 42,
+          "gregorian_local_date": "1910-08-25",
+          "printed_mansion_degree_minute": [
+            "氐",
+            3,
+            36
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": 0.8133356855620377,
+            "qing_mean": 15.42324714030201,
+            "qing_highest_in_use": 0.22253998858730029,
+            "qing_full_6973": -396.8846114816864,
+            "qing_full_6913": -397.0746383282267
+          }
+        },
+        {
+          "lunar_month": "8",
+          "lunar_day": 1,
+          "pdf_page": 42,
+          "gregorian_local_date": "1910-09-04",
+          "printed_mansion_degree_minute": [
+            "氐",
+            4,
+            41
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": 2.244712499121988,
+            "qing_mean": 17.245012578271144,
+            "qing_highest_in_use": 0.08254874800400103,
+            "qing_full_6973": -588.6734525751285,
+            "qing_full_6913": -588.8668600535124
+          }
+        },
+        {
+          "lunar_month": "8",
+          "lunar_day": 11,
+          "pdf_page": 42,
+          "gregorian_local_date": "1910-09-14",
+          "printed_mansion_degree_minute": [
+            "氐",
+            5,
+            46
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": 3.660195213679458,
+            "qing_mean": 19.066778016349417,
+            "qing_highest_in_use": 0.4333265273055531,
+            "qing_full_6973": -702.1712578336741,
+            "qing_full_6913": -702.3559651187225
+          }
+        },
+        {
+          "lunar_month": "8",
+          "lunar_day": 21,
+          "pdf_page": 42,
+          "gregorian_local_date": "1910-09-24",
+          "printed_mansion_degree_minute": [
+            "氐",
+            6,
+            52
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": 4.073314731637083,
+            "qing_mean": 19.88854345431946,
+            "qing_highest_in_use": 0.3222109653631833,
+            "qing_full_6973": -737.9343244722304,
+            "qing_full_6913": -738.1039120922946
+          }
+        },
+        {
+          "lunar_month": "9",
+          "lunar_day": 1,
+          "pdf_page": 42,
+          "gregorian_local_date": "1910-10-03",
+          "printed_mansion_degree_minute": [
+            "氐",
+            7,
+            52
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": 3.8526197457105127,
+            "qing_mean": 20.028132348492704,
+            "qing_highest_in_use": 0.10978752870698827,
+            "qing_full_6973": -711.2182627784335,
+            "qing_full_6913": -711.3722260881957
+          }
+        },
+        {
+          "lunar_month": "9",
+          "lunar_day": 11,
+          "pdf_page": 42,
+          "gregorian_local_date": "1910-10-13",
+          "printed_mansion_degree_minute": [
+            "氐",
+            8,
+            59
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": 3.2708259838034337,
+            "qing_mean": 19.849897786463657,
+            "qing_highest_in_use": 0.09843215756291102,
+            "qing_full_6973": -627.8234068246456,
+            "qing_full_6913": -627.9599326453922
+          }
+        },
+        {
+          "lunar_month": "9",
+          "lunar_day": 21,
+          "pdf_page": 42,
+          "gregorian_local_date": "1910-10-23",
+          "printed_mansion_degree_minute": [
+            "氐",
+            10,
+            6
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": 2.6891407371829246,
+            "qing_mean": 19.671663224487475,
+            "qing_highest_in_use": 0.6753548179796098,
+            "qing_full_6973": -500.49687688546044,
+            "qing_full_6913": -500.6168594085517
+          }
+        },
+        {
+          "lunar_month": "10",
+          "lunar_day": 1,
+          "pdf_page": 42,
+          "gregorian_local_date": "1910-11-02",
+          "printed_mansion_degree_minute": [
+            "氐",
+            11,
+            15
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": 0.11252387631031979,
+            "qing_mean": 17.493428662456836,
+            "qing_highest_in_use": -0.1759960887784473,
+            "qing_full_6973": -343.6154484235516,
+            "qing_full_6913": -343.7199929383644
+          }
+        },
+        {
+          "lunar_month": "10",
+          "lunar_day": 11,
+          "pdf_page": 42,
+          "gregorian_local_date": "1910-11-12",
+          "printed_mansion_degree_minute": [
+            "氐",
+            12,
+            23
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -1.4494652955664833,
+            "qing_mean": 16.315194100426993,
+            "qing_highest_in_use": 0.5097012313314053,
+            "qing_full_6973": -165.35430654646802,
+            "qing_full_6913": -165.44428029801736
+          }
+        },
+        {
+          "lunar_month": "10",
+          "lunar_day": 21,
+          "pdf_page": 42,
+          "gregorian_local_date": "1910-11-22",
+          "printed_mansion_degree_minute": [
+            "氐",
+            13,
+            33
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -5.004496137461842,
+            "qing_mean": 13.136959538450128,
+            "qing_highest_in_use": -0.3198908867256023,
+            "qing_full_6973": 20.94960400559785,
+            "qing_full_6913": 20.873829118432923
+          }
+        },
+        {
+          "lunar_month": "11",
+          "lunar_day": 1,
+          "pdf_page": 42,
+          "gregorian_local_date": "1910-12-02",
+          "printed_mansion_degree_minute": [
+            "氐",
+            14,
+            42
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -7.562190942304028,
+            "qing_mean": 10.95872497641949,
+            "qing_highest_in_use": 0.26642786743991564,
+            "qing_full_6973": 208.23994248633085,
+            "qing_full_6913": 208.17868083155417
+          }
+        },
+        {
+          "lunar_month": "11",
+          "lunar_day": 11,
+          "pdf_page": 42,
+          "gregorian_local_date": "1910-12-12",
+          "printed_mansion_degree_minute": [
+            "氐",
+            15,
+            52
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -11.10093933041071,
+            "qing_mean": 7.780490414388055,
+            "qing_highest_in_use": 0.18533784502551498,
+            "qing_full_6973": 384.120057714926,
+            "qing_full_6913": 384.074510605609
+          }
+        },
+        {
+          "lunar_month": "11",
+          "lunar_day": 21,
+          "pdf_page": 42,
+          "gregorian_local_date": "1910-12-22",
+          "printed_mansion_degree_minute": [
+            "氐",
+            17,
+            2
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -14.621690652957113,
+            "qing_mean": 4.602255852467465,
+            "qing_highest_in_use": 0.3416467419071978,
+            "qing_full_6973": 538.2220522617399,
+            "qing_full_6913": 538.1945609092759
+          }
+        },
+        {
+          "lunar_month": "12",
+          "lunar_day": 1,
+          "pdf_page": 42,
+          "gregorian_local_date": "1911-01-01",
+          "printed_mansion_degree_minute": [
+            "房",
+            0,
+            22
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -18.144436327362428,
+            "qing_mean": 1.4240212904360305,
+            "qing_highest_in_use": 0.6315417051234817,
+            "qing_full_6973": 657.6418945965855,
+            "qing_full_6913": 657.6362486201725
+          }
+        },
+        {
+          "lunar_month": "12",
+          "lunar_day": 11,
+          "pdf_page": 42,
+          "gregorian_local_date": "1911-01-11",
+          "printed_mansion_degree_minute": [
+            "房",
+            1,
+            32
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -21.65731226333662,
+            "qing_mean": -1.7542132715936987,
+            "qing_highest_in_use": 0.946321901843703,
+            "qing_full_6973": 727.6631878778983,
+            "qing_full_6913": 727.6849059142234
+          }
+        },
+        {
+          "lunar_month": "12",
+          "lunar_day": 21,
+          "pdf_page": 42,
+          "gregorian_local_date": "1911-01-21",
+          "printed_mansion_degree_minute": [
+            "房",
+            2,
+            42
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -25.14837218391449,
+            "qing_mean": -4.932447833568858,
+            "qing_highest_in_use": 1.176357200528173,
+            "qing_full_6973": 732.3380450275749,
+            "qing_full_6913": 732.3943366576202
+          }
+        }
+      ]
+    },
+    "1860": {
+      "planned_dates": 39,
+      "observed_days_with_printed_month": 39,
+      "reconciled_month_starts_including_next_year": 14,
+      "all_external_date_disagreements": [],
+      "summary": {
+        "modern_mean": {
+          "reported_dates": 39,
+          "within_precision": 3,
+          "strict_gate": false,
+          "wide_gate_on_observed_dates": true,
+          "mean_absolute_error_arcmin": 15.89265803332312,
+          "median_signed_error_arcmin": -15.519103172840687,
+          "maximum_absolute_error_arcmin": 34.16047891459584
+        },
+        "qing_mean": {
+          "reported_dates": 39,
+          "within_precision": 2,
+          "strict_gate": false,
+          "wide_gate_on_observed_dates": true,
+          "mean_absolute_error_arcmin": 11.631964725247878,
+          "median_signed_error_arcmin": 0.19815497304001894,
+          "maximum_absolute_error_arcmin": 20.344853680774122
+        },
+        "qing_highest_in_use": {
+          "reported_dates": 39,
+          "within_precision": 17,
+          "strict_gate": false,
+          "wide_gate_on_observed_dates": true,
+          "mean_absolute_error_arcmin": 1.994495995471699,
+          "median_signed_error_arcmin": 2.5318941089460623,
+          "maximum_absolute_error_arcmin": 3.840152605525873
+        },
+        "qing_full_6973": {
+          "reported_dates": 39,
+          "within_precision": 0,
+          "strict_gate": false,
+          "wide_gate_on_observed_dates": false,
+          "mean_absolute_error_arcmin": 452.9342058831775,
+          "median_signed_error_arcmin": 112.55984175924709,
+          "maximum_absolute_error_arcmin": 741.2849003955705
+        },
+        "qing_full_6913": {
+          "reported_dates": 39,
+          "within_precision": 0,
+          "strict_gate": false,
+          "wide_gate_on_observed_dates": false,
+          "mean_absolute_error_arcmin": 452.94186910265637,
+          "median_signed_error_arcmin": 112.44817053601537,
+          "maximum_absolute_error_arcmin": 741.4479603165887
+        }
+      },
+      "summary_excluding_bare_degrees": {
+        "modern_mean": {
+          "reported_dates": 37,
+          "within_precision": 3,
+          "strict_gate": false,
+          "wide_gate_on_observed_dates": true,
+          "mean_absolute_error_arcmin": 16.57168848588374,
+          "median_signed_error_arcmin": -17.216437487940617,
+          "maximum_absolute_error_arcmin": 34.16047891459584
+        },
+        "qing_mean": {
+          "reported_dates": 37,
+          "within_precision": 2,
+          "strict_gate": false,
+          "wide_gate_on_observed_dates": true,
+          "mean_absolute_error_arcmin": 11.166859382513662,
+          "median_signed_error_arcmin": -1.5084476116021506,
+          "maximum_absolute_error_arcmin": 20.344853680774122
+        },
+        "qing_highest_in_use": {
+          "reported_dates": 37,
+          "within_precision": 15,
+          "strict_gate": false,
+          "wide_gate_on_observed_dates": true,
+          "mean_absolute_error_arcmin": 2.0762422012129953,
+          "median_signed_error_arcmin": 2.668844344395893,
+          "maximum_absolute_error_arcmin": 3.840152605525873
+        },
+        "qing_full_6973": {
+          "reported_dates": 37,
+          "within_precision": 0,
+          "strict_gate": false,
+          "wide_gate_on_observed_dates": false,
+          "mean_absolute_error_arcmin": 457.7197590068393,
+          "median_signed_error_arcmin": -10.571709526512905,
+          "maximum_absolute_error_arcmin": 741.2849003955705
+        },
+        "qing_full_6913": {
+          "reported_dates": 37,
+          "within_precision": 0,
+          "strict_gate": false,
+          "wide_gate_on_observed_dates": false,
+          "mean_absolute_error_arcmin": 457.73421778590324,
+          "median_signed_error_arcmin": -10.484245073496368,
+          "maximum_absolute_error_arcmin": 741.4479603165887
+        }
+      },
+      "observations": [
+        {
+          "lunar_month": "1",
+          "lunar_day": 1,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-01-23",
+          "printed_mansion_degree_minute": [
+            "虚",
+            7,
+            59
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -19.31484247636149,
+            "qing_mean": -4.470576093880254,
+            "qing_highest_in_use": 2.7144906244495814,
+            "qing_full_6973": -528.8444505245752,
+            "qing_full_6913": -528.7982693320816
+          }
+        },
+        {
+          "lunar_month": "1",
+          "lunar_day": 11,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-02-02",
+          "printed_mansion_degree_minute": [
+            "虚",
+            9,
+            9
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -22.819404277378226,
+            "qing_mean": -7.648810655909983,
+            "qing_highest_in_use": 2.668844344395893,
+            "qing_full_6973": -373.9744495890636,
+            "qing_full_6913": -373.91273468370514
+          }
+        },
+        {
+          "lunar_month": "1",
+          "lunar_day": 21,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-02-12",
+          "printed_mansion_degree_minute": [
+            "危",
+            0,
+            20
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -25.300745974342362,
+            "qing_mean": -9.827045217940622,
+            "qing_highest_in_use": 3.3020352273479148,
+            "qing_full_6973": -197.1360745910556,
+            "qing_full_6913": -197.0609469119404
+          }
+        },
+        {
+          "lunar_month": "2",
+          "lunar_day": 1,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-02-22",
+          "printed_mansion_degree_minute": [
+            "危",
+            1,
+            29
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -27.76699010094717,
+            "qing_mean": -12.005279779865532,
+            "qing_highest_in_use": 3.529084462611536,
+            "qing_full_6973": -10.571709526512905,
+            "qing_full_6913": -10.484245073496368
+          }
+        },
+        {
+          "lunar_month": "2",
+          "lunar_day": 11,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-03-03",
+          "printed_mansion_degree_minute": [
+            "危",
+            2,
+            38
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -30.22814995684257,
+            "qing_mean": -14.18351434189276,
+            "qing_highest_in_use": 3.2792363484065845,
+            "qing_full_6973": 175.4625490505964,
+            "qing_full_6913": 175.56204345767924
+          }
+        },
+        {
+          "lunar_month": "2",
+          "lunar_day": 21,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-03-13",
+          "printed_mansion_degree_minute": [
+            "危",
+            3,
+            46
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -31.672617582241855,
+            "qing_mean": -15.361748903924308,
+            "qing_highest_in_use": 3.4979927656650034,
+            "qing_full_6973": 352.0606774154817,
+            "qing_full_6913": 352.17244256312256
+          }
+        },
+        {
+          "lunar_month": "3",
+          "lunar_day": 1,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-03-22",
+          "printed_mansion_degree_minute": [
+            "危",
+            4,
+            48
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -33.75412243273672,
+            "qing_mean": -17.22216000975095,
+            "qing_highest_in_use": 2.4096185556709315,
+            "qing_full_6973": 492.87935405623557,
+            "qing_full_6913": 493.00264692306996
+          }
+        },
+        {
+          "lunar_month": "3",
+          "lunar_day": 11,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-04-01",
+          "printed_mansion_degree_minute": [
+            "危",
+            5,
+            55
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -34.16047891459584,
+            "qing_mean": -17.40039457172884,
+            "qing_highest_in_use": 2.5318941089460623,
+            "qing_full_6973": 621.9350463471233,
+            "qing_full_6913": 622.0717398152033
+          }
+        },
+        {
+          "lunar_month": "3",
+          "lunar_day": 21,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-04-11",
+          "printed_mansion_degree_minute": [
+            "危",
+            7,
+            1
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -33.551384532506745,
+            "qing_mean": -16.578629133755385,
+            "qing_highest_in_use": 3.0654158679931243,
+            "qing_full_6973": 709.4530644615645,
+            "qing_full_6913": 709.6034022272556
+          }
+        },
+        {
+          "lunar_month": "leap-3",
+          "lunar_day": 1,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-04-21",
+          "printed_mansion_degree_minute": [
+            "危",
+            8,
+            7
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -32.92331424281315,
+            "qing_mean": -15.756863695788752,
+            "qing_highest_in_use": 3.0249112051365046,
+            "qing_full_6973": 741.2849003955705,
+            "qing_full_6913": 741.4479603165887
+          }
+        },
+        {
+          "lunar_month": "leap-3",
+          "lunar_day": 11,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-05-01",
+          "printed_mansion_degree_minute": [
+            "危",
+            9,
+            12
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -31.26144694595041,
+            "qing_mean": -13.935098257761638,
+            "qing_highest_in_use": 3.441314655071892,
+            "qing_full_6973": 705.4317281847375,
+            "qing_full_6913": 705.6041665918224
+          }
+        },
+        {
+          "lunar_month": "leap-3",
+          "lunar_day": 21,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-05-11",
+          "printed_mansion_degree_minute": [
+            "危",
+            10,
+            17
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -29.58050203263042,
+            "qing_mean": -12.113332819741345,
+            "qing_highest_in_use": 3.3602344333485235,
+            "qing_full_6973": 591.4541849030866,
+            "qing_full_6913": 591.6286494949475
+          }
+        },
+        {
+          "lunar_month": "4",
+          "lunar_day": 1,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-05-21",
+          "printed_mansion_degree_minute": [
+            "危",
+            11,
+            21
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -26.88665120710084,
+            "qing_mean": -9.29156738176971,
+            "qing_highest_in_use": 3.840152605525873,
+            "qing_full_6973": 400.77991313298867,
+            "qing_full_6913": 400.94408570935457
+          }
+        },
+        {
+          "lunar_month": "4",
+          "lunar_day": 11,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-05-31",
+          "printed_mansion_degree_minute": [
+            "危",
+            12,
+            26
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -25.158096483779673,
+            "qing_mean": -7.469801943746006,
+            "qing_highest_in_use": 2.950457478716544,
+            "qing_full_6973": 149.00478096079723,
+            "qing_full_6913": 149.14301906034552
+          }
+        },
+        {
+          "lunar_month": "4",
+          "lunar_day": 21,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-06-10",
+          "printed_mansion_degree_minute": [
+            "危",
+            13,
+            30
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -22.401606928067395,
+            "qing_mean": -4.648036505774371,
+            "qing_highest_in_use": 2.769387133662349,
+            "qing_full_6973": -125.43014678073746,
+            "qing_full_6913": -125.3315497731137
+          }
+        },
+        {
+          "lunar_month": "5",
+          "lunar_day": 1,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-06-19",
+          "printed_mansion_degree_minute": [
+            "危",
+            14,
+            27
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -19.311746895353963,
+            "qing_mean": -1.5084476116021506,
+            "qing_highest_in_use": 3.0274435234582597,
+            "qing_full_6973": -354.73642813585684,
+            "qing_full_6913": -354.67893939186183
+          }
+        },
+        {
+          "lunar_month": "5",
+          "lunar_day": 11,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-06-29",
+          "printed_mansion_degree_minute": [
+            "危",
+            15,
+            30
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -15.519103172840687,
+            "qing_mean": 2.3133178263651644,
+            "qing_highest_in_use": 3.5308369514586957,
+            "qing_full_6973": -555.8885754027744,
+            "qing_full_6913": -555.8745592789728
+          }
+        },
+        {
+          "lunar_month": "5",
+          "lunar_day": 21,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-07-09",
+          "printed_mansion_degree_minute": [
+            "危",
+            16,
+            34
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -12.698236228682163,
+            "qing_mean": 5.135083264391369,
+            "qing_highest_in_use": 3.000511606493319,
+            "qing_full_6973": -683.3937934953292,
+            "qing_full_6913": -683.4155210487961
+          }
+        },
+        {
+          "lunar_month": "6",
+          "lunar_day": 1,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-07-18",
+          "printed_mansion_degree_minute": [
+            "危",
+            17,
+            31
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -9.54436780197966,
+            "qing_mean": 8.27467215861816,
+            "qing_highest_in_use": 3.17114766677264,
+            "qing_full_6973": -731.7795322155291,
+            "qing_full_6913": -731.8256780263812
+          }
+        },
+        {
+          "lunar_month": "6",
+          "lunar_day": 11,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-07-28",
+          "printed_mansion_degree_minute": [
+            "危",
+            18,
+            35
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -6.690609690317615,
+            "qing_mean": 11.096437596589794,
+            "qing_highest_in_use": 2.8315189879026548,
+            "qing_full_6973": -720.6448406028062,
+            "qing_full_6913": -720.7106499549968
+          }
+        },
+        {
+          "lunar_month": "6",
+          "lunar_day": 21,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-08-07",
+          "printed_mansion_degree_minute": [
+            "危",
+            19,
+            39
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -3.8137213739173603,
+            "qing_mean": 13.918203034558019,
+            "qing_highest_in_use": 2.7221231915279986,
+            "qing_full_6973": -652.3963186346521,
+            "qing_full_6913": -652.4759123463082
+          }
+        },
+        {
+          "lunar_month": "7",
+          "lunar_day": 1,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-08-17",
+          "printed_mansion_degree_minute": [
+            "室",
+            0,
+            38
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -2.9100159894892386,
+            "qing_mean": 14.739968472586042,
+            "qing_highest_in_use": 0.9263137394327714,
+            "qing_full_6973": -541.7785705182223,
+            "qing_full_6913": -541.8679724265064
+          }
+        },
+        {
+          "lunar_month": "7",
+          "lunar_day": 11,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-08-27",
+          "printed_mansion_degree_minute": [
+            "室",
+            1,
+            43
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -0.9929779164679076,
+            "qing_mean": 16.561733910555176,
+            "qing_highest_in_use": 0.5201097090548501,
+            "qing_full_6973": -397.4748539086511,
+            "qing_full_6913": -397.57154864536915
+          }
+        },
+        {
+          "lunar_month": "7",
+          "lunar_day": 21,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-09-06",
+          "printed_mansion_degree_minute": [
+            "室",
+            2,
+            48
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": 0.9363435817283516,
+            "qing_mean": 18.38349934852431,
+            "qing_highest_in_use": 0.5701113998793517,
+            "qing_full_6973": -230.85067357420144,
+            "qing_full_6913": -230.95317315109583
+          }
+        },
+        {
+          "lunar_month": "8",
+          "lunar_day": 1,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-09-15",
+          "printed_mansion_degree_minute": [
+            "室",
+            3,
+            47
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": 2.204279510200422,
+            "qing_mean": 19.52308824269494,
+            "qing_highest_in_use": 0.5510127029936029,
+            "qing_full_6973": -70.05978009402384,
+            "qing_full_6913": -70.16680370228983
+          }
+        },
+        {
+          "lunar_month": "8",
+          "lunar_day": 11,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-09-25",
+          "printed_mansion_degree_minute": [
+            "室",
+            4,
+            53
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": 3.1839040389752427,
+            "qing_mean": 20.344853680774122,
+            "qing_highest_in_use": 0.6086957973172957,
+            "qing_full_6973": 112.55984175924709,
+            "qing_full_6913": 112.44817053601537
+          }
+        },
+        {
+          "lunar_month": "8",
+          "lunar_day": 21,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-10-05",
+          "printed_mansion_degree_minute": [
+            "室",
+            6,
+            null
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": 3.171761558834305,
+            "qing_mean": 20.166619118745075,
+            "qing_highest_in_use": 0.24417384077537463,
+            "qing_full_6973": 290.1059294959407,
+            "qing_full_6913": 289.98979956478024
+          }
+        },
+        {
+          "lunar_month": "9",
+          "lunar_day": 1,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-10-14",
+          "printed_mansion_degree_minute": [
+            "室",
+            7,
+            null
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": 3.4894277630689885,
+            "qing_mean": 20.306208012916613,
+            "qing_highest_in_use": 0.7202085377400635,
+            "qing_full_6973": 438.69701669492997,
+            "qing_full_6913": 438.5770373603998
+          }
+        },
+        {
+          "lunar_month": "9",
+          "lunar_day": 11,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-10-24",
+          "printed_mansion_degree_minute": [
+            "室",
+            8,
+            8
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": 2.532771296644114,
+            "qing_mean": 19.127973450888476,
+            "qing_highest_in_use": 0.47147190153509655,
+            "qing_full_6973": 579.5741146139335,
+            "qing_full_6913": 579.4503128693771
+          }
+        },
+        {
+          "lunar_month": "9",
+          "lunar_day": 21,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-11-03",
+          "printed_mansion_degree_minute": [
+            "室",
+            9,
+            16
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": 1.5849594436905812,
+            "qing_mean": 17.949738888911497,
+            "qing_highest_in_use": 0.7859400189883292,
+            "qing_full_6973": 683.9192890720477,
+            "qing_full_6913": 683.7928656123652
+          }
+        },
+        {
+          "lunar_month": "10",
+          "lunar_day": 1,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-11-13",
+          "printed_mansion_degree_minute": [
+            "室",
+            10,
+            25
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -0.3390140001309305,
+            "qing_mean": 15.771504326880859,
+            "qing_highest_in_use": 0.6235473739525688,
+            "qing_full_6973": 735.8160811761924,
+            "qing_full_6913": 735.6896871498801
+          }
+        },
+        {
+          "lunar_month": "10",
+          "lunar_day": 11,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-11-23",
+          "printed_mansion_degree_minute": [
+            "室",
+            11,
+            34
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -2.236397134341379,
+            "qing_mean": 13.59326976485022,
+            "qing_highest_in_use": 0.9268503914130921,
+            "qing_full_6973": 720.0779339172717,
+            "qing_full_6913": 719.956695975621
+          }
+        },
+        {
+          "lunar_month": "10",
+          "lunar_day": 21,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-12-03",
+          "printed_mansion_degree_minute": [
+            "室",
+            12,
+            44
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -5.116809735227186,
+            "qing_mean": 10.41503520287506,
+            "qing_highest_in_use": 0.6224494088474408,
+            "qing_full_6973": 621.5004624243271,
+            "qing_full_6913": 621.3930407069462
+          }
+        },
+        {
+          "lunar_month": "11",
+          "lunar_day": 1,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-12-12",
+          "printed_mansion_degree_minute": [
+            "室",
+            13,
+            47
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -7.701901320505282,
+            "qing_mean": 7.554624097100486,
+            "qing_highest_in_use": 0.6120759192300085,
+            "qing_full_6973": 458.3530807091848,
+            "qing_full_6913": 458.2684566844845
+          }
+        },
+        {
+          "lunar_month": "11",
+          "lunar_day": 11,
+          "pdf_page": 46,
+          "gregorian_local_date": "1860-12-22",
+          "printed_mansion_degree_minute": [
+            "室",
+            15,
+            1
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -14.55519917971868,
+            "qing_mean": 0.3763895350709845,
+            "qing_highest_in_use": -3.1963097617092373,
+            "qing_full_6973": 202.6387756107381,
+            "qing_full_6913": 202.59178523889176
+          }
+        },
+        {
+          "lunar_month": "11",
+          "lunar_day": 21,
+          "pdf_page": 46,
+          "gregorian_local_date": "1861-01-01",
+          "printed_mansion_degree_minute": [
+            "壁",
+            0,
+            27
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -14.388547224170818,
+            "qing_mean": 0.19815497304001894,
+            "qing_highest_in_use": 0.10737582357261743,
+            "qing_full_6973": -83.64720651617986,
+            "qing_full_6913": -83.6484177785427
+          }
+        },
+        {
+          "lunar_month": "12",
+          "lunar_day": 1,
+          "pdf_page": 46,
+          "gregorian_local_date": "1861-01-11",
+          "printed_mansion_degree_minute": [
+            "壁",
+            1,
+            37
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -17.216437487940617,
+            "qing_mean": -2.98007958893578,
+            "qing_highest_in_use": 0.41391169759194213,
+            "qing_full_6973": -357.3835978177261,
+            "qing_full_6913": -357.3405822307119
+          }
+        },
+        {
+          "lunar_month": "12",
+          "lunar_day": 11,
+          "pdf_page": 46,
+          "gregorian_local_date": "1861-01-21",
+          "printed_mansion_degree_minute": [
+            "壁",
+            2,
+            47
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -20.043433817744898,
+            "qing_mean": -6.158314150966042,
+            "qing_highest_in_use": 0.6139757439233051,
+            "qing_full_6973": -569.2312227310808,
+            "qing_full_6913": -569.153823237275
+          }
+        },
+        {
+          "lunar_month": "12",
+          "lunar_day": 21,
+          "pdf_page": 46,
+          "gregorian_local_date": "1861-01-31",
+          "printed_mansion_degree_minute": [
+            "壁",
+            3,
+            57
+          ],
+          "signed_error_arcmin": {
+            "modern_mean": -22.851343049336386,
+            "qing_mean": -9.33654871299641,
+            "qing_highest_in_use": 0.6021583108774209,
+            "qing_full_6973": -696.2230804029502,
+            "qing_full_6913": -696.1235601520036
+          }
+        }
+      ]
+    }
+  }
+}

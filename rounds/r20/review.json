@@ -1,0 +1,10 @@
+{
+  "source_pdf_digests_checked": 2,
+  "official_hko_table_digests_checked": 2,
+  "lunar_month_starts_including_next_year_checked": 27,
+  "date_and_printed_angle_rows_checked": 75,
+  "independent_residuals_checked": 375,
+  "maximum_numeric_difference_arcminute": 3.410605131648481e-12,
+  "result_replay_byte_identical": true,
+  "scope": "Independent arithmetic used a Gregorian epoch, direct mansion-table reconstruction and the sine rule for the epicycle. It shared the sealed source transcription, registered historical mean input angles and Swiss Ephemeris. Two internal visual passes checked the source, with no external peer review."
+}
