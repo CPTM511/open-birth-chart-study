@@ -1,0 +1,2457 @@
+{
+  "primary_mondays": {
+    "candidate_holidays": 3,
+    "national": {
+      "matched_holidays": 3,
+      "daytime_share_difference_pp": -8.8810324821,
+      "daytime_count_change_pct": -36.7906624089,
+      "other_hours_count_change_pct": -9.2738441609,
+      "target_counts": {
+        "births": 8307,
+        "known": 8307,
+        "daytime": 3401,
+        "other_known_hours": 4906,
+        "unknown": 0
+      },
+      "control_date_occurrences": 12,
+      "control_counts_by_occurrence": {
+        "births": 43141,
+        "known": 43141,
+        "daytime": 21525,
+        "other_known_hours": 21616,
+        "unknown": 0
+      }
+    },
+    "national_adjacent_week": {
+      "matched_holidays": 3,
+      "daytime_share_difference_pp": -8.8876109355,
+      "daytime_count_change_pct": -36.6574031077,
+      "other_hours_count_change_pct": -9.0276171338,
+      "target_counts": {
+        "births": 8307,
+        "known": 8307,
+        "daytime": 3401,
+        "other_known_hours": 4906,
+        "unknown": 0
+      },
+      "control_date_occurrences": 6,
+      "control_counts_by_occurrence": {
+        "births": 21524,
+        "known": 21524,
+        "daytime": 10743,
+        "other_known_hours": 10781,
+        "unknown": 0
+      }
+    },
+    "clinic_and_hospital": {
+      "matched_holidays": 3,
+      "daytime_share_difference_pp": -9.0492695738,
+      "daytime_count_change_pct": -37.2786514407,
+      "other_hours_count_change_pct": -9.3716464974,
+      "target_counts": {
+        "births": 8177,
+        "known": 8177,
+        "daytime": 3350,
+        "other_known_hours": 4827,
+        "unknown": 0
+      },
+      "control_date_occurrences": 12,
+      "control_counts_by_occurrence": {
+        "births": 42655,
+        "known": 42655,
+        "daytime": 21364,
+        "other_known_hours": 21291,
+        "unknown": 0
+      }
+    },
+    "national_same_pairs_as_clinic_and_hospital": {
+      "matched_holidays": 3,
+      "daytime_share_difference_pp": -8.8810324821,
+      "daytime_count_change_pct": -36.7906624089,
+      "other_hours_count_change_pct": -9.2738441609,
+      "target_counts": {
+        "births": 8307,
+        "known": 8307,
+        "daytime": 3401,
+        "other_known_hours": 4906,
+        "unknown": 0
+      },
+      "control_date_occurrences": 12,
+      "control_counts_by_occurrence": {
+        "births": 43141,
+        "known": 43141,
+        "daytime": 21525,
+        "other_known_hours": 21616,
+        "unknown": 0
+      }
+    },
+    "national_by_year": {
+      "1994": {
+        "matched_holidays": 1,
+        "daytime_share_difference_pp": -9.0724068971,
+        "daytime_count_change_pct": -36.2334359523,
+        "other_hours_count_change_pct": -7.9679652504,
+        "target_counts": {
+          "births": 2886,
+          "known": 2886,
+          "daytime": 1191,
+          "other_known_hours": 1695,
+          "unknown": 0
+        },
+        "control_date_occurrences": 4,
+        "control_counts_by_occurrence": {
+          "births": 14838,
+          "known": 14838,
+          "daytime": 7471,
+          "other_known_hours": 7367,
+          "unknown": 0
+        }
+      },
+      "1997": {
+        "matched_holidays": 1,
+        "daytime_share_difference_pp": -6.8403143509,
+        "daytime_count_change_pct": -35.4707674452,
+        "other_hours_count_change_pct": -14.9359886202,
+        "target_counts": {
+          "births": 2607,
+          "known": 2607,
+          "daytime": 1112,
+          "other_known_hours": 1495,
+          "unknown": 0
+        },
+        "control_date_occurrences": 4,
+        "control_counts_by_occurrence": {
+          "births": 13923,
+          "known": 13923,
+          "daytime": 6893,
+          "other_known_hours": 7030,
+          "unknown": 0
+        }
+      },
+      "1998": {
+        "matched_holidays": 1,
+        "daytime_share_difference_pp": -10.7303761984,
+        "daytime_count_change_pct": -38.6677838291,
+        "other_hours_count_change_pct": -4.917578612,
+        "target_counts": {
+          "births": 2814,
+          "known": 2814,
+          "daytime": 1098,
+          "other_known_hours": 1716,
+          "unknown": 0
+        },
+        "control_date_occurrences": 4,
+        "control_counts_by_occurrence": {
+          "births": 14380,
+          "known": 14380,
+          "daytime": 7161,
+          "other_known_hours": 7219,
+          "unknown": 0
+        }
+      }
+    },
+    "national_by_holiday": {
+      "体育の日": {
+        "matched_holidays": 1,
+        "daytime_share_difference_pp": -9.0724068971,
+        "daytime_count_change_pct": -36.2334359523,
+        "other_hours_count_change_pct": -7.9679652504,
+        "target_counts": {
+          "births": 2886,
+          "known": 2886,
+          "daytime": 1191,
+          "other_known_hours": 1695,
+          "unknown": 0
+        },
+        "control_date_occurrences": 4,
+        "control_counts_by_occurrence": {
+          "births": 14838,
+          "known": 14838,
+          "daytime": 7471,
+          "other_known_hours": 7367,
+          "unknown": 0
+        }
+      },
+      "敬老の日": {
+        "matched_holidays": 1,
+        "daytime_share_difference_pp": -6.8403143509,
+        "daytime_count_change_pct": -35.4707674452,
+        "other_hours_count_change_pct": -14.9359886202,
+        "target_counts": {
+          "births": 2607,
+          "known": 2607,
+          "daytime": 1112,
+          "other_known_hours": 1495,
+          "unknown": 0
+        },
+        "control_date_occurrences": 4,
+        "control_counts_by_occurrence": {
+          "births": 13923,
+          "known": 13923,
+          "daytime": 6893,
+          "other_known_hours": 7030,
+          "unknown": 0
+        }
+      },
+      "海の日": {
+        "matched_holidays": 1,
+        "daytime_share_difference_pp": -10.7303761984,
+        "daytime_count_change_pct": -38.6677838291,
+        "other_hours_count_change_pct": -4.917578612,
+        "target_counts": {
+          "births": 2814,
+          "known": 2814,
+          "daytime": 1098,
+          "other_known_hours": 1716,
+          "unknown": 0
+        },
+        "control_date_occurrences": 4,
+        "control_counts_by_occurrence": {
+          "births": 14380,
+          "known": 14380,
+          "daytime": 7161,
+          "other_known_hours": 7219,
+          "unknown": 0
+        }
+      }
+    },
+    "practical_threshold_pp": -5,
+    "threshold_status": "met"
+  },
+  "secondary_all_weekdays": {
+    "candidate_holidays": 12,
+    "national": {
+      "matched_holidays": 12,
+      "daytime_share_difference_pp": -10.3198662961,
+      "daytime_count_change_pct": -39.517101331,
+      "other_hours_count_change_pct": -8.2760345698,
+      "target_counts": {
+        "births": 32892,
+        "known": 32892,
+        "daytime": 13487,
+        "other_known_hours": 19405,
+        "unknown": 0
+      },
+      "control_date_occurrences": 48,
+      "control_counts_by_occurrence": {
+        "births": 173921,
+        "known": 173921,
+        "daytime": 89291,
+        "other_known_hours": 84630,
+        "unknown": 0
+      }
+    },
+    "national_adjacent_week": {
+      "matched_holidays": 12,
+      "daytime_share_difference_pp": -10.2952805954,
+      "daytime_count_change_pct": -39.5716468497,
+      "other_hours_count_change_pct": -8.4345508221,
+      "target_counts": {
+        "births": 32892,
+        "known": 32892,
+        "daytime": 13487,
+        "other_known_hours": 19405,
+        "unknown": 0
+      },
+      "control_date_occurrences": 24,
+      "control_counts_by_occurrence": {
+        "births": 87128,
+        "known": 87128,
+        "daytime": 44719,
+        "other_known_hours": 42409,
+        "unknown": 0
+      }
+    },
+    "clinic_and_hospital": {
+      "matched_holidays": 12,
+      "daytime_share_difference_pp": -10.4393569191,
+      "daytime_count_change_pct": -39.82458431,
+      "other_hours_count_change_pct": -8.3106610902,
+      "target_counts": {
+        "births": 32454,
+        "known": 32454,
+        "daytime": 13323,
+        "other_known_hours": 19131,
+        "unknown": 0
+      },
+      "control_date_occurrences": 48,
+      "control_counts_by_occurrence": {
+        "births": 172118,
+        "known": 172118,
+        "daytime": 88653,
+        "other_known_hours": 83465,
+        "unknown": 0
+      }
+    },
+    "national_same_pairs_as_clinic_and_hospital": {
+      "matched_holidays": 12,
+      "daytime_share_difference_pp": -10.3198662961,
+      "daytime_count_change_pct": -39.517101331,
+      "other_hours_count_change_pct": -8.2760345698,
+      "target_counts": {
+        "births": 32892,
+        "known": 32892,
+        "daytime": 13487,
+        "other_known_hours": 19405,
+        "unknown": 0
+      },
+      "control_date_occurrences": 48,
+      "control_counts_by_occurrence": {
+        "births": 173921,
+        "known": 173921,
+        "daytime": 89291,
+        "other_known_hours": 84630,
+        "unknown": 0
+      }
+    },
+    "national_by_year": {
+      "1993": {
+        "matched_holidays": 1,
+        "daytime_share_difference_pp": -12.0383119982,
+        "daytime_count_change_pct": -42.6335671883,
+        "other_hours_count_change_pct": -6.6177549523,
+        "target_counts": {
+          "births": 2654,
+          "known": 2654,
+          "daytime": 1063,
+          "other_known_hours": 1591,
+          "unknown": 0
+        },
+        "control_date_occurrences": 4,
+        "control_counts_by_occurrence": {
+          "births": 14227,
+          "known": 14227,
+          "daytime": 7412,
+          "other_known_hours": 6815,
+          "unknown": 0
+        }
+      },
+      "1994": {
+        "matched_holidays": 2,
+        "daytime_share_difference_pp": -9.3680125992,
+        "daytime_count_change_pct": -37.6392643953,
+        "other_hours_count_change_pct": -9.0072318855,
+        "target_counts": {
+          "births": 5631,
+          "known": 5631,
+          "daytime": 2340,
+          "other_known_hours": 3291,
+          "unknown": 0
+        },
+        "control_date_occurrences": 8,
+        "control_counts_by_occurrence": {
+          "births": 29475,
+          "known": 29475,
+          "daytime": 15011,
+          "other_known_hours": 14464,
+          "unknown": 0
+        }
+      },
+      "1995": {
+        "matched_holidays": 2,
+        "daytime_share_difference_pp": -11.6457483893,
+        "daytime_count_change_pct": -44.2847456337,
+        "other_hours_count_change_pct": -11.1166067158,
+        "target_counts": {
+          "births": 5155,
+          "known": 5155,
+          "daytime": 2107,
+          "other_known_hours": 3048,
+          "unknown": 0
+        },
+        "control_date_occurrences": 8,
+        "control_counts_by_occurrence": {
+          "births": 28872,
+          "known": 28872,
+          "daytime": 15155,
+          "other_known_hours": 13717,
+          "unknown": 0
+        }
+      },
+      "1996": {
+        "matched_holidays": 1,
+        "daytime_share_difference_pp": -9.4032448527,
+        "daytime_count_change_pct": -37.8252533552,
+        "other_hours_count_change_pct": -9.1244501206,
+        "target_counts": {
+          "births": 2736,
+          "known": 2736,
+          "daytime": 1135,
+          "other_known_hours": 1601,
+          "unknown": 0
+        },
+        "control_date_occurrences": 4,
+        "control_counts_by_occurrence": {
+          "births": 14349,
+          "known": 14349,
+          "daytime": 7302,
+          "other_known_hours": 7047,
+          "unknown": 0
+        }
+      },
+      "1997": {
+        "matched_holidays": 2,
+        "daytime_share_difference_pp": -9.4146193741,
+        "daytime_count_change_pct": -37.6975208703,
+        "other_hours_count_change_pct": -8.5737922778,
+        "target_counts": {
+          "births": 5314,
+          "known": 5314,
+          "daytime": 2183,
+          "other_known_hours": 3131,
+          "unknown": 0
+        },
+        "control_date_occurrences": 8,
+        "control_counts_by_occurrence": {
+          "births": 27746,
+          "known": 27746,
+          "daytime": 14024,
+          "other_known_hours": 13722,
+          "unknown": 0
+        }
+      },
+      "1998": {
+        "matched_holidays": 2,
+        "daytime_share_difference_pp": -10.648851419,
+        "daytime_count_change_pct": -39.0865247825,
+        "other_hours_count_change_pct": -6.1147598478,
+        "target_counts": {
+          "births": 5811,
+          "known": 5811,
+          "daytime": 2333,
+          "other_known_hours": 3478,
+          "unknown": 0
+        },
+        "control_date_occurrences": 8,
+        "control_counts_by_occurrence": {
+          "births": 30150,
+          "known": 30150,
+          "daytime": 15327,
+          "other_known_hours": 14823,
+          "unknown": 0
+        }
+      },
+      "1999": {
+        "matched_holidays": 2,
+        "daytime_share_difference_pp": -10.1211875697,
+        "daytime_count_change_pct": -38.1651420324,
+        "other_hours_count_change_pct": -6.9727141555,
+        "target_counts": {
+          "births": 5591,
+          "known": 5591,
+          "daytime": 2326,
+          "other_known_hours": 3265,
+          "unknown": 0
+        },
+        "control_date_occurrences": 8,
+        "control_counts_by_occurrence": {
+          "births": 29102,
+          "known": 29102,
+          "daytime": 15060,
+          "other_known_hours": 14042,
+          "unknown": 0
+        }
+      }
+    },
+    "national_by_holiday": {
+      "体育の日": {
+        "matched_holidays": 4,
+        "daytime_share_difference_pp": -10.9547989716,
+        "daytime_count_change_pct": -40.5473031998,
+        "other_hours_count_change_pct": -7.613212787,
+        "target_counts": {
+          "births": 10906,
+          "known": 10906,
+          "daytime": 4404,
+          "other_known_hours": 6502,
+          "unknown": 0
+        },
+        "control_date_occurrences": 16,
+        "control_counts_by_occurrence": {
+          "births": 57855,
+          "known": 57855,
+          "daytime": 29681,
+          "other_known_hours": 28174,
+          "unknown": 0
+        }
+      },
+      "敬老の日": {
+        "matched_holidays": 6,
+        "daytime_share_difference_pp": -9.8540088581,
+        "daytime_count_change_pct": -38.9650276587,
+        "other_hours_count_change_pct": -9.1602166492,
+        "target_counts": {
+          "births": 16375,
+          "known": 16375,
+          "daytime": 6802,
+          "other_known_hours": 9573,
+          "unknown": 0
+        },
+        "control_date_occurrences": 24,
+        "control_counts_by_occurrence": {
+          "births": 86764,
+          "known": 86764,
+          "daytime": 44620,
+          "other_known_hours": 42144,
+          "unknown": 0
+        }
+      },
+      "海の日": {
+        "matched_holidays": 2,
+        "daytime_share_difference_pp": -10.4475732594,
+        "daytime_count_change_pct": -39.1129186102,
+        "other_hours_count_change_pct": -6.9491318973,
+        "target_counts": {
+          "births": 5611,
+          "known": 5611,
+          "daytime": 2281,
+          "other_known_hours": 3330,
+          "unknown": 0
+        },
+        "control_date_occurrences": 8,
+        "control_counts_by_occurrence": {
+          "births": 29302,
+          "known": 29302,
+          "daytime": 14990,
+          "other_known_hours": 14312,
+          "unknown": 0
+        }
+      }
+    }
+  },
+  "weekday_holiday_cases": [
+    {
+      "date": "1993-09-15",
+      "holiday": "敬老の日",
+      "publisher_holiday_label": "敬老の日",
+      "is_monday": false,
+      "main": {
+        "controls": [
+          "1993-09-01",
+          "1993-09-08",
+          "1993-09-22",
+          "1993-09-29"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2654,
+            "known": 2654,
+            "daytime": 1063,
+            "other_known_hours": 1591,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -12.0383119982,
+          "daytime_count_change_pct": -42.6335671883,
+          "other_hours_count_change_pct": -6.6177549523,
+          "control_counts": {
+            "1993-09-01": {
+              "births": 3534,
+              "known": 3534,
+              "daytime": 1829,
+              "other_known_hours": 1705,
+              "unknown": 0
+            },
+            "1993-09-08": {
+              "births": 3384,
+              "known": 3384,
+              "daytime": 1760,
+              "other_known_hours": 1624,
+              "unknown": 0
+            },
+            "1993-09-22": {
+              "births": 3671,
+              "known": 3671,
+              "daytime": 1962,
+              "other_known_hours": 1709,
+              "unknown": 0
+            },
+            "1993-09-29": {
+              "births": 3638,
+              "known": 3638,
+              "daytime": 1861,
+              "other_known_hours": 1777,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2621,
+            "known": 2621,
+            "daytime": 1048,
+            "other_known_hours": 1573,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -12.2361446824,
+          "daytime_count_change_pct": -43.0898723866,
+          "other_hours_count_change_pct": -6.605313938,
+          "control_counts": {
+            "1993-09-01": {
+              "births": 3505,
+              "known": 3505,
+              "daytime": 1820,
+              "other_known_hours": 1685,
+              "unknown": 0
+            },
+            "1993-09-08": {
+              "births": 3357,
+              "known": 3357,
+              "daytime": 1747,
+              "other_known_hours": 1610,
+              "unknown": 0
+            },
+            "1993-09-22": {
+              "births": 3641,
+              "known": 3641,
+              "daytime": 1952,
+              "other_known_hours": 1689,
+              "unknown": 0
+            },
+            "1993-09-29": {
+              "births": 3600,
+              "known": 3600,
+              "daytime": 1847,
+              "other_known_hours": 1753,
+              "unknown": 0
+            }
+          }
+        }
+      },
+      "adjacent_week": {
+        "controls": [
+          "1993-09-08",
+          "1993-09-22"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2654,
+            "known": 2654,
+            "daytime": 1063,
+            "other_known_hours": 1591,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -12.6749413373,
+          "daytime_count_change_pct": -42.8801719506,
+          "other_hours_count_change_pct": -4.5304530453,
+          "control_counts": {
+            "1993-09-08": {
+              "births": 3384,
+              "known": 3384,
+              "daytime": 1760,
+              "other_known_hours": 1624,
+              "unknown": 0
+            },
+            "1993-09-22": {
+              "births": 3671,
+              "known": 3671,
+              "daytime": 1962,
+              "other_known_hours": 1709,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2621,
+            "known": 2621,
+            "daytime": 1048,
+            "other_known_hours": 1573,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -12.841340108,
+          "daytime_count_change_pct": -43.3360367667,
+          "other_hours_count_change_pct": -4.6377690209,
+          "control_counts": {
+            "1993-09-08": {
+              "births": 3357,
+              "known": 3357,
+              "daytime": 1747,
+              "other_known_hours": 1610,
+              "unknown": 0
+            },
+            "1993-09-22": {
+              "births": 3641,
+              "known": 3641,
+              "daytime": 1952,
+              "other_known_hours": 1689,
+              "unknown": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "date": "1994-09-15",
+      "holiday": "敬老の日",
+      "publisher_holiday_label": "敬老の日",
+      "is_monday": false,
+      "main": {
+        "controls": [
+          "1994-09-01",
+          "1994-09-08",
+          "1994-09-22",
+          "1994-09-29"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2745,
+            "known": 2745,
+            "daytime": 1149,
+            "other_known_hours": 1596,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -9.6636183014,
+          "daytime_count_change_pct": -39.0450928382,
+          "other_hours_count_change_pct": -10.0464985205,
+          "control_counts": {
+            "1994-09-01": {
+              "births": 3669,
+              "known": 3669,
+              "daytime": 1892,
+              "other_known_hours": 1777,
+              "unknown": 0
+            },
+            "1994-09-08": {
+              "births": 3546,
+              "known": 3546,
+              "daytime": 1837,
+              "other_known_hours": 1709,
+              "unknown": 0
+            },
+            "1994-09-22": {
+              "births": 3853,
+              "known": 3853,
+              "daytime": 1969,
+              "other_known_hours": 1884,
+              "unknown": 0
+            },
+            "1994-09-29": {
+              "births": 3569,
+              "known": 3569,
+              "daytime": 1842,
+              "other_known_hours": 1727,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2717,
+            "known": 2717,
+            "daytime": 1137,
+            "other_known_hours": 1580,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -9.7876630517,
+          "daytime_count_change_pct": -39.165329053,
+          "other_hours_count_change_pct": -9.7787294789,
+          "control_counts": {
+            "1994-09-01": {
+              "births": 3632,
+              "known": 3632,
+              "daytime": 1875,
+              "other_known_hours": 1757,
+              "unknown": 0
+            },
+            "1994-09-08": {
+              "births": 3508,
+              "known": 3508,
+              "daytime": 1823,
+              "other_known_hours": 1685,
+              "unknown": 0
+            },
+            "1994-09-22": {
+              "births": 3814,
+              "known": 3814,
+              "daytime": 1953,
+              "other_known_hours": 1861,
+              "unknown": 0
+            },
+            "1994-09-29": {
+              "births": 3527,
+              "known": 3527,
+              "daytime": 1825,
+              "other_known_hours": 1702,
+              "unknown": 0
+            }
+          }
+        }
+      },
+      "adjacent_week": {
+        "controls": [
+          "1994-09-08",
+          "1994-09-22"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2745,
+            "known": 2745,
+            "daytime": 1149,
+            "other_known_hours": 1596,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -9.5960200681,
+          "daytime_count_change_pct": -39.6216500263,
+          "other_hours_count_change_pct": -11.1605900362,
+          "control_counts": {
+            "1994-09-08": {
+              "births": 3546,
+              "known": 3546,
+              "daytime": 1837,
+              "other_known_hours": 1709,
+              "unknown": 0
+            },
+            "1994-09-22": {
+              "births": 3853,
+              "known": 3853,
+              "daytime": 1969,
+              "other_known_hours": 1884,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2717,
+            "known": 2717,
+            "daytime": 1137,
+            "other_known_hours": 1580,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -9.7388817308,
+          "daytime_count_change_pct": -39.7775423729,
+          "other_hours_count_change_pct": -10.8855047941,
+          "control_counts": {
+            "1994-09-08": {
+              "births": 3508,
+              "known": 3508,
+              "daytime": 1823,
+              "other_known_hours": 1685,
+              "unknown": 0
+            },
+            "1994-09-22": {
+              "births": 3814,
+              "known": 3814,
+              "daytime": 1953,
+              "other_known_hours": 1861,
+              "unknown": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "date": "1994-10-10",
+      "holiday": "体育の日",
+      "publisher_holiday_label": "体育の日",
+      "is_monday": true,
+      "main": {
+        "controls": [
+          "1994-09-26",
+          "1994-10-03",
+          "1994-10-17",
+          "1994-10-24"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2886,
+            "known": 2886,
+            "daytime": 1191,
+            "other_known_hours": 1695,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -9.0724068971,
+          "daytime_count_change_pct": -36.2334359523,
+          "other_hours_count_change_pct": -7.9679652504,
+          "control_counts": {
+            "1994-09-26": {
+              "births": 3748,
+              "known": 3748,
+              "daytime": 1856,
+              "other_known_hours": 1892,
+              "unknown": 0
+            },
+            "1994-10-03": {
+              "births": 3901,
+              "known": 3901,
+              "daytime": 2002,
+              "other_known_hours": 1899,
+              "unknown": 0
+            },
+            "1994-10-17": {
+              "births": 3622,
+              "known": 3622,
+              "daytime": 1802,
+              "other_known_hours": 1820,
+              "unknown": 0
+            },
+            "1994-10-24": {
+              "births": 3567,
+              "known": 3567,
+              "daytime": 1811,
+              "other_known_hours": 1756,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2848,
+            "known": 2848,
+            "daytime": 1179,
+            "other_known_hours": 1669,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -9.1424740946,
+          "daytime_count_change_pct": -36.4163408386,
+          "other_hours_count_change_pct": -7.9807029635,
+          "control_counts": {
+            "1994-09-26": {
+              "births": 3709,
+              "known": 3709,
+              "daytime": 1845,
+              "other_known_hours": 1864,
+              "unknown": 0
+            },
+            "1994-10-03": {
+              "births": 3859,
+              "known": 3859,
+              "daytime": 1992,
+              "other_known_hours": 1867,
+              "unknown": 0
+            },
+            "1994-10-17": {
+              "births": 3580,
+              "known": 3580,
+              "daytime": 1786,
+              "other_known_hours": 1794,
+              "unknown": 0
+            },
+            "1994-10-24": {
+              "births": 3524,
+              "known": 3524,
+              "daytime": 1794,
+              "other_known_hours": 1730,
+              "unknown": 0
+            }
+          }
+        }
+      },
+      "adjacent_week": {
+        "controls": [
+          "1994-10-03",
+          "1994-10-17"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2886,
+            "known": 2886,
+            "daytime": 1191,
+            "other_known_hours": 1695,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -9.267655138,
+          "daytime_count_change_pct": -37.38170347,
+          "other_hours_count_change_pct": -8.8464641033,
+          "control_counts": {
+            "1994-10-03": {
+              "births": 3901,
+              "known": 3901,
+              "daytime": 2002,
+              "other_known_hours": 1899,
+              "unknown": 0
+            },
+            "1994-10-17": {
+              "births": 3622,
+              "known": 3622,
+              "daytime": 1802,
+              "other_known_hours": 1820,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2848,
+            "known": 2848,
+            "daytime": 1179,
+            "other_known_hours": 1669,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -9.3564574519,
+          "daytime_count_change_pct": -37.5860243515,
+          "other_hours_count_change_pct": -8.8227260311,
+          "control_counts": {
+            "1994-10-03": {
+              "births": 3859,
+              "known": 3859,
+              "daytime": 1992,
+              "other_known_hours": 1867,
+              "unknown": 0
+            },
+            "1994-10-17": {
+              "births": 3580,
+              "known": 3580,
+              "daytime": 1786,
+              "other_known_hours": 1794,
+              "unknown": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "date": "1995-09-15",
+      "holiday": "敬老の日",
+      "publisher_holiday_label": "敬老の日",
+      "is_monday": false,
+      "main": {
+        "controls": [
+          "1995-09-01",
+          "1995-09-08",
+          "1995-09-22",
+          "1995-09-29"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2578,
+            "known": 2578,
+            "daytime": 1100,
+            "other_known_hours": 1478,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -9.9368770394,
+          "daytime_count_change_pct": -40.363242071,
+          "other_hours_count_change_pct": -11.08437359,
+          "control_counts": {
+            "1995-09-01": {
+              "births": 3567,
+              "known": 3567,
+              "daytime": 1877,
+              "other_known_hours": 1690,
+              "unknown": 0
+            },
+            "1995-09-08": {
+              "births": 3464,
+              "known": 3464,
+              "daytime": 1848,
+              "other_known_hours": 1616,
+              "unknown": 0
+            },
+            "1995-09-22": {
+              "births": 3597,
+              "known": 3597,
+              "daytime": 1865,
+              "other_known_hours": 1732,
+              "unknown": 0
+            },
+            "1995-09-29": {
+              "births": 3399,
+              "known": 3399,
+              "daytime": 1788,
+              "other_known_hours": 1611,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2549,
+            "known": 2549,
+            "daytime": 1087,
+            "other_known_hours": 1462,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -10.1490997528,
+          "daytime_count_change_pct": -40.6416382253,
+          "other_hours_count_change_pct": -10.7448107448,
+          "control_counts": {
+            "1995-09-01": {
+              "births": 3536,
+              "known": 3536,
+              "daytime": 1868,
+              "other_known_hours": 1668,
+              "unknown": 0
+            },
+            "1995-09-08": {
+              "births": 3431,
+              "known": 3431,
+              "daytime": 1837,
+              "other_known_hours": 1594,
+              "unknown": 0
+            },
+            "1995-09-22": {
+              "births": 3557,
+              "known": 3557,
+              "daytime": 1847,
+              "other_known_hours": 1710,
+              "unknown": 0
+            },
+            "1995-09-29": {
+              "births": 3353,
+              "known": 3353,
+              "daytime": 1773,
+              "other_known_hours": 1580,
+              "unknown": 0
+            }
+          }
+        }
+      },
+      "adjacent_week": {
+        "controls": [
+          "1995-09-08",
+          "1995-09-22"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2578,
+            "known": 2578,
+            "daytime": 1100,
+            "other_known_hours": 1478,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -9.9300108712,
+          "daytime_count_change_pct": -40.748720711,
+          "other_hours_count_change_pct": -11.7084826762,
+          "control_counts": {
+            "1995-09-08": {
+              "births": 3464,
+              "known": 3464,
+              "daytime": 1848,
+              "other_known_hours": 1616,
+              "unknown": 0
+            },
+            "1995-09-22": {
+              "births": 3597,
+              "known": 3597,
+              "daytime": 1865,
+              "other_known_hours": 1732,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2549,
+            "known": 2549,
+            "daytime": 1087,
+            "other_known_hours": 1462,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -10.0893367002,
+          "daytime_count_change_pct": -40.9880564604,
+          "other_hours_count_change_pct": -11.5012106538,
+          "control_counts": {
+            "1995-09-08": {
+              "births": 3431,
+              "known": 3431,
+              "daytime": 1837,
+              "other_known_hours": 1594,
+              "unknown": 0
+            },
+            "1995-09-22": {
+              "births": 3557,
+              "known": 3557,
+              "daytime": 1847,
+              "other_known_hours": 1710,
+              "unknown": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "date": "1995-10-10",
+      "holiday": "体育の日",
+      "publisher_holiday_label": "体育の日",
+      "is_monday": false,
+      "main": {
+        "controls": [
+          "1995-09-26",
+          "1995-10-03",
+          "1995-10-17",
+          "1995-10-24"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2577,
+            "known": 2577,
+            "daytime": 1007,
+            "other_known_hours": 1570,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -13.3546197392,
+          "daytime_count_change_pct": -48.2062491963,
+          "other_hours_count_change_pct": -11.1488398415,
+          "control_counts": {
+            "1995-09-26": {
+              "births": 3975,
+              "known": 3975,
+              "daytime": 2039,
+              "other_known_hours": 1936,
+              "unknown": 0
+            },
+            "1995-10-03": {
+              "births": 3772,
+              "known": 3772,
+              "daytime": 1950,
+              "other_known_hours": 1822,
+              "unknown": 0
+            },
+            "1995-10-17": {
+              "births": 3535,
+              "known": 3535,
+              "daytime": 1876,
+              "other_known_hours": 1659,
+              "unknown": 0
+            },
+            "1995-10-24": {
+              "births": 3563,
+              "known": 3563,
+              "daytime": 1912,
+              "other_known_hours": 1651,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2545,
+            "known": 2545,
+            "daytime": 995,
+            "other_known_hours": 1550,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -13.5325633312,
+          "daytime_count_change_pct": -48.4589484589,
+          "other_hours_count_change_pct": -10.9451307096,
+          "control_counts": {
+            "1995-09-26": {
+              "births": 3928,
+              "known": 3928,
+              "daytime": 2028,
+              "other_known_hours": 1900,
+              "unknown": 0
+            },
+            "1995-10-03": {
+              "births": 3741,
+              "known": 3741,
+              "daytime": 1939,
+              "other_known_hours": 1802,
+              "unknown": 0
+            },
+            "1995-10-17": {
+              "births": 3499,
+              "known": 3499,
+              "daytime": 1863,
+              "other_known_hours": 1636,
+              "unknown": 0
+            },
+            "1995-10-24": {
+              "births": 3516,
+              "known": 3516,
+              "daytime": 1892,
+              "other_known_hours": 1624,
+              "unknown": 0
+            }
+          }
+        }
+      },
+      "adjacent_week": {
+        "controls": [
+          "1995-10-03",
+          "1995-10-17"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2577,
+            "known": 2577,
+            "daytime": 1007,
+            "other_known_hours": 1570,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -13.3065642958,
+          "daytime_count_change_pct": -47.3601672765,
+          "other_hours_count_change_pct": -9.7960356219,
+          "control_counts": {
+            "1995-10-03": {
+              "births": 3772,
+              "known": 3772,
+              "daytime": 1950,
+              "other_known_hours": 1822,
+              "unknown": 0
+            },
+            "1995-10-17": {
+              "births": 3535,
+              "known": 3535,
+              "daytime": 1876,
+              "other_known_hours": 1659,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2545,
+            "known": 2545,
+            "daytime": 995,
+            "other_known_hours": 1550,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -13.4411553854,
+          "daytime_count_change_pct": -47.6591267754,
+          "other_hours_count_change_pct": -9.8312972659,
+          "control_counts": {
+            "1995-10-03": {
+              "births": 3741,
+              "known": 3741,
+              "daytime": 1939,
+              "other_known_hours": 1802,
+              "unknown": 0
+            },
+            "1995-10-17": {
+              "births": 3499,
+              "known": 3499,
+              "daytime": 1863,
+              "other_known_hours": 1636,
+              "unknown": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "date": "1996-10-10",
+      "holiday": "体育の日",
+      "publisher_holiday_label": "体育の日",
+      "is_monday": false,
+      "main": {
+        "controls": [
+          "1996-09-26",
+          "1996-10-03",
+          "1996-10-17",
+          "1996-10-24"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2736,
+            "known": 2736,
+            "daytime": 1135,
+            "other_known_hours": 1601,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -9.4032448527,
+          "daytime_count_change_pct": -37.8252533552,
+          "other_hours_count_change_pct": -9.1244501206,
+          "control_counts": {
+            "1996-09-26": {
+              "births": 3845,
+              "known": 3845,
+              "daytime": 1997,
+              "other_known_hours": 1848,
+              "unknown": 0
+            },
+            "1996-10-03": {
+              "births": 3664,
+              "known": 3664,
+              "daytime": 1809,
+              "other_known_hours": 1855,
+              "unknown": 0
+            },
+            "1996-10-17": {
+              "births": 3445,
+              "known": 3445,
+              "daytime": 1722,
+              "other_known_hours": 1723,
+              "unknown": 0
+            },
+            "1996-10-24": {
+              "births": 3395,
+              "known": 3395,
+              "daytime": 1774,
+              "other_known_hours": 1621,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2695,
+            "known": 2695,
+            "daytime": 1126,
+            "other_known_hours": 1569,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -9.2804984061,
+          "daytime_count_change_pct": -37.9186767746,
+          "other_hours_count_change_pct": -9.7368042572,
+          "control_counts": {
+            "1996-09-26": {
+              "births": 3806,
+              "known": 3806,
+              "daytime": 1984,
+              "other_known_hours": 1822,
+              "unknown": 0
+            },
+            "1996-10-03": {
+              "births": 3627,
+              "known": 3627,
+              "daytime": 1796,
+              "other_known_hours": 1831,
+              "unknown": 0
+            },
+            "1996-10-17": {
+              "births": 3415,
+              "known": 3415,
+              "daytime": 1715,
+              "other_known_hours": 1700,
+              "unknown": 0
+            },
+            "1996-10-24": {
+              "births": 3360,
+              "known": 3360,
+              "daytime": 1760,
+              "other_known_hours": 1600,
+              "unknown": 0
+            }
+          }
+        }
+      },
+      "adjacent_week": {
+        "controls": [
+          "1996-10-03",
+          "1996-10-17"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2736,
+            "known": 2736,
+            "daytime": 1135,
+            "other_known_hours": 1601,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -8.1949603485,
+          "daytime_count_change_pct": -35.7122628151,
+          "other_hours_count_change_pct": -10.5086640581,
+          "control_counts": {
+            "1996-10-03": {
+              "births": 3664,
+              "known": 3664,
+              "daytime": 1809,
+              "other_known_hours": 1855,
+              "unknown": 0
+            },
+            "1996-10-17": {
+              "births": 3445,
+              "known": 3445,
+              "daytime": 1722,
+              "other_known_hours": 1723,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2695,
+            "known": 2695,
+            "daytime": 1126,
+            "other_known_hours": 1569,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -8.0874873875,
+          "daytime_count_change_pct": -35.8587297066,
+          "other_hours_count_change_pct": -11.1299915038,
+          "control_counts": {
+            "1996-10-03": {
+              "births": 3627,
+              "known": 3627,
+              "daytime": 1796,
+              "other_known_hours": 1831,
+              "unknown": 0
+            },
+            "1996-10-17": {
+              "births": 3415,
+              "known": 3415,
+              "daytime": 1715,
+              "other_known_hours": 1700,
+              "unknown": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "date": "1997-09-15",
+      "holiday": "敬老の日",
+      "publisher_holiday_label": "敬老の日",
+      "is_monday": true,
+      "main": {
+        "controls": [
+          "1997-09-01",
+          "1997-09-08",
+          "1997-09-22",
+          "1997-09-29"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2607,
+            "known": 2607,
+            "daytime": 1112,
+            "other_known_hours": 1495,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -6.8403143509,
+          "daytime_count_change_pct": -35.4707674452,
+          "other_hours_count_change_pct": -14.9359886202,
+          "control_counts": {
+            "1997-09-01": {
+              "births": 3400,
+              "known": 3400,
+              "daytime": 1619,
+              "other_known_hours": 1781,
+              "unknown": 0
+            },
+            "1997-09-08": {
+              "births": 3484,
+              "known": 3484,
+              "daytime": 1761,
+              "other_known_hours": 1723,
+              "unknown": 0
+            },
+            "1997-09-22": {
+              "births": 3528,
+              "known": 3528,
+              "daytime": 1757,
+              "other_known_hours": 1771,
+              "unknown": 0
+            },
+            "1997-09-29": {
+              "births": 3511,
+              "known": 3511,
+              "daytime": 1756,
+              "other_known_hours": 1755,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2563,
+            "known": 2563,
+            "daytime": 1090,
+            "other_known_hours": 1473,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -7.1663634399,
+          "daytime_count_change_pct": -36.303871439,
+          "other_hours_count_change_pct": -14.916967509,
+          "control_counts": {
+            "1997-09-01": {
+              "births": 3362,
+              "known": 3362,
+              "daytime": 1604,
+              "other_known_hours": 1758,
+              "unknown": 0
+            },
+            "1997-09-08": {
+              "births": 3454,
+              "known": 3454,
+              "daytime": 1748,
+              "other_known_hours": 1706,
+              "unknown": 0
+            },
+            "1997-09-22": {
+              "births": 3487,
+              "known": 3487,
+              "daytime": 1747,
+              "other_known_hours": 1740,
+              "unknown": 0
+            },
+            "1997-09-29": {
+              "births": 3467,
+              "known": 3467,
+              "daytime": 1746,
+              "other_known_hours": 1721,
+              "unknown": 0
+            }
+          }
+        }
+      },
+      "adjacent_week": {
+        "controls": [
+          "1997-09-08",
+          "1997-09-22"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2607,
+            "known": 2607,
+            "daytime": 1112,
+            "other_known_hours": 1495,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -7.5190767154,
+          "daytime_count_change_pct": -36.7822626492,
+          "other_hours_count_change_pct": -14.4247281053,
+          "control_counts": {
+            "1997-09-08": {
+              "births": 3484,
+              "known": 3484,
+              "daytime": 1761,
+              "other_known_hours": 1723,
+              "unknown": 0
+            },
+            "1997-09-22": {
+              "births": 3528,
+              "known": 3528,
+              "daytime": 1757,
+              "other_known_hours": 1771,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2563,
+            "known": 2563,
+            "daytime": 1090,
+            "other_known_hours": 1473,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -7.8258946109,
+          "daytime_count_change_pct": -37.6251788269,
+          "other_hours_count_change_pct": -14.5095763204,
+          "control_counts": {
+            "1997-09-08": {
+              "births": 3454,
+              "known": 3454,
+              "daytime": 1748,
+              "other_known_hours": 1706,
+              "unknown": 0
+            },
+            "1997-09-22": {
+              "births": 3487,
+              "known": 3487,
+              "daytime": 1747,
+              "other_known_hours": 1740,
+              "unknown": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "date": "1997-10-10",
+      "holiday": "体育の日",
+      "publisher_holiday_label": "体育の日",
+      "is_monday": false,
+      "main": {
+        "controls": [
+          "1997-09-26",
+          "1997-10-03",
+          "1997-10-17",
+          "1997-10-24"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2707,
+            "known": 2707,
+            "daytime": 1071,
+            "other_known_hours": 1636,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -11.9889243973,
+          "daytime_count_change_pct": -39.9242742953,
+          "other_hours_count_change_pct": -2.2115959354,
+          "control_counts": {
+            "1997-09-26": {
+              "births": 3741,
+              "known": 3741,
+              "daytime": 1978,
+              "other_known_hours": 1763,
+              "unknown": 0
+            },
+            "1997-10-03": {
+              "births": 3432,
+              "known": 3432,
+              "daytime": 1745,
+              "other_known_hours": 1687,
+              "unknown": 0
+            },
+            "1997-10-17": {
+              "births": 3378,
+              "known": 3378,
+              "daytime": 1734,
+              "other_known_hours": 1644,
+              "unknown": 0
+            },
+            "1997-10-24": {
+              "births": 3272,
+              "known": 3272,
+              "daytime": 1674,
+              "other_known_hours": 1598,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2672,
+            "known": 2672,
+            "daytime": 1064,
+            "other_known_hours": 1608,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -11.929421569,
+          "daytime_count_change_pct": -40.0140944327,
+          "other_hours_count_change_pct": -2.6192278577,
+          "control_counts": {
+            "1997-09-26": {
+              "births": 3702,
+              "known": 3702,
+              "daytime": 1969,
+              "other_known_hours": 1733,
+              "unknown": 0
+            },
+            "1997-10-03": {
+              "births": 3403,
+              "known": 3403,
+              "daytime": 1738,
+              "other_known_hours": 1665,
+              "unknown": 0
+            },
+            "1997-10-17": {
+              "births": 3351,
+              "known": 3351,
+              "daytime": 1727,
+              "other_known_hours": 1624,
+              "unknown": 0
+            },
+            "1997-10-24": {
+              "births": 3244,
+              "known": 3244,
+              "daytime": 1661,
+              "other_known_hours": 1583,
+              "unknown": 0
+            }
+          }
+        }
+      },
+      "adjacent_week": {
+        "controls": [
+          "1997-10-03",
+          "1997-10-17"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2707,
+            "known": 2707,
+            "daytime": 1071,
+            "other_known_hours": 1636,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -11.5244756809,
+          "daytime_count_change_pct": -38.430583501,
+          "other_hours_count_change_pct": -1.7712398679,
+          "control_counts": {
+            "1997-10-03": {
+              "births": 3432,
+              "known": 3432,
+              "daytime": 1745,
+              "other_known_hours": 1687,
+              "unknown": 0
+            },
+            "1997-10-17": {
+              "births": 3378,
+              "known": 3378,
+              "daytime": 1734,
+              "other_known_hours": 1644,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2672,
+            "known": 2672,
+            "daytime": 1064,
+            "other_known_hours": 1608,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -11.4843595612,
+          "daytime_count_change_pct": -38.5858585859,
+          "other_hours_count_change_pct": -2.2195196108,
+          "control_counts": {
+            "1997-10-03": {
+              "births": 3403,
+              "known": 3403,
+              "daytime": 1738,
+              "other_known_hours": 1665,
+              "unknown": 0
+            },
+            "1997-10-17": {
+              "births": 3351,
+              "known": 3351,
+              "daytime": 1727,
+              "other_known_hours": 1624,
+              "unknown": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "date": "1998-07-20",
+      "holiday": "海の日",
+      "publisher_holiday_label": "海の日",
+      "is_monday": true,
+      "main": {
+        "controls": [
+          "1998-07-06",
+          "1998-07-13",
+          "1998-07-27",
+          "1998-08-03"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2814,
+            "known": 2814,
+            "daytime": 1098,
+            "other_known_hours": 1716,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -10.7303761984,
+          "daytime_count_change_pct": -38.6677838291,
+          "other_hours_count_change_pct": -4.917578612,
+          "control_counts": {
+            "1998-07-06": {
+              "births": 3667,
+              "known": 3667,
+              "daytime": 1864,
+              "other_known_hours": 1803,
+              "unknown": 0
+            },
+            "1998-07-13": {
+              "births": 3356,
+              "known": 3356,
+              "daytime": 1596,
+              "other_known_hours": 1760,
+              "unknown": 0
+            },
+            "1998-07-27": {
+              "births": 3633,
+              "known": 3633,
+              "daytime": 1825,
+              "other_known_hours": 1808,
+              "unknown": 0
+            },
+            "1998-08-03": {
+              "births": 3724,
+              "known": 3724,
+              "daytime": 1876,
+              "other_known_hours": 1848,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2766,
+            "known": 2766,
+            "daytime": 1081,
+            "other_known_hours": 1685,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -10.8389711869,
+          "daytime_count_change_pct": -39.1157420445,
+          "other_hours_count_change_pct": -5.2172690198,
+          "control_counts": {
+            "1998-07-06": {
+              "births": 3625,
+              "known": 3625,
+              "daytime": 1845,
+              "other_known_hours": 1780,
+              "unknown": 0
+            },
+            "1998-07-13": {
+              "births": 3315,
+              "known": 3315,
+              "daytime": 1584,
+              "other_known_hours": 1731,
+              "unknown": 0
+            },
+            "1998-07-27": {
+              "births": 3591,
+              "known": 3591,
+              "daytime": 1813,
+              "other_known_hours": 1778,
+              "unknown": 0
+            },
+            "1998-08-03": {
+              "births": 3682,
+              "known": 3682,
+              "daytime": 1860,
+              "other_known_hours": 1822,
+              "unknown": 0
+            }
+          }
+        }
+      },
+      "adjacent_week": {
+        "controls": [
+          "1998-07-13",
+          "1998-07-27"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2814,
+            "known": 2814,
+            "daytime": 1098,
+            "other_known_hours": 1716,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -9.8761009529,
+          "daytime_count_change_pct": -35.8082432037,
+          "other_hours_count_change_pct": -3.8116591928,
+          "control_counts": {
+            "1998-07-13": {
+              "births": 3356,
+              "known": 3356,
+              "daytime": 1596,
+              "other_known_hours": 1760,
+              "unknown": 0
+            },
+            "1998-07-27": {
+              "births": 3633,
+              "known": 3633,
+              "daytime": 1825,
+              "other_known_hours": 1808,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2766,
+            "known": 2766,
+            "daytime": 1081,
+            "other_known_hours": 1685,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -10.053360997,
+          "daytime_count_change_pct": -36.3556078893,
+          "other_hours_count_change_pct": -3.9612425192,
+          "control_counts": {
+            "1998-07-13": {
+              "births": 3315,
+              "known": 3315,
+              "daytime": 1584,
+              "other_known_hours": 1731,
+              "unknown": 0
+            },
+            "1998-07-27": {
+              "births": 3591,
+              "known": 3591,
+              "daytime": 1813,
+              "other_known_hours": 1778,
+              "unknown": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "date": "1998-09-15",
+      "holiday": "敬老の日",
+      "publisher_holiday_label": "敬老の日",
+      "is_monday": false,
+      "main": {
+        "controls": [
+          "1998-09-01",
+          "1998-09-08",
+          "1998-09-22",
+          "1998-09-29"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2997,
+            "known": 2997,
+            "daytime": 1235,
+            "other_known_hours": 1762,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -10.5673266397,
+          "daytime_count_change_pct": -39.505265736,
+          "other_hours_count_change_pct": -7.3119410836,
+          "control_counts": {
+            "1998-09-01": {
+              "births": 3651,
+              "known": 3651,
+              "daytime": 1912,
+              "other_known_hours": 1739,
+              "unknown": 0
+            },
+            "1998-09-08": {
+              "births": 3976,
+              "known": 3976,
+              "daytime": 2051,
+              "other_known_hours": 1925,
+              "unknown": 0
+            },
+            "1998-09-22": {
+              "births": 4236,
+              "known": 4236,
+              "daytime": 2228,
+              "other_known_hours": 2008,
+              "unknown": 0
+            },
+            "1998-09-29": {
+              "births": 3907,
+              "known": 3907,
+              "daytime": 1975,
+              "other_known_hours": 1932,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2955,
+            "known": 2955,
+            "daytime": 1217,
+            "other_known_hours": 1738,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -10.7631590729,
+          "daytime_count_change_pct": -39.9308983218,
+          "other_hours_count_change_pct": -7.2324526288,
+          "control_counts": {
+            "1998-09-01": {
+              "births": 3615,
+              "known": 3615,
+              "daytime": 1900,
+              "other_known_hours": 1715,
+              "unknown": 0
+            },
+            "1998-09-08": {
+              "births": 3938,
+              "known": 3938,
+              "daytime": 2039,
+              "other_known_hours": 1899,
+              "unknown": 0
+            },
+            "1998-09-22": {
+              "births": 4178,
+              "known": 4178,
+              "daytime": 2209,
+              "other_known_hours": 1969,
+              "unknown": 0
+            },
+            "1998-09-29": {
+              "births": 3867,
+              "known": 3867,
+              "daytime": 1956,
+              "other_known_hours": 1911,
+              "unknown": 0
+            }
+          }
+        }
+      },
+      "adjacent_week": {
+        "controls": [
+          "1998-09-08",
+          "1998-09-22"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2997,
+            "known": 2997,
+            "daytime": 1235,
+            "other_known_hours": 1762,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -10.8827736919,
+          "daytime_count_change_pct": -42.2762327647,
+          "other_hours_count_change_pct": -10.3991863717,
+          "control_counts": {
+            "1998-09-08": {
+              "births": 3976,
+              "known": 3976,
+              "daytime": 2051,
+              "other_known_hours": 1925,
+              "unknown": 0
+            },
+            "1998-09-22": {
+              "births": 4236,
+              "known": 4236,
+              "daytime": 2228,
+              "other_known_hours": 2008,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2955,
+            "known": 2955,
+            "daytime": 1217,
+            "other_known_hours": 1738,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -11.1404366891,
+          "daytime_count_change_pct": -42.7024482109,
+          "other_hours_count_change_pct": -10.1344364012,
+          "control_counts": {
+            "1998-09-08": {
+              "births": 3938,
+              "known": 3938,
+              "daytime": 2039,
+              "other_known_hours": 1899,
+              "unknown": 0
+            },
+            "1998-09-22": {
+              "births": 4178,
+              "known": 4178,
+              "daytime": 2209,
+              "other_known_hours": 1969,
+              "unknown": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "date": "1999-07-20",
+      "holiday": "海の日",
+      "publisher_holiday_label": "海の日",
+      "is_monday": false,
+      "main": {
+        "controls": [
+          "1999-07-06",
+          "1999-07-13",
+          "1999-07-27",
+          "1999-08-03"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2797,
+            "known": 2797,
+            "daytime": 1183,
+            "other_known_hours": 1614,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -10.1647703204,
+          "daytime_count_change_pct": -39.5580533912,
+          "other_hours_count_change_pct": -8.9806851826,
+          "control_counts": {
+            "1999-07-06": {
+              "births": 3618,
+              "known": 3618,
+              "daytime": 1881,
+              "other_known_hours": 1737,
+              "unknown": 0
+            },
+            "1999-07-13": {
+              "births": 3555,
+              "known": 3555,
+              "daytime": 1867,
+              "other_known_hours": 1688,
+              "unknown": 0
+            },
+            "1999-07-27": {
+              "births": 3863,
+              "known": 3863,
+              "daytime": 2054,
+              "other_known_hours": 1809,
+              "unknown": 0
+            },
+            "1999-08-03": {
+              "births": 3886,
+              "known": 3886,
+              "daytime": 2027,
+              "other_known_hours": 1859,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2763,
+            "known": 2763,
+            "daytime": 1171,
+            "other_known_hours": 1592,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -10.2190429529,
+          "daytime_count_change_pct": -39.7246171664,
+          "other_hours_count_change_pct": -9.0415654906,
+          "control_counts": {
+            "1999-07-06": {
+              "births": 3577,
+              "known": 3577,
+              "daytime": 1868,
+              "other_known_hours": 1709,
+              "unknown": 0
+            },
+            "1999-07-13": {
+              "births": 3526,
+              "known": 3526,
+              "daytime": 1855,
+              "other_known_hours": 1671,
+              "unknown": 0
+            },
+            "1999-07-27": {
+              "births": 3825,
+              "known": 3825,
+              "daytime": 2038,
+              "other_known_hours": 1787,
+              "unknown": 0
+            },
+            "1999-08-03": {
+              "births": 3844,
+              "known": 3844,
+              "daytime": 2010,
+              "other_known_hours": 1834,
+              "unknown": 0
+            }
+          }
+        }
+      },
+      "adjacent_week": {
+        "controls": [
+          "1999-07-13",
+          "1999-07-27"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2797,
+            "known": 2797,
+            "daytime": 1183,
+            "other_known_hours": 1614,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -10.5490292935,
+          "daytime_count_change_pct": -39.6582504463,
+          "other_hours_count_change_pct": -7.6923076923,
+          "control_counts": {
+            "1999-07-13": {
+              "births": 3555,
+              "known": 3555,
+              "daytime": 1867,
+              "other_known_hours": 1688,
+              "unknown": 0
+            },
+            "1999-07-27": {
+              "births": 3863,
+              "known": 3863,
+              "daytime": 2054,
+              "other_known_hours": 1809,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2763,
+            "known": 2763,
+            "daytime": 1171,
+            "other_known_hours": 1592,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -10.5636478998,
+          "daytime_count_change_pct": -39.8407397894,
+          "other_hours_count_change_pct": -7.9236552921,
+          "control_counts": {
+            "1999-07-13": {
+              "births": 3526,
+              "known": 3526,
+              "daytime": 1855,
+              "other_known_hours": 1671,
+              "unknown": 0
+            },
+            "1999-07-27": {
+              "births": 3825,
+              "known": 3825,
+              "daytime": 2038,
+              "other_known_hours": 1787,
+              "unknown": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "date": "1999-09-15",
+      "holiday": "敬老の日",
+      "publisher_holiday_label": "敬老の日",
+      "is_monday": false,
+      "main": {
+        "controls": [
+          "1999-09-01",
+          "1999-09-08",
+          "1999-09-22",
+          "1999-09-29"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2794,
+            "known": 2794,
+            "daytime": 1143,
+            "other_known_hours": 1651,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -10.0776048189,
+          "daytime_count_change_pct": -36.7722306735,
+          "other_hours_count_change_pct": -4.9647431285,
+          "control_counts": {
+            "1999-09-01": {
+              "births": 3446,
+              "known": 3446,
+              "daytime": 1754,
+              "other_known_hours": 1692,
+              "unknown": 0
+            },
+            "1999-09-08": {
+              "births": 3577,
+              "known": 3577,
+              "daytime": 1797,
+              "other_known_hours": 1780,
+              "unknown": 0
+            },
+            "1999-09-22": {
+              "births": 3656,
+              "known": 3656,
+              "daytime": 1902,
+              "other_known_hours": 1754,
+              "unknown": 0
+            },
+            "1999-09-29": {
+              "births": 3501,
+              "known": 3501,
+              "daytime": 1778,
+              "other_known_hours": 1723,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2760,
+            "known": 2760,
+            "daytime": 1128,
+            "other_known_hours": 1632,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -10.226881489,
+          "daytime_count_change_pct": -37.1149825784,
+          "other_hours_count_change_pct": -4.9089584851,
+          "control_counts": {
+            "1999-09-01": {
+              "births": 3421,
+              "known": 3421,
+              "daytime": 1746,
+              "other_known_hours": 1675,
+              "unknown": 0
+            },
+            "1999-09-08": {
+              "births": 3537,
+              "known": 3537,
+              "daytime": 1784,
+              "other_known_hours": 1753,
+              "unknown": 0
+            },
+            "1999-09-22": {
+              "births": 3625,
+              "known": 3625,
+              "daytime": 1886,
+              "other_known_hours": 1739,
+              "unknown": 0
+            },
+            "1999-09-29": {
+              "births": 3457,
+              "known": 3457,
+              "daytime": 1759,
+              "other_known_hours": 1698,
+              "unknown": 0
+            }
+          }
+        }
+      },
+      "adjacent_week": {
+        "controls": [
+          "1999-09-08",
+          "1999-09-22"
+        ],
+        "all_venues": {
+          "target_counts": {
+            "births": 2794,
+            "known": 2794,
+            "daytime": 1143,
+            "other_known_hours": 1651,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -10.221758751,
+          "daytime_count_change_pct": -38.199513382,
+          "other_hours_count_change_pct": -6.5647990945,
+          "control_counts": {
+            "1999-09-08": {
+              "births": 3577,
+              "known": 3577,
+              "daytime": 1797,
+              "other_known_hours": 1780,
+              "unknown": 0
+            },
+            "1999-09-22": {
+              "births": 3656,
+              "known": 3656,
+              "daytime": 1902,
+              "other_known_hours": 1754,
+              "unknown": 0
+            }
+          }
+        },
+        "hospital_and_clinic": {
+          "target_counts": {
+            "births": 2760,
+            "known": 2760,
+            "daytime": 1128,
+            "other_known_hours": 1632,
+            "unknown": 0
+          },
+          "daytime_share_difference_pp": -10.3633401281,
+          "daytime_count_change_pct": -38.5286103542,
+          "other_hours_count_change_pct": -6.529209622,
+          "control_counts": {
+            "1999-09-08": {
+              "births": 3537,
+              "known": 3537,
+              "daytime": 1784,
+              "other_known_hours": 1753,
+              "unknown": 0
+            },
+            "1999-09-22": {
+              "births": 3625,
+              "known": 3625,
+              "daytime": 1886,
+              "other_known_hours": 1739,
+              "unknown": 0
+            }
+          }
+        }
+      }
+    }
+  ],
+  "registration_sha256": "3a13b34fc14e32e1121a6ea10b1983ec0ea60c7b59cdbe2e3c88ec142e3d871b",
+  "source_receipt_sha256": "2d054a0f240b3d3d527ca75e6b60d27e7384f7bfdd0be5ab07986701074be720",
+  "source_years": [
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999
+  ],
+  "source_births": 8392710,
+  "source_births_unknown_hour": 0
+}

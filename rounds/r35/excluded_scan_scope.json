@@ -1,0 +1,53 @@
+{
+  "1993": {
+    "attempted_with_national_table": [
+      "助産所",
+      "自宅",
+      "その他"
+    ],
+    "scanned_pages_for_these_venues": 78,
+    "unread_cells": 4848,
+    "unequal_or_incomplete_checks": 4101,
+    "failed_checks_by_type": {
+      "hours": 1193,
+      "dates": 883,
+      "days_of_month": 1982,
+      "months": 43
+    },
+    "included_in_public_counts": false
+  },
+  "1994": {
+    "attempted_with_national_table": [
+      "助産所",
+      "自宅",
+      "その他"
+    ],
+    "scanned_pages_for_these_venues": 78,
+    "unread_cells": 5296,
+    "unequal_or_incomplete_checks": 3935,
+    "failed_checks_by_type": {
+      "hours": 1119,
+      "dates": 864,
+      "days_of_month": 1901,
+      "months": 51
+    },
+    "included_in_public_counts": false
+  },
+  "1995": {
+    "attempted_with_national_table": [
+      "助産所",
+      "自宅",
+      "その他"
+    ],
+    "scanned_pages_for_these_venues": 78,
+    "unread_cells": 25607,
+    "unequal_or_incomplete_checks": 4483,
+    "failed_checks_by_type": {
+      "hours": 1217,
+      "dates": 900,
+      "days_of_month": 2315,
+      "months": 51
+    },
+    "included_in_public_counts": false
+  }
+}

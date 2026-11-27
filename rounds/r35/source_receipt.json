@@ -1,0 +1,188 @@
+{
+  "registration_sha256": "3a13b34fc14e32e1121a6ea10b1983ec0ea60c7b59cdbe2e3c88ec142e3d871b",
+  "official_scans": {
+    "jp1993-000031896462.pdf": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000031896462&fileKind=2",
+      "sha256": "90692957ad314424003f1dc6019e3967a2717a4917752e87bb56cf7781aee0b6",
+      "pages": 156
+    },
+    "jp1994-000031897479.pdf": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000031897479&fileKind=2",
+      "sha256": "75d5e73c46f2bcb1e80507883e4ca70db19d87f89c8a7af5ecc7bf1ec03b2776",
+      "pages": 156
+    },
+    "jp1995-000023616728.pdf": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000023616728&fileKind=2",
+      "sha256": "d887d94bcf665db250edcca158622ac5cbd268f62e157e04cd8fa71c5a55ae12",
+      "pages": 26
+    },
+    "jp1995-000023616729.pdf": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000023616729&fileKind=2",
+      "sha256": "48db96d032ee59c16c42c881496410ea6e09231ba46956fa20d361a6db0358ce",
+      "pages": 26
+    },
+    "jp1995-000023616730.pdf": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000023616730&fileKind=2",
+      "sha256": "eb3778603e734ef00c1bee4fd5fa5a33ad3aedf268a68cd4fcef23cb3a48c704",
+      "pages": 26
+    },
+    "jp1995-000023616731.pdf": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000023616731&fileKind=2",
+      "sha256": "63de378e04a351d2bb4b76ef65a607f2596e31d2c16e8ce4e26105e5118738ee",
+      "pages": 26
+    },
+    "jp1995-000023616732.pdf": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000023616732&fileKind=2",
+      "sha256": "b62810724e1b670b17aed4fa0429861e785c100b89e05a48c77cb9aa7da56088",
+      "pages": 26
+    },
+    "jp1995-000023616733.pdf": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000023616733&fileKind=2",
+      "sha256": "d030d76559aad4b621e94a5f3e92a9a74aad9685fe6a9fd5478cbfe1e6778b45",
+      "pages": 26
+    }
+  },
+  "official_digital_tables": {
+    "1996": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000019539855&fileKind=1",
+      "sha256": "823b8275de997f826d023fc7652f502eab3f72eba4a245a85fdf17d590e2c477",
+      "births": 1206555
+    },
+    "1997": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000019438623&fileKind=1",
+      "sha256": "c302f59e178cd0945d579bd2da206155982b3286327d5ab2abced76731e6f1ce",
+      "births": 1191665
+    },
+    "1998": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000019404960&fileKind=1",
+      "sha256": "b7d81a9ed7f23969be963a57755fdf9487d17b18ba8f87acccb97d4d96f5e9ff",
+      "births": 1203147
+    },
+    "1999": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000002627502",
+      "sha256": "d96363ede675c5e9f4e161431807d3e56308b05cade9ce74609c7a472a32757f",
+      "publisher_table_total": 1177669,
+      "national_comparison_total": 1177669,
+      "births": 1177669
+    }
+  },
+  "official_holiday_csv": {
+    "url": "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv",
+    "sha256": "cec37a743c96995cdb9cb52b685c9003634682a9b0e1a640a6b9b96881fe964a"
+  },
+  "public_counts_sha256": "9f62188bd1c428f63466a687b160ae100db26b78a8074c84699817eb4b7d8ee3",
+  "public_reconciliation_sha256": "71d6e4ae4dccf67a75d158017746d6f1097846092eb253d84df970632fe88c88",
+  "visual_review_sha256": "41c0bf021b26398ddeb5a390f47783d60ae988d32950fad7e6a2cca6dff9a2ea",
+  "tesseract_reads_sha256": "69ca4545e11696a6a4c4775df26f90834ad3a723f745a1f12c2cadeb1aed0eb8",
+  "released_scan_scope_sha256": "ca8d4e756b799c6fb65785b9c85870445b26b8fd15399aebd2504f4d633fb8ee",
+  "years": {
+    "1993": {
+      "release_venues": [
+        "総数",
+        "病院",
+        "診療所"
+      ],
+      "missing_venues": [
+        "助産所",
+        "自宅",
+        "その他"
+      ],
+      "published_row_vectors": 1227,
+      "reconciled_equalities_or_known_hour_bounds": 14752,
+      "publisher_births": 1188282,
+      "births_unknown_hour": 0
+    },
+    "1994": {
+      "release_venues": [
+        "総数",
+        "病院",
+        "診療所"
+      ],
+      "missing_venues": [
+        "助産所",
+        "自宅",
+        "その他"
+      ],
+      "published_row_vectors": 1227,
+      "reconciled_equalities_or_known_hour_bounds": 14752,
+      "publisher_births": 1238328,
+      "births_unknown_hour": 0
+    },
+    "1995": {
+      "release_venues": [
+        "総数",
+        "病院",
+        "診療所"
+      ],
+      "missing_venues": [
+        "助産所",
+        "自宅",
+        "その他"
+      ],
+      "published_row_vectors": 1227,
+      "reconciled_equalities_or_known_hour_bounds": 14752,
+      "publisher_births": 1187064,
+      "births_unknown_hour": 0
+    },
+    "1996": {
+      "release_venues": [
+        "総数",
+        "病院",
+        "診療所",
+        "助産所",
+        "自宅",
+        "その他"
+      ],
+      "missing_venues": [],
+      "published_row_vectors": 2460,
+      "reconciled_equalities_or_known_hour_bounds": 19310,
+      "publisher_births": 1206555,
+      "births_unknown_hour": 0
+    },
+    "1997": {
+      "release_venues": [
+        "総数",
+        "病院",
+        "診療所",
+        "助産所",
+        "自宅",
+        "その他"
+      ],
+      "missing_venues": [],
+      "published_row_vectors": 2454,
+      "reconciled_equalities_or_known_hour_bounds": 19279,
+      "publisher_births": 1191665,
+      "births_unknown_hour": 0
+    },
+    "1998": {
+      "release_venues": [
+        "総数",
+        "病院",
+        "診療所",
+        "助産所",
+        "自宅",
+        "その他"
+      ],
+      "missing_venues": [],
+      "published_row_vectors": 2454,
+      "reconciled_equalities_or_known_hour_bounds": 19279,
+      "publisher_births": 1203147,
+      "births_unknown_hour": 0
+    },
+    "1999": {
+      "release_venues": [
+        "総数",
+        "病院",
+        "診療所",
+        "助産所",
+        "自宅",
+        "その他"
+      ],
+      "missing_venues": [],
+      "published_row_vectors": 2454,
+      "reconciled_equalities_or_known_hour_bounds": 19279,
+      "publisher_births": 1177669,
+      "births_unknown_hour": 0
+    }
+  }
+}
