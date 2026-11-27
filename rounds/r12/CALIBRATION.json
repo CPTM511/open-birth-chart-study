@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "inputs": "synthetic_only",
+  "quota_minima_ties_and_census_checked": true,
+  "bootstrap_draws_compared": 9999,
+  "weighted_toy_rate": "19/180",
+  "design_variance": "49/24300",
+  "maximum_absolute_draw_mismatch": 5.551115123125783e-17,
+  "expanded_frame_rate": 0.038000000000000006,
+  "r11_pairing_fixture": {
+    "permutations_enumerated": 216,
+    "expected_fraction": "91/213",
+    "observed_fraction": "187/426",
+    "singleton_retained": true,
+    "holm_exercised": true,
+    "ties_include_observed_in_tail": true
+  }
+}
