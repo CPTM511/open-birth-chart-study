@@ -1,0 +1,624 @@
+{
+  "historical_table": {
+    "url": "https://press.uchicago.edu/books/HOC/HOC_V2_B2/HOC_VOLUME2_Book2_chapter13.pdf",
+    "locator": "Table 13.1, printed page 517"
+  },
+  "stellarium_revision": "61b5f160cc1ada854e094717fa4c8189db92bc09",
+  "catalogue": "Hipparcos Main Catalogue, ESA 1997 (CDS I/239), ICRS at J1991.25",
+  "sources": {
+    "stellarium.json": {
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/61b5f160cc1ada854e094717fa4c8189db92bc09/skycultures/chinese/index.json",
+      "sha256": "426118e6238ae69edb319c91d1a74b705eaa758222e962206e58c49b9dac9d8a"
+    },
+    "bright-stars.tdat.gz": {
+      "url": "https://heasarc.gsfc.nasa.gov/FTP/heasarc/dbase/tdat_files/heasarc_bsc5p.tdat.gz",
+      "sha256": "122628cde2d8bedf7e16ddf5f888167ac58c04b5592d6155408ce297f3073931"
+    },
+    "hipparcos.tdat.gz": {
+      "url": "https://heasarc.gsfc.nasa.gov/FTP/heasarc/dbase/tdat_files/heasarc_hipparcos.tdat.gz",
+      "sha256": "e0e1e94344ada0010a1843c03cd4fc0e5276d28c5e2770bd86b7361ecc0fe10d"
+    },
+    "vizier.tsv": {
+      "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=I%2F239%2Fhip_main&-out=HIP%2CRAICRS%2CDEICRS%2CpmRA%2CpmDE&-out.max=100&HIP=1067%2C3693%2C4463%2C8903%2C12719%2C17499%2C20889%2C25930%2C26176%2C26207%2C26727%2C30343%2C41822%2C42313%2C46390%2C48356%2C49402%2C53740%2C59803%2C65474%2C69427%2C72603%2C72622%2C78265%2C80112%2C82514%2C82545%2C88567%2C88635%2C92041%2C100345%2C102618%2C106278%2C109074%2C113963",
+      "sha256": "adde0725d42d72616c69b56b1e1a8ca96ca35a068ca41eda27153c2fa0bb1f37"
+    }
+  },
+  "published_numeric_fields_compared": [
+    "ra_deg",
+    "dec_deg",
+    "pm_ra",
+    "pm_dec"
+  ],
+  "stephenson_maeyama": {
+    "角": {
+      "table_designation": "Alp Vir",
+      "primary": {
+        "name": "67Alp Vir",
+        "hd": 116658,
+        "hr": 5056,
+        "visual_magnitude": "0.98",
+        "hip": 65474
+      },
+      "alternates": []
+    },
+    "亢": {
+      "table_designation": "Kap Vir",
+      "primary": {
+        "name": "98Kap Vir",
+        "hd": 124294,
+        "hr": 5315,
+        "visual_magnitude": "4.19",
+        "hip": 69427
+      },
+      "alternates": []
+    },
+    "氐": {
+      "table_designation": "Alp Lib",
+      "primary": {
+        "name": "9Alp2Lib",
+        "hd": 130841,
+        "hr": 5531,
+        "visual_magnitude": "2.75",
+        "hip": 72622
+      },
+      "alternates": [
+        {
+          "name": "8Alp1Lib",
+          "hd": 130819,
+          "hr": 5530,
+          "visual_magnitude": "5.15",
+          "hip": 72603
+        }
+      ]
+    },
+    "房": {
+      "table_designation": "Pi Sco",
+      "primary": {
+        "name": "6Pi Sco",
+        "hd": 143018,
+        "hr": 5944,
+        "visual_magnitude": "2.89",
+        "hip": 78265
+      },
+      "alternates": []
+    },
+    "心": {
+      "table_designation": "Sig Sco",
+      "primary": {
+        "name": "20Sig Sco",
+        "hd": 147165,
+        "hr": 6084,
+        "visual_magnitude": "2.89",
+        "hip": 80112
+      },
+      "alternates": []
+    },
+    "尾": {
+      "table_designation": "Mu Sco",
+      "primary": {
+        "name": "Mu 1Sco",
+        "hd": 151890,
+        "hr": 6247,
+        "visual_magnitude": "3.08",
+        "hip": 82514
+      },
+      "alternates": [
+        {
+          "name": "Mu 2Sco",
+          "hd": 151985,
+          "hr": 6252,
+          "visual_magnitude": "3.57",
+          "hip": 82545
+        }
+      ]
+    },
+    "箕": {
+      "table_designation": "Gam Sgr",
+      "primary": {
+        "name": "10Gam2Sgr",
+        "hd": 165135,
+        "hr": 6746,
+        "visual_magnitude": "2.99",
+        "hip": 88635
+      },
+      "alternates": [
+        {
+          "name": "Gam1Sgr",
+          "hd": 164975,
+          "hr": 6742,
+          "visual_magnitude": "4.69",
+          "hip": 88567
+        }
+      ]
+    },
+    "斗": {
+      "table_designation": "Phi Sgr",
+      "primary": {
+        "name": "27Phi Sgr",
+        "hd": 173300,
+        "hr": 7039,
+        "visual_magnitude": "3.17",
+        "hip": 92041
+      },
+      "alternates": []
+    },
+    "牛": {
+      "table_designation": "Bet Cap",
+      "primary": {
+        "name": "9Bet Cap",
+        "hd": 193495,
+        "hr": 7776,
+        "visual_magnitude": "3.08",
+        "hip": 100345
+      },
+      "alternates": []
+    },
+    "女": {
+      "table_designation": "Eps Aqr",
+      "primary": {
+        "name": "2Eps Aqr",
+        "hd": 198001,
+        "hr": 7950,
+        "visual_magnitude": "3.77",
+        "hip": 102618
+      },
+      "alternates": []
+    },
+    "虚": {
+      "table_designation": "Bet Aqr",
+      "primary": {
+        "name": "22Bet Aqr",
+        "hd": 204867,
+        "hr": 8232,
+        "visual_magnitude": "2.91",
+        "hip": 106278
+      },
+      "alternates": []
+    },
+    "危": {
+      "table_designation": "Alp Aqr",
+      "primary": {
+        "name": "34Alp Aqr",
+        "hd": 209750,
+        "hr": 8414,
+        "visual_magnitude": "2.96",
+        "hip": 109074
+      },
+      "alternates": []
+    },
+    "室": {
+      "table_designation": "Alp Peg",
+      "primary": {
+        "name": "54Alp Peg",
+        "hd": 218045,
+        "hr": 8781,
+        "visual_magnitude": "2.49",
+        "hip": 113963
+      },
+      "alternates": []
+    },
+    "壁": {
+      "table_designation": "Gam Peg",
+      "primary": {
+        "name": "88Gam Peg",
+        "hd": 886,
+        "hr": 39,
+        "visual_magnitude": "2.83",
+        "hip": 1067
+      },
+      "alternates": []
+    },
+    "奎": {
+      "table_designation": "Zet And",
+      "primary": {
+        "name": "34Zet And",
+        "hd": 4502,
+        "hr": 215,
+        "visual_magnitude": "4.06",
+        "hip": 3693
+      },
+      "alternates": []
+    },
+    "娄": {
+      "table_designation": "Bet Ari",
+      "primary": {
+        "name": "6Bet Ari",
+        "hd": 11636,
+        "hr": 553,
+        "visual_magnitude": "2.64",
+        "hip": 8903
+      },
+      "alternates": []
+    },
+    "胃": {
+      "table_designation": "35 Ari",
+      "primary": {
+        "name": "35 Ari",
+        "hd": 16908,
+        "hr": 801,
+        "visual_magnitude": "4.66",
+        "hip": 12719
+      },
+      "alternates": []
+    },
+    "昴": {
+      "table_designation": "17 Tau",
+      "primary": {
+        "name": "17 Tau",
+        "hd": 23302,
+        "hr": 1142,
+        "visual_magnitude": "3.7",
+        "hip": 17499
+      },
+      "alternates": []
+    },
+    "毕": {
+      "table_designation": "Eps Tau",
+      "primary": {
+        "name": "74Eps Tau",
+        "hd": 28305,
+        "hr": 1409,
+        "visual_magnitude": "3.53",
+        "hip": 20889
+      },
+      "alternates": []
+    },
+    "觜": {
+      "table_designation": "Phi1 Ori",
+      "primary": {
+        "name": "37Phi1Ori",
+        "hd": 36822,
+        "hr": 1876,
+        "visual_magnitude": "4.41",
+        "hip": 26176
+      },
+      "alternates": []
+    },
+    "参": {
+      "table_designation": "Del Ori",
+      "primary": {
+        "name": "34Del Ori",
+        "hd": 36486,
+        "hr": 1852,
+        "visual_magnitude": "2.23",
+        "hip": 25930
+      },
+      "alternates": [
+        {
+          "name": "34Del Ori",
+          "hd": 36485,
+          "hr": 1851,
+          "visual_magnitude": "6.85",
+          "hip": null
+        }
+      ]
+    },
+    "井": {
+      "table_designation": "Mu Gem",
+      "primary": {
+        "name": "13Mu Gem",
+        "hd": 44478,
+        "hr": 2286,
+        "visual_magnitude": "2.88",
+        "hip": 30343
+      },
+      "alternates": []
+    },
+    "鬼": {
+      "table_designation": "The Cnc",
+      "primary": {
+        "name": "31The Cnc",
+        "hd": 72094,
+        "hr": 3357,
+        "visual_magnitude": "5.35",
+        "hip": 41822
+      },
+      "alternates": []
+    },
+    "柳": {
+      "table_designation": "Del Hya",
+      "primary": {
+        "name": "4Del Hya",
+        "hd": 73262,
+        "hr": 3410,
+        "visual_magnitude": "4.16",
+        "hip": 42313
+      },
+      "alternates": []
+    },
+    "星": {
+      "table_designation": "Alp Hya",
+      "primary": {
+        "name": "30Alp Hya",
+        "hd": 81797,
+        "hr": 3748,
+        "visual_magnitude": "1.98",
+        "hip": 46390
+      },
+      "alternates": []
+    },
+    "张": {
+      "table_designation": "Ups Hya",
+      "primary": {
+        "name": "39Ups1Hya",
+        "hd": 85444,
+        "hr": 3903,
+        "visual_magnitude": "4.12",
+        "hip": 48356
+      },
+      "alternates": [
+        {
+          "name": "40Ups2Hya",
+          "hd": 87504,
+          "hr": 3970,
+          "visual_magnitude": "4.6",
+          "hip": 49402
+        }
+      ]
+    },
+    "翼": {
+      "table_designation": "Alp Crt",
+      "primary": {
+        "name": "7Alp Crt",
+        "hd": 95272,
+        "hr": 4287,
+        "visual_magnitude": "4.08",
+        "hip": 53740
+      },
+      "alternates": []
+    },
+    "轸": {
+      "table_designation": "Gam Crv",
+      "primary": {
+        "name": "4Gam Crv",
+        "hd": 106625,
+        "hr": 4662,
+        "visual_magnitude": "2.59",
+        "hip": 59803
+      },
+      "alternates": []
+    }
+  },
+  "stellarium_chinese": {
+    "角": 65474,
+    "亢": 69427,
+    "氐": 72622,
+    "房": 78265,
+    "心": 80112,
+    "尾": 82514,
+    "箕": 88635,
+    "斗": 92041,
+    "牛": 100345,
+    "女": 102618,
+    "虚": 106278,
+    "危": 109074,
+    "室": 113963,
+    "壁": 1067,
+    "奎": 4463,
+    "娄": 8903,
+    "胃": 12719,
+    "昴": 17499,
+    "毕": 20889,
+    "觜": 26207,
+    "参": 26727,
+    "井": 30343,
+    "鬼": 41822,
+    "柳": 42313,
+    "星": 46390,
+    "张": 48356,
+    "翼": 53740,
+    "轸": 59803
+  },
+  "astrometry": {
+    "1067": {
+      "ra_deg": "3.30895828",
+      "dec_deg": "15.18361593",
+      "pm_ra": "4.70",
+      "pm_dec": "-8.24"
+    },
+    "3693": {
+      "ra_deg": "11.83495908",
+      "dec_deg": "24.26737703",
+      "pm_ra": "-101.23",
+      "pm_dec": "-81.89"
+    },
+    "4463": {
+      "ra_deg": "14.30178237",
+      "dec_deg": "23.41775997",
+      "pm_ra": "-43.72",
+      "pm_dec": "-46.06"
+    },
+    "8903": {
+      "ra_deg": "28.65978771",
+      "dec_deg": "20.80829949",
+      "pm_ra": "96.32",
+      "pm_dec": "-108.80"
+    },
+    "12719": {
+      "ra_deg": "40.86296031",
+      "dec_deg": "27.70717078",
+      "pm_ra": "3.51",
+      "pm_dec": "-9.97"
+    },
+    "17499": {
+      "ra_deg": "56.21884811",
+      "dec_deg": "24.11344840",
+      "pm_ra": "21.55",
+      "pm_dec": "-44.92"
+    },
+    "20889": {
+      "ra_deg": "67.15388879",
+      "dec_deg": "19.18052092",
+      "pm_ra": "107.23",
+      "pm_dec": "-36.77"
+    },
+    "25930": {
+      "ra_deg": "83.00166562",
+      "dec_deg": "-0.29909340",
+      "pm_ra": "1.67",
+      "pm_dec": "0.56"
+    },
+    "26176": {
+      "ra_deg": "83.70515764",
+      "dec_deg": "9.48958528",
+      "pm_ra": "-1.24",
+      "pm_dec": "-2.49"
+    },
+    "26207": {
+      "ra_deg": "83.78449043",
+      "dec_deg": "9.93416294",
+      "pm_ra": "-1.03",
+      "pm_dec": "-1.86"
+    },
+    "26727": {
+      "ra_deg": "85.18968672",
+      "dec_deg": "-1.94257841",
+      "pm_ra": "3.99",
+      "pm_dec": "2.54"
+    },
+    "30343": {
+      "ra_deg": "95.73996302",
+      "dec_deg": "22.51385027",
+      "pm_ra": "56.84",
+      "pm_dec": "-108.79"
+    },
+    "41822": {
+      "ra_deg": "127.89902880",
+      "dec_deg": "18.09455771",
+      "pm_ra": "-60.05",
+      "pm_dec": "-56.50"
+    },
+    "42313": {
+      "ra_deg": "129.41419739",
+      "dec_deg": "5.70379868",
+      "pm_ra": "-70.27",
+      "pm_dec": "-6.99"
+    },
+    "46390": {
+      "ra_deg": "141.89688260",
+      "dec_deg": "-8.65868335",
+      "pm_ra": "-14.49",
+      "pm_dec": "33.25"
+    },
+    "48356": {
+      "ra_deg": "147.86951033",
+      "dec_deg": "-14.84654997",
+      "pm_ra": "18.68",
+      "pm_dec": "-21.88"
+    },
+    "49402": {
+      "ra_deg": "151.28121856",
+      "dec_deg": "-13.06467435",
+      "pm_ra": "-37.48",
+      "pm_dec": "19.90"
+    },
+    "53740": {
+      "ra_deg": "164.94478664",
+      "dec_deg": "-18.29909723",
+      "pm_ra": "-462.39",
+      "pm_dec": "129.11"
+    },
+    "59803": {
+      "ra_deg": "183.95194937",
+      "dec_deg": "-17.54198370",
+      "pm_ra": "-159.58",
+      "pm_dec": "22.31"
+    },
+    "65474": {
+      "ra_deg": "201.29835230",
+      "dec_deg": "-11.16124491",
+      "pm_ra": "-42.50",
+      "pm_dec": "-31.73"
+    },
+    "69427": {
+      "ra_deg": "213.22392088",
+      "dec_deg": "-10.27404400",
+      "pm_ra": "8.04",
+      "pm_dec": "140.79"
+    },
+    "72603": {
+      "ra_deg": "222.67193219",
+      "dec_deg": "-15.99709226",
+      "pm_ra": "-135.93",
+      "pm_dec": "-59.47"
+    },
+    "72622": {
+      "ra_deg": "222.71990536",
+      "dec_deg": "-16.04161047",
+      "pm_ra": "-105.69",
+      "pm_dec": "-69.00"
+    },
+    "78265": {
+      "ra_deg": "239.71300283",
+      "dec_deg": "-26.11404280",
+      "pm_ra": "-12.00",
+      "pm_dec": "-25.71"
+    },
+    "80112": {
+      "ra_deg": "245.29717718",
+      "dec_deg": "-25.59275259",
+      "pm_ra": "-10.03",
+      "pm_dec": "-18.03"
+    },
+    "82514": {
+      "ra_deg": "252.96766195",
+      "dec_deg": "-38.04732717",
+      "pm_ra": "-8.84",
+      "pm_dec": "-21.60"
+    },
+    "82545": {
+      "ra_deg": "253.08397295",
+      "dec_deg": "-38.01747781",
+      "pm_ra": "-12.92",
+      "pm_dec": "-23.80"
+    },
+    "88567": {
+      "ra_deg": "271.25509380",
+      "dec_deg": "-29.58007620",
+      "pm_ra": "4.03",
+      "pm_dec": "-4.61"
+    },
+    "88635": {
+      "ra_deg": "271.45218586",
+      "dec_deg": "-30.42365007",
+      "pm_ra": "-55.75",
+      "pm_dec": "-181.53"
+    },
+    "92041": {
+      "ra_deg": "281.41397083",
+      "dec_deg": "-26.99077940",
+      "pm_ra": "51.15",
+      "pm_dec": "0.45"
+    },
+    "100345": {
+      "ra_deg": "305.25269347",
+      "dec_deg": "-14.78140119",
+      "pm_ra": "48.42",
+      "pm_dec": "14.00"
+    },
+    "102618": {
+      "ra_deg": "311.91888574",
+      "dec_deg": "-9.49568988",
+      "pm_ra": "31.89",
+      "pm_dec": "-35.32"
+    },
+    "106278": {
+      "ra_deg": "322.88966951",
+      "dec_deg": "-5.57115593",
+      "pm_ra": "22.79",
+      "pm_dec": "-6.70"
+    },
+    "109074": {
+      "ra_deg": "331.44593869",
+      "dec_deg": "-0.31982656",
+      "pm_ra": "17.90",
+      "pm_dec": "-9.93"
+    },
+    "113963": {
+      "ra_deg": "346.19007020",
+      "dec_deg": "15.20536786",
+      "pm_ra": "61.10",
+      "pm_dec": "-42.56"
+    }
+  }
+}
