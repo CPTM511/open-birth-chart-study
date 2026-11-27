@@ -26,3 +26,13 @@
 | 美国 NCHS | 2025 年公共版列 24 小时时分、出生年、月和星期，未公布当月第几日及实际发生县。2019 版受限字典有发生州县和时分，同样没有当月第几日。另有完整生日的受限资料，目录明示须经批准，通过研究数据中心访问，所列地理以居住地描述。 | 公开版与所核受限字典各有空缺。申请前应确认完整生日版本能否同时提供发生县、出生时分和性别，以及能否在管控环境重算。[2025 公开字典](https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/DVS/natality/UserGuide2025.pdf) · [2019 受限字典](https://www.cdc.gov/nchs/data/nvss/2019-natality-file-layout.pdf) · [完整生日目录](https://data.cdc.gov/National-Center-for-Health-Statistics/NCHS-All-County-Natality-File-with-Exact-Date-of-B/8kbq-i8ii) |
 | 哥伦比亚 DANE 2024 活产 | 出生证明模板收完整日期、时分、地点和性别。2024 公开活产字典列出生地行政区、性别、年和月，缺本次出生的日和钟点。 | 可研究已公开的年月和地区计数。逐条评分需另取得具有相应字段的合规资料。[原始表单](https://microdatos.dane.gov.co/index.php/catalog/732/download/21076/CNacidoVivo.pdf) · [2024 活产公开字典](https://microdatos.dane.gov.co/index.php/catalog/878/data-dictionary/F46?file_name=BD-EEVV-Nacimientos-2024) |
 | 捷克布尔诺 UHB 2010–2012 胎心资料 | 开放版从 9,164 份监测记录挑选 552 份，有新生儿性别和从监测到分娩的相对时长。公开头记录没有可用于本研究的实历出生日期和民用钟点。 | 可用于监测时长研究。对四体系模型缺少原始历日及钟点。[PhysioNet 源档案](https://physionet.org/content/ctu-uhb-ctgdb/1.0.0/) |
+
+## R30 哥伦比亚地方医院来源
+
+| 来源 | 可核字段及适用范围 |
+| --- | --- |
+| Duitama 地区医院 | 2022 年 6–12 月的发布版本有出生日期、时分、发生市、发生机构和登记性别。591 行中有 590 行符合登记地点。地方医院开放版本与上列 DANE 全国公开用法不同。[原始发布](https://www.datos.gov.co/api/views/cv8g-j7c4.json) · [R30](../R30.md) |
+| Colón 的 Hospital Pío XII | 2021–2026 年发布版本有出生日期、时分、发生区域类别、场所类别和登记性别。1,097 行中有 1,066 行符合评分条件。逐条发生市和值域中的机构名未发布，限于市镇中心医疗机构的行，并以发布医院所在市作有条件的坐标近似。[原始发布](https://www.datos.gov.co/api/views/qa7n-i2xc.json) · [R30](../R30.md) |
+| 秘鲁 MINSA 2015–2025 CNV 公布版 | 全国开放目录附字典。新生儿出生日期字段只有年和月，另有登记性别及发生机构代码。原始出生证明另设钟点，这个公布版缺日及时分。[公布版和字典](https://www.datosabiertos.gob.pe/dataset/registros-de-nacidos-vivos-en-el-per%C3%BA-2015%E2%80%932025) · [原始表单](https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1836/libro.pdf) |
+
+两份哥伦比亚地方档案都已进入 R30。Duitama 核实了逐行的发生市及发生医院。Colón 的结果按其地理映射条件解读。两份发布档案无法代表哥伦比亚全国，东亚近代逐行资料仍待补充。

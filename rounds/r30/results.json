@@ -1,0 +1,480 @@
+{
+  "round": "R30",
+  "registration_sha256": "3bd29d4870ce9a26683405439ae0873e843cd8e1ef5775dd713fbca0df3e3d03",
+  "fixed_reference": {
+    "cohort": "brazil2006",
+    "records": 2000,
+    "joint_rate": 0.03214942848730289,
+    "exact_joint_rate": "92868924322576875851429/2888664859447021204149600"
+  },
+  "system_order": [
+    "bazi",
+    "ziwei_doushu",
+    "qizheng_siyu",
+    "western_astrology"
+  ],
+  "common_2022_window": [
+    "2022-06-01",
+    "2022-12-31"
+  ],
+  "source_retrievals": {
+    "csv": {
+      "registration_sha256": "3bd29d4870ce9a26683405439ae0873e843cd8e1ef5775dd713fbca0df3e3d03",
+      "definition_sha256": "c3dd754b5f8713ecb13d0d439c77e579c8cc7d277a2838da291dfb3d73a450e7",
+      "retrieved_utc": "2026-11-27T19:24:37.630979+00:00",
+      "format": "csv",
+      "sites": {
+        "duitama": {
+          "provider": "E.S.E. Hospital Regional de Duitama, Boyacá",
+          "view_id": "cv8g-j7c4",
+          "rows_updated_unix": 1683686263,
+          "projected_fields": [
+            "fecha_nacimiento",
+            "hora_nacimiento",
+            "sexo",
+            "departamento",
+            "municipio",
+            "institucion"
+          ],
+          "source_rows": 591,
+          "publisher_rows_update_utc": "2023-05-10T02:37:43+00:00",
+          "publisher_license_id": "CC_40_BY_SA",
+          "metadata_url": "https://www.datos.gov.co/api/views/cv8g-j7c4.json",
+          "request": {
+            "endpoint": "https://www.datos.gov.co/resource/cv8g-j7c4.csv",
+            "query": {
+              "$select": "fecha_nacimiento,hora_nacimiento,sexo,departamento,municipio,institucion",
+              "$order": ":id",
+              "$limit": 2500
+            }
+          },
+          "transport_sha256": "aca908d99b71ef6b7f8895939582b465c67334d995a468970c5a9d07c3928ac9",
+          "private_projection_sha256": "dded156ecba3d4a2dff959033ebc9b54494b8a17959c70b0e26414d82cd223b4"
+        },
+        "colon": {
+          "provider": "E.S.E. Hospital Pío XII de Colón, Putumayo",
+          "view_id": "qa7n-i2xc",
+          "rows_updated_unix": 1794330598,
+          "projected_fields": [
+            "fecha_nacimiento",
+            "hora_nacimiento",
+            "sexo",
+            "area_nacimiento",
+            "sitio_parto",
+            "periodo"
+          ],
+          "source_rows": 1097,
+          "publisher_rows_update_utc": "2026-11-10T17:09:58+00:00",
+          "publisher_license_id": "CC_40_BY_SA",
+          "metadata_url": "https://www.datos.gov.co/api/views/qa7n-i2xc.json",
+          "request": {
+            "endpoint": "https://www.datos.gov.co/resource/qa7n-i2xc.csv",
+            "query": {
+              "$select": "fecha_nacimiento,hora_nacimiento,sexo,area_nacimiento,sitio_parto,periodo",
+              "$order": ":id",
+              "$limit": 2500
+            }
+          },
+          "transport_sha256": "f8e560bf68fa9e12df6e357f09d2f686aac7bfa33160aa0f4a70f726350875c2",
+          "private_projection_sha256": "93227b990a842da83a90f6294ae8ba22b016dfb504d03b89e3763b61fbd5b14b"
+        }
+      }
+    },
+    "json": {
+      "registration_sha256": "3bd29d4870ce9a26683405439ae0873e843cd8e1ef5775dd713fbca0df3e3d03",
+      "definition_sha256": "c3dd754b5f8713ecb13d0d439c77e579c8cc7d277a2838da291dfb3d73a450e7",
+      "retrieved_utc": "2026-11-27T19:24:46.131584+00:00",
+      "format": "json",
+      "sites": {
+        "duitama": {
+          "provider": "E.S.E. Hospital Regional de Duitama, Boyacá",
+          "view_id": "cv8g-j7c4",
+          "rows_updated_unix": 1683686263,
+          "projected_fields": [
+            "fecha_nacimiento",
+            "hora_nacimiento",
+            "sexo",
+            "departamento",
+            "municipio",
+            "institucion"
+          ],
+          "source_rows": 591,
+          "publisher_rows_update_utc": "2023-05-10T02:37:43+00:00",
+          "publisher_license_id": "CC_40_BY_SA",
+          "metadata_url": "https://www.datos.gov.co/api/views/cv8g-j7c4.json",
+          "request": {
+            "endpoint": "https://www.datos.gov.co/resource/cv8g-j7c4.json",
+            "query": {
+              "$select": "fecha_nacimiento,hora_nacimiento,sexo,departamento,municipio,institucion",
+              "$order": ":id",
+              "$limit": 2500
+            }
+          },
+          "transport_sha256": "2a3ecd8ac9e3fbe29d75f31470e4c5ab9d9c3e4da7d520d73fd4fb0318150c66",
+          "private_projection_sha256": "dded156ecba3d4a2dff959033ebc9b54494b8a17959c70b0e26414d82cd223b4"
+        },
+        "colon": {
+          "provider": "E.S.E. Hospital Pío XII de Colón, Putumayo",
+          "view_id": "qa7n-i2xc",
+          "rows_updated_unix": 1794330598,
+          "projected_fields": [
+            "fecha_nacimiento",
+            "hora_nacimiento",
+            "sexo",
+            "area_nacimiento",
+            "sitio_parto",
+            "periodo"
+          ],
+          "source_rows": 1097,
+          "publisher_rows_update_utc": "2026-11-10T17:09:58+00:00",
+          "publisher_license_id": "CC_40_BY_SA",
+          "metadata_url": "https://www.datos.gov.co/api/views/qa7n-i2xc.json",
+          "request": {
+            "endpoint": "https://www.datos.gov.co/resource/qa7n-i2xc.json",
+            "query": {
+              "$select": "fecha_nacimiento,hora_nacimiento,sexo,area_nacimiento,sitio_parto,periodo",
+              "$order": ":id",
+              "$limit": 2500
+            }
+          },
+          "transport_sha256": "641bac594a516b9796dff47d74f74c50b3777cd328bb30c96e408857991f212d",
+          "private_projection_sha256": "93227b990a842da83a90f6294ae8ba22b016dfb504d03b89e3763b61fbd5b14b"
+        }
+      }
+    }
+  },
+  "coverage": {
+    "duitama": {
+      "raw_rows": 591,
+      "location_eligible_before_sex_and_clock": 590,
+      "first_disposition": {
+        "blank": 0,
+        "birth_date": 0,
+        "birth_place": 1,
+        "sex": 0,
+        "invalid_clock": 0,
+        "nonstandard_clock_day": 0,
+        "eligible": 590
+      },
+      "distinct_birth_dates": 202,
+      "months_with_eligible_births": 7,
+      "first_last_birth_month": [
+        "2022-06",
+        "2022-12"
+      ],
+      "reported_sex_counts": {
+        "F": 322,
+        "M": 268
+      },
+      "whole_hour_clocks": 12,
+      "five_minute_clocks": 162,
+      "midnight_clocks": 0,
+      "coincident_clock_and_sex_groups": 2,
+      "coincident_clock_and_sex_excess_rows": 2,
+      "reporting_period_check": {}
+    },
+    "colon": {
+      "raw_rows": 1097,
+      "location_eligible_before_sex_and_clock": 1069,
+      "first_disposition": {
+        "blank": 0,
+        "birth_date": 6,
+        "birth_place": 22,
+        "sex": 0,
+        "invalid_clock": 0,
+        "nonstandard_clock_day": 3,
+        "eligible": 1066
+      },
+      "distinct_birth_dates": 769,
+      "months_with_eligible_births": 66,
+      "first_last_birth_month": [
+        "2021-01",
+        "2026-09"
+      ],
+      "reported_sex_counts": {
+        "F": 511,
+        "M": 555
+      },
+      "whole_hour_clocks": 42,
+      "five_minute_clocks": 409,
+      "midnight_clocks": 2,
+      "coincident_clock_and_sex_groups": 2,
+      "coincident_clock_and_sex_excess_rows": 2,
+      "reporting_period_check": {
+        "period_matches_birth": 1066
+      }
+    }
+  },
+  "estimates": {
+    "duitama": {
+      "records": 590,
+      "joint_years": 708,
+      "joint_rate": 0.03,
+      "delta_pp": -0.21494284873028943,
+      "record_years": 23600,
+      "age_band_joint_rates": [
+        0.026271186440677965,
+        0.026440677966101694,
+        0.026779661016949154,
+        0.040508474576271186
+      ],
+      "system_high_rates": [
+        0.14415254237288136,
+        0.3146186440677966,
+        0.1911864406779661,
+        0.21199152542372882
+      ],
+      "system_raw_means": [
+        0.08619703389830509,
+        0.1719491525423729,
+        0.17521034369114805,
+        0.02061937997508047
+      ],
+      "common_2022_window": {
+        "records": 590,
+        "joint_years": 708,
+        "joint_rate": 0.03,
+        "delta_pp": -0.21494284873028943
+      },
+      "born_through_2025": {
+        "records": 590,
+        "joint_years": 708,
+        "joint_rate": 0.03,
+        "delta_pp": -0.21494284873028943
+      },
+      "leave_one_month_out_delta_pp": [
+        -0.4768476106350512,
+        -0.10482380111124165
+      ],
+      "exclude_midnight": {
+        "records": 590,
+        "joint_years": 708,
+        "joint_rate": 0.03,
+        "delta_pp": -0.21494284873028943
+      },
+      "one_per_clock_and_sex": {
+        "records": 588,
+        "joint_years": 707,
+        "joint_rate": 0.03005952380952381,
+        "delta_pp": -0.2089904677779083
+      },
+      "clock_rounding": {
+        "joint_rate_original": 0.03,
+        "joint_rate_rounded": 0.030593220338983047,
+        "rounded_minus_original_pp": 0.05932203389830502,
+        "joint_lost_rate": 0.01228813559322034,
+        "joint_gained_rate": 0.01288135593220339,
+        "joint_reversal_rate": 0.02516949152542373,
+        "records_with_any_reversal_rate": 0.5338983050847458,
+        "system_reversal_rates": [
+          0.028177966101694905,
+          0.08656779661016949,
+          0.07317796610169493,
+          0.18008474576271197
+        ],
+        "changed_clocks": 578,
+        "rounded_across_midnight": 4
+      }
+    },
+    "colon": {
+      "records": 1066,
+      "joint_years": 1590,
+      "joint_rate": 0.037288930581613505,
+      "delta_pp": 0.5139502094310612,
+      "record_years": 42640,
+      "age_band_joint_rates": [
+        0.02448405253283302,
+        0.027204502814258912,
+        0.0349906191369606,
+        0.0624765478424015
+      ],
+      "system_high_rates": [
+        0.1647279549718574,
+        0.3076923076923077,
+        0.22080206378986866,
+        0.2152439024390244
+      ],
+      "system_raw_means": [
+        0.08941428236397748,
+        0.16797607879924953,
+        0.17555680894309017,
+        0.020786569829845256
+      ],
+      "common_2022_window": {
+        "records": 120,
+        "joint_years": 146,
+        "joint_rate": 0.030416666666666668,
+        "delta_pp": -0.1732761820636225
+      },
+      "born_through_2025": {
+        "records": 980,
+        "joint_years": 1454,
+        "joint_rate": 0.03709183673469388,
+        "delta_pp": 0.49424082473909847
+      },
+      "leave_one_month_out_delta_pp": [
+        0.46434765941927925,
+        0.5642400306471423
+      ],
+      "exclude_midnight": {
+        "records": 1064,
+        "joint_years": 1585,
+        "joint_rate": 0.03724154135338346,
+        "delta_pp": 0.5092112866080565
+      },
+      "one_per_clock_and_sex": {
+        "records": 1064,
+        "joint_years": 1584,
+        "joint_rate": 0.037218045112781956,
+        "delta_pp": 0.5068616625479062
+      },
+      "clock_rounding": {
+        "joint_rate_original": 0.037288930581613505,
+        "joint_rate_rounded": 0.037265478424015015,
+        "rounded_minus_original_pp": -0.0023452157598496948,
+        "joint_lost_rate": 0.016322701688555347,
+        "joint_gained_rate": 0.01629924953095685,
+        "joint_reversal_rate": 0.032621951219512196,
+        "records_with_any_reversal_rate": 0.625703564727955,
+        "system_reversal_rates": [
+          0.02727485928705441,
+          0.08754690431519695,
+          0.06686210131332083,
+          0.1759146341463416
+        ],
+        "changed_clocks": 1024,
+        "rounded_across_midnight": 18
+      }
+    }
+  },
+  "common_window_colon_minus_duitama_pp": 0.041666666666666935,
+  "same_direction_gate_pp": 0.3,
+  "same_direction_at_registered_scale": null,
+  "verification": {
+    "different_formats_projected_bytes_match": true,
+    "score_runs": 2,
+    "score_trajectories_per_run": 3258,
+    "two_score_file_hashes_match_sha256": "44f894eb712f8d2a1c02b4cd9c4df812cd08944a0214217f92c95a3003da1250",
+    "independent_integer_threshold_flags_and_summary_match": true,
+    "date_extension": {
+      "amendment_sha256": "2c62f182aa94e880a29b86ddebed0d7f9aa8b811b35afd56cbd25760484b7813",
+      "frozen_in_range_trajectories": 3086,
+      "additional_in_range_trajectories": 0,
+      "earlier_birth_records_recheck": 6,
+      "exact_overlap_trajectories": 12,
+      "birth_year_2026_trajectories": 172,
+      "changed_engine_files": {
+        "astronomy.py": {
+          "before_sha256": "ae6e824a8cb9b605a4ee9a836022ea5370b9ce45caa57e2081c65bf70ec5544b",
+          "after_sha256": "5e9d9ebb895ddb7749360710c110aa620baaa436c47aa7f6cc1e183eb1644afb"
+        },
+        "bazi_engine.py": {
+          "before_sha256": "417b2f296b38964ac9df02f3094d8b3a3d7e874db0f26959c677c52a34db6406",
+          "after_sha256": "727210806449487818224e6e6d8f313a8dc93ed5c1784b39b3b4d4b3f39e9f11"
+        },
+        "ziwei_bridge.cjs": {
+          "before_sha256": "3ca9a898ddd860f8e5faa16c5655367e221a949c053d114bbaa9382e96b59b4e",
+          "after_sha256": "d4d20389f676f0594af47987bf160fb501b1e3c6cfa06f7f420d2b1c6465c2e0"
+        }
+      }
+    },
+    "exact_counts_and_rates": {
+      "duitama": {
+        "exact_joint_rates": {
+          "full_archive": "3/100",
+          "common_2022_window": "3/100",
+          "born_through_2025": "3/100",
+          "exclude_midnight": "3/100",
+          "one_per_clock_and_sex": "101/3360"
+        },
+        "month_omission_delta_pp_exact": [
+          "-1967789908789640819687/4126664084924316005928",
+          "-6056016614074158944743/57773297188940424082992"
+        ],
+        "exact_clock_transition_rates": {
+          "joint_rate_original": "3/100",
+          "joint_rate_rounded": "361/11800",
+          "joint_lost_rate": "29/2360",
+          "joint_gained_rate": "19/1475",
+          "joint_reversal_rate": "297/11800",
+          "records_with_any_reversal_rate": "63/118",
+          "system_0": "133/4720",
+          "system_1": "2043/23600",
+          "system_2": "1727/23600",
+          "system_3": "85/472",
+          "rounded_minus_original_pp": "7/118"
+        }
+      },
+      "colon": {
+        "exact_joint_rates": {
+          "full_archive": "159/4264",
+          "common_2022_window": "73/2400",
+          "born_through_2025": "727/19600",
+          "exclude_midnight": "317/8512",
+          "one_per_clock_and_sex": "99/2660"
+        },
+        "month_omission_delta_pp_exact": [
+          "1998603701833108170885779/4304110640576061594182904",
+          "4188843896476936351485737/7423868688778844494664472"
+        ],
+        "exact_clock_transition_rates": {
+          "joint_rate_original": "159/4264",
+          "joint_rate_rounded": "1589/42640",
+          "joint_lost_rate": "87/5330",
+          "joint_gained_rate": "139/8528",
+          "joint_reversal_rate": "107/3280",
+          "records_with_any_reversal_rate": "667/1066",
+          "system_0": "1163/42640",
+          "system_1": "3733/42640",
+          "system_2": "2851/42640",
+          "system_3": "577/3280",
+          "rounded_minus_original_pp": "-5/2132"
+        }
+      }
+    },
+    "software": {
+      "platform": "Linux-6.8.0-134-generic-x86_64-with-glibc2.36",
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "swiss_ephemeris": "2.10.3.2",
+      "lunar_python": "1.4.9",
+      "timezone_release": "2026b",
+      "zone_and_source_offset_seconds": [
+        "America/Bogota",
+        -18000
+      ],
+      "node": "v24.22.3"
+    },
+    "code_sha256": {
+      "rounds/r10/methods/analyze_cohorts.py": "548bc881302b3fb13a14ca22b0d0a66ac1ce939fdc7fd7c9c5c726368d4f658b",
+      "rounds/r10/methods/open_birth_chart_r10/__init__.py": "667d4a15b970b851e20d17510224670c14646cfb6d5a1e388ca6b9cc6da8bf41",
+      "rounds/r10/methods/open_birth_chart_r10/astronomy.py": "ae6e824a8cb9b605a4ee9a836022ea5370b9ce45caa57e2081c65bf70ec5544b",
+      "rounds/r10/methods/open_birth_chart_r10/bazi_engine.py": "417b2f296b38964ac9df02f3094d8b3a3d7e874db0f26959c677c52a34db6406",
+      "rounds/r10/methods/open_birth_chart_r10/qizheng_engine.py": "d50d0c7de06ca16cb0cf19557fd51b65f240363c68e7ce6bb9daa8f483c6123d",
+      "rounds/r10/methods/open_birth_chart_r10/western_engine.py": "651c791cdaa20215c04214edda13c105dd9d111335585cca6d07d235f9dbe8a1",
+      "rounds/r10/methods/open_birth_chart_r10/ziwei_bridge.cjs": "3ca9a898ddd860f8e5faa16c5655367e221a949c053d114bbaa9382e96b59b4e",
+      "rounds/r10/methods/open_birth_chart_r10/ziwei_engine.py": "84f0b0580fb1eb687bf36cc66bc8e46eb96f67f7436a0ef6cae64e144c572d47",
+      "rounds/r10/methods/r10_io.py": "7112302cba5c320fbd71f3aad8914be5e81372998735614c9c52446dd21f69cd",
+      "rounds/r10/methods/run_profiles.py": "cbac2cacb8f9e07e916821251a36b4ca2e95b7bf6c176eb5f81ab083621d9e0d",
+      "rounds/r27/analyze.py": "d1174759356b5d6a27a18fbf61b439b14b697cf1d3c259cdfd2768a630ea48bf",
+      "rounds/r27/archive_source.py": "8b97cc7ffbaf4b1641579f5a759ef1a9d444a125a3ea9f7c8a7345602c3ef600",
+      "rounds/r27/study.py": "c33607b5368cb8db9c15e83ae993d275441aa70019fb1fb1aa2015bfe0ea4d6e",
+      "rounds/r27/verify.py": "b63b4a23e6481a1add3b9684bfbd69fabfca482a62b008a0d0b4a24d7d7ddb5c",
+      "rounds/r29/clock_pairs.py": "f0bed13ab95dbeb7e61652e8ce2c901216ae5cd2ecb3b7a523aa066e0d313040",
+      "rounds/r29/compare.py": "921e119313f8770f05012b08459fa58db7dc91ee3df0092f173915484efb9eea",
+      "rounds/r30/compare.py": "5107bca1c444b8e2dd7b5d20fc77802a499cd8209eabfa95a87e9a68d4020cc3",
+      "rounds/r30/date_extension.py": "ad2b97d61054fcb41a28117d9754226e77fb3047288f6494e3107c6a4586a2e6",
+      "rounds/r30/source.py": "00c73fd305ea94a8f3a3046aebff066b12b329ba3fc7b0635c4a78e8690b157d",
+      "rounds/r30/study.py": "0c420d109f4bb89fc4d447c6e1d9c6892a128fb2d5cb2b7641e4eea76cefa044",
+      "src/open_birth_chart/__init__.py": "667d4a15b970b851e20d17510224670c14646cfb6d5a1e388ca6b9cc6da8bf41",
+      "src/open_birth_chart/analysis.py": "a8466fa1ff9e0113411f64835147d7be45a8ae6324a1d3923c545bc57e00fef9",
+      "src/open_birth_chart/astronomy.py": "9331f1a20b6571207f28632bf89d72969c6992072c99fb3ff1235439502fb550",
+      "src/open_birth_chart/bazi_engine.py": "41d2b5f3cd0738d94366e5436a495d05d9f84b5d0c3d0a68efbf14383311d5df",
+      "src/open_birth_chart/io.py": "4c9159410a08836779a818897f4f49397fcffad9d3e436aa645facad8bdaf0de",
+      "src/open_birth_chart/qizheng_engine.py": "d50d0c7de06ca16cb0cf19557fd51b65f240363c68e7ce6bb9daa8f483c6123d",
+      "src/open_birth_chart/western_engine.py": "651c791cdaa20215c04214edda13c105dd9d111335585cca6d07d235f9dbe8a1",
+      "src/open_birth_chart/ziwei_bridge.cjs": "976c2b4b8bd887b87865c4e3bfe8f02cce5f1dfdd1c4a6d14959308ca34e978f",
+      "src/open_birth_chart/ziwei_engine.py": "84f0b0580fb1eb687bf36cc66bc8e46eb96f67f7436a0ef6cae64e144c572d47"
+    }
+  }
+}
