@@ -1,0 +1,18 @@
+{
+  "world_library": {
+    "archive": "中国国家图书馆",
+    "document": "世界图书馆发行《秘本子平真诠》",
+    "file_sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620",
+    "pdf_pages_one_indexed": [78, 79, 80, 81],
+    "printed_pages": [69, 70, 71, 72],
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/NLC416-11jh010455-35296_%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE.pdf"
+  },
+  "collected_edition": {
+    "archive": "中国国家图书馆",
+    "document": "《渊海子平／子平真诠》第二卷",
+    "file_sha256": "b1ac0a7dd4dc260647b65bd9338ad815fc0855d78e0ea01ed428237b28eb61c8",
+    "pdf_pages_one_indexed": [57, 58, 59],
+    "printed_pages": [44, 45, 46],
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/NLC416-13jh002326-46443_%E6%B7%B5%E6%B5%B7%E5%AD%90%E5%B9%B3_%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE_%E7%AC%AC2%E5%8D%B7.pdf"
+  }
+}
