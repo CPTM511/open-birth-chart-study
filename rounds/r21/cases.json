@@ -1,0 +1,88 @@
+[
+  {
+    "id": "01",
+    "pillars": [
+      "甲申",
+      "壬申",
+      "乙巳",
+      "戊寅"
+    ],
+    "body_pages": [
+      65
+    ],
+    "example_page": 98,
+    "expected": "财印隔位"
+  },
+  {
+    "id": "02",
+    "pillars": [
+      "壬戌",
+      "丁未",
+      "戊申",
+      "乙卯"
+    ],
+    "body_pages": [
+      65,
+      66
+    ],
+    "example_page": 98,
+    "expected": "财印相合"
+  },
+  {
+    "id": "03",
+    "pillars": [
+      "乙卯",
+      "丁亥",
+      "丁未",
+      "庚戌"
+    ],
+    "body_pages": [
+      66
+    ],
+    "example_page": 99,
+    "expected": "化官为印的前提"
+  },
+  {
+    "id": "04",
+    "pillars": [
+      "己卯",
+      "辛未",
+      "壬寅",
+      "辛亥"
+    ],
+    "body_pages": [
+      66
+    ],
+    "example_page": 99,
+    "expected": "木伤官与双金印"
+  },
+  {
+    "id": "05",
+    "pillars": [
+      "庚寅",
+      "乙酉",
+      "甲子",
+      "戊辰"
+    ],
+    "body_pages": [
+      66
+    ],
+    "example_page": 99,
+    "expected": "比劫合杀候选"
+  },
+  {
+    "id": "06",
+    "pillars": [
+      "丁丑",
+      "壬寅",
+      "己巳",
+      "丙寅"
+    ],
+    "body_pages": [
+      66,
+      67
+    ],
+    "example_page": 99,
+    "expected": "巳丑伤官与财印分工"
+  }
+]

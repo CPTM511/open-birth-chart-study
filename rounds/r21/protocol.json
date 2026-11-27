@@ -1,0 +1,10 @@
+{
+  "frozen_pre_result_commit": "d485d005b8f3fd778c9757c813a4d78b47dd3d2b",
+  "source_pdf_sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620",
+  "source_case_count": 6,
+  "files_sha256": {
+    "rounds/r21/REGISTRATION.zh.md": "19ac85bffebd4330bb448208dbef96dacffc34f82c541ff7dfced6e1865d9caa",
+    "rounds/r21/cases.json": "e03dbfc66398cdca4867ecd3e660d11882371704283729e58e205cc4e0bad458",
+    "src/open_birth_chart/bazi_engine.py": "41d2b5f3cd0738d94366e5436a495d05d9f84b5d0c3d0a68efbf14383311d5df"
+  }
+}
