@@ -1,0 +1,41 @@
+{
+  "platform": "Linux",
+  "machine": "x86_64",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "bit_generator": "PCG64",
+  "seed": 2,
+  "n": 92,
+  "p_hex": [
+    "0x1.5555555555555p-2",
+    "0x1.5555555555555p-1"
+  ],
+  "initial_state": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 139756322654377766727085075210351969228,
+      "inc": 121863417007658695389390353187995180015
+    },
+    "has_uint32": 0,
+    "uinteger": 0
+  },
+  "first_two_uniforms_hex": [
+    "0x1.0be40d2359ad6p-2",
+    "0x1.31a7a98c6fedcp-2"
+  ],
+  "single_rounding": {
+    "initial_value_hex": "0x1.f000000000000p+4",
+    "integer_center": 31,
+    "first_category": 34
+  },
+  "separate_rounding": {
+    "initial_value_hex": "0x1.effffffffffffp+4",
+    "integer_center": 30,
+    "first_category": 33
+  },
+  "observed_binomial": 33,
+  "observed_multinomial": [
+    33,
+    59
+  ]
+}

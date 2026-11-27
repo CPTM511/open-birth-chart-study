@@ -1,0 +1,43 @@
+{
+  "real_R10_targets_inspected": false,
+  "synthetic_records_per_source": 2000,
+  "target_slots": 7,
+  "strata_per_source": 54,
+  "benchmark_draws": 10,
+  "elapsed_seconds": 0.6627888020011596,
+  "conservative_projected_seconds_for_999": 66.21260131991585,
+  "budget_decision_threshold_seconds": 120,
+  "selected_refit_draws": 999,
+  "decision_rule": "999 if linear projection including setup <=120 seconds, else199; frozen before target inspection; no effect-dependent timing choice",
+  "primary_draws": 9999,
+  "family_size": 7,
+  "method_checks": {
+    "status": "passed",
+    "count": 9,
+    "checks": [
+      "all nine n-1 resamples preserve total, nonnegative weights and exact finite-frame mean variance",
+      "100 replicate draws preserve finite-frame stratum totals",
+      "census replicate weights are unchanged",
+      "non-census singleton produces unavailable sensitivity",
+      "cached refit CDF equals original implementation for 10 reweightings with ties",
+      "refitted reference percentile mean remains one half with unequal weights",
+      "identical score arrays have identical joint flags under a shared reference",
+      "exact 4/5 equality is included and both sides about 1e-13 away match an independent Fraction oracle without tolerance widening",
+      "sensitivity baseline and primary use the same exact design-weight boundary rule"
+    ],
+    "real_R10_targets_inspected": false,
+    "scope": "Arithmetic and implementation checks; not confidence-coverage validation or real-world prediction"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "code_sha256": {
+    "reference_sensitivity.py": "00f58f6d30588a11b67676a467c8f7a1d04e9b170f8e5e0b4a331ddcf2637e95",
+    "threshold_precision.py": "1b4637b018078640c55724eae009eebcf30e969efbe6fd7c87622b2bcb33e62c",
+    "precision_reference.py": "29973a0dc528521743fc777d6eec19291f181f3bc699974004e08bb2e0a12ad1",
+    "check_methods.py": "90d6b0b4ba96f30a3a0b2c72db35543123059e802d442cfd20a420459bc7884d",
+    "benchmark_refit.py": "03646dfc8706bf31b2ab7a74ba82e35f00eebc5930fbdc58c912a1b1ec038fb3"
+  },
+  "interpretation": "Runtime test and numerical controls only; no bootstrap coverage guarantee for discrete threshold scores."
+}

@@ -1,0 +1,60 @@
+{
+  "protocol": "repository/rounds/r10/protocol.json",
+  "source_decisions": "repository/rounds/r10/source_decisions.json",
+  "reference": {
+    "sample_dir": "reference/brazil2006",
+    "profile_files": [
+      "reference/full-frozen-r8-baseline_profiles.jsonl"
+    ]
+  },
+  "targets": [
+    {
+      "slot": "brazil_2000s",
+      "sample_dir": "prepared/samples/brazil_2000s",
+      "profile_files": [
+        "profiles/baseline_profiles.jsonl"
+      ],
+      "input_seal": "prepared/seals/brazil_2000s.json"
+    },
+    {
+      "slot": "brazil2010",
+      "sample_dir": "prepared/samples/brazil2010",
+      "profile_files": [
+        "profiles/baseline_profiles.jsonl"
+      ],
+      "input_seal": "prepared/seals/brazil2010.json"
+    },
+    {
+      "slot": "brazil2020",
+      "sample_dir": "prepared/samples/brazil2020",
+      "profile_files": [
+        "profiles/baseline_profiles.jsonl"
+      ],
+      "input_seal": "prepared/seals/brazil2020.json"
+    },
+    {
+      "slot": "brazil2024",
+      "sample_dir": "prepared/samples/brazil2024",
+      "profile_files": [
+        "profiles/baseline_profiles.jsonl"
+      ],
+      "input_seal": "prepared/seals/brazil2024.json"
+    },
+    {
+      "slot": "mexico_2000s",
+      "sample_dir": "prepared/samples/mexico_2000s",
+      "profile_files": [
+        "profiles/baseline_profiles.jsonl"
+      ],
+      "input_seal": "prepared/seals/mexico_2000s.json"
+    },
+    {
+      "slot": "mexico2020",
+      "sample_dir": "prepared/samples/mexico2020",
+      "profile_files": [
+        "profiles/baseline_profiles.jsonl"
+      ],
+      "input_seal": "prepared/seals/mexico2020.json"
+    }
+  ]
+}

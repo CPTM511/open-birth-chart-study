@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "source_profile_sha256": "9076924ba2e21c46f592170ecf2b6e2097846124e05be4a2da3e12599c1e9746",
+  "config_sha256": "2f062e8ee76fd823fe1496ea868fe8c69ba668ab18a597360366de3ddcd6e729",
+  "review_code_sha256": "2fe4c0e13986321a9e43246e9efe33be0f300370e04f35a11f1e4b59b83bf89c",
+  "selection": "Smallest and largest prespecified sampling rank in each of six slots; ID tie-break.",
+  "distinct_records_replayed": 12,
+  "record_years_replayed": 480,
+  "primary_scores_replayed": 1920,
+  "entire_profile_objects_equal": true,
+  "scope": "Fresh Linux worker per case, including a new Ziwei engine. Uses the same locked engines and birth inputs."
+}

@@ -1,0 +1,59 @@
+{
+  "slot": "mexico_2000s",
+  "status": "verified_model_inputs",
+  "tzdb": "2026c",
+  "archives": {
+    "2009": {
+      "sha256": "e3822ae4a5225bccd0c1d48a65852bd55203b9ae5b356a4d0a5c7d4457f50e73",
+      "physical_records": 2577214,
+      "actual_2009_birth_records": 1630785,
+      "eligible_records": 1231004
+    },
+    "2010": {
+      "sha256": "02519153dbf85d25a049095d9cf2ed118f869455117f30a76929a1638be19e58",
+      "physical_records": 2643908,
+      "actual_2009_birth_records": 542132,
+      "eligible_records": 414431
+    }
+  },
+  "iter_2020_sha256": "9342fdbd45bda5897f2b827a12904843b6f8fb85d4e72da299e09e4d2422ab60",
+  "seat_catalog_sha256": {
+    "seats-01.json": "3143fa70bf5200f619607e444072264a37210244df7826ae28bfee5c645a82d1",
+    "seats-02.json": "31e633c6ea1b3704bcdc175d75a535a56a35629962789d6acd1a1cd9ca350e65",
+    "seats-03.json": "243080b6c4571587e2f2d3b3b0823ea6d0fb78fff1fbe5adf195c8a7ce807189",
+    "seats-04.json": "8cc5f12b823ac594dc72eda819f72fb9786589e5031f05816594951dafb106e5",
+    "seats-05.json": "25a91ad8e4bf84037a22d49eace530033523c822958a0fe9737b96a1cf23d04a",
+    "seats-06.json": "d3915837448bdf7004688bcefc2b542aef6f6285af5705566a1be4f42c99ecf9",
+    "seats-07.json": "8bf119b5cc25a0421ee7c86f5d52948aae50377a8c4820b2e2bfec9b8ea43145",
+    "seats-08.json": "a60a4234c34c2c7b893f15cea664ae70f3bb8d27e4025fc23972788040d51900",
+    "seats-09.json": "b11a202fd0ed19956b098f1f2f3e8a4d9edcca6c7ea5408534da1ef0b02510e2",
+    "seats-10.json": "0dad1522e9c14b269ac2a5976810cdae6c638e9b2cff1bebcf8a87fbebabfccd",
+    "seats-11.json": "ad8a28c7d7bdbbe993cea70a6ed7bdc66c25d545e3759aadf3990429add63f88",
+    "seats-12.json": "0fe0da20b587e90d1e304cebaa7cad21948be1d50a2ce8992f0a25f059c5ed7e",
+    "seats-13.json": "d44e31190fdb6142f776023d55fe4e6cac332b5238456433b29e867848e03b84",
+    "seats-14.json": "e5e35a99b9dac7d33128403adc8400bfeabee28334333c04a269c88c95ee1a38",
+    "seats-15.json": "cf14d09d1db9e158ac8a1fa7483225bc447388ef5ffc00fa61517dd2614f3a62",
+    "seats-16.json": "dd3370193086485db54a865a49fae64fec07101bc92aa4ccb27f0811acde5514",
+    "seats-17.json": "eae31f8203faa218efa7d94b4f1dcd7270e88a020d7f15bf0900490a7ca3eb2a",
+    "seats-18.json": "9b06caef35c52234532858ea72ba68efcd6b5aceb050ab3d6faa50f22945da37",
+    "seats-19.json": "31f5a3912494ba652d25964af7871190d9e83c258a2b6fbed9e31f5d33fbf19e",
+    "seats-20.json": "39c2b503a15eddf5c3bef56b16892ff896a5aa7ba57ae151dadc0f3c7db72fdc",
+    "seats-21.json": "054a9fb30faf071eee7c915c63a352cee67e5215bd1a367512818c463dffc8f2",
+    "seats-22.json": "5bc7b1678d062666c32423b7dc9cae9b9e80cda7e23caf22ed79edd56159b935",
+    "seats-23.json": "ea31ed8bfb6df4fbbb79788f7e8344d163bae1d4e4754290c0bc3d1b67b86440",
+    "seats-24.json": "795baf09719d8c8462a93d843b5efaaf3ca333e2688d6ae63e4bac0358ba334c",
+    "seats-25.json": "823d6637b08395c702c753dd2f5b1d1f45ced39271b79bb55f1fe8cd9afb4444",
+    "seats-26.json": "ab63badd30cff561c658040c3c81eba8141ddaa4b7e2c206c22b681d310277be",
+    "seats-27.json": "21d2fee2a258f0ba229d3765b8227b31a42279813f7888e85384070305108b90",
+    "seats-28.json": "7c2a43bb4b067fb043f417cc6e1c2a5f16c74afe68d7fc8492cb45a480151369",
+    "seats-29.json": "fa32c92c55beb6b3adb006d96009b26a3c92d95225d248884530d8171ca700e1",
+    "seats-30.json": "661c235fa4cc60a23f2632d44dc61dce4c714b4567f52a9b2271a346399c91c3",
+    "seats-31.json": "8f93f889d64f90eaf8dcfe10ae666b61e43c9dfbccb11bee496dfac40b30d0b1",
+    "seats-32.json": "067fb84e1526a1a390658cf5d98dd0c7b159c58a277cb28cd7137332bce05f50"
+  },
+  "eligible_records": 1645435,
+  "matching_strata": 52,
+  "selected_records": 2000,
+  "model_input_sha256": "cff3aae86557673296be0ca5fe186b2b1bc1ed696aa0dedce75bfe390ee3935e",
+  "scope": "This replay verifies the model inputs and all stratum counts. It does not reconstruct the separate historical metadata serialization or calculate target scores."
+}
