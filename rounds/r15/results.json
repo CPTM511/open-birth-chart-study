@@ -1,0 +1,43 @@
+{
+  "sample_records": 2000,
+  "eligible_frame_N": 49348,
+  "modeled_record_years": 80000,
+  "baseline_system_year_scores": 320000,
+  "baseline_sha256": "9a92c0120748c342aaf1cba1dad0469e8e6a98c441999b3459add68e294d15ab",
+  "reference_joint_rate": 0.03214942848730289,
+  "joint_rate": 0.03228247851864106,
+  "difference_from_brazil_2006": 0.00013305003133816384,
+  "conditional_95_difference": [
+    -0.0012910132983877318,
+    0.0015816354464015803
+  ],
+  "analytic_design_variance": 5.254137792123172e-07,
+  "bootstrap_draws": 9999,
+  "weighted_subsets": {
+    "nonround_minute": {
+      "sample_records": 1777,
+      "weighted_eligible_record_share": 0.8879272556213141,
+      "weighted_joint_rate": 0.032181005875575014
+    },
+    "nonmidnight": {
+      "sample_records": 1996,
+      "weighted_eligible_record_share": 0.9979860360557139,
+      "weighted_joint_rate": 0.03227194672518217
+    },
+    "largest_eligible_state": {
+      "sample_records": 1977,
+      "weighted_eligible_record_share": 0.9954000162113966,
+      "weighted_joint_rate": 0.032283729632361556
+    }
+  },
+  "largest_eligible_state_code": "27",
+  "mx1999_r13_descriptive": {
+    "source_records": 766,
+    "modeled_record_years": 30640,
+    "joint_high_record_years": 958,
+    "joint_rate": 0.03126631853785901,
+    "difference_from_fixed_brazil_2006": -0.0008831099494438846
+  },
+  "independent_threshold_checks": 640000,
+  "scope": "Fixed model and reference estimates for the restricted SINASC 1999 eligible record frame."
+}

@@ -1,0 +1,11 @@
+{
+  "registration_sha256": "f522aa8333baa1b9845d0d3e757d3d1bd3df3f94b3311d7d5ad6ddb97e352014",
+  "private_input_sha256": {
+    "birth_metadata.jsonl": "ee2fd548c111e873841193d44b19b06ed83069754ced6db56abfed50af934afc",
+    "birth_inputs.jsonl": "3a9d89aff99339d7a75530a50d9c2428cde1fae6ebfdf83f19c7dee5c6a44a5c",
+    "sampling_manifest.json": "0ae4fad0476d52af1182cada995fb222fcf7652bc2841421c7aa8321f0a5e60b"
+  },
+  "records": 2000,
+  "eligible_frame_N": 49348,
+  "additional_matching_chart_inputs": 2
+}
