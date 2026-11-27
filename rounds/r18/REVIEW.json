@@ -1,0 +1,17 @@
+{
+  "software_check": "Independent positional source reads and arithmetic weekday calculation",
+  "publisher_source_checks": {
+    "2024": {
+      "source_sha256": "26bbeed3690fd8f23c6a6baf02710351bc22d23fd651cc89b9eb46669d6d04cb",
+      "six_day_group_count_totals_reconciled": true,
+      "venue_totals_and_all_24_hours_conserved": true
+    },
+    "2025": {
+      "source_sha256": "8cb9bec8ece54e8dfd4dab0a39f72ad4ee152424249b085b7ff20465f6d58993",
+      "six_day_group_count_totals_reconciled": true,
+      "venue_totals_and_all_24_hours_conserved": true
+    }
+  },
+  "target_result_sha256": "fce000ad77efb05f7e2b2c3efa8c3777ed0fe005fefc7110487baf1f38f7d241",
+  "uses_same_aggregate_sources": true
+}
