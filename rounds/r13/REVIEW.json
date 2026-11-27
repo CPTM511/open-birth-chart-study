@@ -1,0 +1,14 @@
+{
+  "archive_sha256": "943ec79ce615021760f56755ca86c6c743859c31f3e879e8f87da267e5059f7e",
+  "archive_size_bytes": 16925059,
+  "archive_member_checks": 12,
+  "reference_source": "verified local R10 independent replay archive",
+  "scoring_environment": "Linux x86_64 Python 3.12.14 Node 24.22.3",
+  "platform_replay": {
+    "from": "extracted R13 private archive; independently verified R10 reference",
+    "analysis_platform": "macOS arm64 Python 3.12.14",
+    "result_json_sha256": "581731394eb1d0a1199f0314e80c8880f7354cd5c68d6d152eae032e5ba620d8",
+    "byte_identical": true
+  },
+  "private_records_published": false
+}

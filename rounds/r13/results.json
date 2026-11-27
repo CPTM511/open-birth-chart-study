@@ -1,0 +1,171 @@
+{
+  "reference": {
+    "source_records": 2000,
+    "joint_rate": 0.03214942848730289
+  },
+  "scope": "Eligible births in the four late-registration archives, census within this restricted frame.",
+  "clock_quality_subsets": {
+    "all_eligible": {
+      "source_records": 5408,
+      "modeled_record_years": 216320,
+      "joint_high_record_years": 7061,
+      "joint_rate": 0.032641457100591714,
+      "difference_from_fixed_brazil_2006": 0.000492028613288821
+    },
+    "nonmidnight": {
+      "source_records": 4959,
+      "modeled_record_years": 198360,
+      "joint_high_record_years": 6499,
+      "joint_rate": 0.03276366202863481,
+      "difference_from_fixed_brazil_2006": 0.0006142335413319155
+    },
+    "nonround_minute": {
+      "source_records": 2401,
+      "modeled_record_years": 96040,
+      "joint_high_record_years": 3073,
+      "joint_rate": 0.03199708454810496,
+      "difference_from_fixed_brazil_2006": -0.00015234393919793393
+    },
+    "on_the_hour": {
+      "source_records": 3007,
+      "modeled_record_years": 120280,
+      "joint_high_record_years": 3988,
+      "joint_rate": 0.03315596940472231,
+      "difference_from_fixed_brazil_2006": 0.0010065409174194184
+    }
+  },
+  "birth_year_breakdown": {
+    "1990": {
+      "source_records": 412,
+      "modeled_record_years": 16480,
+      "joint_high_record_years": 560,
+      "joint_rate": 0.03398058252427184,
+      "difference_from_fixed_brazil_2006": 0.0018311540369689502
+    },
+    "1991": {
+      "source_records": 457,
+      "modeled_record_years": 18280,
+      "joint_high_record_years": 627,
+      "joint_rate": 0.034299781181619256,
+      "difference_from_fixed_brazil_2006": 0.0021503526943163626
+    },
+    "1992": {
+      "source_records": 472,
+      "modeled_record_years": 18880,
+      "joint_high_record_years": 649,
+      "joint_rate": 0.034375,
+      "difference_from_fixed_brazil_2006": 0.0022255715126971096
+    },
+    "1993": {
+      "source_records": 470,
+      "modeled_record_years": 18800,
+      "joint_high_record_years": 558,
+      "joint_rate": 0.029680851063829786,
+      "difference_from_fixed_brazil_2006": -0.002468577423473107
+    },
+    "1994": {
+      "source_records": 467,
+      "modeled_record_years": 18680,
+      "joint_high_record_years": 639,
+      "joint_rate": 0.034207708779443256,
+      "difference_from_fixed_brazil_2006": 0.002058280292140363
+    },
+    "1995": {
+      "source_records": 551,
+      "modeled_record_years": 22040,
+      "joint_high_record_years": 634,
+      "joint_rate": 0.028765880217785846,
+      "difference_from_fixed_brazil_2006": -0.0033835482695170477
+    },
+    "1996": {
+      "source_records": 560,
+      "modeled_record_years": 22400,
+      "joint_high_record_years": 808,
+      "joint_rate": 0.036071428571428574,
+      "difference_from_fixed_brazil_2006": 0.0039220000841256805
+    },
+    "1997": {
+      "source_records": 590,
+      "modeled_record_years": 23600,
+      "joint_high_record_years": 792,
+      "joint_rate": 0.0335593220338983,
+      "difference_from_fixed_brazil_2006": 0.0014098935465954102
+    },
+    "1998": {
+      "source_records": 663,
+      "modeled_record_years": 26520,
+      "joint_high_record_years": 836,
+      "joint_rate": 0.03152337858220211,
+      "difference_from_fixed_brazil_2006": -0.0006260499051007826
+    },
+    "1999": {
+      "source_records": 766,
+      "modeled_record_years": 30640,
+      "joint_high_record_years": 958,
+      "joint_rate": 0.03126631853785901,
+      "difference_from_fixed_brazil_2006": -0.0008831099494438846
+    }
+  },
+  "paired_clock_stress": {
+    "clock_+120": {
+      "records": 200,
+      "base_joint_rate": 0.033375,
+      "stress_joint_rate": 0.038,
+      "joint_flag_changed_share": 0.062625,
+      "system_flags_changed_share": [
+        0.1055,
+        0.33775,
+        0.383375,
+        0.27575
+      ]
+    },
+    "clock_+30": {
+      "records": 200,
+      "base_joint_rate": 0.033375,
+      "stress_joint_rate": 0.032875,
+      "joint_flag_changed_share": 0.0335,
+      "system_flags_changed_share": [
+        0.014125,
+        0.049,
+        0.07425,
+        0.24375
+      ]
+    },
+    "clock_-120": {
+      "records": 200,
+      "base_joint_rate": 0.033375,
+      "stress_joint_rate": 0.031125,
+      "joint_flag_changed_share": 0.05825,
+      "system_flags_changed_share": [
+        0.115,
+        0.347875,
+        0.383125,
+        0.2675
+      ]
+    },
+    "clock_-30": {
+      "records": 200,
+      "base_joint_rate": 0.033375,
+      "stress_joint_rate": 0.031375,
+      "joint_flag_changed_share": 0.038,
+      "system_flags_changed_share": [
+        0.027875,
+        0.086,
+        0.10525,
+        0.241375
+      ]
+    }
+  },
+  "complete_run": {
+    "registration_sha256": "559700670ecbda34f501b1bd24b0a81a18664f6c461afff47dffb7a786853fc1",
+    "input_sha256": "fa2a1bed3848cf27c6bf1fc9f2a83c920da36341784d664c4e0a90bbdc044fc3",
+    "baseline_records": 5408,
+    "base_record_years": 216320,
+    "base_system_year_scores": 865280,
+    "clock_stress_profiles": 800,
+    "baseline_sha256": "5e73834f86ad524bada6f6371d2d05bb43a2e311453ae1d09b9871754817dbd4",
+    "clock_stress_sha256": "7f9ada89e6acb5d366c07016898308fa483d2f4cf8d2438cbeba157ad70c7f51"
+  },
+  "independent_threshold_checks": 1313280,
+  "independent_reference_arithmetic": "Raw sorted prefix CDF and exact rational boundary resolution"
+}
