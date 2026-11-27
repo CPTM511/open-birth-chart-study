@@ -1,0 +1,264 @@
+{
+  "round": "R37",
+  "registration_sha256": "68b13efadfe6e2c1a5594e9bea1af39df12d51e707e1850da32c57dcf44b56a0",
+  "transcription": {
+    "images_read": 39,
+    "images_with_eligible_births": 36,
+    "images_with_no_eligible_births": 3,
+    "non_act_entries": {
+      "blank": 0,
+      "close": 1,
+      "index": 5
+    },
+    "civil_acts_read": 218,
+    "ordinary_birth_acts": 189,
+    "ordinary_birth_acts_classifiable": 186,
+    "ordinary_classifiable_fraction": 0.9841269841269841,
+    "eligible_birth_acts": 186,
+    "excluded_civil_acts": {
+      "ack": 28,
+      "court": 1,
+      "u_clock": 1,
+      "u_midnight": 2
+    },
+    "repeated_act_labels_within_volume": 0,
+    "both_passes_cover_same_slots": true,
+    "fields_or_observed_labels_disputed": 3,
+    "act_labels_completed_in_second_pass": 176,
+    "same_ai_reader": true,
+    "private_transcription_sha256": {
+      "pass_a.tsv": "d007a50f34e55d77e64b1d15789761ee948004f8654791277d4458ebb5e061b0",
+      "pass_b.tsv": "527a87c6d915c33c6c33b9d1bd4538b8f51ae7a3379c49658563668e9c094397",
+      "adjudications.json": "2f3c506f92eb8647c9445200119f9d6d243f7588d2efa363fddef15cc07325fc"
+    }
+  },
+  "design": {
+    "archive_year": 1901,
+    "municipal_districts": 6,
+    "register_volumes": 13,
+    "eligible_scans_in_frame": 1948,
+    "selected_scans": 39,
+    "variance_df": 26,
+    "unweighted_birth_records": 186,
+    "model_years_per_record": 40,
+    "unweighted_record_years": 7440,
+    "design_weighted_record_years_exact": "1094680/3",
+    "distinct_actual_birth_dates": 81,
+    "historical_civil_offset_seconds": 561,
+    "city_reference_latitude": 45.758,
+    "city_reference_longitude": 4.8351,
+    "pointwise_conditional_intervals": true
+  },
+  "input_precision": {
+    "recorded_precision_counts": {
+      "h": 176,
+      "half": 9,
+      "minute": 1
+    },
+    "nonhour_clocks_shifted": 10,
+    "rounded_across_civil_midnight": 0
+  },
+  "brazil_2006_fixed_reference": {
+    "records": 2000,
+    "joint_rate": 0.03214942848730289,
+    "exact_joint_rate": "92868924322576875851429/2888664859447021204149600"
+  },
+  "system_order": [
+    "bazi",
+    "ziwei_doushu",
+    "qizheng_siyu",
+    "western_astrology"
+  ],
+  "estimates": {
+    "original_joint": {
+      "estimate_pp": 3.3429860781232876,
+      "conditional_ci95_pp": [
+        2.861139293166484,
+        3.824832863080091
+      ],
+      "design_se_pp": 0.23441492780319131,
+      "unweighted_estimate_pp": 3.3602150537634405,
+      "unweighted_numerator": 250,
+      "exact_weighted_ratio_before_reference_subtraction": "7319/218936"
+    },
+    "rounded_joint": {
+      "estimate_pp": 3.408667373113604,
+      "conditional_ci95_pp": [
+        2.9331667876406056,
+        3.8841679585866022
+      ],
+      "design_se_pp": 0.2313275482869946,
+      "unweighted_estimate_pp": 3.400537634408602,
+      "unweighted_numerator": 253,
+      "exact_weighted_ratio_before_reference_subtraction": "18657/547340"
+    },
+    "net_change": {
+      "estimate_pp": 0.0656812949903168,
+      "conditional_ci95_pp": [
+        -0.10250306693181419,
+        0.2338656569124478
+      ],
+      "design_se_pp": 0.08182045888536227,
+      "unweighted_estimate_pp": 0.04032258064516129,
+      "unweighted_numerator": 3,
+      "exact_weighted_ratio_before_reference_subtraction": "719/1094680"
+    },
+    "joint_reversal": {
+      "estimate_pp": 0.21330434464866443,
+      "conditional_ci95_pp": [
+        0.040106123596100524,
+        0.3865025657012283
+      ],
+      "design_se_pp": 0.08425966458885403,
+      "unweighted_estimate_pp": 0.20161290322580644,
+      "unweighted_numerator": 15,
+      "exact_weighted_ratio_before_reference_subtraction": "467/218936"
+    },
+    "joint_loss": {
+      "estimate_pp": 0.07381152482917382,
+      "conditional_ci95_pp": [
+        -0.016653424789148538,
+        0.16427647444749616
+      ],
+      "design_se_pp": 0.04401053466694703,
+      "unweighted_estimate_pp": 0.08064516129032258,
+      "unweighted_numerator": 6,
+      "exact_weighted_ratio_before_reference_subtraction": "101/136835"
+    },
+    "joint_gain": {
+      "estimate_pp": 0.13949281981949063,
+      "conditional_ci95_pp": [
+        -0.005275597233463186,
+        0.2842612368724444
+      ],
+      "design_se_pp": 0.07042877340084926,
+      "unweighted_estimate_pp": 0.12096774193548387,
+      "unweighted_numerator": 9,
+      "exact_weighted_ratio_before_reference_subtraction": "1527/1094680"
+    },
+    "records_with_reversal": {
+      "estimate_pp": 3.93539664559506,
+      "conditional_ci95_pp": [
+        0.8403206209339005,
+        7.03047267025622
+      ],
+      "design_se_pp": 1.5057317917590263,
+      "unweighted_estimate_pp": 3.225806451612903,
+      "unweighted_numerator": 6,
+      "exact_weighted_ratio_before_reference_subtraction": "1077/27367"
+    },
+    "records_with_nonhour_clock": {
+      "estimate_pp": 6.664961449921439,
+      "conditional_ci95_pp": [
+        1.4747288090262414,
+        11.855194090816635
+      ],
+      "design_se_pp": 2.5250101230960507,
+      "unweighted_estimate_pp": 5.376344086021505,
+      "unweighted_numerator": 10,
+      "exact_weighted_ratio_before_reference_subtraction": "1824/27367"
+    },
+    "original_minus_frozen_brazil": {
+      "estimate_pp": 0.12804322939299825,
+      "conditional_ci95_pp": [
+        -0.35380355556380527,
+        0.6098900143498018
+      ],
+      "design_se_pp": 0.23441492780319131,
+      "unweighted_estimate_pp": 0.14527220503315133,
+      "unweighted_numerator": 250,
+      "exact_weighted_ratio_before_reference_subtraction": "7319/218936"
+    }
+  },
+  "system_reversal_estimates": {
+    "bazi": {
+      "estimate_pp": 0.29917418789052513,
+      "conditional_ci95_pp": [
+        -0.06149640765472758,
+        0.6598447834357779
+      ],
+      "design_se_pp": 0.17546360016297263,
+      "unweighted_estimate_pp": 0.30913978494623656,
+      "unweighted_numerator": 23,
+      "exact_weighted_ratio_before_reference_subtraction": "655/218936"
+    },
+    "ziwei_doushu": {
+      "estimate_pp": 1.6075930865641102,
+      "conditional_ci95_pp": [
+        0.23814593987344246,
+        2.977040233254778
+      ],
+      "design_se_pp": 0.6662259955735884,
+      "unweighted_estimate_pp": 1.3172043010752688,
+      "unweighted_numerator": 98,
+      "exact_weighted_ratio_before_reference_subtraction": "8799/547340"
+    },
+    "qizheng_siyu": {
+      "estimate_pp": 1.7683706653999345,
+      "conditional_ci95_pp": [
+        0.12667069566406663,
+        3.4100706351358023
+      ],
+      "design_se_pp": 0.7986749977269949,
+      "unweighted_estimate_pp": 1.35752688172043,
+      "unweighted_numerator": 101,
+      "exact_weighted_ratio_before_reference_subtraction": "9679/547340"
+    },
+    "western_astrology": {
+      "estimate_pp": 1.354459750794753,
+      "conditional_ci95_pp": [
+        0.37818965095899715,
+        2.3307298506305085
+      ],
+      "design_se_pp": 0.4749482451977533,
+      "unweighted_estimate_pp": 1.1693548387096775,
+      "unweighted_numerator": 87,
+      "exact_weighted_ratio_before_reference_subtraction": "14827/1094680"
+    }
+  },
+  "practical_thresholds": {
+    "percentage_points": 0.3,
+    "net_change_interval_within_plus_or_minus_threshold": true,
+    "joint_reversal_interval_entirely_above_threshold": false
+  },
+  "verification": {
+    "source_receipt_sha256": "bd210ea20c3c8d669d5bd6adb8c786499234427ebba3c118a34ec4523ffff34e",
+    "source_orders_and_selected_scans_byte_verified_separately": true,
+    "fresh_profiles_per_run": 196,
+    "matching_rerun_profiles_sha256": "859e0e9340e839524b32416716dfc0c827bbaa2559e8e93fbc052499cd03e17a",
+    "exact_integer_rank_matches_all_lyon_decisions": true,
+    "exact_pair_transitions": {
+      "joint_rate_original": "7319/218936",
+      "joint_rate_rounded": "18657/547340",
+      "joint_lost_rate": "101/136835",
+      "joint_gained_rate": "1527/1094680",
+      "joint_reversal_rate": "467/218936",
+      "records_with_any_reversal_rate": "1077/27367",
+      "system_0": "655/218936",
+      "system_1": "8799/547340",
+      "system_2": "9679/547340",
+      "system_3": "14827/1094680",
+      "rounded_minus_original_pp": "3595/54734"
+    },
+    "independent_pairwise_scan_variance_matches": true,
+    "empty_scan_and_finite_population_fixtures": "passed",
+    "frozen_scoring_files_sha256": {
+      "rounds/r10/methods/run_profiles.py": "cbac2cacb8f9e07e916821251a36b4ca2e95b7bf6c176eb5f81ab083621d9e0d",
+      "rounds/r10/methods/r10_io.py": "7112302cba5c320fbd71f3aad8914be5e81372998735614c9c52446dd21f69cd",
+      "rounds/r10/methods/open_birth_chart_r10/__init__.py": "667d4a15b970b851e20d17510224670c14646cfb6d5a1e388ca6b9cc6da8bf41",
+      "rounds/r10/methods/open_birth_chart_r10/astronomy.py": "ae6e824a8cb9b605a4ee9a836022ea5370b9ce45caa57e2081c65bf70ec5544b",
+      "rounds/r10/methods/open_birth_chart_r10/bazi_engine.py": "417b2f296b38964ac9df02f3094d8b3a3d7e874db0f26959c677c52a34db6406",
+      "rounds/r10/methods/open_birth_chart_r10/qizheng_engine.py": "d50d0c7de06ca16cb0cf19557fd51b65f240363c68e7ce6bb9daa8f483c6123d",
+      "rounds/r10/methods/open_birth_chart_r10/western_engine.py": "651c791cdaa20215c04214edda13c105dd9d111335585cca6d07d235f9dbe8a1",
+      "rounds/r10/methods/open_birth_chart_r10/ziwei_bridge.cjs": "3ca9a898ddd860f8e5faa16c5655367e221a949c053d114bbaa9382e96b59b4e",
+      "rounds/r10/methods/open_birth_chart_r10/ziwei_engine.py": "84f0b0580fb1eb687bf36cc66bc8e46eb96f67f7436a0ef6cae64e144c572d47"
+    },
+    "software": {
+      "platform": "Linux-6.8.0-134-generic-x86_64-with-glibc2.36",
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "node": "v24.22.3"
+    }
+  },
+  "external_outcomes_used": false
+}
