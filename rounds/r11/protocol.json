@@ -1,0 +1,101 @@
+{
+  "id": "OBS-R11-CALENDAR-2026-11-27",
+  "date_shanghai": "2026-11-27",
+  "governance_version": "1.0",
+  "governance_commit": "eb01580fd5d13f435ccb64094fb149cf6310c770",
+  "r10_publication_commit": "a071cace6483c959f5f01e5a2d2f594932f09492",
+  "analysis_type": "Retrospective, on the cohorts previously studied in R10",
+  "prior_information": "Published R8 through R10 results and birth-field match-cell support. No R11 decomposition estimates or permutation results inspected.",
+  "input_commits": {
+    "combined_target_profile_path": "profiles/baseline_profiles.jsonl"
+  },
+  "cohorts": [
+    {
+      "slot": "brazil2006",
+      "country": "BR",
+      "birth_year": 2006,
+      "seed": 20261127300
+    },
+    {
+      "slot": "brazil_2000s",
+      "country": "BR",
+      "birth_year": 2007,
+      "seed": 20261127301
+    },
+    {
+      "slot": "brazil2010",
+      "country": "BR",
+      "birth_year": 2010,
+      "seed": 20261127302
+    },
+    {
+      "slot": "brazil2020",
+      "country": "BR",
+      "birth_year": 2020,
+      "seed": 20261127303
+    },
+    {
+      "slot": "brazil2024",
+      "country": "BR",
+      "birth_year": 2024,
+      "seed": 20261127304
+    },
+    {
+      "slot": "mexico_2000s",
+      "country": "MX",
+      "birth_year": 2009,
+      "seed": 20261127305
+    },
+    {
+      "slot": "mexico2020",
+      "country": "MX",
+      "birth_year": 2020,
+      "seed": 20261127306
+    }
+  ],
+  "base_threshold": "Fixed Brazil 2006 exact weighted mid-CDF at 4/5, at least 3 of 4 systems",
+  "ages": [
+    20,
+    59
+  ],
+  "numpy": "2.3.5",
+  "draws": 4999,
+  "audit_draws": 127,
+  "family_alpha": 0.05,
+  "primary_cell": [
+    "birth_state_x_source_sex",
+    "first_modeled_calendar_year",
+    "local_birth_quarter"
+  ],
+  "sensitivities": [
+    "calendar_only",
+    "month"
+  ],
+  "minimum_quarter_support": 0.95,
+  "synthetic_gate": {
+    "seed": 20261127401,
+    "panels_each": 120,
+    "draws_per_panel": 799,
+    "max_false_rejections": 12,
+    "min_injection_detections": 96
+  },
+  "files_sha256": {
+    "CONSTITUTION.zh.md": "8f886336f7b2a76d622721932ed98d9c33b5b97771505f0ab1b50af67109718c",
+    "rounds/r10/protocol.json": "38c01264437a27ac6eb4c0340e036b8bedc83d910c892964d2c2384dda59029a",
+    "rounds/r10/independent_replay/registration.json": "de24e4fc3221f28f7688778f382d9db93c1351577afabcd7ddc6d5214e30dd6a",
+    "rounds/r10/independent_replay/analysis_config.json": "2f062e8ee76fd823fe1496ea868fe8c69ba668ab18a597360366de3ddcd6e729",
+    "rounds/r10/independent_replay/prepared_receipt.json": "455e45ce3748d1d6a71a0c60c1b775d275add98c640d32302d65ced7b91c89a6",
+    "rounds/r10/independent_replay/results/release.json": "94c2429007790ef1a0bab4e25319f4256c2a5a8e7a45dae2b57de718f6252d32",
+    "rounds/r10/independent_replay/results/structural_comparison.json": "e1af036e5b2fb0ea4813782a8dc4488fe2e08c69a3d4c2cb7452097ecff59c7b",
+    "rounds/r10/methods/analyze_cohorts.py": "548bc881302b3fb13a14ca22b0d0a66ac1ce939fdc7fd7c9c5c726368d4f658b",
+    "rounds/r10/methods/precision_reference.py": "29973a0dc528521743fc777d6eec19291f181f3bc699974004e08bb2e0a12ad1",
+    "rounds/r10/methods/threshold_precision.py": "1b4637b018078640c55724eae009eebcf30e969efbe6fd7c87622b2bcb33e62c",
+    "rounds/r10/methods/r10_io.py": "7112302cba5c320fbd71f3aad8914be5e81372998735614c9c52446dd21f69cd",
+    "rounds/r9/methods/fixed_reference.py": "f5e92dd35702bb198550c2fd8d47aaf7c8b51a08aa4bfdc779af46e7f8c02321",
+    "rounds/r10/verification/verify_aggregates.py": "412e1149635269fee91c3de93d390bd448f8ee1379519ff5e56380e2de493084",
+    "rounds/r11/REGISTRATION.md": "2324ebb97f5f95b95a8c1a4189401db4b3ce0f0d8e2460b518e7c34c1aa461f7",
+    "rounds/r11/calendar_controls.py": "53d2089b1ad004e0ff740353075456cd8284df0175980f6dc879f1fc05b995d4",
+    "rounds/r11/calibrate.py": "8d5ce0c593066e978ba4e450604568b7e8696fd3df77895f980ec9b4c04578df",
+    "rounds/r11/review.py": "3200e1d332464d1cd55b6d4b34a75eab357a008e794b4e876a246f3c7e535cbd"
+  }
+}
