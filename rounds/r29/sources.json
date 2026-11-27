@@ -1,0 +1,16 @@
+{
+  "brisbane": {
+    "publisher": "Journal of Statistics Education, American Statistical Association",
+    "article_doi": "10.1080/10691898.1999.12131281",
+    "download_url": "https://jse.amstat.org/datasets/babyboom.dat.txt",
+    "download_sha256": "467f8b2b22bc92e5752e9c3de1be7d46fec08fbc8cd6efdab1c63f8fe9681a13",
+    "expected_records": 44,
+    "birth_date": "1997-12-18",
+    "sex_code": {"1": "F", "2": "M"},
+    "expected_sex_counts": {"F": 18, "M": 26},
+    "timezone": "Australia/Brisbane",
+    "offset_seconds": 36000,
+    "city_latitude": -27.46794,
+    "city_longitude": 153.02809
+  }
+}

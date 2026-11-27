@@ -1,0 +1,58 @@
+{
+  "related_round": "R27",
+  "scans": 42,
+  "eligible_birth_records": 237,
+  "same_inputs_and_fixed_reference": true,
+  "macos": "macOS-27.0.1-arm64-arm-64bit",
+  "linux": "Linux-6.8.0-134-generic-x86_64-with-glibc2.36",
+  "system_order": [
+    "bazi",
+    "ziwei_doushu",
+    "qizheng_siyu",
+    "western_astrology"
+  ],
+  "scoring_files_distinct": true,
+  "max_abs_score_error_by_clock_variant_and_system": {
+    "base": [
+      0.0,
+      0.0,
+      0.0,
+      1.5704803429938963e-10
+    ],
+    "clock_-30": [
+      0.0,
+      0.0,
+      0.0,
+      1.011878757867235e-10
+    ],
+    "clock_+30": [
+      0.0,
+      0.0,
+      0.0,
+      1.7563804230458224e-10
+    ]
+  },
+  "changed_system_threshold_decisions_by_clock_variant": {
+    "base": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "clock_-30": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "clock_+30": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "primary_and_sensitivity_point_estimates_exact": true,
+  "primary_interval_endpoint_max_abs_difference_pp": 1.1102230246251565e-16,
+  "independently_verified_linux_interval": true
+}
