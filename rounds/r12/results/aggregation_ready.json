@@ -1,0 +1,27 @@
+{
+  "id": "OBS-R12-MX-HOLDOUT-2026-11-27",
+  "stage": "AGGREGATION_READY",
+  "counts_by_sample": {
+    "mexico2023_early": 2000,
+    "mexico2023_late": 1000,
+    "mexico2020_late": 1000
+  },
+  "registration_sha256": "9e30467ddeea63f1fb5dcffc3cfcd51d9bae9304ef10ffe0dda7721913fdb54c",
+  "prepared_receipt_sha256": "4accf9ac7d06051fea8ab843a78d68e02bf6b4abdf040bab44a0172e78fe7fde",
+  "scoring_started_utc": "2026-11-27T14:58:20.627526+00:00",
+  "scoring_completed_utc": "2026-11-27T15:07:13.994230+00:00",
+  "profiles_sha256": "0d2ae4f5e4c4fa82d2a4230b90734126b0b1f32c737e59bae07a5630c199b0c1",
+  "profile_summary_sha256": "73693179b28e7706faaf071eb4cb2dd788ab1eef56a7c08c9b3fdcb22922cab1",
+  "private_run_seal_sha256": "b2c67612ef9b13bb14dba33718f3c505d55a0b4f5305405ce265891a1d20a992",
+  "complete_source_records": 4000,
+  "complete_record_years": 160000,
+  "finite_system_scores": 640000,
+  "scoring_runtime": {
+    "system": "Linux",
+    "machine": "x86_64",
+    "python": "3.12.14",
+    "node": "24.22.3",
+    "source_tzdb": "2026c"
+  },
+  "observed_event_outcomes": false
+}

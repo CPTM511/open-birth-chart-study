@@ -1,0 +1,312 @@
+{
+  "id": "OBS-R12-MX-HOLDOUT-2026-11-27",
+  "numpy": "2.3.5",
+  "reference": {
+    "source_records": 2000,
+    "joint_rate": 0.03214942848730289
+  },
+  "sample_results": {
+    "mexico2023_early": {
+      "n_source_records": 2000,
+      "reference_joint_rate": 0.03214942848730289,
+      "joint_rate": 0.03215116481668831,
+      "delta_joint_rate": 1.736329385416957e-06,
+      "raw_system_means": [
+        0.08783908708082233,
+        0.16253738296061537,
+        0.17504328537259894,
+        0.020868848451383832
+      ],
+      "delta_raw_system_means": [
+        0.0018891099658967653,
+        -0.006091332992590154,
+        -0.0009594359696731003,
+        0.00020593602714688228
+      ],
+      "fixed_reference_system_means": [
+        0.5047519528328986,
+        0.4957975522345855,
+        0.4996054416120501,
+        0.4988315319831621
+      ],
+      "delta_fixed_reference_system_means": [
+        0.004751952832898643,
+        -0.004202447765414508,
+        -0.00039455838794988374,
+        -0.001168468016837898
+      ],
+      "delta_L": -0.00025338033432587004,
+      "age_band_joint_rates": [
+        0.024431251957889283,
+        0.023573233274506177,
+        0.028574584839606232,
+        0.052025589194751566
+      ],
+      "eligible_frame_records": 1244893,
+      "fixed_reference_conditional_95_interval": [
+        -0.001460871602057871,
+        0.0014603886830220252
+      ],
+      "analytic_design_variance": 5.586192169788339e-07,
+      "bootstrap_variance": 5.636274755291255e-07,
+      "threshold_flag_sha256": "f814a43aaf5b92005cc7e8d5dbefd2dac11134249da86181e3e908a789775c8a"
+    },
+    "mexico2023_late": {
+      "n_source_records": 1000,
+      "reference_joint_rate": 0.03214942848730289,
+      "joint_rate": 0.03339294836971562,
+      "delta_joint_rate": 0.0012435198824127247,
+      "raw_system_means": [
+        0.08779824994906263,
+        0.1693890874822197,
+        0.1749172404101228,
+        0.020827115630686715
+      ],
+      "delta_raw_system_means": [
+        0.001848272834137063,
+        0.0007603715290141755,
+        -0.0010854809321492465,
+        0.0001642032064497652
+      ],
+      "fixed_reference_system_means": [
+        0.5043557778528285,
+        0.5021586280049106,
+        0.49732786527679473,
+        0.49801920546538947
+      ],
+      "delta_fixed_reference_system_means": [
+        0.00435577785282848,
+        0.0021586280049106232,
+        -0.002672134723205266,
+        -0.0019807945346105305
+      ],
+      "delta_L": 0.0004653691499808543,
+      "age_band_joint_rates": [
+        0.026671687563815744,
+        0.023351290029255407,
+        0.03211153521896187,
+        0.051437280666829475
+      ],
+      "eligible_frame_records": 39107,
+      "fixed_reference_conditional_95_interval": [
+        -0.0009470460945263069,
+        0.0034025170149014727
+      ],
+      "analytic_design_variance": 1.2548565806135774e-06,
+      "bootstrap_variance": 1.2435785034429833e-06,
+      "threshold_flag_sha256": "706659640274637288d7ab1ae2ffa35854dc0d2c7c3e5914934ed50ecbdac359"
+    },
+    "mexico2020_late": {
+      "n_source_records": 1000,
+      "reference_joint_rate": 0.03214942848730289,
+      "joint_rate": 0.03741288700105891,
+      "delta_joint_rate": 0.0052634585137560155,
+      "raw_system_means": [
+        0.0885024893174533,
+        0.16186649519172472,
+        0.17566767350217258,
+        0.020723841752448277
+      ],
+      "delta_raw_system_means": [
+        0.0025525122025277375,
+        -0.006762220761480808,
+        -0.0003350478400994672,
+        6.0929328211327405e-05
+      ],
+      "fixed_reference_system_means": [
+        0.5054127919002578,
+        0.49270214464186773,
+        0.49871297486001515,
+        0.4931517205660653
+      ],
+      "delta_fixed_reference_system_means": [
+        0.005412791900257785,
+        -0.007297855358132266,
+        -0.0012870251399848542,
+        -0.006848279433934679
+      ],
+      "delta_L": -0.0025050920079484618,
+      "age_band_joint_rates": [
+        0.03020009348595529,
+        0.024643147050914093,
+        0.03565184845705664,
+        0.05915645901030963
+      ],
+      "eligible_frame_records": 145522,
+      "fixed_reference_conditional_95_interval": [
+        0.00279656709838585,
+        0.0077951234872885205
+      ],
+      "analytic_design_variance": 1.5978397720255834e-06,
+      "bootstrap_variance": 1.6398904558490527e-06,
+      "threshold_flag_sha256": "5154cbb7740a6c1e5397fc64065a5ddc884c2192474c6afbffa3eff73f71425d"
+    },
+    "mexico2020_early": {
+      "n_source_records": 2000,
+      "reference_joint_rate": 0.03214942848730289,
+      "joint_rate": 0.03614346235671093,
+      "delta_joint_rate": 0.00399403386940804,
+      "raw_system_means": [
+        0.0878672451658218,
+        0.16431334547600596,
+        0.17587271181542144,
+        0.020628749642173465
+      ],
+      "delta_raw_system_means": [
+        0.0019172680508962314,
+        -0.0043153704771995705,
+        -0.00013000952685060518,
+        -3.416278206348419e-05
+      ],
+      "fixed_reference_system_means": [
+        0.5055475968456451,
+        0.49467700196149944,
+        0.4988590297646808,
+        0.4929109456993632
+      ],
+      "delta_fixed_reference_system_means": [
+        0.0055475968456450975,
+        -0.005322998038500559,
+        -0.0011409702353192275,
+        -0.007089054300636777
+      ],
+      "delta_L": -0.0020013564322028388,
+      "age_band_joint_rates": [
+        0.0258506841833852,
+        0.026143612293202587,
+        0.03135345486318163,
+        0.06122609808707432
+      ],
+      "eligible_frame_records": 1369906,
+      "fixed_reference_conditional_95_interval": [
+        0.00234699042946721,
+        0.005696751284411987
+      ],
+      "analytic_design_variance": 7.097947833463055e-07,
+      "bootstrap_variance": 7.211299600592463e-07,
+      "threshold_flag_sha256": "b6737b049c11ff9d3e9b9b19f103630dfb304ea07af821fdfea0c25996b686fb"
+    }
+  },
+  "held_out_calendar_decomposition": {
+    "quarter": {
+      "observed": 0.03215116481668831,
+      "expected": 0.032928527130503836,
+      "observed_minus_expected": -0.000777362313815521,
+      "fixed_reference_expected": 0.032020102066052075,
+      "observed_difference": 1.7363293854181662e-06,
+      "expected_difference": 0.0009084250644517585,
+      "remaining_difference": -0.0009066887350663404,
+      "observed_increase_half_recreated": true,
+      "support": {
+        "cells": 215,
+        "singleton_records": 10,
+        "weight_share_by_minimum_donors": {
+          "2": 0.9954896909041113,
+          "5": 0.9193952421761176,
+          "10": 0.6558426507431597
+        }
+      },
+      "permutation": {
+        "draws": 4999,
+        "two_sided_tail_including_ties": 819,
+        "p": 0.164,
+        "conditional_range95": [
+          0.03186635134323216,
+          0.034028402688025074
+        ],
+        "simulated_mean": 0.03293865602588291,
+        "mean_standard_error": 7.861698771561784e-06,
+        "mean_exact_error": 1.0128895379075486e-05,
+        "first_draw_numerators_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "draw_numerator_denominator": "1351104339847273857552522816000",
+        "full_draw_numerators_sha256": "57e61f4d07f3ab7cf47e946ec91b0f003dd5d6e6de8388428428c7d07b44a7d3"
+      },
+      "registered_pairing_support_passed": true
+    },
+    "calendar_only": {
+      "observed": 0.03215116481668831,
+      "expected": 0.03300230279477106,
+      "observed_minus_expected": -0.0008511379780827428,
+      "fixed_reference_expected": 0.03180031632060634,
+      "observed_difference": 1.7363293854181662e-06,
+      "expected_difference": 0.00120198647416471,
+      "remaining_difference": -0.0012002501447792918,
+      "observed_increase_half_recreated": true,
+      "support": {
+        "cells": 108,
+        "singleton_records": 0,
+        "weight_share_by_minimum_donors": {
+          "2": 1.0,
+          "5": 0.9923212773835277,
+          "10": 0.9118647415541099
+        }
+      }
+    },
+    "month": {
+      "observed": 0.03215116481668831,
+      "expected": 0.03246775314715071,
+      "observed_minus_expected": -0.00031658833046239483,
+      "fixed_reference_expected": 0.03202605062188407,
+      "observed_difference": 1.7363293854181662e-06,
+      "expected_difference": 0.00044170252526663285,
+      "remaining_difference": -0.0004399661958812147,
+      "observed_increase_half_recreated": true,
+      "support": {
+        "cells": 557,
+        "singleton_records": 131,
+        "weight_share_by_minimum_donors": {
+          "2": 0.93837736031477,
+          "5": 0.558372635366932,
+          "10": 0.15167448390379404
+        }
+      }
+    }
+  },
+  "registered_decisions": {
+    "raw_held_out_increase": false,
+    "raw_held_out_decrease": false,
+    "raw_held_out_upper_below_plus_1pp": true,
+    "reproduced_raw_increase_and_majority_in_pairing_point_decomposition": false
+  },
+  "late_registration_sensitivities": {
+    "2020": {
+      "eligible_records": 1515428,
+      "late_share": 0.0960269969935886,
+      "early_joint_rate": 0.03614346235671093,
+      "late_joint_rate": 0.03741288700105891,
+      "expanded_joint_rate": 0.03626536139321732,
+      "expanded_minus_reference": 0.0041159329059144295,
+      "expanded_minus_reference_conditional_95_interval": [
+        0.002609438894691221,
+        0.0056681621650042325
+      ],
+      "expanded_minus_early": 0.00012189903650639036,
+      "expanded_minus_early_conditional_95_interval": [
+        -0.00016973967921801942,
+        0.00040777839261304605
+      ]
+    },
+    "2023": {
+      "eligible_records": 1284000,
+      "late_share": 0.03045716510903427,
+      "early_joint_rate": 0.03215116481668831,
+      "late_joint_rate": 0.03339294836971562,
+      "expanded_joint_rate": 0.03218898602339255,
+      "expanded_minus_reference": 3.95575360896544e-05,
+      "expanded_minus_reference_conditional_95_interval": [
+        -0.001378383962293873,
+        0.0014596032150865144
+      ],
+      "expanded_minus_early": 3.7821206704235924e-05,
+      "expanded_minus_early_conditional_95_interval": [
+        -4.238733574748949e-05,
+        0.00011753519061914339
+      ]
+    }
+  },
+  "draws_per_bootstrap": 9999,
+  "observed_event_outcomes": false,
+  "registration_sha256": "9e30467ddeea63f1fb5dcffc3cfcd51d9bae9304ef10ffe0dda7721913fdb54c",
+  "input_sha256": "4accf9ac7d06051fea8ab843a78d68e02bf6b4abdf040bab44a0172e78fe7fde",
+  "new_profiles_sha256": "0d2ae4f5e4c4fa82d2a4230b90734126b0b1f32c737e59bae07a5630c199b0c1"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "identical_bytes",
+  "scope": "Recomputed all R12 aggregates on the same sealed Linux-generated score file.",
+  "main_result_sha256": "d63fcbcff9911d31bda0496746ed5843da87cc4b979a6cafd818d89331e324f8",
+  "analysis_code_git_commit": "a9121c8850216cb477785ebc42f21ab8e6b387a6",
+  "scored_profile_sha256": "0d2ae4f5e4c4fa82d2a4230b90734126b0b1f32c737e59bae07a5630c199b0c1",
+  "macos": {
+    "architecture": "arm64",
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "linux": {
+    "architecture": "x86_64",
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "utc_checked": "2026-11-27T15:10:50.704350+00:00"
+}
