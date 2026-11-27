@@ -1,0 +1,21 @@
+{
+  "independent_numeric_implementation": "decimal arithmetic from the released hourly counts",
+  "calendar_days": 2556,
+  "official_births": 8392710,
+  "official_annual_reference": {
+    "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040503640",
+    "sha256": "21221dd463005c5d7c52bb04337a0db184196f8960f88ec70b11dfa5ed52a746",
+    "verified_totals": {
+      "1993": 1188282,
+      "1994": 1238328,
+      "1995": 1187064,
+      "1996": 1206555,
+      "1997": 1191665,
+      "1998": 1203147,
+      "1999": 1177669
+    }
+  },
+  "independently_checked_numeric_results": 216,
+  "max_absolute_rounding_difference": 4.954977609176147e-11,
+  "results_sha256": "ae18d33579385ca716c6599146959a35ba4fb02c02dfb8d0b8e19801b571f467"
+}
