@@ -1,0 +1,19 @@
+{
+  "comparison": "Before estimating the 24 new held-out dates",
+  "same_almanac": true,
+  "new_dates": 24,
+  "minimum_in_1_arcminute_for_pass": 23,
+  "files_sha256": {
+    "docs/engine_validation/1833_reference_p41.png": "cf413746a236bf06173df2d654b054f9123b84efd21b660118671c5b7e47c131",
+    "docs/engine_validation/1833_reference_p40.png": "a38322c2d6cdbbeff67d7144e03ec3b7d6bb0d94cfa76f9ee54814e7aec9ee9b",
+    "docs/engine_validation/1833_reference.json": "a0dab6462789849f10a10974ce1f8fed253ad0b0207594f03d88bdea192779e1",
+    "src/open_birth_chart/astronomy.py": "9331f1a20b6571207f28632bf89d72969c6992072c99fb3ff1235439502fb550",
+    "src/open_birth_chart/qizheng_engine.py": "d50d0c7de06ca16cb0cf19557fd51b65f240363c68e7ce6bb9daa8f483c6123d",
+    "rounds/r19/p41_transcription.json": "1f96770b4ab041852c2ccb0115781af7fa11e73caea72ddde29ae3f0aa281f2f",
+    "rounds/r19/HOLDOUT_REGISTRATION.zh.md": "e9804159d1e3cfdd2685d5d906bd0d37a4596e24fa4867cc511b0fad8007ea26",
+    "rounds/r19/holdout_check.py": "213e73af9365d4349a86d56bfb337c0e09c7fe1501dc665da6689308bd3fb533",
+    "rounds/r19/qing_apogee.py": "13d385435051da278421aa8e6ff8a54f827ea6f42ea80a50404a7397aac7df31",
+    "rounds/r19/protocol.json": "d8606545844f385aa6598ec838e34de64373714a16e4d8fdf9388c7e2f20d61f",
+    "rounds/r19/results.json": "13a54dafe8a3684b79d559fbceb3a7bb751b50cc903d52c147621c60a6759659"
+  }
+}
