@@ -1,0 +1,2098 @@
+{
+  "public_metadata_only": true,
+  "layout_worksheet": "個票データの項目（事項名）",
+  "target_years": [
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+  ],
+  "comparison_years": [
+    1974,
+    2023,
+    2025
+  ],
+  "annual_catalogue_entries_checked": 23,
+  "distinct_fixed_width_dictionaries": 18,
+  "birth_clock_resolution_in_reviewed_layouts": "hour",
+  "minutes_in_reviewed_layouts": false,
+  "birth_municipality_or_named_facility_in_reviewed_layouts": false,
+  "layouts": {
+    "M9N8B-DS23": {
+      "years": [
+        1974
+      ],
+      "sha256": "a07c96214f4311931dc05e14ba54e55c523fd7657cb0e340242c34343970e704",
+      "fields_checked": 41,
+      "time_related_labels": [
+        "時"
+      ],
+      "geography_related_labels": [
+        "保健所",
+        "保健所1",
+        "保健所2",
+        "国内外(生まれたところ)",
+        "場所の種別",
+        "市区町村",
+        "市区町村1",
+        "市区町村2",
+        "県別一連番号",
+        "都道府県",
+        "都道府県1",
+        "都道府県2",
+        "都道府県における順位"
+      ],
+      "birth_calendar_fields": [
+        {
+          "worksheet_row": 24,
+          "field_number": 16,
+          "category": "年",
+          "label": "年",
+          "name": "年2",
+          "one_based_byte_position": 28,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 25,
+          "field_number": 17,
+          "category": "月",
+          "label": "月",
+          "name": "月2",
+          "one_based_byte_position": 30,
+          "bytes": 2,
+          "code_sheet": "7"
+        },
+        {
+          "worksheet_row": 26,
+          "field_number": 18,
+          "category": "日",
+          "label": "日",
+          "name": "日",
+          "one_based_byte_position": 32,
+          "bytes": 2,
+          "code_sheet": "8"
+        }
+      ],
+      "birth_hour": {
+        "worksheet_row": 27,
+        "field_number": 19,
+        "category": "時",
+        "label": "時",
+        "name": "時",
+        "one_based_byte_position": 34,
+        "bytes": 2,
+        "code_sheet": "9",
+        "codes": {
+          "00-23": "午前0時~午後11時",
+          "△△": "年が37のとき"
+        }
+      },
+      "sex": {
+        "worksheet_row": 22,
+        "field_number": 14,
+        "category": "性別",
+        "label": "性別",
+        "name": "性別",
+        "one_based_byte_position": 26,
+        "bytes": 1,
+        "code_sheet": "5",
+        "codes": {
+          "1": "男",
+          "2": "女"
+        }
+      },
+      "birth_country_group": {
+        "worksheet_row": 28,
+        "field_number": 20,
+        "category": "国内外（生まれたところ）",
+        "label": "国内外（生まれたところ）",
+        "name": "国内外（生まれたところ）",
+        "one_based_byte_position": 36,
+        "bytes": 1,
+        "code_sheet": "10",
+        "codes": {
+          "1": "日本",
+          "2": "日本外"
+        }
+      },
+      "delivery_venue_type": {
+        "worksheet_row": 40,
+        "field_number": 32,
+        "category": "場所の種別",
+        "label": "場所の種別",
+        "name": "場所の種別",
+        "one_based_byte_position": 57,
+        "bytes": 1,
+        "code_sheet": "21",
+        "codes": {
+          "1": "病院",
+          "2": "診療所",
+          "3": "助産所",
+          "4": "自宅",
+          "5": "その他"
+        }
+      }
+    },
+    "M9N8B-DS125": {
+      "years": [
+        1990,
+        1991
+      ],
+      "sha256": "7261da50d760afb8e72d6b5896b1c7a28357cc246b607bf5440cd8a641d5eb75",
+      "fields_checked": 43,
+      "time_related_labels": [
+        "時"
+      ],
+      "geography_related_labels": [
+        "保健所",
+        "保健所1",
+        "保健所2",
+        "国内外(生まれたところ)",
+        "場所の種別",
+        "市区町村",
+        "市区町村1",
+        "市区町村2",
+        "県別一連番号",
+        "都道府県",
+        "都道府県1",
+        "都道府県2",
+        "都道府県における順位"
+      ],
+      "birth_calendar_fields": [
+        {
+          "worksheet_row": 26,
+          "field_number": 18,
+          "category": "年",
+          "label": "年",
+          "name": "年2",
+          "one_based_byte_position": 31,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 27,
+          "field_number": 19,
+          "category": "月",
+          "label": "月",
+          "name": "月2",
+          "one_based_byte_position": 33,
+          "bytes": 2,
+          "code_sheet": "8"
+        },
+        {
+          "worksheet_row": 28,
+          "field_number": 20,
+          "category": "日",
+          "label": "日",
+          "name": "日",
+          "one_based_byte_position": 35,
+          "bytes": 2,
+          "code_sheet": "9"
+        }
+      ],
+      "birth_hour": {
+        "worksheet_row": 29,
+        "field_number": 21,
+        "category": "時",
+        "label": "時",
+        "name": "時",
+        "one_based_byte_position": 37,
+        "bytes": 2,
+        "code_sheet": "10",
+        "codes": {
+          "00-23": "午前0時~午後11時",
+          "△△": "不詳"
+        }
+      },
+      "sex": {
+        "worksheet_row": 24,
+        "field_number": 16,
+        "category": "性別",
+        "label": "性別",
+        "name": "性別",
+        "one_based_byte_position": 29,
+        "bytes": 1,
+        "code_sheet": "6",
+        "codes": {
+          "1": "男",
+          "2": "女"
+        }
+      },
+      "birth_country_group": {
+        "worksheet_row": 30,
+        "field_number": 22,
+        "category": "国内外（生まれたところ）",
+        "label": "国内外（生まれたところ）",
+        "name": "国内外（生まれたところ）",
+        "one_based_byte_position": 39,
+        "bytes": 1,
+        "code_sheet": "11",
+        "codes": {
+          "1": "日本",
+          "2": "日本外"
+        }
+      },
+      "delivery_venue_type": {
+        "worksheet_row": 43,
+        "field_number": 35,
+        "category": "場所の種別",
+        "label": "場所の種別",
+        "name": "場所の種別",
+        "one_based_byte_position": 61,
+        "bytes": 1,
+        "code_sheet": "22",
+        "codes": {
+          "1": "病院",
+          "2": "診療所",
+          "3": "助産所",
+          "4": "自宅",
+          "5": "その他"
+        }
+      }
+    },
+    "M9N8B-DS126": {
+      "years": [
+        1992,
+        1993,
+        1994
+      ],
+      "sha256": "ed339a21b9d75b42e3ad61139aa626f440ffa814526c96fe521d911c83dd31d4",
+      "fields_checked": 59,
+      "time_related_labels": [
+        "時"
+      ],
+      "geography_related_labels": [
+        "保健所",
+        "保健所1",
+        "保健所2",
+        "国内外(生まれたところ)",
+        "場所の種別",
+        "市区町村",
+        "市区町村1",
+        "市区町村2",
+        "都道府県",
+        "都道府県1",
+        "都道府県2",
+        "都道府県における順位"
+      ],
+      "birth_calendar_fields": [
+        {
+          "worksheet_row": 28,
+          "field_number": 20,
+          "category": "年",
+          "label": "年",
+          "name": "年2",
+          "one_based_byte_position": 34,
+          "bytes": 2,
+          "code_sheet": "8"
+        },
+        {
+          "worksheet_row": 29,
+          "field_number": 21,
+          "category": "月",
+          "label": "月",
+          "name": "月2",
+          "one_based_byte_position": 36,
+          "bytes": 2,
+          "code_sheet": "9"
+        },
+        {
+          "worksheet_row": 30,
+          "field_number": 22,
+          "category": "日",
+          "label": "日",
+          "name": "日1",
+          "one_based_byte_position": 38,
+          "bytes": 2,
+          "code_sheet": "10"
+        }
+      ],
+      "birth_hour": {
+        "worksheet_row": 31,
+        "field_number": 23,
+        "category": "時",
+        "label": "時",
+        "name": "時",
+        "one_based_byte_position": 40,
+        "bytes": 2,
+        "code_sheet": "11",
+        "codes": {
+          "00-23": "午前0時~午後11時",
+          "△△": "不詳"
+        }
+      },
+      "sex": {
+        "worksheet_row": 26,
+        "field_number": 18,
+        "category": "性別",
+        "label": "性別",
+        "name": "性別",
+        "one_based_byte_position": 32,
+        "bytes": 1,
+        "code_sheet": "6",
+        "codes": {
+          "1": "男",
+          "2": "女"
+        }
+      },
+      "birth_country_group": {
+        "worksheet_row": 32,
+        "field_number": 24,
+        "category": "国内外（生まれたところ）",
+        "label": "国内外（生まれたところ）",
+        "name": "国内外（生まれたところ）",
+        "one_based_byte_position": 42,
+        "bytes": 1,
+        "code_sheet": "12",
+        "codes": {
+          "1": "日本",
+          "2": "日本外"
+        }
+      },
+      "delivery_venue_type": {
+        "worksheet_row": 55,
+        "field_number": 47,
+        "category": "場所の種別",
+        "label": "場所の種別",
+        "name": "場所の種別",
+        "one_based_byte_position": 86,
+        "bytes": 1,
+        "code_sheet": "30",
+        "codes": {
+          "1": "病院",
+          "2": "診療所",
+          "3": "助産所",
+          "4": "自宅",
+          "5": "その他"
+        }
+      }
+    },
+    "M9N8B-DS127": {
+      "years": [
+        1995,
+        1996
+      ],
+      "sha256": "068444732977b5781676d1d4a2b4692db5f9595d685de1139d9216a35e0d0426",
+      "fields_checked": 61,
+      "time_related_labels": [
+        "時間"
+      ],
+      "geography_related_labels": [
+        "保健所",
+        "保健所1",
+        "保健所2",
+        "国内外(生まれたところ)",
+        "場所の種別",
+        "市区町村",
+        "市区町村1",
+        "市区町村2",
+        "都道府県",
+        "都道府県1",
+        "都道府県2",
+        "都道府県における順位"
+      ],
+      "birth_calendar_fields": [
+        {
+          "worksheet_row": 28,
+          "field_number": 20,
+          "category": "年",
+          "label": "年",
+          "name": "年2",
+          "one_based_byte_position": 34,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 29,
+          "field_number": 21,
+          "category": "月",
+          "label": "月",
+          "name": "月2",
+          "one_based_byte_position": 36,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 30,
+          "field_number": 22,
+          "category": "日",
+          "label": "日",
+          "name": "日1",
+          "one_based_byte_position": 38,
+          "bytes": 2,
+          "code_sheet": null
+        }
+      ],
+      "birth_hour": {
+        "worksheet_row": 31,
+        "field_number": 23,
+        "category": "時間",
+        "label": "時間",
+        "name": "時間",
+        "one_based_byte_position": 40,
+        "bytes": 2,
+        "code_sheet": "10",
+        "codes": {
+          "00-23": "午前0時~午後11時",
+          "△△": "不詳・出生年月日が大正以前"
+        }
+      },
+      "sex": {
+        "worksheet_row": 26,
+        "field_number": 18,
+        "category": "性別",
+        "label": "性別",
+        "name": "性別",
+        "one_based_byte_position": 32,
+        "bytes": 1,
+        "code_sheet": "8",
+        "codes": {
+          "1": "男",
+          "2": "女"
+        }
+      },
+      "birth_country_group": {
+        "worksheet_row": 32,
+        "field_number": 24,
+        "category": "国内外（生まれたところ）",
+        "label": "国内外（生まれたところ）",
+        "name": "国内外（生まれたところ）",
+        "one_based_byte_position": 42,
+        "bytes": 1,
+        "code_sheet": "11",
+        "codes": {
+          "1": "日本",
+          "2": "日本外"
+        }
+      },
+      "delivery_venue_type": {
+        "worksheet_row": 56,
+        "field_number": 48,
+        "category": "場所の種別",
+        "label": "場所の種別",
+        "name": "場所の種別",
+        "one_based_byte_position": 83,
+        "bytes": 1,
+        "code_sheet": "34",
+        "codes": {
+          "1": "病院",
+          "2": "診療所",
+          "3": "助産所",
+          "4": "自宅",
+          "5": "その他"
+        }
+      }
+    },
+    "M9N8B-DS128": {
+      "years": [
+        1997,
+        1998
+      ],
+      "sha256": "2b8074d057a2cdd9c53e677d962d6fe3016a997424fbe91b350dce015522ad07",
+      "fields_checked": 61,
+      "time_related_labels": [
+        "時間"
+      ],
+      "geography_related_labels": [
+        "保健所",
+        "保健所1",
+        "保健所2",
+        "国内外(生まれたところ)",
+        "場所の種別",
+        "市区町村",
+        "市区町村1",
+        "市区町村2",
+        "都道府県",
+        "都道府県1",
+        "都道府県2",
+        "都道府県における順位"
+      ],
+      "birth_calendar_fields": [
+        {
+          "worksheet_row": 28,
+          "field_number": 20,
+          "category": "年",
+          "label": "年",
+          "name": "年2",
+          "one_based_byte_position": 34,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 29,
+          "field_number": 21,
+          "category": "月",
+          "label": "月",
+          "name": "月2",
+          "one_based_byte_position": 36,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 30,
+          "field_number": 22,
+          "category": "日",
+          "label": "日",
+          "name": "日1",
+          "one_based_byte_position": 38,
+          "bytes": 2,
+          "code_sheet": null
+        }
+      ],
+      "birth_hour": {
+        "worksheet_row": 31,
+        "field_number": 23,
+        "category": "時間",
+        "label": "時間",
+        "name": "時間",
+        "one_based_byte_position": 40,
+        "bytes": 2,
+        "code_sheet": "10",
+        "codes": {
+          "00-23": "午前0時~午後11時",
+          "△△": "不詳・出生年月日が大正以前"
+        }
+      },
+      "sex": {
+        "worksheet_row": 26,
+        "field_number": 18,
+        "category": "性別",
+        "label": "性別",
+        "name": "性別",
+        "one_based_byte_position": 32,
+        "bytes": 1,
+        "code_sheet": "8",
+        "codes": {
+          "1": "男",
+          "2": "女"
+        }
+      },
+      "birth_country_group": {
+        "worksheet_row": 32,
+        "field_number": 24,
+        "category": "国内外（生まれたところ）",
+        "label": "国内外（生まれたところ）",
+        "name": "国内外（生まれたところ）",
+        "one_based_byte_position": 42,
+        "bytes": 1,
+        "code_sheet": "11",
+        "codes": {
+          "1": "日本",
+          "2": "日本外"
+        }
+      },
+      "delivery_venue_type": {
+        "worksheet_row": 56,
+        "field_number": 48,
+        "category": "場所の種別",
+        "label": "場所の種別",
+        "name": "場所の種別",
+        "one_based_byte_position": 83,
+        "bytes": 1,
+        "code_sheet": "34",
+        "codes": {
+          "1": "病院",
+          "2": "診療所",
+          "3": "助産所",
+          "4": "自宅",
+          "5": "その他"
+        }
+      }
+    },
+    "M9N8B-DS31": {
+      "years": [
+        1999
+      ],
+      "sha256": "07cc858c8e7b091fac15db68eeec5fd4f8408cf7702ac49b58f3a47fed907332",
+      "fields_checked": 60,
+      "time_related_labels": [
+        "時間"
+      ],
+      "geography_related_labels": [
+        "保健所",
+        "保健所1",
+        "国内外(生まれたところ)",
+        "場所の種別",
+        "市区町村",
+        "市区町村1",
+        "都道府県",
+        "都道府県1",
+        "都道府県における順位"
+      ],
+      "birth_calendar_fields": [
+        {
+          "worksheet_row": 28,
+          "field_number": 20,
+          "category": "年",
+          "label": "年",
+          "name": "年1",
+          "one_based_byte_position": 34,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 29,
+          "field_number": 21,
+          "category": "月",
+          "label": "月",
+          "name": "月1",
+          "one_based_byte_position": 36,
+          "bytes": 2,
+          "code_sheet": "10"
+        },
+        {
+          "worksheet_row": 30,
+          "field_number": 22,
+          "category": "日",
+          "label": "日",
+          "name": "日",
+          "one_based_byte_position": 38,
+          "bytes": 2,
+          "code_sheet": "11"
+        }
+      ],
+      "birth_hour": {
+        "worksheet_row": 31,
+        "field_number": 23,
+        "category": "時間",
+        "label": "時間",
+        "name": "時間",
+        "one_based_byte_position": 40,
+        "bytes": 2,
+        "code_sheet": "12",
+        "codes": {
+          "00-23": "午前0時~午後11時",
+          "△△": "△△不詳"
+        }
+      },
+      "sex": {
+        "worksheet_row": 26,
+        "field_number": 18,
+        "category": "性別",
+        "label": "性別",
+        "name": "性別",
+        "one_based_byte_position": 32,
+        "bytes": 1,
+        "code_sheet": "8",
+        "codes": {
+          "1": "男",
+          "2": "女"
+        }
+      },
+      "birth_country_group": {
+        "worksheet_row": 32,
+        "field_number": 24,
+        "category": "国内外（生まれたところ）",
+        "label": "国内外（生まれたところ）",
+        "name": "国内外（生まれたところ）",
+        "one_based_byte_position": 42,
+        "bytes": 1,
+        "code_sheet": "13",
+        "codes": {
+          "1": "日本",
+          "2": "日本外"
+        }
+      },
+      "delivery_venue_type": {
+        "worksheet_row": 56,
+        "field_number": 48,
+        "category": "場所の種別",
+        "label": "場所の種別",
+        "name": "場所の種別",
+        "one_based_byte_position": 83,
+        "bytes": 1,
+        "code_sheet": "35",
+        "codes": {
+          "1": "病院",
+          "2": "診療所",
+          "3": "助産所",
+          "4": "自宅",
+          "5": "その他"
+        }
+      }
+    },
+    "M9N8B-DS32": {
+      "years": [
+        2000
+      ],
+      "sha256": "4ea8f7ccc878f87286d0e3ad7ca0291a5b075a23bb3733fa47003643fb578f8c",
+      "fields_checked": 60,
+      "time_related_labels": [
+        "時間"
+      ],
+      "geography_related_labels": [
+        "保健所",
+        "保健所1",
+        "国内外(生まれたところ)",
+        "場所の種別",
+        "市区町村",
+        "市区町村1",
+        "都道府県",
+        "都道府県1",
+        "都道府県における順位"
+      ],
+      "birth_calendar_fields": [
+        {
+          "worksheet_row": 28,
+          "field_number": 20,
+          "category": "年",
+          "label": "年",
+          "name": "年1",
+          "one_based_byte_position": 34,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 29,
+          "field_number": 21,
+          "category": "月",
+          "label": "月",
+          "name": "月1",
+          "one_based_byte_position": 36,
+          "bytes": 2,
+          "code_sheet": "10"
+        },
+        {
+          "worksheet_row": 30,
+          "field_number": 22,
+          "category": "日",
+          "label": "日",
+          "name": "日",
+          "one_based_byte_position": 38,
+          "bytes": 2,
+          "code_sheet": "11"
+        }
+      ],
+      "birth_hour": {
+        "worksheet_row": 31,
+        "field_number": 23,
+        "category": "時間",
+        "label": "時間",
+        "name": "時間",
+        "one_based_byte_position": 40,
+        "bytes": 2,
+        "code_sheet": "12",
+        "codes": {
+          "00-23": "午前0時~午後11時",
+          "△△": "△△不詳"
+        }
+      },
+      "sex": {
+        "worksheet_row": 26,
+        "field_number": 18,
+        "category": "性別",
+        "label": "性別",
+        "name": "性別",
+        "one_based_byte_position": 32,
+        "bytes": 1,
+        "code_sheet": "8",
+        "codes": {
+          "1": "男",
+          "2": "女"
+        }
+      },
+      "birth_country_group": {
+        "worksheet_row": 32,
+        "field_number": 24,
+        "category": "国内外（生まれたところ）",
+        "label": "国内外（生まれたところ）",
+        "name": "国内外（生まれたところ）",
+        "one_based_byte_position": 42,
+        "bytes": 1,
+        "code_sheet": "13",
+        "codes": {
+          "1": "日本",
+          "2": "日本外"
+        }
+      },
+      "delivery_venue_type": {
+        "worksheet_row": 56,
+        "field_number": 48,
+        "category": "場所の種別",
+        "label": "場所の種別",
+        "name": "場所の種別",
+        "one_based_byte_position": 83,
+        "bytes": 1,
+        "code_sheet": "34",
+        "codes": {
+          "1": "病院",
+          "2": "診療所",
+          "3": "助産所",
+          "4": "自宅",
+          "5": "その他"
+        }
+      }
+    },
+    "M9N8B-DS33": {
+      "years": [
+        2001
+      ],
+      "sha256": "16fbe42d13c0115a314e57cd972f047074009916906491edd9fce6f40250dfb0",
+      "fields_checked": 60,
+      "time_related_labels": [
+        "時間"
+      ],
+      "geography_related_labels": [
+        "保健所",
+        "保健所1",
+        "保健所2",
+        "国内外(生まれたところ)",
+        "場所の種別",
+        "市区町村",
+        "市区町村1",
+        "市区町村2",
+        "都道府県",
+        "都道府県1",
+        "都道府県2",
+        "都道府県における順位"
+      ],
+      "birth_calendar_fields": [
+        {
+          "worksheet_row": 28,
+          "field_number": 20,
+          "category": "年",
+          "label": "年",
+          "name": "年2",
+          "one_based_byte_position": 34,
+          "bytes": 2,
+          "code_sheet": "10"
+        },
+        {
+          "worksheet_row": 29,
+          "field_number": 21,
+          "category": "月",
+          "label": "月",
+          "name": "月2",
+          "one_based_byte_position": 36,
+          "bytes": 2,
+          "code_sheet": "11"
+        },
+        {
+          "worksheet_row": 30,
+          "field_number": 22,
+          "category": "日",
+          "label": "日",
+          "name": "日1",
+          "one_based_byte_position": 38,
+          "bytes": 2,
+          "code_sheet": "12"
+        }
+      ],
+      "birth_hour": {
+        "worksheet_row": 31,
+        "field_number": 23,
+        "category": "時間",
+        "label": "時間",
+        "name": "時間",
+        "one_based_byte_position": 40,
+        "bytes": 2,
+        "code_sheet": "13",
+        "codes": {
+          "00-23": "午前0時~午後11時",
+          "△△": "不詳"
+        }
+      },
+      "sex": {
+        "worksheet_row": 26,
+        "field_number": 18,
+        "category": "性別",
+        "label": "性別",
+        "name": "性別",
+        "one_based_byte_position": 32,
+        "bytes": 1,
+        "code_sheet": "8",
+        "codes": {
+          "1": "男",
+          "2": "女"
+        }
+      },
+      "birth_country_group": {
+        "worksheet_row": 32,
+        "field_number": 24,
+        "category": "国内外（生まれたところ）",
+        "label": "国内外（生まれたところ）",
+        "name": "国内外（生まれたところ）",
+        "one_based_byte_position": 42,
+        "bytes": 1,
+        "code_sheet": "14",
+        "codes": {
+          "1": "日本",
+          "2": "日本外"
+        }
+      },
+      "delivery_venue_type": {
+        "worksheet_row": 56,
+        "field_number": 48,
+        "category": "場所の種別",
+        "label": "場所の種別",
+        "name": "場所の種別",
+        "one_based_byte_position": 83,
+        "bytes": 1,
+        "code_sheet": "37",
+        "codes": {
+          "1": "病院",
+          "2": "診療所",
+          "3": "助産所",
+          "4": "自宅",
+          "5": "その他"
+        }
+      }
+    },
+    "M9N8B-DS34": {
+      "years": [
+        2002
+      ],
+      "sha256": "3d84651b19fcd522b8cbe130128a16c98f40ef77fb5937cd15f9321d06478ec1",
+      "fields_checked": 60,
+      "time_related_labels": [
+        "時間"
+      ],
+      "geography_related_labels": [
+        "保健所",
+        "保健所1",
+        "保健所2",
+        "国内外(生まれたところ)",
+        "場所の種別",
+        "市区町村",
+        "市区町村1",
+        "市区町村2",
+        "都道府県",
+        "都道府県2",
+        "都道府県3",
+        "都道府県における順位"
+      ],
+      "birth_calendar_fields": [
+        {
+          "worksheet_row": 28,
+          "field_number": 20,
+          "category": "年",
+          "label": "年",
+          "name": "年2",
+          "one_based_byte_position": 34,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 29,
+          "field_number": 21,
+          "category": "月",
+          "label": "月",
+          "name": "月2",
+          "one_based_byte_position": 36,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 30,
+          "field_number": 22,
+          "category": "日",
+          "label": "日",
+          "name": "日1",
+          "one_based_byte_position": 38,
+          "bytes": 2,
+          "code_sheet": null
+        }
+      ],
+      "birth_hour": {
+        "worksheet_row": 31,
+        "field_number": 23,
+        "category": "時間",
+        "label": "時間",
+        "name": "時間",
+        "one_based_byte_position": 40,
+        "bytes": 2,
+        "code_sheet": "11",
+        "codes": {
+          "00-23": "午前0時~午後11時",
+          "△△": "不詳・出生年月日が大正以前"
+        }
+      },
+      "sex": {
+        "worksheet_row": 26,
+        "field_number": 18,
+        "category": "性別",
+        "label": "性別",
+        "name": "性別",
+        "one_based_byte_position": 32,
+        "bytes": 1,
+        "code_sheet": "9",
+        "codes": {
+          "1": "男",
+          "2": "女"
+        }
+      },
+      "birth_country_group": {
+        "worksheet_row": 32,
+        "field_number": 24,
+        "category": "国内外（生まれたところ）",
+        "label": "国内外（生まれたところ）",
+        "name": "国内外（生まれたところ）",
+        "one_based_byte_position": 42,
+        "bytes": 1,
+        "code_sheet": "12",
+        "codes": {
+          "1": "日本",
+          "2": "日本外"
+        }
+      },
+      "delivery_venue_type": {
+        "worksheet_row": 56,
+        "field_number": 48,
+        "category": "場所の種別",
+        "label": "場所の種別",
+        "name": "場所の種別",
+        "one_based_byte_position": 83,
+        "bytes": 1,
+        "code_sheet": "35",
+        "codes": {
+          "1": "病院",
+          "2": "診療所",
+          "3": "助産所",
+          "4": "自宅",
+          "5": "その他"
+        }
+      }
+    },
+    "M9N8B-DS35": {
+      "years": [
+        2003
+      ],
+      "sha256": "c440d8236180c653cbb01e06f381315ca16b3962878b0b11d3f44f4ae5a084fe",
+      "fields_checked": 60,
+      "time_related_labels": [
+        "時間"
+      ],
+      "geography_related_labels": [
+        "保健所",
+        "保健所1",
+        "保健所2",
+        "国内外(生まれたところ)",
+        "場所の種別",
+        "市区町村",
+        "市区町村1",
+        "市区町村2",
+        "都道府県",
+        "都道府県1",
+        "都道府県2",
+        "都道府県における順位"
+      ],
+      "birth_calendar_fields": [
+        {
+          "worksheet_row": 28,
+          "field_number": 20,
+          "category": "年",
+          "label": "年",
+          "name": "年2",
+          "one_based_byte_position": 34,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 29,
+          "field_number": 21,
+          "category": "月",
+          "label": "月",
+          "name": "月2",
+          "one_based_byte_position": 36,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 30,
+          "field_number": 22,
+          "category": "日",
+          "label": "日",
+          "name": "日1",
+          "one_based_byte_position": 38,
+          "bytes": 2,
+          "code_sheet": null
+        }
+      ],
+      "birth_hour": {
+        "worksheet_row": 31,
+        "field_number": 23,
+        "category": "時間",
+        "label": "時間",
+        "name": "時間",
+        "one_based_byte_position": 40,
+        "bytes": 2,
+        "code_sheet": "11",
+        "codes": {
+          "00-23": "午前0時~午後11時",
+          "△△": "不詳・出生年月日が大正以前"
+        }
+      },
+      "sex": {
+        "worksheet_row": 26,
+        "field_number": 18,
+        "category": "性別",
+        "label": "性別",
+        "name": "性別",
+        "one_based_byte_position": 32,
+        "bytes": 1,
+        "code_sheet": "9",
+        "codes": {
+          "1": "男",
+          "2": "女"
+        }
+      },
+      "birth_country_group": {
+        "worksheet_row": 32,
+        "field_number": 24,
+        "category": "国内外（生まれたところ）",
+        "label": "国内外（生まれたところ）",
+        "name": "国内外（生まれたところ）",
+        "one_based_byte_position": 42,
+        "bytes": 1,
+        "code_sheet": "12",
+        "codes": {
+          "1": "日本",
+          "2": "日本外"
+        }
+      },
+      "delivery_venue_type": {
+        "worksheet_row": 56,
+        "field_number": 48,
+        "category": "場所の種別",
+        "label": "場所の種別",
+        "name": "場所の種別",
+        "one_based_byte_position": 83,
+        "bytes": 1,
+        "code_sheet": "35",
+        "codes": {
+          "1": "病院",
+          "2": "診療所",
+          "3": "助産所",
+          "4": "自宅",
+          "5": "その他"
+        }
+      }
+    },
+    "M9N8B-DS36": {
+      "years": [
+        2004
+      ],
+      "sha256": "3d28037289acbf308b4d21522f60052e30efad0e8688be7af7492ffe227771e0",
+      "fields_checked": 62,
+      "time_related_labels": [
+        "出生年月日時",
+        "時間"
+      ],
+      "geography_related_labels": [
+        "住所地",
+        "保健所",
+        "国内外(生まれたところ)",
+        "場所の種別",
+        "届出地",
+        "市区町村",
+        "市区町村(種類)",
+        "市区町村(順位)",
+        "都道府県"
+      ],
+      "birth_calendar_fields": [
+        {
+          "worksheet_row": 29,
+          "field_number": 21,
+          "category": "出生年月日時",
+          "label": "年",
+          "name": "年",
+          "one_based_byte_position": 34,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 30,
+          "field_number": 22,
+          "category": "出生年月日時",
+          "label": "月",
+          "name": "月",
+          "one_based_byte_position": 36,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 31,
+          "field_number": 23,
+          "category": "出生年月日時",
+          "label": "日",
+          "name": "日",
+          "one_based_byte_position": 38,
+          "bytes": 2,
+          "code_sheet": null
+        }
+      ],
+      "birth_hour": {
+        "worksheet_row": 32,
+        "field_number": 24,
+        "category": "出生年月日時",
+        "label": "時間",
+        "name": "時間",
+        "one_based_byte_position": 40,
+        "bytes": 2,
+        "code_sheet": "13",
+        "codes": {
+          "00-23": "午前0時~午後11時",
+          "△△": "不詳・出生年月日が大正以前"
+        }
+      },
+      "sex": {
+        "worksheet_row": 27,
+        "field_number": 19,
+        "category": "性別",
+        "label": "性別",
+        "name": "性別",
+        "one_based_byte_position": 32,
+        "bytes": 1,
+        "code_sheet": "11",
+        "codes": {
+          "1": "男",
+          "2": "女"
+        }
+      },
+      "birth_country_group": {
+        "worksheet_row": 33,
+        "field_number": 25,
+        "category": "国内外（生まれたところ）",
+        "label": "国内外（生まれたところ）",
+        "name": "国内外（生まれたところ）",
+        "one_based_byte_position": 42,
+        "bytes": 1,
+        "code_sheet": "14",
+        "codes": {
+          "1": "日本",
+          "2": "日本外"
+        }
+      },
+      "delivery_venue_type": {
+        "worksheet_row": 57,
+        "field_number": 49,
+        "category": "場所の種別",
+        "label": "場所の種別",
+        "name": "場所の種別",
+        "one_based_byte_position": 83,
+        "bytes": 1,
+        "code_sheet": "38",
+        "codes": {
+          "1": "病院",
+          "2": "診療所",
+          "3": "助産所",
+          "4": "自宅",
+          "5": "その他"
+        }
+      }
+    },
+    "M9N8B-DS37": {
+      "years": [
+        2005
+      ],
+      "sha256": "ab7de201f19617714fba12ba29f804f9e25bb0b83bbbc460b32401392b445928",
+      "fields_checked": 61,
+      "time_related_labels": [
+        "出生年月日時",
+        "時間"
+      ],
+      "geography_related_labels": [
+        "住所地",
+        "保健所",
+        "国内外(生まれたところ)",
+        "場所の種別",
+        "届出地",
+        "市区町村",
+        "市区町村(種類)",
+        "市区町村(順位)",
+        "都道府県"
+      ],
+      "birth_calendar_fields": [
+        {
+          "worksheet_row": 29,
+          "field_number": 21,
+          "category": "出生年月日時",
+          "label": "年",
+          "name": "年",
+          "one_based_byte_position": 34,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 30,
+          "field_number": 22,
+          "category": "出生年月日時",
+          "label": "月",
+          "name": "月",
+          "one_based_byte_position": 36,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 31,
+          "field_number": 23,
+          "category": "出生年月日時",
+          "label": "日",
+          "name": "日",
+          "one_based_byte_position": 38,
+          "bytes": 2,
+          "code_sheet": null
+        }
+      ],
+      "birth_hour": {
+        "worksheet_row": 32,
+        "field_number": 24,
+        "category": "出生年月日時",
+        "label": "時間",
+        "name": "時間",
+        "one_based_byte_position": 40,
+        "bytes": 2,
+        "code_sheet": "13",
+        "codes": {
+          "00-23": "午前0時~午後11時",
+          "△△": "不詳・出生年月日が大正以前"
+        }
+      },
+      "sex": {
+        "worksheet_row": 27,
+        "field_number": 19,
+        "category": "性別",
+        "label": "性別",
+        "name": "性別",
+        "one_based_byte_position": 32,
+        "bytes": 1,
+        "code_sheet": "11",
+        "codes": {
+          "1": "男",
+          "2": "女"
+        }
+      },
+      "birth_country_group": {
+        "worksheet_row": 33,
+        "field_number": 25,
+        "category": "国内外（生まれたところ）",
+        "label": "国内外（生まれたところ）",
+        "name": "国内外（生まれたところ）",
+        "one_based_byte_position": 42,
+        "bytes": 1,
+        "code_sheet": "14",
+        "codes": {
+          "1": "日本",
+          "2": "日本外"
+        }
+      },
+      "delivery_venue_type": {
+        "worksheet_row": 57,
+        "field_number": 49,
+        "category": "場所の種別",
+        "label": "場所の種別",
+        "name": "場所の種別",
+        "one_based_byte_position": 83,
+        "bytes": 1,
+        "code_sheet": "38",
+        "codes": {
+          "1": "病院",
+          "2": "診療所",
+          "3": "助産所",
+          "4": "自宅",
+          "5": "その他"
+        }
+      }
+    },
+    "M9N8B-DS38": {
+      "years": [
+        2006
+      ],
+      "sha256": "d95876e0f3ee1309a25dc88b86b5eefdd993730a6778760778a239782c2c4c2c",
+      "fields_checked": 62,
+      "time_related_labels": [
+        "出生年月日時",
+        "時間"
+      ],
+      "geography_related_labels": [
+        "住所地",
+        "保健所",
+        "国内外(生まれたところ)",
+        "場所の種別",
+        "届出地",
+        "市区町村",
+        "市区町村(種類)",
+        "市区町村(順位)",
+        "都道府県"
+      ],
+      "birth_calendar_fields": [
+        {
+          "worksheet_row": 29,
+          "field_number": 21,
+          "category": "出生年月日時",
+          "label": "年",
+          "name": "年",
+          "one_based_byte_position": 34,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 30,
+          "field_number": 22,
+          "category": "出生年月日時",
+          "label": "月",
+          "name": "月",
+          "one_based_byte_position": 36,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 31,
+          "field_number": 23,
+          "category": "出生年月日時",
+          "label": "日",
+          "name": "日",
+          "one_based_byte_position": 38,
+          "bytes": 2,
+          "code_sheet": null
+        }
+      ],
+      "birth_hour": {
+        "worksheet_row": 32,
+        "field_number": 24,
+        "category": "出生年月日時",
+        "label": "時間",
+        "name": "時間",
+        "one_based_byte_position": 40,
+        "bytes": 2,
+        "code_sheet": "13",
+        "codes": {
+          "00-23": "午前0時~午後11時",
+          "△△": "不詳・出生年月日が大正以前"
+        }
+      },
+      "sex": {
+        "worksheet_row": 27,
+        "field_number": 19,
+        "category": "性別",
+        "label": "性別",
+        "name": "性別",
+        "one_based_byte_position": 32,
+        "bytes": 1,
+        "code_sheet": "11",
+        "codes": {
+          "1": "男",
+          "2": "女"
+        }
+      },
+      "birth_country_group": {
+        "worksheet_row": 33,
+        "field_number": 25,
+        "category": "国内外（生まれたところ）",
+        "label": "国内外（生まれたところ）",
+        "name": "国内外（生まれたところ）",
+        "one_based_byte_position": 42,
+        "bytes": 1,
+        "code_sheet": "14",
+        "codes": {
+          "1": "日本",
+          "2": "日本外"
+        }
+      },
+      "delivery_venue_type": {
+        "worksheet_row": 57,
+        "field_number": 49,
+        "category": "場所の種別",
+        "label": "場所の種別",
+        "name": "場所の種別",
+        "one_based_byte_position": 83,
+        "bytes": 1,
+        "code_sheet": "38",
+        "codes": {
+          "1": "病院",
+          "2": "診療所",
+          "3": "助産所",
+          "4": "自宅",
+          "5": "その他"
+        }
+      }
+    },
+    "M9N8B-DS39": {
+      "years": [
+        2007
+      ],
+      "sha256": "eef9011bcb0592d9dc1b34a640ee965ebdf558465c05884bee0e08e3e12ee88a",
+      "fields_checked": 61,
+      "time_related_labels": [
+        "出生年月日時",
+        "時間"
+      ],
+      "geography_related_labels": [
+        "住所地",
+        "保健所",
+        "国内外(生まれたところ)",
+        "場所の種別",
+        "届出地",
+        "市区町村",
+        "市区町村(種類)",
+        "市区町村(順位)",
+        "都道府県"
+      ],
+      "birth_calendar_fields": [
+        {
+          "worksheet_row": 29,
+          "field_number": 21,
+          "category": "出生年月日時",
+          "label": "年",
+          "name": "年",
+          "one_based_byte_position": 34,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 30,
+          "field_number": 22,
+          "category": "出生年月日時",
+          "label": "月",
+          "name": "月",
+          "one_based_byte_position": 36,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 31,
+          "field_number": 23,
+          "category": "出生年月日時",
+          "label": "日",
+          "name": "日",
+          "one_based_byte_position": 38,
+          "bytes": 2,
+          "code_sheet": null
+        }
+      ],
+      "birth_hour": {
+        "worksheet_row": 32,
+        "field_number": 24,
+        "category": "出生年月日時",
+        "label": "時間",
+        "name": "時間",
+        "one_based_byte_position": 40,
+        "bytes": 2,
+        "code_sheet": "13",
+        "codes": {
+          "00-23": "午前0時~午後11時",
+          "VV": "不詳",
+          "△△": "出生年月日が大正以前"
+        }
+      },
+      "sex": {
+        "worksheet_row": 27,
+        "field_number": 19,
+        "category": "性別",
+        "label": "性別",
+        "name": "性別",
+        "one_based_byte_position": 32,
+        "bytes": 1,
+        "code_sheet": "11",
+        "codes": {
+          "1": "男",
+          "2": "女"
+        }
+      },
+      "birth_country_group": {
+        "worksheet_row": 33,
+        "field_number": 25,
+        "category": "国内外（生まれたところ）",
+        "label": "国内外（生まれたところ）",
+        "name": "国内外（生まれたところ）",
+        "one_based_byte_position": 42,
+        "bytes": 1,
+        "code_sheet": "14",
+        "codes": {
+          "1": "日本",
+          "2": "日本外"
+        }
+      },
+      "delivery_venue_type": {
+        "worksheet_row": 57,
+        "field_number": 49,
+        "category": "場所の種別",
+        "label": "場所の種別",
+        "name": "場所の種別",
+        "one_based_byte_position": 83,
+        "bytes": 1,
+        "code_sheet": "38",
+        "codes": {
+          "1": "病院",
+          "2": "診療所",
+          "3": "助産所",
+          "4": "自宅",
+          "5": "その他"
+        }
+      }
+    },
+    "M9N8B-DS40": {
+      "years": [
+        2008
+      ],
+      "sha256": "c9a8bc6ba4ffe71c64c38b8dbb784fa82a3e3791e290727d6d9fb7117faa0876",
+      "fields_checked": 61,
+      "time_related_labels": [
+        "出生年月日時",
+        "時間"
+      ],
+      "geography_related_labels": [
+        "住所地",
+        "保健所",
+        "国内外(生まれたところ)",
+        "場所の種別",
+        "届出地",
+        "市区町村",
+        "市区町村(種類)",
+        "市区町村(順位)",
+        "都道府県"
+      ],
+      "birth_calendar_fields": [
+        {
+          "worksheet_row": 29,
+          "field_number": 21,
+          "category": "出生年月日時",
+          "label": "年",
+          "name": "年",
+          "one_based_byte_position": 34,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 30,
+          "field_number": 22,
+          "category": "出生年月日時",
+          "label": "月",
+          "name": "月",
+          "one_based_byte_position": 36,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 31,
+          "field_number": 23,
+          "category": "出生年月日時",
+          "label": "日",
+          "name": "日",
+          "one_based_byte_position": 38,
+          "bytes": 2,
+          "code_sheet": null
+        }
+      ],
+      "birth_hour": {
+        "worksheet_row": 32,
+        "field_number": 24,
+        "category": "出生年月日時",
+        "label": "時間",
+        "name": "時間",
+        "one_based_byte_position": 40,
+        "bytes": 2,
+        "code_sheet": "13",
+        "codes": {
+          "00-23": "午前0時~午後11時",
+          "VV": "不詳",
+          "△△": "出生年月日が大正以前"
+        }
+      },
+      "sex": {
+        "worksheet_row": 27,
+        "field_number": 19,
+        "category": "性別",
+        "label": "性別",
+        "name": "性別",
+        "one_based_byte_position": 32,
+        "bytes": 1,
+        "code_sheet": "11",
+        "codes": {
+          "1": "男",
+          "2": "女"
+        }
+      },
+      "birth_country_group": {
+        "worksheet_row": 33,
+        "field_number": 25,
+        "category": "国内外（生まれたところ）",
+        "label": "国内外（生まれたところ）",
+        "name": "国内外（生まれたところ）",
+        "one_based_byte_position": 42,
+        "bytes": 1,
+        "code_sheet": "14",
+        "codes": {
+          "1": "日本",
+          "2": "日本外"
+        }
+      },
+      "delivery_venue_type": {
+        "worksheet_row": 57,
+        "field_number": 49,
+        "category": "場所の種別",
+        "label": "場所の種別",
+        "name": "場所の種別",
+        "one_based_byte_position": 83,
+        "bytes": 1,
+        "code_sheet": "38",
+        "codes": {
+          "1": "病院",
+          "2": "診療所",
+          "3": "助産所",
+          "4": "自宅",
+          "5": "その他"
+        }
+      }
+    },
+    "M9N8B-DS41": {
+      "years": [
+        2009
+      ],
+      "sha256": "611e1f50efe603842f470b232805cd6ca352382285be892c817262f864c36de0",
+      "fields_checked": 64,
+      "time_related_labels": [
+        "出生年月日時",
+        "時間"
+      ],
+      "geography_related_labels": [
+        "住所地",
+        "保健所",
+        "国内外(生まれたところ)",
+        "場所の種別",
+        "届出地",
+        "市区町村",
+        "市区町村(種類)",
+        "市区町村(順位)",
+        "都道府県"
+      ],
+      "birth_calendar_fields": [
+        {
+          "worksheet_row": 29,
+          "field_number": 21,
+          "category": "出生年月日時",
+          "label": "年",
+          "name": "年",
+          "one_based_byte_position": 34,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 30,
+          "field_number": 22,
+          "category": "出生年月日時",
+          "label": "月",
+          "name": "月",
+          "one_based_byte_position": 36,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 31,
+          "field_number": 23,
+          "category": "出生年月日時",
+          "label": "日",
+          "name": "日",
+          "one_based_byte_position": 38,
+          "bytes": 2,
+          "code_sheet": null
+        }
+      ],
+      "birth_hour": {
+        "worksheet_row": 32,
+        "field_number": 24,
+        "category": "出生年月日時",
+        "label": "時間",
+        "name": "時間",
+        "one_based_byte_position": 40,
+        "bytes": 2,
+        "code_sheet": "13",
+        "codes": {
+          "00-23": "午前0時~午後11時",
+          "VV": "不詳",
+          "△△": "出生年月日が大正以前"
+        }
+      },
+      "sex": {
+        "worksheet_row": 27,
+        "field_number": 19,
+        "category": "性別",
+        "label": "性別",
+        "name": "性別",
+        "one_based_byte_position": 32,
+        "bytes": 1,
+        "code_sheet": "11",
+        "codes": {
+          "1": "男",
+          "2": "女"
+        }
+      },
+      "birth_country_group": {
+        "worksheet_row": 33,
+        "field_number": 25,
+        "category": "国内外（生まれたところ）",
+        "label": "国内外（生まれたところ）",
+        "name": "国内外（生まれたところ）",
+        "one_based_byte_position": 42,
+        "bytes": 1,
+        "code_sheet": "14",
+        "codes": {
+          "1": "日本",
+          "2": "日本外"
+        }
+      },
+      "delivery_venue_type": {
+        "worksheet_row": 57,
+        "field_number": 49,
+        "category": "場所の種別",
+        "label": "場所の種別",
+        "name": "場所の種別",
+        "one_based_byte_position": 83,
+        "bytes": 1,
+        "code_sheet": "38",
+        "codes": {
+          "1": "病院",
+          "2": "診療所",
+          "3": "助産所",
+          "4": "自宅",
+          "5": "その他"
+        }
+      }
+    },
+    "M9N8B-DS55": {
+      "years": [
+        2023
+      ],
+      "sha256": "64ab9b47150cdb1a706c438bad94771c41745e93aa4edc59745804ecf67d7f69",
+      "fields_checked": 66,
+      "time_related_labels": [
+        "出生年月日時",
+        "時間"
+      ],
+      "geography_related_labels": [
+        "住所地",
+        "保健所",
+        "国内外(生まれたところ)",
+        "地方公共団体コード",
+        "場所の種別",
+        "届出地",
+        "市区町村(種類)",
+        "市区町村(順位)",
+        "都道府県"
+      ],
+      "birth_calendar_fields": [
+        {
+          "worksheet_row": 29,
+          "field_number": 21,
+          "category": "出生年月日時",
+          "label": "年",
+          "name": "年",
+          "one_based_byte_position": 34,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 30,
+          "field_number": 22,
+          "category": "出生年月日時",
+          "label": "月",
+          "name": "月",
+          "one_based_byte_position": 36,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 31,
+          "field_number": 23,
+          "category": "出生年月日時",
+          "label": "日",
+          "name": "日",
+          "one_based_byte_position": 38,
+          "bytes": 2,
+          "code_sheet": null
+        }
+      ],
+      "birth_hour": {
+        "worksheet_row": 32,
+        "field_number": 24,
+        "category": "出生年月日時",
+        "label": "時間",
+        "name": "時間",
+        "one_based_byte_position": 40,
+        "bytes": 2,
+        "code_sheet": "13",
+        "codes": {
+          "00-23": "午前0時~午後11時",
+          "VV": "不詳",
+          "△△": "出生年月日が大正以前"
+        }
+      },
+      "sex": {
+        "worksheet_row": 27,
+        "field_number": 19,
+        "category": "性別",
+        "label": "性別",
+        "name": "性別",
+        "one_based_byte_position": 32,
+        "bytes": 1,
+        "code_sheet": "11",
+        "codes": {
+          "1": "男",
+          "2": "女"
+        }
+      },
+      "birth_country_group": {
+        "worksheet_row": 33,
+        "field_number": 25,
+        "category": "国内外（生まれたところ）",
+        "label": "国内外（生まれたところ）",
+        "name": "国内外（生まれたところ）",
+        "one_based_byte_position": 42,
+        "bytes": 1,
+        "code_sheet": "14",
+        "codes": {
+          "1": "日本",
+          "2": "日本外"
+        }
+      },
+      "delivery_venue_type": {
+        "worksheet_row": 57,
+        "field_number": 49,
+        "category": "場所の種別",
+        "label": "場所の種別",
+        "name": "場所の種別",
+        "one_based_byte_position": 83,
+        "bytes": 1,
+        "code_sheet": "38",
+        "codes": {
+          "1": "病院",
+          "2": "診療所",
+          "3": "助産所",
+          "4": "自宅",
+          "5": "その他"
+        }
+      }
+    },
+    "M9N8B-DS382": {
+      "years": [
+        2025
+      ],
+      "sha256": "e02e58c8cb3478e61bee4507a517e718e1f45390df52804c06e0eff245c49adf",
+      "fields_checked": 66,
+      "time_related_labels": [
+        "出生年月日時",
+        "時間"
+      ],
+      "geography_related_labels": [
+        "住所地",
+        "保健所",
+        "国内外(生まれたところ)",
+        "地方公共団体コード",
+        "場所の種別",
+        "届出地",
+        "市区町村(種類)",
+        "市区町村(順位)",
+        "都道府県"
+      ],
+      "birth_calendar_fields": [
+        {
+          "worksheet_row": 29,
+          "field_number": 21,
+          "category": "出生年月日時",
+          "label": "年",
+          "name": "年",
+          "one_based_byte_position": 34,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 30,
+          "field_number": 22,
+          "category": "出生年月日時",
+          "label": "月",
+          "name": "月",
+          "one_based_byte_position": 36,
+          "bytes": 2,
+          "code_sheet": null
+        },
+        {
+          "worksheet_row": 31,
+          "field_number": 23,
+          "category": "出生年月日時",
+          "label": "日",
+          "name": "日",
+          "one_based_byte_position": 38,
+          "bytes": 2,
+          "code_sheet": null
+        }
+      ],
+      "birth_hour": {
+        "worksheet_row": 32,
+        "field_number": 24,
+        "category": "出生年月日時",
+        "label": "時間",
+        "name": "時間",
+        "one_based_byte_position": 40,
+        "bytes": 2,
+        "code_sheet": "13",
+        "codes": {
+          "00-23": "午前0時~午後11時",
+          "VV": "不詳",
+          "△△": "出生年月日が大正以前"
+        }
+      },
+      "sex": {
+        "worksheet_row": 27,
+        "field_number": 19,
+        "category": "性別",
+        "label": "性別",
+        "name": "性別",
+        "one_based_byte_position": 32,
+        "bytes": 1,
+        "code_sheet": "11",
+        "codes": {
+          "1": "男",
+          "2": "女"
+        }
+      },
+      "birth_country_group": {
+        "worksheet_row": 33,
+        "field_number": 25,
+        "category": "国内外（生まれたところ）",
+        "label": "国内外（生まれたところ）",
+        "name": "国内外（生まれたところ）",
+        "one_based_byte_position": 42,
+        "bytes": 1,
+        "code_sheet": "14",
+        "codes": {
+          "1": "日本",
+          "2": "日本外"
+        }
+      },
+      "delivery_venue_type": {
+        "worksheet_row": 57,
+        "field_number": 49,
+        "category": "場所の種別",
+        "label": "場所の種別",
+        "name": "場所の種別",
+        "one_based_byte_position": 83,
+        "bytes": 1,
+        "code_sheet": "38",
+        "codes": {
+          "1": "病院",
+          "2": "診療所",
+          "3": "助産所",
+          "4": "自宅",
+          "5": "その他"
+        }
+      }
+    }
+  }
+}
