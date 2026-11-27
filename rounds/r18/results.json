@@ -1,0 +1,116 @@
+{
+  "registration_sha256": "93ca94e9fcbad7e338eb2dfdf0ba441e1d3956f4452b72b8f6a719d3fe516eb7",
+  "years": {
+    "2024": {
+      "births_publisher_total": 686173,
+      "hour_known": 686020,
+      "hour_unknown": 153,
+      "hour_counts_0_through_23": [
+        16513,
+        16930,
+        17635,
+        18126,
+        18600,
+        18270,
+        18514,
+        19788,
+        21708,
+        39414,
+        36318,
+        38930,
+        45831,
+        60636,
+        58401,
+        50446,
+        43977,
+        33033,
+        25753,
+        20628,
+        18290,
+        16649,
+        15914,
+        15716
+      ],
+      "counts_by_venue": {
+        "病院": 375336,
+        "診療所": 306791,
+        "助産所": 3037,
+        "自宅": 816,
+        "その他": 193
+      },
+      "checks_of_source_aggregates": 12350,
+      "weekday": {
+        "days": 262,
+        "births_all": 551195,
+        "births_hour_known": 551066,
+        "births_0900_1759": 342495,
+        "share_known_clocks_0900_1759": 0.6215135755063822
+      },
+      "weekend": {
+        "days": 104,
+        "births_all": 134978,
+        "births_hour_known": 134954,
+        "births_0900_1759": 64491,
+        "share_known_clocks_0900_1759": 0.477873942232168
+      },
+      "weekday_minus_weekend_pp": 14.363963327421418
+    },
+    "2025": {
+      "births_publisher_total": 671270,
+      "hour_known": 671081,
+      "hour_unknown": 189,
+      "hour_counts_0_through_23": [
+        15434,
+        15848,
+        16820,
+        16966,
+        17127,
+        17483,
+        17314,
+        18675,
+        20585,
+        38118,
+        35642,
+        38456,
+        45948,
+        60414,
+        57918,
+        50343,
+        44696,
+        33181,
+        25268,
+        20238,
+        17750,
+        16108,
+        15425,
+        15324
+      ],
+      "counts_by_venue": {
+        "病院": 366737,
+        "診療所": 300703,
+        "助産所": 2827,
+        "自宅": 823,
+        "その他": 180
+      },
+      "checks_of_source_aggregates": 12350,
+      "weekday": {
+        "days": 261,
+        "births_all": 541496,
+        "births_hour_known": 541341,
+        "births_0900_1759": 342156,
+        "share_known_clocks_0900_1759": 0.6320526248704605
+      },
+      "weekend": {
+        "days": 104,
+        "births_all": 129774,
+        "births_hour_known": 129740,
+        "births_0900_1759": 62560,
+        "share_known_clocks_0900_1759": 0.48219515954986897
+      },
+      "weekday_minus_weekend_pp": 14.985746532059162
+    }
+  },
+  "practical_threshold_pp": 5,
+  "aggregate_only": true,
+  "individual_charts_computed": 0
+}

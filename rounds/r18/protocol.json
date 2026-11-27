@@ -1,0 +1,23 @@
+{
+  "id": "OBS-R18-JP-HOURS-2026-11-28",
+  "created_utc": "2026-11-27T16:21:34.334788+00:00",
+  "sources": {
+    "jp2024.csv": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040320531",
+    "jp2025.csv": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040503807"
+  },
+  "source_sha256": {
+    "jp2024.csv": "26bbeed3690fd8f23c6a6baf02710351bc22d23fd651cc89b9eb46669d6d04cb",
+    "jp2025.csv": "8cb9bec8ece54e8dfd4dab0a39f72ad4ee152424249b085b7ff20465f6d58993"
+  },
+  "method_sha256": {
+    "REGISTRATION.zh.md": "7449dafc0f85b25b9d94252537e7b52c2a9d170d5fc67ec9701d0ddfa98c067e",
+    "japanese_birth_hours.py": "ab38587549befa9f6741b11db726a7e7173c51de654e0fc6a14bd48e1e8a1e58"
+  },
+  "official_birth_totals": {
+    "2024": 686173,
+    "2025": 671270
+  },
+  "practical_threshold_pp": 5,
+  "primary_observation": "Weekday vs weekend share of 09:00–17:59 among known birth hours.",
+  "pre_registration_visibility": "Metadata, partial 2024 annual-hour row, two published annual totals. No date/week comparisons."
+}
