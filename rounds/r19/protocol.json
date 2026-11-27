@@ -1,0 +1,24 @@
+{
+  "id": "OBS-R19-QING-YUEBO-2026-11-28",
+  "created_utc": "2026-11-27T16:29:11.413982+00:00",
+  "prior_seen": "Printed seed constants and older R8/R16 modern comparison only, no historical target residuals.",
+  "comparison_max_arcmin": 60,
+  "free_parameters_fit": 0,
+  "days": 12,
+  "solar_max_arcsec_readings": [
+    6973,
+    6913
+  ],
+  "files_sha256": {
+    "rounds/r19/qing_apogee.py": "13d385435051da278421aa8e6ff8a54f827ea6f42ea80a50404a7397aac7df31",
+    "rounds/r19/test_qing_apogee.py": "1514f1302972ddd93a760d78b61e7d6c83f48af0eb71eedf461b616faa7ad3a7",
+    "rounds/r19/almanac_check.py": "d65ed39756881caea6dde6a54c9509dc9765b76df2fa7707760ed7a2c3493b44",
+    "rounds/r19/REGISTRATION.zh.md": "37b03915456777fe3f77ff1cb09b2f93e3db6040d99af23793e7342211dbaf3e",
+    "docs/engine_validation/1833_reference.json": "a0dab6462789849f10a10974ce1f8fed253ad0b0207594f03d88bdea192779e1",
+    "src/open_birth_chart/astronomy.py": "9331f1a20b6571207f28632bf89d72969c6992072c99fb3ff1235439502fb550",
+    "src/open_birth_chart/qizheng_engine.py": "d50d0c7de06ca16cb0cf19557fd51b65f240363c68e7ce6bb9daa8f483c6123d",
+    "requirements.txt": "2d4a4831f0c1ab09b633095b8323edd2f9548e638e48f87582fea4d86bb36619",
+    "CONSTITUTION.zh.md": "8f886336f7b2a76d622721932ed98d9c33b5b97771505f0ab1b50af67109718c"
+  },
+  "population_scores_affected": false
+}
