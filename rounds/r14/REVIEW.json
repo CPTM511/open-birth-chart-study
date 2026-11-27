@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "result_sha256": "1114680d5f3e750fbf5e772dba653b806a9154199f8e809c746b63fb94f41c57",
+  "numeric_comparisons": 3474,
+  "independent_acs_counts": "Both entire publisher archives re-read in reverse member order.",
+  "acs_replicate_variance": "Verified all age and contrast SDR calculations from exact sector aggregate weights.",
+  "scope_limit": "Replicate source weights and the BTOS published estimate extraction were shared."
+}

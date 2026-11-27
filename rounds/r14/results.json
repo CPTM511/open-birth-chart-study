@@ -1,0 +1,338 @@
+{
+  "registration_sha256": "6dc1c608dc8e3cb8b7a88f3925942b10c8f74c66377f5bfd24d8daa25ab30f10",
+  "btos_reference_year": 2024,
+  "btos_question": "7 Yes, used AI in producing goods or services",
+  "btos_fixed_sector_context": {
+    "21": {
+      "waves_used": 1,
+      "missing_waves": [
+        "202402",
+        "202403",
+        "202404",
+        "202405",
+        "202406",
+        "202407",
+        "202408",
+        "202409",
+        "202410",
+        "202411",
+        "202412",
+        "202414",
+        "202415",
+        "202416",
+        "202417",
+        "202418",
+        "202419",
+        "202420",
+        "202421",
+        "202422",
+        "202423",
+        "202424",
+        "202425",
+        "202426",
+        "202501"
+      ],
+      "included": false,
+      "mean_employer_yes_percent": null,
+      "minimum_wave_percent": 3.4,
+      "maximum_wave_percent": 3.4
+    },
+    "22": {
+      "waves_used": 0,
+      "missing_waves": [
+        "202402",
+        "202403",
+        "202404",
+        "202405",
+        "202406",
+        "202407",
+        "202408",
+        "202409",
+        "202410",
+        "202411",
+        "202412",
+        "202413",
+        "202414",
+        "202415",
+        "202416",
+        "202417",
+        "202418",
+        "202419",
+        "202420",
+        "202421",
+        "202422",
+        "202423",
+        "202424",
+        "202425",
+        "202426",
+        "202501"
+      ],
+      "included": false,
+      "mean_employer_yes_percent": null,
+      "minimum_wave_percent": null,
+      "maximum_wave_percent": null
+    },
+    "23": {
+      "waves_used": 26,
+      "missing_waves": [],
+      "included": true,
+      "mean_employer_yes_percent": 1.6692307692307693,
+      "minimum_wave_percent": 1.2,
+      "maximum_wave_percent": 2.3
+    },
+    "31": {
+      "waves_used": 26,
+      "missing_waves": [],
+      "included": true,
+      "mean_employer_yes_percent": 2.6,
+      "minimum_wave_percent": 1.5,
+      "maximum_wave_percent": 3.5
+    },
+    "42": {
+      "waves_used": 26,
+      "missing_waves": [],
+      "included": true,
+      "mean_employer_yes_percent": 2.830769230769231,
+      "minimum_wave_percent": 1.7,
+      "maximum_wave_percent": 3.8
+    },
+    "44": {
+      "waves_used": 26,
+      "missing_waves": [],
+      "included": true,
+      "mean_employer_yes_percent": 3.4038461538461537,
+      "minimum_wave_percent": 2.7,
+      "maximum_wave_percent": 4.5
+    },
+    "51": {
+      "waves_used": 26,
+      "missing_waves": [],
+      "included": true,
+      "mean_employer_yes_percent": 18.423076923076923,
+      "minimum_wave_percent": 13.2,
+      "maximum_wave_percent": 24.6
+    },
+    "53": {
+      "waves_used": 26,
+      "missing_waves": [],
+      "included": true,
+      "mean_employer_yes_percent": 7.526923076923077,
+      "minimum_wave_percent": 5.9,
+      "maximum_wave_percent": 9.8
+    },
+    "54": {
+      "waves_used": 26,
+      "missing_waves": [],
+      "included": true,
+      "mean_employer_yes_percent": 13.273076923076923,
+      "minimum_wave_percent": 10.5,
+      "maximum_wave_percent": 17.1
+    },
+    "55": {
+      "waves_used": 1,
+      "missing_waves": [
+        "202402",
+        "202403",
+        "202405",
+        "202406",
+        "202407",
+        "202408",
+        "202409",
+        "202410",
+        "202411",
+        "202412",
+        "202413",
+        "202414",
+        "202415",
+        "202416",
+        "202417",
+        "202418",
+        "202419",
+        "202420",
+        "202421",
+        "202422",
+        "202423",
+        "202424",
+        "202425",
+        "202426",
+        "202501"
+      ],
+      "included": false,
+      "mean_employer_yes_percent": null,
+      "minimum_wave_percent": 17.1,
+      "maximum_wave_percent": 17.1
+    },
+    "56": {
+      "waves_used": 26,
+      "missing_waves": [],
+      "included": true,
+      "mean_employer_yes_percent": 4.834615384615384,
+      "minimum_wave_percent": 3.5,
+      "maximum_wave_percent": 6.1
+    },
+    "61": {
+      "waves_used": 26,
+      "missing_waves": [],
+      "included": true,
+      "mean_employer_yes_percent": 10.176923076923076,
+      "minimum_wave_percent": 5.3,
+      "maximum_wave_percent": 15.4
+    },
+    "62": {
+      "waves_used": 26,
+      "missing_waves": [],
+      "included": true,
+      "mean_employer_yes_percent": 5.515384615384615,
+      "minimum_wave_percent": 4.0,
+      "maximum_wave_percent": 6.4
+    },
+    "71": {
+      "waves_used": 26,
+      "missing_waves": [],
+      "included": true,
+      "mean_employer_yes_percent": 5.073076923076923,
+      "minimum_wave_percent": 3.3,
+      "maximum_wave_percent": 7.3
+    },
+    "72": {
+      "waves_used": 26,
+      "missing_waves": [],
+      "included": true,
+      "mean_employer_yes_percent": 1.5076923076923077,
+      "minimum_wave_percent": 1.1,
+      "maximum_wave_percent": 1.9
+    }
+  },
+  "included_sectors": [
+    "23",
+    "31",
+    "42",
+    "44",
+    "51",
+    "53",
+    "54",
+    "56",
+    "61",
+    "62",
+    "71",
+    "72"
+  ],
+  "acs_age_industry_context": {
+    "2023": {
+      "age_context_percent": {
+        "20–29": {
+          "estimate": 5.199339616505346,
+          "conditional_acs_se": 0.012524955593481352,
+          "conditional_acs_95": [
+            5.174790703542122,
+            5.223888529468569
+          ],
+          "acs_matched_workers": 22666544,
+          "acs_private_workers_before_sector_join": 27128100,
+          "age_sector_match_share": 0.8355374685289423,
+          "matched_source_records": 191575
+        },
+        "30–39": {
+          "estimate": 5.790554371207569,
+          "conditional_acs_se": 0.012647402345907404,
+          "conditional_acs_95": [
+            5.765765462609591,
+            5.815343279805547
+          ],
+          "acs_matched_workers": 23192645,
+          "acs_private_workers_before_sector_join": 28666155,
+          "age_sector_match_share": 0.8090601965976951,
+          "matched_source_records": 203771
+        },
+        "40–54": {
+          "estimate": 5.566186857195578,
+          "conditional_acs_se": 0.011409315202275309,
+          "conditional_acs_95": [
+            5.543824599399118,
+            5.588549114992038
+          ],
+          "acs_matched_workers": 28557997,
+          "acs_private_workers_before_sector_join": 36008145,
+          "age_sector_match_share": 0.7930982559640326,
+          "matched_source_records": 266459
+        }
+      },
+      "age_20_29_minus_age_40_54_pp": {
+        "estimate": -0.3668472406902321,
+        "conditional_acs_se": 0.014246238810204814,
+        "conditional_acs_95": [
+          -0.39476986875823356,
+          -0.33892461262223067
+        ]
+      },
+      "records": {
+        "archive_person_rows": 3405809,
+        "unmatched_sector_rows": 153429,
+        "excluded_sector_scope": 134254,
+        "insufficient_btos_waves": 13446,
+        "unknown_sector": 5729,
+        "eligible_private_worker_sample_rows": 815234,
+        "matched_sector_rows": 661805
+      }
+    },
+    "2024": {
+      "age_context_percent": {
+        "20–29": {
+          "estimate": 5.194296213025744,
+          "conditional_acs_se": 0.01245880582849128,
+          "conditional_acs_95": [
+            5.169876953601901,
+            5.2187154724495874
+          ],
+          "acs_matched_workers": 23069414,
+          "acs_private_workers_before_sector_join": 27573405,
+          "age_sector_match_share": 0.8366545227185398,
+          "matched_source_records": 192392
+        },
+        "30–39": {
+          "estimate": 5.7867122415364,
+          "conditional_acs_se": 0.012321561335088218,
+          "conditional_acs_95": [
+            5.762561981319627,
+            5.810862501753173
+          ],
+          "acs_matched_workers": 23782236,
+          "acs_private_workers_before_sector_join": 29412519,
+          "age_sector_match_share": 0.8085752872781825,
+          "matched_source_records": 205287
+        },
+        "40–54": {
+          "estimate": 5.61084557806099,
+          "conditional_acs_se": 0.010722931768772113,
+          "conditional_acs_95": [
+            5.589828631794196,
+            5.631862524327783
+          ],
+          "acs_matched_workers": 29037139,
+          "acs_private_workers_before_sector_join": 36541345,
+          "age_sector_match_share": 0.7946379368356583,
+          "matched_source_records": 266777
+        }
+      },
+      "age_20_29_minus_age_40_54_pp": {
+        "estimate": -0.4165493650352454,
+        "conditional_acs_se": 0.01559746308292603,
+        "conditional_acs_95": [
+          -0.4471203926777804,
+          -0.3859783373927104
+        ]
+      },
+      "records": {
+        "archive_person_rows": 3422888,
+        "unmatched_sector_rows": 153635,
+        "excluded_sector_scope": 134038,
+        "unknown_sector": 6084,
+        "insufficient_btos_waves": 13513,
+        "eligible_private_worker_sample_rows": 818091,
+        "matched_sector_rows": 664456
+      }
+    }
+  },
+  "detailed_occupation_rows_n_at_least_100": 1654,
+  "scope": "Private wage and salary workers in harmonized industries. ACS conditional uncertainty holds the BTOS means fixed. Sector-level share of employers does not measure individual worker usage."
+}

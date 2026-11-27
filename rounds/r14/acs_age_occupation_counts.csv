@@ -1,0 +1,1655 @@
+acs_year,age,census_occp,publisher_label,sample_records,weighted_workers
+2023,20–29,0010,MGR-Chief Executives And Legislators,170,23973
+2023,20–29,0020,MGR-General And Operations Managers,1030,126197
+2023,20–29,0040,MGR-Advertising And Promotions Managers,108,14303
+2023,20–29,0051,MGR-Marketing Managers,1026,114167
+2023,20–29,0052,MGR-Sales Managers,390,47767
+2023,20–29,0110,MGR-Computer And Information Systems Managers,264,29153
+2023,20–29,0120,MGR-Financial Managers,289,34951
+2023,20–29,0136,MGR-Human Resources Managers,151,19763
+2023,20–29,0140,MGR-Industrial Production Managers,193,22763
+2023,20–29,0150,MGR-Purchasing Managers,130,13472
+2023,20–29,0160,"MGR-Transportation, Storage, And Distribution Managers",296,36752
+2023,20–29,0220,MGR-Construction Managers,858,100549
+2023,20–29,0230,MGR-Education And Childcare Administrators,564,61025
+2023,20–29,0310,MGR-Food Service Managers,1747,234156
+2023,20–29,0340,MGR-Lodging Managers,167,18635
+2023,20–29,0350,MGR-Medical And Health Services Managers,506,58785
+2023,20–29,0410,"MGR-Property, Real Estate, And Community Association Managers",477,62017
+2023,20–29,0420,MGR-Social And Community Service Managers,263,32306
+2023,20–29,0440,MGR-Other Managers,2666,309340
+2023,20–29,0520,"BUS-Wholesale And Retail Buyers, Except Farm Products",345,40388
+2023,20–29,0530,"BUS-Purchasing Agents, Except Wholesale, Retail, And Farm Products",250,27755
+2023,20–29,0565,BUS-Compliance Officers,163,17611
+2023,20–29,0600,BUS-Cost Estimators,173,19261
+2023,20–29,0630,BUS-Human Resources Workers,1346,167407
+2023,20–29,0650,BUS-Training And Development Specialists,155,19251
+2023,20–29,0700,BUS-Logisticians,233,28121
+2023,20–29,0705,BUS-Project Management Specialists,936,108231
+2023,20–29,0710,BUS-Management Analysts,1233,144135
+2023,20–29,0725,"BUS-Meeting, Convention, And Event Planners",323,33608
+2023,20–29,0735,BUS-Market Research Analysts And Marketing Specialists,1018,118530
+2023,20–29,0750,"BUS-Business Operations Specialists, All Other",657,76344
+2023,20–29,0800,FIN-Accountants And Auditors,1927,216871
+2023,20–29,0845,FIN-Financial And Investment Analysts,378,46363
+2023,20–29,0940,FIN-Tax Preparers,144,16599
+2023,20–29,1006,CMM-Computer Systems Analysts,647,76278
+2023,20–29,1007,CMM-Information Security Analysts,263,29499
+2023,20–29,1010,CMM-Computer Programmers,318,35649
+2023,20–29,1021,CMM-Software Developers,3587,395560
+2023,20–29,1022,CMM-Software Quality Assurance Analysts and Testers,138,18776
+2023,20–29,1031,CMM-Web Developers,131,15601
+2023,20–29,1032,CMM-Web And Digital Interface Designers,133,13888
+2023,20–29,1050,CMM-Computer Support Specialists,933,104848
+2023,20–29,1065,CMM-Database Administrators and Architects,137,15786
+2023,20–29,1105,CMM-Network And Computer Systems Administrators,200,21811
+2023,20–29,1108,"CMM-Computer Occupations, All Other",923,111623
+2023,20–29,1220,CMM-Operations Research Analysts,111,12312
+2023,20–29,1240,CMM-Other Mathematical Science Occupations,802,87098
+2023,20–29,1305,"ENG-Architects, Except Landscape And Naval",227,27705
+2023,20–29,1320,ENG-Aerospace Engineers,297,30520
+2023,20–29,1350,ENG-Chemical Engineers,209,22528
+2023,20–29,1360,ENG-Civil Engineers,984,112444
+2023,20–29,1410,ENG-Electrical And Electronics Engineers,408,46922
+2023,20–29,1430,"ENG-Industrial Engineers, Including Health And Safety",595,71790
+2023,20–29,1450,ENG-Materials Engineers,164,18957
+2023,20–29,1460,ENG-Mechanical Engineers,793,88150
+2023,20–29,1530,ENG-Other Engineers,950,106702
+2023,20–29,1541,ENG-Architectural And Civil Drafters,109,12186
+2023,20–29,1545,ENG-Other Drafters,133,14502
+2023,20–29,1551,ENG-Electrical And Electronic Engineering Technologists And Technicians,109,11988
+2023,20–29,1555,"ENG-Other Engineering Technologists And Technicians, Except Drafters",742,84715
+2023,20–29,1560,ENG-Surveying And Mapping Technicians,125,14856
+2023,20–29,1610,SCI-Biological Scientists,150,16225
+2023,20–29,1650,SCI-Other Life Scientists,262,29353
+2023,20–29,1720,SCI-Chemists And Materials Scientists,177,19298
+2023,20–29,1760,"SCI-Physical Scientists, All Other",617,64802
+2023,20–29,1920,SCI-Chemical Technicians,128,15941
+2023,20–29,1970,"SCI-Other Life, Physical, And Social Science Technicians",719,73851
+2023,20–29,2001,CMS-Substance Abuse And Behavioral Disorder Counselors,290,35017
+2023,20–29,2002,"CMS-Educational, Guidance, And Career Counselors And Advisors",333,35174
+2023,20–29,2004,CMS-Mental Health Counselors,295,33362
+2023,20–29,2006,"CMS-Counselors, All Other",224,24379
+2023,20–29,2014,"CMS-Social Workers, All Other",513,60845
+2023,20–29,2016,CMS-Social And Human Service Assistants,281,34074
+2023,20–29,2025,CMS-Other Community and Social Service Specialists,100,11202
+2023,20–29,2100,"LGL-Lawyers, And Judges, Magistrates, And Other Judicial Workers",546,61652
+2023,20–29,2145,LGL-Paralegals And Legal Assistants,676,79742
+2023,20–29,2205,EDU-Postsecondary Teachers,1165,114766
+2023,20–29,2300,EDU-Preschool And Kindergarten Teachers,1462,171447
+2023,20–29,2310,EDU-Elementary And Middle School Teachers,1167,130777
+2023,20–29,2320,EDU-Secondary School Teachers,420,42696
+2023,20–29,2330,EDU-Special Education Teachers,128,16284
+2023,20–29,2350,EDU-Tutors,693,55981
+2023,20–29,2360,EDU-Other Teachers and Instructors,936,115062
+2023,20–29,2400,"EDU-Archivists, Curators, And Museum Technicians",111,13699
+2023,20–29,2435,EDU-Librarians And Media Collections Specialists,100,9032
+2023,20–29,2545,EDU-Teaching Assistants,1890,192695
+2023,20–29,2555,EDU-Other Educational Instruction and Library Workers,122,11957
+2023,20–29,2600,ENT-Artists And Related Workers,223,25257
+2023,20–29,2634,ENT-Graphic Designers,544,60252
+2023,20–29,2635,ENT-Interior Designers,131,17009
+2023,20–29,2640,ENT-Other Designers,567,64037
+2023,20–29,2710,ENT-Producers And Directors,273,31695
+2023,20–29,2722,ENT-Coaches and Scouts,606,67077
+2023,20–29,2810,"ENT-News Analysts, Reporters, And Journalists",161,18551
+2023,20–29,2825,ENT-Public Relations Specialists,164,19547
+2023,20–29,2830,ENT-Editors,191,21503
+2023,20–29,2850,ENT-Writers And Authors,293,30418
+2023,20–29,2905,ENT-Other Media And Communication Equipment Workers,195,23062
+2023,20–29,2910,ENT-Photographers,216,22109
+2023,20–29,2920,"ENT-Television, Video, And Film Camera Operators And Editors",204,23645
+2023,20–29,3030,MED-Dietitians And Nutritionists,127,14804
+2023,20–29,3050,MED-Pharmacists,468,51828
+2023,20–29,3090,MED-Physicians,539,58269
+2023,20–29,3110,MED-Physician Assistants,318,33867
+2023,20–29,3150,MED-Occupational Therapists,287,32192
+2023,20–29,3160,MED-Physical Therapists,442,48275
+2023,20–29,3220,MED-Respiratory Therapists,131,16519
+2023,20–29,3230,MED-Speech-Language Pathologists,236,26192
+2023,20–29,3245,MED-Other Therapists,486,59085
+2023,20–29,3250,MED-Veterinarians,100,9113
+2023,20–29,3255,MED-Registered Nurses,5330,611884
+2023,20–29,3258,"MED-Nurse Practitioners, And Nurse Midwives",115,12242
+2023,20–29,3300,MED-Clinical Laboratory Technologists And Technicians,665,76057
+2023,20–29,3310,MED-Dental Hygienists,312,33337
+2023,20–29,3322,MED-Diagnostic Medical Sonographers,164,16310
+2023,20–29,3323,MED-Radiologic Technologists And Technicians,388,44301
+2023,20–29,3401,MED-Emergency Medical Technicians,465,50248
+2023,20–29,3402,MED-Paramedics,118,14152
+2023,20–29,3421,MED-Pharmacy Technicians,1174,130214
+2023,20–29,3422,MED-Psychiatric Technicians,514,61753
+2023,20–29,3423,MED-Surgical Technologists,161,19833
+2023,20–29,3424,MED-Veterinary Technologists and Technicians,600,68266
+2023,20–29,3430,MED-Dietetic Technicians And Ophthalmic Medical Technicians,100,12487
+2023,20–29,3500,MED-Licensed Practical And Licensed Vocational Nurses,690,83602
+2023,20–29,3515,MED-Medical Records Specialists,131,12735
+2023,20–29,3520,"MED-Opticians, Dispensing",114,14444
+2023,20–29,3545,MED-Miscellaneous Health Technologists and Technicians,239,28174
+2023,20–29,3550,MED-Other Healthcare Practitioners and Technical Occupations,191,20599
+2023,20–29,3601,HLS-Home Health Aides,422,57194
+2023,20–29,3602,HLS-Personal Care Aides,1610,203876
+2023,20–29,3603,HLS-Nursing Assistants,2467,311739
+2023,20–29,3605,HLS-Orderlies and Psychiatric Aides,146,20706
+2023,20–29,3610,HLS-Occupational Therapy Assistants And Aides,112,13848
+2023,20–29,3620,HLS-Physical Therapist Assistants And Aides,394,43062
+2023,20–29,3640,HLS-Dental Assistants,863,102103
+2023,20–29,3645,HLS-Medical Assistants,1610,197802
+2023,20–29,3646,HLS-Medical Transcriptionists,224,23190
+2023,20–29,3648,HLS-Veterinary Assistants And Laboratory Animal Caretakers,353,41152
+2023,20–29,3649,HLS-Phlebotomists,299,35530
+2023,20–29,3655,HLS-Other Healthcare Support Workers,335,41110
+2023,20–29,3930,PRT-Security Guards And Gambling Surveillance Officers,1622,217662
+2023,20–29,3960,PRT-Other Protective Service Workers,208,23064
+2023,20–29,4000,EAT-Chefs And Head Cooks,673,85762
+2023,20–29,4010,EAT-First-Line Supervisors Of Food Preparation And Serving Workers,1170,140560
+2023,20–29,4020,EAT-Cooks,4033,496081
+2023,20–29,4030,EAT-Food Preparation Workers,1915,229831
+2023,20–29,4040,EAT-Bartenders,1251,164064
+2023,20–29,4055,EAT-Fast Food And Counter Workers,3315,373590
+2023,20–29,4110,EAT-Waiters And Waitresses,6292,778712
+2023,20–29,4120,"EAT-Food Servers, Nonrestaurant",395,51723
+2023,20–29,4130,EAT-Dining Room And Cafeteria Attendants And Bartender Helpers,525,66056
+2023,20–29,4140,EAT-Dishwashers,551,68223
+2023,20–29,4150,"EAT-Hosts And Hostesses, Restaurant, Lounge, And Coffee Shop",703,83619
+2023,20–29,4200,CLN-First-Line Supervisors Of Housekeeping And Janitorial Workers,101,12271
+2023,20–29,4210,"CLN-First-Line Supervisors Of Landscaping, Lawn Service, And Groundskeeping Workers",115,12193
+2023,20–29,4220,CLN-Janitors And Building Cleaners,2034,257388
+2023,20–29,4230,CLN-Maids And Housekeeping Cleaners,929,123139
+2023,20–29,4240,CLN-Pest Control Workers,191,25679
+2023,20–29,4251,CLN-Landscaping And Groundskeeping Workers,1241,153583
+2023,20–29,4252,CLN-Tree Trimmers and Pruners,169,18753
+2023,20–29,4350,PRS-Animal Caretakers,365,41151
+2023,20–29,4400,PRS-Gambling Services Workers,131,17393
+2023,20–29,4420,"PRS-Ushers, Lobby Attendants, And Ticket Takers",118,11369
+2023,20–29,4435,PRS-Other Entertainment Attendants And Related Workers,706,73002
+2023,20–29,4530,"PRS-Baggage Porters, Bellhops, And Concierges",127,17799
+2023,20–29,4540,PRS-Tour And Travel Guides,341,26947
+2023,20–29,4600,PRS-Childcare Workers,1045,128443
+2023,20–29,4621,PRS-Exercise Trainers And Group Fitness Instructors,440,55007
+2023,20–29,4622,PRS-Recreation Workers,471,43660
+2023,20–29,4640,PRS-Residential Advisors,385,27764
+2023,20–29,4655,"PRS-Personal Care and Service Workers, All Other",154,20475
+2023,20–29,4700,SAL-First-Line Supervisors Of Retail Sales Workers,4150,492901
+2023,20–29,4710,SAL-First-Line Supervisors Of Non-Retail Sales Workers,474,56067
+2023,20–29,4720,SAL-Cashiers,6704,792724
+2023,20–29,4750,SAL-Parts Salespersons,219,27023
+2023,20–29,4760,SAL-Retail Salespersons,6357,751203
+2023,20–29,4800,SAL-Advertising Sales Agents,155,20536
+2023,20–29,4840,"SAL-Sales Representatives Of Services, Except Advertising, Insurance, Financial Services, And Travel",905,112965
+2023,20–29,4850,"SAL-Sales Representatives, Wholesale And Manufacturing",1230,145952
+2023,20–29,4920,SAL-Real Estate Brokers And Sales Agents,463,60360
+2023,20–29,4950,"SAL-Door-To-Door Sales Workers, News And Street Vendors, And Related Workers",141,16565
+2023,20–29,4965,"SAL-Sales And Related Workers, All Other",779,94583
+2023,20–29,5000,OFF-First-Line Supervisors Of Office And Administrative Support Workers,928,109091
+2023,20–29,5100,OFF-Bill And Account Collectors,100,12722
+2023,20–29,5110,OFF-Billing And Posting Clerks,416,48546
+2023,20–29,5120,"OFF-Bookkeeping, Accounting, And Auditing Clerks",834,97968
+2023,20–29,5140,OFF-Payroll And Timekeeping Clerks,124,16358
+2023,20–29,5240,OFF-Customer Service Representatives,4795,609035
+2023,20–29,5260,OFF-File Clerks,157,19482
+2023,20–29,5300,"OFF-Hotel, Motel, And Resort Desk Clerks",360,41781
+2023,20–29,5310,"OFF-Interviewers, Except Eligibility And Loan",322,39162
+2023,20–29,5320,"OFF-Library Assistants, Clerical",221,15311
+2023,20–29,5350,OFF-Correspondence Clerks And Order Clerks,156,19131
+2023,20–29,5360,"OFF-Human Resources Assistants, Except Payroll And Timekeeping",113,12768
+2023,20–29,5400,OFF-Receptionists And Information Clerks,2562,301015
+2023,20–29,5510,OFF-Couriers And Messengers,110,15549
+2023,20–29,5522,"OFF-Dispatchers, Except Police, Fire, And Ambulance",144,19477
+2023,20–29,5600,"OFF-Production, Planning, And Expediting Clerks",324,37935
+2023,20–29,5610,"OFF-Shipping, Receiving, And Inventory Clerks",799,100187
+2023,20–29,5710,OFF-Executive Secretaries And Executive Administrative Assistants,152,18514
+2023,20–29,5730,OFF-Medical Secretaries and Administrative Assistants,152,16995
+2023,20–29,5740,"OFF-Secretaries And Administrative Assistants, Except Legal, Medical, And Executive",1468,165728
+2023,20–29,5810,OFF-Data Entry Keyers,370,40147
+2023,20–29,5860,"OFF-Office Clerks, General",1416,159006
+2023,20–29,5940,OFF-Other Office And Administrative Support Workers,670,76800
+2023,20–29,6200,CON-First-Line Supervisors Of Construction Trades And Extraction Workers,555,69294
+2023,20–29,6220,"CON-Brickmasons, Blockmasons, Stonemasons, And Reinforcing Iron And Rebar Workers",143,16813
+2023,20–29,6230,CON-Carpenters,1358,170646
+2023,20–29,6240,"CON-Carpet, Floor, And Tile Installers And Finishers",115,16562
+2023,20–29,6260,CON-Construction Laborers,2647,345034
+2023,20–29,6305,CON-Construction Equipment Operators,507,60808
+2023,20–29,6330,"CON-Drywall Installers, Ceiling Tile Installers, And Tapers",125,17196
+2023,20–29,6355,CON-Electricians,1699,194525
+2023,20–29,6410,CON-Painters and Paperhangers,507,75229
+2023,20–29,6442,"CON-Plumbers, Pipefitters, And Steamfitters",975,117920
+2023,20–29,6515,CON-Roofers,326,47321
+2023,20–29,6520,CON-Sheet Metal Workers,218,26885
+2023,20–29,6600,"CON-Helpers, Construction Trades",104,15167
+2023,20–29,7000,"RPR-First-Line Supervisors Of Mechanics, Installers, And Repairers",115,13318
+2023,20–29,7010,"RPR-Computer, Automated Teller, And Office Machine Repairers",162,18635
+2023,20–29,7020,RPR-Radio And Telecommunications Equipment Installers And Repairers,168,22029
+2023,20–29,7200,RPR-Automotive Service Technicians And Mechanics,798,94026
+2023,20–29,7210,RPR-Bus And Truck Mechanics And Diesel Engine Specialists,199,22221
+2023,20–29,7220,RPR-Heavy Vehicle And Mobile Equipment Service Technicians And Mechanics,186,20814
+2023,20–29,7260,"RPR-Miscellaneous Vehicle And Mobile Equipment Mechanics, Installers, And Repairers",177,20457
+2023,20–29,7315,"RPR-Heating, Air Conditioning, And Refrigeration Mechanics And Installers",897,104335
+2023,20–29,7330,RPR-Industrial And Refractory Machinery Mechanics,457,50888
+2023,20–29,7340,"RPR-Maintenance And Repair Workers, General",756,88377
+2023,20–29,7420,RPR-Telecommunications Line Installers And Repairers,179,18179
+2023,20–29,7640,"RPR-Other Installation, Maintenance, And Repair Workers",273,28202
+2023,20–29,7700,PRD-First-Line Supervisors Of Production And Operating Workers,763,91658
+2023,20–29,7720,"PRD-Electrical, Electronics, And Electromechanical Assemblers",203,27834
+2023,20–29,7750,PRD-Other Assemblers And Fabricators,1705,216516
+2023,20–29,7800,PRD-Bakers,502,62210
+2023,20–29,7810,"PRD-Butchers And Other Meat, Poultry, And Fish Processing Workers",380,46129
+2023,20–29,7840,PRD-Food Batchmakers,171,18164
+2023,20–29,7855,"PRD-Food Processing Workers, All Other",252,30720
+2023,20–29,7905,PRD-Computer Numerically Controlled Tool Operators And Programmers,157,18043
+2023,20–29,7950,"PRD-Cutting, Punching, And Press Machine Setters, Operators, And Tenders, Metal And Plastic",121,13581
+2023,20–29,8030,PRD-Machinists,439,43997
+2023,20–29,8140,"PRD-Welding, Soldering, And Brazing Workers",892,101692
+2023,20–29,8225,PRD-Other Metal Workers And Plastic Workers,598,68714
+2023,20–29,8255,PRD-Printing Press Operators,180,19931
+2023,20–29,8320,PRD-Sewing Machine Operators,108,12379
+2023,20–29,8640,"PRD-Chemical Processing Machine Setters, Operators, And Tenders",135,15451
+2023,20–29,8650,"PRD-Crushing, Grinding, Polishing, Mixing, And Blending Workers",136,15856
+2023,20–29,8710,PRD-Cutting Workers,104,12318
+2023,20–29,8740,"PRD-Inspectors, Testers, Sorters, Samplers, And Weighers",1154,137297
+2023,20–29,8760,PRD-Dental And Ophthalmic Laboratory Technicians And Medical Appliance Technicians,146,18469
+2023,20–29,8800,PRD-Packaging And Filling Machine Operators And Tenders,370,45316
+2023,20–29,8810,PRD-Painting Workers,143,18787
+2023,20–29,8950,PRD-Helpers--Production Workers,113,11969
+2023,20–29,8990,"PRD-Miscellaneous Production Workers, Including Equipment Operators And Tenders",2195,258337
+2023,20–29,9005,TRN-Supervisors Of Transportation And Material Moving Workers,162,17341
+2023,20–29,9130,TRN-Driver/Sales Workers And Truck Drivers,2038,254513
+2023,20–29,9365,TRN-Transportation Service Attendants,182,21750
+2023,20–29,9600,TRN-Industrial Truck And Tractor Operators,752,96140
+2023,20–29,9610,TRN-Cleaners Of Vehicles And Equipment,465,58754
+2023,20–29,9620,"TRN-Laborers And Freight, Stock, And Material Movers, Hand",3727,450990
+2023,20–29,9640,"TRN-Packers And Packagers, Hand",789,106363
+2023,20–29,9645,TRN-Stockers And Order Fillers,4257,512125
+2023,20–29,9720,TRN-Refuse And Recyclable Material Collectors,129,15362
+2023,30–39,0010,MGR-Chief Executives And Legislators,1171,122109
+2023,30–39,0020,MGR-General And Operations Managers,2467,282622
+2023,30–39,0040,MGR-Advertising And Promotions Managers,147,17005
+2023,30–39,0051,MGR-Marketing Managers,1736,181580
+2023,30–39,0052,MGR-Sales Managers,1153,128172
+2023,30–39,0060,MGR-Public Relations And Fundraising Managers,195,21236
+2023,30–39,0102,MGR-Facilities Managers,131,14177
+2023,30–39,0110,MGR-Computer And Information Systems Managers,1035,111100
+2023,30–39,0120,MGR-Financial Managers,1182,121990
+2023,30–39,0136,MGR-Human Resources Managers,537,59384
+2023,30–39,0137,MGR-Training And Development Managers,133,16194
+2023,30–39,0140,MGR-Industrial Production Managers,614,63020
+2023,30–39,0150,MGR-Purchasing Managers,384,40760
+2023,30–39,0160,"MGR-Transportation, Storage, And Distribution Managers",543,62007
+2023,30–39,0220,MGR-Construction Managers,1736,196214
+2023,30–39,0230,MGR-Education And Childcare Administrators,1089,117979
+2023,30–39,0300,MGR-Architectural And Engineering Managers,540,53450
+2023,30–39,0310,MGR-Food Service Managers,1578,195882
+2023,30–39,0335,MGR-Entertainment and Recreation Managers,116,13872
+2023,30–39,0340,MGR-Lodging Managers,234,25812
+2023,30–39,0350,MGR-Medical And Health Services Managers,1624,174068
+2023,30–39,0410,"MGR-Property, Real Estate, And Community Association Managers",844,100786
+2023,30–39,0420,MGR-Social And Community Service Managers,506,55711
+2023,30–39,0440,MGR-Other Managers,6036,655917
+2023,30–39,0520,"BUS-Wholesale And Retail Buyers, Except Farm Products",389,41960
+2023,30–39,0530,"BUS-Purchasing Agents, Except Wholesale, Retail, And Farm Products",441,44365
+2023,30–39,0565,BUS-Compliance Officers,364,39402
+2023,30–39,0600,BUS-Cost Estimators,305,32150
+2023,30–39,0630,BUS-Human Resources Workers,1811,201070
+2023,30–39,0650,BUS-Training And Development Specialists,317,37858
+2023,30–39,0700,BUS-Logisticians,350,39963
+2023,30–39,0705,BUS-Project Management Specialists,2023,221665
+2023,30–39,0710,BUS-Management Analysts,1681,186305
+2023,30–39,0725,"BUS-Meeting, Convention, And Event Planners",265,28047
+2023,30–39,0726,BUS-Fundraisers,122,10935
+2023,30–39,0735,BUS-Market Research Analysts And Marketing Specialists,1194,127272
+2023,30–39,0750,"BUS-Business Operations Specialists, All Other",914,96238
+2023,30–39,0800,FIN-Accountants And Auditors,2651,280221
+2023,30–39,0845,FIN-Financial And Investment Analysts,421,45548
+2023,30–39,0940,FIN-Tax Preparers,129,14441
+2023,30–39,1006,CMM-Computer Systems Analysts,910,102359
+2023,30–39,1007,CMM-Information Security Analysts,383,41374
+2023,30–39,1010,CMM-Computer Programmers,380,41179
+2023,30–39,1021,CMM-Software Developers,5711,612005
+2023,30–39,1022,CMM-Software Quality Assurance Analysts and Testers,252,28908
+2023,30–39,1031,CMM-Web Developers,219,23244
+2023,30–39,1032,CMM-Web And Digital Interface Designers,163,19113
+2023,30–39,1050,CMM-Computer Support Specialists,1213,137812
+2023,30–39,1065,CMM-Database Administrators and Architects,310,31659
+2023,30–39,1105,CMM-Network And Computer Systems Administrators,411,45171
+2023,30–39,1106,CMM-Computer Network Architects,207,22458
+2023,30–39,1108,"CMM-Computer Occupations, All Other",1227,141267
+2023,30–39,1220,CMM-Operations Research Analysts,167,18560
+2023,30–39,1240,CMM-Other Mathematical Science Occupations,1047,107595
+2023,30–39,1305,"ENG-Architects, Except Landscape And Naval",511,51095
+2023,30–39,1320,ENG-Aerospace Engineers,397,36595
+2023,30–39,1350,ENG-Chemical Engineers,214,21171
+2023,30–39,1360,ENG-Civil Engineers,1021,104201
+2023,30–39,1400,ENG-Computer Hardware Engineers,116,12504
+2023,30–39,1410,ENG-Electrical And Electronics Engineers,487,51071
+2023,30–39,1430,"ENG-Industrial Engineers, Including Health And Safety",723,74601
+2023,30–39,1450,ENG-Materials Engineers,139,14246
+2023,30–39,1460,ENG-Mechanical Engineers,925,96622
+2023,30–39,1530,ENG-Other Engineers,1308,140016
+2023,30–39,1545,ENG-Other Drafters,145,15718
+2023,30–39,1551,ENG-Electrical And Electronic Engineering Technologists And Technicians,117,11970
+2023,30–39,1555,"ENG-Other Engineering Technologists And Technicians, Except Drafters",790,89143
+2023,30–39,1560,ENG-Surveying And Mapping Technicians,106,11664
+2023,30–39,1610,SCI-Biological Scientists,163,15704
+2023,30–39,1650,SCI-Other Life Scientists,470,51037
+2023,30–39,1720,SCI-Chemists And Materials Scientists,223,23441
+2023,30–39,1760,"SCI-Physical Scientists, All Other",1049,108039
+2023,30–39,1825,SCI-Other Psychologists,224,23174
+2023,30–39,1920,SCI-Chemical Technicians,116,10948
+2023,30–39,1970,"SCI-Other Life, Physical, And Social Science Technicians",278,31464
+2023,30–39,1980,SCI-Occupational Health And Safety Specialists and Technicians,115,11723
+2023,30–39,2001,CMS-Substance Abuse And Behavioral Disorder Counselors,284,33233
+2023,30–39,2002,"CMS-Educational, Guidance, And Career Counselors And Advisors",311,31800
+2023,30–39,2004,CMS-Mental Health Counselors,403,43449
+2023,30–39,2006,"CMS-Counselors, All Other",253,26662
+2023,30–39,2012,CMS-Healthcare Social Workers,132,14419
+2023,30–39,2014,"CMS-Social Workers, All Other",757,90106
+2023,30–39,2016,CMS-Social And Human Service Assistants,233,27395
+2023,30–39,2025,CMS-Other Community and Social Service Specialists,137,15552
+2023,30–39,2100,"LGL-Lawyers, And Judges, Magistrates, And Other Judicial Workers",1879,193913
+2023,30–39,2145,LGL-Paralegals And Legal Assistants,718,79688
+2023,30–39,2205,EDU-Postsecondary Teachers,1184,118608
+2023,30–39,2300,EDU-Preschool And Kindergarten Teachers,1189,131936
+2023,30–39,2310,EDU-Elementary And Middle School Teachers,1711,182927
+2023,30–39,2320,EDU-Secondary School Teachers,681,63621
+2023,30–39,2330,EDU-Special Education Teachers,182,18531
+2023,30–39,2350,EDU-Tutors,131,14605
+2023,30–39,2360,EDU-Other Teachers and Instructors,782,91194
+2023,30–39,2400,"EDU-Archivists, Curators, And Museum Technicians",109,10138
+2023,30–39,2435,EDU-Librarians And Media Collections Specialists,141,13855
+2023,30–39,2545,EDU-Teaching Assistants,852,95468
+2023,30–39,2555,EDU-Other Educational Instruction and Library Workers,175,19283
+2023,30–39,2600,ENT-Artists And Related Workers,343,34911
+2023,30–39,2634,ENT-Graphic Designers,651,68859
+2023,30–39,2635,ENT-Interior Designers,179,18032
+2023,30–39,2640,ENT-Other Designers,734,81055
+2023,30–39,2710,ENT-Producers And Directors,461,47438
+2023,30–39,2722,ENT-Coaches and Scouts,360,40906
+2023,30–39,2810,"ENT-News Analysts, Reporters, And Journalists",167,19113
+2023,30–39,2825,ENT-Public Relations Specialists,209,22804
+2023,30–39,2830,ENT-Editors,262,24826
+2023,30–39,2840,ENT-Technical Writers,138,15532
+2023,30–39,2850,ENT-Writers And Authors,316,31742
+2023,30–39,2905,ENT-Other Media And Communication Equipment Workers,217,22268
+2023,30–39,2910,ENT-Photographers,179,18408
+2023,30–39,2920,"ENT-Television, Video, And Film Camera Operators And Editors",203,21538
+2023,30–39,3010,MED-Dentists,281,31310
+2023,30–39,3030,MED-Dietitians And Nutritionists,197,19966
+2023,30–39,3050,MED-Pharmacists,1034,106605
+2023,30–39,3090,MED-Physicians,2279,235083
+2023,30–39,3100,MED-Surgeons,141,12777
+2023,30–39,3110,MED-Physician Assistants,664,62426
+2023,30–39,3150,MED-Occupational Therapists,386,38914
+2023,30–39,3160,MED-Physical Therapists,864,82907
+2023,30–39,3220,MED-Respiratory Therapists,294,27955
+2023,30–39,3230,MED-Speech-Language Pathologists,362,32623
+2023,30–39,3245,MED-Other Therapists,528,62509
+2023,30–39,3250,MED-Veterinarians,310,28780
+2023,30–39,3255,MED-Registered Nurses,7915,858469
+2023,30–39,3256,MED-Nurse Anesthetists,148,14055
+2023,30–39,3258,"MED-Nurse Practitioners, And Nurse Midwives",1016,107759
+2023,30–39,3300,MED-Clinical Laboratory Technologists And Technicians,561,62471
+2023,30–39,3310,MED-Dental Hygienists,575,55056
+2023,30–39,3322,MED-Diagnostic Medical Sonographers,281,29640
+2023,30–39,3323,MED-Radiologic Technologists And Technicians,546,54704
+2023,30–39,3324,MED-Magnetic Resonance Imaging Technologists,111,11938
+2023,30–39,3401,MED-Emergency Medical Technicians,200,23771
+2023,30–39,3402,MED-Paramedics,195,19847
+2023,30–39,3421,MED-Pharmacy Technicians,858,92106
+2023,30–39,3422,MED-Psychiatric Technicians,207,25118
+2023,30–39,3423,MED-Surgical Technologists,242,29171
+2023,30–39,3424,MED-Veterinary Technologists and Technicians,466,47597
+2023,30–39,3500,MED-Licensed Practical And Licensed Vocational Nurses,906,106172
+2023,30–39,3515,MED-Medical Records Specialists,324,31244
+2023,30–39,3520,"MED-Opticians, Dispensing",154,17519
+2023,30–39,3545,MED-Miscellaneous Health Technologists and Technicians,241,27151
+2023,30–39,3550,MED-Other Healthcare Practitioners and Technical Occupations,229,25412
+2023,30–39,3601,HLS-Home Health Aides,580,75360
+2023,30–39,3602,HLS-Personal Care Aides,1468,175288
+2023,30–39,3603,HLS-Nursing Assistants,1760,235453
+2023,30–39,3610,HLS-Occupational Therapy Assistants And Aides,124,13799
+2023,30–39,3620,HLS-Physical Therapist Assistants And Aides,312,31091
+2023,30–39,3640,HLS-Dental Assistants,655,80388
+2023,30–39,3645,HLS-Medical Assistants,1334,161399
+2023,30–39,3648,HLS-Veterinary Assistants And Laboratory Animal Caretakers,181,17406
+2023,30–39,3649,HLS-Phlebotomists,249,32911
+2023,30–39,3655,HLS-Other Healthcare Support Workers,325,41984
+2023,30–39,3930,PRT-Security Guards And Gambling Surveillance Officers,1139,162220
+2023,30–39,4000,EAT-Chefs And Head Cooks,965,127853
+2023,30–39,4010,EAT-First-Line Supervisors Of Food Preparation And Serving Workers,710,85863
+2023,30–39,4020,EAT-Cooks,2615,340585
+2023,30–39,4030,EAT-Food Preparation Workers,842,107961
+2023,30–39,4040,EAT-Bartenders,1001,119398
+2023,30–39,4055,EAT-Fast Food And Counter Workers,646,77040
+2023,30–39,4110,EAT-Waiters And Waitresses,2397,309402
+2023,30–39,4120,"EAT-Food Servers, Nonrestaurant",189,24136
+2023,30–39,4130,EAT-Dining Room And Cafeteria Attendants And Bartender Helpers,175,23194
+2023,30–39,4140,EAT-Dishwashers,306,37603
+2023,30–39,4150,"EAT-Hosts And Hostesses, Restaurant, Lounge, And Coffee Shop",131,17160
+2023,30–39,4200,CLN-First-Line Supervisors Of Housekeeping And Janitorial Workers,181,22555
+2023,30–39,4210,"CLN-First-Line Supervisors Of Landscaping, Lawn Service, And Groundskeeping Workers",180,18587
+2023,30–39,4220,CLN-Janitors And Building Cleaners,1985,251900
+2023,30–39,4230,CLN-Maids And Housekeeping Cleaners,1035,152276
+2023,30–39,4240,CLN-Pest Control Workers,203,24313
+2023,30–39,4251,CLN-Landscaping And Groundskeeping Workers,1104,151875
+2023,30–39,4252,CLN-Tree Trimmers and Pruners,122,17106
+2023,30–39,4350,PRS-Animal Caretakers,157,17177
+2023,30–39,4400,PRS-Gambling Services Workers,159,19690
+2023,30–39,4435,PRS-Other Entertainment Attendants And Related Workers,174,19972
+2023,30–39,4530,"PRS-Baggage Porters, Bellhops, And Concierges",101,12386
+2023,30–39,4600,PRS-Childcare Workers,455,54983
+2023,30–39,4621,PRS-Exercise Trainers And Group Fitness Instructors,389,45230
+2023,30–39,4622,PRS-Recreation Workers,139,15252
+2023,30–39,4700,SAL-First-Line Supervisors Of Retail Sales Workers,5257,609111
+2023,30–39,4710,SAL-First-Line Supervisors Of Non-Retail Sales Workers,1054,112022
+2023,30–39,4720,SAL-Cashiers,2757,330383
+2023,30–39,4750,SAL-Parts Salespersons,227,25827
+2023,30–39,4760,SAL-Retail Salespersons,3454,409249
+2023,30–39,4800,SAL-Advertising Sales Agents,211,24388
+2023,30–39,4840,"SAL-Sales Representatives Of Services, Except Advertising, Insurance, Financial Services, And Travel",1324,153562
+2023,30–39,4850,"SAL-Sales Representatives, Wholesale And Manufacturing",2055,230912
+2023,30–39,4920,SAL-Real Estate Brokers And Sales Agents,663,83956
+2023,30–39,4930,SAL-Sales Engineers,113,11566
+2023,30–39,4965,"SAL-Sales And Related Workers, All Other",632,70179
+2023,30–39,5000,OFF-First-Line Supervisors Of Office And Administrative Support Workers,1747,195906
+2023,30–39,5100,OFF-Bill And Account Collectors,139,16693
+2023,30–39,5110,OFF-Billing And Posting Clerks,732,87301
+2023,30–39,5120,"OFF-Bookkeeping, Accounting, And Auditing Clerks",1144,130121
+2023,30–39,5140,OFF-Payroll And Timekeeping Clerks,207,27081
+2023,30–39,5165,OFF-Other Financial Clerks,121,15071
+2023,30–39,5240,OFF-Customer Service Representatives,3739,450716
+2023,30–39,5260,OFF-File Clerks,126,13410
+2023,30–39,5300,"OFF-Hotel, Motel, And Resort Desk Clerks",214,29617
+2023,30–39,5310,"OFF-Interviewers, Except Eligibility And Loan",278,34535
+2023,30–39,5360,"OFF-Human Resources Assistants, Except Payroll And Timekeeping",164,18694
+2023,30–39,5400,OFF-Receptionists And Information Clerks,1593,184077
+2023,30–39,5522,"OFF-Dispatchers, Except Police, Fire, And Ambulance",162,18653
+2023,30–39,5600,"OFF-Production, Planning, And Expediting Clerks",495,53805
+2023,30–39,5610,"OFF-Shipping, Receiving, And Inventory Clerks",725,84169
+2023,30–39,5710,OFF-Executive Secretaries And Executive Administrative Assistants,295,33068
+2023,30–39,5730,OFF-Medical Secretaries and Administrative Assistants,218,24184
+2023,30–39,5740,"OFF-Secretaries And Administrative Assistants, Except Legal, Medical, And Executive",1808,194131
+2023,30–39,5810,OFF-Data Entry Keyers,337,35227
+2023,30–39,5840,OFF-Insurance Claims And Policy Processing Clerks,148,16374
+2023,30–39,5860,"OFF-Office Clerks, General",1078,122295
+2023,30–39,5940,OFF-Other Office And Administrative Support Workers,742,87480
+2023,30–39,6200,CON-First-Line Supervisors Of Construction Trades And Extraction Workers,958,114618
+2023,30–39,6220,"CON-Brickmasons, Blockmasons, Stonemasons, And Reinforcing Iron And Rebar Workers",173,26107
+2023,30–39,6230,CON-Carpenters,1465,192025
+2023,30–39,6240,"CON-Carpet, Floor, And Tile Installers And Finishers",109,17852
+2023,30–39,6260,CON-Construction Laborers,2507,342405
+2023,30–39,6305,CON-Construction Equipment Operators,538,56985
+2023,30–39,6330,"CON-Drywall Installers, Ceiling Tile Installers, And Tapers",155,24747
+2023,30–39,6355,CON-Electricians,1614,181103
+2023,30–39,6410,CON-Painters and Paperhangers,580,88605
+2023,30–39,6442,"CON-Plumbers, Pipefitters, And Steamfitters",1028,124813
+2023,30–39,6515,CON-Roofers,295,48783
+2023,30–39,6520,CON-Sheet Metal Workers,230,27723
+2023,30–39,6530,CON-Structural Iron And Steel Workers,139,15128
+2023,30–39,7000,"RPR-First-Line Supervisors Of Mechanics, Installers, And Repairers",313,37421
+2023,30–39,7010,"RPR-Computer, Automated Teller, And Office Machine Repairers",156,18912
+2023,30–39,7020,RPR-Radio And Telecommunications Equipment Installers And Repairers,203,25083
+2023,30–39,7130,RPR-Security And Fire Alarm Systems Installers,122,16232
+2023,30–39,7200,RPR-Automotive Service Technicians And Mechanics,600,68292
+2023,30–39,7210,RPR-Bus And Truck Mechanics And Diesel Engine Specialists,197,21578
+2023,30–39,7220,RPR-Heavy Vehicle And Mobile Equipment Service Technicians And Mechanics,184,16795
+2023,30–39,7260,"RPR-Miscellaneous Vehicle And Mobile Equipment Mechanics, Installers, And Repairers",148,17588
+2023,30–39,7315,"RPR-Heating, Air Conditioning, And Refrigeration Mechanics And Installers",837,94747
+2023,30–39,7330,RPR-Industrial And Refractory Machinery Mechanics,602,62715
+2023,30–39,7340,"RPR-Maintenance And Repair Workers, General",997,113868
+2023,30–39,7420,RPR-Telecommunications Line Installers And Repairers,210,23606
+2023,30–39,7640,"RPR-Other Installation, Maintenance, And Repair Workers",270,32906
+2023,30–39,7700,PRD-First-Line Supervisors Of Production And Operating Workers,1497,161243
+2023,30–39,7720,"PRD-Electrical, Electronics, And Electromechanical Assemblers",173,19524
+2023,30–39,7750,PRD-Other Assemblers And Fabricators,1535,185423
+2023,30–39,7800,PRD-Bakers,346,40752
+2023,30–39,7810,"PRD-Butchers And Other Meat, Poultry, And Fish Processing Workers",388,48405
+2023,30–39,7840,PRD-Food Batchmakers,150,16307
+2023,30–39,7855,"PRD-Food Processing Workers, All Other",249,31344
+2023,30–39,7905,PRD-Computer Numerically Controlled Tool Operators And Programmers,168,15386
+2023,30–39,7950,"PRD-Cutting, Punching, And Press Machine Setters, Operators, And Tenders, Metal And Plastic",118,11290
+2023,30–39,8030,PRD-Machinists,542,57360
+2023,30–39,8140,"PRD-Welding, Soldering, And Brazing Workers",794,88929
+2023,30–39,8225,PRD-Other Metal Workers And Plastic Workers,610,71332
+2023,30–39,8255,PRD-Printing Press Operators,187,22046
+2023,30–39,8320,PRD-Sewing Machine Operators,112,12044
+2023,30–39,8610,PRD-Stationary Engineers And Boiler Operators,124,13893
+2023,30–39,8640,"PRD-Chemical Processing Machine Setters, Operators, And Tenders",214,23422
+2023,30–39,8650,"PRD-Crushing, Grinding, Polishing, Mixing, And Blending Workers",147,17101
+2023,30–39,8740,"PRD-Inspectors, Testers, Sorters, Samplers, And Weighers",1257,147885
+2023,30–39,8760,PRD-Dental And Ophthalmic Laboratory Technicians And Medical Appliance Technicians,173,18204
+2023,30–39,8800,PRD-Packaging And Filling Machine Operators And Tenders,384,45603
+2023,30–39,8810,PRD-Painting Workers,151,15368
+2023,30–39,8990,"PRD-Miscellaneous Production Workers, Including Equipment Operators And Tenders",2233,265435
+2023,30–39,9005,TRN-Supervisors Of Transportation And Material Moving Workers,286,34774
+2023,30–39,9130,TRN-Driver/Sales Workers And Truck Drivers,2061,251803
+2023,30–39,9510,TRN-Crane And Tower Operators,134,15247
+2023,30–39,9600,TRN-Industrial Truck And Tractor Operators,802,105233
+2023,30–39,9610,TRN-Cleaners Of Vehicles And Equipment,247,29981
+2023,30–39,9620,"TRN-Laborers And Freight, Stock, And Material Movers, Hand",2661,317271
+2023,30–39,9640,"TRN-Packers And Packagers, Hand",560,74533
+2023,30–39,9645,TRN-Stockers And Order Fillers,2422,278984
+2023,30–39,9720,TRN-Refuse And Recyclable Material Collectors,130,16070
+2023,40–54,0010,MGR-Chief Executives And Legislators,3746,369270
+2023,40–54,0020,MGR-General And Operations Managers,3447,356727
+2023,40–54,0040,MGR-Advertising And Promotions Managers,147,15477
+2023,40–54,0051,MGR-Marketing Managers,1475,151386
+2023,40–54,0052,MGR-Sales Managers,1899,200988
+2023,40–54,0060,MGR-Public Relations And Fundraising Managers,232,23691
+2023,40–54,0101,MGR-Administrative Services Managers,163,15420
+2023,40–54,0102,MGR-Facilities Managers,277,28851
+2023,40–54,0110,MGR-Computer And Information Systems Managers,2128,211260
+2023,40–54,0120,MGR-Financial Managers,1842,182314
+2023,40–54,0136,MGR-Human Resources Managers,791,80169
+2023,40–54,0137,MGR-Training And Development Managers,182,18457
+2023,40–54,0140,MGR-Industrial Production Managers,1141,119590
+2023,40–54,0150,MGR-Purchasing Managers,644,63449
+2023,40–54,0160,"MGR-Transportation, Storage, And Distribution Managers",846,87829
+2023,40–54,0220,MGR-Construction Managers,2412,261864
+2023,40–54,0230,MGR-Education And Childcare Administrators,1838,189037
+2023,40–54,0300,MGR-Architectural And Engineering Managers,942,90855
+2023,40–54,0310,MGR-Food Service Managers,1653,197092
+2023,40–54,0335,MGR-Entertainment and Recreation Managers,153,16220
+2023,40–54,0340,MGR-Lodging Managers,324,34622
+2023,40–54,0350,MGR-Medical And Health Services Managers,2677,278103
+2023,40–54,0360,MGR-Natural Sciences Managers,106,11078
+2023,40–54,0410,"MGR-Property, Real Estate, And Community Association Managers",1203,138057
+2023,40–54,0420,MGR-Social And Community Service Managers,748,73892
+2023,40–54,0440,MGR-Other Managers,9667,983959
+2023,40–54,0520,"BUS-Wholesale And Retail Buyers, Except Farm Products",483,50030
+2023,40–54,0530,"BUS-Purchasing Agents, Except Wholesale, Retail, And Farm Products",796,74680
+2023,40–54,0565,BUS-Compliance Officers,451,46066
+2023,40–54,0600,BUS-Cost Estimators,411,41378
+2023,40–54,0630,BUS-Human Resources Workers,2003,212042
+2023,40–54,0640,"BUS-Compensation, Benefits, And Job Analysis Specialists",115,11987
+2023,40–54,0650,BUS-Training And Development Specialists,400,37386
+2023,40–54,0700,BUS-Logisticians,391,43458
+2023,40–54,0705,BUS-Project Management Specialists,2674,268406
+2023,40–54,0710,BUS-Management Analysts,1872,187209
+2023,40–54,0725,"BUS-Meeting, Convention, And Event Planners",229,22822
+2023,40–54,0726,BUS-Fundraisers,160,16613
+2023,40–54,0735,BUS-Market Research Analysts And Marketing Specialists,987,98124
+2023,40–54,0750,"BUS-Business Operations Specialists, All Other",1164,123376
+2023,40–54,0800,FIN-Accountants And Auditors,3281,331012
+2023,40–54,0845,FIN-Financial And Investment Analysts,346,33337
+2023,40–54,0850,FIN-Personal Financial Advisors,119,10856
+2023,40–54,0940,FIN-Tax Preparers,184,17926
+2023,40–54,1006,CMM-Computer Systems Analysts,1087,110964
+2023,40–54,1007,CMM-Information Security Analysts,453,46496
+2023,40–54,1010,CMM-Computer Programmers,595,60266
+2023,40–54,1021,CMM-Software Developers,5080,502531
+2023,40–54,1022,CMM-Software Quality Assurance Analysts and Testers,235,22493
+2023,40–54,1031,CMM-Web Developers,201,20790
+2023,40–54,1032,CMM-Web And Digital Interface Designers,137,11788
+2023,40–54,1050,CMM-Computer Support Specialists,1290,134339
+2023,40–54,1065,CMM-Database Administrators and Architects,395,38857
+2023,40–54,1105,CMM-Network And Computer Systems Administrators,519,48053
+2023,40–54,1106,CMM-Computer Network Architects,304,34989
+2023,40–54,1108,"CMM-Computer Occupations, All Other",1868,198576
+2023,40–54,1220,CMM-Operations Research Analysts,196,18999
+2023,40–54,1240,CMM-Other Mathematical Science Occupations,706,67435
+2023,40–54,1305,"ENG-Architects, Except Landscape And Naval",555,50811
+2023,40–54,1320,ENG-Aerospace Engineers,383,35028
+2023,40–54,1350,ENG-Chemical Engineers,201,21596
+2023,40–54,1360,ENG-Civil Engineers,874,86438
+2023,40–54,1400,ENG-Computer Hardware Engineers,176,16026
+2023,40–54,1410,ENG-Electrical And Electronics Engineers,613,56817
+2023,40–54,1430,"ENG-Industrial Engineers, Including Health And Safety",726,74771
+2023,40–54,1450,ENG-Materials Engineers,117,12325
+2023,40–54,1460,ENG-Mechanical Engineers,889,83816
+2023,40–54,1530,ENG-Other Engineers,1450,136308
+2023,40–54,1541,ENG-Architectural And Civil Drafters,157,16200
+2023,40–54,1545,ENG-Other Drafters,202,19659
+2023,40–54,1551,ENG-Electrical And Electronic Engineering Technologists And Technicians,186,19652
+2023,40–54,1555,"ENG-Other Engineering Technologists And Technicians, Except Drafters",1064,113822
+2023,40–54,1560,ENG-Surveying And Mapping Technicians,160,15375
+2023,40–54,1610,SCI-Biological Scientists,137,12754
+2023,40–54,1650,SCI-Other Life Scientists,419,38779
+2023,40–54,1720,SCI-Chemists And Materials Scientists,233,23270
+2023,40–54,1760,"SCI-Physical Scientists, All Other",850,79612
+2023,40–54,1825,SCI-Other Psychologists,197,20886
+2023,40–54,1920,SCI-Chemical Technicians,122,13555
+2023,40–54,1970,"SCI-Other Life, Physical, And Social Science Technicians",208,20730
+2023,40–54,1980,SCI-Occupational Health And Safety Specialists and Technicians,145,13445
+2023,40–54,2001,CMS-Substance Abuse And Behavioral Disorder Counselors,254,29789
+2023,40–54,2002,"CMS-Educational, Guidance, And Career Counselors And Advisors",425,45325
+2023,40–54,2004,CMS-Mental Health Counselors,333,37086
+2023,40–54,2006,"CMS-Counselors, All Other",247,28107
+2023,40–54,2012,CMS-Healthcare Social Workers,160,18271
+2023,40–54,2014,"CMS-Social Workers, All Other",899,91228
+2023,40–54,2016,CMS-Social And Human Service Assistants,322,38470
+2023,40–54,2025,CMS-Other Community and Social Service Specialists,126,13151
+2023,40–54,2100,"LGL-Lawyers, And Judges, Magistrates, And Other Judicial Workers",2142,204943
+2023,40–54,2145,LGL-Paralegals And Legal Assistants,1146,118581
+2023,40–54,2170,"LGL-Title Examiners, Abstractors, and Searchers",163,14571
+2023,40–54,2205,EDU-Postsecondary Teachers,2044,197793
+2023,40–54,2300,EDU-Preschool And Kindergarten Teachers,1465,148232
+2023,40–54,2310,EDU-Elementary And Middle School Teachers,2690,271043
+2023,40–54,2320,EDU-Secondary School Teachers,949,87024
+2023,40–54,2330,EDU-Special Education Teachers,225,24917
+2023,40–54,2350,EDU-Tutors,111,11881
+2023,40–54,2360,EDU-Other Teachers and Instructors,991,107805
+2023,40–54,2400,"EDU-Archivists, Curators, And Museum Technicians",168,15313
+2023,40–54,2435,EDU-Librarians And Media Collections Specialists,243,23959
+2023,40–54,2545,EDU-Teaching Assistants,1084,109983
+2023,40–54,2555,EDU-Other Educational Instruction and Library Workers,233,21659
+2023,40–54,2600,ENT-Artists And Related Workers,301,30503
+2023,40–54,2634,ENT-Graphic Designers,592,59966
+2023,40–54,2635,ENT-Interior Designers,182,19690
+2023,40–54,2640,ENT-Other Designers,812,85550
+2023,40–54,2710,ENT-Producers And Directors,472,46441
+2023,40–54,2722,ENT-Coaches and Scouts,310,30811
+2023,40–54,2810,"ENT-News Analysts, Reporters, And Journalists",157,15503
+2023,40–54,2825,ENT-Public Relations Specialists,220,22620
+2023,40–54,2830,ENT-Editors,284,26333
+2023,40–54,2840,ENT-Technical Writers,177,15952
+2023,40–54,2850,ENT-Writers And Authors,318,32663
+2023,40–54,2861,ENT-Interpreters and Translators,133,13426
+2023,40–54,2905,ENT-Other Media And Communication Equipment Workers,224,22070
+2023,40–54,2910,ENT-Photographers,153,17019
+2023,40–54,2920,"ENT-Television, Video, And Film Camera Operators And Editors",138,11912
+2023,40–54,3010,MED-Dentists,225,22508
+2023,40–54,3030,MED-Dietitians And Nutritionists,207,21727
+2023,40–54,3040,MED-Optometrists,110,10268
+2023,40–54,3050,MED-Pharmacists,1027,102423
+2023,40–54,3090,MED-Physicians,2465,228376
+2023,40–54,3100,MED-Surgeons,163,14930
+2023,40–54,3110,MED-Physician Assistants,487,49379
+2023,40–54,3150,MED-Occupational Therapists,363,33746
+2023,40–54,3160,MED-Physical Therapists,877,86035
+2023,40–54,3220,MED-Respiratory Therapists,397,40354
+2023,40–54,3230,MED-Speech-Language Pathologists,259,25534
+2023,40–54,3245,MED-Other Therapists,464,49969
+2023,40–54,3250,MED-Veterinarians,254,23514
+2023,40–54,3255,MED-Registered Nurses,9581,996382
+2023,40–54,3256,MED-Nurse Anesthetists,155,15812
+2023,40–54,3258,"MED-Nurse Practitioners, And Nurse Midwives",1086,105139
+2023,40–54,3300,MED-Clinical Laboratory Technologists And Technicians,720,78635
+2023,40–54,3310,MED-Dental Hygienists,645,65019
+2023,40–54,3321,MED-Cardiovascular Technologists and Technicians,126,13613
+2023,40–54,3322,MED-Diagnostic Medical Sonographers,288,29773
+2023,40–54,3323,MED-Radiologic Technologists And Technicians,814,77418
+2023,40–54,3324,MED-Magnetic Resonance Imaging Technologists,188,19095
+2023,40–54,3330,MED-Nuclear Medicine Technologists and Medical Dosimetrists,121,13442
+2023,40–54,3401,MED-Emergency Medical Technicians,149,16257
+2023,40–54,3402,MED-Paramedics,223,22410
+2023,40–54,3421,MED-Pharmacy Technicians,903,96611
+2023,40–54,3422,MED-Psychiatric Technicians,143,16816
+2023,40–54,3423,MED-Surgical Technologists,305,32957
+2023,40–54,3424,MED-Veterinary Technologists and Technicians,264,22708
+2023,40–54,3500,MED-Licensed Practical And Licensed Vocational Nurses,1415,149492
+2023,40–54,3515,MED-Medical Records Specialists,594,60775
+2023,40–54,3520,"MED-Opticians, Dispensing",180,17437
+2023,40–54,3545,MED-Miscellaneous Health Technologists and Technicians,321,36760
+2023,40–54,3550,MED-Other Healthcare Practitioners and Technical Occupations,218,23924
+2023,40–54,3601,HLS-Home Health Aides,1197,150317
+2023,40–54,3602,HLS-Personal Care Aides,2500,300829
+2023,40–54,3603,HLS-Nursing Assistants,2457,304456
+2023,40–54,3605,HLS-Orderlies and Psychiatric Aides,106,13480
+2023,40–54,3610,HLS-Occupational Therapy Assistants And Aides,154,16404
+2023,40–54,3620,HLS-Physical Therapist Assistants And Aides,350,31423
+2023,40–54,3630,HLS-Massage Therapists,108,12913
+2023,40–54,3640,HLS-Dental Assistants,696,72846
+2023,40–54,3645,HLS-Medical Assistants,1366,153368
+2023,40–54,3649,HLS-Phlebotomists,293,37185
+2023,40–54,3655,HLS-Other Healthcare Support Workers,411,46919
+2023,40–54,3725,"PRT-Miscellaneous First-Line Supervisors, Protective Service Workers",140,16716
+2023,40–54,3930,PRT-Security Guards And Gambling Surveillance Officers,1386,174269
+2023,40–54,4000,EAT-Chefs And Head Cooks,1184,142792
+2023,40–54,4010,EAT-First-Line Supervisors Of Food Preparation And Serving Workers,731,80896
+2023,40–54,4020,EAT-Cooks,3490,440296
+2023,40–54,4030,EAT-Food Preparation Workers,1102,131288
+2023,40–54,4040,EAT-Bartenders,794,91348
+2023,40–54,4055,EAT-Fast Food And Counter Workers,479,57336
+2023,40–54,4110,EAT-Waiters And Waitresses,2114,243328
+2023,40–54,4120,"EAT-Food Servers, Nonrestaurant",224,26957
+2023,40–54,4130,EAT-Dining Room And Cafeteria Attendants And Bartender Helpers,233,27460
+2023,40–54,4140,EAT-Dishwashers,457,56390
+2023,40–54,4150,"EAT-Hosts And Hostesses, Restaurant, Lounge, And Coffee Shop",104,11824
+2023,40–54,4200,CLN-First-Line Supervisors Of Housekeeping And Janitorial Workers,352,43759
+2023,40–54,4210,"CLN-First-Line Supervisors Of Landscaping, Lawn Service, And Groundskeeping Workers",243,30213
+2023,40–54,4220,CLN-Janitors And Building Cleaners,3472,417653
+2023,40–54,4230,CLN-Maids And Housekeeping Cleaners,2079,263344
+2023,40–54,4240,CLN-Pest Control Workers,163,17082
+2023,40–54,4251,CLN-Landscaping And Groundskeeping Workers,1309,174792
+2023,40–54,4252,CLN-Tree Trimmers and Pruners,139,15164
+2023,40–54,4330,PRS-Supervisors Of Personal Care And Service Workers,118,12334
+2023,40–54,4400,PRS-Gambling Services Workers,272,29488
+2023,40–54,4435,PRS-Other Entertainment Attendants And Related Workers,168,16790
+2023,40–54,4530,"PRS-Baggage Porters, Bellhops, And Concierges",143,17731
+2023,40–54,4600,PRS-Childcare Workers,549,64726
+2023,40–54,4621,PRS-Exercise Trainers And Group Fitness Instructors,406,42420
+2023,40–54,4622,PRS-Recreation Workers,213,25342
+2023,40–54,4655,"PRS-Personal Care and Service Workers, All Other",106,11939
+2023,40–54,4700,SAL-First-Line Supervisors Of Retail Sales Workers,6700,725173
+2023,40–54,4710,SAL-First-Line Supervisors Of Non-Retail Sales Workers,1622,164804
+2023,40–54,4720,SAL-Cashiers,3285,360288
+2023,40–54,4750,SAL-Parts Salespersons,267,25267
+2023,40–54,4760,SAL-Retail Salespersons,4377,472187
+2023,40–54,4800,SAL-Advertising Sales Agents,237,26379
+2023,40–54,4830,SAL-Travel Agents,121,12522
+2023,40–54,4840,"SAL-Sales Representatives Of Services, Except Advertising, Insurance, Financial Services, And Travel",1682,182425
+2023,40–54,4850,"SAL-Sales Representatives, Wholesale And Manufacturing",3327,351562
+2023,40–54,4920,SAL-Real Estate Brokers And Sales Agents,1002,112926
+2023,40–54,4930,SAL-Sales Engineers,165,15297
+2023,40–54,4950,"SAL-Door-To-Door Sales Workers, News And Street Vendors, And Related Workers",128,12948
+2023,40–54,4965,"SAL-Sales And Related Workers, All Other",873,100245
+2023,40–54,5000,OFF-First-Line Supervisors Of Office And Administrative Support Workers,2504,256828
+2023,40–54,5100,OFF-Bill And Account Collectors,193,21683
+2023,40–54,5110,OFF-Billing And Posting Clerks,1207,123659
+2023,40–54,5120,"OFF-Bookkeeping, Accounting, And Auditing Clerks",2405,245228
+2023,40–54,5140,OFF-Payroll And Timekeeping Clerks,346,36566
+2023,40–54,5165,OFF-Other Financial Clerks,200,20050
+2023,40–54,5240,OFF-Customer Service Representatives,4414,501414
+2023,40–54,5260,OFF-File Clerks,153,15085
+2023,40–54,5300,"OFF-Hotel, Motel, And Resort Desk Clerks",203,23966
+2023,40–54,5310,"OFF-Interviewers, Except Eligibility And Loan",328,39699
+2023,40–54,5350,OFF-Correspondence Clerks And Order Clerks,166,18783
+2023,40–54,5360,"OFF-Human Resources Assistants, Except Payroll And Timekeeping",193,19904
+2023,40–54,5400,OFF-Receptionists And Information Clerks,2003,205404
+2023,40–54,5420,OFF-Other Information And Records Clerks,145,14367
+2023,40–54,5510,OFF-Couriers And Messengers,112,12517
+2023,40–54,5522,"OFF-Dispatchers, Except Police, Fire, And Ambulance",209,22903
+2023,40–54,5600,"OFF-Production, Planning, And Expediting Clerks",631,65197
+2023,40–54,5610,"OFF-Shipping, Receiving, And Inventory Clerks",1214,134250
+2023,40–54,5630,"OFF-Weighers, Measurers, Checkers, And Samplers, Recordkeeping",148,16188
+2023,40–54,5710,OFF-Executive Secretaries And Executive Administrative Assistants,541,57274
+2023,40–54,5720,OFF-Legal Secretaries and Administrative Assistants,104,11186
+2023,40–54,5730,OFF-Medical Secretaries and Administrative Assistants,345,35544
+2023,40–54,5740,"OFF-Secretaries And Administrative Assistants, Except Legal, Medical, And Executive",3430,348228
+2023,40–54,5810,OFF-Data Entry Keyers,431,45246
+2023,40–54,5840,OFF-Insurance Claims And Policy Processing Clerks,191,21032
+2023,40–54,5860,"OFF-Office Clerks, General",1635,165511
+2023,40–54,5940,OFF-Other Office And Administrative Support Workers,880,94782
+2023,40–54,6200,CON-First-Line Supervisors Of Construction Trades And Extraction Workers,1521,163715
+2023,40–54,6220,"CON-Brickmasons, Blockmasons, Stonemasons, And Reinforcing Iron And Rebar Workers",270,35531
+2023,40–54,6230,CON-Carpenters,2001,238396
+2023,40–54,6240,"CON-Carpet, Floor, And Tile Installers And Finishers",177,24341
+2023,40–54,6250,"CON-Cement Masons, Concrete Finishers, And Terrazzo Workers",101,12030
+2023,40–54,6260,CON-Construction Laborers,3174,433990
+2023,40–54,6305,CON-Construction Equipment Operators,783,85044
+2023,40–54,6330,"CON-Drywall Installers, Ceiling Tile Installers, And Tapers",238,34148
+2023,40–54,6355,CON-Electricians,1980,215814
+2023,40–54,6360,CON-Glaziers,125,16205
+2023,40–54,6400,CON-Insulation Workers,113,13914
+2023,40–54,6410,CON-Painters and Paperhangers,864,123084
+2023,40–54,6442,"CON-Plumbers, Pipefitters, And Steamfitters",1201,135915
+2023,40–54,6515,CON-Roofers,342,49241
+2023,40–54,6520,CON-Sheet Metal Workers,313,37124
+2023,40–54,6530,CON-Structural Iron And Steel Workers,154,18047
+2023,40–54,6660,CON-Construction And Building Inspectors,108,11308
+2023,40–54,7000,"RPR-First-Line Supervisors Of Mechanics, Installers, And Repairers",654,67992
+2023,40–54,7010,"RPR-Computer, Automated Teller, And Office Machine Repairers",183,20959
+2023,40–54,7020,RPR-Radio And Telecommunications Equipment Installers And Repairers,365,39529
+2023,40–54,7120,RPR-Audiovisual Equipment Installers And Repairers,100,12659
+2023,40–54,7130,RPR-Security And Fire Alarm Systems Installers,113,11258
+2023,40–54,7200,RPR-Automotive Service Technicians And Mechanics,643,70736
+2023,40–54,7210,RPR-Bus And Truck Mechanics And Diesel Engine Specialists,210,18946
+2023,40–54,7220,RPR-Heavy Vehicle And Mobile Equipment Service Technicians And Mechanics,213,19836
+2023,40–54,7260,"RPR-Miscellaneous Vehicle And Mobile Equipment Mechanics, Installers, And Repairers",139,17377
+2023,40–54,7315,"RPR-Heating, Air Conditioning, And Refrigeration Mechanics And Installers",890,104971
+2023,40–54,7330,RPR-Industrial And Refractory Machinery Mechanics,949,96073
+2023,40–54,7340,"RPR-Maintenance And Repair Workers, General",1578,167053
+2023,40–54,7360,RPR-Millwrights,122,11572
+2023,40–54,7420,RPR-Telecommunications Line Installers And Repairers,401,38249
+2023,40–54,7640,"RPR-Other Installation, Maintenance, And Repair Workers",311,34124
+2023,40–54,7700,PRD-First-Line Supervisors Of Production And Operating Workers,2357,247189
+2023,40–54,7720,"PRD-Electrical, Electronics, And Electromechanical Assemblers",288,32291
+2023,40–54,7750,PRD-Other Assemblers And Fabricators,2360,260060
+2023,40–54,7800,PRD-Bakers,395,45393
+2023,40–54,7810,"PRD-Butchers And Other Meat, Poultry, And Fish Processing Workers",499,55184
+2023,40–54,7840,PRD-Food Batchmakers,179,20270
+2023,40–54,7855,"PRD-Food Processing Workers, All Other",384,45054
+2023,40–54,7905,PRD-Computer Numerically Controlled Tool Operators And Programmers,278,25310
+2023,40–54,7950,"PRD-Cutting, Punching, And Press Machine Setters, Operators, And Tenders, Metal And Plastic",162,16417
+2023,40–54,8030,PRD-Machinists,887,85125
+2023,40–54,8130,PRD-Tool And Die Makers,115,11185
+2023,40–54,8140,"PRD-Welding, Soldering, And Brazing Workers",1003,101771
+2023,40–54,8225,PRD-Other Metal Workers And Plastic Workers,1003,113897
+2023,40–54,8255,PRD-Printing Press Operators,321,33196
+2023,40–54,8300,PRD-Laundry And Dry-Cleaning Workers,121,14262
+2023,40–54,8320,PRD-Sewing Machine Operators,265,30074
+2023,40–54,8500,PRD-Cabinetmakers And Bench Carpenters,106,11093
+2023,40–54,8610,PRD-Stationary Engineers And Boiler Operators,185,19134
+2023,40–54,8640,"PRD-Chemical Processing Machine Setters, Operators, And Tenders",201,20556
+2023,40–54,8650,"PRD-Crushing, Grinding, Polishing, Mixing, And Blending Workers",205,23816
+2023,40–54,8710,PRD-Cutting Workers,121,12804
+2023,40–54,8740,"PRD-Inspectors, Testers, Sorters, Samplers, And Weighers",1884,194060
+2023,40–54,8760,PRD-Dental And Ophthalmic Laboratory Technicians And Medical Appliance Technicians,193,21457
+2023,40–54,8800,PRD-Packaging And Filling Machine Operators And Tenders,599,74286
+2023,40–54,8810,PRD-Painting Workers,241,26633
+2023,40–54,8990,"PRD-Miscellaneous Production Workers, Including Equipment Operators And Tenders",3208,371292
+2023,40–54,9005,TRN-Supervisors Of Transportation And Material Moving Workers,429,46672
+2023,40–54,9130,TRN-Driver/Sales Workers And Truck Drivers,3846,444015
+2023,40–54,9150,"TRN-Motor Vehicle Operators, All Other",118,12480
+2023,40–54,9510,TRN-Crane And Tower Operators,176,20821
+2023,40–54,9600,TRN-Industrial Truck And Tractor Operators,1322,158826
+2023,40–54,9610,TRN-Cleaners Of Vehicles And Equipment,382,48442
+2023,40–54,9620,"TRN-Laborers And Freight, Stock, And Material Movers, Hand",3715,398179
+2023,40–54,9640,"TRN-Packers And Packagers, Hand",831,104922
+2023,40–54,9645,TRN-Stockers And Order Fillers,2801,306844
+2023,40–54,9720,TRN-Refuse And Recyclable Material Collectors,145,18794
+2024,20–29,0010,MGR-Chief Executives And Legislators,146,18002
+2024,20–29,0020,MGR-General And Operations Managers,1010,121897
+2024,20–29,0040,MGR-Advertising And Promotions Managers,107,15182
+2024,20–29,0051,MGR-Marketing Managers,978,113824
+2024,20–29,0052,MGR-Sales Managers,459,59809
+2024,20–29,0060,MGR-Public Relations And Fundraising Managers,100,13216
+2024,20–29,0110,MGR-Computer And Information Systems Managers,227,27455
+2024,20–29,0120,MGR-Financial Managers,317,37100
+2024,20–29,0136,MGR-Human Resources Managers,156,19847
+2024,20–29,0140,MGR-Industrial Production Managers,213,24096
+2024,20–29,0150,MGR-Purchasing Managers,134,17320
+2024,20–29,0160,"MGR-Transportation, Storage, And Distribution Managers",241,27910
+2024,20–29,0220,MGR-Construction Managers,903,106293
+2024,20–29,0230,MGR-Education And Childcare Administrators,470,52348
+2024,20–29,0310,MGR-Food Service Managers,1644,213803
+2024,20–29,0340,MGR-Lodging Managers,157,17127
+2024,20–29,0350,MGR-Medical And Health Services Managers,458,55425
+2024,20–29,0410,"MGR-Property, Real Estate, And Community Association Managers",436,59792
+2024,20–29,0420,MGR-Social And Community Service Managers,241,27129
+2024,20–29,0440,MGR-Other Managers,2461,300018
+2024,20–29,0520,"BUS-Wholesale And Retail Buyers, Except Farm Products",336,38105
+2024,20–29,0530,"BUS-Purchasing Agents, Except Wholesale, Retail, And Farm Products",269,28174
+2024,20–29,0565,BUS-Compliance Officers,159,17551
+2024,20–29,0600,BUS-Cost Estimators,202,24028
+2024,20–29,0630,BUS-Human Resources Workers,1080,130427
+2024,20–29,0650,BUS-Training And Development Specialists,155,19720
+2024,20–29,0700,BUS-Logisticians,260,32360
+2024,20–29,0705,BUS-Project Management Specialists,767,83766
+2024,20–29,0710,BUS-Management Analysts,1160,138820
+2024,20–29,0725,"BUS-Meeting, Convention, And Event Planners",272,35287
+2024,20–29,0735,BUS-Market Research Analysts And Marketing Specialists,968,118333
+2024,20–29,0750,"BUS-Business Operations Specialists, All Other",779,92514
+2024,20–29,0800,FIN-Accountants And Auditors,1917,216617
+2024,20–29,0845,FIN-Financial And Investment Analysts,400,45376
+2024,20–29,0940,FIN-Tax Preparers,153,19216
+2024,20–29,1006,CMM-Computer Systems Analysts,771,93013
+2024,20–29,1007,CMM-Information Security Analysts,245,28154
+2024,20–29,1010,CMM-Computer Programmers,274,30760
+2024,20–29,1021,CMM-Software Developers,3520,414515
+2024,20–29,1022,CMM-Software Quality Assurance Analysts and Testers,111,13833
+2024,20–29,1031,CMM-Web Developers,105,10928
+2024,20–29,1032,CMM-Web And Digital Interface Designers,105,11488
+2024,20–29,1050,CMM-Computer Support Specialists,866,102790
+2024,20–29,1065,CMM-Database Administrators and Architects,179,22583
+2024,20–29,1105,CMM-Network And Computer Systems Administrators,176,19933
+2024,20–29,1108,"CMM-Computer Occupations, All Other",815,97297
+2024,20–29,1240,CMM-Other Mathematical Science Occupations,730,81045
+2024,20–29,1305,"ENG-Architects, Except Landscape And Naval",290,33790
+2024,20–29,1320,ENG-Aerospace Engineers,329,38011
+2024,20–29,1350,ENG-Chemical Engineers,216,25902
+2024,20–29,1360,ENG-Civil Engineers,1059,126508
+2024,20–29,1410,ENG-Electrical And Electronics Engineers,436,46307
+2024,20–29,1430,"ENG-Industrial Engineers, Including Health And Safety",576,65355
+2024,20–29,1450,ENG-Materials Engineers,137,12523
+2024,20–29,1460,ENG-Mechanical Engineers,855,96104
+2024,20–29,1530,ENG-Other Engineers,916,111521
+2024,20–29,1545,ENG-Other Drafters,179,18729
+2024,20–29,1551,ENG-Electrical And Electronic Engineering Technologists And Technicians,110,13366
+2024,20–29,1555,"ENG-Other Engineering Technologists And Technicians, Except Drafters",779,92560
+2024,20–29,1560,ENG-Surveying And Mapping Technicians,123,12936
+2024,20–29,1610,SCI-Biological Scientists,129,13187
+2024,20–29,1650,SCI-Other Life Scientists,250,27693
+2024,20–29,1720,SCI-Chemists And Materials Scientists,170,19617
+2024,20–29,1760,"SCI-Physical Scientists, All Other",584,67193
+2024,20–29,1920,SCI-Chemical Technicians,123,13815
+2024,20–29,1970,"SCI-Other Life, Physical, And Social Science Technicians",730,78854
+2024,20–29,2001,CMS-Substance Abuse And Behavioral Disorder Counselors,333,37027
+2024,20–29,2002,"CMS-Educational, Guidance, And Career Counselors And Advisors",342,37544
+2024,20–29,2004,CMS-Mental Health Counselors,258,29868
+2024,20–29,2006,"CMS-Counselors, All Other",210,25411
+2024,20–29,2014,"CMS-Social Workers, All Other",519,62177
+2024,20–29,2016,CMS-Social And Human Service Assistants,283,34075
+2024,20–29,2025,CMS-Other Community and Social Service Specialists,123,15314
+2024,20–29,2100,"LGL-Lawyers, And Judges, Magistrates, And Other Judicial Workers",556,63987
+2024,20–29,2145,LGL-Paralegals And Legal Assistants,721,88710
+2024,20–29,2205,EDU-Postsecondary Teachers,1015,96949
+2024,20–29,2300,EDU-Preschool And Kindergarten Teachers,1420,172108
+2024,20–29,2310,EDU-Elementary And Middle School Teachers,1279,142384
+2024,20–29,2320,EDU-Secondary School Teachers,397,40612
+2024,20–29,2330,EDU-Special Education Teachers,140,14116
+2024,20–29,2350,EDU-Tutors,699,54088
+2024,20–29,2360,EDU-Other Teachers and Instructors,921,105996
+2024,20–29,2400,"EDU-Archivists, Curators, And Museum Technicians",108,9887
+2024,20–29,2545,EDU-Teaching Assistants,2134,226153
+2024,20–29,2555,EDU-Other Educational Instruction and Library Workers,101,11183
+2024,20–29,2600,ENT-Artists And Related Workers,236,25427
+2024,20–29,2634,ENT-Graphic Designers,536,59025
+2024,20–29,2635,ENT-Interior Designers,164,19594
+2024,20–29,2640,ENT-Other Designers,562,61346
+2024,20–29,2710,ENT-Producers And Directors,272,29718
+2024,20–29,2722,ENT-Coaches and Scouts,609,68352
+2024,20–29,2810,"ENT-News Analysts, Reporters, And Journalists",190,23648
+2024,20–29,2825,ENT-Public Relations Specialists,215,24129
+2024,20–29,2830,ENT-Editors,154,15716
+2024,20–29,2850,ENT-Writers And Authors,256,27157
+2024,20–29,2905,ENT-Other Media And Communication Equipment Workers,194,22379
+2024,20–29,2910,ENT-Photographers,177,20176
+2024,20–29,2920,"ENT-Television, Video, And Film Camera Operators And Editors",213,23608
+2024,20–29,3030,MED-Dietitians And Nutritionists,147,16614
+2024,20–29,3050,MED-Pharmacists,466,52456
+2024,20–29,3090,MED-Physicians,484,58691
+2024,20–29,3110,MED-Physician Assistants,329,32186
+2024,20–29,3150,MED-Occupational Therapists,276,26579
+2024,20–29,3160,MED-Physical Therapists,458,49883
+2024,20–29,3220,MED-Respiratory Therapists,135,16600
+2024,20–29,3230,MED-Speech-Language Pathologists,308,32166
+2024,20–29,3245,MED-Other Therapists,474,54809
+2024,20–29,3255,MED-Registered Nurses,5248,597919
+2024,20–29,3258,"MED-Nurse Practitioners, And Nurse Midwives",134,14946
+2024,20–29,3300,MED-Clinical Laboratory Technologists And Technicians,625,75428
+2024,20–29,3310,MED-Dental Hygienists,291,35462
+2024,20–29,3322,MED-Diagnostic Medical Sonographers,200,23345
+2024,20–29,3323,MED-Radiologic Technologists And Technicians,421,45150
+2024,20–29,3401,MED-Emergency Medical Technicians,525,65437
+2024,20–29,3402,MED-Paramedics,152,20882
+2024,20–29,3421,MED-Pharmacy Technicians,1195,142063
+2024,20–29,3422,MED-Psychiatric Technicians,557,68091
+2024,20–29,3423,MED-Surgical Technologists,195,22379
+2024,20–29,3424,MED-Veterinary Technologists and Technicians,616,65365
+2024,20–29,3430,MED-Dietetic Technicians And Ophthalmic Medical Technicians,207,23737
+2024,20–29,3500,MED-Licensed Practical And Licensed Vocational Nurses,757,91753
+2024,20–29,3515,MED-Medical Records Specialists,130,15731
+2024,20–29,3520,"MED-Opticians, Dispensing",129,14423
+2024,20–29,3545,MED-Miscellaneous Health Technologists and Technicians,259,30238
+2024,20–29,3550,MED-Other Healthcare Practitioners and Technical Occupations,203,24598
+2024,20–29,3601,HLS-Home Health Aides,490,64567
+2024,20–29,3602,HLS-Personal Care Aides,1526,205186
+2024,20–29,3603,HLS-Nursing Assistants,2630,330584
+2024,20–29,3605,HLS-Orderlies and Psychiatric Aides,155,19856
+2024,20–29,3620,HLS-Physical Therapist Assistants And Aides,384,39006
+2024,20–29,3640,HLS-Dental Assistants,818,100920
+2024,20–29,3645,HLS-Medical Assistants,1715,214200
+2024,20–29,3646,HLS-Medical Transcriptionists,239,24892
+2024,20–29,3648,HLS-Veterinary Assistants And Laboratory Animal Caretakers,401,44806
+2024,20–29,3649,HLS-Phlebotomists,315,40875
+2024,20–29,3655,HLS-Other Healthcare Support Workers,343,43361
+2024,20–29,3930,PRT-Security Guards And Gambling Surveillance Officers,1677,227931
+2024,20–29,3960,PRT-Other Protective Service Workers,310,27700
+2024,20–29,4000,EAT-Chefs And Head Cooks,620,80681
+2024,20–29,4010,EAT-First-Line Supervisors Of Food Preparation And Serving Workers,1212,157848
+2024,20–29,4020,EAT-Cooks,4224,544752
+2024,20–29,4030,EAT-Food Preparation Workers,1988,248928
+2024,20–29,4040,EAT-Bartenders,1216,157961
+2024,20–29,4055,EAT-Fast Food And Counter Workers,3337,403586
+2024,20–29,4110,EAT-Waiters And Waitresses,6096,753894
+2024,20–29,4120,"EAT-Food Servers, Nonrestaurant",415,54354
+2024,20–29,4130,EAT-Dining Room And Cafeteria Attendants And Bartender Helpers,548,67910
+2024,20–29,4140,EAT-Dishwashers,592,71956
+2024,20–29,4150,"EAT-Hosts And Hostesses, Restaurant, Lounge, And Coffee Shop",733,92800
+2024,20–29,4200,CLN-First-Line Supervisors Of Housekeeping And Janitorial Workers,111,13453
+2024,20–29,4210,"CLN-First-Line Supervisors Of Landscaping, Lawn Service, And Groundskeeping Workers",102,11892
+2024,20–29,4220,CLN-Janitors And Building Cleaners,2107,258433
+2024,20–29,4230,CLN-Maids And Housekeeping Cleaners,1001,133895
+2024,20–29,4240,CLN-Pest Control Workers,204,23450
+2024,20–29,4251,CLN-Landscaping And Groundskeeping Workers,1284,162453
+2024,20–29,4252,CLN-Tree Trimmers and Pruners,203,24718
+2024,20–29,4350,PRS-Animal Caretakers,289,33886
+2024,20–29,4400,PRS-Gambling Services Workers,128,14375
+2024,20–29,4420,"PRS-Ushers, Lobby Attendants, And Ticket Takers",154,17335
+2024,20–29,4435,PRS-Other Entertainment Attendants And Related Workers,831,90609
+2024,20–29,4530,"PRS-Baggage Porters, Bellhops, And Concierges",139,18206
+2024,20–29,4540,PRS-Tour And Travel Guides,208,17363
+2024,20–29,4600,PRS-Childcare Workers,1163,142538
+2024,20–29,4621,PRS-Exercise Trainers And Group Fitness Instructors,392,48782
+2024,20–29,4622,PRS-Recreation Workers,413,39882
+2024,20–29,4640,PRS-Residential Advisors,462,29728
+2024,20–29,4655,"PRS-Personal Care and Service Workers, All Other",133,14953
+2024,20–29,4700,SAL-First-Line Supervisors Of Retail Sales Workers,4051,495651
+2024,20–29,4710,SAL-First-Line Supervisors Of Non-Retail Sales Workers,505,63357
+2024,20–29,4720,SAL-Cashiers,6729,823842
+2024,20–29,4750,SAL-Parts Salespersons,242,27205
+2024,20–29,4760,SAL-Retail Salespersons,6705,804937
+2024,20–29,4800,SAL-Advertising Sales Agents,167,22444
+2024,20–29,4840,"SAL-Sales Representatives Of Services, Except Advertising, Insurance, Financial Services, And Travel",972,126356
+2024,20–29,4850,"SAL-Sales Representatives, Wholesale And Manufacturing",1201,139074
+2024,20–29,4920,SAL-Real Estate Brokers And Sales Agents,384,54656
+2024,20–29,4965,"SAL-Sales And Related Workers, All Other",814,95871
+2024,20–29,5000,OFF-First-Line Supervisors Of Office And Administrative Support Workers,855,102759
+2024,20–29,5110,OFF-Billing And Posting Clerks,407,47344
+2024,20–29,5120,"OFF-Bookkeeping, Accounting, And Auditing Clerks",823,93055
+2024,20–29,5240,OFF-Customer Service Representatives,4734,595844
+2024,20–29,5260,OFF-File Clerks,141,16411
+2024,20–29,5300,"OFF-Hotel, Motel, And Resort Desk Clerks",357,46875
+2024,20–29,5310,"OFF-Interviewers, Except Eligibility And Loan",332,41010
+2024,20–29,5320,"OFF-Library Assistants, Clerical",125,9407
+2024,20–29,5350,OFF-Correspondence Clerks And Order Clerks,116,13113
+2024,20–29,5360,"OFF-Human Resources Assistants, Except Payroll And Timekeeping",136,17958
+2024,20–29,5400,OFF-Receptionists And Information Clerks,2618,314631
+2024,20–29,5420,OFF-Other Information And Records Clerks,131,15009
+2024,20–29,5510,OFF-Couriers And Messengers,100,13862
+2024,20–29,5522,"OFF-Dispatchers, Except Police, Fire, And Ambulance",143,17323
+2024,20–29,5600,"OFF-Production, Planning, And Expediting Clerks",354,39212
+2024,20–29,5610,"OFF-Shipping, Receiving, And Inventory Clerks",773,94512
+2024,20–29,5630,"OFF-Weighers, Measurers, Checkers, And Samplers, Recordkeeping",112,13038
+2024,20–29,5710,OFF-Executive Secretaries And Executive Administrative Assistants,171,18089
+2024,20–29,5730,OFF-Medical Secretaries and Administrative Assistants,135,17793
+2024,20–29,5740,"OFF-Secretaries And Administrative Assistants, Except Legal, Medical, And Executive",1520,170666
+2024,20–29,5810,OFF-Data Entry Keyers,341,37372
+2024,20–29,5860,"OFF-Office Clerks, General",1399,159093
+2024,20–29,5940,OFF-Other Office And Administrative Support Workers,1534,180479
+2024,20–29,6200,CON-First-Line Supervisors Of Construction Trades And Extraction Workers,448,57491
+2024,20–29,6220,"CON-Brickmasons, Blockmasons, Stonemasons, And Reinforcing Iron And Rebar Workers",152,21810
+2024,20–29,6230,CON-Carpenters,1270,163248
+2024,20–29,6260,CON-Construction Laborers,2811,372430
+2024,20–29,6305,CON-Construction Equipment Operators,567,62714
+2024,20–29,6330,"CON-Drywall Installers, Ceiling Tile Installers, And Tapers",107,16107
+2024,20–29,6355,CON-Electricians,1914,221082
+2024,20–29,6410,CON-Painters and Paperhangers,514,72739
+2024,20–29,6442,"CON-Plumbers, Pipefitters, And Steamfitters",1021,121537
+2024,20–29,6515,CON-Roofers,325,46816
+2024,20–29,6520,CON-Sheet Metal Workers,219,25688
+2024,20–29,7010,"RPR-Computer, Automated Teller, And Office Machine Repairers",138,16913
+2024,20–29,7020,RPR-Radio And Telecommunications Equipment Installers And Repairers,170,19132
+2024,20–29,7200,RPR-Automotive Service Technicians And Mechanics,719,81715
+2024,20–29,7210,RPR-Bus And Truck Mechanics And Diesel Engine Specialists,195,19894
+2024,20–29,7220,RPR-Heavy Vehicle And Mobile Equipment Service Technicians And Mechanics,161,15372
+2024,20–29,7260,"RPR-Miscellaneous Vehicle And Mobile Equipment Mechanics, Installers, And Repairers",219,29626
+2024,20–29,7315,"RPR-Heating, Air Conditioning, And Refrigeration Mechanics And Installers",987,115964
+2024,20–29,7330,RPR-Industrial And Refractory Machinery Mechanics,398,45189
+2024,20–29,7340,"RPR-Maintenance And Repair Workers, General",735,89002
+2024,20–29,7420,RPR-Telecommunications Line Installers And Repairers,179,22463
+2024,20–29,7640,"RPR-Other Installation, Maintenance, And Repair Workers",267,29839
+2024,20–29,7700,PRD-First-Line Supervisors Of Production And Operating Workers,749,90585
+2024,20–29,7720,"PRD-Electrical, Electronics, And Electromechanical Assemblers",168,19161
+2024,20–29,7750,PRD-Other Assemblers And Fabricators,1456,169926
+2024,20–29,7800,PRD-Bakers,446,56286
+2024,20–29,7810,"PRD-Butchers And Other Meat, Poultry, And Fish Processing Workers",374,43086
+2024,20–29,7840,PRD-Food Batchmakers,183,21539
+2024,20–29,7855,"PRD-Food Processing Workers, All Other",259,32765
+2024,20–29,7905,PRD-Computer Numerically Controlled Tool Operators And Programmers,142,15114
+2024,20–29,7950,"PRD-Cutting, Punching, And Press Machine Setters, Operators, And Tenders, Metal And Plastic",101,11060
+2024,20–29,8030,PRD-Machinists,464,51000
+2024,20–29,8140,"PRD-Welding, Soldering, And Brazing Workers",900,96694
+2024,20–29,8225,PRD-Other Metal Workers And Plastic Workers,500,58605
+2024,20–29,8255,PRD-Printing Press Operators,157,18129
+2024,20–29,8650,"PRD-Crushing, Grinding, Polishing, Mixing, And Blending Workers",117,13541
+2024,20–29,8710,PRD-Cutting Workers,121,14548
+2024,20–29,8740,"PRD-Inspectors, Testers, Sorters, Samplers, And Weighers",1072,137113
+2024,20–29,8760,PRD-Dental And Ophthalmic Laboratory Technicians And Medical Appliance Technicians,149,18234
+2024,20–29,8800,PRD-Packaging And Filling Machine Operators And Tenders,330,42381
+2024,20–29,8810,PRD-Painting Workers,151,17997
+2024,20–29,8950,PRD-Helpers--Production Workers,116,12979
+2024,20–29,8990,"PRD-Miscellaneous Production Workers, Including Equipment Operators And Tenders",2160,262427
+2024,20–29,9005,TRN-Supervisors Of Transportation And Material Moving Workers,169,21296
+2024,20–29,9130,TRN-Driver/Sales Workers And Truck Drivers,2061,258960
+2024,20–29,9365,TRN-Transportation Service Attendants,171,19556
+2024,20–29,9600,TRN-Industrial Truck And Tractor Operators,726,89467
+2024,20–29,9610,TRN-Cleaners Of Vehicles And Equipment,425,53099
+2024,20–29,9620,"TRN-Laborers And Freight, Stock, And Material Movers, Hand",3798,470967
+2024,20–29,9640,"TRN-Packers And Packagers, Hand",719,102187
+2024,20–29,9645,TRN-Stockers And Order Fillers,4345,537244
+2024,20–29,9720,TRN-Refuse And Recyclable Material Collectors,139,15058
+2024,30–39,0010,MGR-Chief Executives And Legislators,1166,120491
+2024,30–39,0020,MGR-General And Operations Managers,2556,303844
+2024,30–39,0040,MGR-Advertising And Promotions Managers,161,15490
+2024,30–39,0051,MGR-Marketing Managers,1660,179511
+2024,30–39,0052,MGR-Sales Managers,1203,132974
+2024,30–39,0060,MGR-Public Relations And Fundraising Managers,220,22593
+2024,30–39,0101,MGR-Administrative Services Managers,101,11566
+2024,30–39,0102,MGR-Facilities Managers,128,14716
+2024,30–39,0110,MGR-Computer And Information Systems Managers,1097,121757
+2024,30–39,0120,MGR-Financial Managers,1144,119326
+2024,30–39,0136,MGR-Human Resources Managers,457,52600
+2024,30–39,0137,MGR-Training And Development Managers,121,13619
+2024,30–39,0140,MGR-Industrial Production Managers,640,65813
+2024,30–39,0150,MGR-Purchasing Managers,410,44319
+2024,30–39,0160,"MGR-Transportation, Storage, And Distribution Managers",477,55663
+2024,30–39,0220,MGR-Construction Managers,1692,193684
+2024,30–39,0230,MGR-Education And Childcare Administrators,1011,111129
+2024,30–39,0300,MGR-Architectural And Engineering Managers,555,54894
+2024,30–39,0310,MGR-Food Service Managers,1474,190523
+2024,30–39,0340,MGR-Lodging Managers,220,26924
+2024,30–39,0350,MGR-Medical And Health Services Managers,1558,180694
+2024,30–39,0410,"MGR-Property, Real Estate, And Community Association Managers",855,108208
+2024,30–39,0420,MGR-Social And Community Service Managers,440,51295
+2024,30–39,0440,MGR-Other Managers,6288,688266
+2024,30–39,0500,"BUS-Agents And Business Managers Of Artists, Performers, And Athletes",109,11026
+2024,30–39,0520,"BUS-Wholesale And Retail Buyers, Except Farm Products",400,45391
+2024,30–39,0530,"BUS-Purchasing Agents, Except Wholesale, Retail, And Farm Products",457,49900
+2024,30–39,0565,BUS-Compliance Officers,334,38044
+2024,30–39,0600,BUS-Cost Estimators,303,32777
+2024,30–39,0630,BUS-Human Resources Workers,1836,200970
+2024,30–39,0650,BUS-Training And Development Specialists,283,30863
+2024,30–39,0700,BUS-Logisticians,332,39988
+2024,30–39,0705,BUS-Project Management Specialists,2102,224071
+2024,30–39,0710,BUS-Management Analysts,1748,191924
+2024,30–39,0725,"BUS-Meeting, Convention, And Event Planners",254,28156
+2024,30–39,0735,BUS-Market Research Analysts And Marketing Specialists,1048,110519
+2024,30–39,0750,"BUS-Business Operations Specialists, All Other",978,110383
+2024,30–39,0800,FIN-Accountants And Auditors,2605,285713
+2024,30–39,0845,FIN-Financial And Investment Analysts,430,45063
+2024,30–39,0850,FIN-Personal Financial Advisors,125,14231
+2024,30–39,0940,FIN-Tax Preparers,128,15282
+2024,30–39,1006,CMM-Computer Systems Analysts,1060,117615
+2024,30–39,1007,CMM-Information Security Analysts,379,42194
+2024,30–39,1010,CMM-Computer Programmers,331,35467
+2024,30–39,1021,CMM-Software Developers,5663,633677
+2024,30–39,1022,CMM-Software Quality Assurance Analysts and Testers,203,23386
+2024,30–39,1031,CMM-Web Developers,196,20611
+2024,30–39,1032,CMM-Web And Digital Interface Designers,163,17443
+2024,30–39,1050,CMM-Computer Support Specialists,1180,142621
+2024,30–39,1065,CMM-Database Administrators and Architects,284,31727
+2024,30–39,1105,CMM-Network And Computer Systems Administrators,387,43825
+2024,30–39,1106,CMM-Computer Network Architects,177,20402
+2024,30–39,1108,"CMM-Computer Occupations, All Other",1316,161938
+2024,30–39,1220,CMM-Operations Research Analysts,159,16904
+2024,30–39,1240,CMM-Other Mathematical Science Occupations,976,102330
+2024,30–39,1305,"ENG-Architects, Except Landscape And Naval",494,54034
+2024,30–39,1320,ENG-Aerospace Engineers,451,47974
+2024,30–39,1350,ENG-Chemical Engineers,204,21284
+2024,30–39,1360,ENG-Civil Engineers,997,112334
+2024,30–39,1410,ENG-Electrical And Electronics Engineers,575,63170
+2024,30–39,1430,"ENG-Industrial Engineers, Including Health And Safety",729,75263
+2024,30–39,1450,ENG-Materials Engineers,143,16684
+2024,30–39,1460,ENG-Mechanical Engineers,972,102272
+2024,30–39,1530,ENG-Other Engineers,1330,144795
+2024,30–39,1541,ENG-Architectural And Civil Drafters,111,11393
+2024,30–39,1545,ENG-Other Drafters,147,14575
+2024,30–39,1551,ENG-Electrical And Electronic Engineering Technologists And Technicians,134,13190
+2024,30–39,1555,"ENG-Other Engineering Technologists And Technicians, Except Drafters",814,93304
+2024,30–39,1560,ENG-Surveying And Mapping Technicians,122,13968
+2024,30–39,1610,SCI-Biological Scientists,180,18390
+2024,30–39,1650,SCI-Other Life Scientists,445,51005
+2024,30–39,1720,SCI-Chemists And Materials Scientists,202,20000
+2024,30–39,1760,"SCI-Physical Scientists, All Other",1069,112786
+2024,30–39,1825,SCI-Other Psychologists,231,25890
+2024,30–39,1970,"SCI-Other Life, Physical, And Social Science Technicians",387,43482
+2024,30–39,1980,SCI-Occupational Health And Safety Specialists and Technicians,124,14568
+2024,30–39,2001,CMS-Substance Abuse And Behavioral Disorder Counselors,348,40893
+2024,30–39,2002,"CMS-Educational, Guidance, And Career Counselors And Advisors",389,43530
+2024,30–39,2004,CMS-Mental Health Counselors,410,48800
+2024,30–39,2006,"CMS-Counselors, All Other",245,30060
+2024,30–39,2012,CMS-Healthcare Social Workers,138,16073
+2024,30–39,2014,"CMS-Social Workers, All Other",794,91480
+2024,30–39,2016,CMS-Social And Human Service Assistants,220,29608
+2024,30–39,2025,CMS-Other Community and Social Service Specialists,128,14308
+2024,30–39,2100,"LGL-Lawyers, And Judges, Magistrates, And Other Judicial Workers",1853,185870
+2024,30–39,2145,LGL-Paralegals And Legal Assistants,737,78168
+2024,30–39,2205,EDU-Postsecondary Teachers,1205,126259
+2024,30–39,2300,EDU-Preschool And Kindergarten Teachers,1215,135549
+2024,30–39,2310,EDU-Elementary And Middle School Teachers,1602,176836
+2024,30–39,2320,EDU-Secondary School Teachers,635,63375
+2024,30–39,2330,EDU-Special Education Teachers,201,21206
+2024,30–39,2350,EDU-Tutors,112,13197
+2024,30–39,2360,EDU-Other Teachers and Instructors,807,92922
+2024,30–39,2400,"EDU-Archivists, Curators, And Museum Technicians",173,19279
+2024,30–39,2435,EDU-Librarians And Media Collections Specialists,158,15857
+2024,30–39,2545,EDU-Teaching Assistants,907,107733
+2024,30–39,2555,EDU-Other Educational Instruction and Library Workers,147,14874
+2024,30–39,2600,ENT-Artists And Related Workers,308,31732
+2024,30–39,2634,ENT-Graphic Designers,618,63965
+2024,30–39,2635,ENT-Interior Designers,168,17847
+2024,30–39,2640,ENT-Other Designers,812,92091
+2024,30–39,2710,ENT-Producers And Directors,431,43355
+2024,30–39,2722,ENT-Coaches and Scouts,365,39179
+2024,30–39,2810,"ENT-News Analysts, Reporters, And Journalists",160,17025
+2024,30–39,2825,ENT-Public Relations Specialists,215,23354
+2024,30–39,2830,ENT-Editors,218,20822
+2024,30–39,2840,ENT-Technical Writers,121,12926
+2024,30–39,2850,ENT-Writers And Authors,325,34443
+2024,30–39,2905,ENT-Other Media And Communication Equipment Workers,180,23262
+2024,30–39,2910,ENT-Photographers,143,16175
+2024,30–39,2920,"ENT-Television, Video, And Film Camera Operators And Editors",209,21461
+2024,30–39,3010,MED-Dentists,345,36051
+2024,30–39,3030,MED-Dietitians And Nutritionists,258,28868
+2024,30–39,3040,MED-Optometrists,110,9646
+2024,30–39,3050,MED-Pharmacists,1073,112952
+2024,30–39,3090,MED-Physicians,2343,250985
+2024,30–39,3100,MED-Surgeons,157,16563
+2024,30–39,3110,MED-Physician Assistants,663,71211
+2024,30–39,3150,MED-Occupational Therapists,431,46931
+2024,30–39,3160,MED-Physical Therapists,889,90597
+2024,30–39,3220,MED-Respiratory Therapists,274,32529
+2024,30–39,3230,MED-Speech-Language Pathologists,362,35461
+2024,30–39,3245,MED-Other Therapists,548,64439
+2024,30–39,3250,MED-Veterinarians,287,28350
+2024,30–39,3255,MED-Registered Nurses,7948,869527
+2024,30–39,3256,MED-Nurse Anesthetists,131,13541
+2024,30–39,3258,"MED-Nurse Practitioners, And Nurse Midwives",1113,110649
+2024,30–39,3300,MED-Clinical Laboratory Technologists And Technicians,567,64634
+2024,30–39,3310,MED-Dental Hygienists,577,58068
+2024,30–39,3322,MED-Diagnostic Medical Sonographers,286,28768
+2024,30–39,3323,MED-Radiologic Technologists And Technicians,563,58594
+2024,30–39,3324,MED-Magnetic Resonance Imaging Technologists,137,15242
+2024,30–39,3401,MED-Emergency Medical Technicians,237,24472
+2024,30–39,3402,MED-Paramedics,229,22787
+2024,30–39,3421,MED-Pharmacy Technicians,829,90973
+2024,30–39,3422,MED-Psychiatric Technicians,251,31471
+2024,30–39,3423,MED-Surgical Technologists,289,33241
+2024,30–39,3424,MED-Veterinary Technologists and Technicians,475,53062
+2024,30–39,3500,MED-Licensed Practical And Licensed Vocational Nurses,993,122393
+2024,30–39,3515,MED-Medical Records Specialists,304,37254
+2024,30–39,3520,"MED-Opticians, Dispensing",143,15581
+2024,30–39,3545,MED-Miscellaneous Health Technologists and Technicians,283,33904
+2024,30–39,3550,MED-Other Healthcare Practitioners and Technical Occupations,267,30622
+2024,30–39,3601,HLS-Home Health Aides,631,86588
+2024,30–39,3602,HLS-Personal Care Aides,1565,202957
+2024,30–39,3603,HLS-Nursing Assistants,1964,257335
+2024,30–39,3610,HLS-Occupational Therapy Assistants And Aides,116,12293
+2024,30–39,3620,HLS-Physical Therapist Assistants And Aides,318,32010
+2024,30–39,3640,HLS-Dental Assistants,699,82957
+2024,30–39,3645,HLS-Medical Assistants,1405,169301
+2024,30–39,3648,HLS-Veterinary Assistants And Laboratory Animal Caretakers,185,18760
+2024,30–39,3649,HLS-Phlebotomists,240,30974
+2024,30–39,3655,HLS-Other Healthcare Support Workers,319,42565
+2024,30–39,3930,PRT-Security Guards And Gambling Surveillance Officers,1290,171842
+2024,30–39,4000,EAT-Chefs And Head Cooks,931,121278
+2024,30–39,4010,EAT-First-Line Supervisors Of Food Preparation And Serving Workers,794,108078
+2024,30–39,4020,EAT-Cooks,2548,350695
+2024,30–39,4030,EAT-Food Preparation Workers,896,115639
+2024,30–39,4040,EAT-Bartenders,1046,133571
+2024,30–39,4055,EAT-Fast Food And Counter Workers,706,84090
+2024,30–39,4110,EAT-Waiters And Waitresses,2412,307985
+2024,30–39,4120,"EAT-Food Servers, Nonrestaurant",194,24376
+2024,30–39,4130,EAT-Dining Room And Cafeteria Attendants And Bartender Helpers,188,23539
+2024,30–39,4140,EAT-Dishwashers,335,44353
+2024,30–39,4150,"EAT-Hosts And Hostesses, Restaurant, Lounge, And Coffee Shop",131,17432
+2024,30–39,4200,CLN-First-Line Supervisors Of Housekeeping And Janitorial Workers,204,25871
+2024,30–39,4210,"CLN-First-Line Supervisors Of Landscaping, Lawn Service, And Groundskeeping Workers",172,20298
+2024,30–39,4220,CLN-Janitors And Building Cleaners,2080,264315
+2024,30–39,4230,CLN-Maids And Housekeeping Cleaners,1066,152694
+2024,30–39,4240,CLN-Pest Control Workers,207,28621
+2024,30–39,4251,CLN-Landscaping And Groundskeeping Workers,1003,143785
+2024,30–39,4252,CLN-Tree Trimmers and Pruners,169,19072
+2024,30–39,4350,PRS-Animal Caretakers,154,17967
+2024,30–39,4400,PRS-Gambling Services Workers,165,20480
+2024,30–39,4435,PRS-Other Entertainment Attendants And Related Workers,224,26752
+2024,30–39,4600,PRS-Childcare Workers,455,52742
+2024,30–39,4621,PRS-Exercise Trainers And Group Fitness Instructors,351,41117
+2024,30–39,4622,PRS-Recreation Workers,158,17290
+2024,30–39,4700,SAL-First-Line Supervisors Of Retail Sales Workers,5089,600245
+2024,30–39,4710,SAL-First-Line Supervisors Of Non-Retail Sales Workers,985,109815
+2024,30–39,4720,SAL-Cashiers,2799,343496
+2024,30–39,4750,SAL-Parts Salespersons,217,25388
+2024,30–39,4760,SAL-Retail Salespersons,3663,439901
+2024,30–39,4800,SAL-Advertising Sales Agents,191,20422
+2024,30–39,4840,"SAL-Sales Representatives Of Services, Except Advertising, Insurance, Financial Services, And Travel",1320,147966
+2024,30–39,4850,"SAL-Sales Representatives, Wholesale And Manufacturing",1966,216243
+2024,30–39,4920,SAL-Real Estate Brokers And Sales Agents,632,75808
+2024,30–39,4930,SAL-Sales Engineers,111,12677
+2024,30–39,4965,"SAL-Sales And Related Workers, All Other",626,74152
+2024,30–39,5000,OFF-First-Line Supervisors Of Office And Administrative Support Workers,1508,164832
+2024,30–39,5100,OFF-Bill And Account Collectors,130,17128
+2024,30–39,5110,OFF-Billing And Posting Clerks,673,78615
+2024,30–39,5120,"OFF-Bookkeeping, Accounting, And Auditing Clerks",1196,132692
+2024,30–39,5140,OFF-Payroll And Timekeeping Clerks,197,21559
+2024,30–39,5165,OFF-Other Financial Clerks,140,14640
+2024,30–39,5240,OFF-Customer Service Representatives,3760,461012
+2024,30–39,5260,OFF-File Clerks,121,14166
+2024,30–39,5300,"OFF-Hotel, Motel, And Resort Desk Clerks",204,23651
+2024,30–39,5310,"OFF-Interviewers, Except Eligibility And Loan",257,30873
+2024,30–39,5350,OFF-Correspondence Clerks And Order Clerks,111,13019
+2024,30–39,5360,"OFF-Human Resources Assistants, Except Payroll And Timekeeping",178,19224
+2024,30–39,5400,OFF-Receptionists And Information Clerks,1711,200201
+2024,30–39,5522,"OFF-Dispatchers, Except Police, Fire, And Ambulance",158,19057
+2024,30–39,5600,"OFF-Production, Planning, And Expediting Clerks",453,49150
+2024,30–39,5610,"OFF-Shipping, Receiving, And Inventory Clerks",726,82826
+2024,30–39,5630,"OFF-Weighers, Measurers, Checkers, And Samplers, Recordkeeping",104,12994
+2024,30–39,5710,OFF-Executive Secretaries And Executive Administrative Assistants,332,33528
+2024,30–39,5730,OFF-Medical Secretaries and Administrative Assistants,176,20384
+2024,30–39,5740,"OFF-Secretaries And Administrative Assistants, Except Legal, Medical, And Executive",1889,207156
+2024,30–39,5810,OFF-Data Entry Keyers,335,41858
+2024,30–39,5840,OFF-Insurance Claims And Policy Processing Clerks,124,14406
+2024,30–39,5860,"OFF-Office Clerks, General",1066,125318
+2024,30–39,5940,OFF-Other Office And Administrative Support Workers,1463,164779
+2024,30–39,6200,CON-First-Line Supervisors Of Construction Trades And Extraction Workers,854,104580
+2024,30–39,6220,"CON-Brickmasons, Blockmasons, Stonemasons, And Reinforcing Iron And Rebar Workers",136,18287
+2024,30–39,6230,CON-Carpenters,1378,184282
+2024,30–39,6240,"CON-Carpet, Floor, And Tile Installers And Finishers",101,14678
+2024,30–39,6260,CON-Construction Laborers,2435,356615
+2024,30–39,6305,CON-Construction Equipment Operators,544,58595
+2024,30–39,6330,"CON-Drywall Installers, Ceiling Tile Installers, And Tapers",131,24857
+2024,30–39,6355,CON-Electricians,1614,180862
+2024,30–39,6410,CON-Painters and Paperhangers,509,78895
+2024,30–39,6442,"CON-Plumbers, Pipefitters, And Steamfitters",1029,120648
+2024,30–39,6515,CON-Roofers,299,48675
+2024,30–39,6520,CON-Sheet Metal Workers,240,26947
+2024,30–39,6530,CON-Structural Iron And Steel Workers,126,13175
+2024,30–39,7000,"RPR-First-Line Supervisors Of Mechanics, Installers, And Repairers",298,33295
+2024,30–39,7010,"RPR-Computer, Automated Teller, And Office Machine Repairers",164,17446
+2024,30–39,7020,RPR-Radio And Telecommunications Equipment Installers And Repairers,186,22477
+2024,30–39,7130,RPR-Security And Fire Alarm Systems Installers,101,11568
+2024,30–39,7140,RPR-Aircraft Mechanics And Service Technicians,104,12676
+2024,30–39,7200,RPR-Automotive Service Technicians And Mechanics,599,64252
+2024,30–39,7210,RPR-Bus And Truck Mechanics And Diesel Engine Specialists,195,21143
+2024,30–39,7220,RPR-Heavy Vehicle And Mobile Equipment Service Technicians And Mechanics,182,16881
+2024,30–39,7260,"RPR-Miscellaneous Vehicle And Mobile Equipment Mechanics, Installers, And Repairers",145,15094
+2024,30–39,7315,"RPR-Heating, Air Conditioning, And Refrigeration Mechanics And Installers",803,96618
+2024,30–39,7330,RPR-Industrial And Refractory Machinery Mechanics,517,59758
+2024,30–39,7340,"RPR-Maintenance And Repair Workers, General",966,110655
+2024,30–39,7360,RPR-Millwrights,117,9878
+2024,30–39,7420,RPR-Telecommunications Line Installers And Repairers,196,23225
+2024,30–39,7640,"RPR-Other Installation, Maintenance, And Repair Workers",255,32033
+2024,30–39,7700,PRD-First-Line Supervisors Of Production And Operating Workers,1446,163382
+2024,30–39,7720,"PRD-Electrical, Electronics, And Electromechanical Assemblers",174,21053
+2024,30–39,7750,PRD-Other Assemblers And Fabricators,1412,164341
+2024,30–39,7800,PRD-Bakers,306,37662
+2024,30–39,7810,"PRD-Butchers And Other Meat, Poultry, And Fish Processing Workers",410,48524
+2024,30–39,7840,PRD-Food Batchmakers,129,18215
+2024,30–39,7855,"PRD-Food Processing Workers, All Other",283,33570
+2024,30–39,7905,PRD-Computer Numerically Controlled Tool Operators And Programmers,165,17188
+2024,30–39,7950,"PRD-Cutting, Punching, And Press Machine Setters, Operators, And Tenders, Metal And Plastic",105,10004
+2024,30–39,8030,PRD-Machinists,562,61633
+2024,30–39,8140,"PRD-Welding, Soldering, And Brazing Workers",827,86841
+2024,30–39,8225,PRD-Other Metal Workers And Plastic Workers,656,83182
+2024,30–39,8255,PRD-Printing Press Operators,163,19285
+2024,30–39,8320,PRD-Sewing Machine Operators,109,12679
+2024,30–39,8610,PRD-Stationary Engineers And Boiler Operators,124,14792
+2024,30–39,8640,"PRD-Chemical Processing Machine Setters, Operators, And Tenders",184,18720
+2024,30–39,8650,"PRD-Crushing, Grinding, Polishing, Mixing, And Blending Workers",158,17973
+2024,30–39,8740,"PRD-Inspectors, Testers, Sorters, Samplers, And Weighers",1305,157674
+2024,30–39,8760,PRD-Dental And Ophthalmic Laboratory Technicians And Medical Appliance Technicians,154,17726
+2024,30–39,8800,PRD-Packaging And Filling Machine Operators And Tenders,301,39152
+2024,30–39,8810,PRD-Painting Workers,174,20586
+2024,30–39,8990,"PRD-Miscellaneous Production Workers, Including Equipment Operators And Tenders",2135,260755
+2024,30–39,9005,TRN-Supervisors Of Transportation And Material Moving Workers,339,38190
+2024,30–39,9130,TRN-Driver/Sales Workers And Truck Drivers,2316,295775
+2024,30–39,9510,TRN-Crane And Tower Operators,118,13031
+2024,30–39,9600,TRN-Industrial Truck And Tractor Operators,705,89694
+2024,30–39,9610,TRN-Cleaners Of Vehicles And Equipment,212,27917
+2024,30–39,9620,"TRN-Laborers And Freight, Stock, And Material Movers, Hand",2694,318985
+2024,30–39,9640,"TRN-Packers And Packagers, Hand",540,72262
+2024,30–39,9645,TRN-Stockers And Order Fillers,2404,285264
+2024,30–39,9720,TRN-Refuse And Recyclable Material Collectors,122,13858
+2024,40–54,0010,MGR-Chief Executives And Legislators,3878,383348
+2024,40–54,0020,MGR-General And Operations Managers,3516,387029
+2024,40–54,0040,MGR-Advertising And Promotions Managers,134,12692
+2024,40–54,0051,MGR-Marketing Managers,1534,153455
+2024,40–54,0052,MGR-Sales Managers,1872,195562
+2024,40–54,0060,MGR-Public Relations And Fundraising Managers,229,21100
+2024,40–54,0101,MGR-Administrative Services Managers,169,16194
+2024,40–54,0102,MGR-Facilities Managers,263,26923
+2024,40–54,0110,MGR-Computer And Information Systems Managers,2153,217685
+2024,40–54,0120,MGR-Financial Managers,1725,176702
+2024,40–54,0136,MGR-Human Resources Managers,818,86340
+2024,40–54,0137,MGR-Training And Development Managers,187,19285
+2024,40–54,0140,MGR-Industrial Production Managers,1205,121175
+2024,40–54,0150,MGR-Purchasing Managers,703,74315
+2024,40–54,0160,"MGR-Transportation, Storage, And Distribution Managers",781,81259
+2024,40–54,0220,MGR-Construction Managers,2473,268897
+2024,40–54,0230,MGR-Education And Childcare Administrators,1738,173433
+2024,40–54,0300,MGR-Architectural And Engineering Managers,972,91931
+2024,40–54,0310,MGR-Food Service Managers,1708,212358
+2024,40–54,0335,MGR-Entertainment and Recreation Managers,138,14666
+2024,40–54,0340,MGR-Lodging Managers,347,37173
+2024,40–54,0350,MGR-Medical And Health Services Managers,2836,305703
+2024,40–54,0360,MGR-Natural Sciences Managers,119,11522
+2024,40–54,0410,"MGR-Property, Real Estate, And Community Association Managers",1267,145866
+2024,40–54,0420,MGR-Social And Community Service Managers,700,77468
+2024,40–54,0440,MGR-Other Managers,9900,1027252
+2024,40–54,0520,"BUS-Wholesale And Retail Buyers, Except Farm Products",467,47214
+2024,40–54,0530,"BUS-Purchasing Agents, Except Wholesale, Retail, And Farm Products",765,81359
+2024,40–54,0565,BUS-Compliance Officers,479,46115
+2024,40–54,0600,BUS-Cost Estimators,446,46953
+2024,40–54,0630,BUS-Human Resources Workers,1957,215037
+2024,40–54,0640,"BUS-Compensation, Benefits, And Job Analysis Specialists",104,11693
+2024,40–54,0650,BUS-Training And Development Specialists,401,42876
+2024,40–54,0700,BUS-Logisticians,370,43272
+2024,40–54,0705,BUS-Project Management Specialists,2651,266966
+2024,40–54,0710,BUS-Management Analysts,1799,183677
+2024,40–54,0725,"BUS-Meeting, Convention, And Event Planners",191,20016
+2024,40–54,0726,BUS-Fundraisers,148,13598
+2024,40–54,0735,BUS-Market Research Analysts And Marketing Specialists,891,91455
+2024,40–54,0750,"BUS-Business Operations Specialists, All Other",1243,138967
+2024,40–54,0800,FIN-Accountants And Auditors,3248,331559
+2024,40–54,0845,FIN-Financial And Investment Analysts,417,41282
+2024,40–54,0850,FIN-Personal Financial Advisors,146,15504
+2024,40–54,0940,FIN-Tax Preparers,154,14727
+2024,40–54,1006,CMM-Computer Systems Analysts,1236,132995
+2024,40–54,1007,CMM-Information Security Analysts,464,48336
+2024,40–54,1010,CMM-Computer Programmers,616,62241
+2024,40–54,1021,CMM-Software Developers,5303,530708
+2024,40–54,1022,CMM-Software Quality Assurance Analysts and Testers,249,23717
+2024,40–54,1031,CMM-Web Developers,173,18308
+2024,40–54,1032,CMM-Web And Digital Interface Designers,105,10127
+2024,40–54,1050,CMM-Computer Support Specialists,1382,146909
+2024,40–54,1065,CMM-Database Administrators and Architects,340,34600
+2024,40–54,1105,CMM-Network And Computer Systems Administrators,505,55047
+2024,40–54,1106,CMM-Computer Network Architects,353,38399
+2024,40–54,1108,"CMM-Computer Occupations, All Other",1790,190875
+2024,40–54,1220,CMM-Operations Research Analysts,229,23847
+2024,40–54,1240,CMM-Other Mathematical Science Occupations,708,70666
+2024,40–54,1305,"ENG-Architects, Except Landscape And Naval",662,68579
+2024,40–54,1320,ENG-Aerospace Engineers,444,42841
+2024,40–54,1350,ENG-Chemical Engineers,219,20597
+2024,40–54,1360,ENG-Civil Engineers,978,98570
+2024,40–54,1400,ENG-Computer Hardware Engineers,149,16262
+2024,40–54,1410,ENG-Electrical And Electronics Engineers,635,62113
+2024,40–54,1430,"ENG-Industrial Engineers, Including Health And Safety",734,76004
+2024,40–54,1450,ENG-Materials Engineers,134,15096
+2024,40–54,1460,ENG-Mechanical Engineers,823,84025
+2024,40–54,1530,ENG-Other Engineers,1491,144881
+2024,40–54,1541,ENG-Architectural And Civil Drafters,137,14468
+2024,40–54,1545,ENG-Other Drafters,225,22954
+2024,40–54,1551,ENG-Electrical And Electronic Engineering Technologists And Technicians,168,19382
+2024,40–54,1555,"ENG-Other Engineering Technologists And Technicians, Except Drafters",1003,100862
+2024,40–54,1560,ENG-Surveying And Mapping Technicians,161,15476
+2024,40–54,1610,SCI-Biological Scientists,134,14837
+2024,40–54,1650,SCI-Other Life Scientists,346,36379
+2024,40–54,1720,SCI-Chemists And Materials Scientists,204,20458
+2024,40–54,1760,"SCI-Physical Scientists, All Other",839,82041
+2024,40–54,1825,SCI-Other Psychologists,217,22631
+2024,40–54,1920,SCI-Chemical Technicians,140,14217
+2024,40–54,1970,"SCI-Other Life, Physical, And Social Science Technicians",277,30453
+2024,40–54,1980,SCI-Occupational Health And Safety Specialists and Technicians,184,20518
+2024,40–54,2001,CMS-Substance Abuse And Behavioral Disorder Counselors,257,26676
+2024,40–54,2002,"CMS-Educational, Guidance, And Career Counselors And Advisors",376,39571
+2024,40–54,2004,CMS-Mental Health Counselors,311,34517
+2024,40–54,2006,"CMS-Counselors, All Other",284,31863
+2024,40–54,2012,CMS-Healthcare Social Workers,175,18658
+2024,40–54,2014,"CMS-Social Workers, All Other",871,90648
+2024,40–54,2016,CMS-Social And Human Service Assistants,315,34577
+2024,40–54,2025,CMS-Other Community and Social Service Specialists,158,16769
+2024,40–54,2100,"LGL-Lawyers, And Judges, Magistrates, And Other Judicial Workers",2101,205616
+2024,40–54,2145,LGL-Paralegals And Legal Assistants,1063,112748
+2024,40–54,2170,"LGL-Title Examiners, Abstractors, and Searchers",127,13827
+2024,40–54,2205,EDU-Postsecondary Teachers,2071,199127
+2024,40–54,2300,EDU-Preschool And Kindergarten Teachers,1516,155244
+2024,40–54,2310,EDU-Elementary And Middle School Teachers,2779,284862
+2024,40–54,2320,EDU-Secondary School Teachers,1032,99739
+2024,40–54,2330,EDU-Special Education Teachers,262,26537
+2024,40–54,2360,EDU-Other Teachers and Instructors,1096,118611
+2024,40–54,2400,"EDU-Archivists, Curators, And Museum Technicians",182,16006
+2024,40–54,2435,EDU-Librarians And Media Collections Specialists,212,22541
+2024,40–54,2545,EDU-Teaching Assistants,1135,123763
+2024,40–54,2555,EDU-Other Educational Instruction and Library Workers,166,15396
+2024,40–54,2600,ENT-Artists And Related Workers,366,38539
+2024,40–54,2633,ENT-Floral Designers,122,11316
+2024,40–54,2634,ENT-Graphic Designers,588,58932
+2024,40–54,2635,ENT-Interior Designers,161,15280
+2024,40–54,2640,ENT-Other Designers,847,87118
+2024,40–54,2710,ENT-Producers And Directors,480,46474
+2024,40–54,2722,ENT-Coaches and Scouts,336,34227
+2024,40–54,2810,"ENT-News Analysts, Reporters, And Journalists",143,15285
+2024,40–54,2825,ENT-Public Relations Specialists,216,21336
+2024,40–54,2830,ENT-Editors,275,25163
+2024,40–54,2840,ENT-Technical Writers,140,13734
+2024,40–54,2850,ENT-Writers And Authors,325,32011
+2024,40–54,2861,ENT-Interpreters and Translators,115,13675
+2024,40–54,2905,ENT-Other Media And Communication Equipment Workers,228,25071
+2024,40–54,2910,ENT-Photographers,173,19226
+2024,40–54,2920,"ENT-Television, Video, And Film Camera Operators And Editors",165,15770
+2024,40–54,3010,MED-Dentists,267,29370
+2024,40–54,3030,MED-Dietitians And Nutritionists,189,18334
+2024,40–54,3050,MED-Pharmacists,1075,110238
+2024,40–54,3090,MED-Physicians,2465,240724
+2024,40–54,3100,MED-Surgeons,201,19195
+2024,40–54,3110,MED-Physician Assistants,432,43672
+2024,40–54,3150,MED-Occupational Therapists,364,32554
+2024,40–54,3160,MED-Physical Therapists,838,80239
+2024,40–54,3220,MED-Respiratory Therapists,440,50789
+2024,40–54,3230,MED-Speech-Language Pathologists,297,30049
+2024,40–54,3245,MED-Other Therapists,443,48128
+2024,40–54,3250,MED-Veterinarians,262,23321
+2024,40–54,3255,MED-Registered Nurses,9599,991621
+2024,40–54,3256,MED-Nurse Anesthetists,191,17570
+2024,40–54,3258,"MED-Nurse Practitioners, And Nurse Midwives",1153,114248
+2024,40–54,3300,MED-Clinical Laboratory Technologists And Technicians,736,77587
+2024,40–54,3310,MED-Dental Hygienists,679,68850
+2024,40–54,3321,MED-Cardiovascular Technologists and Technicians,130,15614
+2024,40–54,3322,MED-Diagnostic Medical Sonographers,382,36684
+2024,40–54,3323,MED-Radiologic Technologists And Technicians,757,75746
+2024,40–54,3324,MED-Magnetic Resonance Imaging Technologists,153,15535
+2024,40–54,3330,MED-Nuclear Medicine Technologists and Medical Dosimetrists,120,12725
+2024,40–54,3401,MED-Emergency Medical Technicians,147,13448
+2024,40–54,3402,MED-Paramedics,254,24459
+2024,40–54,3421,MED-Pharmacy Technicians,868,91587
+2024,40–54,3422,MED-Psychiatric Technicians,167,18742
+2024,40–54,3423,MED-Surgical Technologists,326,38428
+2024,40–54,3424,MED-Veterinary Technologists and Technicians,294,28842
+2024,40–54,3430,MED-Dietetic Technicians And Ophthalmic Medical Technicians,135,15426
+2024,40–54,3500,MED-Licensed Practical And Licensed Vocational Nurses,1468,160599
+2024,40–54,3515,MED-Medical Records Specialists,603,62383
+2024,40–54,3520,"MED-Opticians, Dispensing",187,19537
+2024,40–54,3545,MED-Miscellaneous Health Technologists and Technicians,324,38523
+2024,40–54,3550,MED-Other Healthcare Practitioners and Technical Occupations,279,27845
+2024,40–54,3601,HLS-Home Health Aides,1220,153976
+2024,40–54,3602,HLS-Personal Care Aides,2456,291972
+2024,40–54,3603,HLS-Nursing Assistants,2518,305708
+2024,40–54,3610,HLS-Occupational Therapy Assistants And Aides,124,11232
+2024,40–54,3620,HLS-Physical Therapist Assistants And Aides,377,33703
+2024,40–54,3630,HLS-Massage Therapists,108,10691
+2024,40–54,3640,HLS-Dental Assistants,728,77137
+2024,40–54,3645,HLS-Medical Assistants,1315,148885
+2024,40–54,3648,HLS-Veterinary Assistants And Laboratory Animal Caretakers,107,10435
+2024,40–54,3649,HLS-Phlebotomists,255,29694
+2024,40–54,3655,HLS-Other Healthcare Support Workers,437,55541
+2024,40–54,3725,"PRT-Miscellaneous First-Line Supervisors, Protective Service Workers",137,13396
+2024,40–54,3930,PRT-Security Guards And Gambling Surveillance Officers,1346,163449
+2024,40–54,4000,EAT-Chefs And Head Cooks,1183,149299
+2024,40–54,4010,EAT-First-Line Supervisors Of Food Preparation And Serving Workers,738,87144
+2024,40–54,4020,EAT-Cooks,3493,443364
+2024,40–54,4030,EAT-Food Preparation Workers,1195,145315
+2024,40–54,4040,EAT-Bartenders,802,89963
+2024,40–54,4055,EAT-Fast Food And Counter Workers,489,57765
+2024,40–54,4110,EAT-Waiters And Waitresses,2007,240749
+2024,40–54,4120,"EAT-Food Servers, Nonrestaurant",247,29371
+2024,40–54,4130,EAT-Dining Room And Cafeteria Attendants And Bartender Helpers,244,30495
+2024,40–54,4140,EAT-Dishwashers,402,49659
+2024,40–54,4150,"EAT-Hosts And Hostesses, Restaurant, Lounge, And Coffee Shop",135,15069
+2024,40–54,4200,CLN-First-Line Supervisors Of Housekeeping And Janitorial Workers,367,46338
+2024,40–54,4210,"CLN-First-Line Supervisors Of Landscaping, Lawn Service, And Groundskeeping Workers",219,23830
+2024,40–54,4220,CLN-Janitors And Building Cleaners,3586,448620
+2024,40–54,4230,CLN-Maids And Housekeeping Cleaners,1972,265901
+2024,40–54,4240,CLN-Pest Control Workers,204,25049
+2024,40–54,4251,CLN-Landscaping And Groundskeeping Workers,1249,173320
+2024,40–54,4252,CLN-Tree Trimmers and Pruners,135,17818
+2024,40–54,4330,PRS-Supervisors Of Personal Care And Service Workers,104,11745
+2024,40–54,4350,PRS-Animal Caretakers,101,11137
+2024,40–54,4400,PRS-Gambling Services Workers,295,31273
+2024,40–54,4435,PRS-Other Entertainment Attendants And Related Workers,167,20308
+2024,40–54,4530,"PRS-Baggage Porters, Bellhops, And Concierges",135,13823
+2024,40–54,4600,PRS-Childcare Workers,557,63151
+2024,40–54,4621,PRS-Exercise Trainers And Group Fitness Instructors,435,46517
+2024,40–54,4622,PRS-Recreation Workers,226,19569
+2024,40–54,4640,PRS-Residential Advisors,103,9863
+2024,40–54,4700,SAL-First-Line Supervisors Of Retail Sales Workers,6628,725733
+2024,40–54,4710,SAL-First-Line Supervisors Of Non-Retail Sales Workers,1516,161997
+2024,40–54,4720,SAL-Cashiers,3310,372695
+2024,40–54,4750,SAL-Parts Salespersons,286,27116
+2024,40–54,4760,SAL-Retail Salespersons,4455,501938
+2024,40–54,4800,SAL-Advertising Sales Agents,232,24823
+2024,40–54,4830,SAL-Travel Agents,142,15149
+2024,40–54,4840,"SAL-Sales Representatives Of Services, Except Advertising, Insurance, Financial Services, And Travel",1691,187090
+2024,40–54,4850,"SAL-Sales Representatives, Wholesale And Manufacturing",3285,350321
+2024,40–54,4920,SAL-Real Estate Brokers And Sales Agents,1003,121992
+2024,40–54,4930,SAL-Sales Engineers,180,18729
+2024,40–54,4965,"SAL-Sales And Related Workers, All Other",883,95041
+2024,40–54,5000,OFF-First-Line Supervisors Of Office And Administrative Support Workers,2235,233476
+2024,40–54,5100,OFF-Bill And Account Collectors,193,21488
+2024,40–54,5110,OFF-Billing And Posting Clerks,1221,127195
+2024,40–54,5120,"OFF-Bookkeeping, Accounting, And Auditing Clerks",2330,246055
+2024,40–54,5140,OFF-Payroll And Timekeeping Clerks,284,30088
+2024,40–54,5165,OFF-Other Financial Clerks,264,28420
+2024,40–54,5240,OFF-Customer Service Representatives,4401,487305
+2024,40–54,5260,OFF-File Clerks,137,14865
+2024,40–54,5300,"OFF-Hotel, Motel, And Resort Desk Clerks",203,21844
+2024,40–54,5310,"OFF-Interviewers, Except Eligibility And Loan",312,32520
+2024,40–54,5350,OFF-Correspondence Clerks And Order Clerks,144,17017
+2024,40–54,5360,"OFF-Human Resources Assistants, Except Payroll And Timekeeping",198,21296
+2024,40–54,5400,OFF-Receptionists And Information Clerks,1954,208750
+2024,40–54,5410,OFF-Reservation And Transportation Ticket Agents And Travel Clerks,124,14141
+2024,40–54,5420,OFF-Other Information And Records Clerks,142,14748
+2024,40–54,5510,OFF-Couriers And Messengers,110,14568
+2024,40–54,5522,"OFF-Dispatchers, Except Police, Fire, And Ambulance",208,20433
+2024,40–54,5600,"OFF-Production, Planning, And Expediting Clerks",599,60274
+2024,40–54,5610,"OFF-Shipping, Receiving, And Inventory Clerks",1058,111741
+2024,40–54,5630,"OFF-Weighers, Measurers, Checkers, And Samplers, Recordkeeping",189,20586
+2024,40–54,5710,OFF-Executive Secretaries And Executive Administrative Assistants,472,47120
+2024,40–54,5720,OFF-Legal Secretaries and Administrative Assistants,100,10005
+2024,40–54,5730,OFF-Medical Secretaries and Administrative Assistants,237,25651
+2024,40–54,5740,"OFF-Secretaries And Administrative Assistants, Except Legal, Medical, And Executive",3487,357393
+2024,40–54,5810,OFF-Data Entry Keyers,425,45175
+2024,40–54,5840,OFF-Insurance Claims And Policy Processing Clerks,162,16664
+2024,40–54,5860,"OFF-Office Clerks, General",1584,163914
+2024,40–54,5940,OFF-Other Office And Administrative Support Workers,1656,177527
+2024,40–54,6200,CON-First-Line Supervisors Of Construction Trades And Extraction Workers,1438,164270
+2024,40–54,6220,"CON-Brickmasons, Blockmasons, Stonemasons, And Reinforcing Iron And Rebar Workers",252,30810
+2024,40–54,6230,CON-Carpenters,2020,257071
+2024,40–54,6240,"CON-Carpet, Floor, And Tile Installers And Finishers",181,26355
+2024,40–54,6250,"CON-Cement Masons, Concrete Finishers, And Terrazzo Workers",110,14727
+2024,40–54,6260,CON-Construction Laborers,3258,446513
+2024,40–54,6305,CON-Construction Equipment Operators,848,88945
+2024,40–54,6330,"CON-Drywall Installers, Ceiling Tile Installers, And Tapers",218,33332
+2024,40–54,6355,CON-Electricians,1952,222659
+2024,40–54,6400,CON-Insulation Workers,111,14471
+2024,40–54,6410,CON-Painters and Paperhangers,786,110341
+2024,40–54,6442,"CON-Plumbers, Pipefitters, And Steamfitters",1161,127072
+2024,40–54,6515,CON-Roofers,277,41613
+2024,40–54,6520,CON-Sheet Metal Workers,330,34784
+2024,40–54,6530,CON-Structural Iron And Steel Workers,159,19067
+2024,40–54,6660,CON-Construction And Building Inspectors,127,14276
+2024,40–54,7000,"RPR-First-Line Supervisors Of Mechanics, Installers, And Repairers",575,62184
+2024,40–54,7010,"RPR-Computer, Automated Teller, And Office Machine Repairers",172,18467
+2024,40–54,7020,RPR-Radio And Telecommunications Equipment Installers And Repairers,356,36602
+2024,40–54,7130,RPR-Security And Fire Alarm Systems Installers,156,18661
+2024,40–54,7140,RPR-Aircraft Mechanics And Service Technicians,110,15339
+2024,40–54,7200,RPR-Automotive Service Technicians And Mechanics,561,61999
+2024,40–54,7210,RPR-Bus And Truck Mechanics And Diesel Engine Specialists,202,20670
+2024,40–54,7220,RPR-Heavy Vehicle And Mobile Equipment Service Technicians And Mechanics,208,20295
+2024,40–54,7260,"RPR-Miscellaneous Vehicle And Mobile Equipment Mechanics, Installers, And Repairers",145,15371
+2024,40–54,7315,"RPR-Heating, Air Conditioning, And Refrigeration Mechanics And Installers",947,108188
+2024,40–54,7330,RPR-Industrial And Refractory Machinery Mechanics,818,84563
+2024,40–54,7340,"RPR-Maintenance And Repair Workers, General",1469,159413
+2024,40–54,7350,"RPR-Maintenance Workers, Machinery",103,11953
+2024,40–54,7360,RPR-Millwrights,167,14887
+2024,40–54,7420,RPR-Telecommunications Line Installers And Repairers,307,35146
+2024,40–54,7640,"RPR-Other Installation, Maintenance, And Repair Workers",322,37782
+2024,40–54,7700,PRD-First-Line Supervisors Of Production And Operating Workers,2321,237430
+2024,40–54,7720,"PRD-Electrical, Electronics, And Electromechanical Assemblers",270,32901
+2024,40–54,7750,PRD-Other Assemblers And Fabricators,2222,246487
+2024,40–54,7800,PRD-Bakers,393,46119
+2024,40–54,7810,"PRD-Butchers And Other Meat, Poultry, And Fish Processing Workers",576,72758
+2024,40–54,7840,PRD-Food Batchmakers,195,22212
+2024,40–54,7855,"PRD-Food Processing Workers, All Other",372,52242
+2024,40–54,7905,PRD-Computer Numerically Controlled Tool Operators And Programmers,221,22500
+2024,40–54,7950,"PRD-Cutting, Punching, And Press Machine Setters, Operators, And Tenders, Metal And Plastic",158,19361
+2024,40–54,8030,PRD-Machinists,853,83397
+2024,40–54,8100,"PRD-Model Makers, Patternmakers, And Molding Machine Setters, Metal And Plastic",100,11095
+2024,40–54,8130,PRD-Tool And Die Makers,150,14468
+2024,40–54,8140,"PRD-Welding, Soldering, And Brazing Workers",952,104079
+2024,40–54,8225,PRD-Other Metal Workers And Plastic Workers,942,107219
+2024,40–54,8255,PRD-Printing Press Operators,272,28874
+2024,40–54,8300,PRD-Laundry And Dry-Cleaning Workers,128,15590
+2024,40–54,8320,PRD-Sewing Machine Operators,265,29586
+2024,40–54,8610,PRD-Stationary Engineers And Boiler Operators,240,26943
+2024,40–54,8640,"PRD-Chemical Processing Machine Setters, Operators, And Tenders",193,18598
+2024,40–54,8650,"PRD-Crushing, Grinding, Polishing, Mixing, And Blending Workers",166,19350
+2024,40–54,8710,PRD-Cutting Workers,144,16401
+2024,40–54,8740,"PRD-Inspectors, Testers, Sorters, Samplers, And Weighers",1745,191412
+2024,40–54,8760,PRD-Dental And Ophthalmic Laboratory Technicians And Medical Appliance Technicians,178,21173
+2024,40–54,8800,PRD-Packaging And Filling Machine Operators And Tenders,531,68357
+2024,40–54,8810,PRD-Painting Workers,234,27642
+2024,40–54,8990,"PRD-Miscellaneous Production Workers, Including Equipment Operators And Tenders",3045,358361
+2024,40–54,9005,TRN-Supervisors Of Transportation And Material Moving Workers,376,45078
+2024,40–54,9130,TRN-Driver/Sales Workers And Truck Drivers,3757,426483
+2024,40–54,9150,"TRN-Motor Vehicle Operators, All Other",118,16430
+2024,40–54,9510,TRN-Crane And Tower Operators,164,20003
+2024,40–54,9600,TRN-Industrial Truck And Tractor Operators,1264,149402
+2024,40–54,9610,TRN-Cleaners Of Vehicles And Equipment,339,43303
+2024,40–54,9620,"TRN-Laborers And Freight, Stock, And Material Movers, Hand",3471,388890
+2024,40–54,9640,"TRN-Packers And Packagers, Hand",763,94021
+2024,40–54,9645,TRN-Stockers And Order Fillers,2827,316632
+2024,40–54,9720,TRN-Refuse And Recyclable Material Collectors,149,15506
+2024,40–54,9760,TRN-Other Material Moving Workers,112,13434
