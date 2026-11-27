@@ -1,0 +1,572 @@
+{
+  "round": "R31",
+  "registration_sha256": "34922d216ff705a7d18f2f1cb92b9cb47236d13e7f084e1a007f5bb0befbab39",
+  "case_spec_sha256": "41dafabf5fb1d9f655572304a81b82ae9c0c6d41a56941067b9df713fca924d6",
+  "opening_examples": [
+    {
+      "example": "官逢財生",
+      "world_library": {
+        "用": "官",
+        "相": "財"
+      },
+      "collected": {
+        "用": "官",
+        "相": "財"
+      }
+    },
+    {
+      "example": "財旺生官",
+      "world_library": {
+        "用": "官",
+        "相": "官"
+      },
+      "collected": {
+        "用": "財",
+        "相": "官"
+      }
+    },
+    {
+      "example": "煞逢食制",
+      "world_library": {
+        "用": "煞",
+        "相": "食"
+      },
+      "collected": {
+        "用": "煞",
+        "相": "食"
+      }
+    }
+  ],
+  "edition_and_case_counts": [
+    2,
+    7
+  ],
+  "cases": {
+    "officer_with_ren": {
+      "world_library": {
+        "month_as_printed": "酉",
+        "month_is_branch": true,
+        "visible_stem_roles": {
+          "丁": "伤官",
+          "壬": "偏印"
+        },
+        "fixed_visible_positions": {},
+        "compatible_sexagenary_combinations": 144,
+        "pdf_pages": {
+          "world_library": [
+            39
+          ],
+          "collected": [
+            32
+          ]
+        },
+        "month_hidden_stems": {
+          "辛": "正官"
+        },
+        "month_main_role": "正官",
+        "five_combination_local_reading": {
+          "pair": "壬丁",
+          "ordered_actor_target_pairs": [
+            "丁辛"
+          ],
+          "active_without_binder": [
+            true
+          ],
+          "active_with_binder": [
+            false
+          ]
+        }
+      },
+      "collected": {
+        "month_as_printed": "酉",
+        "month_is_branch": true,
+        "visible_stem_roles": {
+          "丁": "伤官",
+          "壬": "偏印"
+        },
+        "fixed_visible_positions": {},
+        "compatible_sexagenary_combinations": 144,
+        "pdf_pages": {
+          "world_library": [
+            39
+          ],
+          "collected": [
+            32
+          ]
+        },
+        "month_hidden_stems": {
+          "辛": "正官"
+        },
+        "month_main_role": "正官",
+        "five_combination_local_reading": {
+          "pair": "壬丁",
+          "ordered_actor_target_pairs": [
+            "丁辛"
+          ],
+          "active_without_binder": [
+            true
+          ],
+          "active_with_binder": [
+            false
+          ]
+        }
+      }
+    },
+    "wealth_with_ji": {
+      "world_library": {
+        "month_as_printed": "子",
+        "month_is_branch": true,
+        "visible_stem_roles": {
+          "甲": "七杀",
+          "己": "劫财"
+        },
+        "fixed_visible_positions": {},
+        "compatible_sexagenary_combinations": 144,
+        "pdf_pages": {
+          "world_library": [
+            39,
+            40
+          ],
+          "collected": [
+            32
+          ]
+        },
+        "month_hidden_stems": {
+          "癸": "正财"
+        },
+        "month_main_role": "正财",
+        "five_combination_local_reading": {
+          "pair": "己甲",
+          "ordered_actor_target_pairs": [
+            "甲戊"
+          ],
+          "active_without_binder": [
+            true
+          ],
+          "active_with_binder": [
+            false
+          ]
+        }
+      },
+      "collected": {
+        "month_as_printed": "子",
+        "month_is_branch": true,
+        "visible_stem_roles": {
+          "甲": "七杀",
+          "己": "劫财"
+        },
+        "fixed_visible_positions": {},
+        "compatible_sexagenary_combinations": 144,
+        "pdf_pages": {
+          "world_library": [
+            39,
+            40
+          ],
+          "collected": [
+            32
+          ]
+        },
+        "month_hidden_stems": {
+          "癸": "正财"
+        },
+        "month_main_role": "正财",
+        "five_combination_local_reading": {
+          "pair": "己甲",
+          "ordered_actor_target_pairs": [
+            "甲戊"
+          ],
+          "active_without_binder": [
+            true
+          ],
+          "active_with_binder": [
+            false
+          ]
+        }
+      }
+    },
+    "killing_with_wu": {
+      "world_library": {
+        "month_as_printed": "酉",
+        "month_is_branch": true,
+        "visible_stem_roles": {
+          "丁": "食神",
+          "癸": "偏印",
+          "戊": "正财"
+        },
+        "fixed_visible_positions": {
+          "year": "丁",
+          "month": "癸",
+          "hour": "戊"
+        },
+        "compatible_sexagenary_combinations": 0,
+        "pdf_pages": {
+          "world_library": [
+            40
+          ],
+          "collected": [
+            32
+          ]
+        },
+        "month_pillar_from_stated_year_stem": "己酉",
+        "month_hidden_stems": {
+          "辛": "七杀"
+        },
+        "month_main_role": "七杀",
+        "five_combination_local_reading": {
+          "pair": "戊癸",
+          "ordered_actor_target_pairs": [
+            "癸丁",
+            "丁辛"
+          ],
+          "active_without_binder": [
+            true,
+            false
+          ],
+          "active_with_binder": [
+            false,
+            true
+          ]
+        }
+      },
+      "collected": {
+        "month_as_printed": "酉",
+        "month_is_branch": true,
+        "visible_stem_roles": {
+          "丁": "食神",
+          "癸": "偏印",
+          "戊": "正财"
+        },
+        "fixed_visible_positions": {
+          "year": "丁",
+          "month": "癸",
+          "hour": "戊"
+        },
+        "compatible_sexagenary_combinations": 0,
+        "pdf_pages": {
+          "world_library": [
+            40
+          ],
+          "collected": [
+            32
+          ]
+        },
+        "month_pillar_from_stated_year_stem": "己酉",
+        "month_hidden_stems": {
+          "辛": "七杀"
+        },
+        "month_main_role": "七杀",
+        "five_combination_local_reading": {
+          "pair": "戊癸",
+          "ordered_actor_target_pairs": [
+            "癸丁",
+            "丁辛"
+          ],
+          "active_without_binder": [
+            true,
+            false
+          ],
+          "active_with_binder": [
+            false,
+            true
+          ]
+        }
+      }
+    },
+    "hai_wood_meeting": {
+      "world_library": {
+        "month_as_printed": "亥",
+        "month_is_branch": true,
+        "visible_stem_roles": {
+          "丙": "正财"
+        },
+        "fixed_visible_positions": {},
+        "compatible_sexagenary_combinations": 22,
+        "pdf_pages": {
+          "world_library": [
+            40
+          ],
+          "collected": [
+            32
+          ]
+        },
+        "month_hidden_stems": {
+          "壬": "劫财",
+          "甲": "伤官"
+        },
+        "month_main_role": "劫财",
+        "meeting_premise": {
+          "element": "木",
+          "all_named_branches_present": true,
+          "complete_after_each_branch_removal": {
+            "卯": false,
+            "未": false
+          }
+        },
+        "generation_example": "癸乙丙"
+      },
+      "collected": {
+        "month_as_printed": "亥",
+        "month_is_branch": true,
+        "visible_stem_roles": {
+          "丙": "正财"
+        },
+        "fixed_visible_positions": {},
+        "compatible_sexagenary_combinations": 22,
+        "pdf_pages": {
+          "world_library": [
+            40
+          ],
+          "collected": [
+            32
+          ]
+        },
+        "month_hidden_stems": {
+          "壬": "劫财",
+          "甲": "伤官"
+        },
+        "month_main_role": "劫财",
+        "meeting_premise": {
+          "element": "木",
+          "all_named_branches_present": true,
+          "complete_after_each_branch_removal": {
+            "卯": false,
+            "未": false
+          }
+        },
+        "generation_example": "癸乙丙"
+      }
+    },
+    "shen_water_meeting": {
+      "world_library": {
+        "month_as_printed": "甲",
+        "month_is_branch": false,
+        "visible_stem_roles": {},
+        "fixed_visible_positions": {},
+        "compatible_sexagenary_combinations": 0,
+        "pdf_pages": {
+          "world_library": [
+            40
+          ],
+          "collected": [
+            32,
+            33
+          ]
+        },
+        "meeting_premise": null
+      },
+      "collected": {
+        "month_as_printed": "申",
+        "month_is_branch": true,
+        "visible_stem_roles": {
+          "癸": "伤官"
+        },
+        "fixed_visible_positions": {},
+        "compatible_sexagenary_combinations": 22,
+        "pdf_pages": {
+          "world_library": [
+            40
+          ],
+          "collected": [
+            32,
+            33
+          ]
+        },
+        "month_hidden_stems": {
+          "庚": "比肩",
+          "壬": "食神",
+          "戊": "偏印"
+        },
+        "month_main_role": "比肩",
+        "meeting_premise": {
+          "element": "水",
+          "all_named_branches_present": true,
+          "complete_after_each_branch_removal": {
+            "子": false,
+            "辰": false
+          }
+        },
+        "generation_example": "庚癸",
+        "visible_water_month_roots": {
+          "same_stem": false,
+          "same_element": [
+            "壬"
+          ]
+        }
+      }
+    },
+    "officer_support_bound": {
+      "world_library": {
+        "month_as_printed": "酉",
+        "month_is_branch": true,
+        "visible_stem_roles": {
+          "丁": "伤官",
+          "癸": "正印",
+          "戊": "偏财"
+        },
+        "fixed_visible_positions": {},
+        "compatible_sexagenary_combinations": 0,
+        "pdf_pages": {
+          "world_library": [
+            40
+          ],
+          "collected": [
+            33
+          ]
+        },
+        "month_hidden_stems": {
+          "辛": "正官"
+        },
+        "month_main_role": "正官",
+        "five_combination_local_reading": {
+          "pair": "戊癸",
+          "ordered_actor_target_pairs": [
+            "癸丁",
+            "丁辛"
+          ],
+          "active_without_binder": [
+            true,
+            false
+          ],
+          "active_with_binder": [
+            false,
+            true
+          ]
+        }
+      },
+      "collected": {
+        "month_as_printed": "酉",
+        "month_is_branch": true,
+        "visible_stem_roles": {
+          "丁": "伤官",
+          "癸": "正印",
+          "戊": "偏财"
+        },
+        "fixed_visible_positions": {},
+        "compatible_sexagenary_combinations": 0,
+        "pdf_pages": {
+          "world_library": [
+            40
+          ],
+          "collected": [
+            33
+          ]
+        },
+        "month_hidden_stems": {
+          "辛": "正官"
+        },
+        "month_main_role": "正官",
+        "five_combination_local_reading": {
+          "pair": "戊癸",
+          "ordered_actor_target_pairs": [
+            "癸丁",
+            "丁辛"
+          ],
+          "active_without_binder": [
+            true,
+            false
+          ],
+          "active_with_binder": [
+            false,
+            true
+          ]
+        }
+      }
+    },
+    "wealth_support_bound": {
+      "world_library": {
+        "month_as_printed": "酉",
+        "month_is_branch": true,
+        "visible_stem_roles": {
+          "癸": "七杀",
+          "己": "食神",
+          "甲": "正印"
+        },
+        "fixed_visible_positions": {},
+        "compatible_sexagenary_combinations": 72,
+        "pdf_pages": {
+          "world_library": [
+            40
+          ],
+          "collected": [
+            33
+          ]
+        },
+        "month_hidden_stems": {
+          "辛": "偏财"
+        },
+        "month_main_role": "偏财",
+        "five_combination_local_reading": {
+          "pair": "甲己",
+          "ordered_actor_target_pairs": [
+            "己癸",
+            "癸丁"
+          ],
+          "active_without_binder": [
+            true,
+            false
+          ],
+          "active_with_binder": [
+            false,
+            true
+          ]
+        },
+        "generation_example": "己辛"
+      },
+      "collected": {
+        "month_as_printed": "酉",
+        "month_is_branch": true,
+        "visible_stem_roles": {
+          "癸": "七杀",
+          "己": "食神",
+          "甲": "正印"
+        },
+        "fixed_visible_positions": {},
+        "compatible_sexagenary_combinations": 72,
+        "pdf_pages": {
+          "world_library": [
+            40
+          ],
+          "collected": [
+            33
+          ]
+        },
+        "month_hidden_stems": {
+          "辛": "偏财"
+        },
+        "month_main_role": "偏财",
+        "five_combination_local_reading": {
+          "pair": "甲己",
+          "ordered_actor_target_pairs": [
+            "己癸",
+            "癸丁"
+          ],
+          "active_without_binder": [
+            true,
+            false
+          ],
+          "active_with_binder": [
+            false,
+            true
+          ]
+        },
+        "generation_example": "己辛"
+      }
+    }
+  },
+  "verification": {
+    "two_source_copies_for_each_edition_match": true,
+    "complete_sexagenary_set_equality_across_two_implementations": true,
+    "five_combination_with_and_without_binder_examples": 5,
+    "branch_removal_checks": 4,
+    "shared_calendar_conventions": [
+      "sexagenary cycle",
+      "five tigers",
+      "five rats"
+    ],
+    "conditions_held_fixed": [
+      "local binding precedence",
+      "specified stem and branch roles"
+    ],
+    "actual_birth_calendar_realization_checked": false
+  }
+}
