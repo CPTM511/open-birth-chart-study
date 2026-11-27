@@ -1,0 +1,96 @@
+{
+  "round": "R29",
+  "registration_sha256": "fe80c59234ca1b652df3e34613fcfd2d4cf140c2d3172068579774e04c7b12cc",
+  "source_sha256": "467f8b2b22bc92e5752e9c3de1be7d46fec08fbc8cd6efdab1c63f8fe9681a13",
+  "reference_rate": 0.03214942848730289,
+  "system_order": [
+    "bazi",
+    "ziwei_doushu",
+    "qizheng_siyu",
+    "western_astrology"
+  ],
+  "fixed_sample_no_population_inference": true,
+  "estimate": {
+    "brazil2006": {
+      "records": 2000,
+      "changed_clocks": 1841,
+      "whole_hour_original": 159,
+      "rounded_across_midnight": 30,
+      "record_years": 80000,
+      "joint_rate_original": 0.03214942848730289,
+      "joint_rate_rounded": 0.03211653653863952,
+      "rounded_minus_original_pp": -0.0032891948663375456,
+      "joint_lost_rate": 0.014290150694390118,
+      "joint_gained_rate": 0.014257258745726743,
+      "joint_reversal_rate": 0.02854740944011686,
+      "records_with_any_reversal_rate": 0.5734475982340946,
+      "system_reversal_rates": [
+        0.029666901657207645,
+        0.10088785255138068,
+        0.0445063102655434,
+        0.18088681555458153
+      ]
+    },
+    "brisbane1997": {
+      "records": 44,
+      "changed_clocks": 44,
+      "whole_hour_original": 0,
+      "rounded_across_midnight": 1,
+      "record_years": 1760,
+      "joint_rate_original": 0.023295454545454543,
+      "joint_rate_rounded": 0.03295454545454545,
+      "rounded_minus_original_pp": 0.9659090909090908,
+      "joint_lost_rate": 0.009659090909090909,
+      "joint_gained_rate": 0.019318181818181818,
+      "joint_reversal_rate": 0.028977272727272727,
+      "records_with_any_reversal_rate": 0.5,
+      "system_reversal_rates": [
+        0.030113636363636367,
+        0.1409090909090909,
+        0.053977272727272735,
+        0.1806818181818182
+      ]
+    }
+  },
+  "verification": {
+    "different_downloads_byte_match": true,
+    "rerun_score_file_sha256": "1533a07c9f680f78916374f8293b654c026c563d3e137846f9c857b5b0251f4f",
+    "actual_four_system_trajectories_per_run": 3929,
+    "brazil_original_vs_frozen_max_score_difference": 0.0,
+    "all_threshold_decisions_byte_match_integer_ranks": true,
+    "exact_paired_estimates": {
+      "brazil2006": {
+        "joint_rate_original": "92868924322576875851429/2888664859447021204149600",
+        "joint_rate_rounded": "241583262958442323978103251/7522083294000043215605558400",
+        "joint_lost_rate": "6718231487938437747224999/470130205875002700975347400",
+        "joint_gained_rate": "5106870849022244915075339/358194442571430629314550400",
+        "joint_reversal_rate": "214735991636482147172182103/7522083294000043215605558400",
+        "records_with_any_reversal_rate": "1797300249442138209423701/3134201372500018006502316",
+        "system_0": "11745100281074943437761793/395899120736844379768713600",
+        "system_1": "22320200889537639194656349/221237743941177741635457600",
+        "system_2": "111593390975342204236211593/2507361098000014405201852800",
+        "system_3": "97188978099141614657949151/537291663857145943971825600",
+        "rounded_minus_original_pp": "-5753859942973505558555/1749321696279079817582688"
+      },
+      "brisbane1997": {
+        "joint_rate_original": "41/1760",
+        "joint_rate_rounded": "29/880",
+        "joint_lost_rate": "17/1760",
+        "joint_gained_rate": "17/880",
+        "joint_reversal_rate": "51/1760",
+        "records_with_any_reversal_rate": "1/2",
+        "system_0": "53/1760",
+        "system_1": "31/220",
+        "system_2": "19/352",
+        "system_3": "159/880",
+        "rounded_minus_original_pp": "85/88"
+      }
+    },
+    "software": {
+      "platform": "Linux-6.8.0-134-generic-x86_64-with-glibc2.36",
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "node": "v24.22.3"
+    }
+  }
+}

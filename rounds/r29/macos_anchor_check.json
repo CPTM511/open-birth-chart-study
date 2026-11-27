@@ -1,0 +1,26 @@
+{
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "brazil_original_records_checked": 2000,
+  "system_order": [
+    "bazi",
+    "ziwei_doushu",
+    "qizheng_siyu",
+    "western_astrology"
+  ],
+  "max_abs_primary_score_difference_by_system": [
+    0.0,
+    0.0,
+    0.0,
+    1.619594736101959e-11
+  ],
+  "system_age_threshold_decisions_changed": [
+    0,
+    0,
+    0,
+    2
+  ],
+  "joint_age_threshold_decisions_changed": 0,
+  "registered_tolerance": 1e-12,
+  "scoring_runs_match_each_other": true,
+  "passed_registered_original_score_and_flag_gate": false
+}

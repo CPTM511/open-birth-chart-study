@@ -17,3 +17,12 @@
 ## R27 历史登记来源复核
 
 阿姆斯特丹市档案馆全宗 5009 的 1901 年民事登记原簿已实际取得并完成评分。14 卷共 2,611 幅扫描进入抽样框，抽取并复核 42 幅，纳入 237 条。具备实际出生日期、整点钟时、市内发生地及登记性别。该市历史档案拓展了地理来源，近代第三地资料仍待补足。[市档案馆目录](https://id.archief.amsterdam/80ae8641-6dbd-40ae-e053-b784100ad8d3) · [R27 结果和复算](../R27.md)
+
+## R29 分钟来源及近代字段复核
+
+| 来源 | 已核到的字段 | 在研究中的用途 |
+| --- | --- | --- |
+| 布里斯班 Mater Mothers’ Hospital 教学数据 | 美国统计学会 JSE 发布 1997 年 12 月 18 日的 44 条记录，出生钟点到分钟、登记性别和单一医院可从出版物对齐。原报道选取当时该院的单日出生纪录。 | 纳入 R29 作同一记录的整点取整测试。单日资料只支持院内当日描述。[出版物](https://doi.org/10.1080/10691898.1999.12131281) · [原数据字段](https://jse.amstat.org/datasets/babyboom.txt) · [R29](../R29.md) |
+| 美国 NCHS | 2025 年公共版列 24 小时时分、出生年、月和星期，未公布当月第几日及实际发生县。2019 版受限字典有发生州县和时分，同样没有当月第几日。另有完整生日的受限资料，目录明示须经批准，通过研究数据中心访问，所列地理以居住地描述。 | 公开版与所核受限字典各有空缺。申请前应确认完整生日版本能否同时提供发生县、出生时分和性别，以及能否在管控环境重算。[2025 公开字典](https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/DVS/natality/UserGuide2025.pdf) · [2019 受限字典](https://www.cdc.gov/nchs/data/nvss/2019-natality-file-layout.pdf) · [完整生日目录](https://data.cdc.gov/National-Center-for-Health-Statistics/NCHS-All-County-Natality-File-with-Exact-Date-of-B/8kbq-i8ii) |
+| 哥伦比亚 DANE 2024 活产 | 出生证明模板收完整日期、时分、地点和性别。2024 公开活产字典列出生地行政区、性别、年和月，缺本次出生的日和钟点。 | 可研究已公开的年月和地区计数。逐条评分需另取得具有相应字段的合规资料。[原始表单](https://microdatos.dane.gov.co/index.php/catalog/732/download/21076/CNacidoVivo.pdf) · [2024 活产公开字典](https://microdatos.dane.gov.co/index.php/catalog/878/data-dictionary/F46?file_name=BD-EEVV-Nacimientos-2024) |
+| 捷克布尔诺 UHB 2010–2012 胎心资料 | 开放版从 9,164 份监测记录挑选 552 份，有新生儿性别和从监测到分娩的相对时长。公开头记录没有可用于本研究的实历出生日期和民用钟点。 | 可用于监测时长研究。对四体系模型缺少原始历日及钟点。[PhysioNet 源档案](https://physionet.org/content/ctu-uhb-ctgdb/1.0.0/) |
