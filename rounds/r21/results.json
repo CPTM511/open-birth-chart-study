@@ -1,0 +1,314 @@
+{
+  "registration_sha256": "313411489e84189618f65d989c365d96aa4f297ce0c43503be0caa64414a0bba",
+  "r8_officer_as_month_candidate": 3,
+  "r8_officer_as_unique_registration_candidate": 1,
+  "r21_known_case_condition_matches": 6,
+  "known_classical_examples": 6,
+  "cases": [
+    {
+      "id": "01",
+      "pillars": [
+        "甲申",
+        "壬申",
+        "乙巳",
+        "戊寅"
+      ],
+      "body_pages": [
+        65
+      ],
+      "example_page": 98,
+      "expected": "财印隔位",
+      "r8_month_command": {
+        "base_hidden_stem": "庚",
+        "exposed_candidates": [
+          "壬",
+          "戊"
+        ],
+        "selected_candidate": null,
+        "candidate_ten_god": null,
+        "pattern_candidate": null,
+        "selection_status": "competing_exposed_candidates",
+        "month_in_complete_trines": [],
+        "yongshen_definition": "month-command functional role, not a universally favorable balancing element",
+        "unique_month_candidate_under_registered_selector": false,
+        "unique_yongshen_adjudicated": false
+      },
+      "r8_active_officer_clauses": [],
+      "r21": {
+        "monthly_officer_stems": [
+          "庚"
+        ],
+        "officer_context": true,
+        "visible_roles": {
+          "year": "劫财",
+          "month": "正印",
+          "hour": "正财"
+        },
+        "adjacent_nonday_stem_pairs": [],
+        "source_conditions": [
+          "财印隔位"
+        ],
+        "unique_yongshen": null,
+        "transformation_effectiveness": null
+      },
+      "source_condition_matched": true
+    },
+    {
+      "id": "02",
+      "pillars": [
+        "壬戌",
+        "丁未",
+        "戊申",
+        "乙卯"
+      ],
+      "body_pages": [
+        65,
+        66
+      ],
+      "example_page": 98,
+      "expected": "财印相合",
+      "r8_month_command": {
+        "base_hidden_stem": "己",
+        "exposed_candidates": [
+          "丁",
+          "乙"
+        ],
+        "selected_candidate": null,
+        "candidate_ten_god": null,
+        "pattern_candidate": null,
+        "selection_status": "competing_exposed_candidates",
+        "month_in_complete_trines": [],
+        "yongshen_definition": "month-command functional role, not a universally favorable balancing element",
+        "unique_month_candidate_under_registered_selector": false,
+        "unique_yongshen_adjudicated": false
+      },
+      "r8_active_officer_clauses": [],
+      "r21": {
+        "monthly_officer_stems": [
+          "乙"
+        ],
+        "officer_context": true,
+        "visible_roles": {
+          "year": "偏财",
+          "month": "正印",
+          "hour": "正官"
+        },
+        "adjacent_nonday_stem_pairs": [
+          [
+            "month",
+            "year"
+          ]
+        ],
+        "source_conditions": [
+          "财印相合"
+        ],
+        "unique_yongshen": null,
+        "transformation_effectiveness": null
+      },
+      "source_condition_matched": true
+    },
+    {
+      "id": "03",
+      "pillars": [
+        "乙卯",
+        "丁亥",
+        "丁未",
+        "庚戌"
+      ],
+      "body_pages": [
+        66
+      ],
+      "example_page": 99,
+      "expected": "化官为印的前提",
+      "r8_month_command": {
+        "base_hidden_stem": "壬",
+        "exposed_candidates": [],
+        "selected_candidate": "壬",
+        "candidate_ten_god": "正官",
+        "pattern_candidate": "正官",
+        "selection_status": "transformation_premises_require_adjudication",
+        "month_in_complete_trines": [
+          "亥卯未"
+        ],
+        "yongshen_definition": "month-command functional role, not a universally favorable balancing element",
+        "unique_month_candidate_under_registered_selector": false,
+        "unique_yongshen_adjudicated": false
+      },
+      "r8_active_officer_clauses": [
+        "BZC01"
+      ],
+      "r21": {
+        "monthly_officer_stems": [
+          "壬"
+        ],
+        "officer_context": true,
+        "visible_roles": {
+          "year": "偏印",
+          "month": "比肩",
+          "hour": "正财"
+        },
+        "adjacent_nonday_stem_pairs": [],
+        "source_conditions": [
+          "化官为印的前提"
+        ],
+        "unique_yongshen": null,
+        "transformation_effectiveness": null
+      },
+      "source_condition_matched": true
+    },
+    {
+      "id": "04",
+      "pillars": [
+        "己卯",
+        "辛未",
+        "壬寅",
+        "辛亥"
+      ],
+      "body_pages": [
+        66
+      ],
+      "example_page": 99,
+      "expected": "木伤官与双金印",
+      "r8_month_command": {
+        "base_hidden_stem": "己",
+        "exposed_candidates": [
+          "己"
+        ],
+        "selected_candidate": "己",
+        "candidate_ten_god": "正官",
+        "pattern_candidate": "正官",
+        "selection_status": "transformation_premises_require_adjudication",
+        "month_in_complete_trines": [
+          "亥卯未"
+        ],
+        "yongshen_definition": "month-command functional role, not a universally favorable balancing element",
+        "unique_month_candidate_under_registered_selector": false,
+        "unique_yongshen_adjudicated": false
+      },
+      "r8_active_officer_clauses": [
+        "BZC01"
+      ],
+      "r21": {
+        "monthly_officer_stems": [
+          "己"
+        ],
+        "officer_context": true,
+        "visible_roles": {
+          "year": "正官",
+          "month": "正印",
+          "hour": "正印"
+        },
+        "adjacent_nonday_stem_pairs": [],
+        "source_conditions": [
+          "木伤官与双金印"
+        ],
+        "unique_yongshen": null,
+        "transformation_effectiveness": null
+      },
+      "source_condition_matched": true
+    },
+    {
+      "id": "05",
+      "pillars": [
+        "庚寅",
+        "乙酉",
+        "甲子",
+        "戊辰"
+      ],
+      "body_pages": [
+        66
+      ],
+      "example_page": 99,
+      "expected": "比劫合杀候选",
+      "r8_month_command": {
+        "base_hidden_stem": "辛",
+        "exposed_candidates": [],
+        "selected_candidate": "辛",
+        "candidate_ten_god": "正官",
+        "pattern_candidate": "正官",
+        "selection_status": "base_month_candidate",
+        "month_in_complete_trines": [],
+        "yongshen_definition": "month-command functional role, not a universally favorable balancing element",
+        "unique_month_candidate_under_registered_selector": true,
+        "unique_yongshen_adjudicated": false
+      },
+      "r8_active_officer_clauses": [],
+      "r21": {
+        "monthly_officer_stems": [
+          "辛"
+        ],
+        "officer_context": true,
+        "visible_roles": {
+          "year": "七杀",
+          "month": "劫财",
+          "hour": "偏财"
+        },
+        "adjacent_nonday_stem_pairs": [
+          [
+            "month",
+            "year"
+          ]
+        ],
+        "source_conditions": [
+          "比劫合杀候选"
+        ],
+        "unique_yongshen": null,
+        "transformation_effectiveness": null
+      },
+      "source_condition_matched": true
+    },
+    {
+      "id": "06",
+      "pillars": [
+        "丁丑",
+        "壬寅",
+        "己巳",
+        "丙寅"
+      ],
+      "body_pages": [
+        66,
+        67
+      ],
+      "example_page": 99,
+      "expected": "巳丑伤官与财印分工",
+      "r8_month_command": {
+        "base_hidden_stem": "甲",
+        "exposed_candidates": [
+          "丙"
+        ],
+        "selected_candidate": "丙",
+        "candidate_ten_god": "正印",
+        "pattern_candidate": "正印",
+        "selection_status": "base_month_candidate",
+        "month_in_complete_trines": [],
+        "yongshen_definition": "month-command functional role, not a universally favorable balancing element",
+        "unique_month_candidate_under_registered_selector": true,
+        "unique_yongshen_adjudicated": false
+      },
+      "r8_active_officer_clauses": [],
+      "r21": {
+        "monthly_officer_stems": [
+          "甲"
+        ],
+        "officer_context": true,
+        "visible_roles": {
+          "year": "偏印",
+          "month": "正财",
+          "hour": "正印"
+        },
+        "adjacent_nonday_stem_pairs": [
+          [
+            "month",
+            "year"
+          ]
+        ],
+        "source_conditions": [
+          "巳丑伤官与财印分工"
+        ],
+        "unique_yongshen": null,
+        "transformation_effectiveness": null
+      },
+      "source_condition_matched": true
+    }
+  ]
+}
