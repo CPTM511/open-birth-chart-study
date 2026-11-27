@@ -1,0 +1,11 @@
+{
+  "different_fetch_directories": true,
+  "receipt_created_utc": [
+    "2026-11-27T18:18:25.626179+00:00",
+    "2026-11-27T18:22:01.948963+00:00"
+  ],
+  "ordered_canvas_rows_matching": 2667,
+  "frame_scans_matching": 2611,
+  "selected_image_bytes_matching": 42,
+  "separately_fetched_receipt_sha256": "0fbfe307caba8ab5e4adbe82efcde05a5a106da1c42b0514b39c398bbd81d49d"
+}

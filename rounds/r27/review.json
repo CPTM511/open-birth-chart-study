@@ -1,0 +1,25 @@
+{
+  "reference_rate_exact": "92868924322576875851429/2888664859447021204149600",
+  "scoring_variants": {
+    "base": {
+      "exact_joint_rate": "62357/1759440"
+    },
+    "clock_-30": {
+      "exact_joint_rate": "20683/586480"
+    },
+    "clock_+30": {
+      "exact_joint_rate": "21251/586480"
+    }
+  },
+  "candidate_records_checked": 237,
+  "scans_checked": 42,
+  "primary_whole_scan_variance_cross_check": true,
+  "independent_calculation": "Separate Python integer rank and pairwise scan formulas",
+  "shared_inputs": "Same source transcription and four-model scores",
+  "finite_population_and_empty_scan_fixtures": "passed",
+  "second_engine_run": {
+    "profiles_and_scoring_receipt_byte_match": true,
+    "trajectories": 711,
+    "shared_inputs": "Same transcriptions, scoring engines and platform"
+  }
+}

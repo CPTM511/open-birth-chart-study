@@ -1,0 +1,104 @@
+{
+  "round": "R27",
+  "reference": "Brazil 2006, frozen weighted R10 profiles",
+  "reference_rate": 0.03214942848730289,
+  "sample_records": 237,
+  "modeled_years_per_record": 40,
+  "modeled_calendar_years": [
+    1921,
+    1961
+  ],
+  "systems": [
+    "bazi",
+    "ziwei_doushu",
+    "qizheng_siyu",
+    "western_astrology"
+  ],
+  "input_resolution": {
+    "whole_clock_hours": 237,
+    "different_minute_from_whole_hour": 0,
+    "same_city_birth_clock_and_sex_extra_records": 11,
+    "location": "Amsterdam city reference point"
+  },
+  "estimate": {
+    "base": {
+      "joint_rate": 0.0354413904424135,
+      "delta_pp": 0.3291961955110605,
+      "joint_rate_unweighted": 0.03575949367088608,
+      "conditional_ci95_delta_pp": [
+        -0.213360025422076,
+        0.871752416444197
+      ],
+      "design_se_pp": 0.26486737419673057,
+      "degrees_of_freedom": 28,
+      "age_band_joint_rates": [
+        0.024907925248942846,
+        0.02625380802982767,
+        0.02695175737734733,
+        0.06365207111353613
+      ],
+      "system_raw_means": [
+        0.08839119265220749,
+        0.16798157368253533,
+        0.17546726723654488,
+        0.02133834598247826
+      ],
+      "unweighted_joint_years": 339,
+      "interval_excludes_0_30pp_absolute_difference": false
+    },
+    "clock_-30": {
+      "joint_rate": 0.03526633474287273,
+      "delta_to_brazil_pp": 0.3116906255569839,
+      "change_from_base_pp": -0.017505569954076594
+    },
+    "clock_+30": {
+      "joint_rate": 0.0362348247169554,
+      "delta_to_brazil_pp": 0.40853962296525037,
+      "change_from_base_pp": 0.07934342745418987
+    }
+  },
+  "scoring_receipt": {
+    "input": {
+      "record_counts": {
+        "year": 3,
+        "eligible": 237,
+        "ack": 9
+      },
+      "images_read": 42,
+      "documents_read": 249,
+      "ordinary_birth_acts": 240,
+      "two_read_disagreements": 11,
+      "two_read_disagreements_act_number": 6,
+      "two_read_disagreements_record_fields": 5,
+      "ambiguous_ordinary_acts_after_adjudication": 0,
+      "same_transcriber": true,
+      "source_sha256": "5befab126ec2e2ddc350328913aeac60f99b8435095a3c203510c3715189c1ea",
+      "private_input_sha256": {
+        "read-a.txt": "af1129770524d7991feeaf1bd4ea0210c165e2eaff59e14eed8116c04e855af4",
+        "read-b.txt": "4d994a7d63116b2386acb3a3a447223d01242fc327ec9b3e6bc6e1b3d3f8c615",
+        "adjudicated.txt": "cc00183b7eeb97e42115206e53be90a0e78f755c1264d723b1a85eb93a535538"
+      }
+    },
+    "work_units": 711,
+    "status_counts": {
+      "computed": 711
+    },
+    "profiles_sha256": "9ce9b3c82bdde0eca5a80ffd673e17bef60a835ae8ce362f98c1be4722168213",
+    "frozen_scoring_files_sha256": {
+      "rounds/r10/methods/run_profiles.py": "cbac2cacb8f9e07e916821251a36b4ca2e95b7bf6c176eb5f81ab083621d9e0d",
+      "rounds/r10/methods/r10_io.py": "7112302cba5c320fbd71f3aad8914be5e81372998735614c9c52446dd21f69cd",
+      "rounds/r10/methods/open_birth_chart_r10/__init__.py": "667d4a15b970b851e20d17510224670c14646cfb6d5a1e388ca6b9cc6da8bf41",
+      "rounds/r10/methods/open_birth_chart_r10/astronomy.py": "ae6e824a8cb9b605a4ee9a836022ea5370b9ce45caa57e2081c65bf70ec5544b",
+      "rounds/r10/methods/open_birth_chart_r10/bazi_engine.py": "417b2f296b38964ac9df02f3094d8b3a3d7e874db0f26959c677c52a34db6406",
+      "rounds/r10/methods/open_birth_chart_r10/qizheng_engine.py": "d50d0c7de06ca16cb0cf19557fd51b65f240363c68e7ce6bb9daa8f483c6123d",
+      "rounds/r10/methods/open_birth_chart_r10/western_engine.py": "651c791cdaa20215c04214edda13c105dd9d111335585cca6d07d235f9dbe8a1",
+      "rounds/r10/methods/open_birth_chart_r10/ziwei_bridge.cjs": "3ca9a898ddd860f8e5faa16c5655367e221a949c053d114bbaa9382e96b59b4e",
+      "rounds/r10/methods/open_birth_chart_r10/ziwei_engine.py": "84f0b0580fb1eb687bf36cc66bc8e46eb96f67f7436a0ef6cae64e144c572d47"
+    },
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "os_arch": "macOS-27.0.1-arm64-arm-64bit",
+    "node": "v24.22.3"
+  },
+  "external_outcomes_used": false
+}
