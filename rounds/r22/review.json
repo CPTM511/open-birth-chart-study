@@ -1,0 +1,17 @@
+{
+  "source_artifacts_verified_by_sha256": 4,
+  "distinct_grid_cells": 360,
+  "palace_hour_permutations_tested": 144,
+  "grid_cell_hour_lookups_tested": 4320,
+  "tested_switch_and_last_cell_pairs": 528,
+  "recorded_original_source_mismatches": 5,
+  "yuanshi_quarter_totals_arc_units": [
+    "1953/25",
+    "37643/400",
+    "1679/20",
+    "2727/25"
+  ],
+  "adult_printed_rate_rows_recomputed": 11,
+  "result_replay_byte_identical": true,
+  "scope": "Internal checks from the digitized sources. The continuous case was recomputed independently using local mansion spans and exact rational arithmetic. The three pale compound glyphs retain explicit reading notes."
+}

@@ -1,0 +1,1308 @@
+{
+  "registration_sha256": "4a88d6ebe94a5973fb31d52ca6ba3885d3324f2b4bbca7118289db3ec85024ba",
+  "transcription_sha256": "cd31319f0924c17cfded5f474d6efb0feec95a24748fb78467a0991272740450",
+  "version": "OBS-R22-QZ-DEGREE-1.0",
+  "grid_cell_count": 360,
+  "solar_palace_hour_combinations": 144,
+  "frame_cycle_units": {
+    "wikisource_san": "146103/400",
+    "shidian_er": "146103/400"
+  },
+  "gujin_transfers": [
+    {
+      "input": [
+        "子",
+        "虚",
+        6,
+        "酉"
+      ],
+      "printed": [
+        "午",
+        "星",
+        5
+      ],
+      "grid": {
+        "ming_palace": "午",
+        "solar_column": 15,
+        "ming_mansion": "星",
+        "ming_whole_degree": 6,
+        "first_change_nominal_age": 16
+      },
+      "grid_matches": false,
+      "adjacent_grid": [
+        "午",
+        "星",
+        5
+      ],
+      "continuous": {
+        "wikisource_san": {
+          "head": {
+            "source_arc_units": "1",
+            "source_in_solar_palace_arc_units": "1",
+            "target_palace_width_arc_units": "153513/5000",
+            "status": "computed",
+            "target_offset_interval_arc_units": [
+              "75281/5000",
+              "80281/5000"
+            ],
+            "target_lost_arc_units": "0",
+            "possible_mansion_labels": [
+              [
+                "星",
+                5
+              ],
+              [
+                "星",
+                6
+              ],
+              [
+                "张",
+                0
+              ]
+            ],
+            "possible_first_change_nominal_ages": [
+              16
+            ],
+            "interval_extends_beyond_age_rule": false
+          },
+          "tail": {
+            "source_arc_units": "1",
+            "source_in_solar_palace_arc_units": "1",
+            "target_palace_width_arc_units": "153513/5000",
+            "status": "computed",
+            "target_offset_interval_arc_units": [
+              "7523/500",
+              "8023/500"
+            ],
+            "target_lost_arc_units": "0",
+            "possible_mansion_labels": [
+              [
+                "星",
+                5
+              ],
+              [
+                "星",
+                6
+              ],
+              [
+                "张",
+                0
+              ]
+            ],
+            "possible_first_change_nominal_ages": [
+              16
+            ],
+            "interval_extends_beyond_age_rule": false
+          }
+        },
+        "shidian_er": {
+          "head": {
+            "source_arc_units": "1",
+            "source_in_solar_palace_arc_units": "1",
+            "target_palace_width_arc_units": "153513/5000",
+            "status": "computed",
+            "target_offset_interval_arc_units": [
+              "75281/5000",
+              "80281/5000"
+            ],
+            "target_lost_arc_units": "0",
+            "possible_mansion_labels": [
+              [
+                "星",
+                5
+              ],
+              [
+                "星",
+                6
+              ],
+              [
+                "张",
+                0
+              ]
+            ],
+            "possible_first_change_nominal_ages": [
+              16
+            ],
+            "interval_extends_beyond_age_rule": false
+          },
+          "tail": {
+            "source_arc_units": "1",
+            "source_in_solar_palace_arc_units": "1",
+            "target_palace_width_arc_units": "153513/5000",
+            "status": "computed",
+            "target_offset_interval_arc_units": [
+              "7523/500",
+              "8023/500"
+            ],
+            "target_lost_arc_units": "0",
+            "possible_mansion_labels": [
+              [
+                "星",
+                5
+              ],
+              [
+                "星",
+                6
+              ],
+              [
+                "张",
+                0
+              ]
+            ],
+            "possible_first_change_nominal_ages": [
+              16
+            ],
+            "interval_extends_beyond_age_rule": false
+          }
+        }
+      }
+    },
+    {
+      "input": [
+        "子",
+        "女",
+        3,
+        "酉"
+      ],
+      "printed": [
+        "午",
+        "柳",
+        4
+      ],
+      "grid": {
+        "ming_palace": "午",
+        "solar_column": 29,
+        "ming_mansion": "柳",
+        "ming_whole_degree": 5,
+        "first_change_nominal_age": 11
+      },
+      "grid_matches": false,
+      "adjacent_grid": [
+        "午",
+        "柳",
+        4
+      ],
+      "continuous": {
+        "wikisource_san": {
+          "head": {
+            "source_arc_units": "1",
+            "source_in_solar_palace_arc_units": "1",
+            "target_palace_width_arc_units": "153513/5000",
+            "status": "computed",
+            "target_offset_interval_arc_units": [
+              "4681/5000",
+              "9681/5000"
+            ],
+            "target_lost_arc_units": "0",
+            "possible_mansion_labels": [
+              [
+                "柳",
+                4
+              ],
+              [
+                "柳",
+                5
+              ]
+            ],
+            "possible_first_change_nominal_ages": [
+              11
+            ],
+            "interval_extends_beyond_age_rule": false
+          },
+          "tail": {
+            "source_arc_units": "1",
+            "source_in_solar_palace_arc_units": "1",
+            "target_palace_width_arc_units": "153513/5000",
+            "status": "computed",
+            "target_offset_interval_arc_units": [
+              "463/500",
+              "963/500"
+            ],
+            "target_lost_arc_units": "0",
+            "possible_mansion_labels": [
+              [
+                "柳",
+                4
+              ],
+              [
+                "柳",
+                5
+              ]
+            ],
+            "possible_first_change_nominal_ages": [
+              11
+            ],
+            "interval_extends_beyond_age_rule": false
+          }
+        },
+        "shidian_er": {
+          "head": {
+            "source_arc_units": "1",
+            "source_in_solar_palace_arc_units": "1",
+            "target_palace_width_arc_units": "153513/5000",
+            "status": "computed",
+            "target_offset_interval_arc_units": [
+              "4681/5000",
+              "9681/5000"
+            ],
+            "target_lost_arc_units": "0",
+            "possible_mansion_labels": [
+              [
+                "柳",
+                4
+              ],
+              [
+                "柳",
+                5
+              ]
+            ],
+            "possible_first_change_nominal_ages": [
+              11
+            ],
+            "interval_extends_beyond_age_rule": false
+          },
+          "tail": {
+            "source_arc_units": "1",
+            "source_in_solar_palace_arc_units": "1",
+            "target_palace_width_arc_units": "153513/5000",
+            "status": "computed",
+            "target_offset_interval_arc_units": [
+              "463/500",
+              "963/500"
+            ],
+            "target_lost_arc_units": "0",
+            "possible_mansion_labels": [
+              [
+                "柳",
+                4
+              ],
+              [
+                "柳",
+                5
+              ]
+            ],
+            "possible_first_change_nominal_ages": [
+              11
+            ],
+            "interval_extends_beyond_age_rule": false
+          }
+        }
+      }
+    }
+  ],
+  "gujin_limits": [
+    {
+      "printed_ming": [
+        "午",
+        "星",
+        5
+      ],
+      "printed_age": 15,
+      "grid_column": 16,
+      "grid_age": 15,
+      "grid_matches": true,
+      "continuous": {
+        "wikisource_san": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "153513/5000",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "3533/250",
+            "3783/250"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "星",
+              5
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            15,
+            16
+          ],
+          "interval_extends_beyond_age_rule": false
+        },
+        "shidian_er": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "153513/5000",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "3533/250",
+            "3783/250"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "星",
+              5
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            15,
+            16
+          ],
+          "interval_extends_beyond_age_rule": false
+        }
+      }
+    },
+    {
+      "printed_ming": [
+        "午",
+        "张",
+        11
+      ],
+      "printed_age": 20,
+      "grid_column": 4,
+      "grid_age": 19,
+      "grid_matches": false,
+      "continuous": {
+        "wikisource_san": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "153513/5000",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "13221/500",
+            "13721/500"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "张",
+              11
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            19,
+            20
+          ],
+          "interval_extends_beyond_age_rule": false
+        },
+        "shidian_er": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "153513/5000",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "13221/500",
+            "13721/500"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "张",
+              11
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            19,
+            20
+          ],
+          "interval_extends_beyond_age_rule": false
+        }
+      }
+    },
+    {
+      "printed_ming": [
+        "午",
+        "张",
+        12
+      ],
+      "printed_age": 20,
+      "grid_column": 3,
+      "grid_age": 20,
+      "grid_matches": true,
+      "continuous": {
+        "wikisource_san": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "153513/5000",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "13721/500",
+            "14221/500"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "张",
+              12
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            20
+          ],
+          "interval_extends_beyond_age_rule": false
+        },
+        "shidian_er": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "153513/5000",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "13721/500",
+            "14221/500"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "张",
+              12
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            20
+          ],
+          "interval_extends_beyond_age_rule": false
+        }
+      }
+    },
+    {
+      "printed_ming": [
+        "午",
+        "张",
+        13
+      ],
+      "printed_age": 20,
+      "grid_column": 2,
+      "grid_age": 20,
+      "grid_matches": true,
+      "continuous": {
+        "wikisource_san": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "153513/5000",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "14221/500",
+            "14721/500"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "张",
+              13
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            20
+          ],
+          "interval_extends_beyond_age_rule": false
+        },
+        "shidian_er": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "153513/5000",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "14221/500",
+            "14721/500"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "张",
+              13
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            20
+          ],
+          "interval_extends_beyond_age_rule": false
+        }
+      }
+    }
+  ],
+  "xingxue_zi_limits": [
+    {
+      "printed_ming": [
+        "子",
+        "女",
+        2
+      ],
+      "printed_age": 11,
+      "grid_column": 30,
+      "grid_age": 11,
+      "grid_matches": true,
+      "continuous": {
+        "wikisource_san": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "4681/5000",
+          "target_palace_width_arc_units": "38391/1250",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "0",
+            "4681/5000"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "女",
+              2
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            11
+          ],
+          "interval_extends_beyond_age_rule": false
+        },
+        "shidian_er": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "4681/5000",
+          "target_palace_width_arc_units": "38391/1250",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "0",
+            "4681/5000"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "女",
+              2
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            11
+          ],
+          "interval_extends_beyond_age_rule": false
+        }
+      }
+    },
+    {
+      "printed_ming": [
+        "子",
+        "女",
+        3
+      ],
+      "printed_age": 11,
+      "grid_column": 29,
+      "grid_age": 11,
+      "grid_matches": true,
+      "continuous": {
+        "wikisource_san": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "38391/1250",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "4681/5000",
+            "9681/5000"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "女",
+              3
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            11
+          ],
+          "interval_extends_beyond_age_rule": false
+        },
+        "shidian_er": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "38391/1250",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "4681/5000",
+            "9681/5000"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "女",
+              3
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            11
+          ],
+          "interval_extends_beyond_age_rule": false
+        }
+      }
+    },
+    {
+      "printed_ming": [
+        "子",
+        "女",
+        4
+      ],
+      "printed_age": 11,
+      "grid_column": 28,
+      "grid_age": 11,
+      "grid_matches": true,
+      "continuous": {
+        "wikisource_san": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "38391/1250",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "9681/5000",
+            "14681/5000"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "女",
+              4
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            11
+          ],
+          "interval_extends_beyond_age_rule": false
+        },
+        "shidian_er": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "38391/1250",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "9681/5000",
+            "14681/5000"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "女",
+              4
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            11
+          ],
+          "interval_extends_beyond_age_rule": false
+        }
+      }
+    },
+    {
+      "printed_ming": [
+        "子",
+        "女",
+        5
+      ],
+      "printed_age": 12,
+      "grid_column": 27,
+      "grid_age": 12,
+      "grid_matches": true,
+      "continuous": {
+        "wikisource_san": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "38391/1250",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "14681/5000",
+            "19681/5000"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "女",
+              5
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            11,
+            12
+          ],
+          "interval_extends_beyond_age_rule": false
+        },
+        "shidian_er": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "38391/1250",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "14681/5000",
+            "19681/5000"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "女",
+              5
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            11,
+            12
+          ],
+          "interval_extends_beyond_age_rule": false
+        }
+      }
+    },
+    {
+      "printed_ming": [
+        "子",
+        "女",
+        6
+      ],
+      "printed_age": 12,
+      "grid_column": 26,
+      "grid_age": 12,
+      "grid_matches": true,
+      "continuous": {
+        "wikisource_san": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "38391/1250",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "19681/5000",
+            "24681/5000"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "女",
+              6
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            12
+          ],
+          "interval_extends_beyond_age_rule": false
+        },
+        "shidian_er": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "38391/1250",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "19681/5000",
+            "24681/5000"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "女",
+              6
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            12
+          ],
+          "interval_extends_beyond_age_rule": false
+        }
+      }
+    },
+    {
+      "printed_ming": [
+        "子",
+        "女",
+        7
+      ],
+      "printed_age": 12,
+      "grid_column": 25,
+      "grid_age": 12,
+      "grid_matches": true,
+      "continuous": {
+        "wikisource_san": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "38391/1250",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "24681/5000",
+            "29681/5000"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "女",
+              7
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            12
+          ],
+          "interval_extends_beyond_age_rule": false
+        },
+        "shidian_er": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "38391/1250",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "24681/5000",
+            "29681/5000"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "女",
+              7
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            12
+          ],
+          "interval_extends_beyond_age_rule": false
+        }
+      }
+    },
+    {
+      "printed_ming": [
+        "子",
+        "女",
+        8
+      ],
+      "printed_age": 13,
+      "grid_column": 24,
+      "grid_age": 13,
+      "grid_matches": true,
+      "continuous": {
+        "wikisource_san": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "38391/1250",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "29681/5000",
+            "34681/5000"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "女",
+              8
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            12,
+            13
+          ],
+          "interval_extends_beyond_age_rule": false
+        },
+        "shidian_er": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "38391/1250",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "29681/5000",
+            "34681/5000"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "女",
+              8
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            12,
+            13
+          ],
+          "interval_extends_beyond_age_rule": false
+        }
+      }
+    },
+    {
+      "printed_ming": [
+        "子",
+        "女",
+        9
+      ],
+      "printed_age": 13,
+      "grid_column": 23,
+      "grid_age": 13,
+      "grid_matches": true,
+      "continuous": {
+        "wikisource_san": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "38391/1250",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "34681/5000",
+            "39681/5000"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "女",
+              9
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            13
+          ],
+          "interval_extends_beyond_age_rule": false
+        },
+        "shidian_er": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "38391/1250",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "34681/5000",
+            "39681/5000"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "女",
+              9
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            13
+          ],
+          "interval_extends_beyond_age_rule": false
+        }
+      }
+    },
+    {
+      "printed_ming": [
+        "子",
+        "女",
+        10
+      ],
+      "printed_age": 13,
+      "grid_column": 22,
+      "grid_age": 13,
+      "grid_matches": true,
+      "continuous": {
+        "wikisource_san": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "38391/1250",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "39681/5000",
+            "44681/5000"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "女",
+              10
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            13
+          ],
+          "interval_extends_beyond_age_rule": false
+        },
+        "shidian_er": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "38391/1250",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "39681/5000",
+            "44681/5000"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "女",
+              10
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            13
+          ],
+          "interval_extends_beyond_age_rule": false
+        }
+      }
+    }
+  ],
+  "xingxue_wing_example": {
+    "source": {
+      "solar": [
+        "巳",
+        "翼",
+        10
+      ],
+      "inferred_ming_palace": "丑",
+      "printed_entries": [
+        [
+          "寅",
+          13
+        ],
+        [
+          "卯",
+          23
+        ],
+        [
+          "辰",
+          33
+        ],
+        [
+          "巳",
+          48
+        ],
+        [
+          "午",
+          57
+        ],
+        [
+          "未",
+          64
+        ],
+        [
+          "申",
+          75
+        ]
+      ]
+    },
+    "grid": {
+      "ming_palace": "丑",
+      "solar_column": 19,
+      "ming_mansion": "斗",
+      "ming_whole_degree": 14,
+      "first_change_nominal_age": 14
+    },
+    "continuous": {
+      "wikisource_san": {
+        "head": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "286653/10000",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "62647/5000",
+            "67647/5000"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "斗",
+              16
+            ],
+            [
+              "斗",
+              17
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            15
+          ],
+          "interval_extends_beyond_age_rule": false
+        },
+        "tail": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "286653/10000",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "21239/2500",
+            "23739/2500"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "斗",
+              12
+            ],
+            [
+              "斗",
+              13
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            13,
+            14
+          ],
+          "interval_extends_beyond_age_rule": false
+        }
+      },
+      "shidian_er": {
+        "head": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "296653/10000",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "62647/5000",
+            "67647/5000"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "斗",
+              15
+            ],
+            [
+              "斗",
+              16
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            15
+          ],
+          "interval_extends_beyond_age_rule": false
+        },
+        "tail": {
+          "source_arc_units": "1",
+          "source_in_solar_palace_arc_units": "1",
+          "target_palace_width_arc_units": "296653/10000",
+          "status": "computed",
+          "target_offset_interval_arc_units": [
+            "23739/2500",
+            "26239/2500"
+          ],
+          "target_lost_arc_units": "0",
+          "possible_mansion_labels": [
+            [
+              "斗",
+              12
+            ],
+            [
+              "斗",
+              13
+            ]
+          ],
+          "possible_first_change_nominal_ages": [
+            14
+          ],
+          "interval_extends_beyond_age_rule": false
+        }
+      }
+    },
+    "printed_schedule_comparison": [
+      {
+        "palace": "寅",
+        "printed_age": 13,
+        "nominal_age_using_printed_first_age_and_gujin_durations": "13",
+        "disagreement_years": "0"
+      },
+      {
+        "palace": "卯",
+        "printed_age": 23,
+        "nominal_age_using_printed_first_age_and_gujin_durations": "23",
+        "disagreement_years": "0"
+      },
+      {
+        "palace": "辰",
+        "printed_age": 33,
+        "nominal_age_using_printed_first_age_and_gujin_durations": "34",
+        "disagreement_years": "1"
+      },
+      {
+        "palace": "巳",
+        "printed_age": 48,
+        "nominal_age_using_printed_first_age_and_gujin_durations": "49",
+        "disagreement_years": "1"
+      },
+      {
+        "palace": "午",
+        "printed_age": 57,
+        "nominal_age_using_printed_first_age_and_gujin_durations": "57",
+        "disagreement_years": "0"
+      },
+      {
+        "palace": "未",
+        "printed_age": 64,
+        "nominal_age_using_printed_first_age_and_gujin_durations": "64",
+        "disagreement_years": "0"
+      },
+      {
+        "palace": "申",
+        "printed_age": 75,
+        "nominal_age_using_printed_first_age_and_gujin_durations": "75",
+        "disagreement_years": "0"
+      }
+    ]
+  },
+  "printed_versus_normalized_annual_rates": [
+    {
+      "period": "相貌",
+      "years": "10",
+      "annual_rate_printed": "3",
+      "annual_rate_for_30_grid_units": "3",
+      "annual_rate_from_printed_day_hint_360_days_per_year": "3",
+      "untraveled_units_under_printed_rate_at_period_end": "0"
+    },
+    {
+      "period": "福德",
+      "years": "11",
+      "annual_rate_printed": "27207/10000",
+      "annual_rate_for_30_grid_units": "30/11",
+      "annual_rate_from_printed_day_hint_360_days_per_year": "30/11",
+      "untraveled_units_under_printed_rate_at_period_end": "723/10000"
+    },
+    {
+      "period": "官禄",
+      "years": "15",
+      "annual_rate_printed": "2",
+      "annual_rate_for_30_grid_units": "2",
+      "annual_rate_from_printed_day_hint_360_days_per_year": "2",
+      "untraveled_units_under_printed_rate_at_period_end": "0"
+    },
+    {
+      "period": "迁移",
+      "years": "8",
+      "annual_rate_printed": "15/4",
+      "annual_rate_for_30_grid_units": "15/4",
+      "annual_rate_from_printed_day_hint_360_days_per_year": "15/4",
+      "untraveled_units_under_printed_rate_at_period_end": "0"
+    },
+    {
+      "period": "疾厄",
+      "years": "7",
+      "annual_rate_printed": "857/200",
+      "annual_rate_for_30_grid_units": "30/7",
+      "annual_rate_from_printed_day_hint_360_days_per_year": "30/7",
+      "untraveled_units_under_printed_rate_at_period_end": "1/200"
+    },
+    {
+      "period": "妻妾",
+      "years": "11",
+      "annual_rate_printed": "27207/10000",
+      "annual_rate_for_30_grid_units": "30/11",
+      "annual_rate_from_printed_day_hint_360_days_per_year": "30/11",
+      "untraveled_units_under_printed_rate_at_period_end": "723/10000"
+    },
+    {
+      "period": "奴仆",
+      "years": "9/2",
+      "annual_rate_printed": "33003/5000",
+      "annual_rate_for_30_grid_units": "20/3",
+      "annual_rate_from_printed_day_hint_360_days_per_year": "20/3",
+      "untraveled_units_under_printed_rate_at_period_end": "2973/10000"
+    },
+    {
+      "period": "男女",
+      "years": "9/2",
+      "annual_rate_printed": "33003/5000",
+      "annual_rate_for_30_grid_units": "20/3",
+      "annual_rate_from_printed_day_hint_360_days_per_year": "20/3",
+      "untraveled_units_under_printed_rate_at_period_end": "2973/10000"
+    },
+    {
+      "period": "田宅",
+      "years": "9/2",
+      "annual_rate_printed": "33003/5000",
+      "annual_rate_for_30_grid_units": "20/3",
+      "annual_rate_from_printed_day_hint_360_days_per_year": "20/3",
+      "untraveled_units_under_printed_rate_at_period_end": "2973/10000"
+    },
+    {
+      "period": "兄弟",
+      "years": "5",
+      "annual_rate_printed": "6",
+      "annual_rate_for_30_grid_units": "6",
+      "annual_rate_from_printed_day_hint_360_days_per_year": "6",
+      "untraveled_units_under_printed_rate_at_period_end": "0"
+    },
+    {
+      "period": "财帛",
+      "years": "5",
+      "annual_rate_printed": "6",
+      "annual_rate_for_30_grid_units": "6",
+      "annual_rate_from_printed_day_hint_360_days_per_year": "6",
+      "untraveled_units_under_printed_rate_at_period_end": "0"
+    }
+  ]
+}
