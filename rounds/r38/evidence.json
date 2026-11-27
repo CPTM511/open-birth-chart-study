@@ -1,0 +1,238 @@
+{
+  "round": "R38",
+  "checked_utc": "2026-11-27T22:58:56.809826+00:00",
+  "sources": {
+    "health48_2026_02_23": {
+      "url": "https://www.mohw.gov.tw/dl-100529-9e4580d8-11bd-44d7-8316-bd442c6fb9d3.html",
+      "format": "ZIP",
+      "bytes": 19911553,
+      "sha256": "c9c9284f29b106b66d2b8e7c59a299e8e6136ceaa1583cb547f677433035b951"
+    },
+    "taiwan_baseline_questionnaire": {
+      "url": "https://www.hpa.gov.tw/Pages/ashx/GetFile.ashx?lang=c&sid=566fc32d466f4071828df17a4226144e&type=1",
+      "format": "PDF",
+      "bytes": 680614,
+      "sha256": "f2cff046ab4b5f22e2aa40626b8c63de3e9082393ce53afd60cf9255af8da34e"
+    },
+    "taiwan_hwdc_app001_2026_02_23": {
+      "url": "https://www.mohw.gov.tw/dl-70450-035edd51-f15f-4eb2-a006-5811544da9a3.html",
+      "format": "PDF",
+      "bytes": 1219679,
+      "sha256": "019fccf9553f86681c648ca14e2d9efe1c1352f0128a5caf158d75e9df9602da"
+    },
+    "jecs_original_doctor_forms_2011": {
+      "url": "https://www.env.go.jp/chemi/ceh/commission/shiryo/h23_1/pdf/mat03-2c.pdf",
+      "format": "PDF",
+      "bytes": 561050,
+      "sha256": "03707ec66322ceeb74433722f260a71178d4ae18f57866b930974e5b17077911"
+    },
+    "jecs_sharing_rule": {
+      "url": "https://www.nies.go.jp/jecs/researcher/bkn2mo0000001ueh-att/kt_ekochiru_datakyoyu.pdf",
+      "format": "PDF",
+      "bytes": 220320,
+      "sha256": "fe639fc15c8eaf54bdbffabb49d3d9cf5d0eb072b5ad70c59b497279e6d90268"
+    },
+    "jecs_sharing_procedure": {
+      "url": "https://www.nies.go.jp/jecs/researcher/bkn2mo0000001ueh-att/yr_ekochiru_datakyoyu.pdf",
+      "format": "PDF",
+      "bytes": 146949,
+      "sha256": "d0d5a0c7adf00400409a3a3d0864951026a131e19a4a71c70af49ebbcc56df2e"
+    }
+  },
+  "health48_supporting_member_hashes": {
+    "health48-packaged-baseline.pdf": {
+      "member": "94/TBCS主問卷(6個月大).pdf",
+      "sha256": "99d2551dcdfbf08fe3ebc83e6c330c999de858f86de4a34ba59e28f5b7f4daa6"
+    },
+    "health48-use-manual.doc": {
+      "member": "台灣出生世代調查檔使用手冊(第一版).doc",
+      "sha256": "d08fadb5018714c0a735e010a426c4e27b83df8df4a9c963d29c4a28a74c89f1"
+    },
+    "health48-cover.pdf": {
+      "member": "資料庫使用手冊Health48_台灣出生世代調查檔(20250624起適用)_20260223.pdf",
+      "sha256": "3b0efc10328c51e995eb43fefa6e0368bff9bcfe77e57443c776da0b02e0b739"
+    }
+  },
+  "health48_codebooks": {
+    "survey": {
+      "2005": {
+        "member": "94/TBCS主問卷編碼簿(6個月大).xls",
+        "sha256": "e2c988b49b954372f27adcf0fb70f5bd1254609110c970faa2aabc8bbedf09bb",
+        "sheets": 12,
+        "semantic_review_row_counts": {
+          "birth_clock": 13,
+          "birth_place": 1,
+          "birth_date": 9
+        }
+      },
+      "2007": {
+        "member": "96/TBCS主問卷編碼簿(18個月大).xls",
+        "sha256": "21c4516496f6f9acd694fb597f764fedc4e2effb50a858afd4b5f0ef0b727a6c",
+        "sheets": 13,
+        "semantic_review_row_counts": {
+          "birth_clock": 2,
+          "birth_place": 1,
+          "birth_date": 5
+        }
+      },
+      "2008": {
+        "member": "97/TBCS_3歲調查主問卷編碼簿.xls",
+        "sha256": "612c358092d2bdb4a740dbf078360f08e232146b709073988b7724e124d96f51",
+        "sheets": 14,
+        "semantic_review_row_counts": {
+          "birth_clock": 2,
+          "birth_place": 1,
+          "birth_date": 0
+        }
+      },
+      "2010": {
+        "member": "99/TBCS_5歲調查主問卷編碼簿.xls",
+        "sha256": "5f0e564b3e0aead4e128372c7d1bddbb73e20b30e080fe91a163213f09e5617c",
+        "sheets": 14,
+        "semantic_review_row_counts": {
+          "birth_clock": 2,
+          "birth_place": 1,
+          "birth_date": 0
+        }
+      },
+      "2013": {
+        "member": "102/TBCS_8歲調查主問卷編碼簿.xls",
+        "sha256": "6e647935f1ba5f67fd6dc60f93b8ebb84fa783991d48c1dec0905428ab177224",
+        "sheets": 14,
+        "semantic_review_row_counts": {
+          "birth_clock": 3,
+          "birth_place": 1,
+          "birth_date": 0
+        }
+      },
+      "2017": {
+        "member": "106/TBCS_12歲調查主問卷編碼簿.xlsx",
+        "sha256": "02053451277a8c2d1b14380672ddf8c760252fe105d1ad31274ecd402a630f48",
+        "sheets": 12,
+        "semantic_review_row_counts": {
+          "birth_clock": 2,
+          "birth_place": 1,
+          "birth_date": 0
+        }
+      },
+      "2022": {
+        "member": "111/TBCS_17歲調查主問卷編碼簿(1141009更新).xlsx",
+        "sha256": "f8c133e40cb4ec5695c66cf782f2c6bc929a036d8675405ac754f8d1c65a918d",
+        "sheets": 14,
+        "semantic_review_row_counts": {
+          "birth_clock": 2,
+          "birth_place": 1,
+          "birth_date": 0
+        }
+      },
+      "2023": {
+        "member": "112/TBCS_18歲調查主問卷編碼簿11405.xlsx",
+        "sha256": "4256da513273ee98d67768743e8201604579581d6f20f8c474a9bd57e7d8444e",
+        "sheets": 14,
+        "semantic_review_row_counts": {
+          "birth_clock": 2,
+          "birth_place": 1,
+          "birth_date": 0
+        }
+      },
+      "2024": {
+        "member": "113/TBCS_19歲調查主問卷編碼簿(11406更新).xlsx",
+        "sha256": "7ccad9b0c8c363b1e4b768c975fca45ef3db0539d7e676b87b8880dc0e89b7a8",
+        "sheets": 14,
+        "semantic_review_row_counts": {
+          "birth_clock": 2,
+          "birth_place": 1,
+          "birth_date": 0
+        }
+      }
+    },
+    "linkage": {
+      "2022": {
+        "member": "111/臺灣出生世代研究調查-111年正式調查(17歲)_健保連結同意檔欄位說明20251031.xls",
+        "sha256": "00146069436b9932c828c55f973b311c9d0cb4be4d23a32343eebbbb33869a35",
+        "sheets": 1
+      },
+      "2023": {
+        "member": "112/臺灣出生世代研究調查-112年正式調查(18歲)_健保連結同意檔欄位說明20251031.xls",
+        "sha256": "e8b4cb810f20b68ac02daf626c995503aaa0ed0079d15a7e0958c9a0f11281da",
+        "sheets": 1
+      },
+      "2024": {
+        "member": "113/臺灣出生世代研究調查-113年正式調查(19歲)_健保連結同意檔欄位說明20251031.xls",
+        "sha256": "0b28a0937e5e6ababeff6ccfa41ed6d95cffec07b8791ff6ff1669bc4774a228",
+        "sheets": 1
+      },
+      "base": {
+        "member": "臺灣出生世代調查健保連結同意檔欄位說明20220412.xls",
+        "sha256": "74f1fd09c0943af6a08dd8c5ae7a7cbeee1b91eb764b19d2bd33053c3b12ddeb",
+        "sheets": 1
+      }
+    },
+    "baseline": {
+      "TOWN": {
+        "sheet": "A.懷孕史 生產史",
+        "row": 5,
+        "label": "樣本編號--鄉鎮區代碼:_______",
+        "release_note": "個資考量不釋出",
+        "options": ""
+      },
+      "Sampleid": {
+        "sheet": "A.懷孕史 生產史",
+        "row": 7,
+        "label": "個案編號",
+        "release_note": "供後續資料釋出串檔用",
+        "options": ""
+      },
+      "REGION": {
+        "sheet": "A.懷孕史 生產史",
+        "row": 8,
+        "label": "嬰兒出生時的居住行政區",
+        "release_note": "",
+        "options": "1. 區 2. 市 3. 鎮 4. 鄉"
+      },
+      "B_SEX": {
+        "sheet": "A.懷孕史 生產史",
+        "row": 13,
+        "label": "嬰兒性別",
+        "release_note": "",
+        "options": ""
+      },
+      "B_yy": {
+        "sheet": "A.懷孕史 生產史",
+        "row": 14,
+        "label": "新生兒出生日期:民國 ____ 年",
+        "release_note": "",
+        "options": ""
+      },
+      "B_mm": {
+        "sheet": "A.懷孕史 生產史",
+        "row": 15,
+        "label": "新生兒出生日期: ____ 月",
+        "release_note": "個資考量不釋出",
+        "options": ""
+      },
+      "B_dd": {
+        "sheet": "A.懷孕史 生產史",
+        "row": 16,
+        "label": "新生兒出生日期: ____ 日",
+        "release_note": "個資考量不釋出",
+        "options": ""
+      },
+      "E10a": {
+        "sheet": "E.寶寶健康與就醫狀況",
+        "row": 155,
+        "label": "E10a.是那一家醫院?_______縣市 _______鄉鎮市區 _______醫院",
+        "release_note": "個資考量不釋出",
+        "options": ""
+      }
+    }
+  },
+  "checks": {
+    "legacy_first_wave_eight_anchors_match_separate_conversion": true,
+    "jecs_original_delivery_form_page4_checked_visually_and_by_ocr": true,
+    "declared_health48_birth_month_and_day_not_released": true,
+    "observed_jecs_dr0m_clock_label_is_labor_duration": true,
+    "approved_participant_rows_acquired": 0,
+    "cohorts_cleared_for_four_system_scoring": 0
+  }
+}
