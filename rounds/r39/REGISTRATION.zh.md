@@ -37,3 +37,5 @@
 两版影印文件分别取得两份，匹配先前登记的散列。登记推送后运行判据。两套枚举须一致，机器结果须二次运行一致。记录原文缺句、软件刻意保留的未裁决内容，以及读法影响，不借本轮推断个体结果或人口出生率。
 
 [世界图书馆本 PDF 31–32 页](https://upload.wikimedia.org/wikipedia/commons/f/fe/NLC416-11jh010455-35296_%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE.pdf#page=31) · [合刊第二卷 PDF 26–28 页](https://upload.wikimedia.org/wikipedia/commons/d/d5/NLC416-13jh002326-46443_%E6%B7%B5%E6%B5%B7%E5%AD%90%E5%B9%B3_%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE_%E7%AC%AC2%E5%8D%B7.pdf#page=26) · [R31 相神章](../../R31.md) · [研究宪章](../../CONSTITUTION.zh.md)
+
+登记校正（同日，计算前）。首次运行停在来源散列检查。对照 R31 及两次下载，补回初稿中世界图书馆本散列漏录的两个字符。影印来源和预设判据保持原登记。
