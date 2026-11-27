@@ -1,0 +1,28 @@
+{
+  "id": "OBS-R14-ACS-BTOS-2024-v1",
+  "registered_utc": "2026-11-27T15:43:54.579328+00:00",
+  "base_r12": "c32cf740843c765a02c2adf460e2ea6e8ea2a892",
+  "already_seen": "Source metadata, question text and broad earlier published adoption patterns; no selected 2024 wave values or age-linked outputs reviewed.",
+  "archive_urls": {
+    "acs-2023-person.zip": "https://www2.census.gov/programs-surveys/acs/data/pums/2023/1-Year/csv_pus.zip",
+    "acs-2024-person.zip": "https://www2.census.gov/programs-surveys/acs/data/pums/2024/1-Year/csv_pus.zip",
+    "btos-ai-original.xlsx": "https://www.census.gov/hfp/btos/downloads/AI%20Core%20Questions.xlsx",
+    "occp-2023.json": "https://api.census.gov/data/2023/acs/acs1/pums/variables/OCCP.json",
+    "occp-2024.json": "https://api.census.gov/data/2024/acs/acs1/pums/variables/OCCP.json"
+  },
+  "archive_sha256": {
+    "acs-2023-person.zip": "98b6ecb14b4830d1f2b54c265a5bd997828415c2dab14e17369c40e98b78d9d4",
+    "acs-2024-person.zip": "afdc6d90c6e2f0bab365ed32d95ba4c4d8ac651162f46ac7861295b2dc469894",
+    "btos-ai-original.xlsx": "e058a098af64427b0cf0c1455435023aeb9a84142a55175d322687e61a3da3ce",
+    "occp-2023.json": "a56d6b039a273e30ee9a85c61240e32bea481603331dfa8df737005c9a8ffd06",
+    "occp-2024.json": "a56d6b039a273e30ee9a85c61240e32bea481603331dfa8df737005c9a8ffd06"
+  },
+  "primary": "2024 ACS ages20–29 minus40–54 difference in fixed BTOS sector-context percentages",
+  "occupation_public_min_archival_records": 100,
+  "formatting_and_synthetic_checks": "Age boundaries, industry consolidation, exact synthetic context point and joint-variance verified before cohort analysis.",
+  "files_sha256": {
+    "REGISTRATION.zh.md": "9a3a68a8c9037ebaa1975b6683765d3e3b2a3bb3e12acf6e0aa5a3b7188c6110",
+    "analyze_labor.py": "51d33ce04149ffaa11a61ae5e3d366f9b51b0ab3985c63dc78c25c1cfef94bbb",
+    "verify_labor.py": "d9b1fc373af58739d7ac6ac68faeff111a237b1f53f070d7adbbf06fc8924d90"
+  }
+}
