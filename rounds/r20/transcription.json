@@ -1,0 +1,607 @@
+{
+  "scope": "Extra editions, read right-to-left; source day columns 1, 11, 21. Null minute means no fraction printed on an otherwise legible entry. A null entire entry would indicate unreadable or absent print.",
+  "review": "Direct visual read then a second visual pass of the high-resolution page crop. No target formula output had been inspected.",
+  "editions": {
+    "1910": {
+      "external_month_starts_and_next_year": [
+        "1910-02-10",
+        "1910-03-11",
+        "1910-04-10",
+        "1910-05-09",
+        "1910-06-07",
+        "1910-07-07",
+        "1910-08-05",
+        "1910-09-04",
+        "1910-10-03",
+        "1910-11-02",
+        "1910-12-02",
+        "1911-01-01",
+        "1911-01-30"
+      ],
+      "independent_dates_source": "https://www.hko.gov.hk/en/gts/time/calendar/text/files/T1910e.txt ; https://www.hko.gov.hk/en/gts/time/calendar/text/files/T1911e.txt",
+      "clock_printed": "諸曜俱從子正起算",
+      "clock_page": 42,
+      "monthly": [
+        {
+          "month": "1",
+          "printed_days": 29,
+          "pdf_page_one_based": 41,
+          "printed_mansion_degree_minute": [
+            [
+              "角",
+              3,
+              28
+            ],
+            [
+              "角",
+              4,
+              38
+            ],
+            [
+              "角",
+              5,
+              47
+            ]
+          ]
+        },
+        {
+          "month": "2",
+          "printed_days": 30,
+          "pdf_page_one_based": 41,
+          "printed_mansion_degree_minute": [
+            [
+              "角",
+              6,
+              48
+            ],
+            [
+              "角",
+              7,
+              56
+            ],
+            [
+              "角",
+              9,
+              3
+            ]
+          ]
+        },
+        {
+          "month": "3",
+          "printed_days": 29,
+          "pdf_page_one_based": 41,
+          "printed_mansion_degree_minute": [
+            [
+              "角",
+              10,
+              10
+            ],
+            [
+              "亢",
+              0,
+              37
+            ],
+            [
+              "亢",
+              1,
+              43
+            ]
+          ]
+        },
+        {
+          "month": "4",
+          "printed_days": 29,
+          "pdf_page_one_based": 41,
+          "printed_mansion_degree_minute": [
+            [
+              "亢",
+              2,
+              41
+            ],
+            [
+              "亢",
+              3,
+              46
+            ],
+            [
+              "亢",
+              4,
+              50
+            ]
+          ]
+        },
+        {
+          "month": "5",
+          "printed_days": 30,
+          "pdf_page_one_based": 42,
+          "printed_mansion_degree_minute": [
+            [
+              "亢",
+              5,
+              48
+            ],
+            [
+              "亢",
+              6,
+              52
+            ],
+            [
+              "亢",
+              7,
+              55
+            ]
+          ]
+        },
+        {
+          "month": "6",
+          "printed_days": 29,
+          "pdf_page_one_based": 42,
+          "printed_mansion_degree_minute": [
+            [
+              "亢",
+              8,
+              59
+            ],
+            [
+              "亢",
+              10,
+              2
+            ],
+            [
+              "氐",
+              0,
+              30
+            ]
+          ]
+        },
+        {
+          "month": "7",
+          "printed_days": 30,
+          "pdf_page_one_based": 42,
+          "printed_mansion_degree_minute": [
+            [
+              "氐",
+              1,
+              27
+            ],
+            [
+              "氐",
+              2,
+              31
+            ],
+            [
+              "氐",
+              3,
+              36
+            ]
+          ]
+        },
+        {
+          "month": "8",
+          "printed_days": 29,
+          "pdf_page_one_based": 42,
+          "printed_mansion_degree_minute": [
+            [
+              "氐",
+              4,
+              41
+            ],
+            [
+              "氐",
+              5,
+              46
+            ],
+            [
+              "氐",
+              6,
+              52
+            ]
+          ]
+        },
+        {
+          "month": "9",
+          "printed_days": 30,
+          "pdf_page_one_based": 42,
+          "printed_mansion_degree_minute": [
+            [
+              "氐",
+              7,
+              52
+            ],
+            [
+              "氐",
+              8,
+              59
+            ],
+            [
+              "氐",
+              10,
+              6
+            ]
+          ]
+        },
+        {
+          "month": "10",
+          "printed_days": 30,
+          "pdf_page_one_based": 42,
+          "printed_mansion_degree_minute": [
+            [
+              "氐",
+              11,
+              15
+            ],
+            [
+              "氐",
+              12,
+              23
+            ],
+            [
+              "氐",
+              13,
+              33
+            ]
+          ]
+        },
+        {
+          "month": "11",
+          "printed_days": 30,
+          "pdf_page_one_based": 42,
+          "printed_mansion_degree_minute": [
+            [
+              "氐",
+              14,
+              42
+            ],
+            [
+              "氐",
+              15,
+              52
+            ],
+            [
+              "氐",
+              17,
+              2
+            ]
+          ]
+        },
+        {
+          "month": "12",
+          "printed_days": 29,
+          "pdf_page_one_based": 42,
+          "printed_mansion_degree_minute": [
+            [
+              "房",
+              0,
+              22
+            ],
+            [
+              "房",
+              1,
+              32
+            ],
+            [
+              "房",
+              2,
+              42
+            ]
+          ]
+        }
+      ],
+      "reading_notes": [],
+      "source_sha256": "9d3c705d0354a9fc7a86bccc8041a4d3fd2c497677ab0566b38775e70d4225d2"
+    },
+    "1860": {
+      "external_month_starts_and_next_year": [
+        "1860-01-23",
+        "1860-02-22",
+        "1860-03-22",
+        "1860-04-21",
+        "1860-05-21",
+        "1860-06-19",
+        "1860-07-18",
+        "1860-08-17",
+        "1860-09-15",
+        "1860-10-14",
+        "1860-11-13",
+        "1860-12-12",
+        "1861-01-11",
+        "1861-02-10"
+      ],
+      "independent_dates_source": "https://ytliu0.github.io/ChineseCalendar/table_period_chinese.html?period=qing",
+      "clock_printed": "諸曜俱從京都子正起算",
+      "clock_page": 46,
+      "monthly": [
+        {
+          "month": "1",
+          "printed_days": 30,
+          "pdf_page_one_based": 46,
+          "printed_mansion_degree_minute": [
+            [
+              "虚",
+              7,
+              59
+            ],
+            [
+              "虚",
+              9,
+              9
+            ],
+            [
+              "危",
+              0,
+              20
+            ]
+          ]
+        },
+        {
+          "month": "2",
+          "printed_days": 29,
+          "pdf_page_one_based": 46,
+          "printed_mansion_degree_minute": [
+            [
+              "危",
+              1,
+              29
+            ],
+            [
+              "危",
+              2,
+              38
+            ],
+            [
+              "危",
+              3,
+              46
+            ]
+          ]
+        },
+        {
+          "month": "3",
+          "printed_days": 30,
+          "pdf_page_one_based": 46,
+          "printed_mansion_degree_minute": [
+            [
+              "危",
+              4,
+              48
+            ],
+            [
+              "危",
+              5,
+              55
+            ],
+            [
+              "危",
+              7,
+              1
+            ]
+          ]
+        },
+        {
+          "month": "leap-3",
+          "printed_days": 30,
+          "pdf_page_one_based": 46,
+          "printed_mansion_degree_minute": [
+            [
+              "危",
+              8,
+              7
+            ],
+            [
+              "危",
+              9,
+              12
+            ],
+            [
+              "危",
+              10,
+              17
+            ]
+          ]
+        },
+        {
+          "month": "4",
+          "printed_days": 29,
+          "pdf_page_one_based": 46,
+          "printed_mansion_degree_minute": [
+            [
+              "危",
+              11,
+              21
+            ],
+            [
+              "危",
+              12,
+              26
+            ],
+            [
+              "危",
+              13,
+              30
+            ]
+          ]
+        },
+        {
+          "month": "5",
+          "printed_days": 29,
+          "pdf_page_one_based": 46,
+          "printed_mansion_degree_minute": [
+            [
+              "危",
+              14,
+              27
+            ],
+            [
+              "危",
+              15,
+              30
+            ],
+            [
+              "危",
+              16,
+              34
+            ]
+          ]
+        },
+        {
+          "month": "6",
+          "printed_days": 30,
+          "pdf_page_one_based": 46,
+          "printed_mansion_degree_minute": [
+            [
+              "危",
+              17,
+              31
+            ],
+            [
+              "危",
+              18,
+              35
+            ],
+            [
+              "危",
+              19,
+              39
+            ]
+          ]
+        },
+        {
+          "month": "7",
+          "printed_days": 29,
+          "pdf_page_one_based": 46,
+          "printed_mansion_degree_minute": [
+            [
+              "室",
+              0,
+              38
+            ],
+            [
+              "室",
+              1,
+              43
+            ],
+            [
+              "室",
+              2,
+              48
+            ]
+          ]
+        },
+        {
+          "month": "8",
+          "printed_days": 29,
+          "pdf_page_one_based": 46,
+          "printed_mansion_degree_minute": [
+            [
+              "室",
+              3,
+              47
+            ],
+            [
+              "室",
+              4,
+              53
+            ],
+            [
+              "室",
+              6,
+              null
+            ]
+          ]
+        },
+        {
+          "month": "9",
+          "printed_days": 30,
+          "pdf_page_one_based": 46,
+          "printed_mansion_degree_minute": [
+            [
+              "室",
+              7,
+              null
+            ],
+            [
+              "室",
+              8,
+              8
+            ],
+            [
+              "室",
+              9,
+              16
+            ]
+          ]
+        },
+        {
+          "month": "10",
+          "printed_days": 29,
+          "pdf_page_one_based": 46,
+          "printed_mansion_degree_minute": [
+            [
+              "室",
+              10,
+              25
+            ],
+            [
+              "室",
+              11,
+              34
+            ],
+            [
+              "室",
+              12,
+              44
+            ]
+          ]
+        },
+        {
+          "month": "11",
+          "printed_days": 30,
+          "pdf_page_one_based": 46,
+          "printed_mansion_degree_minute": [
+            [
+              "室",
+              13,
+              47
+            ],
+            [
+              "室",
+              15,
+              1
+            ],
+            [
+              "壁",
+              0,
+              27
+            ]
+          ]
+        },
+        {
+          "month": "12",
+          "printed_days": 30,
+          "pdf_page_one_based": 46,
+          "printed_mansion_degree_minute": [
+            [
+              "壁",
+              1,
+              37
+            ],
+            [
+              "壁",
+              2,
+              47
+            ],
+            [
+              "壁",
+              3,
+              57
+            ]
+          ]
+        }
+      ],
+      "reading_notes": [
+        "p46 八月二十一室六度、九月初一室七度，度后无数字或分字，保留裸度并另报告排除这两个单元格的敏感性。"
+      ],
+      "source_sha256": "2da5842c2da4cc005053918c7f9c581ecce676befd041e42c63f8a23910f1707"
+    }
+  }
+}
