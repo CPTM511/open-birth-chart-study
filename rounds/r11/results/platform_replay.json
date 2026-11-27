@@ -1,0 +1,20 @@
+{
+  "status": "identical_bytes",
+  "registration_commit": "3413d6f8f2990131c6489aa7eaf8faea0753dd49",
+  "registration_sha256": "fc371322be1628fd51b6e56f731a612c83c308292cadccef74d569b59d56bbb8",
+  "shared_calibration_sha256": "a048adf01bf4bd9b3480c62cebd775fb661e4db1481b62424ca3191e42ca4d1b",
+  "macos": {
+    "architecture": "arm64",
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "result_sha256": "8070eaeecff15fbc0f0543c55da029d08270d6c9475ac6bfd93da76252f5336c"
+  },
+  "linux": {
+    "architecture": "x86_64",
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "result_sha256": "8070eaeecff15fbc0f0543c55da029d08270d6c9475ac6bfd93da76252f5336c"
+  },
+  "cohorts_with_identical_flag_and_permutation_numerator_digests": 7,
+  "scope": "Two executions of the registered main analysis on the same sealed R10 inputs and NumPy version."
+}

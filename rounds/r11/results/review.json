@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "cohorts": [
+    {
+      "slot": "brazil2006",
+      "threshold_cells": 320000,
+      "replayed_draws": 4999,
+      "all_draws_match": true,
+      "independent_threshold_path": {
+        "selected_direct_CDF_checks": 80,
+        "max_direct_CDF_error": 5.695444116327053e-14,
+        "near_threshold_exact_rational_queries": 0,
+        "floating_threshold_flags_corrected_by_exact_rational_comparison": 0
+      }
+    },
+    {
+      "slot": "brazil_2000s",
+      "threshold_cells": 320000,
+      "replayed_draws": 4999,
+      "all_draws_match": true,
+      "independent_threshold_path": {
+        "selected_direct_CDF_checks": 80,
+        "max_direct_CDF_error": 5.495603971894525e-14,
+        "near_threshold_exact_rational_queries": 0,
+        "floating_threshold_flags_corrected_by_exact_rational_comparison": 0
+      }
+    },
+    {
+      "slot": "brazil2010",
+      "threshold_cells": 320000,
+      "replayed_draws": 4999,
+      "all_draws_match": true,
+      "independent_threshold_path": {
+        "selected_direct_CDF_checks": 80,
+        "max_direct_CDF_error": 5.540012892879531e-14,
+        "near_threshold_exact_rational_queries": 0,
+        "floating_threshold_flags_corrected_by_exact_rational_comparison": 0
+      }
+    },
+    {
+      "slot": "brazil2020",
+      "threshold_cells": 320000,
+      "replayed_draws": 4999,
+      "all_draws_match": true,
+      "independent_threshold_path": {
+        "selected_direct_CDF_checks": 80,
+        "max_direct_CDF_error": 5.717648576819556e-14,
+        "near_threshold_exact_rational_queries": 0,
+        "floating_threshold_flags_corrected_by_exact_rational_comparison": 0
+      }
+    },
+    {
+      "slot": "brazil2024",
+      "threshold_cells": 320000,
+      "replayed_draws": 4999,
+      "all_draws_match": true,
+      "independent_threshold_path": {
+        "selected_direct_CDF_checks": 80,
+        "max_direct_CDF_error": 5.639932965095795e-14,
+        "near_threshold_exact_rational_queries": 0,
+        "floating_threshold_flags_corrected_by_exact_rational_comparison": 0
+      }
+    },
+    {
+      "slot": "mexico_2000s",
+      "threshold_cells": 320000,
+      "replayed_draws": 4999,
+      "all_draws_match": true,
+      "independent_threshold_path": {
+        "selected_direct_CDF_checks": 80,
+        "max_direct_CDF_error": 5.540012892879531e-14,
+        "near_threshold_exact_rational_queries": 0,
+        "floating_threshold_flags_corrected_by_exact_rational_comparison": 0
+      }
+    },
+    {
+      "slot": "mexico2020",
+      "threshold_cells": 320000,
+      "replayed_draws": 4999,
+      "all_draws_match": true,
+      "independent_threshold_path": {
+        "selected_direct_CDF_checks": 80,
+        "max_direct_CDF_error": 5.695444116327053e-14,
+        "near_threshold_exact_rational_queries": 0,
+        "floating_threshold_flags_corrected_by_exact_rational_comparison": 0
+      }
+    }
+  ],
+  "scope": "Separate R10 input and threshold implementation, exact pattern probabilities and byte counting. Shares input files, registered pairing strata, NumPy and seeds. Internal computational verification.",
+  "registration_sha256": "fc371322be1628fd51b6e56f731a612c83c308292cadccef74d569b59d56bbb8",
+  "result_sha256": "8070eaeecff15fbc0f0543c55da029d08270d6c9475ac6bfd93da76252f5336c"
+}
