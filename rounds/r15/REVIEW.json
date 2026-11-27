@@ -1,0 +1,41 @@
+{
+  "source_input_replay": {
+    "scanned_source_rows": 3256433,
+    "eligible_source_rows": 49348,
+    "matched_physical_rows": 2000,
+    "distinct_strata": 11,
+    "exact_weight_sum": 49348,
+    "method": "Independent CSV DictReader, full IBGE lookup, round trip of both folds, ordered ranks and integer quotas.",
+    "same_primary_sources_and_tzdb": true
+  },
+  "archive_sha256": "fb51d9c581d3d79a7835029a581d8065fe2da77f62ef52f3cabc22723a0591f0",
+  "archive_size_bytes": 5502665,
+  "archive_member_checks": 10,
+  "platform_replay": {
+    "scoring": "Linux x86_64 Python 3.12.14 / Node 24.22.3",
+    "aggregation": "macOS arm64 Python 3.12.14 from extracted archive",
+    "official_result_sha256": "676a4e965c5a72ae27001ad1c0f0a1e7aa2e631e09763201e4e62202f251c41f",
+    "macos_result_sha256": "c546c8e40913f2a79c3211475e81210f2e41d94428be91c89eb3c74eaf63a249",
+    "differences_only_in_original_frequency_resampling_interval": true,
+    "max_endpoint_difference_percentage_points": 0.0027400100836669217,
+    "registered_frequency_interval_linux": [
+      -0.0012910132983877318,
+      0.0015816354464015803
+    ],
+    "registered_frequency_interval_macos": [
+      -0.001287597964044998,
+      0.001554235345564911
+    ],
+    "independent_record_index_interval_both_platforms": [
+      -0.001295446787290912,
+      0.0015607824225686213
+    ],
+    "threshold_flags_sha256": "ec1123bb87009f7387ea9a42c1676fad18ff0a50a889ef696eea98970dbfd76e",
+    "whole_record_counts_sha256": "c7455114b653ef8c9f073417dfc9d03600dffbd7cc00d0ff325e5ee6d3e56b16",
+    "original_resampling_fingerprints_by_platform": {
+      "linux": "dd49e9dcbf2acf431be9feed23e9f5c6d0972a383a1e35fc138dc5a76dbd219b",
+      "macos": "fb0b570d9542c7ab4a447d758a8b0cd6a133c1d6cfdc236748d645b85034ae8c"
+    }
+  },
+  "no_individual_data_published": true
+}
