@@ -1,0 +1,277 @@
+{
+  "registration_sha256": "d8606545844f385aa6598ec838e34de64373714a16e4d8fdf9388c7e2f20d61f",
+  "version": "OBS-R19-QING-YUEBO-1.0",
+  "registered_historical_gate_arcmin": 60,
+  "free_parameters_fit": 0,
+  "observations": [
+    {
+      "days_after_almanac_epoch": 0,
+      "target_deg": 314.1461107071174,
+      "signed_error_arcmin": {
+        "modern_mean": -28.996409222402235,
+        "qing_mean": -15.31253127152695,
+        "qing_with_annual_correction": 0.006700036404936327,
+        "qing_full_6973": 341.22686051292476,
+        "qing_full_6913": 341.3174380542091
+      },
+      "traditional_steps_main": {
+        "historical_mean_deg": 313.8909018525919,
+        "annual_correction_deg": 0.25532052179886056,
+        "highest_in_use_deg": 314.1462223743908,
+        "sun_minus_highest_in_use_deg": 16.698689584387296,
+        "highest_true_equation_deg": 5.687002674608679,
+        "highest_true_deg": 319.83322504899945
+      },
+      "absolute_6913_vs_6973_arcmin": 0.09057754128434681
+    },
+    {
+      "days_after_almanac_epoch": 10,
+      "target_deg": 315.2964985775953,
+      "signed_error_arcmin": {
+        "modern_mean": -31.470633644444206,
+        "qing_mean": -17.49076583350302,
+        "qing_with_annual_correction": -0.19384805042136577,
+        "qing_full_6973": 499.93647866278934,
+        "qing_full_6913": 500.04566622864445
+      },
+      "traditional_steps_main": {
+        "historical_mean_deg": 315.00498581370357,
+        "annual_correction_deg": 0.28828196305138376,
+        "highest_in_use_deg": 315.29326777675493,
+        "sun_minus_highest_in_use_deg": 25.600287897248336,
+        "highest_true_equation_deg": 8.335505445220193,
+        "highest_true_deg": 323.6287732219751
+      },
+      "absolute_6913_vs_6973_arcmin": 0.10918756585510891
+    },
+    {
+      "days_after_almanac_epoch": 20,
+      "target_deg": 316.4302197814065,
+      "signed_error_arcmin": {
+        "modern_mean": -32.92843998410376,
+        "qing_mean": -18.669000395531157,
+        "qing_with_annual_correction": 0.07877731946791755,
+        "qing_full_6973": 627.9062569013149,
+        "qing_full_6913": 628.0358335619576
+      },
+      "traditional_steps_main": {
+        "historical_mean_deg": 316.1190697748143,
+        "annual_correction_deg": 0.3124629619166444,
+        "highest_in_use_deg": 316.43153273673096,
+        "sun_minus_highest_in_use_deg": 34.45947432410475,
+        "highest_true_equation_deg": 10.463791326364131,
+        "highest_true_deg": 326.8953240630951
+      },
+      "absolute_6913_vs_6973_arcmin": 0.1295766606426696
+    },
+    {
+      "days_after_almanac_epoch": 29,
+      "target_deg": 317.44723553150334,
+      "signed_error_arcmin": {
+        "modern_mean": -34.02187833850235,
+        "qing_mean": -19.52941150130755,
+        "qing_with_annual_correction": 0.04134454146083044,
+        "qing_full_6973": 705.6750688330453,
+        "qing_full_6913": 705.8246292961348
+      },
+      "traditional_steps_main": {
+        "historical_mean_deg": 317.1217453398149,
+        "annual_correction_deg": 0.326179267379497,
+        "highest_in_use_deg": 317.44792460719435,
+        "sun_minus_highest_in_use_deg": 42.393874908650275,
+        "highest_true_equation_deg": 11.760562071526426,
+        "highest_true_deg": 329.20848667872076
+      },
+      "absolute_6913_vs_6973_arcmin": 0.14956046308952864
+    },
+    {
+      "days_after_almanac_epoch": 39,
+      "target_deg": 318.56429006864784,
+      "signed_error_arcmin": {
+        "modern_mean": -34.44373334192733,
+        "qing_mean": -19.707646063333186,
+        "qing_with_annual_correction": 0.22132331819534556,
+        "qing_full_6973": 738.4814261784197,
+        "qing_full_6913": 738.6544259436778
+      },
+      "traditional_steps_main": {
+        "historical_mean_deg": 318.2358293009256,
+        "annual_correction_deg": 0.33214948969211416,
+        "highest_in_use_deg": 318.56797879061776,
+        "sun_minus_highest_in_use_deg": 51.165098412308794,
+        "highest_true_equation_deg": 12.304335047670378,
+        "highest_true_deg": 330.87231383828816
+      },
+      "absolute_6913_vs_6973_arcmin": 0.17299976525805505
+    },
+    {
+      "days_after_almanac_epoch": 49,
+      "target_deg": 319.68134460579245,
+      "signed_error_arcmin": {
+        "modern_mean": -34.85073145119259,
+        "qing_mean": -19.885880625365644,
+        "qing_with_annual_correction": -0.18797464171711908,
+        "qing_full_6973": 701.0492559758188,
+        "qing_full_6913": 701.2449955297291
+      },
+      "traditional_steps_main": {
+        "historical_mean_deg": 319.34991326203635,
+        "annual_correction_deg": 0.32829843306078205,
+        "highest_in_use_deg": 319.67821169509716,
+        "sun_minus_highest_in_use_deg": 59.88888251089395,
+        "highest_true_equation_deg": 11.687287176958927,
+        "highest_true_deg": 331.3654988720561
+      },
+      "absolute_6913_vs_6973_arcmin": 0.19573955391024356
+    },
+    {
+      "days_after_almanac_epoch": 59,
+      "target_deg": 320.78173247627035,
+      "signed_error_arcmin": {
+        "modern_mean": -34.23612853135978,
+        "qing_mean": -19.06411518734103,
+        "qing_with_annual_correction": -0.17347546848441198,
+        "qing_full_6973": 584.7586034056042,
+        "qing_full_6913": 584.9721119404353
+      },
+      "traditional_steps_main": {
+        "historical_mean_deg": 320.463997223148,
+        "annual_correction_deg": 0.3148439953142935,
+        "highest_in_use_deg": 320.7788412184623,
+        "sun_minus_highest_in_use_deg": 68.56627970923273,
+        "highest_true_equation_deg": 9.748867981234804,
+        "highest_true_deg": 330.5277091996971
+      },
+      "absolute_6913_vs_6973_arcmin": 0.21350853483113497
+    },
+    {
+      "days_after_almanac_epoch": 69,
+      "target_deg": 321.86545368008166,
+      "signed_error_arcmin": {
+        "modern_mean": -32.590415863626276,
+        "qing_mean": -17.242349749375308,
+        "qing_with_annual_correction": 0.2942333600196889,
+        "qing_full_6973": 390.4730082844412,
+        "qing_full_6913": 390.69279801757943
+      },
+      "traditional_steps_main": {
+        "historical_mean_deg": 321.57808118425874,
+        "annual_correction_deg": 0.29227638515660676,
+        "highest_in_use_deg": 321.8703575694153,
+        "sun_minus_highest_in_use_deg": 77.19965784651203,
+        "highest_true_equation_deg": 6.502979582073685,
+        "highest_true_deg": 328.373337151489
+      },
+      "absolute_6913_vs_6973_arcmin": 0.2197897331382137
+    },
+    {
+      "days_after_almanac_epoch": 79,
+      "target_deg": 322.9491748838929,
+      "signed_error_arcmin": {
+        "modern_mean": -30.92796824075549,
+        "qing_mean": -15.420584311406174,
+        "qing_with_annual_correction": 0.2594014376688847,
+        "qing_full_6973": 136.03436069447866,
+        "qing_full_6913": 136.24261948300727
+      },
+      "traditional_steps_main": {
+        "historical_mean_deg": 322.6921651453695,
+        "annual_correction_deg": 0.2613330958179423,
+        "highest_in_use_deg": 322.9534982411874,
+        "sun_minus_highest_in_use_deg": 85.79257921236285,
+        "highest_true_equation_deg": 2.2629159876134683,
+        "highest_true_deg": 325.2164142288009
+      },
+      "absolute_6913_vs_6973_arcmin": 0.20825878852861024
+    },
+    {
+      "days_after_almanac_epoch": 88,
+      "target_deg": 323.91619063398963,
+      "signed_error_arcmin": {
+        "modern_mean": -28.91886624894937,
+        "qing_mean": -13.280995417175063,
+        "qing_with_annual_correction": 0.3455069770313912,
+        "qing_full_6973": -112.6982379085564,
+        "qing_full_6913": -112.51683901295564
+      },
+      "traditional_steps_main": {
+        "historical_mean_deg": 323.69484071037004,
+        "annual_correction_deg": 0.22710837323675956,
+        "highest_in_use_deg": 323.9219490836068,
+        "sun_minus_highest_in_use_deg": 93.49541180443191,
+        "highest_true_equation_deg": -1.884062414759809,
+        "highest_true_deg": 322.037886668847
+      },
+      "absolute_6913_vs_6973_arcmin": 0.18139889560075062
+    },
+    {
+      "days_after_almanac_epoch": 98,
+      "target_deg": 324.99991183780094,
+      "signed_error_arcmin": {
+        "modern_mean": -27.206085567094078,
+        "qing_mean": -11.45922997920934,
+        "qing_with_annual_correction": -0.47704886867450114,
+        "qing_full_6973": -369.74630586573653,
+        "qing_full_6913": -369.60764518919063
+      },
+      "traditional_steps_main": {
+        "historical_mean_deg": 324.8089246714808,
+        "annual_correction_deg": 0.18303635184227032,
+        "highest_in_use_deg": 324.99196102332303,
+        "sun_minus_highest_in_use_deg": 102.02491788175615,
+        "highest_true_equation_deg": -6.154487616617726,
+        "highest_true_deg": 318.8374734067053
+      },
+      "absolute_6913_vs_6973_arcmin": 0.13866067654589642
+    },
+    {
+      "days_after_almanac_epoch": 108,
+      "target_deg": 326.05029970827877,
+      "signed_error_arcmin": {
+        "modern_mean": -23.471657679406235,
+        "qing_mean": -7.637464541235204,
+        "qing_with_annual_correction": 0.39294504700706057,
+        "qing_full_6973": -567.705165368094,
+        "qing_full_6913": -567.6132731257132
+      },
+      "traditional_steps_main": {
+        "historical_mean_deg": 325.9230086325915,
+        "annual_correction_deg": 0.1338401598040495,
+        "highest_in_use_deg": 326.05684879239556,
+        "sun_minus_highest_in_use_deg": 110.52967284384829,
+        "highest_true_equation_deg": -9.4683018402517,
+        "highest_true_deg": 316.5885469521439
+      },
+      "absolute_6913_vs_6973_arcmin": 0.09189224238070892
+    }
+  ],
+  "solar_maximum_reading_difference_max_arcmin": 0.2197897331382137,
+  "scope": "Comparison under the registered modern time and mansion conversion from 1833, no cohort inputs.",
+  "summaries": {
+    "modern_mean": {
+      "mean_absolute_error_arcmin": 31.17191234281364,
+      "maximum_absolute_error_arcmin": 34.85073145119259,
+      "passes_registered_60_arcmin_max_gate": true
+    },
+    "qing_mean": {
+      "mean_absolute_error_arcmin": 16.224997906359135,
+      "maximum_absolute_error_arcmin": 19.885880625365644,
+      "passes_registered_60_arcmin_max_gate": true
+    },
+    "qing_with_annual_correction": {
+      "mean_absolute_error_arcmin": 0.22271492221278777,
+      "maximum_absolute_error_arcmin": 0.47704886867450114,
+      "passes_registered_60_arcmin_max_gate": true
+    },
+    "qing_full_6973": {
+      "mean_absolute_error_arcmin": 481.3075857159353,
+      "maximum_absolute_error_arcmin": 738.4814261784197,
+      "passes_registered_60_arcmin_max_gate": false
+    },
+    "qing_full_6913": {
+      "mean_absolute_error_arcmin": 481.3973562819362,
+      "maximum_absolute_error_arcmin": 738.6544259436778,
+      "passes_registered_60_arcmin_max_gate": false
+    }
+  }
+}
