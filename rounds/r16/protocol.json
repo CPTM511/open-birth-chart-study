@@ -1,0 +1,31 @@
+{
+  "id": "OBS-R16-CLASSICAL-2026-11-28",
+  "created_utc": "2026-11-27T16:07:11.536609+00:00",
+  "previous_evidence_seen": [
+    "R8 existing mean and osculating comparisons",
+    "printed classic rule passages",
+    "Iztro 2.6.5 static table"
+  ],
+  "planned_comparisons": [
+    "ten natal stems by four transformations",
+    "1833 12-point mean/osculating/interpolated apogee",
+    "ten positive/negative/boundary/unknown tests"
+  ],
+  "no_cohort_score_changes": true,
+  "files_sha256": {
+    "rounds/r16/classical.py": "7c6781ec75f6ea583c12280f9fc28fde1b4cbcc69c4825f706a149b6a961a10e",
+    "rounds/r16/test_classical.py": "6211e9f08cb7226038b59a2a608bbe5484de41263246bbd5cbd93c88bd32d517",
+    "rounds/r16/review.py": "ceaef440d985bfc9637e4a8914d5068af0668d025d2666490b2a7254672dca0b",
+    "rounds/r16/REGISTRATION.zh.md": "f59a2d5be5e28d1a1142b6d1b6bef20e9bcc1951ef07bcf5dad6513c2eaed49e",
+    "package-lock.json": "17fd60175498619a22939476eef4504fc7df724729a5de2fdb9dae3747fa828a",
+    "requirements.txt": "2d4a4831f0c1ab09b633095b8323edd2f9548e638e48f87582fea4d86bb36619",
+    "CONSTITUTION.zh.md": "8f886336f7b2a76d622721932ed98d9c33b5b97771505f0ab1b50af67109718c",
+    "docs/engine_validation/1833_reference.json": "a0dab6462789849f10a10974ce1f8fed253ad0b0207594f03d88bdea192779e1",
+    "protocol/qizheng_western_freeze.json": "7a54b8ebf245f7f4ec1e96df159e2297a335ed9c48df0c3e2ad3922fe9833206",
+    "src/open_birth_chart/astronomy.py": "9331f1a20b6571207f28632bf89d72969c6992072c99fb3ff1235439502fb550",
+    "src/open_birth_chart/bazi_engine.py": "41d2b5f3cd0738d94366e5436a495d05d9f84b5d0c3d0a68efbf14383311d5df",
+    "src/open_birth_chart/qizheng_engine.py": "d50d0c7de06ca16cb0cf19557fd51b65f240363c68e7ce6bb9daa8f483c6123d",
+    "src/open_birth_chart/western_engine.py": "651c791cdaa20215c04214edda13c105dd9d111335585cca6d07d235f9dbe8a1",
+    "src/open_birth_chart/ziwei_bridge.cjs": "976c2b4b8bd887b87865c4e3bfe8f02cce5f1dfdd1c4a6d14959308ca34e978f"
+  }
+}
