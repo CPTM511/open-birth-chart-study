@@ -1,0 +1,306 @@
+{
+  "round": "R40",
+  "retrieved_on_local": "2026-11-28",
+  "timezone": "Asia/Shanghai",
+  "sources": {
+    "family-rule.html": {
+      "url": "https://law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lspttninfSeq=189069",
+      "retrieval_bytes": [
+        17276,
+        17276
+      ],
+      "retrieval_sha256": [
+        "3fd556014582c268ca65fc8eea710ece6e42f1cf8f639e2e91abd6bf9cb42956",
+        "39433decdafe7f9fdd239c392d89798790ffb5b0944b571d077fb88f6e485df3"
+      ],
+      "byte_identical": false
+    },
+    "hira-research-catalog.html": {
+      "url": "https://opendata.hira.or.kr/op/opb/selectHelhMedDataInfoView.do",
+      "retrieval_bytes": [
+        257286,
+        257286
+      ],
+      "retrieval_sha256": [
+        "f1218fef2f71078a4d8c9b80be012c993b2769e894577c8aa792ba694b23e917",
+        "ad3a11b7185c02c76ffe0c32c9aecf88fd3c220acc22fcd358243ae947b22d93"
+      ],
+      "byte_identical": false
+    },
+    "law-clause.html": {
+      "url": "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1024558499",
+      "retrieval_bytes": [
+        18421,
+        18421
+      ],
+      "retrieval_sha256": [
+        "4541cc366d6caf4ab7b6e1a9d327029a63593f9450b8230cfae7466eec88562b",
+        "db92bf738d2e1e5be9b96449827cab2aa4f9b890eebc5b6209a14650a1add4ee"
+      ],
+      "byte_identical": false
+    },
+    "ledger-202410.pdf": {
+      "url": "https://www.hira.or.kr/cms/customer/05/private5_202410.pdf",
+      "pdf_pages": [
+        132
+      ],
+      "printed_pages": [
+        131
+      ],
+      "retrieval_bytes": [
+        908603,
+        908603
+      ],
+      "retrieval_sha256": [
+        "a8545798a92629fe15bf2841f5f2e005acd8e769a19ef6d597edbd3cfc9c7a42",
+        "a8545798a92629fe15bf2841f5f2e005acd8e769a19ef6d597edbd3cfc9c7a42"
+      ],
+      "byte_identical": true
+    },
+    "ledger-202503.pdf": {
+      "url": "https://www.hira.or.kr/cms/customer/05/private5_202503.pdf",
+      "pdf_pages": [
+        132
+      ],
+      "printed_pages": [
+        131
+      ],
+      "retrieval_bytes": [
+        979771,
+        979771
+      ],
+      "retrieval_sha256": [
+        "252233342f61d49bdb2918dbccb5f9e7b8e493a3624b7cd963ecde24778fa148",
+        "252233342f61d49bdb2918dbccb5f9e7b8e493a3624b7cd963ecde24778fa148"
+      ],
+      "byte_identical": true
+    },
+    "ledger-202508.pdf": {
+      "url": "https://www.hira.or.kr/cms/customer/05/privateinformation5_202508.pdf",
+      "pdf_pages": [
+        20
+      ],
+      "printed_pages": [
+        19
+      ],
+      "retrieval_bytes": [
+        903368,
+        903368
+      ],
+      "retrieval_sha256": [
+        "8a26a67795a2848a05d40c17d37897c3c6d037858dfb39d6dd9d26e1b88633a6",
+        "8a26a67795a2848a05d40c17d37897c3c6d037858dfb39d6dd9d26e1b88633a6"
+      ],
+      "byte_identical": true
+    },
+    "ledger-202512.pdf": {
+      "url": "https://www.hira.or.kr/cms/customer/05/private5_202512.pdf",
+      "pdf_pages": [
+        126
+      ],
+      "printed_pages": [
+        125
+      ],
+      "retrieval_bytes": [
+        917390,
+        917390
+      ],
+      "retrieval_sha256": [
+        "55381866ff3dc9600e3f434a7b39503def3ee1b6250962049cbf5385da3deece",
+        "55381866ff3dc9600e3f434a7b39503def3ee1b6250962049cbf5385da3deece"
+      ],
+      "byte_identical": true
+    },
+    "nicu-rwn001-202208.pdf": {
+      "url": "https://www.hira.or.kr/ebooksc/ebook_697/ebook_697_202208261118148810.pdf",
+      "pdf_pages": [
+        61,
+        107,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185
+      ],
+      "printed_pages": [
+        59,
+        105,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183
+      ],
+      "retrieval_bytes": [
+        5594787,
+        5594787
+      ],
+      "retrieval_sha256": [
+        "55828ed0807141a21ce1927d1aee2efc3c3d4e1b22cce53aafb25c6ad4a7b814",
+        "55828ed0807141a21ce1927d1aee2efc3c3d4e1b22cce53aafb25c6ad4a7b814"
+      ],
+      "byte_identical": true
+    },
+    "reporting-manual.pdf": {
+      "url": "https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=2&apndBrdBltNo=11001&apndBrdTyNo=2&apndBltNo=157",
+      "pdf_pages": [
+        4,
+        6,
+        23,
+        30
+      ],
+      "retrieval_bytes": [
+        5804186,
+        5804186
+      ],
+      "retrieval_sha256": [
+        "ed9344f808f609c89f1c073fc223705b0c3738957f5061804bfb121c0e0535dd",
+        "ed9344f808f609c89f1c073fc223705b0c3738957f5061804bfb121c0e0535dd"
+      ],
+      "byte_identical": true
+    },
+    "reporting-notice.html": {
+      "url": "https://www.hira.or.kr/bbsDummy.do?brdBltNo=11001&brdScnBltNo=4&pgmid=HI-RAA020002000100",
+      "retrieval_bytes": [
+        176609,
+        176609
+      ],
+      "retrieval_sha256": [
+        "b94f2e94715352efa3b5ec1832419637610fd504e3af72bfabb6734ae20ab6d1",
+        "dae3ed0bcb683710f37a8ec09171f8e7b18a8e828b74b2cfc488dc34462bd648"
+      ],
+      "byte_identical": false
+    },
+    "start-notice.html": {
+      "url": "https://www.hira.or.kr/bbsDummy.do?brdBltNo=11013&brdScnBltNo=4&pgmid=HIRAA020002000100",
+      "retrieval_bytes": [
+        168008,
+        168008
+      ],
+      "retrieval_sha256": [
+        "8f63595585e755b6af9e3dccdff40928c57e0a22d8299781d3ccdcbdc6b14a66",
+        "99c99d00293a390a90a2b340c79a67333fc36a225e51f542d62d704e5a14be98"
+      ],
+      "byte_identical": false
+    }
+  },
+  "birth_notification": {
+    "system_start_date": "2024-07-19",
+    "applies_to_occurrence_in_medical_institutions": true,
+    "report_deadline_days_after_birth": 14,
+    "born_child_sex_number_and_datetime": true,
+    "facility_name_refers_to_actual_birth_facility": true,
+    "facility_required_by": "Family Relations Registration Rules Article 38-3(1)(2)",
+    "notification_destination_usually_based_on": "mother_place_of_residence",
+    "coverage_for_1990_2009_established": false
+  },
+  "privacy_register_entries": {
+    "ledger-202410.pdf": {
+      "entry_serial": 124,
+      "information_subject_count": 27542,
+      "information_subject_count_is_birth_row_count": false,
+      "retention_years": 10,
+      "holding_lists_newborn_birth_date_by_name": true,
+      "holding_lists_birth_hour_and_minute": true,
+      "holding_lists_newborn_sex": true,
+      "holding_lists_birth_count_and_order": true,
+      "routine_sharing_scope_includes_birth_date_minute_and_sex": false,
+      "named_recipients": [
+        "supreme_court",
+        "national_center_for_child_rights"
+      ],
+      "routine_recipients_confirmed_in_this_version": null,
+      "routine_sharing_notes": "Recipients printed, but not-applicable box checked and scope blank"
+    },
+    "ledger-202503.pdf": {
+      "entry_serial": 124,
+      "information_subject_count": 27542,
+      "information_subject_count_is_birth_row_count": false,
+      "retention_years": 10,
+      "holding_lists_newborn_birth_date_by_name": true,
+      "holding_lists_birth_hour_and_minute": true,
+      "holding_lists_newborn_sex": true,
+      "holding_lists_birth_count_and_order": true,
+      "routine_sharing_scope_includes_birth_date_minute_and_sex": true,
+      "named_recipients": [
+        "supreme_court",
+        "national_center_for_child_rights"
+      ],
+      "routine_recipients_confirmed_in_this_version": [
+        "supreme_court",
+        "national_center_for_child_rights"
+      ],
+      "routine_sharing_notes": "The scope cell lists no delivery facility name or code"
+    },
+    "ledger-202508.pdf": {
+      "entry_serial": 16,
+      "information_subject_count": 183857,
+      "information_subject_count_is_birth_row_count": false,
+      "retention_years": 10,
+      "holding_lists_newborn_birth_date_by_name": true,
+      "holding_lists_birth_hour_and_minute": true,
+      "holding_lists_newborn_sex": true,
+      "holding_lists_birth_count_and_order": true,
+      "routine_sharing_scope_includes_birth_date_minute_and_sex": true,
+      "named_recipients": [
+        "supreme_court",
+        "national_center_for_child_rights"
+      ],
+      "routine_recipients_confirmed_in_this_version": [
+        "supreme_court",
+        "national_center_for_child_rights"
+      ],
+      "routine_sharing_notes": "The scope cell lists no delivery facility name or code"
+    },
+    "ledger-202512.pdf": {
+      "entry_serial": 122,
+      "information_subject_count": 319008,
+      "information_subject_count_is_birth_row_count": false,
+      "retention_years": 10,
+      "holding_lists_newborn_birth_date_by_name": false,
+      "holding_lists_birth_hour_and_minute": true,
+      "holding_lists_newborn_sex": true,
+      "holding_lists_birth_count_and_order": true,
+      "routine_sharing_scope_includes_birth_date_minute_and_sex": true,
+      "named_recipients": [
+        "supreme_court",
+        "national_center_for_child_rights"
+      ],
+      "routine_recipients_confirmed_in_this_version": [
+        "supreme_court",
+        "national_center_for_child_rights"
+      ],
+      "routine_sharing_notes": "The scope cell lists no delivery facility name or code"
+    }
+  },
+  "nicu_rwn001_202208": {
+    "published_schema_version": "002",
+    "birth_datetime_field": "BIRTH_DT",
+    "birth_datetime_format": "ccyymmddhhmm",
+    "conditional_on": {
+      "BIRTH_YN": "1"
+    },
+    "birth_place_field": "BIRTH_PLC_CD",
+    "birth_place_codes": {
+      "1": "own_hospital",
+      "2": "other_facility",
+      "9": "other"
+    },
+    "named_birth_facility_field_in_module": false,
+    "actual_submitted_birth_records_acquired": false,
+    "visual_form_has_patient_sex_in_header": true,
+    "separate_sex_field_key_listed_in_coded_module_and_common_header": false,
+    "submitting_facility_common_header_field": "YKIHO",
+    "own_hospital_code_allows_facility_mapping_if_ykiho_available_and_linkable": true
+  },
+  "general_hira_research_portal": {
+    "claims_based_data_with_person_and_facility_information_deidentified": true,
+    "project_and_controlled_analysis_route": true,
+    "fee_schedule_public": true,
+    "birth_notification_or_rwn001_named_as_a_product_in_portal_overview": false,
+    "special_access_determined": false
+  },
+  "scorable_registry_records_acquired": 0
+}
