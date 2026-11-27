@@ -1,0 +1,399 @@
+{
+  "source": "brazil2020",
+  "slot": "brazil2020",
+  "seed": "OBS-R10-2026-11-27",
+  "eligible_frame_N": 2609808,
+  "sample_n": 2000,
+  "strata": [
+    {
+      "stratum_id": "BR|11|F|2020",
+      "N_h": 12447,
+      "n_h": 10,
+      "inclusion_probability": 0.0008034064433196755,
+      "sample_weight": 1244.7
+    },
+    {
+      "stratum_id": "BR|11|M|2020",
+      "N_h": 13174,
+      "n_h": 11,
+      "inclusion_probability": 0.0008349779869439805,
+      "sample_weight": 1197.6363636363637
+    },
+    {
+      "stratum_id": "BR|12|F|2020",
+      "N_h": 7694,
+      "n_h": 7,
+      "inclusion_probability": 0.0009097998440343125,
+      "sample_weight": 1099.142857142857
+    },
+    {
+      "stratum_id": "BR|12|M|2020",
+      "N_h": 8220,
+      "n_h": 7,
+      "inclusion_probability": 0.0008515815085158151,
+      "sample_weight": 1174.2857142857142
+    },
+    {
+      "stratum_id": "BR|13|F|2020",
+      "N_h": 21326,
+      "n_h": 17,
+      "inclusion_probability": 0.0007971490199756166,
+      "sample_weight": 1254.4705882352941
+    },
+    {
+      "stratum_id": "BR|13|M|2020",
+      "N_h": 22398,
+      "n_h": 18,
+      "inclusion_probability": 0.0008036431824270024,
+      "sample_weight": 1244.3333333333333
+    },
+    {
+      "stratum_id": "BR|14|F|2020",
+      "N_h": 6555,
+      "n_h": 6,
+      "inclusion_probability": 0.0009153318077803204,
+      "sample_weight": 1092.5
+    },
+    {
+      "stratum_id": "BR|14|M|2020",
+      "N_h": 6951,
+      "n_h": 6,
+      "inclusion_probability": 0.0008631851532153647,
+      "sample_weight": 1158.5
+    },
+    {
+      "stratum_id": "BR|15|F|2020",
+      "N_h": 21756,
+      "n_h": 17,
+      "inclusion_probability": 0.0007813936385364957,
+      "sample_weight": 1279.764705882353
+    },
+    {
+      "stratum_id": "BR|15|M|2020",
+      "N_h": 22708,
+      "n_h": 18,
+      "inclusion_probability": 0.0007926721860137397,
+      "sample_weight": 1261.5555555555557
+    },
+    {
+      "stratum_id": "BR|16|F|2020",
+      "N_h": 7806,
+      "n_h": 7,
+      "inclusion_probability": 0.0008967460927491673,
+      "sample_weight": 1115.142857142857
+    },
+    {
+      "stratum_id": "BR|16|M|2020",
+      "N_h": 8181,
+      "n_h": 7,
+      "inclusion_probability": 0.0008556411196675223,
+      "sample_weight": 1168.7142857142858
+    },
+    {
+      "stratum_id": "BR|17|F|2020",
+      "N_h": 11431,
+      "n_h": 10,
+      "inclusion_probability": 0.0008748141020033243,
+      "sample_weight": 1143.1
+    },
+    {
+      "stratum_id": "BR|17|M|2020",
+      "N_h": 12013,
+      "n_h": 10,
+      "inclusion_probability": 0.0008324315325064514,
+      "sample_weight": 1201.3
+    },
+    {
+      "stratum_id": "BR|21|F|2020",
+      "N_h": 50655,
+      "n_h": 39,
+      "inclusion_probability": 0.0007699141249629849,
+      "sample_weight": 1298.8461538461538
+    },
+    {
+      "stratum_id": "BR|21|M|2020",
+      "N_h": 52970,
+      "n_h": 41,
+      "inclusion_probability": 0.0007740230319048518,
+      "sample_weight": 1291.9512195121952
+    },
+    {
+      "stratum_id": "BR|22|F|2020",
+      "N_h": 23214,
+      "n_h": 18,
+      "inclusion_probability": 0.0007753941586973378,
+      "sample_weight": 1289.6666666666667
+    },
+    {
+      "stratum_id": "BR|22|M|2020",
+      "N_h": 24603,
+      "n_h": 19,
+      "inclusion_probability": 0.0007722635450961265,
+      "sample_weight": 1294.8947368421052
+    },
+    {
+      "stratum_id": "BR|23|F|2020",
+      "N_h": 59448,
+      "n_h": 45,
+      "inclusion_probability": 0.0007569640694388373,
+      "sample_weight": 1321.0666666666666
+    },
+    {
+      "stratum_id": "BR|23|M|2020",
+      "N_h": 62317,
+      "n_h": 47,
+      "inclusion_probability": 0.0007542083219667185,
+      "sample_weight": 1325.8936170212767
+    },
+    {
+      "stratum_id": "BR|24|F|2020",
+      "N_h": 21532,
+      "n_h": 17,
+      "inclusion_probability": 0.0007895225710570314,
+      "sample_weight": 1266.5882352941176
+    },
+    {
+      "stratum_id": "BR|24|M|2020",
+      "N_h": 22512,
+      "n_h": 18,
+      "inclusion_probability": 0.0007995735607675906,
+      "sample_weight": 1250.6666666666667
+    },
+    {
+      "stratum_id": "BR|25|F|2020",
+      "N_h": 27240,
+      "n_h": 21,
+      "inclusion_probability": 0.0007709251101321586,
+      "sample_weight": 1297.142857142857
+    },
+    {
+      "stratum_id": "BR|25|M|2020",
+      "N_h": 28819,
+      "n_h": 22,
+      "inclusion_probability": 0.0007633852666643534,
+      "sample_weight": 1309.9545454545455
+    },
+    {
+      "stratum_id": "BR|26|F|2020",
+      "N_h": 63657,
+      "n_h": 48,
+      "inclusion_probability": 0.0007540411894999765,
+      "sample_weight": 1326.1875
+    },
+    {
+      "stratum_id": "BR|26|M|2020",
+      "N_h": 66330,
+      "n_h": 50,
+      "inclusion_probability": 0.0007538067239559777,
+      "sample_weight": 1326.6
+    },
+    {
+      "stratum_id": "BR|27|F|2020",
+      "N_h": 23528,
+      "n_h": 19,
+      "inclusion_probability": 0.0008075484529071744,
+      "sample_weight": 1238.3157894736842
+    },
+    {
+      "stratum_id": "BR|27|M|2020",
+      "N_h": 24527,
+      "n_h": 19,
+      "inclusion_probability": 0.0007746565009988991,
+      "sample_weight": 1290.8947368421052
+    },
+    {
+      "stratum_id": "BR|28|F|2020",
+      "N_h": 15828,
+      "n_h": 13,
+      "inclusion_probability": 0.0008213292898660602,
+      "sample_weight": 1217.5384615384614
+    },
+    {
+      "stratum_id": "BR|28|M|2020",
+      "N_h": 16962,
+      "n_h": 14,
+      "inclusion_probability": 0.0008253743662303974,
+      "sample_weight": 1211.5714285714287
+    },
+    {
+      "stratum_id": "BR|29|F|2020",
+      "N_h": 91132,
+      "n_h": 69,
+      "inclusion_probability": 0.0007571434841767985,
+      "sample_weight": 1320.7536231884058
+    },
+    {
+      "stratum_id": "BR|29|M|2020",
+      "N_h": 94728,
+      "n_h": 72,
+      "inclusion_probability": 0.0007600709399543957,
+      "sample_weight": 1315.6666666666667
+    },
+    {
+      "stratum_id": "BR|31|F|2020",
+      "N_h": 120435,
+      "n_h": 91,
+      "inclusion_probability": 0.0007555943039814008,
+      "sample_weight": 1323.4615384615386
+    },
+    {
+      "stratum_id": "BR|31|M|2020",
+      "N_h": 126236,
+      "n_h": 95,
+      "inclusion_probability": 0.0007525586995785671,
+      "sample_weight": 1328.8
+    },
+    {
+      "stratum_id": "BR|32|F|2020",
+      "N_h": 25959,
+      "n_h": 20,
+      "inclusion_probability": 0.0007704457028390924,
+      "sample_weight": 1297.95
+    },
+    {
+      "stratum_id": "BR|32|M|2020",
+      "N_h": 27419,
+      "n_h": 21,
+      "inclusion_probability": 0.0007658922644881287,
+      "sample_weight": 1305.6666666666667
+    },
+    {
+      "stratum_id": "BR|33|F|2020",
+      "N_h": 96956,
+      "n_h": 73,
+      "inclusion_probability": 0.0007529188497875325,
+      "sample_weight": 1328.164383561644
+    },
+    {
+      "stratum_id": "BR|33|M|2020",
+      "N_h": 101870,
+      "n_h": 77,
+      "inclusion_probability": 0.0007558653185432414,
+      "sample_weight": 1322.987012987013
+    },
+    {
+      "stratum_id": "BR|35|F|2020",
+      "N_h": 269645,
+      "n_h": 202,
+      "inclusion_probability": 0.0007491331194718982,
+      "sample_weight": 1334.8762376237623
+    },
+    {
+      "stratum_id": "BR|35|M|2020",
+      "N_h": 283565,
+      "n_h": 212,
+      "inclusion_probability": 0.0007476240015516724,
+      "sample_weight": 1337.5707547169811
+    },
+    {
+      "stratum_id": "BR|41|F|2020",
+      "N_h": 70939,
+      "n_h": 54,
+      "inclusion_probability": 0.0007612173839495905,
+      "sample_weight": 1313.6851851851852
+    },
+    {
+      "stratum_id": "BR|41|M|2020",
+      "N_h": 75463,
+      "n_h": 57,
+      "inclusion_probability": 0.0007553370525953116,
+      "sample_weight": 1323.9122807017543
+    },
+    {
+      "stratum_id": "BR|42|F|2020",
+      "N_h": 47619,
+      "n_h": 37,
+      "inclusion_probability": 0.000777000777000777,
+      "sample_weight": 1287.0
+    },
+    {
+      "stratum_id": "BR|42|M|2020",
+      "N_h": 50080,
+      "n_h": 38,
+      "inclusion_probability": 0.0007587859424920128,
+      "sample_weight": 1317.8947368421052
+    },
+    {
+      "stratum_id": "BR|43|F|2020",
+      "N_h": 63777,
+      "n_h": 49,
+      "inclusion_probability": 0.0007683020524640545,
+      "sample_weight": 1301.5714285714287
+    },
+    {
+      "stratum_id": "BR|43|M|2020",
+      "N_h": 66717,
+      "n_h": 51,
+      "inclusion_probability": 0.0007644228607401412,
+      "sample_weight": 1308.1764705882354
+    },
+    {
+      "stratum_id": "BR|50|F|2020",
+      "N_h": 19939,
+      "n_h": 16,
+      "inclusion_probability": 0.000802447464767541,
+      "sample_weight": 1246.1875
+    },
+    {
+      "stratum_id": "BR|50|M|2020",
+      "N_h": 20911,
+      "n_h": 17,
+      "inclusion_probability": 0.0008129692506336378,
+      "sample_weight": 1230.0588235294117
+    },
+    {
+      "stratum_id": "BR|51|F|2020",
+      "N_h": 27823,
+      "n_h": 22,
+      "inclusion_probability": 0.0007907127196923408,
+      "sample_weight": 1264.6818181818182
+    },
+    {
+      "stratum_id": "BR|51|M|2020",
+      "N_h": 29157,
+      "n_h": 23,
+      "inclusion_probability": 0.0007888328703227355,
+      "sample_weight": 1267.695652173913
+    },
+    {
+      "stratum_id": "BR|52|F|2020",
+      "N_h": 39143,
+      "n_h": 30,
+      "inclusion_probability": 0.0007664205605089033,
+      "sample_weight": 1304.7666666666667
+    },
+    {
+      "stratum_id": "BR|52|M|2020",
+      "N_h": 41041,
+      "n_h": 32,
+      "inclusion_probability": 0.0007797080967812675,
+      "sample_weight": 1282.53125
+    },
+    {
+      "stratum_id": "BR|53|F|2020",
+      "N_h": 25607,
+      "n_h": 20,
+      "inclusion_probability": 0.0007810364353497091,
+      "sample_weight": 1280.35
+    },
+    {
+      "stratum_id": "BR|53|M|2020",
+      "N_h": 26845,
+      "n_h": 21,
+      "inclusion_probability": 0.0007822685788787483,
+      "sample_weight": 1278.3333333333333
+    }
+  ],
+  "algorithm": "Frozen R9 exact residual-capacity allocation; SHA256(R10 seed|stable source row ID) ascending",
+  "model_input_sha256": "1255c1ceb4785f866dec1f0dfc85f26d65bfb0fe2f24890edd89f4053b11781f",
+  "metadata_sha256": "c81664532ab7fd417d17b97503420f24541c61b06b0c8bde49d216d36b2869d2",
+  "archive_sha256": "d06af4961ab021cf5b55bf913672036bd45280b87d73256f4fca8bf48f90104c",
+  "reference_sha256": "d3c8f97c7580413df2131b2227d4c442a34a957d244775affc162a1de99b9803",
+  "audit_sha256": "420530e2c1e6c9376e7748700cbfff7ca66b94885b234296cd0185e24a729607",
+  "sampling_code_sha256": "f8c302a5a2c1e233bddceb67dce6191c2736929a9a7ea20c29be5c561c7a5b3a",
+  "timezone_database": "# version 2026c",
+  "public_protocol_commit": "f792dc314a4183564c44504842302795f2dba0cb",
+  "weight_interpretation": "Restricted eligible source-year frame only; not an entire decade or humanity",
+  "outcome_fields": [],
+  "selection_uses_model_outputs": false
+}
