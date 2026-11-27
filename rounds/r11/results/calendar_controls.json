@@ -1,0 +1,553 @@
+{
+  "id": "OBS-R11-CALENDAR-2026-11-27",
+  "registration_sha256": "fc371322be1628fd51b6e56f731a612c83c308292cadccef74d569b59d56bbb8",
+  "numpy": "2.3.5",
+  "reference_profile_sha256": "5bdc0d2e5c53cb15928a4a0781e5c7785085d3d039cfbf7dcc9b44f2a3f1c401",
+  "target_profile_sha256": "9076924ba2e21c46f592170ecf2b6e2097846124e05be4a2da3e12599c1e9746",
+  "retrospective": true,
+  "observed_event_outcomes": false,
+  "cohorts": [
+    {
+      "slot": "brazil2006",
+      "country": "BR",
+      "birth_year": 2006,
+      "seed": 20261127300,
+      "source_records": 2000,
+      "eligible_frame_records": 2805207,
+      "observed": 0.03214942848730289,
+      "quarter_expected": 0.032020102066052075,
+      "quarter_excess": 0.0001293264212508194,
+      "quarter_support": {
+        "cells": 212,
+        "singleton_records": 21,
+        "weight_share_by_minimum_donors": {
+          "2": 0.9896700022604846,
+          "5": 0.8899051358650935,
+          "10": 0.7083067722061444
+        }
+      },
+      "quarter_permutations": {
+        "draws": 4999,
+        "two_sided_tail_including_ties": 4065,
+        "p": 0.8132,
+        "conditional_range95": [
+          0.03093402369648388,
+          0.0330942884477845
+        ],
+        "simulated_mean": 0.032011455110485934,
+        "mean_standard_error": 7.775912532450422e-06,
+        "mean_exact_error": 8.646955566141147e-06,
+        "first_draw_numerators_sha256": "cdba9502514c90a7b2e539de2b5527f3edbbc8333ccd48c7ae320031d461ff11",
+        "draw_numerator_denominator": "7522083294000043215605558400",
+        "full_draw_numerators_sha256": "b653604735da3dad87f1d81a0879ac009a184db278a31eca12039d73adc7b196",
+        "holm_p_for_seven_cohorts": 1.0
+      },
+      "marginal_sensitivities": {
+        "calendar_only": {
+          "expected": 0.03180031632060634,
+          "excess": 0.0003491121666965491,
+          "cells": 106,
+          "singleton_records": 1,
+          "weight_share_by_minimum_donors": {
+            "2": 0.9995151872927738,
+            "5": 0.9778221028744386,
+            "10": 0.881427267045263
+          }
+        },
+        "month": {
+          "expected": 0.03202605062188407,
+          "excess": 0.00012337786541881987,
+          "cells": 505,
+          "singleton_records": 135,
+          "weight_share_by_minimum_donors": {
+            "2": 0.9324883298853819,
+            "5": 0.602899940340826,
+            "10": 0.29690733062193214
+          }
+        }
+      },
+      "flag_array_sha256": "b941bcfdea80147b8d8e8e04152857af73dc6569684095805ff89257c2fcbdab"
+    },
+    {
+      "slot": "brazil_2000s",
+      "country": "BR",
+      "birth_year": 2007,
+      "seed": 20261127301,
+      "source_records": 2000,
+      "eligible_frame_records": 2751898,
+      "observed": 0.03369931184222137,
+      "quarter_expected": 0.0337191747161508,
+      "quarter_excess": -1.9862873929429445e-05,
+      "quarter_support": {
+        "cells": 213,
+        "singleton_records": 19,
+        "weight_share_by_minimum_donors": {
+          "2": 0.9914587935873039,
+          "5": 0.8982796247936827,
+          "10": 0.7084722276268683
+        }
+      },
+      "quarter_permutations": {
+        "draws": 4999,
+        "two_sided_tail_including_ties": 4846,
+        "p": 0.9694,
+        "conditional_range95": [
+          0.032665367968665225,
+          0.03482395556917551
+        ],
+        "simulated_mean": 0.03373384448675988,
+        "mean_standard_error": 7.875667197464078e-06,
+        "mean_exact_error": 1.4669770609079664e-05,
+        "first_draw_numerators_sha256": "22d6066d360a2aec64d7ed15c0deef4f9bb320d8c74ad13c7b1001ea337ebdf5",
+        "draw_numerator_denominator": "499301913927136264936992000",
+        "full_draw_numerators_sha256": "23a57b5144b823f970b5acac171c10f3e9f46a9f9037fb1bf551453facc1e88d",
+        "holm_p_for_seven_cohorts": 1.0
+      },
+      "marginal_sensitivities": {
+        "calendar_only": {
+          "expected": 0.03359582589062556,
+          "excess": 0.00010348595159581314,
+          "cells": 107,
+          "singleton_records": 1,
+          "weight_share_by_minimum_donors": {
+            "2": 0.9995322622180521,
+            "5": 0.9833107203689616,
+            "10": 0.8679500005696122
+          }
+        },
+        "month": {
+          "expected": 0.03344517520125402,
+          "excess": 0.00025413664096735045,
+          "cells": 520,
+          "singleton_records": 147,
+          "weight_share_by_minimum_donors": {
+            "2": 0.929921845111282,
+            "5": 0.6302521104536858,
+            "10": 0.2627801113205663
+          }
+        }
+      },
+      "flag_array_sha256": "44ce02365d422fce4fec3d6bbb42c0b64a65eb258baed8d7df0310d0e0074245",
+      "contrast_with_brazil2006": {
+        "observed_difference": 0.0015498833549184798,
+        "quarter_expected_difference": 0.0016990726500987286,
+        "quarter_excess_difference": -0.00014918929518024885,
+        "observed_R10_seven_slot_adjusted_interval": [
+          -0.00041459333299355416,
+          0.0035890430725347214
+        ],
+        "sensitivity": {
+          "calendar_only": {
+            "expected_difference": 0.0017955095700192157,
+            "excess_difference": -0.0002456262151007359
+          },
+          "month": {
+            "expected_difference": 0.001419124579369949,
+            "excess_difference": 0.0001307587755485306
+          }
+        }
+      }
+    },
+    {
+      "slot": "brazil2010",
+      "country": "BR",
+      "birth_year": 2010,
+      "seed": 20261127302,
+      "source_records": 2000,
+      "eligible_frame_records": 2736095,
+      "observed": 0.03157812811986679,
+      "quarter_expected": 0.032817838908927505,
+      "quarter_excess": -0.001239710789060723,
+      "quarter_support": {
+        "cells": 217,
+        "singleton_records": 24,
+        "weight_share_by_minimum_donors": {
+          "2": 0.9891370782080903,
+          "5": 0.8954147061090898,
+          "10": 0.6799125884656383
+        }
+      },
+      "quarter_permutations": {
+        "draws": 4999,
+        "two_sided_tail_including_ties": 143,
+        "p": 0.0288,
+        "conditional_range95": [
+          0.03172291894098876,
+          0.03390750724775557
+        ],
+        "simulated_mean": 0.03282062747049194,
+        "mean_standard_error": 7.865882109424218e-06,
+        "mean_exact_error": 2.7885615644352375e-06,
+        "first_draw_numerators_sha256": "b759d91ee669a2cf4a1828e9345f245003e19446d16fd4621d81417879478e00",
+        "draw_numerator_denominator": "2411236355723876480076557280000",
+        "full_draw_numerators_sha256": "2f7ada1957f6bc629adba4b187ad599c3cd2db0a2c971149c99915a2007bc520",
+        "holm_p_for_seven_cohorts": 0.1728
+      },
+      "marginal_sensitivities": {
+        "calendar_only": {
+          "expected": 0.03281183420415818,
+          "excess": -0.0012337060842913996,
+          "cells": 108,
+          "singleton_records": 1,
+          "weight_share_by_minimum_donors": {
+            "2": 0.9995449197278812,
+            "5": 0.9839469877081509,
+            "10": 0.8853418928682626
+          }
+        },
+        "month": {
+          "expected": 0.032846021531647784,
+          "excess": -0.0012678934117810003,
+          "cells": 537,
+          "singleton_records": 169,
+          "weight_share_by_minimum_donors": {
+            "2": 0.9193902369966243,
+            "5": 0.6069041444441979,
+            "10": 0.2860469829317914
+          }
+        }
+      },
+      "flag_array_sha256": "ddd6ea57c6bcd3ee2ba0909eba9de4fc10130f794c9471fb02b225ac6304cb60",
+      "contrast_with_brazil2006": {
+        "observed_difference": -0.00057130036743611,
+        "quarter_expected_difference": 0.0007977368428754324,
+        "quarter_excess_difference": -0.0013690372103115423,
+        "observed_R10_seven_slot_adjusted_interval": [
+          -0.0026197454502075307,
+          0.0015025686092319454
+        ],
+        "sensitivity": {
+          "calendar_only": {
+            "expected_difference": 0.0010115178835518387,
+            "excess_difference": -0.0015828182509879487
+          },
+          "month": {
+            "expected_difference": 0.0008199709097637102,
+            "excess_difference": -0.00139127127719982
+          }
+        }
+      }
+    },
+    {
+      "slot": "brazil2020",
+      "country": "BR",
+      "birth_year": 2020,
+      "seed": 20261127303,
+      "source_records": 2000,
+      "eligible_frame_records": 2609808,
+      "observed": 0.03830309933236106,
+      "quarter_expected": 0.03679626669406175,
+      "quarter_excess": 0.0015068326382993132,
+      "quarter_support": {
+        "cells": 217,
+        "singleton_records": 22,
+        "weight_share_by_minimum_donors": {
+          "2": 0.9898665284356144,
+          "5": 0.8998680436657718,
+          "10": 0.6918325553235793
+        }
+      },
+      "quarter_permutations": {
+        "draws": 4999,
+        "two_sided_tail_including_ties": 48,
+        "p": 0.0098,
+        "conditional_range95": [
+          0.03564019108122611,
+          0.037930596795917676
+        ],
+        "simulated_mean": 0.03678852234741848,
+        "mean_standard_error": 8.341557396327841e-06,
+        "mean_exact_error": 7.744346643267017e-06,
+        "first_draw_numerators_sha256": "2327665073daccd0f6dd358596432c78c00c6b1da63011cfed691a0e81566ecc",
+        "draw_numerator_denominator": "2525332396674585694881484800",
+        "full_draw_numerators_sha256": "600ee20d9e3818e89f241fbf7e511521f1ee47ffb9a1302878a90d8248b4c1c2",
+        "holm_p_for_seven_cohorts": 0.0686
+      },
+      "marginal_sensitivities": {
+        "calendar_only": {
+          "expected": 0.036546236731371626,
+          "excess": 0.001756862600989436,
+          "cells": 108,
+          "singleton_records": 1,
+          "weight_share_by_minimum_donors": {
+            "2": 0.9995619984305358,
+            "5": 0.9805923917894224,
+            "10": 0.8863959035736803
+          }
+        },
+        "month": {
+          "expected": 0.03712895288075711,
+          "excess": 0.0011741464516039483,
+          "cells": 533,
+          "singleton_records": 148,
+          "weight_share_by_minimum_donors": {
+            "2": 0.9296257555516756,
+            "5": 0.5852191359757659,
+            "10": 0.2789397058403647
+          }
+        }
+      },
+      "flag_array_sha256": "f1ec1a4f601c36ba78db1a21afc7a20f72402eb015ec70732da8664db8499849",
+      "contrast_with_brazil2006": {
+        "observed_difference": 0.006153670845058165,
+        "quarter_expected_difference": 0.0047761646280096715,
+        "quarter_excess_difference": 0.0013775062170484937,
+        "observed_R10_seven_slot_adjusted_interval": [
+          0.0038759584701307873,
+          0.008523995667633802
+        ],
+        "sensitivity": {
+          "calendar_only": {
+            "expected_difference": 0.004745920410765278,
+            "excess_difference": 0.001407750434292887
+          },
+          "month": {
+            "expected_difference": 0.005102902258873037,
+            "excess_difference": 0.0010507685861851285
+          }
+        }
+      }
+    },
+    {
+      "slot": "brazil2024",
+      "country": "BR",
+      "birth_year": 2024,
+      "seed": 20261127304,
+      "source_records": 2000,
+      "eligible_frame_records": 2285483,
+      "observed": 0.0372877404527916,
+      "quarter_expected": 0.03703489740931836,
+      "quarter_excess": 0.00025284304347324366,
+      "quarter_support": {
+        "cells": 217,
+        "singleton_records": 17,
+        "weight_share_by_minimum_donors": {
+          "2": 0.992286688161218,
+          "5": 0.9069170886304465,
+          "10": 0.6914954358979698
+        }
+      },
+      "quarter_permutations": {
+        "draws": 4999,
+        "two_sided_tail_including_ties": 3342,
+        "p": 0.6686,
+        "conditional_range95": [
+          0.035870950330891764,
+          0.038157469386700886
+        ],
+        "simulated_mean": 0.037033507538294395,
+        "mean_standard_error": 8.220070398499661e-06,
+        "mean_exact_error": 1.3898710239671493e-06,
+        "first_draw_numerators_sha256": "68870eb0f46a3fff8644fd68319c0a17ef36be5bac35045c2c3a7610c40f5fe1",
+        "draw_numerator_denominator": "657153772173826815888000",
+        "full_draw_numerators_sha256": "123e9bccfc5c110d32ad15c45cc7e7e5ddecf33b2e816a226bb888a2af14f313",
+        "holm_p_for_seven_cohorts": 1.0
+      },
+      "marginal_sensitivities": {
+        "calendar_only": {
+          "expected": 0.037093555119709604,
+          "excess": 0.00019418533308200058,
+          "cells": 108,
+          "singleton_records": 1,
+          "weight_share_by_minimum_donors": {
+            "2": 0.9995504961824991,
+            "5": 0.9817290486440071,
+            "10": 0.8798684361254718
+          }
+        },
+        "month": {
+          "expected": 0.03736629358409802,
+          "excess": -7.855313130641993e-05,
+          "cells": 542,
+          "singleton_records": 151,
+          "weight_share_by_minimum_donors": {
+            "2": 0.9281044808393398,
+            "5": 0.5873227742352287,
+            "10": 0.2574065385359622
+          }
+        }
+      },
+      "flag_array_sha256": "21d68ccf661008b9530ce0673d9fe254d7f171a35816fc9e36aaa145d8ebf214",
+      "contrast_with_brazil2006": {
+        "observed_difference": 0.0051383119654887085,
+        "quarter_expected_difference": 0.005014795343266284,
+        "quarter_excess_difference": 0.00012351662222242422,
+        "observed_R10_seven_slot_adjusted_interval": [
+          0.002979719591376717,
+          0.007255755440965107
+        ],
+        "sensitivity": {
+          "calendar_only": {
+            "expected_difference": 0.005293238799103257,
+            "excess_difference": -0.00015492683361454848
+          },
+          "month": {
+            "expected_difference": 0.0053402429622139485,
+            "excess_difference": -0.0002019309967252398
+          }
+        }
+      }
+    },
+    {
+      "slot": "mexico_2000s",
+      "country": "MX",
+      "birth_year": 2009,
+      "seed": 20261127305,
+      "source_records": 2000,
+      "eligible_frame_records": 1645435,
+      "observed": 0.03023023669652704,
+      "quarter_expected": 0.030674690221549387,
+      "quarter_excess": -0.0004444535250223437,
+      "quarter_support": {
+        "cells": 209,
+        "singleton_records": 16,
+        "weight_share_by_minimum_donors": {
+          "2": 0.9923428111416462,
+          "5": 0.9241987823222755,
+          "10": 0.6589587906603835
+        }
+      },
+      "quarter_permutations": {
+        "draws": 4999,
+        "two_sided_tail_including_ties": 2076,
+        "p": 0.4154,
+        "conditional_range95": [
+          0.02958956356816048,
+          0.03173877512157731
+        ],
+        "simulated_mean": 0.030669445978020456,
+        "mean_standard_error": 7.736148705974214e-06,
+        "mean_exact_error": 5.244243528927877e-06,
+        "first_draw_numerators_sha256": "6bec35a5e298b481802c03b7bd81a3f13244b3291d76750aefb9fca1c9658fbe",
+        "draw_numerator_denominator": "199832314401983676101008320000",
+        "full_draw_numerators_sha256": "544c5bc43f23e20d5b5f06838dcc8b37f169eacdc08dd1691a4731ee5b54bf61",
+        "holm_p_for_seven_cohorts": 1.0
+      },
+      "marginal_sensitivities": {
+        "calendar_only": {
+          "expected": 0.03102919972234987,
+          "excess": -0.0007989630258228284,
+          "cells": 104,
+          "singleton_records": 0,
+          "weight_share_by_minimum_donors": {
+            "2": 1.0,
+            "5": 0.9861761479487188,
+            "10": 0.915203794395214
+          }
+        },
+        "month": {
+          "expected": 0.030789322718002922,
+          "excess": -0.0005590860214758807,
+          "cells": 538,
+          "singleton_records": 135,
+          "weight_share_by_minimum_donors": {
+            "2": 0.9349366960343882,
+            "5": 0.5811385725240856,
+            "10": 0.23561248125134482
+          }
+        }
+      },
+      "flag_array_sha256": "2e36da941fdacf12219cc99c3ba121ed1e387b79774b20d0a7d3e3935e1dda23",
+      "contrast_with_brazil2006": {
+        "observed_difference": -0.0019191917907758528,
+        "quarter_expected_difference": -0.0013454118445026895,
+        "quarter_excess_difference": -0.0005737799462731632,
+        "observed_R10_seven_slot_adjusted_interval": [
+          -0.0038701223815748344,
+          3.484270379633392e-05
+        ],
+        "sensitivity": {
+          "calendar_only": {
+            "expected_difference": -0.0007711165982564751,
+            "excess_difference": -0.0011480751925193775
+          },
+          "month": {
+            "expected_difference": -0.0012367279038811522,
+            "excess_difference": -0.0006824638868947006
+          }
+        }
+      }
+    },
+    {
+      "slot": "mexico2020",
+      "country": "MX",
+      "birth_year": 2020,
+      "seed": 20261127306,
+      "source_records": 2000,
+      "eligible_frame_records": 1369906,
+      "observed": 0.03614346235671093,
+      "quarter_expected": 0.03611841214211011,
+      "quarter_excess": 2.5050214600821633e-05,
+      "quarter_support": {
+        "cells": 218,
+        "singleton_records": 11,
+        "weight_share_by_minimum_donors": {
+          "2": 0.9946502362236388,
+          "5": 0.9112818278204924,
+          "10": 0.6638101725330648
+        }
+      },
+      "quarter_permutations": {
+        "draws": 4999,
+        "two_sided_tail_including_ties": 4842,
+        "p": 0.9686,
+        "conditional_range95": [
+          0.03500750121280605,
+          0.03727198018467427
+        ],
+        "simulated_mean": 0.036125715800038954,
+        "mean_standard_error": 8.122009226974854e-06,
+        "mean_exact_error": 7.303657928846966e-06,
+        "first_draw_numerators_sha256": "1c4a59003fe4226c1e2f6efe944a6fdd3024b2e0b8f5109c5fef8ca94b232063",
+        "draw_numerator_denominator": "399814766608668556453019712000",
+        "full_draw_numerators_sha256": "26fbbee7a71024bcd8fb4fb51475ba376e848a60151ffad2af2da933757e8e7b",
+        "holm_p_for_seven_cohorts": 1.0
+      },
+      "marginal_sensitivities": {
+        "calendar_only": {
+          "expected": 0.0354849907030129,
+          "excess": 0.0006584716536980336,
+          "cells": 108,
+          "singleton_records": 0,
+          "weight_share_by_minimum_donors": {
+            "2": 1.0,
+            "5": 0.9891228113537326,
+            "10": 0.8935451413463812
+          }
+        },
+        "month": {
+          "expected": 0.035919989499232266,
+          "excess": 0.00022347285747866566,
+          "cells": 560,
+          "singleton_records": 141,
+          "weight_share_by_minimum_donors": {
+            "2": 0.931492835847465,
+            "5": 0.5641432457999723,
+            "10": 0.13869789215855985
+          }
+        }
+      },
+      "flag_array_sha256": "b6737b049c11ff9d3e9b9b19f103630dfb304ea07af821fdfea0c25996b686fb",
+      "contrast_with_brazil2006": {
+        "observed_difference": 0.003994033869408037,
+        "quarter_expected_difference": 0.004098310076058035,
+        "quarter_excess_difference": -0.00010427620664999778,
+        "observed_R10_seven_slot_adjusted_interval": [
+          0.0017504096649872333,
+          0.00626664846978553
+        ],
+        "sensitivity": {
+          "calendar_only": {
+            "expected_difference": 0.0036846743824065524,
+            "excess_difference": 0.0003093594870014846
+          },
+          "month": {
+            "expected_difference": 0.0038939388773481915,
+            "excess_difference": 0.0001000949920598458
+          }
+        }
+      }
+    }
+  ],
+  "calibration_sha256": "a048adf01bf4bd9b3480c62cebd775fb661e4db1481b62424ca3191e42ca4d1b"
+}

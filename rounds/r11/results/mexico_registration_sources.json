@@ -1,0 +1,159 @@
+{
+  "scope": "R12 source eligibility check and arithmetic bounds, with no additional chart development or scoring.",
+  "source_rows_are_not_verified_unique_people": true,
+  "birth_year": 2020,
+  "iter_2020_sha256": "9342fdbd45bda5897f2b827a12904843b6f8fb85d4e72da299e09e4d2422ab60",
+  "tzdb": "2026c",
+  "early_records": 1369906,
+  "late_records": 145522,
+  "late_eligible_share": 0.0960269969935886,
+  "source_archives": [
+    {
+      "registration_year": 2020,
+      "sha256": "4b05f3312565be0612e7513c378d42525ed38f06f765cb7dc552949a5bdf5b34",
+      "archive_bytes": 36326771,
+      "url": "https://www.inegi.org.mx/contenidos/programas/natalidad/microdatos/2020/natalidad_base_datos_2020_dbf.zip",
+      "physical_rows": 1629211,
+      "birth_year_2020": 1169571,
+      "exclude_sex_or_registration_year": 2,
+      "exclude_invalid_birth_clock_or_date": 12812,
+      "exclude_chronology": 0,
+      "exclude_locality_or_geography": 204571,
+      "exclude_ambiguous_historical_clock": 111,
+      "eligible": 952075
+    },
+    {
+      "registration_year": 2021,
+      "sha256": "9915953675c27a51e8b47bb8c8dfdd1c6ce3b011a1687311ac24575689c27aaa",
+      "archive_bytes": 40466857,
+      "url": "https://www.inegi.org.mx/contenidos/programas/natalidad/microdatos/2021/natalidad_base_datos_2021_dbf.zip",
+      "physical_rows": 1912178,
+      "birth_year_2020": 504677,
+      "exclude_sex_or_registration_year": 0,
+      "exclude_invalid_birth_clock_or_date": 4488,
+      "exclude_chronology": 0,
+      "exclude_locality_or_geography": 82279,
+      "exclude_ambiguous_historical_clock": 79,
+      "eligible": 417831
+    },
+    {
+      "registration_year": 2022,
+      "sha256": "717d49c520cf96731c3e2856c9696536e6a3fba685b914ade2bc7628d8933b57",
+      "archive_bytes": 35859358,
+      "url": "https://www.inegi.org.mx/contenidos/programas/natalidad/microdatos/2022/natalidad_base_datos_2022_dbf.zip",
+      "physical_rows": 1891388,
+      "birth_year_2020": 80991,
+      "exclude_sex_or_registration_year": 0,
+      "exclude_invalid_birth_clock_or_date": 692,
+      "exclude_chronology": 0,
+      "exclude_locality_or_geography": 10740,
+      "exclude_ambiguous_historical_clock": 13,
+      "eligible": 69546
+    },
+    {
+      "registration_year": 2023,
+      "sha256": "b8776c9b53558868d51cf28d6aee3fa101e99c73b9bc385eb978e0f44858dd3e",
+      "archive_bytes": 34476377,
+      "url": "https://www.inegi.org.mx/contenidos/programas/natalidad/microdatos/2023/natalidad_base_datos_2023_dbf.zip",
+      "physical_rows": 1820888,
+      "birth_year_2020": 48352,
+      "exclude_sex_or_registration_year": 0,
+      "exclude_invalid_birth_clock_or_date": 494,
+      "exclude_chronology": 0,
+      "exclude_locality_or_geography": 7699,
+      "exclude_ambiguous_historical_clock": 10,
+      "eligible": 40149
+    },
+    {
+      "registration_year": 2024,
+      "sha256": "7506d11acee08c0ad4ef6fb008905655b929764f77f880eeb8fa9501d5720e04",
+      "archive_bytes": 35081928,
+      "url": "https://www.inegi.org.mx/contenidos/programas/natalidad/microdatos/2024/natalidad_base_datos_2024_dbf.zip",
+      "physical_rows": 1672227,
+      "birth_year_2020": 28530,
+      "exclude_sex_or_registration_year": 0,
+      "exclude_invalid_birth_clock_or_date": 414,
+      "exclude_chronology": 0,
+      "exclude_locality_or_geography": 5329,
+      "exclude_ambiguous_historical_clock": 7,
+      "eligible": 22780
+    },
+    {
+      "registration_year": 2025,
+      "sha256": "f79312fd04211870d15dc45ee342b2d1487d4dce298e8fc28873053e75f56970",
+      "archive_bytes": 35347528,
+      "url": "https://www.inegi.org.mx/contenidos/programas/natalidad/microdatos/2025/natalidad_base_datos_2025_dbf.zip",
+      "physical_rows": 1678532,
+      "birth_year_2020": 18795,
+      "exclude_sex_or_registration_year": 0,
+      "exclude_invalid_birth_clock_or_date": 263,
+      "exclude_chronology": 0,
+      "exclude_locality_or_geography": 5484,
+      "exclude_ambiguous_historical_clock": 1,
+      "eligible": 13047
+    }
+  ],
+  "held_out_source_candidate": {
+    "birth_year": 2023,
+    "source_archives": [
+      {
+        "registration_year": 2023,
+        "sha256": "b8776c9b53558868d51cf28d6aee3fa101e99c73b9bc385eb978e0f44858dd3e",
+        "archive_bytes": 34476377,
+        "url": "https://www.inegi.org.mx/contenidos/programas/natalidad/microdatos/2023/natalidad_base_datos_2023_dbf.zip",
+        "physical_rows": 1820888,
+        "birth_year_2023": 1157443,
+        "exclude_sex_or_registration_year": 2,
+        "exclude_invalid_birth_clock_or_date": 6031,
+        "exclude_chronology": 0,
+        "exclude_locality_or_geography": 187677,
+        "exclude_ambiguous_historical_clock": 4,
+        "eligible": 963729
+      },
+      {
+        "registration_year": 2024,
+        "sha256": "7506d11acee08c0ad4ef6fb008905655b929764f77f880eeb8fa9501d5720e04",
+        "archive_bytes": 35081928,
+        "url": "https://www.inegi.org.mx/contenidos/programas/natalidad/microdatos/2024/natalidad_base_datos_2024_dbf.zip",
+        "physical_rows": 1672227,
+        "birth_year_2023": 323746,
+        "exclude_sex_or_registration_year": 0,
+        "exclude_invalid_birth_clock_or_date": 899,
+        "exclude_chronology": 0,
+        "exclude_locality_or_geography": 41681,
+        "exclude_ambiguous_historical_clock": 2,
+        "eligible": 281164
+      },
+      {
+        "registration_year": 2025,
+        "sha256": "f79312fd04211870d15dc45ee342b2d1487d4dce298e8fc28873053e75f56970",
+        "archive_bytes": 35347528,
+        "url": "https://www.inegi.org.mx/contenidos/programas/natalidad/microdatos/2025/natalidad_base_datos_2025_dbf.zip",
+        "physical_rows": 1678532,
+        "birth_year_2023": 49001,
+        "exclude_sex_or_registration_year": 0,
+        "exclude_invalid_birth_clock_or_date": 378,
+        "exclude_chronology": 0,
+        "exclude_locality_or_geography": 9516,
+        "exclude_ambiguous_historical_clock": 0,
+        "eligible": 39107
+      }
+    ],
+    "eligible_2023_2024_registration_records": 1244893,
+    "additional_2025_eligible_registration_records": 39107,
+    "selected_or_scored": false
+  },
+  "score_bound": {
+    "r10_early_point_estimate": 0.03614346235671093,
+    "reference": 0.03214942848730289,
+    "expanded_frame_rate_lower_at_r10_point": 0.032672714205645166,
+    "expanded_frame_rate_upper_at_r10_point": 0.12869971119923376,
+    "expanded_frame_difference_pp_bounds_at_r10_point": [
+      0.05232857183422729,
+      9.655028271193085
+    ],
+    "late_joint_rate_that_would_equal_reference": -0.0054493604374320995,
+    "expanded_frame_difference_pp_at_r10_lower_and_zero_late": -0.15048899913458724,
+    "scope": "Sharp arithmetic bounds with the earlier R10 point held fixed and the unscored late cohort's joint rate anywhere in [0,1]. These are not sampling intervals."
+  }
+}

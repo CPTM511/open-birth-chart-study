@@ -1,0 +1,46 @@
+{
+  "id": "OBS-R11-CALENDAR-2026-11-27",
+  "registration_sha256": "fc371322be1628fd51b6e56f731a612c83c308292cadccef74d569b59d56bbb8",
+  "parameters": {
+    "seed": 20261127401,
+    "panels_each": 120,
+    "draws_per_panel": 799,
+    "max_false_rejections": 12,
+    "min_injection_detections": 96
+  },
+  "status": "passed",
+  "finite_sample_exact_fixture": {
+    "permutations_enumerated": 216,
+    "expected_fraction": "91/213",
+    "observed_fraction": "187/426",
+    "singleton_retained": true,
+    "holm_exercised": true,
+    "ties_include_observed_in_tail": true
+  },
+  "synthetic_truth": {
+    "quarter_matched_null_excess_pp": 0,
+    "injected_population_excess_pp": 1,
+    "coupling_probability": 0.06978522167432681,
+    "ages": 40,
+    "distinct_bernoulli_periods": 20,
+    "sample_records_per_panel": 489,
+    "shared_age_quarter_rates": [
+      0.08,
+      0.45
+    ]
+  },
+  "results": {
+    "seasonal_null": {
+      "raw_05_rejections": 2,
+      "bonferroni_05_over_7_rejections": 0,
+      "mean_season_matched_excess_pp": -0.006475650100508168,
+      "mean_calendar_only_excess_pp": 5.10077564905868
+    },
+    "shared_flag_injection": {
+      "raw_05_rejections": 119,
+      "bonferroni_05_over_7_rejections": 115,
+      "mean_season_matched_excess_pp": 0.8955524668579167,
+      "mean_calendar_only_excess_pp": 6.088732249651818
+    }
+  }
+}
