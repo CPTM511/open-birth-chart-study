@@ -1,0 +1,25 @@
+{
+  "years": {
+    "1999": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000002627502",
+      "sha256": "d96363ede675c5e9f4e161431807d3e56308b05cade9ce74609c7a472a32757f",
+      "publisher_table_total": 1177669,
+      "national_comparison_total": 1177669
+    },
+    "2006": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000002614035",
+      "sha256": "b68e8ae420455458b247d4d19bf8fde91b4ff654ddeb2359b125d4313ceab459",
+      "publisher_table_total": 1092674,
+      "national_comparison_total": 1104862
+    }
+  },
+  "timezone": "Asia/Tokyo",
+  "source_offset_seconds": 32400,
+  "clock_variants": {
+    "tokyo_30": [30, 35.68950, 139.69171],
+    "tokyo_00": [0, 35.68950, 139.69171],
+    "tokyo_59": [59, 35.68950, 139.69171],
+    "fukuoka_30": [30, 33.60000, 130.41667]
+  },
+  "date_sensitivity_seed": "OBS-R34-20261128"
+}
