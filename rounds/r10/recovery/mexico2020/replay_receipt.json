@@ -1,0 +1,25 @@
+{
+  "slot": "mexico2020",
+  "status": "verified_model_inputs",
+  "tzdb": "2026c",
+  "archives": {
+    "2020": {
+      "sha256": "4b05f3312565be0612e7513c378d42525ed38f06f765cb7dc552949a5bdf5b34",
+      "physical_records": 1629211,
+      "actual_2020_birth_records": 1169571,
+      "eligible_records": 952075
+    },
+    "2021": {
+      "sha256": "9915953675c27a51e8b47bb8c8dfdd1c6ce3b011a1687311ac24575689c27aaa",
+      "physical_records": 1912178,
+      "actual_2020_birth_records": 504677,
+      "eligible_records": 417831
+    }
+  },
+  "iter_2020_sha256": "9342fdbd45bda5897f2b827a12904843b6f8fb85d4e72da299e09e4d2422ab60",
+  "matching_strata": 54,
+  "eligible_records": 1369906,
+  "selected_records": 2000,
+  "model_input_sha256": "238d328202a72cd08ea0e5dcd38938868859f94d46efc758513df410ad25e68c",
+  "scope": "Replays input selection and stratum sizes. Historical full metadata and target outcomes are outside this receipt."
+}
