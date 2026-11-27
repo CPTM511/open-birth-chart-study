@@ -1,0 +1,198 @@
+{
+  "checked_date_local_japan": "2026-11-28",
+  "catalogue_url": "https://www.e-stat.go.jp/microdata/available-data/onsite?governmentStatisticsCode=00450011",
+  "government_statistics_code": "00450011",
+  "public_detail_endpoint": "https://www.e-stat.go.jp/microdata/available-data/questionnaireInfo",
+  "public_detail_form": {
+    "list_id_field": "listId",
+    "channel_field": "provisionMethod",
+    "onsite_channel": "1"
+  },
+  "public_metadata_download_endpoint": "https://www.e-stat.go.jp/microdata/available-data/file/download/meta",
+  "onsite_index": {
+    "1974": {
+      "catalogue_entry_id": "679450",
+      "type": "出生票",
+      "code": "M9N8B-DS23",
+      "version": "1.0.2",
+      "format": "固定長",
+      "sha256": "a07c96214f4311931dc05e14ba54e55c523fd7657cb0e340242c34343970e704"
+    },
+    "1990": {
+      "catalogue_entry_id": "679469",
+      "type": "出生票",
+      "code": "M9N8B-DS125",
+      "version": "1.0.1",
+      "format": "固定長",
+      "sha256": "7261da50d760afb8e72d6b5896b1c7a28357cc246b607bf5440cd8a641d5eb75"
+    },
+    "1991": {
+      "catalogue_entry_id": "679471",
+      "type": "出生票",
+      "code": "M9N8B-DS125",
+      "version": "1.0.1",
+      "format": "固定長",
+      "sha256": "7261da50d760afb8e72d6b5896b1c7a28357cc246b607bf5440cd8a641d5eb75"
+    },
+    "1992": {
+      "catalogue_entry_id": "679472",
+      "type": "出生票",
+      "code": "M9N8B-DS126",
+      "version": "1.0.1",
+      "format": "固定長",
+      "sha256": "ed339a21b9d75b42e3ad61139aa626f440ffa814526c96fe521d911c83dd31d4"
+    },
+    "1993": {
+      "catalogue_entry_id": "679473",
+      "type": "出生票",
+      "code": "M9N8B-DS126",
+      "version": "1.0.1",
+      "format": "固定長",
+      "sha256": "ed339a21b9d75b42e3ad61139aa626f440ffa814526c96fe521d911c83dd31d4"
+    },
+    "1994": {
+      "catalogue_entry_id": "679474",
+      "type": "出生票",
+      "code": "M9N8B-DS126",
+      "version": "1.0.1",
+      "format": "固定長",
+      "sha256": "ed339a21b9d75b42e3ad61139aa626f440ffa814526c96fe521d911c83dd31d4"
+    },
+    "1995": {
+      "catalogue_entry_id": "679475",
+      "type": "出生票",
+      "code": "M9N8B-DS127",
+      "version": "1.0.1",
+      "format": "固定長",
+      "sha256": "068444732977b5781676d1d4a2b4692db5f9595d685de1139d9216a35e0d0426"
+    },
+    "1996": {
+      "catalogue_entry_id": "679477",
+      "type": "出生票",
+      "code": "M9N8B-DS127",
+      "version": "1.0.1",
+      "format": "固定長",
+      "sha256": "068444732977b5781676d1d4a2b4692db5f9595d685de1139d9216a35e0d0426"
+    },
+    "1997": {
+      "catalogue_entry_id": "679478",
+      "type": "出生票",
+      "code": "M9N8B-DS128",
+      "version": "1.0.1",
+      "format": "固定長",
+      "sha256": "2b8074d057a2cdd9c53e677d962d6fe3016a997424fbe91b350dce015522ad07"
+    },
+    "1998": {
+      "catalogue_entry_id": "679479",
+      "type": "出生票",
+      "code": "M9N8B-DS128",
+      "version": "1.0.1",
+      "format": "固定長",
+      "sha256": "2b8074d057a2cdd9c53e677d962d6fe3016a997424fbe91b350dce015522ad07"
+    },
+    "1999": {
+      "catalogue_entry_id": "679480",
+      "type": "出生票",
+      "code": "M9N8B-DS31",
+      "version": "1.0.2",
+      "format": "固定長",
+      "sha256": "07cc858c8e7b091fac15db68eeec5fd4f8408cf7702ac49b58f3a47fed907332"
+    },
+    "2000": {
+      "catalogue_entry_id": "679481",
+      "type": "出生票",
+      "code": "M9N8B-DS32",
+      "version": "1.0.2",
+      "format": "固定長",
+      "sha256": "4ea8f7ccc878f87286d0e3ad7ca0291a5b075a23bb3733fa47003643fb578f8c"
+    },
+    "2001": {
+      "catalogue_entry_id": "679483",
+      "type": "出生票",
+      "code": "M9N8B-DS33",
+      "version": "1.0.1",
+      "format": "固定長",
+      "sha256": "16fbe42d13c0115a314e57cd972f047074009916906491edd9fce6f40250dfb0"
+    },
+    "2002": {
+      "catalogue_entry_id": "679484",
+      "type": "出生票",
+      "code": "M9N8B-DS34",
+      "version": "1.0.1",
+      "format": "固定長",
+      "sha256": "3d84651b19fcd522b8cbe130128a16c98f40ef77fb5937cd15f9321d06478ec1"
+    },
+    "2003": {
+      "catalogue_entry_id": "679485",
+      "type": "出生票",
+      "code": "M9N8B-DS35",
+      "version": "1.0.1",
+      "format": "固定長",
+      "sha256": "c440d8236180c653cbb01e06f381315ca16b3962878b0b11d3f44f4ae5a084fe"
+    },
+    "2004": {
+      "catalogue_entry_id": "679486",
+      "type": "出生票",
+      "code": "M9N8B-DS36",
+      "version": "1.0.1",
+      "format": "固定長",
+      "sha256": "3d28037289acbf308b4d21522f60052e30efad0e8688be7af7492ffe227771e0"
+    },
+    "2005": {
+      "catalogue_entry_id": "679487",
+      "type": "出生票",
+      "code": "M9N8B-DS37",
+      "version": "1.0.1",
+      "format": "固定長",
+      "sha256": "ab7de201f19617714fba12ba29f804f9e25bb0b83bbbc460b32401392b445928"
+    },
+    "2006": {
+      "catalogue_entry_id": "679489",
+      "type": "出生票",
+      "code": "M9N8B-DS38",
+      "version": "1.0.1",
+      "format": "固定長",
+      "sha256": "d95876e0f3ee1309a25dc88b86b5eefdd993730a6778760778a239782c2c4c2c"
+    },
+    "2007": {
+      "catalogue_entry_id": "679490",
+      "type": "出生票",
+      "code": "M9N8B-DS39",
+      "version": "1.0.1",
+      "format": "固定長",
+      "sha256": "eef9011bcb0592d9dc1b34a640ee965ebdf558465c05884bee0e08e3e12ee88a"
+    },
+    "2008": {
+      "catalogue_entry_id": "679491",
+      "type": "出生票",
+      "code": "M9N8B-DS40",
+      "version": "1.0.1",
+      "format": "固定長",
+      "sha256": "c9a8bc6ba4ffe71c64c38b8dbb784fa82a3e3791e290727d6d9fb7117faa0876"
+    },
+    "2009": {
+      "catalogue_entry_id": "679492",
+      "type": "出生票",
+      "code": "M9N8B-DS41",
+      "version": "1.0.1",
+      "format": "固定長",
+      "sha256": "611e1f50efe603842f470b232805cd6ca352382285be892c817262f864c36de0"
+    },
+    "2023": {
+      "catalogue_entry_id": "679509",
+      "type": "出生票",
+      "code": "M9N8B-DS55",
+      "version": "1.0.1",
+      "format": "固定長",
+      "sha256": "64ab9b47150cdb1a706c438bad94771c41745e93aa4edc59745804ecf67d7f69"
+    },
+    "2025": {
+      "catalogue_entry_id": "679511",
+      "type": "出生票",
+      "code": "M9N8B-DS382",
+      "version": "1.0.0",
+      "format": "固定長",
+      "sha256": "e02e58c8cb3478e61bee4507a517e718e1f45390df52804c06e0eff245c49adf"
+    }
+  }
+}
