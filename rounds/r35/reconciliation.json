@@ -1,0 +1,3511 @@
+{
+  "1993": {
+    "year": 1993,
+    "places": [
+      0,
+      1,
+      2
+    ],
+    "source_slots": 30675,
+    "empty": 0,
+    "unequal_or_incomplete": 0,
+    "violation_families": {},
+    "corrections_supported_by_source_reads": 17,
+    "changes": [
+      {
+        "key": [
+          2,
+          10,
+          27,
+          14
+        ],
+        "location": [
+          "jp1993-000031896462-074",
+          27,
+          1
+        ],
+        "previous": null,
+        "printed_value": 91,
+        "votes": {
+          "1": 1,
+          "91": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          7,
+          27,
+          15
+        ],
+        "location": [
+          "jp1993-000031896462-068",
+          27,
+          2
+        ],
+        "previous": null,
+        "printed_value": 119,
+        "votes": {
+          "110": 1,
+          "119": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          5,
+          28,
+          15
+        ],
+        "location": [
+          "jp1993-000031896462-064",
+          28,
+          2
+        ],
+        "previous": null,
+        "printed_value": 91,
+        "votes": {
+          "1": 1,
+          "91": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          5,
+          23,
+          17
+        ],
+        "location": [
+          "jp1993-000031896462-064",
+          23,
+          4
+        ],
+        "previous": null,
+        "printed_value": 42,
+        "votes": {
+          "58722": 1,
+          "42": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          5,
+          14,
+          18
+        ],
+        "location": [
+          "jp1993-000031896462-064",
+          14,
+          5
+        ],
+        "previous": null,
+        "printed_value": 80,
+        "votes": {
+          "8": 1,
+          "80": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          2,
+          19,
+          24
+        ],
+        "location": [
+          "jp1993-000031896462-058",
+          19,
+          11
+        ],
+        "previous": null,
+        "printed_value": 28,
+        "votes": {
+          "2": 1,
+          "8": 1,
+          "28": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          1,
+          13,
+          22
+        ],
+        "location": [
+          "jp1993-000031896462-056",
+          13,
+          9
+        ],
+        "previous": null,
+        "printed_value": 38,
+        "votes": {
+          "77099": 1,
+          "38": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          12,
+          27,
+          13
+        ],
+        "location": [
+          "jp1993-000031896462-052",
+          27,
+          0
+        ],
+        "previous": null,
+        "printed_value": 99,
+        "votes": {
+          "90": 1,
+          "99": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          8,
+          20,
+          16
+        ],
+        "location": [
+          "jp1993-000031896462-044",
+          20,
+          3
+        ],
+        "previous": null,
+        "printed_value": 129,
+        "votes": {
+          "120": 1,
+          "129": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          7,
+          27,
+          23
+        ],
+        "location": [
+          "jp1993-000031896462-042",
+          27,
+          10
+        ],
+        "previous": null,
+        "printed_value": 58,
+        "votes": {
+          "5": 1,
+          "8": 1,
+          "58": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          5,
+          16,
+          7
+        ],
+        "location": [
+          "jp1993-000031896462-037",
+          16,
+          7
+        ],
+        "previous": null,
+        "printed_value": 58,
+        "votes": {
+          "5": 1,
+          "8": 1,
+          "58": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          2,
+          21,
+          7
+        ],
+        "location": [
+          "jp1993-000031896462-031",
+          21,
+          7
+        ],
+        "previous": null,
+        "printed_value": 48,
+        "votes": {
+          "4": 1,
+          "8": 1,
+          "48": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          2,
+          15,
+          13
+        ],
+        "location": [
+          "jp1993-000031896462-032",
+          15,
+          0
+        ],
+        "previous": null,
+        "printed_value": 98,
+        "votes": {
+          "9": 1,
+          "8": 1,
+          "98": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          12,
+          24,
+          23
+        ],
+        "location": [
+          "jp1993-000031896462-026",
+          24,
+          10
+        ],
+        "previous": null,
+        "printed_value": 125,
+        "votes": {
+          "12": 1,
+          "125": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          7,
+          28,
+          21
+        ],
+        "location": [
+          "jp1993-000031896462-016",
+          28,
+          8
+        ],
+        "previous": null,
+        "printed_value": 99,
+        "votes": {
+          "9": 1,
+          "99": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          2,
+          13,
+          7
+        ],
+        "location": [
+          "jp1993-000031896462-005",
+          13,
+          7
+        ],
+        "previous": null,
+        "printed_value": 98,
+        "votes": {
+          "9": 1,
+          "8": 1,
+          "98": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          0,
+          24,
+          17
+        ],
+        "location": [
+          "jp1993-000031896462-028",
+          24,
+          4
+        ],
+        "previous": null,
+        "printed_value": 1339,
+        "votes": {
+          "1730": 1,
+          "1339": 1
+        }
+      }
+    ],
+    "suggestions": [],
+    "missing_slots": [],
+    "violations": []
+  },
+  "1994": {
+    "year": 1994,
+    "places": [
+      0,
+      1,
+      2
+    ],
+    "source_slots": 30675,
+    "empty": 0,
+    "unequal_or_incomplete": 0,
+    "violation_families": {},
+    "corrections_supported_by_source_reads": 27,
+    "changes": [
+      {
+        "key": [
+          2,
+          12,
+          30,
+          16
+        ],
+        "location": [
+          "jp1994-000031897479-078",
+          30,
+          3
+        ],
+        "previous": null,
+        "printed_value": 66,
+        "votes": {
+          "99": 1,
+          "66": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          9,
+          10,
+          16
+        ],
+        "location": [
+          "jp1994-000031897479-072",
+          10,
+          3
+        ],
+        "previous": null,
+        "printed_value": 88,
+        "votes": {
+          "8": 1,
+          "88": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          8,
+          29,
+          7
+        ],
+        "location": [
+          "jp1994-000031897479-069",
+          29,
+          7
+        ],
+        "previous": null,
+        "printed_value": 58,
+        "votes": {
+          "17599": 1,
+          "58": 1,
+          "5": 1,
+          "8": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          8,
+          28,
+          5
+        ],
+        "location": [
+          "jp1994-000031897479-069",
+          28,
+          5
+        ],
+        "previous": null,
+        "printed_value": 29,
+        "votes": {
+          "20": 1,
+          "29": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          8,
+          27,
+          16
+        ],
+        "location": [
+          "jp1994-000031897479-070",
+          27,
+          3
+        ],
+        "previous": null,
+        "printed_value": 86,
+        "votes": {
+          "98": 1,
+          "86": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          8,
+          17,
+          2
+        ],
+        "location": [
+          "jp1994-000031897479-069",
+          17,
+          2
+        ],
+        "previous": null,
+        "printed_value": 48,
+        "votes": {
+          "4": 1,
+          "8": 1,
+          "48": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          7,
+          27,
+          23
+        ],
+        "location": [
+          "jp1994-000031897479-068",
+          27,
+          10
+        ],
+        "previous": null,
+        "printed_value": 58,
+        "votes": {
+          "5": 1,
+          "8": 1,
+          "58": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          5,
+          23,
+          22
+        ],
+        "location": [
+          "jp1994-000031897479-064",
+          23,
+          9
+        ],
+        "previous": null,
+        "printed_value": 53,
+        "votes": {
+          "0": 1,
+          "53": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          2,
+          19,
+          15
+        ],
+        "location": [
+          "jp1994-000031897479-058",
+          19,
+          2
+        ],
+        "previous": null,
+        "printed_value": 88,
+        "votes": {
+          "8": 1,
+          "88": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          2,
+          17,
+          10
+        ],
+        "location": [
+          "jp1994-000031897479-057",
+          17,
+          10
+        ],
+        "previous": null,
+        "printed_value": 48,
+        "votes": {
+          "4": 1,
+          "8": 1,
+          "48": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          2,
+          11,
+          8
+        ],
+        "location": [
+          "jp1994-000031897479-057",
+          11,
+          8
+        ],
+        "previous": null,
+        "printed_value": 66,
+        "votes": {
+          "0": 1,
+          "66": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          9,
+          30,
+          12
+        ],
+        "location": [
+          "jp1994-000031897479-045",
+          30,
+          12
+        ],
+        "previous": null,
+        "printed_value": 98,
+        "votes": {
+          "9": 1,
+          "8": 1,
+          "98": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          8,
+          28,
+          22
+        ],
+        "location": [
+          "jp1994-000031897479-044",
+          28,
+          9
+        ],
+        "previous": null,
+        "printed_value": 48,
+        "votes": {
+          "700590": 1,
+          "48": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          7,
+          31,
+          21
+        ],
+        "location": [
+          "jp1994-000031897479-042",
+          31,
+          8
+        ],
+        "previous": null,
+        "printed_value": 60,
+        "votes": {
+          "9": 1,
+          "60": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          5,
+          18,
+          22
+        ],
+        "location": [
+          "jp1994-000031897479-038",
+          18,
+          9
+        ],
+        "previous": null,
+        "printed_value": 63,
+        "votes": {
+          "0": 1,
+          "63": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          5,
+          6,
+          12
+        ],
+        "location": [
+          "jp1994-000031897479-037",
+          6,
+          12
+        ],
+        "previous": null,
+        "printed_value": 111,
+        "votes": {
+          "1": 1,
+          "111": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          3,
+          28,
+          19
+        ],
+        "location": [
+          "jp1994-000031897479-034",
+          28,
+          6
+        ],
+        "previous": null,
+        "printed_value": 78,
+        "votes": {
+          "7": 1,
+          "8": 1,
+          "78": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          1,
+          29,
+          3
+        ],
+        "location": [
+          "jp1994-000031897479-029",
+          29,
+          3
+        ],
+        "previous": null,
+        "printed_value": 63,
+        "votes": {
+          "63": 1,
+          "0": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "location": [
+          "jp1994-000031897479-013",
+          0,
+          0
+        ],
+        "previous": null,
+        "printed_value": 102382,
+        "votes": {
+          "102382": 1,
+          "0": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          1,
+          31,
+          1
+        ],
+        "location": [
+          "jp1994-000031897479-003",
+          31,
+          1
+        ],
+        "previous": null,
+        "printed_value": 81,
+        "votes": {
+          "8": 1,
+          "1": 1,
+          "81": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          0,
+          28,
+          17
+        ],
+        "location": [
+          "jp1994-000031897479-054",
+          28,
+          4
+        ],
+        "previous": null,
+        "printed_value": 1027,
+        "votes": {
+          "2201": 1,
+          "1027": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          12,
+          30,
+          17
+        ],
+        "location": [
+          "jp1994-000031897479-052",
+          30,
+          4
+        ],
+        "previous": null,
+        "printed_value": 82,
+        "votes": {
+          "28": 1,
+          "82": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          7,
+          30,
+          17
+        ],
+        "location": [
+          "jp1994-000031897479-042",
+          30,
+          4
+        ],
+        "previous": null,
+        "printed_value": 86,
+        "votes": {
+          "0": 1,
+          "86": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          7,
+          30,
+          19
+        ],
+        "location": [
+          "jp1994-000031897479-042",
+          30,
+          6
+        ],
+        "previous": null,
+        "printed_value": 59,
+        "votes": {
+          "59": 1,
+          "0": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          5,
+          30,
+          19
+        ],
+        "location": [
+          "jp1994-000031897479-038",
+          30,
+          6
+        ],
+        "previous": null,
+        "printed_value": 100,
+        "votes": {
+          "100": 1,
+          "0": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          1,
+          28,
+          20
+        ],
+        "location": [
+          "jp1994-000031897479-030",
+          28,
+          7
+        ],
+        "previous": null,
+        "printed_value": 81,
+        "votes": {
+          "8": 1,
+          "1": 1,
+          "81": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          1,
+          28,
+          16
+        ],
+        "location": [
+          "jp1994-000031897479-030",
+          28,
+          3
+        ],
+        "previous": null,
+        "printed_value": 128,
+        "votes": {
+          "8": 1,
+          "128": 1
+        }
+      }
+    ],
+    "suggestions": [],
+    "missing_slots": [],
+    "violations": []
+  },
+  "1995": {
+    "year": 1995,
+    "places": [
+      0,
+      1,
+      2
+    ],
+    "source_slots": 30675,
+    "empty": 0,
+    "unequal_or_incomplete": 0,
+    "violation_families": {},
+    "corrections_supported_by_source_reads": 137,
+    "changes": [
+      {
+        "key": [
+          2,
+          11,
+          24,
+          6
+        ],
+        "location": [
+          "jp1995-000023616730-023",
+          24,
+          6
+        ],
+        "previous": null,
+        "printed_value": 55,
+        "votes": {
+          "0": 1,
+          "55": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          10,
+          4,
+          19
+        ],
+        "location": [
+          "jp1995-000023616730-022",
+          4,
+          6
+        ],
+        "previous": null,
+        "printed_value": 70,
+        "votes": {
+          "0": 1,
+          "70": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          9,
+          15,
+          12
+        ],
+        "location": [
+          "jp1995-000023616730-019",
+          15,
+          12
+        ],
+        "previous": null,
+        "printed_value": 60,
+        "votes": {
+          "9": 1,
+          "60": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          8,
+          25,
+          4
+        ],
+        "location": [
+          "jp1995-000023616730-017",
+          25,
+          4
+        ],
+        "previous": null,
+        "printed_value": 54,
+        "votes": {
+          "0": 1,
+          "54": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          8,
+          24,
+          8
+        ],
+        "location": [
+          "jp1995-000023616730-017",
+          24,
+          8
+        ],
+        "previous": null,
+        "printed_value": 49,
+        "votes": {
+          "0": 1,
+          "49": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          8,
+          19,
+          12
+        ],
+        "location": [
+          "jp1995-000023616730-017",
+          19,
+          12
+        ],
+        "previous": null,
+        "printed_value": 93,
+        "votes": {
+          "0": 1,
+          "93": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          8,
+          7,
+          20
+        ],
+        "location": [
+          "jp1995-000023616730-018",
+          7,
+          7
+        ],
+        "previous": null,
+        "printed_value": 82,
+        "votes": {
+          "0": 1,
+          "82": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          8,
+          1,
+          17
+        ],
+        "location": [
+          "jp1995-000023616730-018",
+          1,
+          4
+        ],
+        "previous": null,
+        "printed_value": 94,
+        "votes": {
+          "0": 1,
+          "94": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          6,
+          16,
+          18
+        ],
+        "location": [
+          "jp1995-000023616730-014",
+          16,
+          5
+        ],
+        "previous": null,
+        "printed_value": 88,
+        "votes": {
+          "0": 1,
+          "88": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          6,
+          4,
+          17
+        ],
+        "location": [
+          "jp1995-000023616730-014",
+          4,
+          4
+        ],
+        "previous": null,
+        "printed_value": 50,
+        "votes": {
+          "0": 1,
+          "50": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          5,
+          29,
+          3
+        ],
+        "location": [
+          "jp1995-000023616730-011",
+          29,
+          3
+        ],
+        "previous": null,
+        "printed_value": 43,
+        "votes": {
+          "0": 1,
+          "43": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          5,
+          27,
+          11
+        ],
+        "location": [
+          "jp1995-000023616730-011",
+          27,
+          11
+        ],
+        "previous": null,
+        "printed_value": 70,
+        "votes": {
+          "0": 1,
+          "70": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          5,
+          12,
+          16
+        ],
+        "location": [
+          "jp1995-000023616730-012",
+          12,
+          3
+        ],
+        "previous": null,
+        "printed_value": 100,
+        "votes": {
+          "0": 1,
+          "100": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          5,
+          10,
+          22
+        ],
+        "location": [
+          "jp1995-000023616730-012",
+          10,
+          9
+        ],
+        "previous": null,
+        "printed_value": 43,
+        "votes": {
+          "0": 1,
+          "43": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          4,
+          27,
+          3
+        ],
+        "location": [
+          "jp1995-000023616730-009",
+          27,
+          3
+        ],
+        "previous": null,
+        "printed_value": 36,
+        "votes": {
+          "0": 1,
+          "36": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          4,
+          24,
+          17
+        ],
+        "location": [
+          "jp1995-000023616730-010",
+          24,
+          4
+        ],
+        "previous": null,
+        "printed_value": 101,
+        "votes": {
+          "0": 1,
+          "101": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          4,
+          15,
+          13
+        ],
+        "location": [
+          "jp1995-000023616730-010",
+          15,
+          0
+        ],
+        "previous": null,
+        "printed_value": 84,
+        "votes": {
+          "0": 1,
+          "84": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          4,
+          12,
+          14
+        ],
+        "location": [
+          "jp1995-000023616730-010",
+          12,
+          1
+        ],
+        "previous": null,
+        "printed_value": 95,
+        "votes": {
+          "0": 1,
+          "95": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          4,
+          3,
+          6
+        ],
+        "location": [
+          "jp1995-000023616730-009",
+          3,
+          6
+        ],
+        "previous": null,
+        "printed_value": 53,
+        "votes": {
+          "0": 1,
+          "53": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          3,
+          13,
+          14
+        ],
+        "location": [
+          "jp1995-000023616730-008",
+          13,
+          1
+        ],
+        "previous": null,
+        "printed_value": 95,
+        "votes": {
+          "0": 1,
+          "95": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          3,
+          11,
+          24
+        ],
+        "location": [
+          "jp1995-000023616730-008",
+          11,
+          11
+        ],
+        "previous": null,
+        "printed_value": 36,
+        "votes": {
+          "0": 1,
+          "36": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          2,
+          20,
+          17
+        ],
+        "location": [
+          "jp1995-000023616730-006",
+          20,
+          4
+        ],
+        "previous": null,
+        "printed_value": 105,
+        "votes": {
+          "0": 1,
+          "105": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          2,
+          18,
+          24
+        ],
+        "location": [
+          "jp1995-000023616730-006",
+          18,
+          11
+        ],
+        "previous": null,
+        "printed_value": 36,
+        "votes": {
+          "0": 1,
+          "36": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          2,
+          17,
+          1
+        ],
+        "location": [
+          "jp1995-000023616730-005",
+          17,
+          1
+        ],
+        "previous": null,
+        "printed_value": 43,
+        "votes": {
+          "0": 1,
+          "43": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          2,
+          5,
+          9
+        ],
+        "location": [
+          "jp1995-000023616730-005",
+          5,
+          9
+        ],
+        "previous": null,
+        "printed_value": 63,
+        "votes": {
+          "0": 1,
+          "63": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          2,
+          1,
+          7
+        ],
+        "location": [
+          "jp1995-000023616730-005",
+          1,
+          7
+        ],
+        "previous": null,
+        "printed_value": 43,
+        "votes": {
+          "0": 1,
+          "43": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          1,
+          23,
+          17
+        ],
+        "location": [
+          "jp1995-000023616730-004",
+          23,
+          4
+        ],
+        "previous": null,
+        "printed_value": 86,
+        "votes": {
+          "98": 1,
+          "86": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          12,
+          24,
+          6
+        ],
+        "location": [
+          "jp1995-000023616729-025",
+          24,
+          6
+        ],
+        "previous": null,
+        "printed_value": 56,
+        "votes": {
+          "0": 1,
+          "56": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          12,
+          22,
+          10
+        ],
+        "location": [
+          "jp1995-000023616729-025",
+          22,
+          10
+        ],
+        "previous": null,
+        "printed_value": 95,
+        "votes": {
+          "0": 1,
+          "95": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          12,
+          18,
+          1
+        ],
+        "location": [
+          "jp1995-000023616729-025",
+          18,
+          1
+        ],
+        "previous": null,
+        "printed_value": 47,
+        "votes": {
+          "0": 1,
+          "47": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          12,
+          9,
+          18
+        ],
+        "location": [
+          "jp1995-000023616729-026",
+          9,
+          5
+        ],
+        "previous": null,
+        "printed_value": 63,
+        "votes": {
+          "163": 1,
+          "63": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          12,
+          7,
+          2
+        ],
+        "location": [
+          "jp1995-000023616729-025",
+          7,
+          2
+        ],
+        "previous": null,
+        "printed_value": 63,
+        "votes": {
+          "0": 1,
+          "63": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          11,
+          23,
+          8
+        ],
+        "location": [
+          "jp1995-000023616729-023",
+          23,
+          8
+        ],
+        "previous": null,
+        "printed_value": 43,
+        "votes": {
+          "0": 1,
+          "43": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          11,
+          10,
+          5
+        ],
+        "location": [
+          "jp1995-000023616729-023",
+          10,
+          5
+        ],
+        "previous": null,
+        "printed_value": 50,
+        "votes": {
+          "0": 1,
+          "50": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          10,
+          18,
+          18
+        ],
+        "location": [
+          "jp1995-000023616729-022",
+          18,
+          5
+        ],
+        "previous": null,
+        "printed_value": 88,
+        "votes": {
+          "0": 1,
+          "88": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          10,
+          7,
+          7
+        ],
+        "location": [
+          "jp1995-000023616729-021",
+          7,
+          7
+        ],
+        "previous": null,
+        "printed_value": 46,
+        "votes": {
+          "0": 1,
+          "46": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          9,
+          25,
+          8
+        ],
+        "location": [
+          "jp1995-000023616729-019",
+          25,
+          8
+        ],
+        "previous": null,
+        "printed_value": 63,
+        "votes": {
+          "163": 1,
+          "63": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          9,
+          6,
+          11
+        ],
+        "location": [
+          "jp1995-000023616729-019",
+          6,
+          11
+        ],
+        "previous": null,
+        "printed_value": 73,
+        "votes": {
+          "73": 1,
+          "0": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          8,
+          20,
+          7
+        ],
+        "location": [
+          "jp1995-000023616729-017",
+          20,
+          7
+        ],
+        "previous": null,
+        "printed_value": 73,
+        "votes": {
+          "0": 1,
+          "73": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          8,
+          9,
+          2
+        ],
+        "location": [
+          "jp1995-000023616729-017",
+          9,
+          2
+        ],
+        "previous": null,
+        "printed_value": 61,
+        "votes": {
+          "61": 1,
+          "0": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          7,
+          31,
+          12
+        ],
+        "location": [
+          "jp1995-000023616729-015",
+          31,
+          12
+        ],
+        "previous": null,
+        "printed_value": 88,
+        "votes": {
+          "0": 1,
+          "88": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          7,
+          10,
+          9
+        ],
+        "location": [
+          "jp1995-000023616729-015",
+          10,
+          9
+        ],
+        "previous": null,
+        "printed_value": 64,
+        "votes": {
+          "0": 1,
+          "64": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          6,
+          28,
+          9
+        ],
+        "location": [
+          "jp1995-000023616729-013",
+          28,
+          9
+        ],
+        "previous": null,
+        "printed_value": 65,
+        "votes": {
+          "0": 1,
+          "65": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          6,
+          19,
+          11
+        ],
+        "location": [
+          "jp1995-000023616729-013",
+          19,
+          11
+        ],
+        "previous": null,
+        "printed_value": 99,
+        "votes": {
+          "0": 1,
+          "99": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          6,
+          16,
+          2
+        ],
+        "location": [
+          "jp1995-000023616729-013",
+          16,
+          2
+        ],
+        "previous": null,
+        "printed_value": 66,
+        "votes": {
+          "0": 1,
+          "66": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          6,
+          15,
+          18
+        ],
+        "location": [
+          "jp1995-000023616729-014",
+          15,
+          5
+        ],
+        "previous": null,
+        "printed_value": 83,
+        "votes": {
+          "183": 1,
+          "83": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          5,
+          10,
+          8
+        ],
+        "location": [
+          "jp1995-000023616729-011",
+          10,
+          8
+        ],
+        "previous": null,
+        "printed_value": 60,
+        "votes": {
+          "0": 1,
+          "60": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          5,
+          3,
+          5
+        ],
+        "location": [
+          "jp1995-000023616729-011",
+          3,
+          5
+        ],
+        "previous": null,
+        "printed_value": 66,
+        "votes": {
+          "99": 1,
+          "66": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          4,
+          10,
+          13
+        ],
+        "location": [
+          "jp1995-000023616729-010",
+          10,
+          0
+        ],
+        "previous": null,
+        "printed_value": 88,
+        "votes": {
+          "0": 1,
+          "88": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          2,
+          27,
+          4
+        ],
+        "location": [
+          "jp1995-000023616729-005",
+          27,
+          4
+        ],
+        "previous": null,
+        "printed_value": 74,
+        "votes": {
+          "14": 1,
+          "74": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          2,
+          19,
+          20
+        ],
+        "location": [
+          "jp1995-000023616729-006",
+          19,
+          7
+        ],
+        "previous": null,
+        "printed_value": 37,
+        "votes": {
+          "0": 1,
+          "37": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          2,
+          12,
+          16
+        ],
+        "location": [
+          "jp1995-000023616729-006",
+          12,
+          3
+        ],
+        "previous": null,
+        "printed_value": 57,
+        "votes": {
+          "0": 1,
+          "57": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          2,
+          11,
+          0
+        ],
+        "location": [
+          "jp1995-000023616729-005",
+          11,
+          0
+        ],
+        "previous": null,
+        "printed_value": 1377,
+        "votes": {
+          "0": 1,
+          "1377": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          2,
+          4,
+          3
+        ],
+        "location": [
+          "jp1995-000023616729-005",
+          4,
+          3
+        ],
+        "previous": null,
+        "printed_value": 63,
+        "votes": {
+          "63": 1,
+          "0": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          1,
+          26,
+          5
+        ],
+        "location": [
+          "jp1995-000023616729-003",
+          26,
+          5
+        ],
+        "previous": null,
+        "printed_value": 64,
+        "votes": {
+          "0": 1,
+          "64": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          1,
+          13,
+          22
+        ],
+        "location": [
+          "jp1995-000023616729-004",
+          13,
+          9
+        ],
+        "previous": null,
+        "printed_value": 59,
+        "votes": {
+          "70055": 1,
+          "59": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          1,
+          2,
+          14
+        ],
+        "location": [
+          "jp1995-000023616729-004",
+          2,
+          1
+        ],
+        "previous": null,
+        "printed_value": 67,
+        "votes": {
+          "67": 1,
+          "167": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          1,
+          1,
+          7
+        ],
+        "location": [
+          "jp1995-000023616729-003",
+          1,
+          7
+        ],
+        "previous": null,
+        "printed_value": 61,
+        "votes": {
+          "0": 1,
+          "61": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          12,
+          23,
+          3
+        ],
+        "location": [
+          "jp1995-000023616728-025",
+          23,
+          3
+        ],
+        "previous": null,
+        "printed_value": 98,
+        "votes": {
+          "0": 1,
+          "98": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          12,
+          22,
+          6
+        ],
+        "location": [
+          "jp1995-000023616728-025",
+          22,
+          6
+        ],
+        "previous": null,
+        "printed_value": 101,
+        "votes": {
+          "1010": 1,
+          "101": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          12,
+          17,
+          18
+        ],
+        "location": [
+          "jp1995-000023616728-026",
+          17,
+          5
+        ],
+        "previous": null,
+        "printed_value": 98,
+        "votes": {
+          "0": 1,
+          "98": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          12,
+          13,
+          24
+        ],
+        "location": [
+          "jp1995-000023616728-026",
+          13,
+          11
+        ],
+        "previous": null,
+        "printed_value": 98,
+        "votes": {
+          "0": 1,
+          "98": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          11,
+          1,
+          7
+        ],
+        "location": [
+          "jp1995-000023616728-023",
+          1,
+          7
+        ],
+        "previous": null,
+        "printed_value": 107,
+        "votes": {
+          "0": 1,
+          "107": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          8,
+          29,
+          24
+        ],
+        "location": [
+          "jp1995-000023616728-018",
+          29,
+          11
+        ],
+        "previous": null,
+        "printed_value": 107,
+        "votes": {
+          "0": 1,
+          "107": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          8,
+          21,
+          15
+        ],
+        "location": [
+          "jp1995-000023616728-018",
+          21,
+          2
+        ],
+        "previous": null,
+        "printed_value": 251,
+        "votes": {
+          "1": 1,
+          "25": 1,
+          "251": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          8,
+          15,
+          14
+        ],
+        "location": [
+          "jp1995-000023616728-018",
+          15,
+          1
+        ],
+        "previous": null,
+        "printed_value": 199,
+        "votes": {
+          "0": 1,
+          "199": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          7,
+          18,
+          18
+        ],
+        "location": [
+          "jp1995-000023616728-016",
+          18,
+          5
+        ],
+        "previous": null,
+        "printed_value": 206,
+        "votes": {
+          "0": 1,
+          "206": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          7,
+          12,
+          20
+        ],
+        "location": [
+          "jp1995-000023616728-016",
+          12,
+          7
+        ],
+        "previous": null,
+        "printed_value": 140,
+        "votes": {
+          "1140": 1,
+          "140": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          7,
+          9,
+          19
+        ],
+        "location": [
+          "jp1995-000023616728-016",
+          9,
+          6
+        ],
+        "previous": null,
+        "printed_value": 92,
+        "votes": {
+          "0": 1,
+          "92": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          6,
+          25,
+          1
+        ],
+        "location": [
+          "jp1995-000023616728-013",
+          25,
+          1
+        ],
+        "previous": null,
+        "printed_value": 78,
+        "votes": {
+          "0": 1,
+          "78": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          5,
+          26,
+          13
+        ],
+        "location": [
+          "jp1995-000023616728-012",
+          26,
+          0
+        ],
+        "previous": null,
+        "printed_value": 168,
+        "votes": {
+          "0": 1,
+          "168": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          5,
+          11,
+          3
+        ],
+        "location": [
+          "jp1995-000023616728-011",
+          11,
+          3
+        ],
+        "previous": null,
+        "printed_value": 112,
+        "votes": {
+          "0": 1,
+          "112": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          4,
+          18,
+          24
+        ],
+        "location": [
+          "jp1995-000023616728-010",
+          18,
+          11
+        ],
+        "previous": null,
+        "printed_value": 93,
+        "votes": {
+          "0": 1,
+          "93": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          4,
+          12,
+          7
+        ],
+        "location": [
+          "jp1995-000023616728-009",
+          12,
+          7
+        ],
+        "previous": null,
+        "printed_value": 84,
+        "votes": {
+          "0": 1,
+          "84": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          3,
+          31,
+          11
+        ],
+        "location": [
+          "jp1995-000023616728-007",
+          31,
+          11
+        ],
+        "previous": null,
+        "printed_value": 134,
+        "votes": {
+          "101": 1,
+          "134": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          3,
+          30,
+          24
+        ],
+        "location": [
+          "jp1995-000023616728-008",
+          30,
+          11
+        ],
+        "previous": null,
+        "printed_value": 87,
+        "votes": {
+          "0": 1,
+          "87": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          3,
+          29,
+          7
+        ],
+        "location": [
+          "jp1995-000023616728-007",
+          29,
+          7
+        ],
+        "previous": null,
+        "printed_value": 98,
+        "votes": {
+          "0": 1,
+          "98": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          3,
+          26,
+          14
+        ],
+        "location": [
+          "jp1995-000023616728-008",
+          26,
+          1
+        ],
+        "previous": null,
+        "printed_value": 98,
+        "votes": {
+          "298": 1,
+          "98": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          2,
+          23,
+          6
+        ],
+        "location": [
+          "jp1995-000023616728-005",
+          23,
+          6
+        ],
+        "previous": null,
+        "printed_value": 97,
+        "votes": {
+          "0": 1,
+          "97": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          2,
+          11,
+          20
+        ],
+        "location": [
+          "jp1995-000023616728-006",
+          11,
+          7
+        ],
+        "previous": null,
+        "printed_value": 83,
+        "votes": {
+          "783": 1,
+          "83": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          2,
+          9,
+          4
+        ],
+        "location": [
+          "jp1995-000023616728-005",
+          9,
+          4
+        ],
+        "previous": null,
+        "printed_value": 94,
+        "votes": {
+          "0": 1,
+          "94": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          1,
+          30,
+          18
+        ],
+        "location": [
+          "jp1995-000023616728-004",
+          30,
+          5
+        ],
+        "previous": null,
+        "printed_value": 198,
+        "votes": {
+          "798": 1,
+          "198": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          1,
+          28,
+          10
+        ],
+        "location": [
+          "jp1995-000023616728-003",
+          28,
+          10
+        ],
+        "previous": null,
+        "printed_value": 131,
+        "votes": {
+          "0": 1,
+          "131": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          1,
+          19,
+          2
+        ],
+        "location": [
+          "jp1995-000023616728-003",
+          19,
+          2
+        ],
+        "previous": null,
+        "printed_value": 118,
+        "votes": {
+          "0": 1,
+          "118": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          1,
+          18,
+          17
+        ],
+        "location": [
+          "jp1995-000023616728-004",
+          18,
+          4
+        ],
+        "previous": null,
+        "printed_value": 239,
+        "votes": {
+          "229": 1,
+          "239": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          1,
+          1,
+          23
+        ],
+        "location": [
+          "jp1995-000023616728-004",
+          1,
+          10
+        ],
+        "previous": null,
+        "printed_value": 86,
+        "votes": {
+          "85": 1,
+          "86": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "location": [
+          "jp1995-000023616730-001",
+          0,
+          0
+        ],
+        "previous": null,
+        "printed_value": 526791,
+        "votes": {
+          "526791": 2,
+          "0": 2
+        }
+      },
+      {
+        "key": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "location": [
+          "jp1995-000023616729-001",
+          0,
+          0
+        ],
+        "previous": null,
+        "printed_value": 647430,
+        "votes": {
+          "647430": 2,
+          "0": 2
+        }
+      },
+      {
+        "key": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "location": [
+          "jp1995-000023616728-025",
+          0,
+          0
+        ],
+        "previous": null,
+        "printed_value": 97569,
+        "votes": {
+          "97569": 2,
+          "0": 2
+        }
+      },
+      {
+        "key": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "location": [
+          "jp1995-000023616728-023",
+          0,
+          0
+        ],
+        "previous": null,
+        "printed_value": 92999,
+        "votes": {
+          "92999": 2,
+          "0": 2
+        }
+      },
+      {
+        "key": [
+          0,
+          9,
+          0,
+          0
+        ],
+        "location": [
+          "jp1995-000023616728-019",
+          0,
+          0
+        ],
+        "previous": null,
+        "printed_value": 100759,
+        "votes": {
+          "100759": 2,
+          "0": 2
+        }
+      },
+      {
+        "key": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "location": [
+          "jp1995-000023616728-011",
+          0,
+          0
+        ],
+        "previous": null,
+        "printed_value": 101422,
+        "votes": {
+          "101422": 2,
+          "0": 2
+        }
+      },
+      {
+        "key": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "location": [
+          "jp1995-000023616728-003",
+          0,
+          0
+        ],
+        "previous": null,
+        "printed_value": 102692,
+        "votes": {
+          "102692": 2,
+          "0": 2
+        }
+      },
+      {
+        "key": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "location": [
+          "jp1995-000023616728-001",
+          6,
+          0
+        ],
+        "previous": null,
+        "printed_value": 40740,
+        "votes": {
+          "40740": 2,
+          "0": 2
+        }
+      },
+      {
+        "key": [
+          2,
+          12,
+          16,
+          0
+        ],
+        "location": [
+          "jp1995-000023616730-025",
+          16,
+          0
+        ],
+        "previous": null,
+        "printed_value": 1304,
+        "votes": {
+          "1": 1,
+          "1304": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          12,
+          8,
+          17
+        ],
+        "location": [
+          "jp1995-000023616730-026",
+          8,
+          4
+        ],
+        "previous": null,
+        "printed_value": 99,
+        "votes": {
+          "199": 1,
+          "99": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          12,
+          8,
+          12
+        ],
+        "location": [
+          "jp1995-000023616730-025",
+          8,
+          12
+        ],
+        "previous": null,
+        "printed_value": 68,
+        "votes": {
+          "68": 1,
+          "0": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          7,
+          16,
+          0
+        ],
+        "location": [
+          "jp1995-000023616730-015",
+          16,
+          0
+        ],
+        "previous": null,
+        "printed_value": 1173,
+        "votes": {
+          "0": 1,
+          "1173": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          7,
+          13,
+          0
+        ],
+        "location": [
+          "jp1995-000023616730-015",
+          13,
+          0
+        ],
+        "previous": null,
+        "printed_value": 1569,
+        "votes": {
+          "8282": 1,
+          "1569": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          4,
+          23,
+          8
+        ],
+        "location": [
+          "jp1995-000023616730-009",
+          23,
+          8
+        ],
+        "previous": null,
+        "printed_value": 56,
+        "votes": {
+          "88665": 1,
+          "56": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          4,
+          1,
+          8
+        ],
+        "location": [
+          "jp1995-000023616730-009",
+          1,
+          8
+        ],
+        "previous": null,
+        "printed_value": 34,
+        "votes": {
+          "1": 1,
+          "34": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          4,
+          9,
+          15
+        ],
+        "location": [
+          "jp1995-000023616730-010",
+          9,
+          2
+        ],
+        "previous": null,
+        "printed_value": 50,
+        "votes": {
+          "0": 1,
+          "50": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          4,
+          9,
+          5
+        ],
+        "location": [
+          "jp1995-000023616730-009",
+          9,
+          5
+        ],
+        "previous": null,
+        "printed_value": 53,
+        "votes": {
+          "0": 1,
+          "53": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          1,
+          15,
+          0
+        ],
+        "location": [
+          "jp1995-000023616730-003",
+          15,
+          0
+        ],
+        "previous": null,
+        "printed_value": 1293,
+        "votes": {
+          "1": 1,
+          "1293": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          1,
+          12,
+          0
+        ],
+        "location": [
+          "jp1995-000023616730-003",
+          12,
+          0
+        ],
+        "previous": null,
+        "printed_value": 1462,
+        "votes": {
+          "0": 1,
+          "1462": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          0,
+          21,
+          0
+        ],
+        "location": [
+          "jp1995-000023616730-001",
+          21,
+          0
+        ],
+        "previous": null,
+        "printed_value": 17350,
+        "votes": {
+          "17850": 1,
+          "17350": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          10,
+          31,
+          13
+        ],
+        "location": [
+          "jp1995-000023616729-022",
+          31,
+          0
+        ],
+        "previous": null,
+        "printed_value": 98,
+        "votes": {
+          "0": 1,
+          "98": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          10,
+          11,
+          13
+        ],
+        "location": [
+          "jp1995-000023616729-022",
+          11,
+          0
+        ],
+        "previous": null,
+        "printed_value": 97,
+        "votes": {
+          "197": 1,
+          "97": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          9,
+          12,
+          10
+        ],
+        "location": [
+          "jp1995-000023616729-019",
+          12,
+          10
+        ],
+        "previous": null,
+        "printed_value": 93,
+        "votes": {
+          "0": 1,
+          "93": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          7,
+          29,
+          7
+        ],
+        "location": [
+          "jp1995-000023616729-015",
+          29,
+          7
+        ],
+        "previous": null,
+        "printed_value": 57,
+        "votes": {
+          "0": 1,
+          "57": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          7,
+          21,
+          7
+        ],
+        "location": [
+          "jp1995-000023616729-015",
+          21,
+          7
+        ],
+        "previous": null,
+        "printed_value": 54,
+        "votes": {
+          "0": 1,
+          "54": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          7,
+          22,
+          20
+        ],
+        "location": [
+          "jp1995-000023616729-016",
+          22,
+          7
+        ],
+        "previous": null,
+        "printed_value": 56,
+        "votes": {
+          "99": 1,
+          "56": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          7,
+          15,
+          20
+        ],
+        "location": [
+          "jp1995-000023616729-016",
+          15,
+          7
+        ],
+        "previous": null,
+        "printed_value": 60,
+        "votes": {
+          "9": 1,
+          "60": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          7,
+          15,
+          13
+        ],
+        "location": [
+          "jp1995-000023616729-016",
+          15,
+          0
+        ],
+        "previous": null,
+        "printed_value": 81,
+        "votes": {
+          "0": 1,
+          "81": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          6,
+          13,
+          4
+        ],
+        "location": [
+          "jp1995-000023616729-013",
+          13,
+          4
+        ],
+        "previous": null,
+        "printed_value": 53,
+        "votes": {
+          "2": 1,
+          "53": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          6,
+          13,
+          0
+        ],
+        "location": [
+          "jp1995-000023616729-013",
+          13,
+          0
+        ],
+        "previous": null,
+        "printed_value": 2078,
+        "votes": {
+          "8107": 1,
+          "2078": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          5,
+          29,
+          24
+        ],
+        "location": [
+          "jp1995-000023616729-012",
+          29,
+          11
+        ],
+        "previous": null,
+        "printed_value": 52,
+        "votes": {
+          "0": 1,
+          "52": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          5,
+          23,
+          24
+        ],
+        "location": [
+          "jp1995-000023616729-012",
+          23,
+          11
+        ],
+        "previous": null,
+        "printed_value": 53,
+        "votes": {
+          "0": 1,
+          "53": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          1,
+          29,
+          0
+        ],
+        "location": [
+          "jp1995-000023616729-003",
+          29,
+          0
+        ],
+        "previous": null,
+        "printed_value": 1444,
+        "votes": {
+          "1441": 1,
+          "1444": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          1,
+          29,
+          10
+        ],
+        "location": [
+          "jp1995-000023616729-003",
+          29,
+          10
+        ],
+        "previous": null,
+        "printed_value": 62,
+        "votes": {
+          "0": 1,
+          "62": 1
+        }
+      },
+      {
+        "key": [
+          1,
+          1,
+          12,
+          10
+        ],
+        "location": [
+          "jp1995-000023616729-003",
+          12,
+          10
+        ],
+        "previous": null,
+        "printed_value": 90,
+        "votes": {
+          "0": 1,
+          "90": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          11,
+          25,
+          20
+        ],
+        "location": [
+          "jp1995-000023616728-024",
+          25,
+          7
+        ],
+        "previous": null,
+        "printed_value": 92,
+        "votes": {
+          "0": 1,
+          "92": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          11,
+          22,
+          11
+        ],
+        "location": [
+          "jp1995-000023616728-023",
+          22,
+          11
+        ],
+        "previous": null,
+        "printed_value": 154,
+        "votes": {
+          "0": 1,
+          "154": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          11,
+          22,
+          4
+        ],
+        "location": [
+          "jp1995-000023616728-023",
+          22,
+          4
+        ],
+        "previous": null,
+        "printed_value": 101,
+        "votes": {
+          "1013": 1,
+          "101": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          11,
+          13,
+          4
+        ],
+        "location": [
+          "jp1995-000023616728-023",
+          13,
+          4
+        ],
+        "previous": null,
+        "printed_value": 88,
+        "votes": {
+          "0": 1,
+          "88": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          6,
+          13,
+          4
+        ],
+        "location": [
+          "jp1995-000023616728-013",
+          13,
+          4
+        ],
+        "previous": null,
+        "printed_value": 111,
+        "votes": {
+          "11": 1,
+          "111": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          11,
+          3,
+          20
+        ],
+        "location": [
+          "jp1995-000023616728-024",
+          3,
+          7
+        ],
+        "previous": null,
+        "printed_value": 98,
+        "votes": {
+          "0": 1,
+          "98": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          6,
+          3,
+          20
+        ],
+        "location": [
+          "jp1995-000023616728-014",
+          3,
+          7
+        ],
+        "previous": null,
+        "printed_value": 82,
+        "votes": {
+          "0": 1,
+          "82": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          6,
+          12,
+          0
+        ],
+        "location": [
+          "jp1995-000023616728-013",
+          12,
+          0
+        ],
+        "previous": null,
+        "printed_value": 3534,
+        "votes": {
+          "73534": 1,
+          "3534": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          0,
+          12,
+          0
+        ],
+        "location": [
+          "jp1995-000023616728-001",
+          12,
+          0
+        ],
+        "previous": null,
+        "printed_value": 38988,
+        "votes": {
+          "38988": 2,
+          "0": 2
+        }
+      },
+      {
+        "key": [
+          0,
+          0,
+          19,
+          0
+        ],
+        "location": [
+          "jp1995-000023616728-001",
+          19,
+          0
+        ],
+        "previous": null,
+        "printed_value": 39176,
+        "votes": {
+          "39176": 1,
+          "0": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          0,
+          16,
+          0
+        ],
+        "location": [
+          "jp1995-000023616728-001",
+          16,
+          0
+        ],
+        "previous": null,
+        "printed_value": 37681,
+        "votes": {
+          "37681": 1,
+          "0": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          0,
+          13,
+          0
+        ],
+        "location": [
+          "jp1995-000023616728-001",
+          13,
+          0
+        ],
+        "previous": null,
+        "printed_value": 39820,
+        "votes": {
+          "39820": 1,
+          "0": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          0,
+          10,
+          0
+        ],
+        "location": [
+          "jp1995-000023616728-001",
+          10,
+          0
+        ],
+        "previous": null,
+        "printed_value": 39183,
+        "votes": {
+          "39183": 1,
+          "0": 1
+        }
+      },
+      {
+        "key": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "location": [
+          "jp1995-000023616728-001",
+          5,
+          0
+        ],
+        "previous": null,
+        "printed_value": 38412,
+        "votes": {
+          "38412": 1,
+          "0": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          0,
+          12,
+          12
+        ],
+        "location": [
+          "jp1995-000023616730-001",
+          12,
+          12
+        ],
+        "previous": null,
+        "printed_value": 931,
+        "votes": {
+          "0": 1,
+          "931": 1
+        }
+      },
+      {
+        "key": [
+          2,
+          0,
+          12,
+          7
+        ],
+        "location": [
+          "jp1995-000023616730-001",
+          12,
+          7
+        ],
+        "previous": null,
+        "printed_value": 608,
+        "votes": {
+          "809": 1,
+          "608": 1
+        }
+      }
+    ],
+    "suggestions": [],
+    "missing_slots": [],
+    "violations": []
+  }
+}
