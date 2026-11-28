@@ -1,0 +1,21 @@
+{
+  "records": 4000,
+  "eligible_frame_N": 1641435,
+  "strata": 52,
+  "sha256": {
+    "birth_inputs.jsonl": "4281c60ae51efa3400824b6fe360f26b8a596d7063c08f41bf0158ef5088b7a7",
+    "birth_metadata.jsonl": "33beb2f0820bbadd2c159d8a941d036bace2b7ae32c6204ffe8733456fa5a7d7",
+    "sampling_manifest.json": "e1d157dda5851636c5bc485bef347a25cf83ad73f94292eaed3bdb3206c2311e"
+  },
+  "source_archive_sha256": {
+    "2009": "e3822ae4a5225bccd0c1d48a65852bd55203b9ae5b356a4d0a5c7d4457f50e73",
+    "2010": "02519153dbf85d25a049095d9cf2ed118f869455117f30a76929a1638be19e58"
+  },
+  "eligibility_before_exclusions": 1645435,
+  "old_r10_rows_excluded": 2000,
+  "old_r45_rows_excluded": 2000,
+  "legacy_physical_overlap": 0,
+  "registration": "f7ce5f927111b5e50ff6496de3b929e941fc00f5",
+  "group": "mx2009",
+  "input_seal_sha256": "32b4963e438bdedb68c9f38d4c7d4481e2c25f48f92057b78fde78eae2ae4c8d"
+}
