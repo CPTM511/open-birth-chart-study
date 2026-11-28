@@ -1,0 +1,8 @@
+{
+  "results_sha256": "4f411af0f2a77a06c7227b51a363f5da1551e82e52ec4d1fde9ab1f04f08204c",
+  "synthetic_score_inputs_checked": 138240,
+  "independent_method": "chronological string-bit counts and fractional arithmetic",
+  "both_sharp_upper_assignments_attain_reported_values": true,
+  "both_balanced_integer_assignments_verified": true,
+  "official_dated_counts_verified": true
+}
