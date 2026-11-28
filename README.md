@@ -4,7 +4,7 @@
 
 Can the claim of a generational “break” in birth charts be turned into a test another researcher can repeat? We use documented birth records, four versioned calculation methods and prespecified comparisons to test whether modeled gaps concentrate at common ages or in common calendar periods.
 
-**Current finding.** In R49, an independent holdout of **21,416 birth records** from four Brazilian and Mexican source frames excluded a common gap of **+5 percentage points** at the 75th-percentile threshold. The estimated common peak was **+2.206 points**, with a primary interval of **+1.215 to +3.469**. Transfer to East Asia and other populations remains unresolved. [R49 evidence](R49.md) · [R50 archive assessment](R50.md)
+**Current finding.** In R49, an independent holdout of **21,416 birth records** from four Brazilian and Mexican source frames excluded a common gap of **+5 percentage points** at the 75th-percentile threshold. The estimated common peak was **+2.206 points**, with a primary interval of **+1.215 to +3.469**. Transfer to East Asia and other populations remains unresolved. [R49 evidence](R49.md) · [Latest external source search](R51.md)
 
 ## What the study measures
 
@@ -49,6 +49,7 @@ The usable frame depends on recorded date and clock, recorded sex, occurrence lo
 | **R45–R46 · Where a large gap could still be plausible** | At P80, R45's same-age and same-calendar upper bounds were **+3.93** and **+3.59** points. R46's 2009 whole-hour comparison excluded +5 and its P75 methods disagreed. R49 tested that remaining P75 question on independent records. |
 | **R48 · Literal period continuity** | Checked **6,766** birth records. The specified Bazi method and both tested Ziwei starting-palace rules continuously covered the adult ages examined. The original public wording and common decision rule of the circulating claim remain unverified. |
 | **R47 and R50 · Transfer to other archives** | Official Japanese date-hour totals for **148,030** births allowed feasible assignments on both sides of +5 in R47's P80 panels. R50 found no qualifying Japanese or US route for the fixed-age P75 replication and verified a way to run it inside an authorized archive. |
+| **R51 · Other East Asian routes** | The leading paths are Hong Kong HA's 2009 cohort and the 1999 or 2009 archives of Zhejiang custodians. Historical minute-level research fields and study-specific approval remain to be verified. R51 scored no new external records. |
 
 ![R8 observed joint high-score rates plotted against the independent-phase reference in six source and age-window comparisons.](figures/02_phase_reference.png)
 
@@ -75,7 +76,7 @@ The project records versioned parameters, clock conversion, scope and known gaps
 | **How sensitive is the transfer decision to record conventions?** | A prespecified comparison using the same external records with observed clock precision, documented rounding or location changes. Report which of those changes could cross +5. |
 | **Which traditional claim is actually being tested?** | An attributable passage or original claim with an operational rule that distinguishes a literal missing period from an index-based gap. Validate the implementation against well-sourced examples before testing an alternative model. |
 
-R50 publishes the fixed reference cutoffs and checks that an archive can compute the age-34 effect and variance without sending individual records away. Outcome validation and empirical AI research are separate tracks under the constitution. [R50 reopening conditions](R50.md#conditions-for-a-new-external-test) · [Research priorities and acceptance criteria](docs/RESEARCH_PROGRAM.md)
+R51 identifies the custodians and the evidence needed to enroll a cohort. R50 publishes the fixed reference and verifies that an authorized archive can compute the effect and variance in place. Outcome validation and empirical AI research are separate tracks under the constitution. [R51 reopening criteria](R51.md#reopening-criteria) · [R50 calculation](R50.md) · [Research priorities and acceptance criteria](docs/RESEARCH_PROGRAM.md)
 
 ## Reproduce and review
 
