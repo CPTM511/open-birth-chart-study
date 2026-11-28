@@ -5,7 +5,7 @@ Use a full checkout containing the preregistration commit and [input commitments
 ## Sources
 
 1. Resolve R10, R15, and R45 private input roots from their reconstruction instructions. The prior samples are used to identify excluded physical source rows. Use the pinned IBGE municipal coordinates and IANA 2026c. [R10](../r10/independent_replay/REGISTRATION.md) · [R15](../r15/REGISTRATION.zh.md) · [R45](../r45/REPRODUCE.md)
-2. Obtain the two SINASC CSV ZIPs and the 2009–2010 INEGI DBF archives, 2020 national locality archive and 32 municipal-seat snapshots. Their respective [R15](../r15/source_audit.json), [R45](../r45/SOURCE_SEALS.json) and [R10](../r10/recovery/mexico2009/README.md) receipts give the exact sources.
+2. Obtain the two SINASC CSV ZIPs and the 2009–2010 INEGI DBF archives, 2020 national locality archive and 32 municipal-seat snapshots. Their respective [R15](../r15/source_audit.json), [R45](../r45/SOURCE_SEALS.json) and [R10](../r10/recovery/mexico2009/README.md) receipts give the exact sources. The [original reproduction guide](../../docs/REPRODUCING.md) covers the `IBGE_2022` municipal reference table.
 3. Download all five INEGI 2017–2021 archives using the URLs in [the Mexico 1999 receipt](seals/mx1999.json) into one directory, by the publisher filenames. Keep the original bytes. The 2017 download's embedded field dictionary on PDF page 15 lists the birth month as Mes_nac. The actual DBF uses MES_NACIM. The adapter renames just that one descriptor in a temporary copy, leaving physical offsets and values intact.
 
 ~~~sh
@@ -39,6 +39,17 @@ python -m rounds.r46.prepare mx2009 --job "$R46_RUN" --r45-job "$R45_RUN" --r10-
 
 An additional source-index record confirms that the 2002 and 2003 DBF releases contain many 1999 births while both omit the hour and minute columns. Those downloads were screened for birth year and documented fields only. [Source check](early_mexico_schema.json)
 
+## Check the source rows
+
+Repeat the preparation commands in a new empty directory denoted by `R46_SECOND`. Use the same sealed source releases and assign its path to `R46_RUN` while preparing it. Then pass the first and second run directories to the verifier, which checks every selected physical row against the original archive. It reads `MES_NACIM` directly from the unmodified 2017 DBF. The location dictionaries are shared across the two reconstructions.
+
+~~~sh
+python -m rounds.r46.source_review --job "$R46_RUN" --replay-job "$R46_SECOND" \
+  --br1999 "$SINASC_1999" --br2009 "$SINASC_2009" --references "$IBGE_2022" \
+  --mex-modern "$INEGI_2017_21" --mex-old "$INEGI_ORIGINAL_DBF" \
+  --iter "$INEGI_ITER" --seats "$INEGI_SEATS" --output "$R46_RUN/source_review.json"
+~~~
+
 ## Score, check, and aggregate
 
 ~~~sh
@@ -49,4 +60,6 @@ python -m rounds.r46.review --job "$R46_RUN" --r10-job "$R10_RUN" \
   --results "$R46_RUN/results.json" --output "$R46_RUN/review.json"
 ~~~
 
-Re-running the score command verifies and skips complete batches. Use a fresh score directory or duplicated run folder to force full re-execution. Audit mode selects the registered records by digest and creates separate batches in fresh worker processes. The analysis checks every scored record, score range, year index and input identifier against its sealed batch receipts. The review uses separate prefix-rank arithmetic, rational window means, covariance and replayed multipliers. Fields in results are proportions, with conversion to percentage points by multiplying by 100.
+Re-running the score command verifies and skips complete batches. Prepare the same inputs in a fresh run directory for a full re-execution. Audit mode selects the registered records by digest and creates separate batches in fresh worker processes. The analysis checks every scored record, score range, year index and input identifier against its sealed batch receipts. The review uses separate prefix-rank arithmetic, rational window means, covariance and replayed multipliers. Fields in results are proportions, with conversion to percentage points by multiplying by 100.
+
+For a cross-environment aggregation check, run `rounds.r46.analyze` with identical sealed Linux score batches and reference inputs in a second environment. Use a fresh output filename. Compare the two JSON structures and each categorical or integer field exactly, and every floating-point value within an absolute tolerance of 5 × 10⁻¹² on the proportion scale. The [release comparison receipt](platform_replay.json) lists both digests and the observed differences. Scoring re-execution and aggregation replay are separate checks.
