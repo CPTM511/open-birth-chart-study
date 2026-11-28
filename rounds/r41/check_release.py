@@ -145,7 +145,19 @@ def check_release(source, report_path, grid_path):
         for year in YEARS:
             cells = list(compressed_panel(rows, year, source))
             expected = report["years"][str(year)]
+            dates = study_dates(year)
             require(len(cells) == expected["cohort_date_count"] * 24, "Released date or hour coverage differs")
+            profiles = len(cells) * 60 * len(SEXES)
+            require(expected["verification_counts"] == {
+                "profiles": profiles, "score_count": profiles * 40 * 4,
+                "anchor_count": len(cells) * len(DESIGN["r34_anchor_minutes"]) * len(SEXES),
+                "probe_count": len(dates) * len(DESIGN["probe_minutes"]) * len(SEXES),
+            }, f"Release verification counts differ for {year}")
+            check = expected["first_date_ziwei_reuse_check"]
+            require(check["date"] == dates[0].isoformat() and check["complete_profiles"] == 2880
+                    and check["same_numeric_scores"] == 460800, f"First-date reuse check differs for {year}")
+            require(set(expected["daily_receipts"]) == {day.isoformat() for day in dates},
+                    f"Missing a daily score receipt for {year}")
             evaluate_year(cells, expected, baseline)
         require(next(rows, None) is None, "The released model-year grid contains unexpected rows")
     print("Both years and all recorded boundaries reproduce with an independent exact weighting calculation")

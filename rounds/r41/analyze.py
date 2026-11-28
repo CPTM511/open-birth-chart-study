@@ -23,6 +23,7 @@ from .profiles import DESIGN, HERE, MINUTES, R10, R34, SEXES, YEARS, load_scores
 
 THRESHOLD_PP = Fraction(DESIGN["minimum_pp"])
 ANCHORS = tuple(DESIGN["r34_anchor_minutes"])
+R10_RUNTIME = ("Linux", "x86_64", "glibc", "2.36", "3.12.14", "v24.22.3")
 AGE_BANDS = ("joint_20_29", "joint_30_39", "joint_40_49", "joint_50_59")
 CSV_HEADER = ["date", "hour", "official_birth_count", *(f"minute_{minute:02d}_{sex}" for minute in MINUTES for sex in SEXES)]
 
@@ -166,15 +167,29 @@ def r34_anchors():
     return baseline
 
 
-def compute_year(year, main_dir, probe_dir, calibration, tables, anchors):
+def load_linux_scores(directory, day, probe=False):
+    with np.load(score_path(directory, day), allow_pickle=False) as archive:
+        require(tuple(archive["runtime_signature"]) == R10_RUNTIME, f"Unexpected numeric runtime for {day}")
+    return load_scores(directory, day, probe=probe)
+
+
+def compute_year(year, main_dir, probe_dir, cache_validation_dir, calibration, tables, anchors):
     receipts = {}
     differences = []
     day_masks = []
     verified = {"profiles": 0, "score_count": 0, "anchor_count": 0, "probe_count": 0}
-    for day in study_dates(year):
-        scores = load_scores(main_dir, day)
+    days = study_dates(year)
+    cache_check = None
+    for day in days:
+        scores = load_linux_scores(main_dir, day)
+        if day == days[0]:
+            cached = load_linux_scores(cache_validation_dir, day)
+            require(np.array_equal(scores, cached), f"Ziwei reuse differs across first-date run for {year}")
+            cache_check = {"date": day.isoformat(), "complete_profiles": len(scores), "same_numeric_scores": scores.size,
+                           "direct_sha256": digest(score_path(main_dir, day)),
+                           "reuse_sha256": digest(score_path(cache_validation_dir, day))}
         keys = scoring_keys(day)
-        probe = load_scores(probe_dir, day, probe=True)
+        probe = load_linux_scores(probe_dir, day, probe=True)
         index = {key: position for position, key in enumerate(keys)}
         verify_indices = [index[key] for key in scoring_keys(day, probe=True)]
         require(np.array_equal(scores[verify_indices], probe), f"The independent minute probe differs for {day}")
@@ -199,7 +214,7 @@ def compute_year(year, main_dir, probe_dir, calibration, tables, anchors):
         receipts[day.isoformat()] = {"grid_sha256": digest(score_path(main_dir, day)),
                                     "probe_sha256": digest(score_path(probe_dir, day))}
     return np.stack(day_masks), {"verification_counts": verified, "r34_anchor_differences": differences,
-                                 "daily_receipts": receipts}
+                                 "daily_receipts": receipts, "first_date_ziwei_reuse_check": cache_check}
 
 
 def write_grid(path, panels):
@@ -239,7 +254,8 @@ def main():
     for year in YEARS:
         counts, metadata = official_counts(args.source_first, args.source_second, year)
         masks, verification = compute_year(year, args.scoring_root / f"main-{year}",
-                                           args.scoring_root / f"probe-{year}", calibrator, tables, anchors)
+                                           args.scoring_root / f"probe-{year}",
+                                           args.scoring_root / f"cache-validation-{year}", calibrator, tables, anchors)
         panels[year] = counts, masks
         report["years"][str(year)] = {
             "entire_year_source": metadata, "cohort_date_count": len(study_dates(year)),
