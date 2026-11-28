@@ -150,7 +150,7 @@ def main():
     parser.add_argument("group", choices=GROUPS)
     parser.add_argument("--job", type=Path, required=True)
     for key in ("brazil-archive", "references", "r10-job", "r13-job", "r15-job", "r45-job", "r46-job",
-                "mex-old", "mex-modern", "seats", "iter", "mex-sources"):
+                "mex-old", "mex-modern", "seats", "iter"):
         parser.add_argument("--" + key, type=Path)
     args = parser.parse_args()
     settings = protocol()

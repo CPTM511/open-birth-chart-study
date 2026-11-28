@@ -1,0 +1,21 @@
+{
+  "records": 6000,
+  "eligible_frame_N": 43348,
+  "strata": 6,
+  "sha256": {
+    "birth_inputs.jsonl": "1688d215defc32e078de7e869eec4a31802483d8104ae340a7747742e5ef3b21",
+    "birth_metadata.jsonl": "53e58a1e88a8c9ec795e70343dce2013a005c8eb4f117a1b2a4e947b27ddc41a",
+    "sampling_manifest.json": "6dc73c9826a82e784c25fecb32dd33404fe0610ea60674e527eab15ab9954a21"
+  },
+  "source_archive_sha256": "a60fd7527927fcfca1b7a06c80603d8fefb0fbdf99d77799ce24d3cbb80ad4b2",
+  "municipality_reference_sha256": "d3c8f97c7580413df2131b2227d4c442a34a957d244775affc162a1de99b9803",
+  "eligibility_before_exclusions": 49348,
+  "excluded_by_round": {
+    "r15": 2000,
+    "r46": 4000
+  },
+  "legacy_physical_overlap": 0,
+  "registration": "1d8e59ea9e1d5b22ce5b253f3c64ec0246cfaae5",
+  "group": "br1999",
+  "input_seal_sha256": "ebd05246e86951c0fc95d421c645600acc0747da1ba3a7cb88c1d32cb6f71f04"
+}
