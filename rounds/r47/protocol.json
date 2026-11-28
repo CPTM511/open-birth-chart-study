@@ -1,0 +1,16 @@
+{
+  "study": "OBS-R47-JAPAN-GAP-IDENTIFICATION",
+  "grid_path": "rounds/r41/minute_grid.csv.gz",
+  "grid_sha256": "8649ad4164fc112558664e1b1bba0bd563d12c9a061b3906a3b5c53e98e19e99",
+  "r45_aggregate_sha256": "7a48cbd9105e04c8eddef8cc03ae00979362af5285bca5115f729ac56220476a",
+  "birth_years": [1999, 2006],
+  "cohort_counts": {"1999": 77964, "2006": 70066},
+  "age_starts": [20, 50],
+  "calendar_starts": [2030, 2049],
+  "window_years": 10,
+  "minimum_percentage_points": 5,
+  "minutes_per_hour": 60,
+  "sex_parameters": ["F", "M"],
+  "birth_weights": "official date by hour counts restricted to R41 panels",
+  "independent_read": "Direct per-score-bit boolean count and exact integer allocation certificate"
+}
