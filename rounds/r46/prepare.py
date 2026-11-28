@@ -5,7 +5,9 @@ from collections import Counter, defaultdict
 from hashlib import sha256
 import heapq
 from pathlib import Path
+from shutil import copyfileobj
 from tempfile import TemporaryDirectory
+from zipfile import ZipFile
 
 from rounds.r45.common import load_source, source_seal
 from rounds.r45.prepare import allocate, brazil, make_sample, mexico, model_row, r8
@@ -136,6 +138,27 @@ def mexico2009_holdout(args, spec, folder):
                 old_r10_rows_excluded=len(old), old_r45_rows_excluded=len(r45_keys), legacy_physical_overlap=0)
 
 
+def normalize_2017_month(archive, destination):
+    """Rename only the documented month descriptor for the unchanged R13 parser."""
+    with ZipFile(archive) as source, ZipFile(destination, "x") as derived:
+        members = {Path(member).name.lower(): member for member in source.namelist()}
+        with source.open(members["catemlna17.dbf"]) as f, derived.open("catemlna17.dbf", "w") as out:
+            copyfileobj(f, out)
+        with source.open(members["nacim17.dbf"]) as f, derived.open("nacim17.dbf", "w") as out:
+            lead = f.read(32)
+            size = int.from_bytes(lead[8:10], "little")
+            descriptors = bytearray(f.read(size-32))
+            end = range(0, len(descriptors)-1, 32)
+            names = {bytes(descriptors[i:i+11]).rstrip(b"\0").upper(): i for i in end}
+            require(descriptors[-1] == 13 and b"MES_NAC" not in names and b"MES_NACIM" in names,
+                    "The 2017 month header differs from the documented alias")
+            index = names[b"MES_NACIM"]
+            descriptors[index:index+11] = b"MES_NAC".ljust(11,b"\0")
+            out.write(lead)
+            out.write(descriptors)
+            copyfileobj(f, out)
+
+
 def mexico1999_census(args, spec, folder):
     availability = read_json(args.mex_index)
     require([x["year"] for x in availability] == spec["sampling"]["mx1999_registration_years"], "Wrong Mexico census years")
@@ -158,7 +181,13 @@ def mexico1999_census(args, spec, folder):
         require(digest(archive) == source["sha256"], "Late INEGI archive differs")
         if str(year) in historical["archive_sha256"]:
             require(source["sha256"] == historical["archive_sha256"][str(year)], "R10 INEGI archive changed")
-        n, counts = inspect_archive(archive, year, points, allowed, strata, older_birth=capture)
+        if year == 2017:
+            with TemporaryDirectory(dir=args.job) as temporary:
+                canonical = Path(temporary) / "nacimientos-canonical.zip"
+                normalize_2017_month(archive, canonical)
+                n, counts = inspect_archive(canonical, year, points, allowed, strata, older_birth=capture)
+        else:
+            n, counts = inspect_archive(archive, year, points, allowed, strata, older_birth=capture)
         source_audits.append(dict(source, source_rows=n, **counts[1999]))
     require(len(selected) == sum(strata[1999].values()) > 0, "No qualifying Mexico 1999 births")
     rows, source = [], "INEGI-birth1999-registered2017_2021-R46"

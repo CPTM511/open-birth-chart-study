@@ -1,0 +1,22 @@
+{
+  "2002": {
+    "raw_rows": 2699084,
+    "actual_1999_birth_year_rows": 70153,
+    "missing_clock_columns": [
+      "HORA_NAC",
+      "MINUTO_NAC"
+    ],
+    "archive_sha256": "2aac688b0a3c9e5f986f16e06fc48286b241268ab0ae01c58bb4afb5c35b051e",
+    "source_url": "https://www.inegi.org.mx/contenidos/programas/natalidad/microdatos/2002/natalidad_base_datos_2002_dbf.zip"
+  },
+  "2003": {
+    "raw_rows": 2655894,
+    "actual_1999_birth_year_rows": 54325,
+    "missing_clock_columns": [
+      "HORA_NAC",
+      "MINUTO_NAC"
+    ],
+    "archive_sha256": "841b1c3ffb36b499b7003c351fe0ee4235b74c1e5caf9ea46f3cb8042a00b03e",
+    "source_url": "https://www.inegi.org.mx/contenidos/programas/natalidad/microdatos/2003/natalidad_base_datos_2003_dbf.zip"
+  }
+}
