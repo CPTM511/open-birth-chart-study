@@ -1,0 +1,18 @@
+{
+  "registration": "286d37385fbbbd420da6c3f6568f5bcaa112ee08",
+  "result_sha256": "b809108414d3546de0d14089fc920d9236d30f598f0b575821e98118c87db6de",
+  "replay_sha256": "b809108414d3546de0d14089fc920d9236d30f598f0b575821e98118c87db6de",
+  "scoring_replay_exact": true,
+  "independent_calendar_and_age_index_checks": {
+    "input_count": 6766,
+    "checked_bazi_intervals": 162384,
+    "checked_ziwei_intervals": 81192
+  },
+  "historical_example": {
+    "scan_pdf_page_one_based": 115,
+    "transmitted_original_has_both_day_and_hour_labels": true,
+    "input_traditional_hours": 63,
+    "start_years_exact": "7/4",
+    "ten_year_next_step_age_exact": "47/4"
+  }
+}
