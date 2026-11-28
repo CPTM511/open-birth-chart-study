@@ -1,0 +1,18 @@
+{
+  "scope": "Fictional inputs only. No external data were read or scored.",
+  "synthetic_records_scored": 12,
+  "score_flags_compared": 1920,
+  "centered_windows_compared": 372,
+  "finite_population_draws_checked": 70,
+  "distinct_age_34_centered_integers": 8,
+  "reference_sha256": "9cccd8dde0a6b3375a8b97473081a39a8b87dd3be41ec3c8dab371339afeea7a",
+  "score_buffer_sha256": "bb207e4ddc2c6ba97a9238490df085ca2b3ebfc4d05df6f9ba4c804a801ae28b",
+  "runtime": {
+    "os": "Darwin",
+    "machine": "arm64",
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "node": "v24.22.3",
+    "tzdb": "# version 2026c"
+  }
+}
