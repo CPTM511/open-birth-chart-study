@@ -2,6 +2,8 @@
 
 **Version 1.0 · Adopted 27 November 2026 · English**　[中文](CONSTITUTION.zh.md)
 
+[Research program and acceptance criteria](docs/RESEARCH_PROGRAM.md)
+
 ## 1. Purpose
 
 The study starts with Bazi, Ziwei Doushu, Qizheng Siyu and Western astrology. Which patterns across ages, birth cohorts or places recur when documented birth records are processed by explicit models of these four traditions? Which patterns can be explained by shared calendars, sample selection, software limits or chance? The project preserves findings that support a hypothesis, findings that challenge it and studies that lack the information to distinguish the alternatives.
