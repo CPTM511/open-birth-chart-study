@@ -1,0 +1,28 @@
+{
+  "japan_years": [1999, 2006],
+  "japan_date_count_per_year": 24,
+  "attention_threshold_pp": "0.30",
+  "target_registration_sha": "1d7f0a3879e680fa82d3ebffb995b01082eb362b",
+  "donors": {
+    "brazil2006": {
+      "year": 2006,
+      "zip_url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SINASC/csv/DNBR2006_csv.zip",
+      "expected_zip_sha256": "4089f12103eb7af2840b39f0d5a6c4ac5aafcd46bf3cf9cd77964865ceffdd65",
+      "archive_member_suffix": ".csv",
+      "encoding": "latin1",
+      "separator": ";",
+      "date_column": "DTNASC",
+      "clock_column": "HORANASC",
+      "unknown_clock": "9999"
+    },
+    "us2016": {
+      "year": 2016,
+      "zip_url": "https://ftp.cdc.gov/pub/health_Statistics/nchs/Datasets/DVS/natality/Nat2016us.zip",
+      "expected_zip_bytes": 248367974,
+      "archive_member_suffix": ".txt",
+      "year_field_1_based_inclusive": [9, 12],
+      "clock_field_1_based_inclusive": [19, 22],
+      "unknown_clock": "9999"
+    }
+  }
+}
