@@ -76,7 +76,7 @@ The project records versioned parameters, clock conversion, scope and known gaps
 | **How sensitive is the transfer decision to record conventions?** | A prespecified comparison using the same external records with observed clock precision, documented rounding or location changes. Report which of those changes could cross +5. |
 | **Which traditional claim is actually being tested?** | An attributable passage or original claim with an operational rule that distinguishes a literal missing period from an index-based gap. Validate the implementation against well-sourced examples before testing an alternative model. |
 
-R51 identifies the custodians and the evidence needed to enroll a cohort. R50 publishes the fixed reference and verifies that an authorized archive can compute the effect and variance in place. Outcome validation and empirical AI research are separate tracks under the constitution. [R51 reopening criteria](R51.md#reopening-criteria) · [R50 calculation](R50.md) · [Research priorities and acceptance criteria](docs/RESEARCH_PROGRAM.md)
+R52 opened access enquiries with the Hong Kong Hospital Authority and the Hangzhou Municipal Archives. Eligibility, historical fields and permission remain pending. R50 provides the fixed reference and the reviewed calculation that an authorized archive can run in place. Outcome validation and empirical AI research are separate tracks under the constitution. [R52 access status and study specification](R52.md) · [R51 reopening criteria](R51.md#reopening-criteria) · [R50 calculation](R50.md) · [Research priorities and acceptance criteria](docs/RESEARCH_PROGRAM.md)
 
 ## Reproduce and review
 
