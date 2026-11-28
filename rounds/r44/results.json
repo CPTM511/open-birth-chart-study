@@ -1,0 +1,553 @@
+{
+  "round": "R44",
+  "verified_branch_pairs": 144,
+  "inputs_sha256": {
+    "rounds/r44/REGISTRATION.zh.md": "3486a26177027bd982796ce834c8ce6aa48ba2bed7fdcedce7d13439315240cb",
+    "rounds/r44/sources.json": "99c6700d761c34fde9ac305ef731e31fa9ba2316ad66d79725a19ad0eb8169aa",
+    "rounds/r44/transcription.json": "c5cb4b822fadb4099062b39169e871db2467f29370df690bae3150073aa902b3",
+    "rounds/r23/classical.py": "05abb6eecdf595c7b57101621648990df9c0741d2031daf0e88463e2f3c0e2b8",
+    "src/open_birth_chart/ziwei_bridge.cjs": "976c2b4b8bd887b87865c4e3bfe8f02cce5f1dfdd1c4a6d14959308ca34e978f",
+    "package-lock.json": "17fd60175498619a22939476eef4504fc7df724729a5de2fdb9dae3747fa828a"
+  },
+  "same_stem_example": {
+    "classical_flow": {
+      "流禄": "申",
+      "流羊": "酉",
+      "流陀": "未"
+    },
+    "modern_control": {
+      "synthetic_birth_clock": "2000-03-20T00:30:00",
+      "life": "卯",
+      "bureau_name": "土五局",
+      "natal": {
+        "七杀": "午",
+        "紫微": "辰",
+        "天相": "辰",
+        "禄存": "申",
+        "擎羊": "酉",
+        "陀罗": "未",
+        "飞廉": "寅"
+      },
+      "snapshots": [
+        {
+          "year": 2020,
+          "nominal_age": 21,
+          "decadal_branch": "辰",
+          "minor_branch": "午",
+          "taisui_year_gz": "庚子",
+          "flow": {
+            "流陀": "未",
+            "流禄": "申",
+            "流羊": "酉"
+          },
+          "ZWC03_match": false,
+          "ZWC03_rescue": {},
+          "ZWC04_duplicates": {
+            "流陀": "未",
+            "流羊": "酉"
+          },
+          "strict_temple": false,
+          "R8_temple_or_prosperous": false,
+          "qisha_brightness": "旺",
+          "contexts": {
+            "qisha_relative_to_life": "outside",
+            "triggers": {
+              "same_or_trine_wings": {
+                "natal_qisha": false,
+                "transit_stars": [
+                  "流陀"
+                ],
+                "with_any": false,
+                "with_both": false
+              },
+              "same_trine_wings_or_opposition": {
+                "natal_qisha": false,
+                "transit_stars": [
+                  "流羊",
+                  "流陀"
+                ],
+                "with_any": false,
+                "with_both": false
+              }
+            },
+            "rescue_relative_to_life": {
+              "relationships": {
+                "紫微": "outside",
+                "天相": "outside",
+                "禄存": "outside"
+              },
+              "rules": {
+                "trine_wings_only": {
+                  "stars": [],
+                  "any": false,
+                  "all_three": false
+                },
+                "same_or_trine_wings": {
+                  "stars": [],
+                  "any": false,
+                  "all_three": false
+                },
+                "same_trine_wings_or_opposition": {
+                  "stars": [],
+                  "any": false,
+                  "all_three": false
+                }
+              }
+            },
+            "rescue_relative_to_qisha": {
+              "relationships": {
+                "紫微": "outside",
+                "天相": "outside",
+                "禄存": "outside"
+              },
+              "rules": {
+                "trine_wings_only": {
+                  "stars": [],
+                  "any": false,
+                  "all_three": false
+                },
+                "same_or_trine_wings": {
+                  "stars": [],
+                  "any": false,
+                  "all_three": false
+                },
+                "same_trine_wings_or_opposition": {
+                  "stars": [],
+                  "any": false,
+                  "all_three": false
+                }
+              }
+            }
+          }
+        },
+        {
+          "year": 2021,
+          "nominal_age": 22,
+          "decadal_branch": "辰",
+          "minor_branch": "未",
+          "taisui_year_gz": "辛丑",
+          "flow": {
+            "流陀": "申",
+            "流禄": "酉",
+            "流羊": "戌"
+          },
+          "ZWC03_match": false,
+          "ZWC03_rescue": {},
+          "ZWC04_duplicates": {},
+          "strict_temple": false,
+          "R8_temple_or_prosperous": false,
+          "qisha_brightness": "旺",
+          "contexts": {
+            "qisha_relative_to_life": "outside",
+            "triggers": {
+              "same_or_trine_wings": {
+                "natal_qisha": false,
+                "transit_stars": [],
+                "with_any": false,
+                "with_both": false
+              },
+              "same_trine_wings_or_opposition": {
+                "natal_qisha": false,
+                "transit_stars": [],
+                "with_any": false,
+                "with_both": false
+              }
+            },
+            "rescue_relative_to_life": {
+              "relationships": {
+                "紫微": "outside",
+                "天相": "outside",
+                "禄存": "outside"
+              },
+              "rules": {
+                "trine_wings_only": {
+                  "stars": [],
+                  "any": false,
+                  "all_three": false
+                },
+                "same_or_trine_wings": {
+                  "stars": [],
+                  "any": false,
+                  "all_three": false
+                },
+                "same_trine_wings_or_opposition": {
+                  "stars": [],
+                  "any": false,
+                  "all_three": false
+                }
+              }
+            },
+            "rescue_relative_to_qisha": {
+              "relationships": {
+                "紫微": "outside",
+                "天相": "outside",
+                "禄存": "outside"
+              },
+              "rules": {
+                "trine_wings_only": {
+                  "stars": [],
+                  "any": false,
+                  "all_three": false
+                },
+                "same_or_trine_wings": {
+                  "stars": [],
+                  "any": false,
+                  "all_three": false
+                },
+                "same_trine_wings_or_opposition": {
+                  "stars": [],
+                  "any": false,
+                  "all_three": false
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "kong_example": {
+    "classical": {
+      "life": "午",
+      "bureau": 2,
+      "natal": {
+        "七杀": "子",
+        "紫微": "戌",
+        "天相": "戌",
+        "禄存": "午",
+        "擎羊": "未",
+        "陀罗": "巳",
+        "飞廉": "子"
+      },
+      "nominal_age": 32,
+      "same_life_start_decadal_branch": "卯",
+      "printed_adjacent_start_decadal_branch": "寅",
+      "minor_branch": "寅",
+      "taisui_year_gz": "戊申",
+      "flow": {
+        "流禄": "巳",
+        "流羊": "午",
+        "流陀": "辰"
+      },
+      "decadal_and_taisui_relation": "opposition",
+      "qisha_relative_to_life": "opposition",
+      "triggers": {
+        "same_or_trine_wings": {
+          "natal_qisha": false,
+          "transit_stars": [
+            "流羊"
+          ],
+          "with_any": false,
+          "with_both": false
+        },
+        "same_trine_wings_or_opposition": {
+          "natal_qisha": true,
+          "transit_stars": [
+            "流羊"
+          ],
+          "with_any": true,
+          "with_both": false
+        }
+      },
+      "rescue_relative_to_life": {
+        "relationships": {
+          "紫微": "trine_wing",
+          "天相": "trine_wing",
+          "禄存": "same_palace"
+        },
+        "rules": {
+          "trine_wings_only": {
+            "stars": [
+              "紫微",
+              "天相"
+            ],
+            "any": true,
+            "all_three": false
+          },
+          "same_or_trine_wings": {
+            "stars": [
+              "紫微",
+              "天相",
+              "禄存"
+            ],
+            "any": true,
+            "all_three": true
+          },
+          "same_trine_wings_or_opposition": {
+            "stars": [
+              "紫微",
+              "天相",
+              "禄存"
+            ],
+            "any": true,
+            "all_three": true
+          }
+        }
+      },
+      "rescue_relative_to_qisha": {
+        "relationships": {
+          "紫微": "outside",
+          "天相": "outside",
+          "禄存": "opposition"
+        },
+        "rules": {
+          "trine_wings_only": {
+            "stars": [],
+            "any": false,
+            "all_three": false
+          },
+          "same_or_trine_wings": {
+            "stars": [],
+            "any": false,
+            "all_three": false
+          },
+          "same_trine_wings_or_opposition": {
+            "stars": [
+              "禄存"
+            ],
+            "any": true,
+            "all_three": false
+          }
+        }
+      }
+    },
+    "modern_carriers": [
+      {
+        "synthetic_birth_clock": "1937-10-21T08:30:00",
+        "life": "午",
+        "bureau_name": "水二局",
+        "natal": {
+          "七杀": "子",
+          "紫微": "戌",
+          "天相": "戌",
+          "禄存": "午",
+          "擎羊": "未",
+          "陀罗": "巳",
+          "飞廉": "子"
+        },
+        "snapshots": [
+          {
+            "year": 1968,
+            "nominal_age": 32,
+            "decadal_branch": "卯",
+            "minor_branch": "寅",
+            "taisui_year_gz": "戊申",
+            "flow": {
+              "流陀": "辰",
+              "流禄": "巳",
+              "流羊": "午"
+            },
+            "ZWC03_match": true,
+            "ZWC03_rescue": {
+              "禄存": "午"
+            },
+            "ZWC04_duplicates": {},
+            "strict_temple": false,
+            "R8_temple_or_prosperous": true,
+            "qisha_brightness": "旺",
+            "contexts": {
+              "qisha_relative_to_life": "opposition",
+              "triggers": {
+                "same_or_trine_wings": {
+                  "natal_qisha": false,
+                  "transit_stars": [
+                    "流羊"
+                  ],
+                  "with_any": false,
+                  "with_both": false
+                },
+                "same_trine_wings_or_opposition": {
+                  "natal_qisha": true,
+                  "transit_stars": [
+                    "流羊"
+                  ],
+                  "with_any": true,
+                  "with_both": false
+                }
+              },
+              "rescue_relative_to_life": {
+                "relationships": {
+                  "紫微": "trine_wing",
+                  "天相": "trine_wing",
+                  "禄存": "same_palace"
+                },
+                "rules": {
+                  "trine_wings_only": {
+                    "stars": [
+                      "紫微",
+                      "天相"
+                    ],
+                    "any": true,
+                    "all_three": false
+                  },
+                  "same_or_trine_wings": {
+                    "stars": [
+                      "紫微",
+                      "天相",
+                      "禄存"
+                    ],
+                    "any": true,
+                    "all_three": true
+                  },
+                  "same_trine_wings_or_opposition": {
+                    "stars": [
+                      "紫微",
+                      "天相",
+                      "禄存"
+                    ],
+                    "any": true,
+                    "all_three": true
+                  }
+                }
+              },
+              "rescue_relative_to_qisha": {
+                "relationships": {
+                  "紫微": "outside",
+                  "天相": "outside",
+                  "禄存": "opposition"
+                },
+                "rules": {
+                  "trine_wings_only": {
+                    "stars": [],
+                    "any": false,
+                    "all_three": false
+                  },
+                  "same_or_trine_wings": {
+                    "stars": [],
+                    "any": false,
+                    "all_three": false
+                  },
+                  "same_trine_wings_or_opposition": {
+                    "stars": [
+                      "禄存"
+                    ],
+                    "any": true,
+                    "all_three": false
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "synthetic_birth_clock": "1997-10-19T08:30:00",
+        "life": "午",
+        "bureau_name": "水二局",
+        "natal": {
+          "七杀": "子",
+          "紫微": "戌",
+          "天相": "戌",
+          "禄存": "午",
+          "擎羊": "未",
+          "陀罗": "巳",
+          "飞廉": "子"
+        },
+        "snapshots": [
+          {
+            "year": 2028,
+            "nominal_age": 32,
+            "decadal_branch": "卯",
+            "minor_branch": "寅",
+            "taisui_year_gz": "戊申",
+            "flow": {
+              "流陀": "辰",
+              "流禄": "巳",
+              "流羊": "午"
+            },
+            "ZWC03_match": true,
+            "ZWC03_rescue": {
+              "禄存": "午"
+            },
+            "ZWC04_duplicates": {},
+            "strict_temple": false,
+            "R8_temple_or_prosperous": true,
+            "qisha_brightness": "旺",
+            "contexts": {
+              "qisha_relative_to_life": "opposition",
+              "triggers": {
+                "same_or_trine_wings": {
+                  "natal_qisha": false,
+                  "transit_stars": [
+                    "流羊"
+                  ],
+                  "with_any": false,
+                  "with_both": false
+                },
+                "same_trine_wings_or_opposition": {
+                  "natal_qisha": true,
+                  "transit_stars": [
+                    "流羊"
+                  ],
+                  "with_any": true,
+                  "with_both": false
+                }
+              },
+              "rescue_relative_to_life": {
+                "relationships": {
+                  "紫微": "trine_wing",
+                  "天相": "trine_wing",
+                  "禄存": "same_palace"
+                },
+                "rules": {
+                  "trine_wings_only": {
+                    "stars": [
+                      "紫微",
+                      "天相"
+                    ],
+                    "any": true,
+                    "all_three": false
+                  },
+                  "same_or_trine_wings": {
+                    "stars": [
+                      "紫微",
+                      "天相",
+                      "禄存"
+                    ],
+                    "any": true,
+                    "all_three": true
+                  },
+                  "same_trine_wings_or_opposition": {
+                    "stars": [
+                      "紫微",
+                      "天相",
+                      "禄存"
+                    ],
+                    "any": true,
+                    "all_three": true
+                  }
+                }
+              },
+              "rescue_relative_to_qisha": {
+                "relationships": {
+                  "紫微": "outside",
+                  "天相": "outside",
+                  "禄存": "opposition"
+                },
+                "rules": {
+                  "trine_wings_only": {
+                    "stars": [],
+                    "any": false,
+                    "all_three": false
+                  },
+                  "same_or_trine_wings": {
+                    "stars": [],
+                    "any": false,
+                    "all_three": false
+                  },
+                  "same_trine_wings_or_opposition": {
+                    "stars": [
+                      "禄存"
+                    ],
+                    "any": true,
+                    "all_three": false
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

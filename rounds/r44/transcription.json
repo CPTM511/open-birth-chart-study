@@ -1,0 +1,39 @@
+{
+  "edition": "南陽堂較梓七卷本，内阁文库子060-0001",
+  "plate_branch_order_clockwise_from_top_left": "巳午未申酉戌亥子丑寅卯辰",
+  "same_stem_example": {
+    "page": 165,
+    "side": "right",
+    "natal_year_stem": "庚",
+    "life": "卯",
+    "migration": "酉",
+    "natal_yang_explicit": "酉",
+    "yearly_stem": "庚",
+    "yearly_lu": "申",
+    "yearly_yang": "酉",
+    "yearly_tuo": "未",
+    "reading": "用本命酉位擎羊与同位流羊说明迭并，同时标出流陀在未。"
+  },
+  "kong_example": {
+    "page": 220,
+    "side": "left",
+    "title": "孔允夫命",
+    "birth": {"ganzhi": "丁丑", "lunar_month": 9, "lunar_day": 18, "hour_branch": "辰", "is_leap": false},
+    "leap_notation": "原版未印闰字",
+    "sex": "M",
+    "bureau": 2,
+    "life": "午",
+    "natal": {"七杀": "子", "紫微": "戌", "天相": "戌", "禄存": "午", "擎羊": "未", "陀罗": "巳", "飞廉": "子"},
+    "natal_qisha_brightness_printed": null,
+    "annual": {
+      "nominal_age": 32,
+      "year_gz": "戊申",
+      "decadal_branch": "寅",
+      "minor_branch": "寅",
+      "taisui_branch": "申",
+      "yearly_yang": "午",
+      "yearly_tuo": "辰"
+    },
+    "reading": "原刻在戊申虚岁三十二标大小限同在寅，太岁在申，断辞同时提到飞廉、流羊、七杀重逢。"
+  }
+}
