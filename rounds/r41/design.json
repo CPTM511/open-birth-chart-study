@@ -1,0 +1,23 @@
+{
+  "years": [1999, 2006],
+  "cohort_date_rule": "rounds.r34.profiles.sensitivity_dates",
+  "date_sets_from": "OBS-R34-20261128",
+  "dates_per_year": 24,
+  "expected_dated_birth_counts": {"1999": 77964, "2006": 70066},
+  "time_zone": "Asia/Tokyo",
+  "offset_seconds": 32400,
+  "latitude": 35.68950,
+  "longitude": 139.69171,
+  "seconds": 0,
+  "minutes_inclusive": [0, 59],
+  "r34_anchor_minutes": [0, 30, 59],
+  "parameter_values": ["F", "M"],
+  "modeled_age_inclusive": [20, 59],
+  "minimum_pp": "0.30",
+  "probe_seed": "OBS-R41-LINUX-REPLAY-20261128",
+  "probe_hour": "integer(SHA-256(UTF-8(seed + '|' + ISO_DATE))) modulo 24",
+  "probe_minutes": [0, 10, 20, 30, 40, 50, 59],
+  "expected_complete_profiles": 138240,
+  "verify_source_pairs": 2,
+  "primary_runtime": "R10 Linux x86_64 glibc 2.36 Python 3.12.14 and Node 24.22.3"
+}
