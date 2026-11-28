@@ -111,7 +111,10 @@ def estimates(reference, cohorts, settings, old_witness):
         effects[g] = weight_means(residuals, cohort.weights)
         design[g] = design_vectors(residuals, cohort.rows, np.full(len(ages), 2.))
         require(not design[g][1].any(), "Unexpected noncensused singleton stratum in R49")
-        effective_n = float(cohort.weights.sum() ** 2 / np.dot(cohort.weights, cohort.weights))
+        sizes = {row["stratum_id"]: (row["N_h"], row["n_h"]) for row in cohort.rows}.values()
+        total_weight = sum(population for population, _ in sizes)
+        squared_weights = sum(Fraction(population ** 2, sample) for population, sample in sizes)
+        effective_n = float(Fraction(total_weight ** 2) / squared_weights)
         groups[g] = dict(describe(joint, win, cohort.weights), effect_curve=effects[g].tolist(), weight_effective_n=effective_n)
 
     critical, errors, margins = intervals(design, settings["simultaneous_bands"])
