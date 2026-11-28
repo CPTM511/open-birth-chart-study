@@ -1,0 +1,46 @@
+[
+  {
+    "page": 164,
+    "canvas": "https://www.digital.archives.go.jp/api/iiif/4469314/canvas/C102812194700",
+    "image": "https://www.digital.archives.go.jp/api/content/item/da12/C102812194700/iiif/M2019050811103949308_0035.jp2/full/max/0/native.jpg",
+    "size_pixels": [
+      3000,
+      2262
+    ],
+    "bytes": 890635,
+    "sha256": "33dab9e19018f2dd2ff51d8638747316f9292cbb65e8941e30e7d37a232e87ba"
+  },
+  {
+    "page": 165,
+    "canvas": "https://www.digital.archives.go.jp/api/iiif/4469314/canvas/C102812194800",
+    "image": "https://www.digital.archives.go.jp/api/content/item/da12/C102812194800/iiif/M2019050811103949308_0036.jp2/full/max/0/native.jpg",
+    "size_pixels": [
+      3000,
+      2262
+    ],
+    "bytes": 888108,
+    "sha256": "62e65ec91414d11c377a315029f2901f00075be8f9a34b0699dd854f088f4999"
+  },
+  {
+    "page": 166,
+    "canvas": "https://www.digital.archives.go.jp/api/iiif/4469314/canvas/C102812194900",
+    "image": "https://www.digital.archives.go.jp/api/content/item/da12/C102812194900/iiif/M2019050811103949308_0037.jp2/full/max/0/native.jpg",
+    "size_pixels": [
+      3000,
+      2262
+    ],
+    "bytes": 846742,
+    "sha256": "ffdf3c07897023ebc3c3f2f44522c63459a8c95ff6dea8c85ecb8a59a203d690"
+  },
+  {
+    "page": 220,
+    "canvas": "https://www.digital.archives.go.jp/api/iiif/4469314/canvas/C102812200300",
+    "image": "https://www.digital.archives.go.jp/api/content/item/da12/C102812200300/iiif/M2019050811103949308_0091.jp2/full/max/0/native.jpg",
+    "size_pixels": [
+      3000,
+      2262
+    ],
+    "bytes": 831233,
+    "sha256": "9ddc0c2aa7fd0142b5b167a265338f80c2e1f96788b7b28425231263fcb0b239"
+  }
+]
