@@ -1,0 +1,12 @@
+{
+  "registration": "1d8e59ea9e1d5b22ce5b253f3c64ec0246cfaae5",
+  "results_sha256": "40c685c05ef38b08c84df55b9ab8aa015b27d27f04eeabe10658cddce75cf52f",
+  "r46_diagnostic_sha256": "682b5e6edb301baa8b196c12da63c22891fedc5da129e57e27cd1fb5455ea635",
+  "source_curves_recalculated": 4,
+  "weighted_threshold_classifications": 3746560,
+  "maximum_effect_disagreement": 4.718447854656915e-16,
+  "multiplier_draws_replayed": 9999,
+  "r46_directional_and_simultaneous_difference_verified": true,
+  "r49_primary_calculation_verified": true,
+  "auxiliary_comparisons_replayed": 2
+}

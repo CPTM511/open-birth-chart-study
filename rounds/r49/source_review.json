@@ -1,0 +1,46 @@
+{
+  "registration": "1d8e59ea9e1d5b22ce5b253f3c64ec0246cfaae5",
+  "groups": {
+    "br1999": {
+      "physical_rows_scanned": 3256433,
+      "selected_rows_verified": 6000,
+      "independently_rebuilt_seal_matches": true,
+      "input_seal_sha256": "ebd05246e86951c0fc95d421c645600acc0747da1ba3a7cb88c1d32cb6f71f04"
+    },
+    "mx1999": {
+      "selected_rows_verified": 3416,
+      "selected_per_registration_year": {
+        "2013": 926,
+        "2014": 828,
+        "2015": 774,
+        "2016": 888
+      },
+      "aliases_reread_from_original": [
+        2015
+      ],
+      "independently_rebuilt_seal_matches": true,
+      "input_seal_sha256": "d17be0cd694b92ef5e770c7765c44dc0806dcf95ec8c273656030e8d261027ee"
+    },
+    "br2009": {
+      "physical_rows_scanned": 2881581,
+      "selected_rows_verified": 6000,
+      "independently_rebuilt_seal_matches": true,
+      "input_seal_sha256": "8295779ac823c059d3faeed7b607b99a3a816388ce5e694419cecf94e9e78c5b"
+    },
+    "mx2009": {
+      "selected_rows_verified": 6000,
+      "selected_per_registration_year": {
+        "2009": 4467,
+        "2010": 1533
+      },
+      "original_2017_month_read_directly": false,
+      "independently_rebuilt_seal_matches": true,
+      "input_seal_sha256": "efedd64c017ed02ca02f31740faded5eba3fcb86fb8f10b3047fb483143279d8"
+    }
+  },
+  "physical_rows_verified": 21416,
+  "prior_physical_keys_checked": 27267,
+  "prior_draw_physical_overlap": 0,
+  "cross_group_physical_overlap": 0,
+  "geographic_dictionary_shared": true
+}

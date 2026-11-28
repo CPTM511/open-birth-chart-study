@@ -1,0 +1,22 @@
+{
+  "id": "OBS-R49-P75-INDEPENDENT",
+  "parent_commit": "a8db9e78e881f36fa8db701480cbbcb4160f70a4",
+  "r46_aggregate_sha256": "ed0c69adbab14c447cc35782a8e17691f4ff35423ddcd7b788b95c8368162c46",
+  "reference": "R10 fixed Brazil 2006, R45 age centering and R46 recorded-minute P75",
+  "ages": [20, 59],
+  "window_starts": [20, 50],
+  "window_width": 10,
+  "minimum_systems": 3,
+  "threshold_percentile": [3, 4],
+  "gap_threshold": 0.05,
+  "primary": {"upper_alpha": 0.025, "upper_group_divisor": 4, "lower_alpha": 0.025, "lower_start_age": 34},
+  "sampling": {
+    "minimum_per_active_stratum": 2,
+    "sample_n": 6000,
+    "brazil_seed": "OBS-R49-P75-BRAZIL-20261128",
+    "mx1999_registration_years": [2011, 2012, 2013, 2014, 2015, 2016],
+    "timezone_database": "2026c"
+  },
+  "simultaneous_bands": {"normal_draws": 9999, "normal_seed": 4902006, "confidence": 0.95},
+  "engine_replay": {"n_per_group": 64, "seed": "OBS-R49-P75-ENGINE-REPLAY"}
+}
