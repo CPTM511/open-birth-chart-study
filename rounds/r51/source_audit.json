@@ -1,0 +1,129 @@
+{
+  "checked_on": "2026-11-28",
+  "registration_commit": "2e7fb0b837215873721b5cb387750b8e544e81d4",
+  "evidence_scope": "Published catalogues, source documentation, layouts, research and use procedures",
+  "fixed_comparator": {
+    "reference": "R10 Brazil 2006",
+    "cutoffs": "../r50/reference.json",
+    "cutoffs_sha256": "9cccd8dde0a6b3375a8b97473081a39a8b87dd3be41ec3c8dab371339afeea7a",
+    "completed_ages": [20, 59],
+    "percentile": 75,
+    "age_window": [34, 43],
+    "effect_threshold_percentage_points": 5
+  },
+  "new_external_frames_enrolled": 0,
+  "new_birth_records_scored": 0,
+  "effect_proportion": null,
+  "external_sampling_precision": null,
+  "restricted_data_requests_submitted": false,
+  "individual_birth_records_obtained": false,
+  "routes": {
+    "hong_kong_ha": {
+      "decision": "historical_research_extract_and_purpose_approval_unconfirmed",
+      "priority_year": 2009,
+      "birth_catalogue": {
+        "url": "https://www3.ha.org.hk/Data/Home/File?path=%2FProvision+of+HA+data+for+Research%2FDRAF%28A%29_GN.pdf",
+        "locator": "11/2025 guidance, p. 3, BIRTHS row of Table 1",
+        "sha256": "16fcd2f384f070074654e0d882c561b6a25fe48e96befbfae8611e997fcbe8cc",
+        "first_year_shown": 2006,
+        "grain": "Counts of singleton live births",
+        "relevant_dimensions": ["date of birth of baby", "gender of baby", "district of residence of mother"],
+        "minute_and_actual_occurrence_dimensions": false
+      },
+      "birth_record_standard": {
+        "url": "https://www.ehealth.gov.hk/filemanager/content/pdf/en/ehris/annex/appendix-a-ix-ehr-birth-record.pdf",
+        "locator": "PDF pp. 2–3, entities 100310, 1003346, 1003102–1003104",
+        "sha256": "3ad0ab79b644b2d8956bb8ce3079347ca0e1e76e293c3c26f1459920d5314919",
+        "time_precision": "Date alone is allowed. Other examples include hour and minute.",
+        "institution": "Institution reporting the birth data. The standard has a separate location category."
+      },
+      "case_by_case_research_route": "https://www3.ha.org.hk/data/Provision/ApplicationProcedure",
+      "patient_record_ethics_requirement": "https://www3.ha.org.hk/data/Provision/Submission",
+      "eligible_frame_n": null
+    },
+    "zhejiang_birth_certificate_archives": {
+      "decision": "holding_path_documented_extract_fields_and_use_not_approved",
+      "priority_years": [1999, 2009],
+      "hangzhou": {
+        "url": "https://www.hzarchives.org.cn/info/8488",
+        "locator": "2017-12-12 guide, sections I–IV and section III item 4",
+        "published_holding_start_year": 1996,
+        "documented_holder_type": "Urban maternity and midwifery institutions",
+        "research_route_evidence": "For other entities or persons the guide requires administrative consent and custodian review"
+      },
+      "taizhou": {
+        "url": "https://www.wmuwch.com/upload/201908/30/201908301621223536.pdf",
+        "locator": "2015-03-27 local digitization plan, printed pp. 4–6, sections II–IV",
+        "digitization_plan_years": [1996, 2014],
+        "record_arrangement": {"1996–2002": "Delivery ledgers and appendices in volumes", "2003 onward": "Separately arranged per newborn"},
+        "index_date_precision": "Eight-digit birth date, no clock field specified",
+        "index_institution": "Certificate issuer",
+        "plan_distinguished_from_verified_completion": true
+      },
+      "eligible_frame_n": null
+    },
+    "korea_mdis_and_civil_filing": {
+      "decision": "target_year_release_fields_unconfirmed",
+      "public_reissue_1998_2002": "https://mdis.mods.go.kr/bbs/boardDetail.do?boardId=BBSMSTR_000000000003&curMenuNo=UI_POR_P1027&postId=BI_00000000000087826",
+      "public_revision_2000_2018": "https://mdis.mods.go.kr/bbs/boardDetail.do?boardId=BBSMSTR_000000000003&curMenuNo=UI_POR_P9026&postId=BI_00000000000111279",
+      "historical_filing_rule_article_49": "https://www.law.go.kr/LSW/lsInfoP.do?efYd=19980614&lsiSeq=60076",
+      "successor_filing_rule_article_44": "https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1026221099",
+      "historic_filing_details": ["sex", "birth date and time", "birth place"],
+      "historical_study_extract_minute_confirmed": false,
+      "historical_study_extract_location_confirmed": false,
+      "eligible_frame_n": null
+    },
+    "taiwan_health09": {
+      "decision": "standard_fields_only_to_birth_month_special_request_unconfirmed",
+      "january_dictionary": {
+        "url": "https://www.mohw.gov.tw/dl-100494-54d05761-0a74-4ed7-a841-a2956a6b6a67.html",
+        "version": "2026-01-27",
+        "sha256": "d27c7c0d153ee4b0557abdb7fde7d5731190c2fdaf31740923140317af47288c"
+      },
+      "july_dictionary": {
+        "url": "https://www.mohw.gov.tw/dl-95544-556875e0-38d9-48c1-b4e4-1c157886ae1b.html",
+        "version": "2026-07-28",
+        "locator": "pp. 1 and 3, newborn fields 9–11",
+        "sha256": "7455fbaf6b9b19abedb2746f4e499af253c86c6299c855887c260ed38680fd49"
+      },
+      "application_rules": {
+        "url": "https://www.mohw.gov.tw/dl-70450-035edd51-f15f-4eb2-a006-5811544da9a3.html",
+        "version": "2026-11-24",
+        "locator": "pp. 6–8, application and special request provisions",
+        "sha256": "019fccf9553f86681c648ca14e2d9efe1c1352f0128a5caf158d75e9df9602da"
+      },
+      "civil_date_without_clock_faq": "https://www.gov.taipei/News_Content.aspx?n=EEC70A4186D4C828&s=1C9035DAA0B28280&sms=87415A8B9CE81B16",
+      "standard_birth_period_field": "YYYYMM",
+      "special_historical_extract_confirmed": false,
+      "eligible_frame_n": null
+    },
+    "england_nhs_ons": {
+      "decision": "minute_data_documented_protected_use_and_occurrence_extract_unconfirmed",
+      "study_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0198183",
+      "locator": "Abstract, Methods (time and day of birth) and Data Availability",
+      "study_years": [2005, 2014],
+      "singleton_births_in_published_analysis": 5093615,
+      "notification_time_precision": "Hour and minute",
+      "published_analysis_clock_bins_hours": 1,
+      "current_project_route": "https://www.ons.gov.uk/aboutus/whatwedo/statistics/requestingstatistics/secureresearchservice/applyforanaccreditedresearchproject",
+      "eligible_2009_frame_n": null
+    },
+    "colombia_dane": {
+      "decision": "both_standard_layouts_lack_birth_day_and_clock",
+      "field_review": "dane_dictionary_review.json",
+      "year_1999": {
+        "html_url": "https://microdatos.dane.gov.co/index.php/catalog/366/data-dictionary/F11?file_name=Nacimientos_1999",
+        "ddi_url": "https://microdatos.dane.gov.co/index.php/metadata/export/366/ddi",
+        "ddi_sha256": "13aa45f96a283f87c87edc8ca4b5a1d615642029c57d861f7749f42833ffc1c9",
+        "matching_variable_count": 33
+      },
+      "year_2009": {
+        "html_url": "https://microdatos.dane.gov.co/index.php/catalog/375/data-dictionary/F32?file_name=nac2009",
+        "ddi_url": "https://microdatos.dane.gov.co/index.php/metadata/export/375/ddi",
+        "ddi_sha256": "37163ec0c21eff15c2bbb4949603a94be26d4ac40b072abd68fd22a34e5d7cad",
+        "matching_variable_count": 38
+      },
+      "prior_child_date_field": "FECHA_NACM"
+    }
+  }
+}
