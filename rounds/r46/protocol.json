@@ -1,0 +1,41 @@
+{
+  "id": "OBS-R46-R45-AGE-GAP-HOLDOUT",
+  "parent_commit": "509add0f3f71eb7f26333d30a1e0cc9d9162d094",
+  "reference": "R10 fixed Brazil 2006, R45 window centering",
+  "r45_aggregate_sha256": "7a48cbd9105e04c8eddef8cc03ae00979362af5285bca5115f729ac56220476a",
+  "ages": [20, 59],
+  "window_starts": [20, 50],
+  "window_width": 10,
+  "minimum_systems": 3,
+  "gap_threshold": 0.05,
+  "family_alpha": 0.05,
+  "one_sided_alpha": 0.0125,
+  "sampling": {
+    "minimum_per_active_stratum": 2,
+    "sample_n": 4000,
+    "brazil_seed": "OBS-R46-BRAZIL-AGE-GAP",
+    "mx1999_registration_years": [2017, 2018, 2019, 2020, 2021],
+    "historical_field_audit_years": [2002, 2003],
+    "timezone_database": "2026c"
+  },
+  "primary": {
+    "four_p75": {
+      "threshold_percentile": [3, 4],
+      "clock": "recorded",
+      "groups": ["br1999", "mx1999", "br2009", "mx2009"],
+      "upper_witness_prior": "percentile_75",
+      "upper_witness_groups": ["br1999", "br2009", "mx2009"],
+      "prior_subset": "all_four"
+    },
+    "born_2009_p80_hour": {
+      "threshold_percentile": [4, 5],
+      "clock": "hour",
+      "groups": ["br2009", "mx2009"],
+      "upper_witness_prior": "clock_compressed",
+      "upper_witness_groups": ["br2009", "mx2009"],
+      "prior_subset": "born_2009"
+    }
+  },
+  "simultaneous_bands": {"normal_draws": 9999, "normal_seed": 4602006, "confidence": 0.95},
+  "engine_replay": {"n_per_group": 64, "seed": "OBS-R46-ENGINE-REPLAY"}
+}

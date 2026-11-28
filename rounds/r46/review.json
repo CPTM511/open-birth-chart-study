@@ -1,0 +1,10 @@
+{
+  "registration": "f7ce5f927111b5e50ff6496de3b929e941fc00f5",
+  "results_sha256": "ed0c69adbab14c447cc35782a8e17691f4ff35423ddcd7b788b95c8368162c46",
+  "direct_integer_threshold_classifications": 5737440,
+  "maximum_exact_effect_disagreement": 7.840950111415168e-16,
+  "joint_multiplier_draws_recomputed": 9999,
+  "critical_value": 3.5421500015388037,
+  "methods": "Integer prefix ranks and per-record windows, Fraction weights, separate covariance",
+  "applies_to_both_preregistered_primary_decisions": true
+}

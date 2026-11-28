@@ -1,0 +1,12 @@
+{
+  "registration": "f7ce5f927111b5e50ff6496de3b929e941fc00f5",
+  "release_aggregate_sha256": "ed0c69adbab14c447cc35782a8e17691f4ff35423ddcd7b788b95c8368162c46",
+  "macos_aggregate_sha256": "19a412a618953513333e9c71f8614722ad6ce590bbb87458dada9b897980dae3",
+  "byte_identical": false,
+  "discrete_fields_and_labels_match": true,
+  "float_fields_checked": 1830,
+  "float_fields_differing": 170,
+  "maximum_absolute_numeric_difference": 4.440892098500626e-16,
+  "absolute_comparison_tolerance": 5e-12,
+  "layer": "full aggregation rerun with the same frozen Linux score batches"
+}

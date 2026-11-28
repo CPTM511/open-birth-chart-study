@@ -1,0 +1,42 @@
+{
+  "registration": "f7ce5f927111b5e50ff6496de3b929e941fc00f5",
+  "groups": {
+    "br1999": {
+      "physical_rows_scanned": 3256433,
+      "selected_rows_verified": 4000,
+      "independent_source_replay_matches": true,
+      "input_seal_sha256": "8c5007425af6821d969aa570124635b307e514154089da1abecd3d0473337c9f"
+    },
+    "mx1999": {
+      "selected_rows_verified": 1859,
+      "selected_per_registration_year": {
+        "2017": 956,
+        "2018": 352,
+        "2019": 254,
+        "2020": 138,
+        "2021": 159
+      },
+      "original_2017_month_read_directly": true,
+      "independent_source_replay_matches": true,
+      "input_seal_sha256": "5514a8be6dd69c81aeddd860b1abf2c08e6d790a56e7c144ed309b04aa906099"
+    },
+    "br2009": {
+      "physical_rows_scanned": 2881581,
+      "selected_rows_verified": 4000,
+      "independent_source_replay_matches": true,
+      "input_seal_sha256": "ca3e1476490c09e04660ae8aae13b78432afc9a46bb3e3b518c2abd4e25854b5"
+    },
+    "mx2009": {
+      "selected_rows_verified": 4000,
+      "selected_per_registration_year": {
+        "2009": 3007,
+        "2010": 993
+      },
+      "original_2017_month_read_directly": false,
+      "independent_source_replay_matches": true,
+      "input_seal_sha256": "32b4963e438bdedb68c9f38d4c7d4481e2c25f48f92057b78fde78eae2ae4c8d"
+    }
+  },
+  "physical_source_rows_verified": 13859,
+  "shared_geographic_references": true
+}
