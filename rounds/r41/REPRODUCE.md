@@ -29,6 +29,22 @@ for year in 1999 2006; do
   first_day=$(python -c "from rounds.r41.profiles import study_dates; print(study_dates($year)[0])")
   python -m rounds.r41.profiles "$R41_SCORES/main-$year" --year "$year" --last-date "$first_day"
   python -m rounds.r41.run_cached "$R41_SCORES/cache-validation-$year" --year "$year" --last-date "$first_day"
+  python - "$R41_SCORES" "$year" "$first_day" <<'PY' || exit 1
+from datetime import date
+from pathlib import Path
+import sys
+
+import numpy as np
+
+from rounds.r41.profiles import load_scores
+
+root, year, stamp = sys.argv[1:]
+day = date.fromisoformat(stamp)
+direct = load_scores(Path(root) / f"main-{year}", day)
+reused = load_scores(Path(root) / f"cache-validation-{year}", day)
+if not np.array_equal(direct, reused):
+    raise SystemExit(f"Ziwei reuse differs from direct scores on {day}")
+PY
   python -m rounds.r41.run_cached "$R41_SCORES/main-$year" --year "$year"
   python -m rounds.r41.profiles "$R41_SCORES/probe-$year" --year "$year" --probe
 done
