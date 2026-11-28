@@ -1,0 +1,18 @@
+{
+  "registration": "1d8e59ea9e1d5b22ce5b253f3c64ec0246cfaae5",
+  "linux_sha256": "40c685c05ef38b08c84df55b9ab8aa015b27d27f04eeabe10658cddce75cf52f",
+  "macos_sha256": "f0c58245fd0728d0ec7752140cfc1c06c90098ffdb7dd3b2e9a2e7f61ac9229d",
+  "byte_identical": false,
+  "discrete_fields_and_decisions_identical": true,
+  "fields_checked": 962,
+  "float_fields_differing": 1,
+  "maximum_absolute_numeric_difference": 2.220446049250313e-16,
+  "absolute_comparison_tolerance": 5e-12,
+  "scope": "aggregation of identical frozen Linux scores and fixed reference",
+  "reporting_correction": {
+    "affected_field": "weight_effective_n",
+    "preliminary_maximum_platform_difference_in_records": 9.094947017729282e-12,
+    "exact_after_stratum_weight_sum": true,
+    "all_other_fields_identical_to_prior_run_on_each_platform": true
+  }
+}
