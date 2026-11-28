@@ -1,0 +1,64 @@
+{
+  "id": "OBS-R45-COHORT-BREAKS-2026-11-28",
+  "parent_commit": "0580afc5002e98c94ef92b1dc064f28f2ac0bc47",
+  "recorded_rule": {
+    "reference": "R10 fixed Brazil 2006 weighted mid-CDF",
+    "annual_ages": [20, 59],
+    "window_years": 10,
+    "age_starts": [20, 50],
+    "calendar_starts": [2030, 2049],
+    "high_percentile": [4, 5],
+    "sensitivity_percentile": [3, 4],
+    "minimum_high_systems": 3
+  },
+  "groups": {
+    "br1999": {"birth_year": 1999, "n": 2000, "country": "BR", "prior": "R15"},
+    "mx1999": {"birth_year": 1999, "n": 766, "country": "MX", "prior": "R13"},
+    "br2009": {"birth_year": 2009, "n": 2000, "country": "BR", "prior": null},
+    "mx2009": {"birth_year": 2009, "n": 2000, "country": "MX", "prior": null}
+  },
+  "holdout": {
+    "mx1990_1998": {"n": 4642, "prior": "R13"},
+    "mx2009_r10": {"n": 2000, "prior": "R10"}
+  },
+  "reference_n": 2000,
+  "new_sample_n": 2000,
+  "new_sample_min_per_stratum": 2,
+  "brazil2009": {
+    "official_resource": "https://dadosabertos.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc/resource/eaec50d8-8155-4148-90bb-db361b686bd0",
+    "archive_url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SINASC/csv/DNBR2009_csv.zip",
+    "archive_sha256": "bac47e6678a8a3a0c6811847d43a99ee8fa83618627c6d4d9571199b68c558d6",
+    "municipality_reference_sha256": "d3c8f97c7580413df2131b2227d4c442a34a957d244775affc162a1de99b9803",
+    "seed": "OBS-R45-BR2009-2026-11-28",
+    "tzdb": "2026c"
+  },
+  "mexico2009": {
+    "source_manifest": "rounds/r10/mexico/samples/mexico_2000s/sampling_manifest.json",
+    "source_replay_receipt": "rounds/r10/recovery/mexico2009/replay_receipt.json",
+    "draw_method": "next in same within-stratum ranking after frozen R10 selections"
+  },
+  "thresholds": {
+    "age_gap": 0.05,
+    "calendar_gap": 0.05,
+    "calendar_density_up": 0.01,
+    "calendar_density_down": 0.01
+  },
+  "inference": {
+    "normal_draws": 9999,
+    "normal_seed": 452006,
+    "confidence": 0.95,
+    "pairing_permutation_draws": 499,
+    "pairing_permutation_seed": 452009,
+    "replay_per_group": 64,
+    "replay_seed": "OBS-R45-REPLAY"
+  },
+  "calibration": {
+    "seed": 451999,
+    "records_per_group": 2000,
+    "base_joint_bernoulli_rate": 0.12,
+    "injected_record_fraction": 0.4,
+    "age_start": 25,
+    "calendar_start": 2037,
+    "peak_tolerance_years": 1
+  }
+}
