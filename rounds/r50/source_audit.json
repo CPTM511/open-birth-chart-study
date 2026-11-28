@@ -1,0 +1,86 @@
+{
+  "checked_on": "2026-11-28",
+  "registration_commit": "60fbd1850a3db8ca671ca79bd1f902bbb279b4c2",
+  "review_scope": "Publisher documentation and prior verified public dictionaries",
+  "external_frames_admitted": 0,
+  "external_records_scored": 0,
+  "external_p75_age_34_effect": null,
+  "restricted_access_application_submitted": false,
+  "sources": {
+    "japan_jsog_perinatal_2009": {
+      "decision": "research_extract_fields_and_purpose_approval_unverified",
+      "published_coverage": {
+        "participating_facilities": 131,
+        "deliveries_at_least_22_weeks": 76113,
+        "comparable_national_deliveries": 1073680,
+        "reported_national_share_pct": 7.1,
+        "reported_live_birth_category_count": 75431,
+        "single_infant_eligible_frame_n": null
+      },
+      "historical_report": {
+        "url": "https://www.jsog.or.jp/activity/pdf/shusanki_vol63no6.pdf",
+        "locator": "Volume 63 issue 6, printed page 1319, Table 1 and methods"
+      },
+      "registration_protocol": {
+        "url": "https://www.jsog.or.jp/committee/Clinical_research/pdf/Cr_shusanki3.pdf",
+        "sha256": "0f8e93d8a08cd580afc369a0e500e3eea37e84fe6427db1bc48216fcf8fd2636",
+        "locator": "PDF pp. 2 and 5, Sections 2(1)(i) and 2(1)(iv), input fields and secondary use",
+        "recorded_delivery_time_specification": "year, month, day, hour and minute",
+        "potentially_removed_from_secondary_extract": [
+          "delivery day, hour and minute", "delivery facility name", "infant sex"
+        ]
+      },
+      "use_rules": {
+        "url": "https://www.jsog.or.jp/committee/Clinical_research/pdf/DB20240716.pdf",
+        "locator": "Articles 2, 5 and 6, publisher PDF indexed text",
+        "board_minutes_url": "https://www.jsog.or.jp/activity/minutes/pdf/GIJIROKU/R6_2riji.pdf",
+        "applicant": "Eligible JSOG member working at a participating facility",
+        "purpose": "Review includes improvement of care relevant to the registry, public benefit and necessity",
+        "approval_documented_for_r50": false
+      }
+    },
+    "japan_estat_onsite_1990_2009": {
+      "decision": "standard_release_layout_lacks_minute_and_locatable_occurrence",
+      "catalogue_url": "https://www.e-stat.go.jp/microdata/available-data/onsite?governmentStatisticsCode=00450011",
+      "prior_dictionary_catalogue": "../r36/source_catalog.json",
+      "prior_dictionary_review": "../r36/review.json",
+      "target_year_layouts_checked_by_r36": 20,
+      "recorded_date_and_sex_in_standard_layout": true,
+      "clock_resolution_in_standard_layout": "hour",
+      "occurrence_fields_in_standard_layout": ["domestic or abroad", "delivery place type"]
+    },
+    "us_nchs_public_1999": {
+      "decision": "full_birth_date_absent_from_public_layout",
+      "record_layout_url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/DVS/natality/Nat1999doc.pdf",
+      "sha256": "079c84f789e1e6585e29a6bb96c00b64193e5795ade65254937bd9ef602b4425",
+      "date_fields": {"birth_month": "172–173", "reserved": "174–175", "birth_year": "176–179", "weekday": "180"},
+      "locators": ["Documentation overview and natality record layout", "BIRMON (PDF p. 55), BIRYR, WEEKDAY (PDF p. 56), SEX and CNTYNAT (PDF p. 19)"],
+      "occurrence_warning": "Public occurrence county codes group counties under 100,000 population"
+    },
+    "us_nchs_public_2009": {
+      "decision": "full_birth_date_and_usable_domestic_occurrence_absent_from_reviewed_public_layout",
+      "record_layout_url": "https://wonder.cdc.gov/controller/pdf/NatalityPublicUseUserGuide2009.pdf",
+      "sha256": "1a5c6918427f35a51dec5b1ee258aaff228f012640e16e3aef11c59a902311f2",
+      "locators": ["Birth date layout in PDF p. 11", "SEX and IMP_SEX in PDF p. 33"],
+      "date_fields": {"birth_year": "15–18", "birth_month": "19–20", "filler": "21–28", "weekday": "29"},
+      "reported_sex": "SEX at position 436; imputation flag at 437",
+      "addendum": {
+        "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/DVS/natality/UserGuide2009_Addendum.pdf",
+        "sha256": "99d96791bab34b8c5e3cd677de10405a5ecf4305801a674a984cd7b1fcf52a66",
+        "locator": "Time of birth and Documentation Table 11, PDF pp. 3 and 13",
+        "share_covered_by_revised_reporting_area_pct": 66.0,
+        "published_tabulation_clock_bins_hours": 6
+      }
+    },
+    "us_nchs_restricted_exact_date": {
+      "decision": "same_record_clock_and_occurrence_geography_and_r50_approval_unverified",
+      "catalogue_url": "https://data.cdc.gov/National-Center-for-Health-Statistics/NCHS-All-County-Natality-File-with-Exact-Date-of-B/8kbq-i8ii",
+      "use_rules_url": "https://www.cdc.gov/nchs/nvss/nvss-restricted-data.htm",
+      "described_period": [1989, 2023],
+      "documented_date_precision": "day",
+      "additional_geography_described": "residence",
+      "same_record_minute_and_usable_occurrence_geography_confirmed_for_target_year": false,
+      "approval_documented_for_r50": false
+    }
+  }
+}
