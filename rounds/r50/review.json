@@ -1,0 +1,45 @@
+{
+  "registration_commit": "60fbd1850a3db8ca671ca79bd1f902bbb279b4c2",
+  "r49_release_commit": "3a57e87227e81b4437f410d04752473c41c56fb3",
+  "r49_results_sha256": "40c685c05ef38b08c84df55b9ab8aa015b27d27f04eeabe10658cddce75cf52f",
+  "boundary_values_checked": 48,
+  "reference_records": 2000,
+  "total_binary_score_flags_compared": 3746560,
+  "total_centered_integer_windows_compared": 725896,
+  "largest_absolute_reference_center_difference": 1.6653345369377348e-16,
+  "groups": {
+    "br1999": {
+      "records": 6000,
+      "age_34_effect": 0.03325436237591866,
+      "conditional_design_se": 0.004781350762675159,
+      "effect_abs_difference": 2.0122792321330962e-16,
+      "se_abs_difference": 1.5612511283791264e-17
+    },
+    "mx1999": {
+      "records": 3416,
+      "age_34_effect": 0.04980504244684765,
+      "conditional_design_se": 0.0,
+      "effect_abs_difference": 2.2898349882893854e-16,
+      "se_abs_difference": 0.0
+    },
+    "br2009": {
+      "records": 6000,
+      "age_34_effect": 0.022060682660870138,
+      "conditional_design_se": 0.0050579820647400145,
+      "effect_abs_difference": 1.1102230246251565e-16,
+      "se_abs_difference": 1.9949319973733282e-17
+    },
+    "mx2009": {
+      "records": 6000,
+      "age_34_effect": 0.026454313544988478,
+      "conditional_design_se": 0.004991708796313716,
+      "effect_abs_difference": 7.979727989493313e-17,
+      "se_abs_difference": 6.938893903907228e-18
+    }
+  },
+  "toy_population": {
+    "equiprobable_stratified_draws": 18,
+    "true_design_variance": "1343/123008"
+  },
+  "new_external_records_scored": 0
+}
