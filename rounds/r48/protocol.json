@@ -1,0 +1,22 @@
+{
+  "study": "OBS-R48-LITERAL-PERIOD-COVERAGE",
+  "r45_records": {"br1999": 2000, "mx1999": 766, "br2009": 2000, "mx2009": 2000},
+  "completed_age_interval": [20, 60],
+  "ziwei_nominal_age_inclusive": [20, 62],
+  "bazi_expected_decades": 24,
+  "ziwei_expected_decades": 12,
+  "ziwei_july_snapshot_replay_per_group": 16,
+  "ziwei_replay_seed": "OBS-R48-ZIWEI-SNAPSHOT",
+  "bazi_source": {
+    "archive_id": "NLC416-13jh000156-94145",
+    "pdf_sha256": "c6eac6fca6411e45cb801f9b771aca6dd6a6d2dfb57ecc36ea5f42ecf1ac8bf9",
+    "pdf_page_one_based": 114,
+    "printed_page": "卷二 三六",
+    "section": "論大運"
+  },
+  "ziwei_source": {
+    "archive_id": "NAJ 子060-0001 南陽堂",
+    "section": "卷三 安大限訣",
+    "dated_case": "R44 孔允夫命 虛歲三十二"
+  }
+}

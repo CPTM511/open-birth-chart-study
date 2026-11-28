@@ -1,0 +1,140 @@
+{
+  "registration": "286d37385fbbbd420da6c3f6568f5bcaa112ee08",
+  "groups": {
+    "br1999": {
+      "bazi_periods": 48000,
+      "bazi_scores_with_unique_period": 80000,
+      "bazi_forward": 984,
+      "ziwei_periods": 24000,
+      "ziwei_nominal_ages_with_unique_palace": 86000,
+      "neighbor_start_palace_changes": 86000,
+      "ziwei_annual_replay_matches": 640,
+      "qizheng_monthly_snapshots_in_schedule": 960000,
+      "bazi_activation_delay_seconds_minmax": [
+        21600,
+        328939200
+      ],
+      "qizheng_maximum_monthly_age_minmax": [
+        59.4575877017743,
+        60.456762967452846
+      ],
+      "qizheng_minimum_monthly_age_minmax": [
+        19.541608661017243,
+        20.540783926695784
+      ],
+      "ziwei_first_admitted_nominal_age_counts": {
+        "2": 376,
+        "3": 309,
+        "4": 322,
+        "5": 344,
+        "6": 649
+      },
+      "complete_inputs": 2000,
+      "observed_gap_or_overlap": 0
+    },
+    "mx1999": {
+      "bazi_periods": 18384,
+      "bazi_scores_with_unique_period": 30640,
+      "bazi_forward": 418,
+      "ziwei_periods": 9192,
+      "ziwei_nominal_ages_with_unique_palace": 32938,
+      "neighbor_start_palace_changes": 32938,
+      "ziwei_annual_replay_matches": 640,
+      "qizheng_monthly_snapshots_in_schedule": 367680,
+      "bazi_activation_delay_seconds_minmax": [
+        604800,
+        329875200
+      ],
+      "qizheng_maximum_monthly_age_minmax": [
+        59.45752115536892,
+        60.45489396412105
+      ],
+      "qizheng_minimum_monthly_age_minmax": [
+        19.54154211461186,
+        20.538914923363986
+      ],
+      "ziwei_first_admitted_nominal_age_counts": {
+        "2": 130,
+        "3": 161,
+        "4": 116,
+        "5": 121,
+        "6": 238
+      },
+      "complete_inputs": 766,
+      "observed_gap_or_overlap": 0
+    },
+    "br2009": {
+      "bazi_periods": 48000,
+      "bazi_scores_with_unique_period": 80000,
+      "bazi_forward": 984,
+      "ziwei_periods": 24000,
+      "ziwei_nominal_ages_with_unique_palace": 86000,
+      "neighbor_start_palace_changes": 86000,
+      "ziwei_annual_replay_matches": 640,
+      "qizheng_monthly_snapshots_in_schedule": 960000,
+      "bazi_activation_delay_seconds_minmax": [
+        208800,
+        327520800
+      ],
+      "qizheng_maximum_monthly_age_minmax": [
+        59.458249363177885,
+        60.45668691441867
+      ],
+      "qizheng_minimum_monthly_age_minmax": [
+        19.54227032242082,
+        20.54070787366161
+      ],
+      "ziwei_first_admitted_nominal_age_counts": {
+        "2": 372,
+        "3": 333,
+        "4": 307,
+        "5": 342,
+        "6": 646
+      },
+      "complete_inputs": 2000,
+      "observed_gap_or_overlap": 0
+    },
+    "mx2009": {
+      "bazi_periods": 48000,
+      "bazi_scores_with_unique_period": 80000,
+      "bazi_forward": 978,
+      "ziwei_periods": 24000,
+      "ziwei_nominal_ages_with_unique_palace": 86000,
+      "neighbor_start_palace_changes": 86000,
+      "ziwei_annual_replay_matches": 640,
+      "qizheng_monthly_snapshots_in_schedule": 960000,
+      "bazi_activation_delay_seconds_minmax": [
+        460800,
+        329947200
+      ],
+      "qizheng_maximum_monthly_age_minmax": [
+        59.45838625864016,
+        60.4565728348655
+      ],
+      "qizheng_minimum_monthly_age_minmax": [
+        19.542407217883103,
+        20.540593794108432
+      ],
+      "ziwei_first_admitted_nominal_age_counts": {
+        "2": 252,
+        "3": 354,
+        "4": 369,
+        "5": 370,
+        "6": 655
+      },
+      "complete_inputs": 2000,
+      "observed_gap_or_overlap": 0
+    }
+  },
+  "controls": {
+    "continuous": true,
+    "deleted_decade_detected": true,
+    "overlap_detected": true,
+    "pre_activation_distinct": true,
+    "dongwei_boundary_probes": 24,
+    "dongwei_domain_end_years": 100.5
+  },
+  "western_decadal_coverage": "inapplicable_to_frozen_western_score",
+  "historical_parity_authority": "BaZi cited text and R44 ZiWei comparison",
+  "outputs_from_real_birth_outcomes": false
+}
