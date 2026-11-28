@@ -1,0 +1,17 @@
+{
+  "registration": "b0b2db959c52d56151635568615afab742bd22f6",
+  "primary_aggregation": {
+    "platform": "Linux x86_64 glibc 2.36",
+    "python": "3.12.14",
+    "sha256": "7a48cbd9105e04c8eddef8cc03ae00979362af5285bca5115f729ac56220476a"
+  },
+  "replay_aggregation": {
+    "platform": "Darwin arm64",
+    "python": "3.12.14",
+    "sha256": "c7a295337abe53dae954a6be7324d9c9d3d1dfbad69cd9ba40e15ef6a321b2cd"
+  },
+  "identical_discrete_results": true,
+  "largest_numeric_difference": 7.549516567451064e-15,
+  "checked_float_comparisons": 6437,
+  "identical_scoring_profiles_used": true
+}

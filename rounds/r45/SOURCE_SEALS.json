@@ -1,0 +1,80 @@
+{
+  "registration": "b0b2db959c52d56151635568615afab742bd22f6",
+  "scored_at_seal": false,
+  "birth_fields_only": true,
+  "brazil_two_archive_downloads_identical": true,
+  "draws": {
+    "br2009": {
+      "records": 2000,
+      "eligible_frame_N": 2751932,
+      "strata": 54,
+      "sha256": {
+        "birth_inputs.jsonl": "ab19699b7a15b5398a2c6d99ef5de892e973c6cec2a821861cfce13236fbe709",
+        "birth_metadata.jsonl": "9d2c0ed5c35d4bf8c1ac016d5076ae0ffb73f080a66abf0be4766dadec7f45af",
+        "sampling_manifest.json": "2617da6a8fdee98c3b17c46b5891582c654260d106e86a09d3d9f53331d959f6"
+      },
+      "audit": {
+        "counts": {
+          "raw_rows": 2881581,
+          "complete_birth_fields": 2874733,
+          "eligible": 2751932
+        },
+        "invalid_fields_nonexclusive": {
+          "clock": 6430,
+          "sex": 462
+        },
+        "excluded": {
+          "invalid_or_missing_fields": 6848,
+          "unresolved_timezone": 122529,
+          "DST_fold": 268,
+          "DST_gap": 3,
+          "unmatched_municipality": 1
+        },
+        "minute_mod5": {
+          "0": 1708442,
+          "3": 323948,
+          "1": 245804,
+          "4": 268172,
+          "2": 328367
+        },
+        "eligible_clock": {
+          "on_the_hour": 185859,
+          "midnight": 3042
+        }
+      },
+      "archive_sha256": "bac47e6678a8a3a0c6811847d43a99ee8fa83618627c6d4d9571199b68c558d6",
+      "municipality_reference_sha256": "d3c8f97c7580413df2131b2227d4c442a34a957d244775affc162a1de99b9803",
+      "input_seal_sha256": "816376ac19560b7890c007f441a2a17e5d019c8488463fcc9d7c5bde6366643d"
+    },
+    "mx2009": {
+      "records": 2000,
+      "eligible_frame_N": 1643435,
+      "strata": 52,
+      "sha256": {
+        "birth_inputs.jsonl": "072868b5be0947c21084668643e9d28bf3152aa323502b232238f04131653289",
+        "birth_metadata.jsonl": "0d43b6679a30aa2b7943b622ac11c562401f4acbe1e0a8b84045ae59ca352c5b",
+        "sampling_manifest.json": "9dadecc29dcf0600d2561c7cf35334c3d8956b817e7e3251f232b1ed6029a664"
+      },
+      "archives": {
+        "2009": {
+          "sha256": "e3822ae4a5225bccd0c1d48a65852bd55203b9ae5b356a4d0a5c7d4457f50e73",
+          "physical_records": 2577214,
+          "actual_2009_birth_records": 1630785,
+          "eligible_records": 1231004
+        },
+        "2010": {
+          "sha256": "02519153dbf85d25a049095d9cf2ed118f869455117f30a76929a1638be19e58",
+          "physical_records": 2643908,
+          "actual_2009_birth_records": 542132,
+          "eligible_records": 414431
+        }
+      },
+      "original_frame_N": 1645435,
+      "excluded_r10_records": 2000,
+      "physical_overlap": 0,
+      "reproduced_r10_model_sha256": "cff3aae86557673296be0ca5fe186b2b1bc1ed696aa0dedce75bfe390ee3935e",
+      "original_metadata_found": false,
+      "input_seal_sha256": "e04919c3449f87084432638dc94de0249d6ce266708eff314a722305cb293e11"
+    }
+  }
+}

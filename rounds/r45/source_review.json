@@ -1,0 +1,15 @@
+{
+  "registration": "b0b2db959c52d56151635568615afab742bd22f6",
+  "repeated_draw_seals_identical": true,
+  "br2009": {
+    "physical_rows_read": 2881581,
+    "eligible_rows": 2751932,
+    "physical_sample_matches": 2000,
+    "method": "Independent CSV reread, UTC round trips, ordered insertion and integer quotas"
+  },
+  "mx2009": {
+    "physical_sample_matches": 2000,
+    "matched_municipalities": 518,
+    "method": "Separate physical DBF record seek and birth/registration/municipal coordinates recheck"
+  }
+}

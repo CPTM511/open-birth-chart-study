@@ -1,0 +1,34 @@
+{
+  "registration": "b0b2db959c52d56151635568615afab742bd22f6",
+  "aggregate_sha256": "7a48cbd9105e04c8eddef8cc03ae00979362af5285bca5115f729ac56220476a",
+  "calculations": {
+    "primary": {
+      "critical_value": 3.4560634920767463,
+      "exact_age_and_calendar_effect_cells": 71,
+      "verified_cross_group_peaks": 12,
+      "largest_exact_curve_error": 5.689893001203927e-16,
+      "checked_threshold_decisions": 1402560
+    },
+    "clock_compressed": {
+      "critical_value": 3.446558731587829,
+      "exact_age_and_calendar_effect_cells": 71,
+      "verified_cross_group_peaks": 12,
+      "largest_exact_curve_error": 4.718447854656915e-16,
+      "checked_threshold_decisions": 1402560
+    },
+    "percentile_75": {
+      "critical_value": 3.478520322882841,
+      "exact_age_and_calendar_effect_cells": 71,
+      "verified_cross_group_peaks": 12,
+      "largest_exact_curve_error": 4.3021142204224816e-16,
+      "checked_threshold_decisions": 1402560
+    }
+  },
+  "archived_sample_threshold_decisions": {
+    "mx1990_1998": 742720,
+    "mx2009_r10": 320000
+  },
+  "engine_probes_same_runtime_and_frozen_engine": true,
+  "separate_aggregate_implementation": "integer masks, Fraction means and direct covariance",
+  "independently_replayed_multiplier_draws": 9999
+}
